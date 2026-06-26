@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model explicitly select Option A or identify the building as the 'Shanghai Tower'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly describe the building's distinctive twisting, spiraling, or curved cylindrical architectural form?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model refrain from attributing features of the Shanghai World Financial Center (Option D) to this image, such as a trapezoidal aperture (hole) at the top or a flat 'bottle opener' shape?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model refrain from describing features of the Jin Mao Tower (Option B), such as a tiered, pagoda-style structure with setbacks?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Did the model refrain from claiming the building has a Y-shaped floor plan or clustered tubular structure (features of the Burj Khalifa, Option C)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Did the model refrain from hallucinating details not visible in the cropped image, such as specific signage, text, floor numbers, or surrounding landmarks?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Does the model's reasoning logically connect the specific visual feature of the twisting facade to the identity of the Shanghai Tower?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Did the model provide a single, unambiguous selection from the provided options (A, B, C, or D)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select option 'D' (or the text 'Pari'/'Paris') as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the building in the image as Notre-Dame Cathedral?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Did the model avoid hallucinating features not present in this specific view, such as the Eiffel Tower, modern skyscrapers, boats, or distinct crowds of people?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid misidentifying the building as a landmark located in Milan (e.g., Duomo), London (e.g., Westminster Abbey), or Shanghai?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model use the visual identification of Notre-Dame Cathedral to logically deduce that the location is Paris?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Did the model explicitly select one of the provided options (A, B, C, or D) in its response?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

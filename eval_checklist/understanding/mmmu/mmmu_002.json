@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model provide the final answer as '24/7' feet per second or approximately '3.429' feet per second?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify from the image that the length of the ladder (hypotenuse) is labeled as 25?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the labels 'x' and 'y' corresponding to the horizontal and vertical sides of the triangle in the diagram?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model acknowledge the right-angle symbol at the base of the wall to confirm the geometric setup is a right-angled triangle?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly state the Pythagorean theorem relationship for this system ($x^2 + y^2 = 25^2$ or equivalent)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly calculate the vertical height $y = 24$ feet when the horizontal distance $x = 7$ feet?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly apply implicit differentiation with respect to time to the equation (e.g., $2x(dx/dt) + 2y(dy/dt) = 0$)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly identify the rate of the ladder slipping down ($dy/dt$) as 1 ft/s (or -1 ft/s depending on sign convention)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly substitute the known values ($x=7, y=24, dy/dt=-1$) into the differentiated equation to solve for $dx/dt$?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

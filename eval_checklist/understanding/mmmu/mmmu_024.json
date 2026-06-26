@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer strictly 'B'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that Option B consists of two eighth notes (beamed together) followed by a quarter rest?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify that Option D contains notes with double beams (indicating sixteenth notes)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model avoid claiming that the time signature \"2/4\" is explicitly printed on the staff in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid hallucinating musical symbols not present in the snippets (e.g., key signatures, dynamics, lyrics, or incorrect note values in Option B)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly define the 2/4 time signature as having 2 beats per measure, with the quarter note receiving one beat?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the model provide a calculation or explanation showing that the notes in Option B sum to exactly 2 beats (e.g., 0.5 + 0.5 + 1 = 2)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Does the model provide valid reasoning for rejecting the other options (A, C, D), such as incorrect total beat counts or improper notation/beaming for the time signature?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

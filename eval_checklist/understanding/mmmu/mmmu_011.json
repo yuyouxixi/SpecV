@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option C (A female carrier of a dystrophinopathy) as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the visual presence of brown immunostaining along the sarcolemma (cell membrane) of specific muscle fibers?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly describe the staining pattern as a 'mosaic' or a mixture of stained (positive) and unstained (negative) fibers?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid hallucinating that the staining is uniform and continuous around every single fiber (which would indicate a Normal result)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model avoid hallucinating a complete absence of staining across the entire section (which would indicate Duchenne Muscular Dystrophy)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly reason that the mosaic pattern of dystrophin expression is consistent with X-chromosome inactivation (Lyonization) in a female carrier?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model logically rule out 'Normal' (Option D) based on the presence of unstained fibers?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Did the model logically rule out 'Duchenne Muscular Dystrophy' (Option B) based on the presence of positively stained fibers?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Did the model differentiate the observed pattern from Becker's Muscular Dystrophy (Option A), noting that Becker's typically shows reduced intensity rather than a distinct all-or-none mosaic pattern?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Did the model explicitly select one of the provided options (A, B, C, or D) without hedging or omitting a final conclusion?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

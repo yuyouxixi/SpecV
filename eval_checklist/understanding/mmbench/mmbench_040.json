@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly select Option A or explicitly identify the 'lower-right' image as the least brightest?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that the input image consists of a 2x2 grid containing four similar panels of a fantasy character (e.g., fairy or elf)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly observe that the lower-right image is darker, dimmer, or has lower exposure compared to the other three quadrants?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly interpret the phrase 'least brightest' as meaning the image with the lowest luminosity?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly map the visual location of the darkest image (lower-right) to the corresponding option label (Option A)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Did the model provide a single, unambiguous final selection from the provided options (A, B, C, D)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

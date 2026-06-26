@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final response select Option C or explicitly state 'lower morden' (or 'lower mordent')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly describe the sequence of notes under the bracket as moving from a principal note down to a lower neighbor note and back to the principal note (main-lower-main)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify that the ornament is 'written-out' using explicit beamed notes rather than represented by a single printed ornament symbol (like a squiggle or turn sign)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model avoid hallucinating the presence of explicit ornament symbols (such as a trill 'tr', turn 'S', or slashed grace note) in the bracketed area?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid hallucinating an upper neighbor note in the bracketed sequence, which would incorrectly imply an 'upper turn'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model's reasoning correctly link the observed note pattern (alternation with the note below) to the definition of a lower mordent?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly distinguish the observed pattern from other options like 'acciaccatura' (grace note) or 'upper turns' based on visual evidence (e.g., lack of grace note notation or wrong note direction)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

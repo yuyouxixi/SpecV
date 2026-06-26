@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option B or explicitly state 'Symbiotic relationship' as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the large animal in the image as an antelope, impala, or deer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the smaller creatures perched on the mammal as birds (specifically oxpeckers)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly state that the birds are perched on the back or body of the larger animal?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Did the model avoid hallucinating aggressive actions, such as the birds attacking the mammal or the mammal trying to shake them off?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Did the model avoid claiming that parasites (like ticks) are explicitly visible to the naked eye in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Did the model justify the 'Symbiotic relationship' by explaining the mutual benefits (e.g., birds eat parasites/insects, mammal gets cleaned)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly rule out 'Predatory', 'Parasitic', or 'Competitive' relationships based on the lack of aggression or harm shown in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Did the model provide a clear, unambiguous selection of one option (A, B, C, or D)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

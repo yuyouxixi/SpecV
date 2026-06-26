@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly select Option C or explicitly state that the two shapes are 'Not the same'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the objects in the image as exactly two puzzle pieces?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the colors of the pieces, noting that the left piece is black (or dark gray) and the right piece is red?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly observe that the left (black) piece has an indentation (hole/socket) on its right side?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly observe that the right (red) piece has a protrusion (knob/tab) on its left side?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Did the model avoid hallucinating that the two puzzle pieces have the exact same shape geometry (e.g., claiming they are identical or just rotated versions of each other)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Did the model provide a logical reasoning that links specific structural differences (such as the indentation vs. the protrusion) to the conclusion that the shapes are not the same?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Did the model provide a clear selection from the provided options (A, B, or C) rather than an open-ended refusal?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

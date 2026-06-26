@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final response explicitly select option 'A' or 'Perception of authority'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the document type as a newspaper clipping or a classified ad section?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly extract or reference the specific phrase 'responses to different kinds of authority will be assessed' from the text?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model refrain from hallucinating external knowledge not present in the image, such as explicitly naming the study the 'Milgram experiment', mentioning a 'shock generator', or stating a specific payment amount?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly distinguish between an independent variable (what is manipulated) and a dependent variable (what is measured) in its reasoning?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model reason that the phrase 'different kinds of authority' indicates the variable being manipulated, thereby supporting the selection of 'Perception of authority'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the model explicitly rule out 'Response to authority' (Option D) by identifying it as the dependent variable (the outcome being assessed)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the model provide a complete explanation that links the textual evidence ('different kinds of authority') directly to the definition of the independent variable?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

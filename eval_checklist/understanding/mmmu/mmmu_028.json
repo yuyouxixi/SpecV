@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option B as the correct answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the phrase 'the sculpture speaks volumes' (or the specific concept of the sculpture speaking) as the instance of personification?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Did the model explicitly explain that personification applies here because 'speaking' is a human quality being attributed to a non-human object (the sculpture)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

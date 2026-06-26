@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option A as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify that the sequence of dance figures matches the numerical order of the examples (1 through 6)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly observe that Example (1) shows figures arranged in a circle with curved arrows indicating rotational movement?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly observe that Example (2) depicts a diagonal interaction specifically between two female figures (Red and Pink)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly observe that Example (4) depicts a diagonal interaction specifically between two male figures (Blue)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly observe that Example (5) shows an X-pattern of crossing arrows between the figures?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly observe that Example (6) shows curved arrows indicating two adjacent figures exchanging places or twirling?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Did the model avoid hallucinating text labels within the diagrams (e.g., claiming the dance names are written directly in the image)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Did the model use the gender of the figures (female vs. male icons) in Examples (2) and (4) to logically distinguish between 'Ladies Chain' and 'Gents Allemande'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Did the model logically connect the specific arrow patterns (e.g., circle, crossing, twirl) to the corresponding dance terminology?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

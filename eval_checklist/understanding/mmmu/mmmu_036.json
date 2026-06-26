@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option B as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model calculate the maximum shortening of the spring to be approximately 214.64 mm (or 0.21464 m)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the visual components: a block dropping vertically inside a cylinder onto a spring?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly extract the specific parameter values given in the image/text: W = 5.0 N, h = 200 mm, and k = 90 N/m?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly interpret the label 'h' as the initial drop height from the block to the top of the uncompressed spring?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Did the model avoid assuming non-existent forces such as friction between the block and cylinder or air resistance?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Did the model avoid fabricating additional physical components, forces, or arbitrary parameter values (e.g., cylinder diameter) not present in the problem?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly convert the height 'h' from millimeters (200 mm) to meters (0.2 m) to ensure unit consistency with the spring stiffness 'k'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly formulate the potential energy change by including the spring compression distance 'x' (i.e., using W * (h + x) rather than just W * h)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly set up the resulting quadratic equation based on energy conservation (e.g., 45x^2 - 5x - 1 = 0 or equivalent)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Did the model correctly solve the quadratic equation and identify the positive root as the physically meaningful solution?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Did the model explicitly convert the calculated result in meters back to millimeters to match the provided options?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

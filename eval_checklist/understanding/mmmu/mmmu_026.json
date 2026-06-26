@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly select Option B (Creutzfeldt-Jakob Disease) as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the image as a histology slide of brain tissue stained with H&E, noting features such as the pink (eosinophilic) neuropil background and scattered nuclei?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly describe the key pathological feature of the image as 'spongiform change', 'vacuolation', or the presence of numerous clear vacuoles distributed throughout the tissue?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid hallucinating histopathological features characteristic of HIV encephalitis, such as 'multinucleated giant cells', 'microglial nodules', or 'viral inclusion bodies'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Did the model logically connect the visual observation of spongiform change/vacuolation directly to the diagnosis of a Prion disease or Creutzfeldt-Jakob Disease?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly reason that HIV encephalitis is unlikely due to the absence of its characteristic inflammatory features (e.g., multinucleated giant cells)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly reason that PSP and ALS are unlikely because they are primarily characterized by specific neuronal inclusions or loss rather than the diffuse spongiform change seen in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly select Option B (upper-right) as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that the input image consists of a 2x2 grid depicting the same scene (a spider in a cave) but with differing image qualities?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model identify the upper-left image (Option A) as having the highest quality or being the sharpest among the four?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that the upper-right image (Option B) is slightly inferior in quality to the upper-left image but superior to the bottom two images?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the model note that the lower images (lower-left and lower-right) exhibit significant quality degradation (such as pixelation, blockiness, or blur) compared to the upper images?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Did the model refrain from claiming there are differences in the actual content (e.g., spider poses, background objects) across the four images?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Does the model employ a comparative reasoning strategy that establishes the upper-left image as the 'best' quality to logically deduce that the upper-right is the 'second best'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Did the model use valid visual quality criteria (such as sharpness, detail clarity, or lack of compression artifacts) to support its ranking?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Did the model evaluate or acknowledge all four quadrants (upper-left, upper-right, lower-left, lower-right) in its analysis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

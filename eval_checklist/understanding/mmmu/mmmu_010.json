@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final response select Option A (DNA replication)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify from the diagram that E2F promotes the transition from G1 to S phase (e.g., noting the arrow pointing to the G1→S label)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the inhibitory relationship depicted between pRB and E2F (indicated by the T-bar or flat-headed line)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify from the diagram that the Cyclin D-Cdk4 complex inhibits pRB?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly identify from the diagram that p16 inhibits the Cyclin D-Cdk4 complex?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid hallucinating proteins, complexes, or cell cycle phases not depicted in the diagram (e.g., p53, Cyclin E, CDK2, G2 phase, M phase)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly reason that the 'S phase' mentioned in the diagram corresponds to the biological process of DNA synthesis/replication?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the model logically deduce that since E2F promotes S phase entry, the proteins encoded by its target genes must function in DNA replication?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Does the model avoid the logical error of concluding 'Transcription' (Option D) solely because E2F is a transcription factor, correctly distinguishing between E2F's function and the function of its target gene products?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the model explicitly address the specific question about the function of the *proteins encoded by the target genes* of E2F, rather than just describing the pathway?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

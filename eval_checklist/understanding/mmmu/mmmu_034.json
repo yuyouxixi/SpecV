@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly select Option A (Scientology and the Hare Krishna)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model refrain from asserting the presence of specific religious symbols (such as a Cross, Star of David, or Om) or readable text that are not visible in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model refrain from incorrectly stating that the people in the photograph *are* Scientologists or Hare Krishnas? (Note: The image depicts the Source Family; identifying them as the answer choices is a visual misidentification/hallucination).",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Does the model's reasoning explain that the groups in Option A (Scientology and Hare Krishna) are controversial groups often 'mislabelled' as cults, distinguishing them from the universally recognized destructive cults in Options B and C?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model provide a single, unambiguous selection from the provided options without hedging?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

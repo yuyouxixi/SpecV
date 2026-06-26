@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly select Option A or identify the 'upper-right' image as the correct answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that the image consists of a 2x2 grid showing four versions of the same garden scene (e.g., colorful paths, pink arches)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the lower-right image (Option C) as having the lowest quality (e.g., most pixelation, blockiness) among the four?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that the upper-right image (Option A) is of lower quality (e.g., blurrier, more artifacts) than both the upper-left and lower-left images?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model refrain from describing non-existent differences in content (e.g., claiming one image has a person or object that another lacks) when the difference is only in image quality?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 6,
+    "question": "Does the model justify its ranking using appropriate visual quality indicators such as sharpness, clarity, noise, or compression artifacts?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the model's reasoning establish a logical ranking where the selected image is judged to be worse than the two best images but better than the worst one, consistent with the definition of 'third best'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

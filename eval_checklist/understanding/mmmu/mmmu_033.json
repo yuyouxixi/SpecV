@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option B or explicitly identify the diagnosis as 'Hypersensitivity pneumonitis'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the image as a histological specimen of lung tissue (e.g., noting alveolar architecture)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly describe the presence of interstitial inflammation, lymphocytic infiltration, or thickened alveolar septa?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify the presence of poorly formed granulomas or multinucleated giant cells within the tissue?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model avoid hallucinating the presence of 'hyaline membranes' (a key feature of Diffuse Alveolar Damage)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Did the model avoid hallucinating the presence of 'caseous necrosis' (a key feature of Tuberculosis)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Did the model avoid hallucinating viral cytopathic effects (e.g., inclusions) or unprovided diagnostic results (e.g., AFB staining, radiology findings)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly interpret the clinical history (symptoms occurring at work and abating at home) as indicative of an occupational or environmental exposure?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Did the model synthesize the clinical history (recurrent/occupational symptoms) and the histological findings (granulomatous inflammation) to justify the diagnosis of Hypersensitivity Pneumonitis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Did the model provide logical reasoning to rule out alternatives (such as Miliary Tuberculosis or Diffuse Alveolar Damage) based on the absence of their specific histological hallmarks (caseation or hyaline membranes)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

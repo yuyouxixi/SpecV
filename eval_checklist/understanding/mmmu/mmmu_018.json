@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option D ('The population resettlement caused by redrawing former colonial boundaries') as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the title of the table as 'POPULATION MOVEMENTS, 1947–1951'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly observe that the table details migration flows specifically between India, West Pakistan, and East Pakistan?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly read specific migration figures from the table, such as 6.5 million migrating from India to West Pakistan?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly extract the footnote definitions, identifying that '*' denotes primarily Muslim populations and '**' denotes primarily Hindu or Sikh populations?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model avoid hallucinating destinations not present in the table, such as the United Kingdom, Europe, or the former colonizing country?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly identify the historical context of the data (1947–1951 India/Pakistan) as the Partition of India or the result of independence from colonial rule?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Did the model use the footnotes regarding religious populations (Muslims moving to Pakistan, Hindus/Sikhs moving to India) to support the conclusion that the movements represent a political resettlement/exchange?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly rule out Option A by recognizing that the migration shown is between the former colonies themselves, not to the colonizing country?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly rule out Options B and C by noting that the mass migration of entire religious populations indicates political resettlement rather than seasonal or economic labor migration?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

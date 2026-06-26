@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select option B as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model explicitly identify the correct term as \"Sketch to Stretch\"?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model's reasoning correctly link the definition provided in the prompt (creating a sketch after reading to reflect) to the pedagogical strategy \"Sketch to Stretch\"?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

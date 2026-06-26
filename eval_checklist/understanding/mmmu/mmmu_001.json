@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final count of chirality centers provided by the model exactly 5?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the presence of an aromatic benzene ring (left side) and distinguish it from the saturated rings?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the presence of two hydroxyl (-OH) groups, distinguishing between the phenolic and alcoholic groups?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify the ether oxygen atom that forms a bridge within the ring system?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly identify the carbon atom bonded to the alcoholic hydroxyl group as a chiral center?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly identify the carbon atom bonded to the ether oxygen (part of the dihydrofuran ring) as a chiral center?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly identify the quaternary carbon atom (connecting the aromatic ring, furan ring, and nitrogen bridge) as a chiral center?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly identify the bridgehead carbon atom bonded directly to the nitrogen atom as a chiral center?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly identify the bridgehead carbon atom adjacent to the double bond (indicated with a wedged hydrogen bond) as a chiral center?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Does the model refrain from hallucinating functional groups not present in the image (e.g., carbonyls, halogens, or extra oxygens)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the model refrain from counting sp2 hybridized carbon atoms (within the aromatic ring or the double bond) as chirality centers?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Does the model refrain from counting heteroatoms (such as the nitrogen or oxygen atoms) as chirality centers?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the model correctly exclude the tertiary amine nitrogen from the count (due to rapid pyramidal inversion or not being a carbon center)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Does the model provide a detailed breakdown or list that explicitly accounts for the location of all 5 chirality centers?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

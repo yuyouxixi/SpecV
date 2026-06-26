@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final response explicitly select Option A or identify the phenomenon as 'Social loafing'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the x-axis label as 'Group Size'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the y-axis label as 'Amount of Effort'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly describe the visual trend of the graph as a downward curve or negative correlation, indicating that effort decreases as group size increases?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly note that the highest level of effort (approximately 20) corresponds to the smallest group size (1)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid hallucinating a positive trend (e.g., claiming effort increases with group size)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the model avoid inventing visual elements not present in the image, such as a legend, multiple plotted lines, or incorrect axis labels (e.g., 'Time')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly reason that the inverse relationship shown in the graph (more people = less individual effort) defines 'Social loafing'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly distinguish the observed phenomenon from 'Social facilitation' by noting that facilitation would imply increased effort or performance?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Does the model correctly differentiate the graph's content from decision-making phenomena (like Groupthink or Group polarization) by focusing on the 'Amount of Effort' axis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Does the response explain the answer by explicitly referencing the relationship between 'Group Size' and 'Amount of Effort' depicted in the chart?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]
