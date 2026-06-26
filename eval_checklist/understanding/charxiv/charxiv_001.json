@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Does the final answer explicitly state the correct curve name 'B, N-C' or 'B, N--C'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly associate the red curve with the legend label 'B, N-C' (or 'B, N--C')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly observe that the peak of the red curve occurs essentially at the E(B) value of 0.0?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that other curves (such as the black 'E, C-I' or blue 'E, N-I') have peaks significantly far from 0.0 (e.g., near -0.5 or +0.5), ruling them out?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid inventing curve labels or categories that are not present in the legend (e.g., 'C, N-C' or 'E, N--I' if not present)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning explicitly compare the x-axis positions of the peaks relative to 0.0 to determine the closest one?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly reason that the 'B, N-C' curve is closer to 0.0 than the 'E, N-C' (yellow) or 'B, N-I' (green) curves, which peak slightly away from 0.0?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Does the final response provide the full text name from the legend (e.g., 'B, N-C') rather than just the color (e.g., 'the red curve')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]
