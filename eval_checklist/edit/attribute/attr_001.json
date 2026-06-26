@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the car's body color now predominantly silver, grey, or metallic?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the original red paint completely removed from the car's exterior?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the car's surface exhibit a brushed metal texture with visible directional grain?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the car's finish appear to be polished industrial stainless steel with appropriate metallic reflectivity?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the overall shape, silhouette, and geometry of the classic car preserved?",
+    "category": "Preservation",
+    "subcategory": "Object Shape",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Are specific car details like the front grille, headlights, and bumpers preserved in their original form?",
+    "category": "Preservation",
+    "subcategory": "Object Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Are the car's windows and tires preserved as glass and rubber, rather than being converted to metal?",
+    "category": "Preservation",
+    "subcategory": "Material Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are the background neon signs, including 'Neo Tokyo' (Japanese text) and 'Cyber Ramen', preserved and legible?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are environmental elements like the flying vehicles, skyscrapers, and rain effects preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Do the reflections on the car's new surface align naturally with the surrounding neon lights?",
+    "category": "General Quality",
+    "subcategory": "Lighting/Realism",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Does the reflection of the car on the wet street appear consistent with the new silvery metallic material?",
+    "category": "General Quality",
+    "subcategory": "Lighting/Realism",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the edited car free from visual artifacts such as unnatural blurring, noise, jagged edges, or color bleeding?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]
