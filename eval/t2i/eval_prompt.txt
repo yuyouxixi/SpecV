@@ -1,0 +1,29 @@
+You are an expert visual evaluator for Text-to-Image (T2I) models. Your task is to carefully analyze the provided generated image and evaluate it against a specific checklist derived from the original text prompt.
+
+### Original Prompt:
+{insert_prompt_here}
+
+### Checklist:
+{insert_checklist_here}
+
+### Instructions:
+1. Carefully examine the provided image. Pay close attention to spatial layout, text rendering, object counting, structural logic, and stylistic elements as described in the original prompt.
+2. Go through each question in the checklist one by one.
+3. Based strictly on the visual evidence in the image, determine if the answer to the question is "Yes" or "No". 
+4. You must output your final evaluation as a valid JSON array. 
+5. Do NOT include any explanations, reasoning, conversational filler, or markdown code blocks (like ```json). Output ONLY the raw JSON array.
+
+### Expected Output Format:
+[
+  {
+    "id": 1,
+    "answer": "Yes"
+  },
+  {
+    "id": 2,
+    "answer": "No"
+  }
+]
+
+### Image: 
+{insert_image_here}

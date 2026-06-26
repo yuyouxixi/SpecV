@@ -1,0 +1,185 @@
+#!/usr/bin/env python3
+"""Compute per-question scores, track averages, overall averages, and rankings
+for T2I model evaluation results."""
+
+import json
+import os
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+RESULTS_DIR = BASE_DIR / "results"
+SCORES_DIR = BASE_DIR / "scores"
+
+TRACKS = [
+    "math",
+    "physics",
+    "maze",
+    "jigsaw",
+]
+
+SUBCATEGORY_WEIGHTS = {
+    "Final Answer": 0.7,
+    "Reasoning Quality": 0.1,
+    "Image Quality": 0.1,
+    "Image-Text Alignment": 0.1,
+}
+
+
+def _get_weight_key(subcategory: str) -> str | None:
+    """Match a subcategory string to its weight key via prefix."""
+    for prefix in SUBCATEGORY_WEIGHTS:
+        if subcategory.startswith(prefix):
+            return prefix
+    return None
+
+
+def compute_question_score(filepath: Path) -> dict:
+    """Return weighted score info for a single question JSON file."""
+    with open(filepath, "r", encoding="utf-8") as f:
+        items = json.load(f)
+
+    total = len(items)
+    correct = sum(
+        1 for item in items if str(item["expected_answer"]) == str(item["answer"])
+    )
+
+    group_stats: dict[str, dict] = {}
+    for item in items:
+        key = _get_weight_key(item.get("subcategory", ""))
+        if key is None:
+            continue
+        stats = group_stats.setdefault(key, {"correct": 0, "total": 0})
+        stats["total"] += 1
+        if str(item["expected_answer"]) == str(item["answer"]):
+            stats["correct"] += 1
+
+    # 修改前（只累加出现的类别权重）
+    # weight_sum = sum(SUBCATEGORY_WEIGHTS[k] for k in group_stats)
+
+    # 修改后（累加所有类别权重，固定为 1.0）
+    weight_sum = sum(SUBCATEGORY_WEIGHTS.values())
+
+    if weight_sum > 0 and group_stats:
+        weighted = sum(
+            SUBCATEGORY_WEIGHTS[k] * (s["correct"] / s["total"])
+            for k, s in group_stats.items()
+        )
+        score = round(weighted / weight_sum * 100, 2)
+    else:
+        score = 0.0
+
+    question_id = filepath.stem
+    return {
+        "question_id": question_id,
+        "score": score,
+        "correct": correct,
+        "total": total,
+    }
+
+
+def process_model(model_dir: Path) -> dict:
+    """Process all tracks for a single model. Returns track-level and overall data."""
+    model_name = model_dir.name
+    track_data = {}
+
+    for track in TRACKS:
+        track_dir = model_dir / track
+        if not track_dir.is_dir():
+            continue
+
+        json_files = sorted(track_dir.glob("*.json"))
+        questions = [compute_question_score(f) for f in json_files]
+        track_avg = (
+            round(sum(q["score"] for q in questions) / len(questions), 2)
+            if questions
+            else 0.0
+        )
+        track_data[track] = {
+            "track": track,
+            "track_average": track_avg,
+            "questions": questions,
+        }
+
+    track_avgs = {t: td["track_average"] for t, td in track_data.items()}
+    overall_avg = (
+        round(sum(track_avgs.values()) / len(track_avgs), 2) if track_avgs else 0.0
+    )
+
+    return {
+        "model": model_name,
+        "overall_average": overall_avg,
+        "tracks": track_avgs,
+        "track_detail": track_data,
+    }
+
+
+def write_model_scores(model_result: dict) -> None:
+    """Write per-track detail files and summary.json for one model."""
+    model_name = model_result["model"]
+    model_scores_dir = SCORES_DIR / model_name
+    model_scores_dir.mkdir(parents=True, exist_ok=True)
+
+    for track, detail in model_result["track_detail"].items():
+        out_path = model_scores_dir / f"{track}.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(detail, f, indent=2, ensure_ascii=False)
+
+    summary = {
+        "model": model_name,
+        "overall_average": model_result["overall_average"],
+        "tracks": model_result["tracks"],
+    }
+    with open(model_scores_dir / "summary.json", "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=2, ensure_ascii=False)
+
+
+def write_rankings(all_results: list[dict]) -> None:
+    """Write overall ranking and per-track ranking files."""
+    SCORES_DIR.mkdir(parents=True, exist_ok=True)
+
+    sorted_overall = sorted(all_results, key=lambda r: r["overall_average"], reverse=True)
+    overall_ranking = [
+        {"rank": i + 1, "model": r["model"], "score": r["overall_average"]}
+        for i, r in enumerate(sorted_overall)
+    ]
+    with open(SCORES_DIR / "overall_ranking.json", "w", encoding="utf-8") as f:
+        json.dump(overall_ranking, f, indent=2, ensure_ascii=False)
+
+    for track in TRACKS:
+        sorted_track = sorted(
+            all_results,
+            key=lambda r, t=track: r["tracks"].get(t, 0.0),
+            reverse=True,
+        )
+        track_ranking = [
+            {"rank": i + 1, "model": r["model"], "score": r["tracks"].get(track, 0.0)}
+            for i, r in enumerate(sorted_track)
+        ]
+        with open(SCORES_DIR / f"{track}_ranking.json", "w", encoding="utf-8") as f:
+            json.dump(track_ranking, f, indent=2, ensure_ascii=False)
+
+
+def main():
+    model_dirs = sorted(
+        [d for d in RESULTS_DIR.iterdir() if d.is_dir()], key=lambda d: d.name
+    )
+    print(f"Found {len(model_dirs)} models: {[d.name for d in model_dirs]}")
+
+    all_results = []
+    for model_dir in model_dirs:
+        result = process_model(model_dir)
+        write_model_scores(result)
+        all_results.append(result)
+        print(f"  {result['model']}: overall={result['overall_average']}, tracks={result['tracks']}")
+
+    write_rankings(all_results)
+
+    print(f"\nDone. Scores written to {SCORES_DIR}")
+    print("\n=== Overall Ranking ===")
+    sorted_overall = sorted(all_results, key=lambda r: r["overall_average"], reverse=True)
+    for i, r in enumerate(sorted_overall, 1):
+        print(f"  {i}. {r['model']}: {r['overall_average']}")
+
+
+if __name__ == "__main__":
+    main()
