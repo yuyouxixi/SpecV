@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is the [Japanese anime-style ballerina] positioned leaping high in the air, suspended above the [crouching male dancer]?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Is the [watercolor-rendered dancer] positioned in the midground and partially obscured by foreground figures?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Is the leaping ballerina rendered in a [Japanese anime] style (e.g., cel-shading, large eyes, clean outlines)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the crouching male dancer rendered in a [Cubist] style (e.g., geometric fragmentation, multi-perspective planes, angular decomposition)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the spinning female dancer rendered in an [Art Deco] style (e.g., streamlined geometric forms, decorative elegance, extended arms)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the midground dancer rendered in a [watercolor] style (e.g., translucent washes, soft edges, fluid blending)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Do the spotlights cast light composed of distinct colored dots, characteristic of [Pointillism]?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the background stage curtain rendered in an [Expressionist] style with prominent red and black swirling forms?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Are the distinct art styles (Anime, Cubist, Art Deco, Watercolor) applied specifically to their respective characters without blending into a uniform style across the image?",
+    "category": "Style",
+    "subcategory": "Style Distribution",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

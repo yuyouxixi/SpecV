@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image laid out on a horizontal white background with two distinct rows (Upper ~60% height, Lower ~40% height)?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the upper circuit module and lower chart modules framed with thin gray borders?",
+    "category": "Structure",
+    "subcategory": "Style & Attributes",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the upper circuit schematic contain exactly two op-amps labeled U1 and U2, drawn as triangle symbols with '+' and '-' inputs marked?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are there exactly six resistors labeled R1-R6 drawn using zigzag symbols?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Are there exactly three capacitors labeled C1-C3 drawn using parallel plate symbols?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the circuit include an input source labeled VIN (circular symbol) and an output labeled VOUT (test point dot)?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are power rails labeled +V and -V connected to the op-amps, and are standard ground symbols used throughout?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the key nodes labeled N1 through N6 present in the circuit?",
+    "category": "Structure",
+    "subcategory": "Text/Label Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is all circuit wiring drawn using only horizontal and vertical lines (right angles) with no diagonal lines?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is there a clearly drawn feedback network connecting the output back to the inverting (-) input?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the lower-left area (approx. 2/3 width) contain a Bode plot with two vertically stacked subplots sharing a logarithmic frequency axis?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the upper Bode subplot show a MAG(dB) curve with a -40 dB/dec downward trend (two-corner rolloff)?",
+    "category": "Structure",
+    "subcategory": "Data Points & Trends",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the lower Bode subplot show a PHASE(deg) curve decreasing from approximately 0 to -180 degrees?",
+    "category": "Structure",
+    "subcategory": "Data Points & Trends",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are vertical dashed lines labeled f1 and f2 present across the Bode plots?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the lower-right area (approx. 1/3 width) contain a Step Response plot with axes labeled 't' and 'Vout'?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "In the Step Response plot, is the input Vin shown as a gray square wave and the output as a blue rising curve with overshoot?",
+    "category": "Structure",
+    "subcategory": "Color & Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are horizontal dashed lines labeled 'P' (peak) and 'SS' (steady-state) marked on the Step Response plot?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Do all chart axes include visible tick marks?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "Is the color palette strictly limited to black, gray, and blue (on white background)?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Is all text contained in the image composed of Latin letters and numbers only?",
+    "category": "Style",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image present a biological diagram of the human blood circulatory system, clearly displaying both systemic and pulmonary circulation pathways?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the heart section show a cross-sectional view with all four chambers clearly visible?",
+    "category": "Structure",
+    "subcategory": "Anatomy & Morphology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are there text labels explicitly identifying the atrioventricular valves?",
+    "category": "Text Rendering",
+    "subcategory": "Label Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Are there text labels explicitly identifying the semilunar valves?",
+    "category": "Text Rendering",
+    "subcategory": "Label Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Are both the Superior Vena Cava and Inferior Vena Cava visibly present in the diagram?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are capillary networks depicted for both the systemic and pulmonary circulation loops?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the systemic arterial pathway (Left Ventricle → Aorta → Branching Arteries → Capillary Network) marked with red color?",
+    "category": "Structure",
+    "subcategory": "Color & Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the systemic venous pathway (Capillary Network → Branching Veins → Vena Cava → Right Atrium) marked with blue color?",
+    "category": "Structure",
+    "subcategory": "Color & Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the pulmonary arterial pathway (Right Ventricle → Pulmonary Artery → Lung Capillaries) marked with blue color (indicating deoxygenated blood)?",
+    "category": "Structure",
+    "subcategory": "Color & Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the pulmonary venous pathway (Lung Capillaries → Pulmonary Veins → Left Atrium) marked with red color (indicating oxygenated blood)?",
+    "category": "Structure",
+    "subcategory": "Color & Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are there visual arrows indicating the direction of blood flow throughout the pathways?",
+    "category": "Structure",
+    "subcategory": "Nodes & Connections",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are there text annotations on the side explaining the gas exchange process?",
+    "category": "Text Rendering",
+    "subcategory": "Label Content",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

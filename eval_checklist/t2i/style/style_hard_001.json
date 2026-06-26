@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image formatted as an ultra-wide panoramic composition?",
+    "category": "Composition",
+    "subcategory": "Aspect Ratio & Format",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Does the image contain exactly six consecutive renderings of the still life arrangement arranged from left to right?",
+    "category": "Composition",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the specific still life arrangement (ceramic bowl with apples and grapes, stemmed wine glass, draped white cloth with wrinkles) recognizable in all six sections?",
+    "category": "Structure",
+    "subcategory": "Object Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is the correct order of styles maintained from left to right: High Renaissance -> Baroque -> Impressionism -> Post-Impressionism -> Analytical Cubism -> Pop Art?",
+    "category": "Style",
+    "subcategory": "Style Ordering",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Do the six style panels blend seamlessly into one another without hard vertical lines, frames, or abrupt borders?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the image exhibit a continuous visual spectrum progressing from realism on the left to abstraction on the right?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the leftmost section exhibit High Renaissance characteristics, such as balanced composition, idealized realism, and smooth sfumato-like blending?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the second section exhibit Baroque characteristics, specifically dramatic chiaroscuro (high contrast between light and shadow) and deep colors?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the third section exhibit Impressionist characteristics, such as visible loose brushstrokes and an emphasis on light effects?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the fourth section exhibit Post-Impressionist characteristics, such as bold/unnatural colors, structured brushwork, or thick impasto?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the fifth section exhibit Analytical Cubism characteristics, such as fragmented geometric shapes, multiple viewpoints, and monochromatic or muted tones?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the rightmost section exhibit Pop Art characteristics, such as flat bold colors, heavy outlines, or Ben-Day dots?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the image completely free of visible text, labels, or artist signatures?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

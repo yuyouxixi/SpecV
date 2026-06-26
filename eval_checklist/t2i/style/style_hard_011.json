@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the girl in the ruffled dress rendered in a Japanese anime style (e.g., large eyes, simplified features, cel-shading)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the gentleman wearing a doublet rendered in a realistic Renaissance art style (e.g., naturalistic proportions, period attire)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Is the robot rendered in a Cubist style featuring angular, fragmented geometry?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the ghost rendered in a traditional Chinese ink wash painting style (e.g., monochrome ink tones, fluid brushstrokes)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the ghost semi-transparent?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the ghost positioned behind the gentleman's chair and partially obscured by it?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Is the parrot rendered in a Pop Art style with bold black outlines and vivid flat colors?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the floral tablecloth rendered in a watercolor style with visible wash effects and soft edges?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the surrounding garden rendered in an Art Nouveau style featuring flowing organic curves and decorative borders?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Are the multiple art styles (Anime, Renaissance, Cubism, Ink Wash, Pop Art, Watercolor, Art Nouveau) visually distinct from one another?",
+    "category": "Style",
+    "subcategory": "Style Distribution",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

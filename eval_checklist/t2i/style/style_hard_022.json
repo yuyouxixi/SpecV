@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the overall basketball court environment rendered in a realistic photography style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the dunking basketball player appear photorealistic (natural human anatomy, photographic skin/clothing texture, realistic shading)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the basketball depicted as a glowing neon tube-style sphere (bright emissive glow, tubular neon appearance)?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the defending figure rendered as a silhouette consistent with traditional Chinese shadow puppet style (flat cutout look, distinct puppet-like contouring)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Has the backboard transformed into a stained glass window style, featuring visible lead lines and colored glass segments?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the stained glass backboard feature religious iconography (e.g., haloed figures, ecclesiastical motifs)?",
+    "category": "Style",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are tactical play diagrams visible on the court floor rendered in a chalk drawing style (chalk-like lines, dusty texture)?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are the spectators in the stands rendered as Easter Island moai statues, exhibiting stone material texture and monolithic features?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is there clear style differentiation between the photorealistic dunking player and the shadow-puppet silhouette defender?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are multiple distinct art styles (realistic, neon, shadow puppet, stained glass, chalk, stone statue) visibly coexisting in the same image without collapsing into a single unified style?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

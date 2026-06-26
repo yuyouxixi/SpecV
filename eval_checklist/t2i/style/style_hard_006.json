@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the nobleman rendered in a Renaissance style, exhibiting realistic proportions and classical portraiture characteristics?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are the nobleman's robes depicted with ornate details and rich textures consistent with Renaissance fashion?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the small landscape painting held by the nobleman rendered in an Impressionist style (e.g., visible short brushstrokes, emphasis on light)?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the Impressionist style confined to the small painting, without bleeding into the nobleman's hands or robes?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Is the folding screen behind the nobleman rendered in a Japanese Ukiyo-e style (e.g., flat colors, bold outlines)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the folding screen positioned behind the nobleman and partially obscured by his figure?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the carved table exhibit Baroque stylistic features (e.g., heavy ornamentation, dramatic carved details)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the melting clock on the table rendered in a Surrealist style (e.g., distorted, drooping forms reminiscent of Dalí)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the flowers in the vase rendered in a Watercolor style (e.g., translucent washes, fluid edges)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the background wallpaper feature a bold Pop Art style polka dot pattern?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are all distinct art styles (Renaissance, Impressionist, Ukiyo-e, Baroque, Surrealist, Watercolor, Pop Art) visually distinguishable from one another in the image?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the nobleman holding the small painting with both hands?",
+    "category": "Composition",
+    "subcategory": "Action Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Are the boundaries between the different styled objects defined clearly, without unintended muddy blending or artifacts?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

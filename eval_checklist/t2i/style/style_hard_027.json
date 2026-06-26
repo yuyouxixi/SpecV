@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background environment (New York Times Square) rendered in a photorealistic style, consistent with a real city scene?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are Optimus Prime and Bumblebee rendered in a Hollywood live-action style (realistic CGI, metallic textures, high detail)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the sword wielded by Optimus Prime rendered in a traditional Chinese ink wash painting style (e.g., black ink brushstrokes, wash gradients, diffusion)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the Tesla car lifted by Bumblebee rendered in a Studio Ghibli animation style (e.g., 2D cel-shaded, hand-drawn aesthetic, soft colors)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the baby running at the front rendered in a 3D Pixar-style (e.g., stylized proportions, smooth subsurface scattering, expressive features)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is Superman rendered in an American superhero comic book style (e.g., bold outlines, flat colors, Ben-Day dots, or graphic novel aesthetics)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the human characters (both the fleeing crowd and those being rescued) rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is there a clear visual style contrast between the [Ink wash sword] and the [photorealistic Optimus Prime] holding it?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is there a clear visual style contrast between the [Ghibli-style Tesla car] and the [photorealistic Bumblebee] holding it?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is there a clear visual style contrast between the [Pixar-style baby] and the [photorealistic fleeing crowd] behind/around it?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is there a clear visual style contrast between the [Comic book style Superman] and the [photorealistic people] he is rescuing?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the multiple distinct art styles coexist within the same scene with coherent lighting and perspective, avoiding unintended global stylization?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the setting clearly recognizable as New York Times Square (e.g., dense billboards, screens, urban canyon)?",
+    "category": "World Knowledge",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Are Optimus Prime and Bumblebee clearly identifiable as the characters from the live-action Transformers films?",
+    "category": "World Knowledge",
+    "subcategory": "Character Identity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Is Superman clearly identifiable as the DC superhero character?",
+    "category": "World Knowledge",
+    "subcategory": "Character Identity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the baby depicted sucking on a pacifier?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Are the main subjects free from significant structural distortions or artifacts that are not intended by their specific art styles (e.g., melted limbs on photorealistic humans)?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

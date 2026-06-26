@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the subway car interior (walls, seats, lighting) rendered predominantly in a realistic photography style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the seated office worker rendered in a realistic photographic style, exhibiting natural skin texture, lighting, and lifelike proportions?",
+    "category": "Style",
+    "subcategory": "Character Style",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the angel rendered in a Renaissance oil painting style, distinct from the photographic subway environment?",
+    "category": "Style",
+    "subcategory": "Character Style",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the angel figure exhibit visible brushstrokes, paint blending, or chiaroscuro shading characteristic of oil painting?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Is the standing warrior rendered in an 8-bit pixel art style, characterized by blocky pixels, a limited color palette, and jagged edges?",
+    "category": "Style",
+    "subcategory": "Character Style",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the handrail gripped by the warrior rendered as realistic metal (with photographic reflections/highlights), clearly contrasting with the warrior's pixelated hand?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the floor of the carriage feature a lava-style molten magma texture (glowing magma, cracked crust) instead of standard flooring?",
+    "category": "Style",
+    "subcategory": "Regional Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are the tunnel walls visible outside the windows rendered in a graffiti art style (spray-paint look, tags, or murals)?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the distinct styles (photorealism, oil painting, pixel art, graffiti) clearly separated without unintended bleeding (e.g., the worker is not pixelated, the angel is not photorealistic)?",
+    "category": "Style",
+    "subcategory": "Style Distribution",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the angel's wing span visibly occupy approximately two seats as described in the prompt?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

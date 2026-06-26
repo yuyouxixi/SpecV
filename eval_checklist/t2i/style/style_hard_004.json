@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the musician in the foreground rendered in a Cubist style (characterized by fragmented geometric planes and multiple viewpoints)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the flower seller behind the musician rendered in an Impressionist style (characterized by visible broken brushstrokes and light-focused color dabs)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the billboard above the figures rendered in a Pop Art style (characterized by bold flat colors, hard outlines, and a commercial graphic aesthetic)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the distant mountain range rendered in a traditional Chinese ink wash style (characterized by monochrome ink tones, watery gradients, and calligraphic brushwork)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the cat on the right side rendered in a pixel art style (characterized by clearly visible square pixels and a blocky grid pattern)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the stone fountain beneath the cat rendered in a Baroque style (characterized by ornate sculptural details and dramatic forms)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the wrought iron lamp post at the left edge rendered in an Art Nouveau style (characterized by flowing whiplash curves and botanical motifs)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the Cubist style of the musician visually distinct from the Impressionist style of the flower seller despite their close proximity?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the pixel art style of the cat visually distinct from the Baroque style of the fountain it sits upon?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are all seven distinct art styles (Cubist, Impressionist, Pop Art, Chinese ink wash, pixel art, Baroque, Art Nouveau) simultaneously present and distinguishable in the image?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

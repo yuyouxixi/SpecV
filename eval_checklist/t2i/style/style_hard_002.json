@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the princess on the left rendered in a Disney 3D animation style (e.g., smooth shading, soft global illumination, stylized proportions)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the panda in the center rendered in a traditional Chinese ink wash painting style (e.g., monochrome ink look, watercolor bleed, visible brushstrokes)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the detective on the right rendered in a black and white American comic book line art style (e.g., bold outlines, hatching/cross-hatching, lack of color fill)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the magnifying glass held by the detective exhibit a LEGO brick style (e.g., plastic texture, studs, blocky geometry)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the background depicted as a cyberpunk neon-lit futuristic city street (e.g., neon signage, high-contrast night lighting)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the ground surface clearly rendered with a Persian carpet texture (e.g., ornate repeating motifs, woven textile appearance)?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the three characters (princess, panda, detective) visually distinct in their respective styles, rather than blending into a single unified style?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the LEGO brick style of the magnifying glass visually distinct from the black and white comic book style of the detective holding it?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is there a clear stylistic separation between the multi-style foreground characters and the cyberpunk city background?",
+    "category": "Style",
+    "subcategory": "Foreground/Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Are the characters positioned correctly according to the prompt (Princess on the left, Panda in the center, Detective on the right)?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

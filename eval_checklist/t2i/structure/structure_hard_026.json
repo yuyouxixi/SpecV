@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image layout arranged with two main side-by-side panels (separated by a thin gray line) and a data table across the bottom?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the left panel contain a 100% stacked area chart with the title \"Generation Mix (%)\"?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the left chart's X-axis span the years 2015 to 2025 (with one tick per year) and Y-axis span 0% to 100%?",
+    "category": "Structure",
+    "subcategory": "Coordinate System & Axes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are there exactly 6 layers in the stacked area chart arranged from bottom to top: Coal, Gas, Nuclear, Hydro, Wind, Solar?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Do the layer colors match the prompt: Coal (dark gray), Gas (orange), Nuclear (purple), Hydro (blue), Wind (teal), Solar (yellow)?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the Coal layer (bottom) visually decrease from ~38% in 2015 to ~18% in 2025, and the Solar layer (top) increase from ~2% to ~11%?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy - Trends",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Do the Nuclear and Hydro layers appear to have a relatively constant thickness (approx 19% and 7% respectively) across all years?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy - Trends",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are there vertical dashed lines at years 2018, 2021, and 2024 with the labels \"Carbon tax\", \"Wind expansion\", and \"Solar subsidy\" respectively?",
+    "category": "Structure",
+    "subcategory": "Text/Label Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does the upper section of the right panel contain a donut chart titled \"Mix in 2025\" with \"2025\" written in the center?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the donut chart display 6 segments with colors matching the left panel's layers?",
+    "category": "Structure",
+    "subcategory": "Data Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the lower section of the right panel contain a line chart titled \"CO2 Intensity (gCO2/kWh)\"?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the line chart plotted as a thick red line with circle markers, showing a consistent downward trend from ~520 (2015) to ~370 (2025)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy - Trends",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the specific numerical annotation \"370\" present near the 2025 data point on the line chart?",
+    "category": "Structure",
+    "subcategory": "Text/Label Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is there a compact data table at the bottom with 3 rows (labeled \"Coal%\", \"Solar%\", \"CO2 intensity\") and columns for years 2015–2025?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Do the values in the data table correspond to the charts (e.g., Coal% decreasing from 38 to 18, CO2 intensity decreasing from 520 to 370)?",
+    "category": "Structure",
+    "subcategory": "Data Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the image rendered in a vector style without 3D effects or heavy shadows?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Is all text in English and clearly legible without blurring or garbled characters?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Are there any obvious visual artifacts, broken lines, or geometric distortions?",
+    "category": "General",
+    "subcategory": "Artifacts & Distortion",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

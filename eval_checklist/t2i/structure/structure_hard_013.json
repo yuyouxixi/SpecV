@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image layout consist of three equally wide panels arranged horizontally in the upper section and a full-width table in the bottom section?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "In Panel A (left), are the principal optical axis and vertical lens symbol drawn, with focal points (F1, F2) and 2F points (2F1, 2F2) marked symmetrically?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "In Panel A, is the object arrow (OBJ) pointing upward and positioned on the left side of the lens?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "In Panel A, are three distinct principal rays drawn (parallel-to-focus, through-center, focus-to-parallel) that converge to form the image?",
+    "category": "Structure",
+    "subcategory": "Logic & Physics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "In Panel A, is the image arrow (IMG) inverted, positioned at the ray intersection, and connected with dashed auxiliary lines?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "In Panel B (middle), is a concave mirror arc drawn on the right side, with the Center of curvature (C) and Focal point (F) marked on the axis?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "In Panel B, is the object arrow (OBJ) positioned visually between the focal point (F) and the center of curvature (C)?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "In Panel B, is the resulting image (IMG) depicted as inverted, magnified, and located beyond the center of curvature (C)?",
+    "category": "Structure",
+    "subcategory": "Logic & Physics",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "In Panel B, are the normal line and incident/reflection angle arcs labeled 'A1' and 'A2' visible?",
+    "category": "Structure",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does Panel C (right) depict an equilateral triangular prism?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "In Panel C, does a single ray enter from the left, travel as a straight line segment inside the prism, and split into three rays upon exiting?",
+    "category": "Structure",
+    "subcategory": "Logic & Physics",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "In Panel C, do the exiting rays consist of distinct Red, Green, and Blue lines fanning out in that specific order?",
+    "category": "Structure",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "In Panel C, are normal lines drawn at the entry and exit points, with angle arcs labeled I1, R1, I2, and R2?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the bottom parameter table have exactly 4 columns and headers labeled 'ITEM', 'SYMBOL', 'VALUE', 'UNIT'?",
+    "category": "Structure",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the table contain the data row: 'AIR', symbol 'n', value '1.00'?",
+    "category": "Structure",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Does the table contain the data row: 'GLASS', symbol 'n', value '1.50'?",
+    "category": "Structure",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Does the table contain the data row: 'LENS', symbol 'f', value '50', and unit 'mm'?",
+    "category": "Structure",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Is the image rendered as vector line art on a white background, free of shadows and gradients?",
+    "category": "Style",
+    "subcategory": "Visual Style",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is the color scheme primarily black/gray, with necessary light rays rendered in blue or RGB colors?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Are all text labels (e.g., F1, OBJ, table values) clearly readable and free of garbled characters?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

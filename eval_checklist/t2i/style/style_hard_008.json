@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the warrior's upper body rendered in a realistic oil painting style (e.g., naturalistic shading, painterly rendering)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are visible oil-paint qualities present on the warrior's upper body, such as visible brushstrokes, blended gradients, or impasto texture?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Are the warrior's legs and lower body armor rendered in a pixel art style with clearly defined square pixels or voxel-like chunks?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is there a visible gradual transition from the realistic oil painting style on the torso to the pixel art style on the legs, rather than an abrupt hard cut?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the sword rendered with a stained-glass aesthetic, featuring segmented colored panes or cells with lead-like outlines?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the sword appear to be glowing or luminous, consistent with the prompt description?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the dragon rendered in a traditional Chinese ink wash style (e.g., monochrome/limited palette, fluid brushwork, ink diffusion)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are the thorny vines rendered in an Art Nouveau style, characterized by decorative flowing curves, whiplash lines, or ornamental motifs?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the floor rendered as a surrealist checkerboard that appears to extend infinitely into the distance with dreamlike perspective?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are the five distinct styles (Oil Painting, Pixel Art, Stained Glass, Ink Wash, Art Nouveau) visually distinguishable from one another in their respective regions?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Is the warrior depicted in a dynamic slashing pose with the sword raised high?",
+    "category": "Composition",
+    "subcategory": "Action & Pose",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the dragon positioned behind the warrior, coiling or spiraling around the background?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do the Art Nouveau vines partially obscure the dragon as described?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

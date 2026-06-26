@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "Does the layout feature an organizational chart on the left (approx. 65%) and a matrix table with legend on the right (approx. 35%)?",
+    "category": "Composition",
+    "subcategory": "Layout Partitioning",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the organizational chart consist of exactly 4 hierarchical layers with consistent vertical spacing?",
+    "category": "Structure",
+    "subcategory": "Hierarchical Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does Layer 1 contain exactly one centered node labeled 'C0'?",
+    "category": "Text Rendering",
+    "subcategory": "Label Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does Layer 2 contain exactly 3 nodes labeled 'A1', 'A2', and 'A3' arranged equidistantly on a horizontal line?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Alignment",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does Layer 3 contain exactly 6 nodes labeled 'B1' through 'B6'?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the B-nodes grouped correctly: B1/B2 under A1, B3/B4 under A2, and B5/B6 under A3?",
+    "category": "Structure",
+    "subcategory": "Parent-Child Relationship",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does Layer 4 contain exactly 12 leaf nodes labeled 'D1' through 'D12' (2 under each B node)?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Are all nodes depicted as identically sized rounded rectangles?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the connection lines in the organizational chart right-angle polylines (orthogonal)?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is there a dashed arrow specifically pointing from node B2 to node B4?",
+    "category": "Structure",
+    "subcategory": "Special Relationships",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Is the connection line between node A1 and node D1 rendered as a dash-dot style line?",
+    "category": "Structure",
+    "subcategory": "Special Relationships",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the matrix table on the right consist of exactly 6 rows and 5 columns?",
+    "category": "Structure",
+    "subcategory": "Grid Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the top-left cell of the matrix have a diagonal split with 'ROW' in the bottom-left and 'COL' in the top-right?",
+    "category": "Text Rendering",
+    "subcategory": "Label Placement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Are the matrix column headers (row 1, cols 2-5) labeled C1, C2, C3, C4?",
+    "category": "Text Rendering",
+    "subcategory": "Label Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Are the matrix row headers (col 1, rows 2-6) labeled R1, R2, R3, R4, R5?",
+    "category": "Text Rendering",
+    "subcategory": "Label Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Does matrix row R1 contain the symbol sequence: ●, ○, —, ○?",
+    "category": "Structure",
+    "subcategory": "Pattern Matching",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Does matrix row R2 contain the symbol sequence: ○, —, ○, ●?",
+    "category": "Structure",
+    "subcategory": "Pattern Matching",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Does matrix row R3 contain the symbol sequence: —, ○, ●, ○?",
+    "category": "Structure",
+    "subcategory": "Pattern Matching",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Does matrix row R4 contain the symbol sequence: ○, ●, ○, —?",
+    "category": "Structure",
+    "subcategory": "Pattern Matching",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 20,
+    "question": "Does matrix row R5 contain the symbol sequence: ●, ○, —, ○?",
+    "category": "Structure",
+    "subcategory": "Pattern Matching",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 21,
+    "question": "Is there a three-row legend below the matrix correctly defining: ● L1, ○ L2, — L3?",
+    "category": "Text Rendering",
+    "subcategory": "Legend Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 22,
+    "question": "Does the entire image use only black, white, and gray colors (no chromatic colors)?",
+    "category": "Style",
+    "subcategory": "Color Constraints",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 23,
+    "question": "Is the image completely free of perspective effects and shadows (flat design)?",
+    "category": "Style",
+    "subcategory": "Visual Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 24,
+    "question": "Are all text labels legible and free of garbled characters or non-Latin symbols?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

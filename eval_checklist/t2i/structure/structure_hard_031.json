@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image depict a top-down architectural floor plan of a residential apartment?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the layout include exactly 2 living areas, specifically a Living Room and a Dining Room?",
+    "category": "Composition",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the floor plan contain exactly 2 bathrooms?",
+    "category": "Composition",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the Master Bedroom area include both an attached en-suite bathroom and a walk-in closet?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the floor plan include both a Kitchen and a Balcony?",
+    "category": "Composition",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are numerical room dimensions present and labeled for all major rooms?",
+    "category": "Text Rendering",
+    "subcategory": "Content Presence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Do the dimension values appear to be in millimeters (e.g., typically 3 or 4-digit numbers like 3000, 4500) rather than meters or feet?",
+    "category": "Text Rendering",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Are the swing directions of both sliding doors and hinged doors indicated using dashed lines?",
+    "category": "Style",
+    "subcategory": "Visual Convention",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is there a clear visual distinction between load-bearing walls (thick solid lines) and partition walls (thin solid lines)?",
+    "category": "Style",
+    "subcategory": "Visual Convention",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are both a scale bar and a north arrow present in the bottom right corner of the image?",
+    "category": "Structure",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Are the text labels for room names and dimensions legible and free from severe garbling?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the architectural lines (walls, windows, doors) straight and crisp, without unnatural waviness or breaks?",
+    "category": "General",
+    "subcategory": "Line Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

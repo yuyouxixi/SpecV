@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a horizontal, flat design (no 3D/perspective) dashboard with a light gray background and white card sections?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the top row contain exactly 4 KPI cards featuring large numbers, small descriptions, and period-over-period arrow icons?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Do the KPI cards display the exact values: 'USD 1.991M', '5,620', '3.48%', and '74k'?",
+    "category": "Text Rendering",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the main left chart (Dual Y-axis) feature a left axis (Revenue) range of 100–240 and a right axis (MAU) range of 40–80?",
+    "category": "Structure",
+    "subcategory": "Coordinate System & Axes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "In the Dual Y-axis chart, is the Revenue line cyan-blue with circular markers and the MAU line purple with square markers?",
+    "category": "Style",
+    "subcategory": "Color & Visual Attributes",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the text annotation 'Dec peak' present near the December data point in the Dual Y-axis chart?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the top-right 'Churn Rate' line chart use an orange-red line and display data labels '4.2' (Jan) and '2.9' (Dec)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy & Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the middle-right Stacked Bar chart contain exactly 4 bars (Q1–Q4) with totals '1020', '1290', '1500', and '1810' displayed at the top?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the bottom-right Donut chart contain exactly 4 segments with leader lines connecting to external labels?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Do the Donut chart labels correctly display the percentages and values: 55% (121), 25% (55), 12% (26), and 8% (18)?",
+    "category": "Text Rendering",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the bottom Data Table have exactly 5 columns with bold headers: MONTH, REVENUE_k, MAU_k, CHURN_%, NEW_CUSTOMERS?",
+    "category": "Structure",
+    "subcategory": "Table Structure & Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the first row (Jan) of the Data Table match the values: 120, 48, 4.2, 320?",
+    "category": "Text Rendering",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the last row (Dec) of the Data Table match the values: 220, 74, 2.9, 650?",
+    "category": "Text Rendering",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Are there any obvious artifacts, nonsense visual noise, or perspective distortions?",
+    "category": "General",
+    "subcategory": "Artifacts & Distortion",
+    "expected_answer": "No",
+    "score": 8.33
+  }
+]

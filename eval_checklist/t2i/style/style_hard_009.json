@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image presented in a panoramic (wide) format?",
+    "category": "Composition",
+    "subcategory": "Aspect Ratio",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 2,
+    "question": "Is the image clearly split down the middle into two distinct halves?",
+    "category": "Composition",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the left half of the image rendered in a neon-lit vaporwave cyberpunk style?",
+    "category": "Style",
+    "subcategory": "Regional Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the left half feature glowing grids characteristic of the specified style?",
+    "category": "Style",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the right half of the image rendered in a soft watercolor style depicting a pastoral countryside?",
+    "category": "Style",
+    "subcategory": "Regional Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the right half exhibit watercolor textures (e.g., soft edges, washes) distinct from the crispness of the left half?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the sky rendered in a Fauvist style with unnaturally vibrant orange and green colors?",
+    "category": "Style",
+    "subcategory": "Color & Art Style",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the Fauvist-style sky span continuously across both the left and right halves?",
+    "category": "Composition",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is there a vintage car in the foreground rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Art Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is there a twisted old tree rendered in an Expressionist style?",
+    "category": "Style",
+    "subcategory": "Art Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is there a white bird in the sky rendered in a minimalist flat-design style?",
+    "category": "Style",
+    "subcategory": "Art Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the distinct styles (Cyberpunk, Watercolor, Fauvist, Photorealistic, Expressionist, Minimalist) clearly distinguishable from one another?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

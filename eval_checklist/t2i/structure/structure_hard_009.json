@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the canvas divided into a 2×2 grid of four equal panels by thin black lines, with consistent spacing and 4% outer margins?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Are small sans-serif labels A, B, C, and D placed in the upper-left corner of their respective panels?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "In Panel A, is there an acute triangle ABC (A at top, B bottom-left, C bottom-right) inscribed in a light gray circle?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "In Panel A, are three medians drawn intersecting at G, and three altitudes drawn intersecting at H?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "In Panel A, are the feet of the altitudes labeled D (on BC), E (on CA), F (on AB) with right-angle symbols marked at each foot?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "In Panel B, is there a Cartesian coordinate system with light gray grid lines and axes having tick marks from -4 to 4?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "In Panel B, is the parabola y=(x-1)^2-3 plotted as a blue curve and the line y=2x-1 as a black straight line?",
+    "category": "Structure",
+    "subcategory": "Color & Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "In Panel B, are the two intersection points marked as P1 and P2 with hollow circles, and projected vertically to the x-axis with gray dashed lines?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "In Panel B, is the enclosed region between the parabola and the line (from P1 to P2) filled with light gray 45° diagonal hatching?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "In Panel C, are exactly three blue vectors drawn from the origin to points Z1 (30°), Z2 (150°), and Z3 (270°) on a unit circle?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "In Panel C, are there angle arcs labeled ANG1, ANG2, ANG3 with directional arrows, and a gray dashed line mapping Z1 to Z1I labeled ROT90?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "In Panel C, is there a counterclockwise directional arrow segment drawn on the circumference of the unit circle?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "In Panel D (left half), is there an undirected graph with 6 nodes (V1-V6) arranged in a regular hexagon, connected by an outer ring and three diagonal chords (V1-V4, V2-V5, V3-V6)?",
+    "category": "Structure",
+    "subcategory": "Nodes & Connections",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "In Panel D (right half), is there a 6×6 adjacency matrix with headers V1 through V6?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "In Panel D, is the matrix symmetric with 0s on the main diagonal, and does it accurately reflect the connections of the graph (1 for edges, 0 for no edges)?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Are the colors in the entire image strictly limited to black, gray, and blue on a white background?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is the image style consistent with vector line art, having no shadows and no perspective effects?",
+    "category": "Style",
+    "subcategory": "Visual Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are all text labels (e.g., ANG1, ROT90, V1, P1) clearly legible, using only Latin letters/numerals, and free from garbled characters?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

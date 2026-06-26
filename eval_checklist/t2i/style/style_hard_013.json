@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the library interior visually divided into four distinct quadrants?",
+    "category": "Structure",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Is the upper left area rendered in Art Nouveau style with flowing organic curved bookshelves?",
+    "category": "Style",
+    "subcategory": "Regional Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the upper right area rendered in Cubism style with books rendered in fragmented geometric forms?",
+    "category": "Style",
+    "subcategory": "Regional Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the lower left area rendered in Pop Art style with bright flat-colored furniture?",
+    "category": "Style",
+    "subcategory": "Regional Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the lower right area rendered in delicate watercolor style with soft blurred edges?",
+    "category": "Style",
+    "subcategory": "Regional Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is there a black cat walking through the center, crossing all four areas?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the black cat rendered in a charcoal sketch style with visible grainy texture?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is there a wizard portrait hanging on the wall spanning two quadrants?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the wizard portrait rendered in an oil painting style with visible brushstrokes?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the chandelier rendered in an Expressionism style emitting twisted, distorted flame light?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background environment (indoor gym) rendered in a modern photorealistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is Michelangelo's David statue rendered in a marble sculpture style with visible stone texture?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the magical girl rendered in a 90s retro cel-shaded anime style (flat colors, hard shadows, clean linework)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the dog rendered in a voxel/Minecraft style with clearly blocky, cubic geometry?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the fitness trainer rendered in a photorealistic style (natural skin shading, realistic texture) consistent with the gym environment?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the bodybuilder exhibit Roy Lichtenstein Pop Art features (e.g., thick black outlines, Ben-Day dots, or comic shading)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are all five distinct styles (marble, cel-shaded anime, voxel, photorealistic, Pop Art) simultaneously present and distinguishable in the image?",
+    "category": "Style",
+    "subcategory": "Style Distribution",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is there a clear stylistic contrast between the marble texture of David and the realistic skin texture of the trainer spotting him?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the voxel style of the dog clearly distinguishable from the anime style of the magical girl it is interacting with?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the barbell appear to be a realistic object (metal/rubber) distinct from the marble material of David's hands?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the Pop Art bodybuilder's body visually occlude the right half of David's body as described?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

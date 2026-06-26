@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the general environment (city park, oak tree, grass, water surface) rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the teenage boy sketching beneath the tree rendered in a Japanese anime style (simplified features, large eyes)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the canvas display a painting of a park scene rendered in a pointillist style (distinct dots of color)?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the bench rendered in a surrealist style, appearing to melt or flow?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the melting bench appear to flow from the realistic grass, showing a seamless transition between the surreal and realistic elements?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Is the elderly man attempting to sit on the bench rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the elderly man's trouser cuffs stained by distorted wood grain ripples?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are the koi fish beneath the water surface rendered in a blocky, pixel art style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Are the water splashes created by the pixel art fish rendered realistically (fluid dynamics rather than pixels)?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the kite in the sky rendered in an Art Nouveau style, shaped like ornate peacock tail feathers?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the little girl running with the kite rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the kite's curving vine ribbons drift down and entangle around realistic tree branches?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the elderly man clearly depicted attempting to sit on the melting edge of the bench?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

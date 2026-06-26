@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the greenhouse interior background (glass panes, sunlight, wet floor) rendered in a photorealistic style with realistic depth of field?",
+    "category": "Style",
+    "subcategory": "Background Rendering",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the female gardener rendered in a Ukiyo-e woodblock print style, featuring flat color fills and visible color registration edges?",
+    "category": "Style",
+    "subcategory": "Character Style",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the female gardener depicted bending down in a posture consistent with watering a plant?",
+    "category": "Composition",
+    "subcategory": "Action Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Is the hummingbird rendered in a stained glass style with visible black lead cames and transparent/translucent colored segments?",
+    "category": "Style",
+    "subcategory": "Character Style",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the hummingbird hovering in front of the female gardener?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Is the rabbit rendered in a watercolor style with visible paper texture or bleeding color edges?",
+    "category": "Style",
+    "subcategory": "Character Style",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the rabbit partially hidden behind a flower pot with only about half of its face visible and obscured by leaves?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the LEGO minifigure rendered with a realistic plastic toy texture, exhibiting injection molding seams or hard specular highlights?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the LEGO minifigure holding a watering can?",
+    "category": "Composition",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Are the water droplets sprayed by the LEGO figure rendered in a photorealistic style (distinct from the plastic LEGO style)?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the body of the cat rendered in a photorealistic real-world style?",
+    "category": "Style",
+    "subcategory": "Character Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the cat's tail transform into a traditional Chinese ink wash painting style (dry brush strokes, flying white, or ink bleeding)?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Do the stylized subjects cast realistic shadows onto the photorealistic ground, consistent with unified lighting?",
+    "category": "Style",
+    "subcategory": "Style Integration",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Are clear occlusion relationships visible among the subjects (e.g., leaves obscuring rabbit, hummingbird in front of gardener)?",
+    "category": "Structure",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are all five distinct subjects (gardener, hummingbird, rabbit, LEGO figure, cat) recognizable in the image?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the image free of any readable text?",
+    "category": "General",
+    "subcategory": "Text Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

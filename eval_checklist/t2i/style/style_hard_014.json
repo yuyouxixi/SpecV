@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is there an ornate golden baroque-style carousel positioned in the center of the image?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the child riding the carousel horse rendered in a Japanese anime style (e.g., large eyes, simplified facial features)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the carousel horse rendered in a surrealist style with a melting appearance?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is there a clear stylistic contrast between the anime-style child and the surrealist-style melting horse they are riding?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is the clown in the foreground rendered in a Pop Art style with bold black outlines and a primary color scheme?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the clown in the foreground partially obscure the carousel?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Is the clown juggling exactly five colorful balls?",
+    "category": "Composition",
+    "subcategory": "Quantity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Are the clouds in the sky rendered in an impressionist style with visible brushstrokes and a cotton candy pink color?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the Ferris wheel in the background rendered in a Pixel Art style with colorful block-shaped cabins?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the fortune teller on the far right rendered in a traditional Chinese ink wash painting style with flowing robes?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the booth behind the fortune teller rendered in a Cubist style with geometric fragmentation?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is there a distinct stylistic contrast between the ink wash fortune teller and the cubist booth?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Are there significant anatomical distortions on the human characters (e.g., extra limbs, distorted faces) that are not attributed to their specific art styles?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "No",
+    "score": 8.0
+  }
+]

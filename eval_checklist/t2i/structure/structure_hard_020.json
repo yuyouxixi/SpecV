@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a horizontal canvas with a white background showing a Cartesian coordinate system?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the coordinate system range approximately cover x ∈ [-3, 13] and y ∈ [-6, 6]?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the grid drawn with light gray lines, showing small ticks every 1 unit and thick grid lines every 2 units?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Are there two intersecting circles drawn with black thin solid lines: C1 centered at (0,0) with radius 3, and C2 centered at (4,0) with radius 2?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Are the centers O1 and O2 marked with black solid dots, labeled correctly, and connected by a thin gray line segment?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are the intersection points X and Y marked with blue solid dots at approximately x = 2.625 (21/8)?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Is the common chord XY drawn as a blue thick line and extended vertically to represent the Radical Axis?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the external center of similitude 'S' marked at (12,0) with a red hollow circle dot and a label?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are there two external common tangent lines (red, thick, solid) originating from S and tangent to both circles?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Are the tangent points labeled (T1, T2 on C1; U1, U2 on C2) and connected to their respective centers by thin gray radii?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are right angle symbols present at the tangent points indicating the radii are perpendicular to the tangent lines?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is there a data table in the upper right corner with a light gray border and no background fill?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the diagram strictly use only black, gray, blue, and red colors (no gradients or shadows)?",
+    "category": "Style",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

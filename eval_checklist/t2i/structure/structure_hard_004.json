@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image divided into two vertical columns, with the left column (approx. 60%) wider than the right column (approx. 40%)?",
+    "category": "Composition",
+    "subcategory": "Layout Balance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the left column feature a radial mind map with a large central circle labeled 'T0'?",
+    "category": "Structure",
+    "subcategory": "Main Element Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are there exactly 6 main branches radiating from the center in the specified directions (up, upper-right, lower-right, down, lower-left, upper-left)?",
+    "category": "Structure",
+    "subcategory": "Spatial Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Do the main branches connect to 6 rounded rectangle nodes labeled 'A' through 'F'?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Do the nodes A-F form a regular hexagonal layout around the center, exhibiting vertical and horizontal symmetry?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does each of the 6 main nodes (A-F) extend into exactly 3 secondary branches connecting to small unlabeled dots?",
+    "category": "Structure",
+    "subcategory": "Count Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does each secondary dot further branch into exactly 2 even smaller leaf dots?",
+    "category": "Structure",
+    "subcategory": "Count Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Does the right column feature a vertical timeline with exactly 7 milestone dots labeled 'T1' through 'T7' arranged equidistantly?",
+    "category": "Structure",
+    "subcategory": "Spatial & Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does each timeline dot connect via a short horizontal line to a rectangular label box labeled 'P1' through 'P7'?",
+    "category": "Structure",
+    "subcategory": "Node Connections",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is there a bypass fork between T3 and T4 that diverges to a dot labeled 'X1' and returns to the main line at T4?",
+    "category": "Structure",
+    "subcategory": "Logic & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Is there a table located at the bottom of the right column consisting of exactly 2 rows and 3 columns?",
+    "category": "Structure",
+    "subcategory": "Grid Structure",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the table feature a checkerboard fill pattern with the top-left cell being black?",
+    "category": "Style",
+    "subcategory": "Pattern & Color",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are all text labels (T0, A-F, T1-T7, P1-P7, X1) clearly legible and free of spelling errors?",
+    "category": "Text Rendering",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

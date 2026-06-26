@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image an A4 landscape infographic in a flat vector style containing three distinct visualizations: a central nested donut chart, a right-side vertical bar chart, and a bottom reconciliation table?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the title 'BUDGET BREAKDOWN 2026' clearly displayed with the total budget 'TOTAL = USD 2.40B' written immediately below it?",
+    "category": "Text Rendering",
+    "subcategory": "Title & Subtitle Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the central donut chart consist of two nested rings: an inner ring with exactly 3 segments and an outer ring with exactly 12 segments?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are the inner ring segments correctly labeled with the main categories and percentages: Operations (45%), Capital Projects (35%), and Community Programs (20%)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are the chart colors organized by family as specified: Blue for Operations, Purple for Capital Projects, and Orange for Community Programs, with subcategories using shades of the parent color?",
+    "category": "Style",
+    "subcategory": "Color Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does every sector in the outer ring of the donut chart have a leader line connecting to a label in the format 'Name + USD + % of total'?",
+    "category": "Structure",
+    "subcategory": "Labeling & Annotation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Is the vertical bar chart on the right titled 'YoY Change by Subcategory (%)' and does it feature a bold zero line?",
+    "category": "Structure",
+    "subcategory": "Chart Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the bar chart Y-axis range approximately from -4 to +10, and does it contain exactly 12 bars?",
+    "category": "Structure",
+    "subcategory": "Coordinate System & Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Do the bars use dual colors to represent polarity: Green (#22C55E) for positive values and Red (#EF4444) for negative values?",
+    "category": "Style",
+    "subcategory": "Data Visualization Style",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the bar chart values visually accurate according to the data: 'Health' is the tallest positive bar (+7), 'Parks' is at zero, and 'Other Ops' and 'Water & Roads' are negative (red)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the reconciliation table at the bottom have exactly 4 columns with headers corresponding to CATEGORY, SUBCATEGORY, USD (B), and YoY%?",
+    "category": "Structure",
+    "subcategory": "Table Structure",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the table contain exactly 13 rows (12 subcategory rows plus 1 total row)?",
+    "category": "Structure",
+    "subcategory": "Table Structure",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the bottom row of the reconciliation table explicitly state 'TOTAL USD 2.40B'?",
+    "category": "Text Rendering",
+    "subcategory": "Data Verification",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are all text labels in English, numbers clearly legible, and the image free from garbled text or severe artifacts?",
+    "category": "General",
+    "subcategory": "Readability & Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is the infographic rendered in a consistent 2D flat vector style with no 3D effects or realistic gradient lighting?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

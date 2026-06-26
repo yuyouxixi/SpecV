@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the mermaid's upper human body rendered in a photorealistic style with visible, fine skin texture?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the mermaid have flowing hair rendered with realistic detail?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Is the mermaid's fish tail composed of colorful mosaic tile fragments?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is there a distinct visual separation between the photorealistic upper body and the mosaic tail on the mermaid?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the boulder the mermaid reclines against exhibit a surrealist style with a melting appearance?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the ocean in the background painted with soft Impressionist brushstrokes?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the treasure chest in the foreground rendered in a pixel art style with visible blocky pixels?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the great wave on the right rendered in a dramatic Ukiyo-e style (e.g., bold outlines, flat color areas)?",
+    "category": "Style",
+    "subcategory": "Regional Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the sunset on the horizon depicted using a Pointillist style composed of thousands of tiny colored dots?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are all specified artistic styles (photorealistic, mosaic, surrealist, Impressionist, pixel art, Ukiyo-e, Pointillist) simultaneously identifiable in the image?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

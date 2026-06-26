@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict a sequential organic reaction mechanism diagram (showing a flow from reactants to products, not just a static equation)?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are the two specific reactants, benzaldehyde (benzene ring with aldehyde group) and acetone, visually present at the start of the pathway?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the catalyst NaOH (or OH-) explicitly labeled in the diagram?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the formation of an enolate anion (depicted with a negative charge or double bond shift) shown as the first mechanistic step?",
+    "category": "Structure",
+    "subcategory": "Process Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the nucleophilic addition step depicted, showing a connection forming between the enolate and the carbonyl carbon of benzaldehyde?",
+    "category": "Structure",
+    "subcategory": "Process Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the β-hydroxy ketone intermediate (containing both a ketone group and an alcohol -OH group) explicitly present in the sequence?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the final product depicted as an α,β-unsaturated ketone (a structure with a carbon-carbon double bond conjugated with a carbonyl group)?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are curved electron-transfer arrows present at each of the four steps (deprotonation, addition, protonation, dehydration)?",
+    "category": "Structure",
+    "subcategory": "Process Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Are the intermediate structural formulas accompanied by text labels?",
+    "category": "Structure",
+    "subcategory": "Text/Label Content",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Are reaction conditions (e.g., reagents, temperature) labeled for the specific stages of the reaction?",
+    "category": "Structure",
+    "subcategory": "Text/Label Content",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Are the chemical structures drawn with correct bonding topology (e.g., benzene rings are hexagonal, bond lines are connected correctly)?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

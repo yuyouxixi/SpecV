@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image follow a split layout with a mesophyll cell on the left, a flowchart in the middle, and a chemical formula on the right?",
+    "category": "Composition",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is a microscopic cross-section of a plant mesophyll cell clearly depicted on the left side?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are the thylakoid membranes and stroma structures visually distinguishable within the chloroplast?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the complex chemical molecular structure formula of chlorophyll a depicted on the right side?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is there a biochemical reaction flowchart in the middle that visually connects the left and right components?",
+    "category": "Structure",
+    "subcategory": "Nodes & Connections",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the flowchart include multiple arrows and cyclic pathways?",
+    "category": "Structure",
+    "subcategory": "Nodes & Connections",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the text label 'CO2' (or Carbon Dioxide) clearly visible as a reactant?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the text label 'H2O' (or Water) clearly visible as a reactant?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the text label 'C6H12O6' (or Glucose) clearly visible as a product?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the text label 'O2' (or Oxygen) clearly visible as a product?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

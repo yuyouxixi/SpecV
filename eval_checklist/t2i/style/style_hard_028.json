@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Are the bookshelves and library environment rendered in a realistic interior photography style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the librarian in the foreground rendered in a watercolor figure style, exhibiting characteristics like soft edges or washes?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the watercolor style of the librarian visually distinct from the realistic photographic style of the background environment?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Do the pages of the open book exhibit a Japanese manga panel layout style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the plush toy cat rendered with a 3D fluffy fur texture style?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the 3D fluffy texture style of the plush cat visually distinct from the manga panel style of the book pages it sits on?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the plush toy cat sitting on the book pages and covering at least two manga panels?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the globe rendered in a low-polygon style with visible geometric facets?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the globe partially obscuring the desk lamp base?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Does the desk lamp feature a realistic metallic texture?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the desk lamp display any readable text?",
+    "category": "Text Rendering",
+    "subcategory": "Legibility",
+    "expected_answer": "No",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the illustration within the open book presented in an aged parchment map style?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is one corner of the aged parchment map illustration pressed beneath the cat's paw?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

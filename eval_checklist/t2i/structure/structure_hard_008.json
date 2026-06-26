@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict a horizontal diagram on a white background (approx 3:2 aspect ratio) with a strict 5-column grid layout?",
+    "category": "Structure",
+    "subcategory": "Global Layout",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Are there exactly 5 stage container rectangles arranged horizontally from left to right, equal in size and spacing?",
+    "category": "Structure",
+    "subcategory": "Global Layout",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Do the five containers have light gray borders?",
+    "category": "Style",
+    "subcategory": "Color & Attributes",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Are the containers labeled with the titles 'L1', 'L2', 'L3', 'L4', and 'L5' in correct order from left to right?",
+    "category": "Text Rendering",
+    "subcategory": "Label Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does container L1 contain exactly 3 source modules labeled 'S1', 'S2', and 'S3' arranged vertically?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does container L2 contain exactly 2 ingestion modules labeled 'I1' and 'I2' arranged vertically?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does container L3 contain exactly 4 processing modules labeled 'P1', 'P2', 'P3', and 'P4' arranged in a 2x2 grid?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Does container L4 contain exactly 3 storage modules labeled 'D1', 'D2', and 'D3' arranged horizontally?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does container L5 contain exactly 2 output modules labeled 'O1' and 'O2' arranged vertically?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Are all small modules depicted as rounded rectangles?",
+    "category": "Structure",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do arrows from each source module (S1, S2, S3) in L1 connect separately to both I1 and I2 in L2 (fan-out)?",
+    "category": "Structure",
+    "subcategory": "Logic & Connections",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Do the arrows from I1 and I2 in L2 connect only to the upper row modules (P1 and P2) in L3?",
+    "category": "Structure",
+    "subcategory": "Logic & Connections",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Inside L3, are there vertical arrows connecting P1 to P3 and P2 to P4?",
+    "category": "Structure",
+    "subcategory": "Logic & Connections",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Do arrows from P3 and P4 in L3 converge specifically to the single module D2 in L4?",
+    "category": "Structure",
+    "subcategory": "Logic & Connections",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Do arrows from all three storage modules (D1, D2, D3) in L4 connect to module O1 in L5?",
+    "category": "Structure",
+    "subcategory": "Logic & Connections",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Is there a connection arrow from O1 to O2 within L5?",
+    "category": "Structure",
+    "subcategory": "Logic & Connections",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Is there a dashed arrow connecting O2 in L5 back to P1 in L3 (representing the feedback loop)?",
+    "category": "Structure",
+    "subcategory": "Logic & Connections",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 18,
+    "question": "Are all connection arrows drawn as orthogonal right-angle lines (no diagonals or curves)?",
+    "category": "Structure",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 19,
+    "question": "Do cross-container arrows run only in blank areas, avoiding passing through the interior of any modules?",
+    "category": "Structure",
+    "subcategory": "Spatial Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Is there a legend box in the bottom right corner containing the text 'solid arrow = FLOW' and 'dashed arrow = FEEDBACK'?",
+    "category": "Text Rendering",
+    "subcategory": "Content Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Does the image use only black, gray, and blue colors as specified?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 22,
+    "question": "Are all text labels (module names, titles, legend) clearly legible and free of garbled characters?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

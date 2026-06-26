@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image presented on a horizontal canvas with a white background?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the image consist of two equal-sized panels (left and right) separated by a thin gray vertical line?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the left panel depict an isometric view of a cubic unit cell with a black thin line framework?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are the crystal axes labeled 'a', 'b', and 'c' with small three-axis arrows in the left panel?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are there exactly 8 corner atoms shown as small gray spheres/circles in the left panel?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are there exactly 6 face-center atoms shown as larger gray spheres/circles in the left panel?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the (111) plane depicted as a triangular polygon connecting the three axis intercepts ((a,0,0), (0,a,0), (0,0,a))?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the (111) plane colored light blue, semi-transparent, and outlined with a blue stroke?",
+    "category": "Style",
+    "subcategory": "Color & Visual Attributes",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the text label '(111)' written directly on the triangular plane face in the left panel?",
+    "category": "Structure",
+    "subcategory": "Text/Label Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is there a blue arrow indicating the plane normal direction labeled '[111]' in the left panel?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are three atoms within the plane in the left panel labeled 'F1', 'F2', and 'F3' using thin gray leader lines?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the right panel show a 2D projection with atoms (gray circles) arranged in a hexagonal close-packed pattern (staggered rows)?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the lattice in the right panel contain at least 3 rows and at least 5 atoms per row?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are two lattice vectors labeled 'a1' and 'a2' drawn as black arrows in the right panel?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the angle between vectors a1 and a2 marked with a small arc and labeled '60°'?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is a minimum parallelogram primitive cell outlined in blue and labeled '2D CELL' in the right panel?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Are three specific atoms in the right panel labeled 'F1', 'F2', and 'F3' with thin gray dashed lines to show correspondence?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Is the color scheme strictly limited to black, gray, and blue (no other colors)?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is the image free from shadows and gradients (flat fills and strokes only)?",
+    "category": "Style",
+    "subcategory": "Rendering Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

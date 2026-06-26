@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a horizontal canvas with a white background, divided into a larger left panel (approx. 60%) and a smaller right panel (approx. 40%)?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the left panel contain a 3D coordinate system with x, y, and z axes depicted as black thin arrow lines?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is there a vertical cylindrical surface in the left panel rendered as a transparent gray wireframe or grid mesh?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is there a light blue semi-transparent quadrilateral plane in the left panel labeled 'PLANE'?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the intersection of the cylinder and the plane highlighted with a thick red closed space curve?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are there exactly four red solid dots on the intersection curve labeled P0, P1, P2, and P3?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the points in the left panel correctly labeled with their coordinates: P0(2,0,3), P1(0,2,1), P2(-2,0,-1), and P3(0,-2,1)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the right panel divided into three vertical sections: top (x-y projection), middle (y-z projection), and bottom (table)?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the top section of the right panel show a black thin circle (x²+y²=4) with projected points P0-P3 marked?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the middle section of the right panel show a black thin circle (y²+(z-1)²=4) centered at (0,1) with projected points P0-P3 marked?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is there a formula box at the top of the right panel containing the parametric equations: x=2 cos t, y=2 sin t, z=2 cos t + 1?",
+    "category": "Text Rendering",
+    "subcategory": "Content Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the bottom section contain a table with a light gray border, consisting of exactly 5 columns and 5 rows?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Do the table column headers correctly list 't', 'x', 'y', 'z', and 'note'?",
+    "category": "Text Rendering",
+    "subcategory": "Content Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the table contain data rows corresponding to t=0, π/2, π, and 3π/2 with the correct coordinate values matching the P0-P3 labels?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the 'note' column in the table contain the text 'MAX z', 'z=1', 'MIN z', 'z=1' in the correct row order?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the color scheme strictly limited to black, gray, light blue, and red?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Is the image free of gradients and shadows, adhering to a flat vector line art style (semi-transparency allowed)?",
+    "category": "Style",
+    "subcategory": "Rendering Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are all text labels, mathematical symbols (including π), and numbers clearly legible without garbling?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

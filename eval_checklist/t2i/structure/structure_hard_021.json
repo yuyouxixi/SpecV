@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image display a horizontal two-column layout with the left column (~65%) showing the main function graph and the right column (~35%) split into an upper derivative graph and a lower table?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the left graph feature a coordinate system with a light gray grid, showing an x-axis range of [-4, 4] and a y-axis range of [-6, 6]?",
+    "category": "Structure",
+    "subcategory": "Coordinate System & Axes",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the main function curve in the left column drawn as a blue thick line with three separate branches and visible discontinuities at x=-1 and x=1?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are there two vertical asymptotes in the left graph drawn as red thin dashed lines at x=-1 and x=1, labeled \"x=-1\" and \"x=1\" at their tops?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is there a horizontal asymptote in the left graph drawn as a gray thin dashed line at y=1, labeled \"y=1\"?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are points A(0,-1), B(2,5/3), and C(-2,5/3) marked with blue filled dots and labeled correctly on the main graph?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are there small gray limit annotations near the asymptotes indicating behaviors (e.g., x→-1⁻ f→+∞, x→1⁺ f→+∞)?",
+    "category": "Structure",
+    "subcategory": "Text/Label Content",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the upper-right block show the derivative curve as a purple medium-thick line with discontinuities at x=-1 and x=1?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the derivative graph include red thin dashed vertical asymptotes at x=±1 and a black thin horizontal reference line at y=0?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the point D(0,0) marked and labeled at the origin of the derivative graph?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the lower-right table have a light gray border, bold header, and columns for the intervals (-∞,-1), (-1,0), (0,1), and (1,∞)?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the table include rows labeled \"SIGN f(x)\", \"SIGN f'(x)\", \"SIGN f''(x)\", \"MONOTONE\", and \"CONCAVITY\"?",
+    "category": "Structure",
+    "subcategory": "Text/Label Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "In the table row \"SIGN f'(x)\", are the cells marked \"+\" for x<0 intervals and \"-\" for x>0 intervals?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "In the table row \"SIGN f''(x)\" (or CONCAVITY), are the cells marked \"+\" (or ∪) for |x|>1 intervals and \"-\" (or ∩) for |x|<1 intervals?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the image exclusively use the colors black, gray, red, blue, and purple, with a white background and no gradient shadows?",
+    "category": "Style",
+    "subcategory": "Color & Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is all text in the image restricted to Latin letters, numerals, and mathematical symbols (no garbled or foreign characters)?",
+    "category": "Style",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Are all text labels and mathematical symbols clear, legible, and free from severe distortion?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

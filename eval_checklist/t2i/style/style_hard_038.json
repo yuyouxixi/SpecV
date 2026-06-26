@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background (pine forest, rock textures) rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Do the distant mountains exhibit aerial perspective (atmospheric haze, reduced contrast)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the hiker rendered in a realistic style (skin, clothing) consistent with the photorealistic background?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the hiker's backpack exterior rendered in a quilting textile patchwork style, distinct from the realistic hiker body?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the backpack exhibit specific texture details like visible stitching and puffy cotton batting?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the bear rendered in a medieval tapestry embroidery style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the bear's surface show woven thread textures and flattened shadows characteristic of tapestry?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the squirrel rendered in a stop-motion claymation style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the squirrel exhibit a matte clay surface with visible fingerprint impressions?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the signpost rendered in a charcoal sketch style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the signpost display rough lines and paper smudge marks typical of charcoal drawings?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the lake reflection area rendered in an 8-bit pixel art style (blocky pixels with limited color palette)?",
+    "category": "Style",
+    "subcategory": "Regional Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Does the 8-bit pixel art reflection blend seamlessly with the realistic lakeshore edge?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are the boundaries between the different art styles (e.g., realistic hand vs. tapestry paw) clear and distinct?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the lighting direction consistent across all mixed-style objects (hiker, bear, squirrel, signpost)?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is there accurate physical contact between the hiker's hand and the bear's paw?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Is the image free of readable text?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is the image free of severe structural distortions (e.g., facial collapse, extra limbs) not attributed to the specific art styles?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

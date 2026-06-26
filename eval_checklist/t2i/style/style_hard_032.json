@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the corporate office environment rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the human manager rendered in a photorealistic style consistent with the environment?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the woman rendered in Picasso's Cubist style, exhibiting geometric fragmentation?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Do the hands of the Cubist woman exhibit geometric fragmentation or displacement while receiving the document?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the Pharaoh rendered in an ancient Egyptian wall mural style with a strict 2D side profile?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the penguin rendered in a stop-motion claymation style with visible clay-like texture?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the hacker rendered in a neon wireframe (Synthwave) style?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the document being exchanged rendered as a realistic object, contrasting with the Cubist hands receiving it?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the laptop used by the wireframe hacker rendered realistically, contrasting with the hacker's wireframe body?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Do the glowing lines from the wireframe hacker cast colored light onto the manager's realistic pant legs?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are there significant structural distortions in the photorealistic manager (e.g., extra fingers, melted face) that are not part of a specific style?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "No",
+    "score": 8.0
+  }
+]

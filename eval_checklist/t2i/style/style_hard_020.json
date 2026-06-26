@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the overall classroom environment (desks, whiteboard, window light) rendered in a realistic photography style with authentic depth of field?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the teacher rendered in a photorealistic style (skin, clothing, hair), distinct from the stylized elements?",
+    "category": "Style",
+    "subcategory": "Character Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the lizard rendered in a chalk doodle / line-art style with visible chalk-like texture?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the chalk lizard visually cross the boundary from the whiteboard surface onto the real podium, maintaining its style while interacting with the realistic environment?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the eraser on the podium rendered in a pixel-art style with visible blocky pixels and aliased edges?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the chalk lizard's tail appear to physically nudge the pixel-art eraser toward the desk edge?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Is the paper airplane rendered in an origami style with visible paper folds and creases?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the paper airplane in the foreground obscure approximately half of the teacher's face?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the front-row student rendered in an American comic style with visible halftone dot patterns?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the student's raised arm create an intersecting occlusion with the paper airplane in the foreground?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the image on the tablet screen rendered in an isometric vector style (flat colors, clean lines), distinct from the photorealistic device?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the teacher's finger visibly pressing on a corner of the tablet screen?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is lighting and perspective consistent across all elements (photoreal and stylized), ensuring they align with a single coherent camera viewpoint?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

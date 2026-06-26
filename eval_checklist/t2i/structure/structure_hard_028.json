@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict a realistic online flight booking and seat selection webpage UI (e-commerce/travel site aesthetic)?",
+    "category": "Style",
+    "subcategory": "Aesthetic & Tone",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 2,
+    "question": "Does the webpage main body follow a distinct left-right column layout?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is there a step progress bar at the top containing exactly 5 steps?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are the progress bar steps labeled exactly \"Search\", \"Details\", \"Seat Selection\", \"Payment\", and \"Confirmation\"?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the left column contain a complex form area including passenger info block cards, collapsible sections, and multi-line inputs?",
+    "category": "Structure",
+    "subcategory": "UI Components",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is there a price and itinerary summary card displayed on the right side of the layout?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the right summary card include a visible pie chart representing fare breakdown composition?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is there a timeline component at the bottom of the right summary area showing Departure, Layover, and Arrival nodes connected by lines?",
+    "category": "Structure",
+    "subcategory": "Nodes & Connections",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the Seat Map, Price Calendar, and Cabin Class Comparison Table all present simultaneously below the form area?",
+    "category": "Structure",
+    "subcategory": "Global Layout",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Does the Seat Map display an airplane seat grid divided by cabin class zones with visible row/column numbering?",
+    "category": "Structure",
+    "subcategory": "Grid Structure",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are unavailable seats in the Seat Map depicted as gray blocks?",
+    "category": "Style",
+    "subcategory": "Color & Visual Cues",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the Price Calendar feature a grid with exactly 7 columns (representing days of the week)?",
+    "category": "Structure",
+    "subcategory": "Rows/Columns/Grid Structure",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Do the Price Calendar cells contain price placeholders and lowest-price markers?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the Cabin Class Comparison Table include columns for different classes and rows for items like baggage, rebooking, or refunds?",
+    "category": "Structure",
+    "subcategory": "Table Structure",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the Comparison Table use checkmark and cross icons within its cells to indicate feature availability?",
+    "category": "Structure",
+    "subcategory": "Visual Symbols",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Are the multiple grids, tables, and UI sections aligned properly without chaotic overlapping?",
+    "category": "Structure",
+    "subcategory": "Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Are the grid lines and borders in the tables and calendars straight and distinct, without breaking or merging?",
+    "category": "General",
+    "subcategory": "Line Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

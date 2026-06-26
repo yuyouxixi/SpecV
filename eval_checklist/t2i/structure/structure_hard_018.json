@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image divided into two equal-width panels (left and right) separated by a thin gray vertical line?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the left panel depict a planar 2R robotic arm schematic with a base frame at origin O (black arrows for x-right, y-up)?",
+    "category": "Structure",
+    "subcategory": "Coordinate System & Axes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the first link (O to J) in the left panel annotated with 'L1=3' using a light gray dimension line?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the second link (J to P) in the left panel annotated with 'L2=2'?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the angle 'θ1=30°' annotated at the base with a gray arc and arrow (counterclockwise from +x)?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the relative angle 'θ2=60°' annotated at elbow J with a gray arc?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are joints O and J depicted as black solid circles, and end-effector P as a blue solid circle labeled 'P' in the left panel?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Are there thin gray dashed lines projecting P onto the x and y axes in the left panel?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the coordinate text 'x≈2.60, y≈3.50' written near the projections in the left panel?",
+    "category": "Structure",
+    "subcategory": "Text/Label Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the right panel display black x–y coordinate axes and two concentric circles centered at origin O?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the outer circle visually approximately 5 times larger in radius than the inner circle?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy - Proportion",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the annular region between the circles filled with very light gray (no gradient) and labeled 'REACHABLE'?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is point P in the right panel shown as a blue solid dot within the annular region (clearly outside inner circle and inside outer circle)?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the position of P in the right panel visually consistent with radius ~4.36 (closer to the outer circle boundary than the inner circle)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy - Proportion",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Is point P in the right panel labeled 'P' with a thin gray leader line?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is there a blue radius line drawn from the origin to P in the right panel, labeled 'r'?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Does the image strictly adhere to the color scheme (White background, Black/Gray lines/text, Blue point P) without shadows or gradients?",
+    "category": "Style",
+    "subcategory": "Color & Style Constraints",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Are all text labels and numerical annotations clearly legible without blurring, overlapping, or non-Latin characters?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the general classroom environment (tiered lecture hall, wooden seats, windows) rendered in a photorealistic style with daylight streaming in?",
+    "category": "Style",
+    "subcategory": "Environment Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the professor at the podium rendered in a Cubist style, featuring geometrically fragmented planes and multi-perspective facial features?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the student in the first row rendered in Japanese cel animation style, exhibiting crisp outlines and flat cel-shaded shadows?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the student in the second row rendered in Renaissance fresco style, showing plaster texture and faded pigments?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the third student rendered in paper collage/cut-out style, clearly showing layered torn-edge paper fragments?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the teaching assistant rendered in a photorealistic style with visible motion blur?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the projection screen display isometric technical line art or blueprint style graphics (picture-within-a-picture)?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the professor positioned at the podium, turning around and explaining with hand gestures?",
+    "category": "Composition",
+    "subcategory": "Action & Pose",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Is the cel animation style student in the first row raising their hand?",
+    "category": "Composition",
+    "subcategory": "Action & Pose",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the Renaissance fresco style student in the second row showing head down taking notes?",
+    "category": "Composition",
+    "subcategory": "Action & Pose",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the paper collage-style student partially occlude the Renaissance fresco-style student?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do all subjects, despite their varying styles, share a unified perspective consistent with the classroom geometry?",
+    "category": "Structure",
+    "subcategory": "Perspective Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Do all subjects share a unified lighting direction and cast shadows consistent with the classroom environment?",
+    "category": "Style",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Does the content on the projection screen consist only of geometric shapes without any text?",
+    "category": "Text Rendering",
+    "subcategory": "Text Absence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the image free of readable text on the screen, notebooks, or elsewhere?",
+    "category": "Text Rendering",
+    "subcategory": "Text Absence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

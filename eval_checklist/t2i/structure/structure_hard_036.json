@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict a Cartesian coordinate system with an ellipse drawn on it?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the ellipse oriented horizontally (major axis along X) with correct proportions (wider than it is tall, consistent with a=4, b=3)?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are the major axis endpoints labeled A₁ and A₂ at approximately (±4, 0), and minor axis endpoints labeled B₁ and B₂ at approximately (0, ±3)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are the two foci labeled F₁ and F₂ positioned on the X-axis inside the ellipse, with F₂ on the positive side (right)?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is there a line segment PQ drawn passing through the right focus (F₂) with a slope of approximately 1 (45-degree angle)?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is there a perpendicular line segment drawn from the origin (O) to the line PQ?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the perpendicular line segment from the origin rendered as a dashed line?",
+    "category": "Style",
+    "subcategory": "Line Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the intersection of the perpendicular and line PQ labeled 'H' (foot), and the intersection with the ellipse labeled 'R'?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is there a visual right-angle symbol marking the intersection at point H?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are coordinate tuples (x, y) annotated near the key points (A, B, F, P, Q, R, H, O)?",
+    "category": "Structure",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the length of segment PQ explicitly labeled or annotated on the diagram?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the area formula for triangle PQR explicitly written on the diagram?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

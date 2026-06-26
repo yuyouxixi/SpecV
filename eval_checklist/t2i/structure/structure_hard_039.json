@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict a top-down view of a maze structure?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Is the maze structured as a 20×20 grid (20 rows and 20 columns)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the maze walls drawn with thick black lines and the paths shown as white corridors?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is there an entrance at the bottom-left corner marked with a green arrow?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the entrance marker labeled with the text 'START'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is there an exit at the top-right corner marked with a red arrow?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the exit marker labeled with the text 'END'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is there a 2×2 central plaza visible in the center region of the maze?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is there a ring-shaped corridor (closed loop) visible within the maze layout?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the correct path through the maze marked with a yellow dashed line?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the yellow dashed line logically connect the 'START' entrance to the 'END' exit?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the yellow dashed path stay within the white corridors and avoid crossing through the black walls?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is there a coordinate grid drawn around the maze perimeter?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the row and column numbers on the coordinate grid labeled from 1 to 20?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is there a legend displayed at the bottom of the image explaining the meaning of the symbols?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a horizontal canvas with a white background containing a single poster-style table?",
+    "category": "Composition",
+    "subcategory": "Canvas & Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the title 'CONIC SECTIONS QUICK TABLE' rendered in black bold text at the top center?",
+    "category": "Text Rendering",
+    "subcategory": "Title Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the table feature a two-layer header with merged cells: 'CONIC' and 'NOTES' spanning 2 rows vertically?",
+    "category": "Structure",
+    "subcategory": "Table Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the header contain 'EQUATIONS' spanning 3 columns and 'GEOMETRY' spanning 2 columns horizontally?",
+    "category": "Structure",
+    "subcategory": "Table Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Are the sub-headers 'STANDARD', 'GENERAL', 'PARAMETRIC' correctly placed under 'EQUATIONS'?",
+    "category": "Text Rendering",
+    "subcategory": "Label Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the sub-headers 'FOCUS/DIRECTRIX' and 'ECCENTRICITY e' correctly placed under 'GEOMETRY'?",
+    "category": "Text Rendering",
+    "subcategory": "Label Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does each of the four content rows feature a small black line-art icon with coordinate axes in the first column?",
+    "category": "Style",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "In the CIRCLE row, is the standard equation rendered as x²+y²=r² (or visually equivalent)?",
+    "category": "Text Rendering",
+    "subcategory": "Formula Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "In the ELLIPSE row, is the standard equation rendered as x²/a²+y²/b²=1?",
+    "category": "Text Rendering",
+    "subcategory": "Formula Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "In the PARABOLA row, is the standard equation rendered as y²=4ax?",
+    "category": "Text Rendering",
+    "subcategory": "Formula Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "In the HYPERBOLA row, does the standard equation correctly use a minus sign (x²/a²-y²/b²=1)?",
+    "category": "Text Rendering",
+    "subcategory": "Formula Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the GENERAL column display the quadratic form Ax²+Bxy+Cy²+Dx+Ey+F=0 with annotations regarding B=0 or B≠0?",
+    "category": "Text Rendering",
+    "subcategory": "Formula Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the ECCENTRICITY column correctly match values: Circle (e=0), Ellipse (0<e<1), Parabola (e=1), Hyperbola (e>1)?",
+    "category": "Structure",
+    "subcategory": "Data Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the NOTES column include the specified symbols: bullet (•), arrow (→), and approximate (≈)?",
+    "category": "Text Rendering",
+    "subcategory": "Symbol Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the footnote 'All formulas assume Cartesian coordinates; a,b,r>0' present in small gray text at the bottom right?",
+    "category": "Text Rendering",
+    "subcategory": "Fine Print",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the table feature a light gray outer frame with thinner, lighter internal grid lines?",
+    "category": "Style",
+    "subcategory": "Line Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Do the content area rows exhibit alternating light gray shading (zebra stripes)?",
+    "category": "Style",
+    "subcategory": "Pattern/Shading",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Is the color palette strictly limited to black, gray, and blue (no gradients or shadows)?",
+    "category": "Style",
+    "subcategory": "Color Constraints",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Is blue used exclusively for emphasis (header underlines or key symbols)?",
+    "category": "Style",
+    "subcategory": "Color Logic",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 20,
+    "question": "Are all text and mathematical symbols legible without severe blurring or garbled characters?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Are the table grid lines straight and aligned without obvious breaks or distortions?",
+    "category": "General",
+    "subcategory": "Line Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Is the text free of non-Latin characters or hallucinations?",
+    "category": "General",
+    "subcategory": "Text Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

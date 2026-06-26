@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the laundromat environment (row of metal machines, slightly reflective floor) rendered in a photorealistic style with realistic depth of field?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the lighting rendered as cold white fluorescent light consistent with the environment?",
+    "category": "Style",
+    "subcategory": "Lighting & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the young person rendered in a photorealistic style matching the environment?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the raccoon rendered in a claymation / stop-motion animation style (e.g., visible clay texture, matte finish)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the T-shirt rendered in a pixel art style (e.g., visible blocky pixels)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the paper crane rendered in an origami style (e.g., visible paper folds and creases)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the floating prompt box rendered in a neon wireframe holographic style (glowing edges, transparent interior)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the sticker on the washing machine door rendered in a black-and-white manga panel style (monochrome linework, screentones)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Are the boundaries between the different visual styles distinct and sharp, without unintended blending?",
+    "category": "Style",
+    "subcategory": "Style Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the claymation raccoon sitting on the edge of the washing machine door and tugging at the T-shirt with its paws?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the pixel art T-shirt half sucked behind the transparent washing machine door glass, showing clear foreground-background occlusion?",
+    "category": "Structure",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the neon wireframe prompt box positioned in front of the control panel but partially occluded by the young person's forearm?",
+    "category": "Structure",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is one corner of the manga sticker visibly pressed down by the raccoon's tail?",
+    "category": "Structure",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the origami paper crane cast a realistic shadow onto the wall?",
+    "category": "Style",
+    "subcategory": "Global Illumination",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are all key objects present and recognizable (person, raccoon, T-shirt, crane, prompt box, sticker)?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

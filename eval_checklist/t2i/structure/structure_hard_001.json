@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "question": "Is the overall layout divided into three horizontal rows (top title bar, middle main body, bottom indicator area) with approximate height proportions of 12%, 78%, and 10%?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the top title bar contain a solid square LOGO on the left and the text 'DASHBOARD' in the center?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the right side of the title bar display two lines of small text: 'DATE 01' and 'VER 1'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the middle main body divided into three columns of equal width?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the left column contain a table with exactly 5 columns and 8 rows?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the first row of the table merged into a single header cell labeled 'H'?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the first column of the table contain row labels 'R1' through 'R7'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the table feature alternating light gray backgrounds for odd/even rows?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the grouped bar chart (middle column, upper half) contain exactly 4 groups (G1-G4), with each group having 3 bars (A/B/C)?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Does the bar chart Y-axis range from 0 to 100 with exactly 5 divisions?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the line chart (middle column, lower half) display exactly 12 data points (M1-M12) marked with circles?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the line chart contain exactly 4 light gray horizontal grid lines?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the pie chart (right column, upper half) contain exactly 5 sectors (S1-S5)?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "In the pie chart, is sector S4 (100°) visually the largest and sector S1 (40°) visually the smallest?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy - Proportion",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Is there a vertical legend with 5 rows on the right side of the pie chart?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Does the flowchart (right column, lower half) contain the nodes: START, P1, D1 (diamond), P2, P3, P4, and END?",
+    "category": "Structure",
+    "subcategory": "Nodes & Connections",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "Does the flowchart logic show D1 branching to P2 and P3, which then merge at P4?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Are all connecting lines in the flowchart strictly horizontal or vertical (no diagonal lines)?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 19,
+    "question": "Does the bottom indicator area contain exactly 4 equal-width KPI cards?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 20,
+    "question": "Do the KPI cards display large numbers '01', '02', '03', '04' on top and small labels 'K1', 'K2', 'K3', 'K4' below?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 21,
+    "question": "Are all modules outlined with thin rectangular border frames?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 22,
+    "question": "Is the color palette strictly limited to black, gray, and blue tones?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 23,
+    "question": "Does the text consist exclusively of Latin letters and numerals?",
+    "category": "Text Rendering",
+    "subcategory": "Font & Script",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image formatted as a 2x2 grid containing four equal-sized panels?",
+    "category": "Composition",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is there a visible outer margin and consistent spacing between the four panels?",
+    "category": "Composition",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Are the panels labeled 'A', 'B', 'C', and 'D' in their respective upper-left corners?",
+    "category": "Text Rendering",
+    "subcategory": "text_presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does Panel A depict a dipole with a positive charge (+Q) on the left and a negative charge (-Q) on the right?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "In Panel A, do electric field lines emanate from +Q and curve into -Q with correct directional arrows?",
+    "category": "Structure",
+    "subcategory": "Physics Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "In Panel A, are the field lines perfectly mirror-symmetric across both vertical and horizontal axes?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does Panel A include gray dashed closed curves (equipotential lines) that are orthogonal to the field lines?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does Panel B show two thick black horizontal plates, with the upper marked '+' and the lower marked '-'?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "In Panel B, are the electric field lines vertical, uniform, and pointing from top to bottom?",
+    "category": "Structure",
+    "subcategory": "Physics Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "In Panel B, do the field lines curve/flare outward at the left and right edges of the plates?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does Panel B include horizontal gray dashed equipotential lines between the plates?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does Panel C contain two side-by-side current symbols: a circle with a dot (out) and a circle with a cross (in)?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "In Panel C, are the magnetic field lines depicted as blue concentric circles?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "In Panel C, are the arrows Counter-Clockwise for the 'dot' current and Clockwise for the 'cross' current?",
+    "category": "Structure",
+    "subcategory": "Physics Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Does Panel D show a background array of cross symbols indicating a magnetic field pointing into the page?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "In Panel D, is the velocity vector (v) a blue arrow pointing right and the force vector (F) a blue arrow pointing up?",
+    "category": "Structure",
+    "subcategory": "Physics Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "In Panel D, is the particle trajectory depicted as an upward-curving circular arc?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Are the labels 'q', 'v', 'B', and 'F' present in Panel D?",
+    "category": "Text Rendering",
+    "subcategory": "text_presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Is the image style flat vector line art with no shadows or gradients?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Is the color palette strictly limited to black, gray, and blue (on a white background)?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

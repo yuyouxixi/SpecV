@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image layout divided into a 2×2 grid of four equal-sized panels by thin black lines?",
+    "category": "Composition",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the four panels labeled with corner labels 'A', 'B', 'C', and 'D' respectively?",
+    "category": "Text Rendering",
+    "subcategory": "Label Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does Panel A (Animal Cell) contain all specified structures: nucleus, nucleolus, mitochondria, rough endoplasmic reticulum, Golgi apparatus, lysosomes, and centrosome?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "In Panel A, is the nucleus depicted with a double-line envelope containing a small circular nucleolus, and are mitochondria depicted as ovals with internal cristae?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "In Panel A, is the rough endoplasmic reticulum depicted as wavy tubules with dotted ribosomes?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the structures in Panel A connected via leader lines to the labels 'N', 'NU', 'M', 'RER', 'G', 'L', and 'CEN'?",
+    "category": "Text Rendering",
+    "subcategory": "Label Content & Association",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does Panel B depict a neuron structure in the upper half and an action potential curve in the lower half?",
+    "category": "Structure",
+    "subcategory": "Layout & Components",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the neuron in Panel B include dendrites, soma, axon, segmented myelin sheath with nodes of Ranvier, and synaptic boutons?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are there arrows in Panel B indicating the signal propagation direction along the neuron?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "In Panel B, are the axes labeled 't' and 'V', and is there a label 'TH' near the threshold line?",
+    "category": "Text Rendering",
+    "subcategory": "Label Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the action potential curve in Panel B show the resting phase, depolarization spike, repolarization, and hyperpolarization recovery, along with a dashed threshold line?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does Panel C (Gene Network) contain exactly 10 nodes labeled 'G1' through 'G10'?",
+    "category": "Text Rendering",
+    "subcategory": "Numerical Accuracy & Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Are the nodes in Panel C arranged in a two-layer layout with exactly 4 nodes in the upper layer and 6 nodes in the lower layer?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "In Panel C, are activation relationships shown with arrow connections and inhibition relationships shown with T-bar (flat-head) connections?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Are all nodes in Panel C depicted as equal-sized rounded rectangles?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does Panel D (Gel Electrophoresis) show a rectangular gel with exactly 10 loading wells at the top?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "In Panel D, is Lane 1 labeled 'LADDER' and are Lanes 2–10 labeled 'S1' through 'S9'?",
+    "category": "Text Rendering",
+    "subcategory": "Label Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Are the bands in Panel D depicted as dark gray rectangles, with Lane 1 showing regular spacing and Lanes 2-10 horizontally aligned?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is there a molecular weight scale on the left side of Panel D with numbers like 100, 200, 300?",
+    "category": "Text Rendering",
+    "subcategory": "Label Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Are the colors in the image strictly limited to black, gray, and blue?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Is the image rendered in a vector line art style without shadows or gradients?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 22,
+    "question": "Does all text in the image consist solely of Latin letters and numerals?",
+    "category": "Text Rendering",
+    "subcategory": "Script Constraint",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 23,
+    "question": "Are all text labels and annotations clearly legible and free from garbled characters?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 24,
+    "question": "Is the image free from severe artifacts, warped geometry, or broken lines?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

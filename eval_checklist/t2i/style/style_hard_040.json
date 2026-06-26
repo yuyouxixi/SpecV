@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the courtroom environment (space and furniture) rendered in a photo-realistic style with warm overhead lighting?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the bailiff/security guard in the foreground rendered in a photo-realistic style (realistic skin and fabric)?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the judge rendered in a woodcut print style, featuring coarse line engravings and strong black-white contrast?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the lawyer rendered in a hard black ink line comic style with strong contrast and bold outlines?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Do the lawyer's hands exhibit exaggerated perspective, consistent with the specified comic style?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the defendant rendered in a stop-motion claymation style, exhibiting clay-like textures, wrinkles, or molded forms?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the witness rendered in a classical oil painting style, featuring soft gradients and visible canvas texture?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the display screen show a Mondrian-style (De Stijl) geometric composition with red, yellow, and blue rectangles and black lines?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Is the Mondrian-style content on the screen visually distinct (picture-in-picture) from the surrounding photorealistic environment?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are distinct style boundaries maintained between the characters (no unintended blending/bleeding of styles)?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is there unified lighting (warm overhead) and perspective across all differently-styled elements in the scene?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the judge's gavel-striking action depicted as frozen mid-air?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the lawyer reaching to hand a document toward the witness stand?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is the defendant turning back to look and partially occluded by the bailiff?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are all six specified subjects (bailiff, judge, lawyer, defendant, witness, display screen) present in the image?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Is the image completely free of readable text (including on the display screen and documents)?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

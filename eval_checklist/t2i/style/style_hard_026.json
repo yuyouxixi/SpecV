@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the general environment of the coffee shop (walls, tables, lighting) rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the Eiffel Tower visible through the window rendered in a photorealistic style (consistent with a real-world view, not painterly)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the figure of Mona Lisa rendered in the specific Renaissance oil painting style of Leonardo da Vinci (soft sfumato, muted palette, subtle modeling)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the figure of Van Gogh rendered in the specific Post-Impressionist/Impasto style of his self-portraits (visible directional brushstrokes, bold colors)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the background people and the waiter rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the Mona Lisa figure exhibit smooth, sfumato-like blending and subtle tonal transitions characteristic of Da Vinci, rather than photographic skin texture?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the Van Gogh figure exhibit visible, thick, swirling brushstrokes characteristic of his style, rather than photorealistic skin detail?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is there a distinct stylistic contrast between the painterly Mona Lisa figure and the photorealistic coffee shop environment?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is there a clear stylistic differentiation between the painterly Van Gogh and the photorealistic waiter interacting with him?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are the two painterly styles distinguishable from each other (Da Vinci's smooth sfumato vs. Van Gogh's energetic strokes), rather than blending into a generic painting style?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are there visible unwanted 'style leaks' where photorealistic elements (waiter, background patrons) partially adopt painterly brushwork?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

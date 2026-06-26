@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a horizontal layout with a white background containing two diagrams arranged side by side (P-V on the left, T-S on the right)?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the two diagrams separated by a thin gray vertical line?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Do both diagrams feature black coordinate axes with consistent tick marks?",
+    "category": "Structure",
+    "subcategory": "Coordinate System & Axes",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the left diagram (P-V) contain a closed cycle formed by two smooth blue isothermal curves (hyperbola-like) and two steeper blue adiabatic curves?",
+    "category": "Structure",
+    "subcategory": "Geometric Shapes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "In the left diagram, is the upper isothermal curve labeled 'TH' and the lower one labeled 'TC'?",
+    "category": "Text Rendering",
+    "subcategory": "Label Placement & Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "In the left diagram, are there four blue solid dots labeled 1 (bottom-left), 2 (bottom-right), 3 (top-right), and 4 (top-left)?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "In the left diagram, does the cycle follow the specific path: 1→2 (lower isotherm), 2→3 (right adiabatic), 3→4 (upper isotherm), and 4→1 (left adiabatic)?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "In the left diagram, do the arrows indicate a counterclockwise direction (1→2→3→4)?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the right diagram (T-S) depict a blue rectangular cycle with vertical left and right sides?",
+    "category": "Structure",
+    "subcategory": "Geometric Shapes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "In the right diagram, is the top horizontal line labeled 'TH' and the bottom horizontal line labeled 'TC'?",
+    "category": "Text Rendering",
+    "subcategory": "Label Placement & Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "In the right diagram, are the corner points labeled 1, 2, 3, 4 with the same positioning as the left diagram (1 bottom-left, 2 bottom-right, 3 top-right, 4 top-left)?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Do the arrows in the right diagram indicate a clockwise direction?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is there a thin gray bracket labeled 'QH' above the top of the right diagram and a label 'QC' below the bottom?",
+    "category": "Text Rendering",
+    "subcategory": "Label Placement & Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the area inside the right rectangular cycle annotated with 'W' in thin gray text?",
+    "category": "Text Rendering",
+    "subcategory": "Label Placement & Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the overall color scheme strictly limited to black, gray, and blue?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the image style flat with uniform line width, free of shadows or gradients?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Is all text content legible and limited to Latin letters and numerals (no garbled text or non-Latin characters)?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the kitchen background environment rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the human chef rendered in a photorealistic style consistent with the environment?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the knight figure rendered in a medieval stained glass mosaic style (with visible lead lines and colored glass segments)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the orange cat rendered in a 16-bit pixel art style (with visible blocky pixels)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the Thinker statue rendered in a bronze cast style with metallic texture/patina?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the dragon rendered in a pop-up book paper sculpture style (showing paper folds or layered construction)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the apple rendered in a flat vector illustration style (flat colors, clean edges, minimal gradients)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the stained glass knight holding a photorealistic frying pan (creating a style contrast)?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the bronze Thinker statue holding a photorealistic spoon?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the spice jars knocked over by the pixel cat rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is there a visible mixture of pixelated blocks and photorealistic scattered pepper near the cat?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Are the flames breathed by the dragon rendered with a paper texture (rather than realistic fire)?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is the dragon depicted emerging three-dimensionally from an open cookbook?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Do the paper flames partially occlude (overlap) the chef's shoulder?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are all 6 distinct subjects (chef, knight, cat, statue, dragon, apple) recognizable in the image?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is the image free from unintended style bleeding (e.g., photorealistic walls becoming pixelated)?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

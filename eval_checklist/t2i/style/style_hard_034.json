@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the supermarket fresh produce section environment rendered in an overall photorealistic style (realistic lighting, materials, and depth)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the elderly grandmother rendered in a photorealistic style (realistic skin texture, anatomy, and clothing) consistent with the environment?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the cherub rendered in a Raphael Renaissance fresco style (matte plaster-like texture, soft classical features, aged pigment look)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the mechanical spider rendered in a 3D steampunk style with convincing metallic textures (gears, rivets, reflections)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the wild wolf rendered as a flat, black paper-cut silhouette (2D shape without volumetric shading)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the sunflower exhibit an impasto style with visibly thick, raised paint ridges or heavy brushstroke texture?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Are all five objects (grandmother, cherub, spider, wolf, sunflower) visually distinct from one another in their respective artistic styles?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are the cherub's arms partially occluded by the thick impasto paint texture of the sunflower?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the paper-cut wolf's mouth open, attempting to bite the hem of the grandmother's realistic skirt?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the photorealistic grandmother free from severe anatomical distortions (e.g., facial collapse, extra limbs)?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Are there obvious rendering artifacts (e.g., blurred patches, incoherent geometry) not attributable to the intended artistic styles?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "No",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a horizontal canvas with a white background, divided into three equal-width columns separated by thin gray vertical lines?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the left column depict an inclined plane system with a block (m1) on the slope, a pulley at the top, and a hanging block (m2) connected by a rope?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the angle of the inclined plane marked with an arc and arrow, and labeled explicitly as \"THETA=30\"?",
+    "category": "Structure",
+    "subcategory": "Text/Label Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "In the left column, are coordinate axes drawn with 'x' along the incline and 'y' perpendicular to it (normal direction)?",
+    "category": "Structure",
+    "subcategory": "Coordinate System & Axes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are dashed lines used in the left column to indicate the rope segments, maintaining parallel (incline) and vertical (hanging) relationships?",
+    "category": "Structure",
+    "subcategory": "Style & Attributes",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the middle column contain two vertically aligned Free Body Diagrams (FBDs) for m1 (upper) and m2 (lower)?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the upper FBD (for m1) display exactly four blue force arrows labeled N, T, F, and mg?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "In the upper FBD, is the force N perpendicular to the incline and mg vertically downward?",
+    "category": "Structure",
+    "subcategory": "Spatial & Geometric Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the upper FBD include gray dashed lines decomposing mg into components labeled \"mgx\" and \"mgy\"?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the lower FBD (for m2) display exactly two collinear blue force arrows labeled T (upward) and mg (downward)?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the right column contain three vertically stacked small graphs with aligned x-axes sharing the same time scale?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Are the graphs in the right column labeled with axes 'a', 'v', 'x' (vertical) and 't' (horizontal), including tick marks?",
+    "category": "Structure",
+    "subcategory": "Text/Label Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Do the curves in the right column correctly depict: a(t) as a horizontal line, v(t) as a straight line increasing from the origin, and x(t) as an upward-opening parabola?",
+    "category": "Structure",
+    "subcategory": "Data Points & Trends",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Is there a vertical dashed line labeled or indicated at time 't1' passing through all three graphs, with small dots at the intersection points?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the diagram use only black, gray, and blue colors, with force arrows specifically colored blue?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Are all text labels composed exclusively of Latin letters and numbers, and are they clearly legible?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Are the vector lines, graph curves, and axes smooth and consistent in width without breaks or artifacts?",
+    "category": "General",
+    "subcategory": "Line & Border Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

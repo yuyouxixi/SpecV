@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the general background environment (ballroom dance floor) rendered as a realistic photography scene?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the groom rendered in a photorealistic style (realistic skin, lighting, and detail)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the bride rendered in a Japanese anime style (stylized features, large eyes, clean linework)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is there a clear visual distinction between the photorealistic groom and the anime bride?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the flower girl in the foreground rendered in a claymation stop-motion animation style (clay-like texture, simplified forms)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the flower girl positioned to partially block the lower hem of the bride's gown?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the ring pillow held by the flower girl exhibit an embroidered-texture style (visible stitches or thread patterns)?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the ring pillow partially obscured by the flower girl's arms?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the three-tier wedding cake rendered in a stained glass style (segmented panes, lead-like outlines, translucency)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is one corner of the wedding cake's base obscured by a realistic tablecloth edge?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the realistic tablecloth edge visually distinct from the stained glass cake it obscures?",
+    "category": "Style",
+    "subcategory": "Regional Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the ribbon light trails rendered in a retro synthwave neon style (bright glow, high saturation)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Do the ribbon light trails weave in front of and behind the figures to create layered depth?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is a photographer's camera LCD screen visible in the extreme foreground?",
+    "category": "Composition",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the content on the camera LCD screen display the dance step in a black and white manga panel style?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is the manga-style image on the LCD clearly differentiated from the photorealistic camera body?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Are there any obvious visual artifacts or glitches at the boundaries where different styles meet?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

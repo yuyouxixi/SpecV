@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image feature a horizontal canvas with a white background, divided into a main map on the left (approx. 70%) and a column of three vertically stacked panels on the right (approx. 30%)?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the three auxiliary panels on the right framed in thin gray lines and properly aligned vertically?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the main map depict a topographic contour map with brown-gray thin strokes, featuring one hill (concentric contours) and one U-shaped valley?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are index contours on the main map numerically labeled with values indicating an interval of 20 (e.g., 100, 120, 140, 160, 180)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does a blue river wind through the valley bottom on the main map and exit the boundary?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is there a black road crossing the river on the main map, with the bridge specifically indicated by two short parallel lines?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is a coordinate grid overlaid on the main map with columns labeled A-D and rows labeled 1-4 on the border frame?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is there a North arrow labeled 'N' in the upper right corner and a scale bar labeled '0-1-2 km' in the lower left corner of the main map?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is there a thick black cross-section line labeled 'A' and 'B' at its ends drawn on the main map?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the top-right panel (Location Inset) show a simplified rectangular outline with a highlighted box indicating the main map extent and a pointing arrow?",
+    "category": "Structure",
+    "subcategory": "Element Completeness & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the middle-right panel (Terrain Profile) display axes labeled 'DIST' (horizontal) and 'ELEV' (vertical)?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the bottom-right panel (Climate Chart) have a horizontal axis labeled with months 1-12?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the Climate Chart feature a dual-axis layout with 'TEMP' (left vertical) for a line graph and 'PREC' (right vertical) for exactly 12 bar columns?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are the colors strictly applied as: terrain lines brown-gray, river blue, and all other elements black/gray?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is the image completely free of shadows and gradients, adhering to a flat vector line art style?",
+    "category": "Style",
+    "subcategory": "Art Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does all text in the image consist exclusively of Latin letters and numerals?",
+    "category": "Text Rendering",
+    "subcategory": "Script/Language",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

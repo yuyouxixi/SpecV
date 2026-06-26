@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the gallery space and floor rendered in an isometric minimalist vector illustration style (flat colors, clean geometric lines, parallel perspective)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the central marble sculpture exhibit a realistic carved stone texture, distinct from the surrounding vector environment?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are the two visitors rendered in a black-and-white manga ink-line style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the small patrol drone rendered in an origami paper-folding style with visible creases and paper texture?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the framed painting on the wall exhibit an Impressionist oil painting style with visible brushstrokes?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the content on the smartphone screen rendered in a claymation stop-motion animation style (clay-like texture/modeling)?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are there clear, sharp boundaries where objects of different styles meet (e.g., no unintended blending between the realistic sculpture and vector floor)?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the claymation style content on the smartphone screen visually distinct from the manga ink-line style of the visitor holding it?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is one visitor depicted raising a hand and making a V-sign gesture?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the other visitor depicted leaning sideways and peeking?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the smartphone screen display a selfie showing the visitor with the sculpture?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Are fingers shown partially obscuring the content on the smartphone screen?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

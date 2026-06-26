@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict an analog circuit schematic using standard electrical symbols?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is the circuit clearly arranged as a two-stage amplifier configuration?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Are there exactly two NPN transistors (symbolized with the arrow on the emitter pointing outward)?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are the transistors labeled specifically as \"Q1\" and \"Q2\"?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Labels",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Are resistors labeled with designations ranging from \"R1\" to \"R8\"?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Labels",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is there a specific load resistor labeled \"RL\" at the output stage?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Labels",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Are capacitors labeled with designations ranging from \"C1\" to \"C4\"?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Labels",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is there a sine wave symbol indicating the signal source at the input?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is there an input coupling capacitor visually connecting the signal source to the first amplifier stage?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the two amplifier stages connected through an interstage coupling capacitor?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Does each transistor stage include base bias resistors and a collector load resistor?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Do the emitter legs of the transistors contain a resistor and a bypass capacitor connected in parallel?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the power supply rail at the top labeled with \"+12V\"?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Labels",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are parameter values (numbers/units like kΩ, µF) displayed next to the component designators?",
+    "category": "Text Rendering",
+    "subcategory": "Content Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Are the circuit lines straight, clean, and properly connected without breaks or 'hallucinated' floating wires?",
+    "category": "General",
+    "subcategory": "Line Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

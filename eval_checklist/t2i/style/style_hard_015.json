@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Are the background seawater and distant coral reefs rendered in a traditional Chinese ink wash painting style (e.g., monochrome/limited palette with soft gradients and fluid brushstrokes)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the octopus waiter rendered entirely in a colorful stained glass style (e.g., segmented colors with dark, lead-like outlines)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the diver rendered in a realistic underwater photography style, exhibiting details like realistic skin texture, equipment, bubbles, and light refraction?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the teapot rendered in a blue-and-white porcelain pattern illustration style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are there two jellyfish rendered in a vaporwave/neon retro style (e.g., glowing neon colors, high saturation)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the mini submarine in the distance rendered in a pixel art style (showing visible blocky pixels)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is there a clear stylistic distinction between the ink wash background and the various stylized foreground elements?",
+    "category": "Style",
+    "subcategory": "Foreground/Background",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Do overlapping regions preserve each object’s intended style (e.g., neon jellyfish overlay does not convert the diver into neon style, and tentacle occlusion does not convert the diver into stained glass)?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is one of the octopus's tentacles curled around the teapot?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the diver reaching out to receive a cup with their wrist obscured by an octopus tentacle?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is one jellyfish positioned in front of the diver, creating a clear occlusion?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image layout arranged as a dashboard containing a top KPI section, a left multi-line chart, an upper-right stacked bar chart, a lower-right pie chart, and a bottom table?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the visual style 'vector flat' with colorful elements and no 3D effects or heavy shadows?",
+    "category": "Style",
+    "subcategory": "Art Style & Rendering",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the top KPI section contain exactly three cards, including one displaying 'Total trips = 111.4M'?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Do the other KPI cards display 'Peak month = Aug (10.45M)' and 'Mode share in Aug = Bus 3.9 / Metro 5.3 / Bike 1.25'?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the left multi-line chart have a title 'Monthly Trips (M)', an x-axis labeled Jan–Dec, and a y-axis range of 0–6?",
+    "category": "Structure",
+    "subcategory": "Chart Axes & Labels",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the multi-line chart contain exactly three lines with point markers, colored Green (Bus), Blue (Metro), and Orange (Bike)?",
+    "category": "Structure",
+    "subcategory": "Visual Attributes & Colors",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "In the multi-line chart, is the Blue (Metro) line consistently the highest and the Orange (Bike) line consistently the lowest?",
+    "category": "Structure",
+    "subcategory": "Data Accuracy & Trends",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the annotations 'Heatwave' (at July) and 'Storm' (at September) present on the multi-line chart?",
+    "category": "Text Rendering",
+    "subcategory": "Contextual Text",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the upper-right stacked bar chart have a title 'Fare Revenue by Payment Type (USD M)', x-axis Q1–Q4, and y-axis 0–170?",
+    "category": "Structure",
+    "subcategory": "Chart Axes & Labels",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Do the stacked bars display the correct total values at the top: Q1=120, Q2=135, Q3=150, Q4=140?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does each bar in the stacked chart consist of exactly four segments representing Contactless, Card, Cash, and Pass?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the lower-right pie chart contain exactly 5 slices with percentages 52%, 18%, 12%, 10%, and 8% labeled outside the slices?",
+    "category": "Structure",
+    "subcategory": "Data Accuracy & Labels",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the pie chart include a legend identifying Commuter, Student, Senior, Tourist, and Other?",
+    "category": "Structure",
+    "subcategory": "Chart Legend",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the bottom table consist of exactly 4 columns and 4 rows (Header row + Bus, Metro, Bike rows)?",
+    "category": "Structure",
+    "subcategory": "Table Structure",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "In the table, are the '2025 Total' values exactly 42.1 (Bus), 58.5 (Metro), and 10.8 (Bike)?",
+    "category": "Text Rendering",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Does the table correctly display the calculated 'Avg per month' (Bus~3.5, Metro~4.9, Bike~0.9) and 'Peak month' (Bus: Aug, Metro: Aug, Bike: Jul)?",
+    "category": "World Knowledge",
+    "subcategory": "Reasoning & Calculation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are all text labels, numerals, and legends in the dashboard clearly readable without blurring, garbling, or overlap?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

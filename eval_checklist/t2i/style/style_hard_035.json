@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "question": "Is the city park lawn background rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the human father rendered in a photorealistic style (natural skin texture, realistic lighting)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the dog rendered in Seurat's Pointillism style, composed of countless visible colored dots?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the bird rendered in a minimalist single-line art style (continuous stroke)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the nobleman rendered in Rembrandt's Baroque oil painting style, featuring dramatic chiaroscuro and heavy shadows?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the mecha rendered in a cel-shaded 3D style with flat colors and distinct outlines?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the sun on the ground rendered in a chalk drawing style with a matte, powdery texture?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the sandwich being handed by the father rendered in a realistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the frisbee being caught by the dog rendered in a realistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the daisy being scanned by the mecha rendered in a realistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the nobleman's extended hand exhibit heavy oil-painted shadows characteristic of the Baroque style?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the sun's light rays depicted as volumetric/3D forms while retaining a chalky material appearance?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do the photorealistic father and the oil-painted nobleman exhibit a clear contrast in artistic medium?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the single-line art bird visually distinct in style from the oil-painted hat it is perched on?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Do the chalk light rays wrapping around the mecha's calves maintain a chalky texture distinct from the mecha's cel-shaded surface?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Are all six distinct subjects (father, dog, bird, nobleman, mecha, sun) recognizable in the image?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Is the photorealistic father depicted handing a sandwich to the Baroque nobleman?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Is the dog depicted mid-air in a leaping pose attempting to catch the frisbee?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "Is the mecha depicted sitting on the grass and using its hand to scan the daisy?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 20,
+    "question": "Is the bird perched on the nobleman's hat?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Is the sun positioned on the ground as specified in the prompt?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 22,
+    "question": "Does the Pointillist dog visually occlude the cel-shaded mecha (dog in front of mecha)?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 23,
+    "question": "Do the chalk light rays visually wrap around the mecha's calves?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

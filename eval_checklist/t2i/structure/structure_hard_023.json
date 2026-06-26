@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image present a 'single-page PPT style' structured infographic on a white background with a vector flat style (no gradients/shadows)?",
+    "category": "Style",
+    "subcategory": "Artistic Style & Medium",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is the layout strictly divided into a top title bar and three main content blocks: left vertical column, upper-right area, and lower-right area (split into two)?",
+    "category": "Composition",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the top black title bar contain the text 'GEOMETRY & FUNCTIONS' on the left and 'SLIDE 01' (in gray) on the right?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the left vertical column contain an outline bullet list (using •) with the exact items: 'Vertex form', 'Axis of symmetry', 'Focus/directrix', 'Transformations', 'Key points table'?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the upper-right coordinate system show an x-axis range of approximately [-5, 5] and a y-axis range of approximately [-4, 6]?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the y1 curve (x^2) colored Black with its vertex at the origin (0,0)?",
+    "category": "Structure",
+    "subcategory": "Data Visualization Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the y2 curve ((x-2)^2+1) colored Blue with its vertex shifted to approximately (2, 1)?",
+    "category": "Structure",
+    "subcategory": "Data Visualization Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the y3 curve (0.5(x+1)^2-2) colored Red, with its vertex at approximately (-1, -2), and visually wider/flatter than the black curve?",
+    "category": "Structure",
+    "subcategory": "Data Visualization Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is there a legend box in the upper-right chart labeling y1, y2, and y3?",
+    "category": "Text Rendering",
+    "subcategory": "Labeling",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "In the lower-right-left analytic illustration, is the Vertex V(2,1) marked with a **blue filled dot** and the Focus F(2,1.5) marked with a **blue hollow dot**?",
+    "category": "Structure",
+    "subcategory": "Geometric Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the analytic illustration show the axis of symmetry (x=2) and directrix (y=0.5) as **gray dashed lines**?",
+    "category": "Structure",
+    "subcategory": "Geometric Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Are there right angle symbols or equidistant markers in the analytic illustration emphasizing that the distance to the focus equals the distance to the directrix?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the lower-right-right block contain a table with at least 4 columns and 4 rows, featuring light gray borders and a header row with a light gray background?",
+    "category": "Structure",
+    "subcategory": "Table Structure",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Do the table headers explicitly read 'FUNC', 'a', 'h', 'k'?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Do the table rows list 'y1', 'y2', 'y3', and a blank row for 'custom'?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are the colors in the image strictly limited to black, gray, blue, and red (no extraneous colors)?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are all text labels and numbers clearly readable, Latin-only, and free from garbled characters?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Are the grid lines, graph curves, and table borders straight and free from warping or distortion?",
+    "category": "General",
+    "subcategory": "Line Quality & Distortion",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

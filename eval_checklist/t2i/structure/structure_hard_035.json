@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict a technical drawing consisting of exactly three distinct orthographic views?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the Front View positioned at the upper left of the layout?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the Side View positioned at the upper right of the layout?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the Top View positioned at the lower left of the layout (directly below the Front View)?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are the Front View and Side View aligned horizontally, and the Front View and Top View aligned vertically?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the geometric subject depicted resemble a regular hexagonal prism (six-sided base)?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is one corner of the hexagonal prism visually truncated (cut off by an oblique plane)?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are the views connected by projection alignment lines?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the projection alignment lines styled as dash-dot center lines?",
+    "category": "Structure",
+    "subcategory": "Visual Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are hidden edges within the views represented by dashed lines?",
+    "category": "Structure",
+    "subcategory": "Visual Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are numerical dimension annotations (arrows and numbers) present on the drawing?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the specific text 'Scale 1:2' present in the image?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Is the 'Scale 1:2' text located in the lower right corner of the image?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 10.0
+  }
+]

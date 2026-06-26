@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict a physics force analysis diagram consisting of a block on an inclined plane connected to a suspended object via a pulley?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the inclined plane depicted at an angle of approximately 30° (or explicitly labeled as such)?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are there separate free-body diagrams (FBDs) drawn for both the block (mass m) and the suspended object (mass M)?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is a rectangular coordinate system visually established adjacent to the diagrams?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are the axes of the coordinate system aligned along the incline direction and perpendicular to the incline?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Are the component forces (orthogonal decomposition) indicated by dashed lines?",
+    "category": "Structure",
+    "subcategory": "Visual Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the specific force labels 'mg', 'N', 'f', and 'T' present in the image?",
+    "category": "Structure",
+    "subcategory": "Text/Label Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "In the block's diagram, is the gravitational force vector (mg) drawn pointing vertically downwards?",
+    "category": "Structure",
+    "subcategory": "Physics Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "In the block's diagram, is the normal force vector (N) drawn perpendicular to the surface of the inclined plane?",
+    "category": "Structure",
+    "subcategory": "Physics Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "In the block's diagram, is the frictional force vector (f) drawn parallel to the inclined plane?",
+    "category": "Structure",
+    "subcategory": "Physics Logic",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "In the block's diagram, is the tension force vector (T) drawn along the incline towards the pulley?",
+    "category": "Structure",
+    "subcategory": "Physics Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "In the suspended object's diagram, are the gravitational force (Mg) pointing down and tension (T) pointing up correctly shown?",
+    "category": "Structure",
+    "subcategory": "Physics Logic",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

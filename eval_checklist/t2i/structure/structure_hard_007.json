@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image follow the specified layout: Fishbone diagram in the upper ~70%, and a split lower section (Table on left, Bar Chart on right)?",
+    "category": "Composition",
+    "subcategory": "Global Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the Fishbone diagram have a horizontal spine extending left-to-right, ending in a rectangular box labeled 'EFFECT'?",
+    "category": "Structure",
+    "subcategory": "Nodes & Connections",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are there exactly 6 main bones connected to the spine, labeled A through F respectively?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Do the main bones alternate in direction starting with the 1st bone upward (Up, Down, Up...), angled at approximately 60°?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does each main bone have exactly 2 sub-bones (tilted same direction) ending in small dots with no text?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the checklist table (lower left) have exactly 6 rows and 4 columns?",
+    "category": "Structure",
+    "subcategory": "Rows/Columns/Grid Structure",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the table headers labeled H1-H4 and row titles labeled R1-R5?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Do the table cells contain hollow square checkboxes, with checks ONLY in the diagonal pattern (R1H1, R2H2, R3H3, R4H4, R5H1)?",
+    "category": "Structure",
+    "subcategory": "Data Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the bar chart (lower right) contain exactly 8 vertical bars with coordinate axes and scale marks?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are the bars labeled B1 through B8 below the x-axis?",
+    "category": "Text Rendering",
+    "subcategory": "Specific Text Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do the bars in the chart have uniform width and spacing?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the image limited to Black, Gray, and Blue colors only (no other colors)?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the image free of gradients and shadows (flat style)?",
+    "category": "Style",
+    "subcategory": "Visual Style",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does all text use only Latin letters and numbers (no non-Latin scripts)?",
+    "category": "Text Rendering",
+    "subcategory": "Font & Script",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are all text labels (EFFECT, A-F, H1-H4, R1-R5, B1-B8) clearly legible without garbling?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

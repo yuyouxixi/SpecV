@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the general environment (baggage claim, carousel, ceiling lights) rendered in a realistic photography style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the realistic environment include a marble floor with reflections and a blurred crowd in the background?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the traveler rendered in a cel-shaded anime style (flat colors, bold outlines)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the anime traveler depicted leaning forward and reaching over a realistic metal railing?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is the suitcase rendered in a low-poly 3D style with visible hard-edged geometric facets?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the astronaut figurine rendered in a claymation stop-motion style (soft, moldable appearance)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is roughly half of the astronaut figurine's body occluded by the suitcase's low-poly telescopic handle?",
+    "category": "Structure",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the overhead flight information display rendered in a glitched ASCII or terminal character style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is one corner of the ASCII flight display blocked by a distant real concrete pillar?",
+    "category": "Structure",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is there a glass partition visible on the right side of the frame containing a reflection of the traveler?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Is the reflection of the traveler in the glass partition rendered in the same cel-shaded anime style?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the stylized reflection correctly perspective-aligned with the traveler?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do the multiple distinct styles (photorealism, anime, low-poly, claymation, ASCII) coexist clearly without blending into a single uniform style?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 10.0
+  }
+]

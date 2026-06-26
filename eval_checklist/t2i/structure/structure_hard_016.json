@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image rendered on a white background with a horizontal canvas?",
+    "category": "Composition",
+    "subcategory": "Background & Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the image depict a single cube in isometric projection (no perspective convergence)?",
+    "category": "Structure",
+    "subcategory": "Geometric Projection",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the cube's three edge groups oriented at approximately ±30° to the horizontal and vertical directions?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Are there exactly 8 vertices labeled A, B, C, D (top face, clockwise) and E, F, G, H (bottom face, corresponding directly below)?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the vertices marked with small solid black dots?",
+    "category": "Structure",
+    "subcategory": "Element Attributes",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the vertex connectivity correct: Top A-B-C-D, Bottom E-F-G-H, and Vertical edges A-E, B-F, C-G, D-H?",
+    "category": "Structure",
+    "subcategory": "Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Are visible cube edges rendered with thick black solid lines?",
+    "category": "Style",
+    "subcategory": "Line Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are hidden cube edges rendered with thin gray dashed lines?",
+    "category": "Style",
+    "subcategory": "Line Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are there exactly 6 midpoints labeled P1 through P6 marked with blue hollow circles?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are the midpoints correctly located on edges in this sequence: P1 on AB, P2 on BC, P3 on CG, P4 on GH, P5 on HE, and P6 on EA?",
+    "category": "Structure",
+    "subcategory": "Spatial Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Are points P1-P6 connected by thick blue dashed lines to form a closed hexagonal section?",
+    "category": "Structure",
+    "subcategory": "Geometric Construction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the hexagon interior filled with a very light blue semi-transparent color (no gradient)?",
+    "category": "Style",
+    "subcategory": "Color & Fill",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are thin gray auxiliary lines drawn from each point Pi to both endpoints of its respective edge?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is there a blue normal vector arrow labeled 'n' perpendicular to the section plane?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is there a label 'PLANE π' with a thin gray leader line pointing to the section?",
+    "category": "Text Rendering",
+    "subcategory": "Label Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Is there a coordinate triad labeled x, y, z with thin black arrows located in the bottom left corner?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Does the diagram strictly use only black, gray, and blue colors (excluding white background)?",
+    "category": "Style",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are shadows, gradients (other than the specified transparency), and perspective distortion completely absent?",
+    "category": "Style",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Are all text labels (A-H, P1-P6, n, PLANE π, x-y-z) clearly readable and free of garbled characters?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

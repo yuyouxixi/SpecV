@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Are the background and stainless steel utensils rendered in a photo-realistic style with details like specular highlights and fingerprints?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the background exhibit depth of field characteristic of photorealistic rendering?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Is the human student in the foreground rendered in a realistic style, distinct from the stylized objects?",
+    "category": "Style",
+    "subcategory": "Character Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the head chef depicted as an Arcimboldo-style composite portrait made of fruits and vegetables?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the chef's figure exhibit Renaissance oil painting textures with visible canvas grain?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the kitchen knife rendered in a pencil sketch style with visible graphite hatching and paper texture?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the pencil-sketch knife cast a realistic shadow on the cutting board (correct multi-style lighting interaction)?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the toaster rendered in an 8-bit pixel art style with hard-edged pixel blocks?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the teapot rendered in a blue-and-white glazed ceramic style with traditional cobalt patterns?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the water pouring from the teapot rendered as realistic transparent liquid, contrasting with the ceramic style of the pot?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are the steam and cooking fumes rendered as watercolor wash effects with semi-transparent color bleeding?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is style contamination avoided (e.g., no pixelation on student, no hatching on toaster)?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is the lighting consistent across all differently-styled objects in the scene?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the knife blade visibly touching the cutting board with a physically plausible contact point?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Are occlusion relationships physically correct (e.g., steam partially covering people/utensils)?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is the toaster ejecting a slice of bread?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Are all five main foreground objects (student, chef, knife, toaster, teapot) present and recognizable?",
+    "category": "General",
+    "subcategory": "Content Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is the image free of readable text?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

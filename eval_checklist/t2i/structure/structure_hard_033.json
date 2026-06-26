@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image display a vertical layout with three distinct sections: a pie chart at the top, a combination chart in the middle, and a data table at the bottom?",
+    "category": "Composition",
+    "subcategory": "Layout & Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the pie chart at the top divided into exactly 6 sectors?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the pie chart sectors labeled with the specific product names and percentages: Electronics 35%, Clothing 22%, Food 18%, Home Goods 12%, Beauty 8%, Other 5%?",
+    "category": "Text Rendering",
+    "subcategory": "Data Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Do the pie chart sectors visually follow the correct descending order of size: Electronics > Clothing > Food > Home Goods > Beauty > Other?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are the pie chart sectors distinguished by different colors?",
+    "category": "Style",
+    "subcategory": "Color Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the middle chart feature a dual Y-axis structure (axes on both the left and right sides)?",
+    "category": "Structure",
+    "subcategory": "Coordinate System",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the middle chart contain both vertical bars (representing annual sales) and a trend line (representing profit margin)?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the X-axis of the middle chart represent the years from 2020 to 2025 (displaying 6 distinct time points)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the bar chart visually associated with the left Y-axis (Sales) and the line chart with the right Y-axis (Profit Margin)?",
+    "category": "Structure",
+    "subcategory": "Coordinate System Logic",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the table at the bottom structured with exactly 5 rows and 6 columns?",
+    "category": "Structure",
+    "subcategory": "Grid Topology",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the table feature a header row that is visually distinguished by dark shading?",
+    "category": "Style",
+    "subcategory": "Visual Attributes",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

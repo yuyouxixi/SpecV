@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict a realistic no-code automation workflow editor web UI with a multi-panel layout (top bar, left palette, center canvas, right properties panel, bottom run log)?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the top section contain breadcrumb navigation and a save/publish button bar?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the left sidebar display a component palette with categorized collapsible sections and draggable items?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the central canvas contain a complex flowchart with distinct 'Start' nodes and multiple action nodes?",
+    "category": "Structure",
+    "subcategory": "Nodes & Connections",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the flowchart include conditional decision nodes represented as diamond shapes?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the flowchart visually demonstrate parallel branches (one node splitting into multiple paths)?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the flowchart visually demonstrate loop circuits (connectors cycling back to previous nodes)?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the nodes in the flowchart connected by arrowed lines indicating flow direction?",
+    "category": "Structure",
+    "subcategory": "Nodes & Connections",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Are there distinct connector styles visible (specifically both solid and dashed lines) within the flowchart?",
+    "category": "Style",
+    "subcategory": "Visual Attributes",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is there a mini-map thumbnail located specifically in the bottom-right corner of the central canvas area?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the right-side properties panel contain accordion-style collapsible sections?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the accordion section titles in the right panel include 'Input', 'Output', 'Retry Strategy', or 'Log Level'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the properties panel contain UI elements like toggles, dropdowns, and text field placeholders?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is there an expandable run log table in the bottom section?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Does the run log table include headers for 'Time', 'Step', 'Status', 'Duration', and 'Details'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is there a horizontal step progress bar with numbered dots (1 to N) located above the run log table?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are the geometric shapes (rectangles, diamonds) and UI borders straight and defined, without significant distortion?",
+    "category": "General",
+    "subcategory": "Line Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

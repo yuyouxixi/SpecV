@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Is the canvas strictly divided horizontally into an upper section (approx. 55% height) and a lower section (approx. 45% height)?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the upper-left section contain exactly 6 small bar charts arranged in a 3-row × 2-column matrix?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Do all small bar charts in the upper-left section contain exactly 3 vertical bars labeled A, B, and C?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the first small bar chart (top-left) show a strictly ascending height pattern (20 < 40 < 60)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy - Trends",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the second small bar chart (top-right) show a strictly descending height pattern (60 > 40 > 20)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy - Trends",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the fifth small bar chart (bottom-left) show bars A and B as equal height and taller than bar C (70 = 70 > 20)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy - Trends",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the upper-right section contain a single large line chart with exactly 3 lines labeled L1, L2, and L3?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Are the data points on lines L1, L2, and L3 marked with hollow circles, with approximately 8 points per line?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "In the line chart, does Line L1 trend upward (10→80) and Line L2 trend downward (80→10)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy - Trends",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "In the line chart, does Line L3 show an arching trend (rising then falling)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy - Trends",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the large line chart contain exactly 4 light gray horizontal grid lines?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the lower-left section contain a ring chart (donut chart) with exactly 5 sectors?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Are there leader lines connecting the ring chart sectors to labels S1 through S5 outside the ring?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "In the ring chart, is the largest sector (representing 135°) visually significantly larger than the smallest sector (representing 30°)?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy - Proportion",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Does the lower-right section contain a table structure with 4 rows and 3 columns?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Does the table contain headers H1-H3 in the first row and row labels R1-R3 in the first column?",
+    "category": "Structure",
+    "subcategory": "Element Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "Are the data cells in the table filled with alternating solid circle (●) and hollow circle (○) symbols, starting with ●?",
+    "category": "Structure",
+    "subcategory": "Logic & Semantics",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Are all module boundaries marked with thin rectangular frames?",
+    "category": "Style",
+    "subcategory": "Layout Elements",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Does the image strictly use only black, gray, and blue colors (excluding the white background)?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 20,
+    "question": "Are all text labels (A/B/C, L1-L3, S1-S5, H1-H3, R1-R3) clearly legible and composed only of Latin characters?",
+    "category": "General",
+    "subcategory": "Readability",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 21,
+    "question": "Are the grid lines, axes, and module boundary frames straight and clear, without breaks or warping?",
+    "category": "General",
+    "subcategory": "Line & Border Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Is the image free of obvious artifacts, unnatural visual noise, or severe distortion?",
+    "category": "General",
+    "subcategory": "Artifacts & Distortion",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

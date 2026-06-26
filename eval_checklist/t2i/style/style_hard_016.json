@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the general office environment (walls, furniture, floor tiles) rendered in a photorealistic style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the landscape painting hanging on the wall rendered in a traditional Chinese ink wash style?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the cat rendered in a traditional Chinese ink wash style (fluid brushstrokes, monochrome ink) rather than photorealistic fur?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the cat appear to be leaping out of the framed landscape painting (medium nesting/painting-within-painting effect)?",
+    "category": "Style",
+    "subcategory": "Medium Nesting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are there distinct ink footprints visible on the photorealistic oak desk where the cat steps?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the mechanical arm lifting the coffee cup rendered in a Pop Art style with bold black outlines?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the reflection on the coffee surface rendered as Pop Art style color blocks rather than realistic reflections?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is one building in the city skyline transforming into an Art Deco style geometric tower?",
+    "category": "Style",
+    "subcategory": "Regional Style Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the female office worker rendered in a photorealistic style (distinct from her shadow)?",
+    "category": "Style",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the worker's shadow rendered as a distorted, Expressionist style black silhouette trailing on the floor?",
+    "category": "Style",
+    "subcategory": "Local/Global Differentiation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are the multiple styles (Photorealism, Ink Wash, Pop Art, Art Deco, Expressionism) clearly distinguishable from one another without unintended blending?",
+    "category": "Style",
+    "subcategory": "Style Distribution & Fusion",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the female office worker free from severe structural distortions (e.g., facial collapse, extra limbs) that are not attributed to the Expressionist shadow style?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

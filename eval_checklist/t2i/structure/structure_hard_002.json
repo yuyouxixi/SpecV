@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Are there exactly three horizontal swimlanes of equal height?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the swimlane titles 'USER', 'SERVICE', and 'DB' arranged from top to bottom on the left side?",
+    "category": "Structure",
+    "subcategory": "Layout & Topology",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are there at least 16 total flow nodes visible in the chart?",
+    "category": "Structure",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are the START and END nodes shaped as capsules (stadium shape)?",
+    "category": "Structure",
+    "subcategory": "Geometric Shapes",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Are the task nodes (e.g., F1, S1, D1) shaped as rounded rectangles?",
+    "category": "Structure",
+    "subcategory": "Geometric Shapes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the decision nodes (G1, G2) shaped as diamonds?",
+    "category": "Structure",
+    "subcategory": "Geometric Shapes",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Are the parallel fork/merge gateways (G3, G4) represented by two thick vertical bars?",
+    "category": "Structure",
+    "subcategory": "Geometric Shapes",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Does the flow begin in the USER swimlane with the sequence START → F1 → F2?",
+    "category": "Structure",
+    "subcategory": "Process Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Is there a cross-lane connection from F2 (USER) to S1 (SERVICE), continuing S1 → S2 → G1?",
+    "category": "Structure",
+    "subcategory": "Process Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Does the 'No' branch of G1 follow the path: S3 → cross to USER → E1 → G2?",
+    "category": "Structure",
+    "subcategory": "Process Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Does the 'Yes' branch of G2 loop back to node F1?",
+    "category": "Structure",
+    "subcategory": "Process Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the 'No' branch of G2 lead directly to an END node?",
+    "category": "Structure",
+    "subcategory": "Process Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Does the 'Yes' branch of G1 follow the path: S4 → cross to DB → D1 → D2 → cross to SERVICE → S5?",
+    "category": "Structure",
+    "subcategory": "Process Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Does the flow continue from S5 to parallel gateway G3, forking into tasks P1 and P2?",
+    "category": "Structure",
+    "subcategory": "Process Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Are tasks P1 and P2 arranged vertically within the same swimlane?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Do tasks P1 and P2 merge at gateway G4, then cross back to USER to node OK, and finally to END?",
+    "category": "Structure",
+    "subcategory": "Process Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "Are all connecting lines strictly orthogonal (horizontal and vertical only)?",
+    "category": "Structure",
+    "subcategory": "Line Geometry",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 18,
+    "question": "Do all cross-lane connectors cross the swimlane boundaries vertically?",
+    "category": "Structure",
+    "subcategory": "Line Geometry",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 19,
+    "question": "Are the colors in the chart restricted to black, gray, and white?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Does each node contain only its specific label (e.g., START, F1, G1) with text center-aligned?",
+    "category": "Text Rendering",
+    "subcategory": "Label Content & Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]
