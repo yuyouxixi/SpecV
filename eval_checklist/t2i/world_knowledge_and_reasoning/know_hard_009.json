@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image an overhead (top-down) realistic photograph of a tabletop scene?",
+    "category": "Composition",
+    "subcategory": "Perspective & Viewpoint",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are there exactly five boxes arranged in a single horizontal row from left to right?",
+    "category": "Composition",
+    "subcategory": "Arrangement & Count",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the five boxes open (interiors visible) and visually identical in shape and size?",
+    "category": "Structure",
+    "subcategory": "Object Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Do the boxes have clean exteriors with no markings, labels, or decorations?",
+    "category": "Style",
+    "subcategory": "Attribute Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does each box contain exactly one item (no empty boxes and no multiple items per box)?",
+    "category": "Composition",
+    "subcategory": "Object Distribution",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are all five specific items present exactly once in the scene: a candle, a key, a feather, a seashell, and a coin?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Is the Coin placed in the center box (the 3rd box from the left)?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the Seashell placed in the box immediately to the right of the Coin (the 4th box from the left)?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Is the Feather placed in the leftmost box (the 1st box from the left)?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Logic (Deduction)",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the Key placed in the 2nd box from the left (positioned between the Feather and the Coin)?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Logic (Deduction)",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Is the Candle placed in the rightmost box (the 5th box from the left)?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Logic (Deduction)",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the complete order of items from left to right: Feather, Key, Coin, Seashell, Candle?",
+    "category": "Reasoning",
+    "subcategory": "Complex Logical Solution",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the Coin visually look like a real coin (round metallic disc with relief details)?",
+    "category": "World Knowledge",
+    "subcategory": "Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the Seashell visually look like a real shell (spiral or ridged structure)?",
+    "category": "World Knowledge",
+    "subcategory": "Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the Candle visually look like a real small candle (cylindrical wax body with a wick)?",
+    "category": "World Knowledge",
+    "subcategory": "Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does the Feather visually look like a real feather (central shaft with barbs/vanes)?",
+    "category": "World Knowledge",
+    "subcategory": "Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Does the Key visually look like a real key (metallic object with teeth/bit and a bow/handle)?",
+    "category": "World Knowledge",
+    "subcategory": "Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Is the image free of any text, numbers, logos, watermarks, or branding?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

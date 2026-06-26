@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Is the element depicted as a silvery-gray metallic substance, consistent with the appearance of Gallium (atomic number 31)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the chemical element depicted in a liquid, semi-liquid, or melting state (e.g., pooling, dripping, or losing rigid form) as expected after ten minutes in a hand?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the element retain a distinct, rigid solid shape (such as a perfect cube or hard rock) with no signs of melting?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "No",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the liquid metal retain a silvery, mirror-like sheen (specular reflections) rather than appearing as a glowing orange/red molten material (magma-like)?",
+    "category": "World Knowledge",
+    "subcategory": "Material Physics",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the person holding the substance directly in their bare hand (allowing for body heat transfer), rather than using gloves or a container?",
+    "category": "Reasoning",
+    "subcategory": "Prompt Compliance",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the image avoid depicting the hand as burned or injured (consistent with Gallium's low melting point of ~30°C)?",
+    "category": "World Knowledge",
+    "subcategory": "Commonsense & Physics",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the lighting in the scene distinctly warm (e.g., golden, orange, or yellow hues)?",
+    "category": "Style",
+    "subcategory": "Lighting Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

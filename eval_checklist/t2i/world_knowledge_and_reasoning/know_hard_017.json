@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Are there exactly seven rock specimens visible in the image?",
+    "category": "Composition",
+    "subcategory": "Object Count",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the rock specimens arranged in two distinct vertical columns?",
+    "category": "Composition",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the left column contain exactly three specimens (Mafic series)?",
+    "category": "Composition",
+    "subcategory": "Object Count",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the right column contain exactly four specimens (Felsic series)?",
+    "category": "Composition",
+    "subcategory": "Object Count",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the top-left specimen (Gabbro) exhibit a coarse-grained crystalline texture and dark color?",
+    "category": "World Knowledge",
+    "subcategory": "Geological Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the middle-left specimen (Basalt) exhibit a fine-grained texture and dark color?",
+    "category": "World Knowledge",
+    "subcategory": "Geological Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the bottom-left specimen (Basaltic Scoria) display a highly vesicular (porous/hole-filled) texture?",
+    "category": "World Knowledge",
+    "subcategory": "Geological Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the top-right specimen (Granite) show coarse-grained visible crystals and a lighter color (pink/gray/white)?",
+    "category": "World Knowledge",
+    "subcategory": "Geological Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the second specimen in the right column (Rhyolite) exhibit a fine-grained texture consistent with rapid cooling?",
+    "category": "World Knowledge",
+    "subcategory": "Geological Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the third specimen in the right column (Obsidian) display a smooth, black, glassy texture?",
+    "category": "World Knowledge",
+    "subcategory": "Geological Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the bottom-right specimen (Pumice) appear highly porous/frothy and light-colored?",
+    "category": "World Knowledge",
+    "subcategory": "Geological Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Excluding the obsidian, is the left column (Mafic) generally darker in tone than the right column (Felsic)?",
+    "category": "World Knowledge",
+    "subcategory": "Scientific Reasoning",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Do the textures in the left column transition from coarse-grained (top) to porous (bottom), reflecting increasing cooling rates?",
+    "category": "World Knowledge",
+    "subcategory": "Scientific Reasoning",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the surface beneath the specimens a black slate countertop?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the lighting uniform and shadowless, consistent with a ring light or light box setup?",
+    "category": "Style",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is the image free of any visible text, labels, or watermarks?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "Are all rock specimens fully visible without being cropped out of the frame?",
+    "category": "General",
+    "subcategory": "Image Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

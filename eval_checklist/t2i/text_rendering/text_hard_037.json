@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"HUNT THE GREAT MAMMOTH\" spelled correctly on the rock wall?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the text \"TRIBE ENDURES FOREVER\" spelled correctly on the rock wall?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"HONOR THE FIRE SPIRITS\" spelled correctly on the rock wall?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are the texts on the rock wall rendered in an ochre pigment style, accompanied by primitive pictographs?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"CARBON-14 DATING RESULT: APPROX. 35,000 YEARS B.P.\" spelled exactly as written, including punctuation?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the \"CARBON-14...\" text displayed within a blue UI interface on a rugged tablet computer?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"3D MODELING IN PROGRESS — SCAN COMPLETION: 99%\" spelled exactly as written, including the dash and percentage sign?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the \"3D MODELING...\" text formed by a red laser grid projection converging on the wall?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the text \"CAUTION: FRAGILE LITHIC ARTIFACTS BELOW\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the \"CAUTION...\" text formed by the texture of the dirt/soil where the ground has been brushed aside?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the text \"DRIP BY DRIP\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"DRIP BY DRIP\" formed by water trails or droplets dripping from stalactites in mid-air?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"NATIONAL GEOGRAPHIC EXPEDITION TEAM\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the \"NATIONAL GEOGRAPHIC...\" text rendered as an embroidered velcro patch on the backpack?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the text \"LENGTH: 5 METERS\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is the \"LENGTH: 5 METERS\" text displayed as black markings on a yellow measuring tape unrolled on the ground?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are all text elements free from garbled characters, merged strokes, or unrecognizable symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Do the text elements align naturally with the perspective and surface geometry of their respective objects (e.g., wall, floor, tablet)?",
+    "category": "General",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the foreground clearly depict the lunar surface with characteristic features such as gray regolith, craters, and rocky terrain?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the background sky depicted as completely black, consistent with the lack of atmosphere on the Moon?",
+    "category": "World Knowledge",
+    "subcategory": "Commonsense & Physics",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the Earth appear mostly dark or silhouetted, appearing as a disk blocking the Sun (consistent with the geometry of a total lunar eclipse)?",
+    "category": "Reasoning",
+    "subcategory": "Astronomical Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is there a glowing ring of reddish or orange light around the edge of the Earth (representing sunlight refracting through Earth's atmosphere)?",
+    "category": "Reasoning",
+    "subcategory": "Astronomical Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the lunar surface in the foreground appropriately dim or in shadow (consistent with the Moon being in Earth's shadow during the eclipse)?",
+    "category": "Reasoning",
+    "subcategory": "Lighting Physics",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the Sun hidden behind the Earth, rather than being separately visible elsewhere in the sky?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the image avoid showing the Earth as fully illuminated (standard 'Blue Marble'), which would be physically incorrect for this alignment?",
+    "category": "Reasoning",
+    "subcategory": "Logical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the image avoid showing a blue daytime sky or atmospheric haze, which are physically impossible on the Moon?",
+    "category": "Reasoning",
+    "subcategory": "Logical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the composition centered on the Earth, looking directly at it as requested?",
+    "category": "Composition",
+    "subcategory": "Subject Prominence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are there any anachronistic objects (trees, buildings, liquid water) or incorrect terrestrial features visible on the lunar surface?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

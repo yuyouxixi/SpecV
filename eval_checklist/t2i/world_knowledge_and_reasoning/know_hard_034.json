@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict exactly two main subjects: an adult Quetzalcoatlus and an adult giraffe?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the Quetzalcoatlus display scientifically accurate features: a long toothless beak, head crest, and leathery membranous wings (not feathered)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the giraffe display its characteristic features: a long neck, ossicones (horn-like protrusions), and a spotted coat pattern?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the scale comparison accurate, showing the standing Quetzalcoatlus as roughly the same height as the adult giraffe (approx. 5-6 meters)?",
+    "category": "World Knowledge",
+    "subcategory": "Scale Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are the two animals positioned side-by-side on the same ground plane to facilitate a clear visual comparison?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are both subjects fully visible and intact (no major cropping of heads, feet, or essential features)?",
+    "category": "General",
+    "subcategory": "Image Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Are there any severe anatomical distortions (e.g., extra limbs, malformed heads, detached wings) on either animal?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "No",
+    "score": 8.0
+  }
+]

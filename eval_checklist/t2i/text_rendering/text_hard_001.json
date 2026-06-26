@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Is the overall image clear, with all text areas sharp and legible?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is the book placed on a dark wooden table, viewed from a slightly angled overhead perspective with soft lighting?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the book cover feature a warm cream-colored cloth appearance with fine visible fabric texture and slightly worn corners?",
+    "category": "Style",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Is the title \"The Art of Reading Slowly: Living Each Day with Quiet Certainty\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the title rendered in a large gold foil stamping style in the center of the cover?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the subtitle \"A practical system for turning thoughts into action through reading and journaling, for those too busy yet seeking balance\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Is the subtitle rendered in a fine serif typeface with a debossed effect?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the author line \"By Eleanor Webb — For those always rushing yet yearning to improve, may clarity find you with every page\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Is the author line rendered in a neat sans-serif typeface at the bottom of the cover?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the sticker text \"New Expanded Edition: Start Today to Organize Your Time and Attention\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Is the sticker text placed within a circular gold foil sticker in the top left corner?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the spine text \"The Art of Reading Slowly Living Each Day with Quiet Certainty Eleanor Webb\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Is the spine text displayed with vertical printing orientation?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the back cover quote \"Youth knows not the worth of learning's hour, age laments too late its squandered power\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Is the back cover quote rendered in an Old English style serif font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is the equation and text \"1+2+3+4+5+6+7+8+9+10=55, using addition to remind oneself to start from small things before reaching for the distant\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "Is the equation text rendered in a monospaced typeface?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is the back cover description \"You need not achieve perfection all at once; simply complete one small task earnestly each day, and time will stand on your side, offering answers in the quiet moments\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 19,
+    "question": "Do the generated characters/glyphs exhibit any broken strokes, merging, or unrecognizable symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Are there any visual artifacts (smudging, ghosting, shimmering outlines) specifically around the text areas?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "No",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Is the text correctly integrated onto the book cover surface (following the perspective, texture, and lighting) rather than floating?",
+    "category": "Structure",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

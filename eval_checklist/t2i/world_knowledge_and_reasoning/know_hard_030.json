@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image display four distinct columns or sections, each dedicated to one species?",
+    "category": "Composition",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the forelimb skeletons of all four requested species (Human, Bat, Whale, and Horse) present?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the Human forelimb skeleton accurately depict a standard arm and hand structure with five digits?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the Bat skeleton accurately feature significantly elongated phalanges (finger bones) supporting a wing structure?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the Whale skeleton accurately resemble a flipper structure with shortened, robust/flattened bones?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the Horse skeleton accurately depict the anatomy of a hoofed leg with a single main functional digit (elongated metacarpal)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the skeletons arranged in consistent poses or orientations to facilitate the visual comparison of homologous structures?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is color coding used to distinguish between different bone groups (e.g., humerus vs. radius vs. ulna)?",
+    "category": "Reasoning",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the color coding consistent across all four species (e.g., is the humerus represented by the same color in the Human, Bat, Whale, and Horse)?",
+    "category": "Reasoning",
+    "subcategory": "Logic & Consistency",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Are the major homologous bone groups (humerus, radius, ulna, carpals, phalanges) identifiable in all four columns?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from obvious anatomical hallucinations, such as disconnected bones floating in space or incoherent joint structures?",
+    "category": "General",
+    "subcategory": "Physiological Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image framed as a top-down flat lay photograph?",
+    "category": "Composition",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the container a wooden tray lined with fine sand?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are there exactly seven distinct pottery shards displayed in the tray?",
+    "category": "World Knowledge",
+    "subcategory": "Count Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Do the pottery pieces appear as broken fragments (shards) rather than intact, whole vessels?",
+    "category": "Structure",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is there a shard displaying the turquoise or blue-green glaze characteristic of Ancient Egyptian faience?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is there a shard displaying the Ancient Greek red-figure technique (reddish figures against a black background)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is there a shard representing Chinese Shang Dynasty pottery with a characteristic grey clay body?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is there a shard exhibiting the rope-pattern impressions ('cord-marked') typical of Japanese Jōmon pottery?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is there a shard consistent with Mayan pottery, featuring orange-red clay?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is there a shard consistent with Indus Valley Harappan pottery, featuring red/terracotta coloring?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are the seven shards visually distinguishable from one another in terms of color, texture, and style (reflecting different civilizations)?",
+    "category": "World Knowledge",
+    "subcategory": "Concept Blending",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the shards large enough to display recognizable decorative motifs or surface characteristics?",
+    "category": "Composition",
+    "subcategory": "Object Visibility",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are archaeological soft brushes visible in the image?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are bamboo picks visible among the tools?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Are the brushes and picks scattered between the pottery shards (rather than grouped separately or outside the tray)?",
+    "category": "Composition",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the lighting soft and natural, consistent with an archaeological documentary style?",
+    "category": "Style",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Is the image free of visible text, labels, or watermarks?",
+    "category": "General",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "Yes",
+    "score": 10.0
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the area of the sky immediately surrounding the setting sun exhibit a blue or bluish-white glow (a specific scientific feature of Martian sunsets)?",
+    "category": "World Knowledge",
+    "subcategory": "Scientific Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the terrain appear barren, rocky, and predominantly reddish-brown or rusty in color?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the atmosphere appear thin or hazy/dusty, avoiding thick Earth-like fluffy white clouds?",
+    "category": "World Knowledge",
+    "subcategory": "Scientific Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is the landscape free of Earth-specific features such as vegetation, bodies of liquid water, or artificial structures?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Is the viewpoint clearly from the surface of Mars (near-ground perspective rather than space/orbit)?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the sun positioned at or near the horizon, consistent with a sunset scene?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does the image style appear photorealistic rather than illustrative or cartoonish?",
+    "category": "Style",
+    "subcategory": "Style Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

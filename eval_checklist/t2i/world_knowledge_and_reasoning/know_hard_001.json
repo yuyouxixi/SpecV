@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image presented in a strict top-down flat lay perspective (camera perpendicular to the table)?",
+    "category": "Composition",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the background a dark wood table with visible wood grain representing the oceans (negative space)?",
+    "category": "Composition",
+    "subcategory": "Background Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the continental outlines of the world map clearly traced in a white granular substance resembling sea salt?",
+    "category": "World Knowledge",
+    "subcategory": "Material Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are the major continental shapes (North America, South America, Africa, Europe, Asia, Australia) recognizable?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are there exactly eight distinct piles of ingredients visible in the image?",
+    "category": "Reasoning",
+    "subcategory": "Count Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is each ingredient pile distinct and separated without mixing into other piles?",
+    "category": "Reasoning",
+    "subcategory": "Constraint Satisfaction",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Do the Coffee Beans appear as roasted, oval beans with a central crease?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are the Loose Tea Leaves depicted as dried, curled, or twisted leaf fragments?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the Tea Leaves pile placed in East Asia (China) or South Asia (India)?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial/Geographic Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are the Black Peppercorns depicted as small, round, dark wrinkled spheres?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the Black Peppercorn pile placed in South Asia (India/Malabar region)?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial/Geographic Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Are the True Cinnamon Sticks depicted as thin, multi-layered rolled bark quills?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the Cinnamon Stick pile placed near Sri Lanka or South India?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial/Geographic Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Do the Clove Buds have a characteristic nail-like shape with a bulbous head?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the Clove Buds pile placed in Southeast Asia (Indonesia)?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial/Geographic Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is the Nutmeg depicted as oval, brown, textured seeds/nuts?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is the Nutmeg pile placed in Southeast Asia (Indonesia)?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial/Geographic Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Are the Vanilla Pods depicted as long, thin, dark brown/black bean pods?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Is the Quinoa depicted as small, round, pale/cream-colored grains?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Is the Quinoa pile placed in the Andes region of South America (Peru/Bolivia)?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial/Geographic Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 21,
+    "question": "Is the image rendered in a high-detail photorealistic style?",
+    "category": "Style",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 22,
+    "question": "Is the lighting natural and soft, without harsh shadows?",
+    "category": "Style",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

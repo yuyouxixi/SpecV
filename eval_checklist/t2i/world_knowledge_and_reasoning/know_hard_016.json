@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a top-down flat lay photograph?",
+    "category": "Composition",
+    "subcategory": "Viewpoint",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are there exactly five pairs of mushrooms (10 mushrooms total) arranged in rows?",
+    "category": "Structure",
+    "subcategory": "Count & Arrangement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the background behind the left-side (poisonous) mushrooms in each pair composed primarily of dark red fallen leaves?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the background behind the right-side (edible) mushrooms in each pair composed primarily of fresh green moss?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the 'Death cap' (left) depicted with a greenish-yellow or olive cap and a volva (cup-like structure) at the stem base?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the 'Paddy straw mushroom' (right) depicted with a volva but visually distinguishable from the Death cap (e.g., by cap shape or lack of ring)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the 'Destroying angel' (left) depicted as pure white with both a ring on the stem and a volva at the base?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the 'Button mushroom' (right) depicted with a white/cream cap and clearly lacking a volva at the base?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the 'Funeral bell' (left) depicted as a small brown mushroom with a ring on the stem?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the 'False morel' (left) depicted with a brain-like, irregularly lobed cap texture?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the 'True morel' (right) depicted with a distinct honeycomb-like pitted cap structure?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the 'Deadly dapperling' (left) depicted as a small mushroom with a pinkish-brown scaly cap?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the 'Parasol mushroom' (right) depicted as significantly larger than the dapperling, with a scaly cap and prominent ring?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are key morphological features like gills and rings visible where appropriate (e.g., gills on Agaricus, rings on Amanitas)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Detail",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the lighting natural and diffused, consistent with natural history specimen photography?",
+    "category": "Style",
+    "subcategory": "Lighting/Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the image completely free of text, labels, or scientific names?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "Are there any obvious structural distortions (e.g., floating caps, merged stems, defying gravity)?",
+    "category": "General",
+    "subcategory": "Physiological Plausibility",
+    "expected_answer": "No",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Are all mushroom specimens fully visible and intact, not cut off by the frame?",
+    "category": "General",
+    "subcategory": "Image Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

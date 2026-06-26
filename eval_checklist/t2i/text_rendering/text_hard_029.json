@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Is the primary object an academic conference poster board located in a symposium setting?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Is the text layout arranged in three distinct columns (Left, Center, Right) as described in the prompt?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the header \"Research Background and Significance\" spelled correctly in the left column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the phrase \"Deep Neural Networks (DNN)\" spelled correctly in the left column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the phrase \"model interpretability\" spelled correctly in the left column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are the terms \"medical diagnosis\" and \"autonomous driving\" spelled correctly in the left column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the phrase \"attention mechanisms\" spelled correctly in the left column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the header \"Algorithm Implementation Pipeline\" spelled correctly in the center column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the phrase \"Global Average Pooling (GAP)\" spelled correctly in the center column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the phrase \"Class Activation Mapping (CAM)\" spelled correctly in the center column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the mathematical formula \"S_c = Σ_k w_k^c * Σ_(x,y) f_k(x,y)\" rendered with correct Greek letters (Σ), subscripts, and superscripts?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the header \"Experimental Results and Analysis\" spelled correctly in the right column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the dataset name \"ImageNet\" spelled correctly in the right column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the numerical value \"15.4%\" clearly visible and correct in the right column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Is the phrase \"weakly-supervised localization\" spelled correctly in the right column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the phrase \"ablation studies\" spelled correctly in the right column?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is the image rendered in a realistic photography style?",
+    "category": "Style",
+    "subcategory": "Medium & Art Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Is the text naturally integrated with the poster board surface with correct perspective and alignment?",
+    "category": "General",
+    "subcategory": "Physical/Logical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Is the body text sufficiently clear and sharp to be legible (not blurry)?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Does the text contain garbled characters, broken strokes, or non-existent symbols?",
+    "category": "General",
+    "subcategory": "Glyph Quality",
+    "expected_answer": "No",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Are there visual artifacts (smudging, ghosting, double-printing) around the text or formulas?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

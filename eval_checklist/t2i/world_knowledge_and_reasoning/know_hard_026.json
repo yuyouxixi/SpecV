@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image presented as a diptych with two distinct panels side-by-side?",
+    "category": "Composition",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are both Foucault pendulum installations viewed from a directly overhead (top-down) perspective?",
+    "category": "Composition",
+    "subcategory": "Viewpoint",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Do both panels clearly display circular graduated floor markings?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is a pendulum bob clearly visible in each panel?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are swing trajectory indicators visible on the floor in both panels?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are floor arrows present in both panels to denote the direction of rotation of the swing plane?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "In the left panel (representing Paris/Northern Hemisphere), do the floor arrows indicate a clockwise rotation?",
+    "category": "World Knowledge",
+    "subcategory": "Physics",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "In the right panel (representing Sydney/Southern Hemisphere), do the floor arrows indicate a counter-clockwise rotation?",
+    "category": "World Knowledge",
+    "subcategory": "Physics",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Are the circular markings, arrows, and pendulum components clear and legible without severe blurring?",
+    "category": "General",
+    "subcategory": "Image Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

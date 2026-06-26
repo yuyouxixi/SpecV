@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"ANCIENT ATLANTIS CIVILIZATION RUINS ENTRANCE — UNAUTHORIZED PERSONNEL STRICTLY PROHIBITED\" spelled correctly (including capitalization and the em dash)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the \"ANCIENT ATLANTIS...\" text formed by naturally curving coral branches as a ruin-like inscription?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"CURRENT DIVE DEPTH: 11,034 METERS — EXTERNAL WATER PRESSURE APPROACHING HULL STRUCTURAL LIMIT\" spelled correctly (including numbers, punctuation, and the em dash)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the \"CURRENT DIVE DEPTH...\" text formed by a string of rising bubbles?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"SPECIMEN A-78 ANALYSIS REPORT: ORGANISM EXHIBITS HIGH-INTENSITY BLUE BIOLUMINESCENT RESPONSE\" spelled correctly (including hyphens and colon)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the \"SPECIMEN A-78...\" text formed by gathering fluorescent plankton?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"DEEP SEA EXPEDITION WARNING: COLOSSAL SQUID ACTIVITY DETECTED AHEAD — MAINTAIN ABSOLUTE SILENCE\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the \"DEEP SEA EXPEDITION WARNING...\" text rendered with seaweed woven like a calligraphic font?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the text \"CURRENT POSITION: LATITUDE 32°15'N, LONGITUDE 64°42'W — SIGNAL STABLE\" spelled correctly (including degree symbols and coordinates)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the \"CURRENT POSITION...\" text constructed from shell fragments pieced together?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the text \"ECOLOGICAL OBSERVATION LOG: FISH SCHOOL EVADING PREDATOR — DEFENSIVE BAIT BALL FORMATION DETECTED\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the \"ECOLOGICAL OBSERVATION LOG...\" text arranged by a school of small fish?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"EMERGENCY DISTRESS SIGNAL: ESCAPE POD OXYGEN RESERVES AT 15% — REQUESTING IMMEDIATE RESCUE\" spelled correctly (including percentage sign)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Is the \"EMERGENCY DISTRESS SIGNAL...\" text carved into fine seabed sand by currents?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the text \"ACTIVE SONAR SYSTEM ENGAGED — INITIATING COMPREHENSIVE SEABED TERRAIN SCANNING PROTOCOL\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is the \"ACTIVE SONAR SYSTEM...\" text formed by light spots refracted from the surface onto a rock wall?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Are all eight required text instances present (coral inscription, bubbles parameters, plankton analysis, seaweed warning, shell coordinates, fish log, sand distress signal, rock-wall startup text)?",
+    "category": "Text Rendering",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 18,
+    "question": "Are all text glyphs and characters intact, legible, and free from garbling or missing strokes?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Do the text elements blend naturally with the underwater environment (perspective, lighting, and occlusion) rather than looking like flat overlays?",
+    "category": "Text Rendering",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 20,
+    "question": "Is the image rendered in a deep sea fantasy illustration style (dreamy, recognizable, not a photograph)?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 21,
+    "question": "Does the scene correctly depict an underwater coral city with soft water ripples, floating bubbles, and bioluminescent illumination?",
+    "category": "Composition",
+    "subcategory": "Scene Content",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 22,
+    "question": "Are there any unnatural visual artifacts (e.g., ghosting, smudging, or random noise) surrounding the text areas?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "No",
+    "score": 8.0
+  }
+]

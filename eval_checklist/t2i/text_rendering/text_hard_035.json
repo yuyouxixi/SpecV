@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "question": "Is the spelling and punctuation of the train decal text exactly \"THE ORIENT EXPRESS, BOUND FOR DREAMLAND CITY, NO. 9527\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the text \"THE ORIENT EXPRESS...\" located on the side of a green train car?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the train text rendered as a tiny white waterslide decal?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Is the spelling and punctuation of the billboard text exactly \"WELCOME TO THE MINIATURE REALM, WHERE ANYTHING IS POSSIBLE\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"WELCOME TO THE MINIATURE REALM...\" located on a tiny billboard next to the model highway?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the spelling and punctuation of the tweezers text exactly \"PRECISION ASSEMBLY TOOL, HANDLE WITH UTMOST CARE\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"PRECISION ASSEMBLY TOOL...\" located on the side of large metal tweezers?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the tweezers text rendered as laser-engraved silver-gray letters?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Is the spelling and punctuation of the glue bottle text exactly \"SUPER QUICK-DRY ADHESIVE, CAUTION: BONDS SKIN INSTANTLY\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"SUPER QUICK-DRY ADHESIVE...\" located on the label of a tipped-over glue bottle?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the glue bottle text rendered in bold black text on a plastic label?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the spelling of the tunnel text exactly \"WYVERNSWORTH TUNNEL\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"WYVERNSWORTH TUNNEL\" located at the entrance of a miniature mountain tunnel?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the tunnel text rendered as large relief letters carved from plaster?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Is the spelling of the grass powder text exactly \"TURF WORK IN PROGRESS\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is the text \"TURF WORK IN PROGRESS\" formed by spilled green grass powder on the table?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is the spelling of the sketch annotation exactly \"SCALE RATIO ONE TO EIGHTY-SEVEN\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Is the text \"SCALE RATIO ONE TO EIGHTY-SEVEN\" located on a yellowed pencil sketch beneath the tracks?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Is the sketch text rendered in a handwritten annotation style?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Are all text elements legible without broken strokes, merged characters, or severe distortion?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Is the perspective and warping of the text consistent with the surface it is on (e.g., decal conforms to train, engraving follows tweezers)?",
+    "category": "General",
+    "subcategory": "Physical/Logical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 22,
+    "question": "Is the image free from text-related artifacts such as floating letters, ghosting, or random gibberish symbols?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "Is the overall image clear and sharp, allowing small text details to be read?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

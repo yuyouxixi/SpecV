@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the layout divided into three distinct sections (Right, Middle, Left) as requested in the prompt?",
+    "category": "Text Rendering",
+    "subcategory": "Layout & Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the text block starting with \"HERE LYETH THE MEMORIAL...\" located in the RIGHT section of the image?",
+    "category": "Text Rendering",
+    "subcategory": "Layout & Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the Right section contain the exact phrase \"Lord William, called the Steadfast\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the Right section contain the exact phrase \"Knight Marshal of the Royal Guard\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the text block starting with \"ACCOUNT OF HIS DEEDS...\" located in the MIDDLE section of the image?",
+    "category": "Text Rendering",
+    "subcategory": "Layout & Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the Middle section contain the exact phrase \"courts of France and Flanders\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the Middle section contain the exact date phrase \"Year of Our Lord 1387\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the text block starting with \"EPITAPH IN HIS HONOUR...\" located in the LEFT section of the image?",
+    "category": "Text Rendering",
+    "subcategory": "Layout & Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the Left section contain the exact phrase \"The mountains stand eternal\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the Left section contain the names \"Robert and Thomas\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the Left section end with the word \"forevermore\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is all the text rendered in a medieval Blackletter Gothic script style?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the text appear to be physically carved into the stone surface (stone rubbing effect)?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the text characters free from garbling, merged strokes, or unrecognizable symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the image depict a realistic photography style of a stone display in a museum setting?",
+    "category": "Style",
+    "subcategory": "Art Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Does the stone surface appear weathered and mottled as described?",
+    "category": "Style",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is the text clearly legible against the background (sufficient contrast and sharpness)?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Is the image free from visual artifacts such as smudging, ghosting, or unnatural blurring around the text?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Does the perspective of the text naturally match the angle and curvature of the stone surface?",
+    "category": "General",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

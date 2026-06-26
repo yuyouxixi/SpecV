@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the main monitor display a code editor interface with a dark background and colorful syntax highlighting?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Is the function definition \"def neural_network_training(data):\" spelled correctly on the main monitor?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the comment section \"# Main function for deep learning model training: First, initialize the weight matrices by filling them with normally distributed random numbers.\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is the comment section \"Then, enter the iterative loop to calculate the forward propagation loss function, and use the backpropagation algorithm to update gradients.\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the comment section \"Be careful to prevent overfitting.\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the secondary monitor display an error popup window with a white background and dense black text?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the header \"Critical System Runtime Error Report:\" spelled correctly on the secondary monitor?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the exception text \"Unhandled Exception in thread 'main'.\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the stack trace detail \"java.lang.NullPointerException at com.server.database.ConnectionPool.getConnection(ConnectionPool.java:154).\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the error description \"Database connection pool exhausted, unable to acquire new connection resources.\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the advice text \"Please check database configuration file and network status.\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the characters in the code and error message free from garbled symbols, missing strokes, or merged letters?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the text align naturally with the perspective and angle of the monitors?",
+    "category": "Text Rendering",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the text clearly legible without being obscured by excessive blur or low resolution?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are there any unnatural visual artifacts (e.g., ghosting, smudging) surrounding the text areas?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "No",
+    "score": 8.33
+  }
+]

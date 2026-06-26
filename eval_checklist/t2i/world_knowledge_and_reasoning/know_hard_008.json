@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image display exactly two tabletop celestial demonstration models arranged side by side?",
+    "category": "Composition",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "In the left model (solar eclipse), is the Moon positioned between the Sun and the Earth?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "In the left model, does a shadow cone project from the Moon onto the Earth?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "In the right model (lunar eclipse), is the Earth positioned between the Sun and the Moon?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "In the right model, does a shadow cone project from the Earth onto the Moon?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the relative sizes of the celestial bodies qualitatively accurate (Sun > Earth > Moon) across both models?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the shadow directions in both models consistent with the Sun being the light source (shadows pointing away from the Sun)?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are the shadow cones depicted with distinguishable umbra (darker central region) and penumbra (lighter outer region) parts?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the umbra region correctly depicted as narrower and darker than the surrounding penumbra region?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Do the objects appear to be physical, tabletop-scale demonstration models (e.g., spheres on stands) rather than flat diagrams or digital UI?",
+    "category": "Style",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the celestial bodies and models themselves unlabeled (no text tags, plaques, or captions)?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the image free of overlay text, numbers, logos, or watermarks?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Are the celestial bodies (Sun, Earth, Moon) rendered as spherical shapes without significant geometric distortion?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

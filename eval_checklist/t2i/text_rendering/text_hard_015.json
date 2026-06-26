@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Is the main label text \"MOUNTAIN MIST OOLONG TEA\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the main label text \"MOUNTAIN MIST OOLONG TEA\" rendered in large serif lettering with a gold foil stamping effect?",
+    "category": "Text Rendering",
+    "subcategory": "Typography & Style",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the slogan text \"One sip of sweetness, gently returning your busy heart to stillness; may you hear yourself in the quiet minutes you spend with this tea\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the slogan text rendered in a thin sans-serif typeface and positioned below the main label?",
+    "category": "Text Rendering",
+    "subcategory": "Typography & Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the brewing guide text \"Brewing Guide: Use 3 grams of tea leaves with 150 milliliters of hot water; let steep for approximately 90 seconds before pouring; may be re-steeped multiple times; first smell the aroma, then taste slowly for best experience\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the brewing guide text rendered in a serif typeface on a side description strip?",
+    "category": "Text Rendering",
+    "subcategory": "Typography & Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the flavor notes text \"Flavor Notes: Fresh floral aroma with a long-lasting sweet aftertaste; perfect for morning reading sessions or late-night writing; if the taste feels too strong, simply reduce the amount of tea leaves used\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the flavor notes text rendered in a serif typeface on a side description strip?",
+    "category": "Text Rendering",
+    "subcategory": "Typography & Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the quote text \"When one door closes, another opens wide; do not fear the winding path, for the journey itself holds unexpected beauty along the way\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the quote text rendered in an elegant calligraphic italic style on the canister body?",
+    "category": "Text Rendering",
+    "subcategory": "Typography & Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the ratio guide text \"Ratio Guide: 3/150=0.02; for 6 grams of tea, use approximately 300 milliliters of water; for 9 grams, use approximately 450 milliliters\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the ratio guide text rendered in a monospace typeface on a narrow band at the bottom of the canister?",
+    "category": "Text Rendering",
+    "subcategory": "Typography & Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the lid text \"Thank you for taking time for yourself, for a cup of good tea, and for one deep, calming breath\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the lid text rendered with an embossed effect on the metal lid?",
+    "category": "Text Rendering",
+    "subcategory": "Typography & Material",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "If the back side is visible, is the storage instructions text \"Storage Instructions: Keep sealed in a cool, dry place away from direct heat and humidity; after opening, consume within two weeks for optimal freshness and flavor\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "If the back side is visible, are the storage instructions rendered in a small bold sans-serif typeface?",
+    "category": "Text Rendering",
+    "subcategory": "Typography & Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is all text horizontal, forward-facing, and not mirrored or reversed?",
+    "category": "Text Rendering",
+    "subcategory": "Orientation & Layout",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 18,
+    "question": "Are there any barcodes, QR codes, or additional unspecified readable text visible on the packaging?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "No",
+    "score": 10.0
+  },
+  {
+    "id": 19,
+    "question": "Is the object depicted as a cylindrical tea canister with a paper sleeve and a metal lid?",
+    "category": "Structure",
+    "subcategory": "Object Geometry",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Does the image clearly show material details including gold foil stamping, debossed embossing, and matte paper texture?",
+    "category": "Style",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Is the image rendered as a high-quality 3D product render on a solid color background (not a photorealistic photograph)?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 22,
+    "question": "Is the text clearly readable and free from severe blurring, garbled characters, or generation artifacts?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

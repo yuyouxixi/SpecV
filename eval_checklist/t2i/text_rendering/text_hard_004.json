@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the narrator box in Panel One contain the exact text: \"Panel One: He filled his schedule to the brim, forgetting to leave himself room to breathe, growing more anxious with every addition\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the narrator box for Panel One positioned in the upper left corner of the panel?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the character's speech bubble in Panel One contain the exact text: \"I absolutely must finish everything today, otherwise I'm a failure, right? Am I just avoiding things again?\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the character's speech bubble in Panel Two contain the exact text: \"Start with one important task, then one easy task, take the rest slowly, don't use anxiety as a whip to drive yourself\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the sticky note in Panel Two contain the exact text: \"To-Do: Write outline, reply to emails, do laundry, take a walk, sleep early, leave tomorrow for tomorrow\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the text \"To-Do: ...\" displayed on a sticky note that appears spread open on a desk in Panel Two?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the timer screen in Panel Two contain the exact text: \"Twenty-five minute focus session complete, please stand up, drink water, and stretch before continuing, don't push through\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the text \"Twenty-five minute focus session complete...\" displayed on a small timer located in the corner of Panel Two?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the narrator box in Panel Three contain the exact text: \"Panel Three: He finally understood that consistency beats intensity, and going slower actually means going steadier\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the narrator box for Panel Three positioned in the upper left corner of the panel?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the character's speech bubble in Panel Three contain the exact text: \"48×7=336, I got it right, I'll give myself a small pat on the back, I can do the next problem too\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the poster in Panel Three contain the exact text: \"THE MORE THAT YOU READ, THE MORE THINGS YOU WILL KNOW\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Is the poster text \"THE MORE THAT YOU READ...\" rendered in neat serif typography on a small poster on the wall?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are there any onomatopoeia (sound effects) or page numbers visible in the image (other than the specified text content)?",
+    "category": "Text Rendering",
+    "subcategory": "Content Compliance",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is all generated text legible and free from significant glyph distortion, missing strokes, or garbled characters?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

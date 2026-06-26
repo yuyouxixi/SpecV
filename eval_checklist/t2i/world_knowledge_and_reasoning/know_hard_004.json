@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Are there exactly four Bunsen burners arranged side by side in a horizontal row?",
+    "category": "Composition",
+    "subcategory": "Counting & Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Do the heat sources clearly resemble Bunsen burners (upright metal tube, base) rather than generic candles or torches?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the laboratory bench black in color?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is the background dark to provide contrast for the flame colors?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the first flame on the far left (Lithium) display a crimson, red, or deep pink color?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the second flame from the left (Sodium) display a bright yellow or orange-yellow color?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does the third flame from the left (Copper) display a green or blue-green color?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Does the fourth flame on the far right (Potassium) display a lilac, violet, or purple color?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  }
+]

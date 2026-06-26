@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the physics derivation text located specifically on the left side of the blackboard?",
+    "category": "Text Rendering",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the \"FINAL EXAM NOTICE\" located specifically on the right side of the blackboard?",
+    "category": "Text Rendering",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the phrase \"Derivation of the time-evolution form of Schrödinger's equation\" spelled correctly, including the umlaut in \"Schrödinger's\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the wave function notation \"Ψ(x,t)\" correctly rendered with the Greek letter Psi (Ψ)?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the terms \"Hamiltonian operator H\" and \"energy operator E\" visible and spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the equation \"iħ(∂Ψ/∂t) = -ħ²/2m(∂²Ψ/∂x²) + V(x)Ψ\" rendered with the correct symbols (iħ, ∂, ħ², ², Ψ)?",
+    "category": "Text Rendering",
+    "subcategory": "Formula Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the phrase \"microscopic particle motion in potential fields\" spelled correctly on the left side?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the header \"FINAL EXAM NOTICE:\" rendered in all caps and inclusive of the colon?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the phrases \"Hilbert space\" and \"operator commutation relations\" spelled correctly in the exam notice?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the specific time and location \"9:00 AM sharp in Room 302, Main Building\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the phrase \"Electronic devices strictly prohibited\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the phrase \"fifteen minutes late\" spelled correctly (with \"fifteen\" as a word, not a number)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the handwriting on the right side (Exam Notice) noticeably larger and messier than the dense text on the left?",
+    "category": "Style",
+    "subcategory": "Handwriting Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the text sharp enough to be legible without excessive blur?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are the text characters free from garbling, merging, or unrecognizable artifacts?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Does the perspective of the text match the angle of the blackboard surface (physically plausible)?",
+    "category": "General",
+    "subcategory": "Geometry/Perspective",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

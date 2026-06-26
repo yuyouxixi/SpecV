@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict a wide-angle underwater scene with crystal-clear turquoise tropical water?",
+    "category": "Style",
+    "subcategory": "Atmosphere & Perspective",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Does the lighting appear natural, filtering down from the surface consistent with underwater refraction?",
+    "category": "Style",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Are both Staghorn coral (branching structure) and Brain coral (spherical/grooved structure) visible as the reef foundation?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are there exactly two (a pair) Ocellaris clownfish, identifiable by their orange bodies and white vertical bands?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the clownfish positioned within or directly adjacent to a cluster of sea anemones (symbiotic dwelling)?",
+    "category": "World Knowledge",
+    "subcategory": "Ecological Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is there a Grouper depicted with its mouth visibly open (agape)?",
+    "category": "World Knowledge",
+    "subcategory": "Biological Behavior",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is a Cleaner Wrasse depicted cleaning the Grouper, positioned near or inside the oral cavity?",
+    "category": "World Knowledge",
+    "subcategory": "Ecological Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is a Green Sea Turtle depicted grazing on a visible seagrass bed?",
+    "category": "World Knowledge",
+    "subcategory": "Ecological Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is a Blue-ringed Octopus visible, clearly displaying fluorescent blue rings on its body or tentacles?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the octopus emerging from or positioned within a coral crevice?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is a Whitetip Reef Shark visible, identifiable by distinctive white tips on its dorsal or caudal fins?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the shark positioned in the background or distance, distinguishing it from the foreground subjects?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are the relative body proportions of the species accurate (e.g., Shark and Turtle larger than Grouper; Grouper larger than Clownfish)?",
+    "category": "Structure",
+    "subcategory": "Scale & Proportion",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is the image completely free of generated text, captions, or watermarks?",
+    "category": "General",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the marine animals free from severe anatomical distortions (e.g., extra fins, malformed bodies)?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

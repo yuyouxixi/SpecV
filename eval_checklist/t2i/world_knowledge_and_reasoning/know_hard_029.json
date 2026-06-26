@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image consist of exactly three distinct panels arranged horizontally side by side (triptych format)?",
+    "category": "Composition",
+    "subcategory": "Layout Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the location names 'Himalayas', 'Andes', and 'Mid-Atlantic Ridge' spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Are the location names placed at the bottom of their respective panels?",
+    "category": "Text Rendering",
+    "subcategory": "Spatial Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the image free of any explanatory text or labels inside the panels other than the three specified location names?",
+    "category": "Text Rendering",
+    "subcategory": "Instruction Adherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Do all three panels depict a clear sea level or land surface reference line?",
+    "category": "Structure",
+    "subcategory": "Geometric Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Do all three panels depict the crust-upper mantle boundary (Moho) beneath the surface?",
+    "category": "Structure",
+    "subcategory": "Geometric Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do all three panels include arrows indicating plate motion directions?",
+    "category": "Structure",
+    "subcategory": "Geometric Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the 'Himalayas' panel depict a thick continental crustal root and high plateau topography?",
+    "category": "World Knowledge",
+    "subcategory": "Geological Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Do the plate motion arrows in the 'Himalayas' panel indicate convergent motion (pointing towards each other)?",
+    "category": "World Knowledge",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the 'Himalayas' panel free of deep ocean trenches or subducting oceanic slabs (consistent with continent-continent collision)?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the 'Andes' panel depict a subducting oceanic plate diving beneath a continental plate?",
+    "category": "World Knowledge",
+    "subcategory": "Geological Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the 'Andes' panel include a deep ocean trench and an accretionary wedge?",
+    "category": "World Knowledge",
+    "subcategory": "Geological Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the 'Andes' panel show a volcanic arc on the continental side, positioned inland from the trench?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Do the plate motion arrows in the 'Andes' panel indicate convergent motion?",
+    "category": "World Knowledge",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the 'Mid-Atlantic Ridge' panel depict a central rift valley or seafloor spreading axis?",
+    "category": "World Knowledge",
+    "subcategory": "Geological Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Are symmetrically distributed seafloor magnetic anomaly stripes visible on both sides of the ridge in the 'Mid-Atlantic Ridge' panel?",
+    "category": "World Knowledge",
+    "subcategory": "Geological Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Do the plate motion arrows in the 'Mid-Atlantic Ridge' panel indicate divergent motion (pointing away from each other)?",
+    "category": "World Knowledge",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  }
+]

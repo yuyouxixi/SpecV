@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Is the environment clearly depicted as the lunar surface (grey dusty terrain, craters) with a pitch-black sky and no atmospheric elements (clouds, haze)?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are the shadows in the scene harsh and high-contrast (hard-edged), consistent with the lack of atmosphere on the Moon?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Is the astronaut wearing a pressurized EVA spacesuit appropriate for lunar exploration, including a helmet and visor?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are both a feather and a lead ball (or heavy spherical object) clearly visible as distinct objects in the scene?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Are the feather and the lead ball positioned at approximately the same vertical height, demonstrating that objects fall at the same rate in a vacuum?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the feather falling vertically without signs of air resistance (i.e., not fluttering, drifting sideways, or lagging behind the ball)?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are both objects depicted in mid-air, positioned below the astronaut's hands but above the ground, consistent with the 'half a second after release' timing?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Is the main title text exactly \"A Memorandum for Tomorrow: State thy question with clarity, and render thy answer complete\" spelled correctly, including punctuation?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the main title text rendered in an ornate decorative script and located on the main page of the open book?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the marginal annotation text exactly \"Read much, write well; knowledge is the lamp that lights the way\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are the marginal annotations rendered in fine small script and located in the page margins?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"A page today keeps ignorance at bay\" spelled correctly on the wax seal?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the text \"A page today keeps ignorance at bay\" imprinted/embossed on a red wax seal located in the page corner?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"TRUTH NEEDS LIGHT, NOT NOISE\" spelled correctly on the banner?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the text \"TRUTH NEEDS LIGHT, NOT NOISE\" rendered with illuminated letters on a stained glass window-shaped banner?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the mathematical text \"a²+b²=c² to remember the right triangle\" spelled correctly, specifically using superscripts for the squares?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"a²+b²=c² to remember the right triangle\" engraved on a metal book clasp?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the border text \"Move with patience, yet cease not; every stride is tallied\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"Move with patience, yet cease not; every stride is tallied\" rendered as woven jacquard text within the brocade border?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"Turn pages gently, fold no corners, and mark not upon these leaves\" spelled correctly on the plaque?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Is the text \"Turn pages gently, fold no corners, and mark not upon these leaves\" carved in elegant serif letters on a small wooden bookshelf plaque?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the text \"Ink still wet, touch not; tarry a while before shutting the book\" spelled correctly on the tag?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Is the text \"Ink still wet, touch not; tarry a while before shutting the book\" rendered in handwritten cursive on a paper tag hanging from a quill pen?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Does the image depict an open ancient book along with all specified surrounding objects (seal, clasp, plaque, quill pen, banner)?",
+    "category": "Composition",
+    "subcategory": "Scene Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Does the image adhere to a medieval illuminated manuscript style (parchment texture, gold leaf patterns, non-realistic)?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Are all text elements clearly legible and not blurred into the decorative patterns?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 20,
+    "question": "Are the text glyphs free from generation artifacts such as garbled characters, floating strokes, or nonsensical symbols?",
+    "category": "General",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Is the physical integration of text with its surface plausible (e.g., engraving follows metal curvature, wax imprint has depth, border text follows fabric weave)?",
+    "category": "General",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

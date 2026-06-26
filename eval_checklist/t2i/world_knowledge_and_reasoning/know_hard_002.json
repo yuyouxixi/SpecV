@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image show exactly three domed building cross-section models displayed side by side?",
+    "category": "Composition",
+    "subcategory": "Count & Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the arrangement of the buildings strictly from left to right: Roman Pantheon, Hagia Sophia, Florence Cathedral?",
+    "category": "Composition",
+    "subcategory": "Spatial Ordering",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the three models displayed at a roughly uniform scale relative to one another?",
+    "category": "Composition",
+    "subcategory": "Relative Scale",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Are all three buildings presented as cross-section models, revealing internal wall thickness and structure?",
+    "category": "Structure",
+    "subcategory": "Geometric Presentation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the leftmost model recognizable as the Roman Pantheon, featuring a hemispherical dome with a central oculus (circular opening)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the Pantheon model depict coffered (recessed panel) patterns on the interior dome surface?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Detail",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Is the center model recognizable as the Hagia Sophia, featuring a large central dome supported by semi-domes or a cascading dome system?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the rightmost model recognizable as Brunelleschi's Dome (Florence Cathedral), featuring a distinct octagonal shape and pointed profile?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the Florence Cathedral model show visible structural ribs or a double-shell construction?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Detail",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Are the models placed on simple pedestals within a realistic museum exhibition hall interior?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the image exhibit soft, diffused museum-style lighting?",
+    "category": "Style",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the image photorealistic (realistic photography)?",
+    "category": "Style",
+    "subcategory": "Visual Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the image free of any text labels, placards, or signage?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the image free of logos and watermarks?",
+    "category": "General",
+    "subcategory": "Image Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are the structural details of the domes free from obvious geometric distortions or nonsensical artifacts?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

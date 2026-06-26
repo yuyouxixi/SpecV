@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "question": "Is the spelling of the center cover text exactly \"May you walk through storms and still be kind, may you always find light above and a path beneath your feet\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the center text rendered as cut-out text with slightly fuzzy but neat edges?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the cut-out text positioned at the center of the card cover?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the spelling of the text on the narrow paper strip exactly \"Though miles may lie between us, we are never far apart; the road ahead is long, so write often and don't hold your thoughts inside too long\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the text on the narrow paper strip rendered in a typewriter font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the typewriter text located on a narrow paper strip on the right side of the inside page?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the spelling of the text on the beige ribbon exactly \"Write your worries on paper, fold them away for tomorrow to handle, and sleep peacefully tonight\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the ribbon text rendered as fine black text on a beige paper ribbon?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the beige ribbon with text tied at the bottom of the inside page?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the spelling of the text on the wax seal exactly \"May peace and joy be yours, may your days grow brighter, be gentle with yourself, and a smile will be enough\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Is the text on the wax seal rendered with an embossed effect on a red stamped background with irregular edges?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the embossed text located on a wax seal closure?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the spelling of the text on the hanging tag exactly \"Divide your time in two: study + rest = longer perseverance and a steadier heart\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Is the hanging tag text rendered as neat printed text?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the text on a small hanging tag dangling next to paper-cut flowers?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the spelling of the text on the back of the envelope exactly \"When you receive this, please send a short reply to let me know you arrived home safely; don't keep me waiting\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "Is this line of small text positioned on the back of the envelope?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Is the spelling of the text on the sticky note exactly \"Today's small wish: eat well, sleep well, don't fret over little things or stay up late; tomorrow try again\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 19,
+    "question": "Is the sticky note text rendered in a rounded handwriting style?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Is the sticky note positioned in the lower left corner?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Is the spelling of the text on the faux postage stamp exactly \"Thank you for appearing and making an ordinary day worth remembering and revisiting\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 22,
+    "question": "Does the faux postage stamp sticker contain only text with no images?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 23,
+    "question": "Is the faux postage stamp sticker positioned in the lower right corner?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 24,
+    "question": "Does the image exhibit a multi-layered paper-cut three-dimensional greeting card style with visible handmade paper fibers?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 25,
+    "question": "Are all text elements generally legible without severe blurring or distortion?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 26,
+    "question": "Are the text characters free from structural defects like missing strokes, merged letters, or garbled symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

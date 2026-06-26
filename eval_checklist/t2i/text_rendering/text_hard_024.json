@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"CHARLIE'S CHOCOLATE HEAVY INDUSTRIES: Dedicated to Manufacturing the World's Sweetest Dreams\" spelled exactly correctly, including punctuation?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the title text \"CHARLIE'S CHOCOLATE HEAVY INDUSTRIES...\" rendered as an embossed effect on a giant chocolate brick?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"SUPER DONUT NUTRITION FACTS: Sugar per 100g: 99.9g, Energy Level: OFF THE CHARTS\" spelled exactly correctly, including numbers and colons?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the nutrition facts text formed by buttercream piping on the side of a cake?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"SMART SORTING SYSTEM DATA: Red Beans 20%, Blue 30%, Green 50%\" spelled exactly correctly, including percentages?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the sorting data text composed of colorful jelly beans arranged on a tray?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"LAB QUALITY CONTROL REPORT: Batch No. 50 Caramel Viscosity Test PASSED, Approved for Shipment\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the quality report text formed by caramel threads stretched across a plate?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the chemical formula text rendered as transparent sugar crystals glowing under lights?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"FACTORY SAFETY NOTICE: HIGH PRESSURE STEAM BURN HAZARD, ALWAYS WEAR PROTECTIVE GOGGLES DURING OPERATION\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Is the safety slogan text formed by condensed steam situated above a boiler?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"FOOD TRACEABILITY CODE: Production Batch 2026-FEB-07, Best Before: FOREVER\" spelled exactly correctly, including the date format?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Is the traceability code text rendered as if pressed/molded into a round cookie?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the text \"DENTAL CLINIC ITEMIZED BILL: Full Mouth Cavity Restoration Total $5,000.00, Payment Due Immediately\" spelled exactly correctly, including currency symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Is the invoice text neatly printed on a brandless receipt paper?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Are all text elements legible and free from garbled characters, missing strokes, or unrecognizable symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Does the text on the curved surfaces (e.g., cake, cookie) follow the perspective/curvature naturally without distortion?",
+    "category": "Structure",
+    "subcategory": "Perspective & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Is the image free from extra branded text, logos, or unrequested labels?",
+    "category": "General",
+    "subcategory": "Prompt Compliance",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Are the text areas clear of unnatural visual artifacts like smudging, ghosting, or floating debris?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

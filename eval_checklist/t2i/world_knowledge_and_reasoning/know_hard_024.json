@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the overall visual style consistent with a scientific art illustration, combining artistic rendering with anatomical accuracy?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Does the foreground feature a Penrose triangle depicted as a solid object with its characteristic impossible geometry?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is an Escher-style staircase depicted in the foreground, showing steps that paradoxically ascend or descend in an infinite loop?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the Müller-Lyer illusion in the foreground clearly show two line segments of equal length with opposing arrowheads (inward vs. outward fins)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are all three optical illusions (Penrose triangle, Escher staircase, Müller-Lyer) positioned in the foreground of the composition?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the background display a giant anatomical cross-section of a human eye relative to the other elements?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the specific anatomical parts of the eye (cornea, crystalline lens, and retina) clearly distinguishable in the cross-section?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are light rays depicted passing through the cornea and lens to converge/form an image on the retina, consistent with optical physics?",
+    "category": "World Knowledge",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the optic nerve bundle depicted extending posteriorly from the back of the eye toward the brain?",
+    "category": "World Knowledge",
+    "subcategory": "Anatomical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the optic nerve connect to the occipital lobe (visual cortex) at the posterior part of the brain?",
+    "category": "World Knowledge",
+    "subcategory": "Anatomical Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the occipital lobe region of the brain highlighted using heat map colors (e.g., warm colors like red/orange) to indicate active zones?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

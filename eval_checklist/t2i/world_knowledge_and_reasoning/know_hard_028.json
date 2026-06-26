@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a realistic illustration of a vertical soil wall profile or trench cross-section (showing a cut face rather than a surface view)?",
+    "category": "Structure",
+    "subcategory": "Perspective & Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are multiple sediment layers visible, including exactly three distinct volcanic ash layers?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the text label 'Vesuvius 79' clearly visible, correctly spelled, and positioned at the edge of the cross-section?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the text label 'Tambora 1815' clearly visible, correctly spelled, and positioned at the edge of the cross-section?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the text label 'Mount St. Helens 1980' clearly visible, correctly spelled, and positioned at the edge of the cross-section?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is a Roman-style coin recognizable and depicted as partially buried/embedded in the soil?",
+    "category": "World Knowledge",
+    "subcategory": "Object Recognition",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is a metal component from telegraph equipment recognizable and depicted as partially buried/embedded in the soil?",
+    "category": "World Knowledge",
+    "subcategory": "Object Recognition",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is a plastic bottle cap recognizable and depicted as partially buried/embedded in the soil?",
+    "category": "World Knowledge",
+    "subcategory": "Object Recognition",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the 'Vesuvius 79' ash layer positioned deeper (lower) in the cross-section than the 'Tambora 1815' ash layer?",
+    "category": "Reasoning",
+    "subcategory": "Chronological Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the 'Mount St. Helens 1980' ash layer positioned shallower (higher) in the cross-section than the 'Tambora 1815' ash layer?",
+    "category": "Reasoning",
+    "subcategory": "Chronological Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the Roman-style coin positioned stratigraphically lower (deeper) than the 'Vesuvius 79' ash layer (or in the deepest sediment layer)?",
+    "category": "Reasoning",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the telegraph component positioned in the layers between 'Tambora 1815' and 'Mount St. Helens 1980'?",
+    "category": "Reasoning",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the plastic bottle cap positioned stratigraphically higher (shallower) than the 'Mount St. Helens 1980' ash layer?",
+    "category": "Reasoning",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is the image rendered as a close-up with clear details, allowing for easy identification of the specific artifact types?",
+    "category": "Style",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

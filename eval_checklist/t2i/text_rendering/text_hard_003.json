@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"Speak the colors you see, then paint the words you spoke, do not rush toward likeness\" spelled correctly, including exact punctuation?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the text \"Speak the colors you see...\" rendered in neat large letters with a thick oil paint style above the canvas?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"Today paint a simple cup first, no complex landscapes or portraits yet, get the proportions right before moving on\" spelled correctly, including exact punctuation?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the text \"Today paint a simple cup first...\" rendered in ballpoint pen script on a sticky note attached to the canvas edge?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"Painting Notes: Where light originates, shadow follows, and always remember to build in layers\" spelled correctly, including the colon and commas?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the text \"Painting Notes...\" rendered in a printed serif font on the spine of a thick book on the table?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"Turpentine - seal tightly after use, fumes cause dizziness, open windows for ventilation, take breaks\" spelled correctly, including the hyphen and commas?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the text \"Turpentine...\" rendered in clear small text on a paper label of a glass bottle?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the text \"Slow down, and lines will obey, mistakes become easier to fix\" spelled correctly, including exact punctuation?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"Slow down...\" rendered as fine engraved text on the metal handle of a palette knife?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the text \"Practice: Cylinder terminator line must be crisp not blurry, block in large shapes first then refine then add bounce light\" spelled correctly, including the colon?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"Practice...\" rendered in chalk writing on a small chalkboard against the wall?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"A journey of a thousand miles begins with one step; one stroke today beats idle dreams tomorrow, just begin\" spelled correctly, including the semicolon?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the text \"A journey...\" rendered in a typewriter font on a torn slip of paper at the table corner?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the calculation \"3(2+4)-5=13, brackets first then multiply and subtract, write every step do not skip\" spelled correctly with accurate numbers and symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is the calculation rendered in pencil style beside the palette?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Does the image depict a studio still life containing a wooden table, palette, brushes, cup, and a canvas in progress?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Is the overall image rendered in an impasto oil painting style with visible thick brushstrokes?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Is the background softly blurred as specified in the prompt?",
+    "category": "Composition",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 20,
+    "question": "Are all text areas legible despite the impasto oil painting style of the scene?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 21,
+    "question": "Are the text glyphs complete and free from distortion, garbling, or missing strokes?",
+    "category": "General",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 22,
+    "question": "Do the text elements align naturally with the physical perspective of the objects (e.g., wrapping on the bottle, aligned with book spine)?",
+    "category": "General",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

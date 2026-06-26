@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Does the fish exhibit the specific physical characteristics of an archerfish (e.g., pointed snout, flattened body, vertical black bands/stripes)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is there a visible insect perched on a tree branch?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the archerfish positioned below the water surface while the insect is located above the water?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the tree branch depicted as overhanging the water?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is there a distinct jet of water originating specifically from the fish's mouth?",
+    "category": "World Knowledge",
+    "subcategory": "Biological Behavior",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the water jet visibly breach the water surface tension to travel through the air?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the trajectory of the water jet directed accurately towards the insect on the branch?",
+    "category": "Reasoning",
+    "subcategory": "Causal Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the water jet appear narrow and precise rather than a wide unfocused spray?",
+    "category": "Structure",
+    "subcategory": "Visual Attributes",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

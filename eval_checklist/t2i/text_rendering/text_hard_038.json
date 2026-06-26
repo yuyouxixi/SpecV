@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"EMBRACE THE SKY, FLY FREE - ANNUAL CANYON BALLOON FESTIVAL\" clearly visible in the image?",
+    "category": "Text Rendering",
+    "subcategory": "Visibility",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the spelling of \"EMBRACE THE SKY, FLY FREE - ANNUAL CANYON BALLOON FESTIVAL\" exactly correct (including punctuation)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"EMBRACE THE SKY, FLY FREE - ANNUAL CANYON BALLOON FESTIVAL\" rendered in bold black letters?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the text \"EMBRACE THE SKY, FLY FREE - ANNUAL CANYON BALLOON FESTIVAL\" printed on the inside surface of the balloon envelope overhead?",
+    "category": "Text Rendering",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"MAX 6 PASSENGERS - DO NOT ROCK THE BASKET\" clearly visible?",
+    "category": "Text Rendering",
+    "subcategory": "Visibility",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the spelling of \"MAX 6 PASSENGERS - DO NOT ROCK THE BASKET\" exactly correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"MAX 6 PASSENGERS - DO NOT ROCK THE BASKET\" rendered in white paint on a wooden sign?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the wooden sign containing the text \"MAX 6 PASSENGERS...\" hanging on the edge of the wicker basket?",
+    "category": "Text Rendering",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the text \"FLAMES RISE, SOARING HIGH\" clearly legible?",
+    "category": "Text Rendering",
+    "subcategory": "Visibility",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the spelling of \"FLAMES RISE, SOARING HIGH\" exactly correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the text \"FLAMES RISE, SOARING HIGH\" formed by the shape of the orange flames swirling in the air (rather than overlaid text)?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"NATURE'S MASTERWORK - HONOR THIS ANCIENT LAND\" clearly visible?",
+    "category": "Text Rendering",
+    "subcategory": "Visibility",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the spelling of \"NATURE'S MASTERWORK - HONOR THIS ANCIENT LAND\" exactly correct (including the apostrophe)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Does the text \"NATURE'S MASTERWORK - HONOR THIS ANCIENT LAND\" appear as natural weathering patterns on the deep red canyon walls?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Is the text \"FAIR WINDS CARRY US FAR\" clearly visible?",
+    "category": "Text Rendering",
+    "subcategory": "Visibility",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the spelling of \"FAIR WINDS CARRY US FAR\" exactly correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Is the text \"FAIR WINDS CARRY US FAR\" formed by white clouds in the distant sky?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 18,
+    "question": "Is the text \"ALT 3000 FT\" clearly visible?",
+    "category": "Text Rendering",
+    "subcategory": "Visibility",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is the spelling/format of \"ALT 3000 FT\" exactly correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 20,
+    "question": "Is the text \"ALT 3000 FT\" rendered as green digital numbers?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 21,
+    "question": "Is the text \"ALT 3000 FT\" shown as a reflection in the pilot's windproof goggles?",
+    "category": "Text Rendering",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 22,
+    "question": "Is the text \"HAPPY WEEKEND\" clearly visible on a trailing banner?",
+    "category": "Text Rendering",
+    "subcategory": "Visibility",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 23,
+    "question": "Is the spelling of \"HAPPY WEEKEND\" exactly correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 24,
+    "question": "Is there a smiley face present on the banner alongside the text \"HAPPY WEEKEND\"?",
+    "category": "Text Rendering",
+    "subcategory": "Content Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 25,
+    "question": "Do the text characters exhibit high glyph integrity (no garbled structures, merging strokes, or unrecognizable symbols)?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 26,
+    "question": "Does the perspective correctly show the view from inside an ascending hot air balloon basket with the burner/pilot in the foreground?",
+    "category": "Composition",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 27,
+    "question": "Does the background feature a majestic red canyon and colorful hot air balloons filling the sky?",
+    "category": "Composition",
+    "subcategory": "Scene Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 28,
+    "question": "Does the perspective/curvature of the text on the balloon envelope and clouds align naturally with the scene geometry?",
+    "category": "Structure",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

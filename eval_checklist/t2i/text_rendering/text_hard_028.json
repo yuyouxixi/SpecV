@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is there an open manuscript lying on a wooden table with a copper mortar and pestle resting beside it?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Arrangement",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Is the image rendered in a realistic photography style, featuring parchment pages that appear yellowed with age?",
+    "category": "Style",
+    "subcategory": "Artistic Style & Material",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Is all the text in the manuscript rendered in a Gothic Blackletter script style?",
+    "category": "Text Rendering",
+    "subcategory": "Font Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the text block regarding 'Pulse and Humours' located specifically in the first column of the right page?",
+    "category": "Text Rendering",
+    "subcategory": "Layout & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the right page first column start with the exact header: \"On the Arte of Reading the Pulse and Humours:\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the body text in the first column of the right page exactly: \"He who would know the nature of disease must first quiet his mind and steady his hand. When the pulse beats swift and thin, it speaks of choler risen high, and the blood must be cooled with gentle herbs. When the pulse moves slow and heavy, the phlegmatic humour prevails, and warming simples must be applied. Let not the physician give cooling draughts for cold complaints, nor heating remedies for fevered blood, but judge each case upon its proper merits.\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text block regarding 'Elderflower Cordial' positioned in the center of the left page?",
+    "category": "Text Rendering",
+    "subcategory": "Layout & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the left page center text start with the exact header: \"Receipt for the Elderflower Cordial:\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Is the body text in the center of the left page exactly: \"Take of elderflowers two handfuls, gathered at dawn. Of honey, four spoonfuls of the finest quality. Of dried ginger root, one scruple finely ground. Of lemon balm leaves, one handful bruised. Steep all in one quart of boiled water until luke-warm. Strain through muslin cloth thrice. Administer one cup at morning and one at evening. The patient should thereafter rest warmly wrapped in woollen blankets.\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the text block regarding 'Cautions and Prohibitions' positioned at the bottom of the left page?",
+    "category": "Text Rendering",
+    "subcategory": "Layout & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the left page bottom text start with the exact header: \"Cautions and Prohibitions:\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the body text at the bottom of the left page exactly: \"Whilst taking physick, the patient must abstain from all raw meats, soured wines, heavy breads, and pungent onions. Should these warnings be ignored, the medicine shall lose its virtue and the malady persist. Upon recovery, the stomach remains weakened, therefore continue with broths and simple fare. Overindulgence shall surely bring relapse. Heed well these words.\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are the Gothic characters formed completely without missing strokes, merged letters, or garbled symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the text naturally follow the curvature and perspective of the open book pages?",
+    "category": "Structure",
+    "subcategory": "Perspective & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is the text clearly legible against the background, without unnatural smudging, ghosting, or artifacts?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

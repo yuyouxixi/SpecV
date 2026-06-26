@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image rendered in a fairytale illustration style (not a photograph)?",
+    "category": "Style",
+    "subcategory": "Art Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Is the text \"ADVENTURER'S GUIDE: Welcome to the Forgotten Mist Forest, Please Maintain Silence\" spelled exactly correctly (including punctuation)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the \"ADVENTURER'S GUIDE...\" text formed by fireflies clustering into a dot-matrix style?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the text \"Ancient Elvish Translation: The oath to guard this forest is forever etched within the rings of time\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the \"Ancient Elvish Translation...\" text formed by intertwining vines in a flowing cursive script?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the text \"Alchemist's Notes: Mandrake Root + Nightshade Essence = Superior Invisibility Potion\" spelled exactly correctly (including symbols '+' and '=')?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Is the \"Alchemist's Notes...\" text formed by glowing spores floating in the air?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the text \"Meditation Status: Natural elements converging around you, mana rapidly regenerating...\" spelled exactly correctly (including the ellipsis)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Is the \"Meditation Status...\" text formed by condensed water mist beside a waterfall?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"Forest Guard Wanted Poster: Honey-Thieving Brown Bear, Reward: Ten Jars of Honey\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Is the \"Forest Guard Wanted Poster...\" text clearly carved into the tree bark?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"System Alert: Rare Material Acquired [Phoenix Feather] x1, Stored in Inventory\" spelled exactly correctly (including brackets and 'x1')?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Is the \"System Alert...\" text spelled out by large feathers arranged on the ground?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the text \"Sphinx's Riddle: What walks on four legs at dawn, two at noon, and three at dusk?\" spelled exactly correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Is the \"Sphinx's Riddle...\" text formed by moonlight filtering through the tree canopy?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the text \"Ruin Puzzle Clue: The numeric code to unlock the treasure vault is 5201314\" spelled exactly correctly (specifically the number sequence)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "Is the \"Ruin Puzzle Clue...\" text formed by pebbles arranged along the path?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Are all text blocks legible and distinct from the background?",
+    "category": "Text Rendering",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Do any of the text elements contain garbled, malformed, or unrecognizable characters?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "No",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Are there noticeable visual artifacts (smudging, ghosting, noise) surrounding the text areas?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "No",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"Ye Olde Apothecary Est. 1423, Where Ancient Healing Arts Flourish\" spelled correctly, including punctuation and capitalization?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the text \"Ye Olde Apothecary...\" displayed on a weathered linen banner fluttering overhead?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"Premium Wild Chamomile, Must Be Kept Dry\" spelled correctly, including punctuation and capitalization?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the text \"Premium Wild Chamomile...\" formed by interlaced reeds on a woven wicker basket beside the apprentice?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"Grind with patience a thousand times, extract the truest medicine divine\" spelled correctly, including punctuation?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text \"Grind with patience...\" appear deeply chiseled into the bluestone mortar surface?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"Apprentice Thomas, Eager and Diligent\" spelled correctly, including punctuation?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the text \"Apprentice Thomas...\" displayed as inked lettering on the apprentice's wide-brimmed leather hat?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the text \"CURE ALL\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"CURE ALL\" formed by the arrangement of large herb leaves scattered on the cobblestones?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the text \"Mastery of Flame, Brewing the Elixir of Life\" spelled correctly, including punctuation?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"Mastery of Flame...\" formed by wisps of white smoke rising from a distant red clay furnace?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"Cures Colds and Fevers, One Dose Guaranteed\" spelled correctly, including punctuation?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Is the text \"Cures Colds and Fevers...\" displayed as knife-carved lettering on a nearby weathered wooden signpost?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are all text characters free from garbled structures, missing strokes, or unrecognizable symbols (Glyph Integrity)?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the perspective and warping of the text match the physical surface it is on (e.g., banner folds, mortar curvature, smoke flow)?",
+    "category": "Text Rendering",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Is the image free from unnatural smudges, ghosting artifacts, or excessive blurriness around the text areas?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

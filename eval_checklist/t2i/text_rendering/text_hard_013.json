@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text on the record cover spelled exactly as \"Album: Paint the Night in Shades of Blue — Where Silence Speaks and You Find You\" (including the colon and em dash)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the record cover text rendered in a retro serif font style?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the text on the wall sign spelled exactly as \"RECORDING IN SESSION KEEP IT DOWN CLOSE THE DOOR BEHIND YOU\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the \"RECORDING IN SESSION...\" text rendered as a glowing neon tube sign?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the text on the sheet music spelled exactly as \"Tempo = 120 BPM  Time Sig = 4/4  Repeat from Bar 3 to Bar 8\" (including equals signs and numbers)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the sheet music text rendered in a printed type style on paper?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text on the mixing console label spelled exactly as \"Vocal Track: Denoise first, add subtle reverb, then apply light compression\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the mixing console label text rendered in a handwriting style on paper tape?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the text on the cassette tape sticker spelled exactly as \"Demo 2026-02-05  Track 1: Take It Slow  Track 2: No Rush\" (including the date format and colons)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the cassette tape sticker text rendered in a typewriter font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the text on the T-shirt spelled exactly as \"All the world's a stage and we are merely players\" (including the apostrophe)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the T-shirt text rendered in a bold font style?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the text on the mug spelled exactly as \"Formula: Inspiration = Observation + Practice + Time ≠ Pulling All-Nighters\" (including the ≠ symbol)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Is the mug text rendered as transfer-printed text that follows the curvature of the mug?",
+    "category": "Text Rendering",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is the text on the receipt spelled exactly as \"Intimate Show  Doors 8:30 PM  Assigned Seating  No Seat Saving Please\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Is the receipt text rendered in a thermal print font style?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is the receipt visibly pinned to the wall with a thumbtack?",
+    "category": "Composition",
+    "subcategory": "Object Arrangement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are all text characters well-formed without missing strokes, merged letters, or garbled symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is all text clearly legible and distinct, avoiding blurring into the claymation/plastic textures?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 20,
+    "question": "Are all eight distinct text carriers (record, neon sign, sheet music, tape label, cassette, T-shirt, mug, receipt) present in the scene?",
+    "category": "Composition",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Does the overall scene maintain a claymation style with soft squishy textures and exaggerated lighting?",
+    "category": "Style",
+    "subcategory": "Aesthetic Compliance",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

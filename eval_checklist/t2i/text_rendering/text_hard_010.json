@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "question": "Is the wooden sign text exactly \"PIXEL GENERAL STORE: Supplies, Maps, and Trinkets All Here\" (including the colon and commas)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the wooden sign text rendered in a pixel font (16-bit style) rather than a smooth or anti-aliased font?",
+    "category": "Text Rendering",
+    "subcategory": "Font Style",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the dialogue box text exactly \"Shopkeeper: Don't rush off yet! Organize your inventory first, then decide which path to take.\" (including apostrophe and punctuation)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the dialogue box text rendered in a pixel UI font consistent with a 16-bit game UI?",
+    "category": "Text Rendering",
+    "subcategory": "Font Style",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the dialogue text contained within a dialogue box UI element?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the quest scroll text exactly \"QUEST: Find the key under the Old Bridge, then deliver it to the North Gate Guard\" (including the colon and comma)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Is the quest text rendered in a pixel faux-parchment font style?",
+    "category": "Text Rendering",
+    "subcategory": "Font Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the quest text displayed on a scroll located on the counter?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the price board text exactly \"Health Potion 120 Gold each; Antidote 90 Gold each\" (including the semicolon)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the price board text rendered in a dot-matrix pixel font style?",
+    "category": "Text Rendering",
+    "subcategory": "Font Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the price text displayed on a board on the wall?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the status panel text exactly \"EXP = Current + Quest Bonus  Gold = 1000 - 240 + 50\" (including equals signs, math symbols, and spacing)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the status panel text rendered in a monospace pixel font?",
+    "category": "Text Rendering",
+    "subcategory": "Font Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the status panel text located on the right side of the image?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the spelling of the mini-map labels \"North Gate → Woodland  South Gate → Docks  West Gate → Old Town\" correct, including the arrow symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Are the mini-map labels rendered in a tiny pixel font style?",
+    "category": "Text Rendering",
+    "subcategory": "Font Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Are the mini-map labels placed at the edge of a mini-map?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is the receipt popup text exactly \"Transaction Log: Purchased 2 Health Potions, Total 240 Gold\" (including colon and comma)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 19,
+    "question": "Is the transaction text displayed on a receipt popup at the cashier window?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Is the graffiti hint text exactly \"TIP: Damage = Attack x 2 + 10, Don't rely on luck and crits alone!\" (including punctuation and math symbols)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 21,
+    "question": "Is the graffiti hint rendered in a pixel handwriting font style?",
+    "category": "Text Rendering",
+    "subcategory": "Font Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 22,
+    "question": "Is the graffiti hint displayed as corner graffiti?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "Do any of the rendered text elements exhibit garbled characters, missing strokes, or unrecognizable symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "No",
+    "score": 9.0
+  },
+  {
+    "id": 24,
+    "question": "Is the overall image rendered in a 16-bit pixel game screenshot style (non-realistic, clear pixel edges)?",
+    "category": "Style",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 25,
+    "question": "Are visible UI frames present in the image as expected for a game screenshot?",
+    "category": "Style",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 26,
+    "question": "Is all text in the image pixel-sharp with clear edges (no blur or anti-aliasing)?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 27,
+    "question": "Is there any ghosting effect or double-imaging around any text?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "No",
+    "score": 9.67
+  },
+  {
+    "id": 28,
+    "question": "Is any of the text mirrored or reversed?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "No",
+    "score": 9.67
+  }
+]

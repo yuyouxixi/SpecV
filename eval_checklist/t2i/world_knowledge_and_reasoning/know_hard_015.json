@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Are there exactly six seven-segment display units visible in the image?",
+    "category": "Composition",
+    "subcategory": "Counting",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Do the displays exhibit the characteristic seven-segment structure, composed of distinct rectangular bar segments (rather than smooth or dot-matrix fonts)?",
+    "category": "Structure",
+    "subcategory": "Object Structure",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are the illuminated segments of the displays red in color?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Do the displays show the digits '2', '5', '0', '8', '6', '9' in that specific sequential order (from left to right)?",
+    "category": "Text Rendering",
+    "subcategory": "Sequence Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the first display correctly render the digit '2' with the appropriate segments illuminated (top, upper-right, middle, lower-left, bottom)?",
+    "category": "Text Rendering",
+    "subcategory": "Character Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the second display correctly render the digit '5' with the appropriate segments illuminated (top, upper-left, middle, lower-right, bottom)?",
+    "category": "Text Rendering",
+    "subcategory": "Character Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the third display correctly render the digit '0' with the appropriate segments illuminated (rectangular 'O' shape, middle bar off)?",
+    "category": "Text Rendering",
+    "subcategory": "Character Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the fourth display correctly render the digit '8' with all seven segments illuminated?",
+    "category": "Text Rendering",
+    "subcategory": "Character Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does the fifth display correctly render the digit '6' with the appropriate segments illuminated (all segments lit except the upper-right vertical bar)?",
+    "category": "Text Rendering",
+    "subcategory": "Character Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the sixth display correctly render the digit '9' with the appropriate segments illuminated (all segments lit except the lower-left vertical bar)?",
+    "category": "Text Rendering",
+    "subcategory": "Character Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the illuminated segments appear to emit light or glow, consistent with LED technology?",
+    "category": "Style",
+    "subcategory": "Lighting/Material",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Are the non-illuminated segments of each display visibly distinct (darker/off) from the illuminated segments?",
+    "category": "Structure",
+    "subcategory": "Object Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are all six digits clearly legible and fully visible without being cut off or obscured?",
+    "category": "General",
+    "subcategory": "Image Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are there any obvious structural distortions or artifacts (e.g., melted segments, extra nonsensical bars, jagged broken numerals)?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "No",
+    "score": 8.33
+  }
+]

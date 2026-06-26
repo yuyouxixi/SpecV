@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the meteorological alert text spelled exactly: \"NATIONAL WEATHER SERVICE RED ALERT: SEVERE HIGH-ALTITUDE CONVECTIVE STORM DETECTED, EVACUATE AIRSPACE IMMEDIATELY\" (including punctuation)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the meteorological alert text formed by thick cloud layers carved by wind (appearing as cloud-shaped lettering rather than a printed overlay)?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the flight code text spelled exactly: \"UA1024 INTERNATIONAL FLIGHT ON FINAL APPROACH, CURRENT ALTITUDE 10,000 FEET, REQUESTING LANDING CLEARANCE\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the flight code text formed by a white airplane contrail stretching across the sky?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the spectral analysis text spelled exactly: \"SPECTROMETER READING: RED-ORANGE-YELLOW-GREEN-CYAN-BLUE-VIOLET FULL SPECTRUM SCAN COMPLETE\" (including hyphens)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the spectral analysis text embedded within the seven-colored arc of a rainbow with a glowing effect?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the electrical parameter text spelled exactly: \"HIGH VOLTAGE SURGE DETECTED: POWER OUTPUT 1.21 GW, ENERGY CORE CRITICALLY OVERLOADED, DISCONNECT IMMEDIATELY\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the electrical parameter text formed by lightning forks/brushstrokes at the edge of dark clouds?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the migration log text spelled exactly: \"72ND AERIAL SQUADRON MIGRATION ROUTE BRAVO, ALL UNITS MAINTAIN FORMATION, HEADING SOUTH\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the migration log text formed by a flock of migratory birds arranged in formation?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the time display text spelled exactly: \"GREENWICH MEAN TIME: 3:15:42 PM, CALIBRATION IN PROGRESS\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the time display text cast by sunbeams onto the cloud surface?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the navigation prompt text spelled exactly: \"NAVIGATION SYSTEM ALERT: CUMULONIMBUS LAYER IN 3 MILES, REDUCE SPEED AND PROCEED WITH CAUTION\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the navigation prompt text formed by low-altitude mist above a valley?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the status bar text spelled exactly: \"ENVIRONMENTAL MONITORING SYSTEM: VISIBILITY EXTREMELY LOW, AUTOPILOT RADAR ENGAGED\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is the status bar text formed by raindrops gathering on a transparent \"aerial glass\"-like mist surface?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are all generated text characters structurally complete, recognizable, and free from garbled symbols or merged strokes?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Is the overall image clear enough to read all text elements without excessive blur or artifacts?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Does the image adhere to a \"dreamy sky illustration style\" (concept art) rather than a photorealistic photograph?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

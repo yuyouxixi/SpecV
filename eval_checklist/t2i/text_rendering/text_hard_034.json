@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"TIDAL OPERATIONS ZONE\" spelled correctly (no missing letters or typos)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the text \"TIDAL OPERATIONS ZONE\" rendered in an industrial spray-painted stencil style on the side of a shipping container?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"TODAY'S DOCKING CHECK: BOLTS CABLES LIFE RAFTS\" spelled exactly correctly (including the apostrophe and colon)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the text \"TODAY'S DOCKING CHECK...\" rendered as hand-painted nautical lettering on a weathered canvas banner hanging on a railing?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"DIRTY JOBS DONE RIGHT\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the text \"DIRTY JOBS DONE RIGHT\" rendered with an embroidered texture (thread-like appearance) on a cloth badge on the inspector's chest?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"CRANE HALTED\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the text \"CRANE HALTED\" displayed on an electronic LED dot-matrix sign (visible pixel grid) beside a crane?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the text \"ENGINEERING SUPERVISOR J. MILLER\" spelled exactly correctly (including the period after 'J')?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"ENGINEERING SUPERVISOR J. MILLER\" rendered as etched serif text on a brass nameplate?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the text \"Torque 62N·m recheck\" spelled exactly correctly (including the centered dot, 'N·m' unit, and specific capitalization)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"Torque 62N·m recheck\" rendered as pencil handwriting (graphite texture) on a sticky note clipped to a clipboard?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"WIND: SE\" spelled correctly (including the colon)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the text \"WIND: SE\" rendered as finger-traced writing in condensation on foggy glass?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the text \"RESUPPLY 6AM\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is the text \"RESUPPLY 6AM\" rendered as a branded imprint (debossed/browned) on a piece of toast?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are all eight required text instances present in the image?",
+    "category": "Text Rendering",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 18,
+    "question": "Are the text characters free from garbled structures, merged strokes, or unrecognizable symbols (Glyph Integrity)?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Is the perspective and rotation of the text consistent with the objects they are placed on (e.g., text follows the angle of the container/banner)?",
+    "category": "General",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Are there any unnatural visual artifacts (smudging, ghosting, compression noise) surrounding the text areas?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

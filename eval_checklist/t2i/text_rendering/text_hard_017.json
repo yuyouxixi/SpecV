@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the sky text spelled exactly as \"CLOUD NINE BAKERY FLAGSHIP: SERVING ONLY FRESHLY BAKED DREAMS AND THE FIRST GOLDEN RAYS OF MORNING SUNSHINE\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the sky text formed by a row of golden croissants arranged in an arched three-dimensional formation?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the banner text spelled exactly as \"TODAY'S LIMITED SPECIAL: PREMIUM FRENCH AIR BAGUETTE WITH SEA SALT CARAMEL CLOUD COMBO\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the banner text displayed on an archway made of long baguettes at the street entrance?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the formula on the cake spelled exactly as \"∫(x²+y²)dx = THE PERFECT FORMULA FOR CALCULATING CAKE VOLUME\", including the integral symbol and superscripts?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the formula text on the cake rendered to look like piped frosting?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the price list spelled exactly as \"CROISSANT $5.50, BAGUETTE $7.25, WHOLE WHEAT TOAST $4.75, TOTAL $17.50\", with correct currency symbols and decimals?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the price list text formed by densely arranged sesame seeds on a pastry board?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the warning text on the oven spelled exactly as \"HIGH TEMPERATURE DANGER ZONE — NON-PROFESSIONAL BAKERS KEEP OUT — CAUTION: RISK OF BURNS\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the warning text rendered as a caramelized brand with slight scorch marks on the oven door?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the review text spelled exactly as \"THE JAM SWEETNESS IS ABSOLUTELY PERFECT, MELTS IN YOUR MOUTH, FIVE STARS, HIGHLY RECOMMEND TO EVERYONE\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the review text rendered in a continuous cursive style formed by jam drizzles on a plate?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the tabletop text spelled exactly as \"PLEASE KEEP A JOYFUL HEART WHILE KNEADING — THE DOUGH CAN SENSE YOUR EMOTIONS\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the tabletop text rendered as negative space (finger-drawn paths) in scattered flour?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the mid-air promotional text spelled exactly as \"ALL BREADS AND PASTRIES NOW 20% OFF — MEMBERS GET EXTRA DISCOUNT — WHILE SUPPLIES LAST\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is the promotional text rendered as transparent mist letters or condensed steam in mid-air?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are there any garbled characters, merged strokes, or unrecognizable symbols in any of the generated text blocks?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "No",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Is the text generally clear and legible, avoiding excessive blurring or smudging?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "Are there unnatural visual artifacts (e.g., ghosting, floating pixels) surrounding the text areas?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "No",
+    "score": 8.33
+  }
+]

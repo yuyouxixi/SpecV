@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image composed of four distinct panels arranged in a 2x2 grid?",
+    "category": "Composition",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the image presented in a realistic photography style (not illustration, painting, or CGI)?",
+    "category": "Style",
+    "subcategory": "Visual Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does each of the four panels feature an analog clock that contains only tick marks and hands (absolutely no numerals, digits, or text)?",
+    "category": "Structure",
+    "subcategory": "Object Constraints",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the entire image free of any readable text, numbers, logos, signage, or watermarks?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the London panel feature a recognizable silhouette of a London landmark (e.g., Big Ben/Elizabeth Tower, Tower Bridge)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the London panel's clock indicate approximately 12:00 (consistent with UTC 12:00)?",
+    "category": "World Knowledge",
+    "subcategory": "Time Zone Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the London panel depict bright daytime lighting conditions consistent with noon?",
+    "category": "World Knowledge",
+    "subcategory": "Environmental Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the New York panel feature a recognizable silhouette of a New York landmark (e.g., Statue of Liberty, Empire State Building)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the New York panel's clock indicate approximately 7:00 (consistent with UTC-5 for EST)?",
+    "category": "World Knowledge",
+    "subcategory": "Time Zone Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the New York panel depict dawn or early morning lighting conditions (consistent with 7:00 AM in January)?",
+    "category": "World Knowledge",
+    "subcategory": "Environmental Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the Beijing panel feature a recognizable silhouette of a Beijing landmark (e.g., Forbidden City, Temple of Heaven, CCTV Headquarters)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the Beijing panel depict nighttime or very dark conditions consistent with 8:00 PM?",
+    "category": "World Knowledge",
+    "subcategory": "Environmental Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the New Delhi panel feature a recognizable silhouette of a New Delhi landmark (e.g., India Gate, Lotus Temple, Red Fort)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the New Delhi panel's clock indicate approximately 5:30 (consistent with UTC+5:30, i.e., 17:30)?",
+    "category": "World Knowledge",
+    "subcategory": "Time Zone Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Does the New Delhi panel depict dusk, sunset, or twilight conditions (consistent with 5:30 PM in January)?",
+    "category": "World Knowledge",
+    "subcategory": "Environmental Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Are the main subjects (landmarks and clocks) fully visible and not significantly cropped or obscured?",
+    "category": "Composition",
+    "subcategory": "Framing",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

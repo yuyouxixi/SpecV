@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image presented in a strict top-down (bird's-eye) perspective?",
+    "category": "Composition",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is there a round table with exactly four seats positioned at the top, right, bottom, and left of the frame?",
+    "category": "Structure",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are all four specific mug colors present (red, yellow, green, and blue)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are all four specific pastries present (brownie square, croissant, donut, and triangular cake slice)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does each of the four seats contain exactly one mug and one pastry?",
+    "category": "Structure",
+    "subcategory": "Object Count",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the Croissant placed at the topmost seat in the frame?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Is the Blue Mug located at the rightmost seat (clockwise-adjacent to the Croissant)?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the Green Mug positioned directly opposite the Brownie?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the Yellow Mug placed at a seat adjacent to the Triangular Cake Slice (but not at the same seat)?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the Donut positioned directly opposite the Red Mug (satisfying the condition of being neither at the same seat nor adjacent)?",
+    "category": "Reasoning",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the image free of any visible text, logos, labels, or watermarks?",
+    "category": "General",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

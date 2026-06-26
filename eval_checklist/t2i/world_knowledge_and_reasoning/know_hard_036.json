@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image clearly depict a solid, metallic sphere resembling an iron ball?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the liquid exhibit the specific visual properties of mercury (opaque, silvery, and highly reflective) rather than appearing like transparent water?",
+    "category": "World Knowledge",
+    "subcategory": "Material Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the iron ball floating on the mercury surface rather than sinking to the bottom, consistent with iron being less dense than mercury?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Density",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the iron ball depicted as partially submerged (approximately 50-60% of its volume below the surface) rather than sitting entirely on top?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Density",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the mercury surface display a realistic meniscus, depression, or curvature around the iron ball due to weight and surface tension?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Surface Tension",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is there a realistic reflection of the iron ball visible on the mirror-like surface of the liquid mercury?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Optics",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Are the surface disturbances (ripples) subtle or minimal, consistent with the ball being 'gently placed'?",
+    "category": "Reasoning",
+    "subcategory": "Action Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Are there exactly 16 pea seeds visible in the image?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the seeds arranged in a neat 4×4 grid pattern?",
+    "category": "Structure",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the seeds placed in a white shallow dish?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Do the seeds clearly display distinguishable variations in both color (yellow vs. green) and texture (smooth vs. wrinkled)?",
+    "category": "World Knowledge",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are there exactly 9 seeds that are Yellow and Smooth (consistent with the 9:3:3:1 Mendelian ratio)?",
+    "category": "Reasoning",
+    "subcategory": "Scientific Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are there exactly 3 seeds that are Yellow and Wrinkled (consistent with the 9:3:3:1 Mendelian ratio)?",
+    "category": "Reasoning",
+    "subcategory": "Scientific Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are there exactly 3 seeds that are Green and Smooth (consistent with the 9:3:3:1 Mendelian ratio)?",
+    "category": "Reasoning",
+    "subcategory": "Scientific Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is there exactly 1 seed that is Green and Wrinkled (consistent with the 9:3:3:1 Mendelian ratio)?",
+    "category": "Reasoning",
+    "subcategory": "Scientific Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the image exhibit realistic macro photography characteristics (close-up view, high detail, sharp focus on seeds)?",
+    "category": "Style",
+    "subcategory": "Photography Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the image completely free of text, numbers, scientific labels, logos, or watermarks?",
+    "category": "Text Rendering",
+    "subcategory": "Text Absence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are all 16 seeds complete and intact within the frame (not cut off) and free from significant generative artifacts?",
+    "category": "General",
+    "subcategory": "Image Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

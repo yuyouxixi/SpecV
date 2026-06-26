@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "Is the header \"INGREDIENTS:\" correctly spelled and visible in the top section?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the text \"Whole Wheat Flour (≥55%)\" correctly spelled, including the \"≥\" symbol and parentheses?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are the ingredients \"Refined Vegetable Oil, Glucose Syrup, Maltodextrin, Whole Milk Powder, Fresh Eggs, Salt\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Are the chemical ingredients \"Sodium Bicarbonate, Ammonium Bicarbonate, Soy Lecithin, Natural Flavoring\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the header \"ALLERGEN INFORMATION:\" correctly spelled and visible?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the allergen text \"Contains wheat and other gluten-containing cereals, eggs, milk and dairy products, soy and soy derivatives\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the allergen text \"Manufactured in a facility that also processes tree nuts and peanuts\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the warning \"Not recommended for individuals with nut allergies\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the header \"NUTRITIONAL CLAIMS:\" correctly spelled and visible in the middle section?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the sentence \"This product is high in dietary fiber, which contributes to normal bowel function\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the sentence \"Contains 8.5g of dietary fiber per 100g, providing 34% of daily recommended intake\" correctly spelled (including numbers)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the sentence \"Low-sugar formula designed for those monitoring blood glucose levels\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the sentence \"Diabetics should consult a physician before consumption and adjust intake accordingly\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the header \"STORAGE CONDITIONS & SHELF LIFE:\" correctly spelled and visible in the bottom section?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the instruction \"Store in a cool, dry place away from direct sunlight, heat, and humidity\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is the instruction \"Once opened, consume promptly to prevent moisture absorption and loss of freshness\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is the text \"Shelf life: 12 months (unopened)\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Is the instruction \"See production date and batch number printed on package seal\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Is the warning \"Do not purchase or consume if packaging is damaged or bloated\" correctly spelled?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Are the text blocks arranged in the correct vertical order: Ingredients (top), Nutritional Claims (middle), and Storage (bottom)?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Is the \"NUTRITIONAL CLAIMS\" text positioned beside a nutrition facts panel?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 22,
+    "question": "Are the text characters free from garbled strokes, missing parts, or unrecognizable symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 23,
+    "question": "Does the text follow the natural curvature and perspective of the packaging surface?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 24,
+    "question": "Is the text sharp and legible, avoiding excessive blur or low resolution?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 25,
+    "question": "Is the image free from unnatural visual artifacts (smudging, ghosting, random noise) around the text?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

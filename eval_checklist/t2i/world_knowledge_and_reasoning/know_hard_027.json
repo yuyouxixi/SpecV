@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image formatted as a vertical cross-section infographic?",
+    "category": "Composition",
+    "subcategory": "Format",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the diagram clearly span from Earth's surface at the bottom to near-Earth orbit at the top?",
+    "category": "Composition",
+    "subcategory": "Spatial Scope",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are the atmospheric layers clearly labeled with text?",
+    "category": "Text Rendering",
+    "subcategory": "Labeling",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are the labels restricted to layer names only, avoiding lengthy explanatory annotations or paragraphs?",
+    "category": "Text Rendering",
+    "subcategory": "Constraint Adherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are cumulonimbus clouds with thunderstorm features (e.g., lightning, anvil shape) depicted?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is a commercial airliner depicted in the image?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is a meteorological sounding balloon depicted?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is there a visual indicator or label representing the ozone layer?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is meteor ablation (shooting stars/burning meteors) depicted?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are auroras (northern/southern lights) depicted?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is a near-Earth orbit space station or satellite depicted?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the cumulonimbus clouds positioned in the lowest atmospheric layer (Troposphere)?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is the meteorological sounding balloon positioned higher than the commercial airliner (consistent with stratospheric flight)?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the ozone layer indicator positioned in the Stratosphere region (above the airliner but below the meteors)?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the meteor ablation positioned in the upper atmosphere (Mesosphere), clearly above the ozone layer?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Are the auroras positioned in the high atmosphere (Thermosphere), above the meteor activity?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Is the space station or satellite positioned at the very top of the diagram (Orbit)?",
+    "category": "World Knowledge",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are the atmospheric layer labels ordered correctly from bottom to top (Troposphere -> Stratosphere -> Mesosphere -> Thermosphere)?",
+    "category": "World Knowledge",
+    "subcategory": "Scientific Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is the text within the infographic legible and free from severe gibberish?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Are all depicted objects complete and free from severe geometric distortion?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

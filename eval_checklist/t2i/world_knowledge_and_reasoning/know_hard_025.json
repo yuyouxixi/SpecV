@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Are there exactly 3 apples present in the image (corresponding to e=3 and A=apple)?",
+    "category": "World Knowledge",
+    "subcategory": "Reasoning & Counting",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are there exactly 5 cherries present in the image (corresponding to c=5 and G=cherry)?",
+    "category": "World Knowledge",
+    "subcategory": "Reasoning & Counting",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are there exactly 2 strawberries present in the image (corresponding to f=2 and E=strawberry)?",
+    "category": "World Knowledge",
+    "subcategory": "Reasoning & Counting",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the total count of fruits in the image exactly 10 (3 apples + 5 cherries + 2 strawberries)?",
+    "category": "World Knowledge",
+    "subcategory": "Reasoning & Counting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the image free from unrequested fruits defined in the prompt (bananas, oranges, grapes, blueberries)?",
+    "category": "World Knowledge",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

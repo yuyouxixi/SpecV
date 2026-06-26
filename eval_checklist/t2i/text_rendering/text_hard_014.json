@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the top main title exactly: \"NIGHT FLIGHT NAVIGATION SYSTEM: SAFE MODE ACTIVATED — PLEASE REMAIN CALM AND FOLLOW EACH INSTRUCTION STEP BY STEP\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the top main title rendered in a thin sans-serif font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Is the top-left warning panel text exactly: \"IMPORTANT NOTICE: Three consecutive incorrect inputs will trigger a ten-minute lockout and erase all temporary records and cached data; please type slowly and carefully, do not rush\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the top-left warning panel text rendered in a bold sans-serif font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Is the top-right checklist text exactly: \"PREFLIGHT CHECKLIST: Power supply connected; Signal strength stable; All doors and windows secured; Seatbelt properly fastened; Luggage safely stowed; Headphone volume reduced\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the top-right checklist text rendered in a dot-matrix style font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Is the center verification panel text exactly: \"VERIFICATION CODE A1B2-C3D4-E5F6-G7H8 (Please verify each character one by one, do not skip or misread; proceed only after full confirmation)\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the center verification panel text rendered in a monospace font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the lower panel equations exactly: \"QUICK CALC: 12/5=2.4; 2.4×5=12; (7+9)×3=48; (10-3)×2=14; 14+6=20\" (including correct multiplication symbols '×')?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Are the lower panel equations contained within a single line?",
+    "category": "Text Rendering",
+    "subcategory": "Layout Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the lower panel equations rendered in a monospace font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the bottom-left quote exactly: \"Not every answer must come at once, but every step must be taken with clarity and steadiness; focus first on doing the very next step well\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Is the bottom-left quote rendered in a rounded sans-serif font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is the bottom strip message exactly: \"If you should see the bright moon rising o'er the sea, remember to send these words to those far away: we share this selfsame light across the distance, all of us striving to live our days with greater clarity and meaning\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Is the bottom strip message rendered in a thin serif font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does the image contain ONLY the specified text blocks (no corner labels, button text, coordinate scales, or fake brand names)?",
+    "category": "Text Rendering",
+    "subcategory": "Exclusivity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is all text horizontal, forward-facing, and not mirrored?",
+    "category": "Text Rendering",
+    "subcategory": "Orientation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Is the background a black-to-blue gradient with fine grid lines?",
+    "category": "Style",
+    "subcategory": "Background Composition",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "Are the text characters free from structural defects (e.g., missing strokes, merged letters, or unrecognizable symbols)?",
+    "category": "General",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

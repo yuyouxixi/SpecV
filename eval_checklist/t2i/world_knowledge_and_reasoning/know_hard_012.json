@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is there exactly one standard six-sided die clearly depicted as the main subject?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the surface beneath the die identifiable as a wooden table with visible wood grain?",
+    "category": "World Knowledge",
+    "subcategory": "Material Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Are the markings on the die faces standard pips (dots) representing numbers between 1 and 6?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are the pip patterns on each visible face arranged in the standard configuration (e.g., 1 centered pip, diagonal arrangement for 2, etc.)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Are exactly three faces of the die visible in the image?",
+    "category": "Composition",
+    "subcategory": "Viewpoint",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Do the three visible faces share a common corner vertex (consistent with the geometry of a cube)?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Do the visible faces adhere to the standard die rule where opposite faces sum to 7 (i.e., pairs 1&6, 2&5, and 3&4 are never adjacent)?",
+    "category": "World Knowledge",
+    "subcategory": "Logical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the die resting flat on the table surface with proper contact (not floating)?",
+    "category": "World Knowledge",
+    "subcategory": "Physics",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the geometric shape of the die a proper cube with straight edges and no significant warping?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

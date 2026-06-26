@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Does the rack contain exactly 15 billiard balls?",
+    "category": "World Knowledge",
+    "subcategory": "Counting/Quantity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the balls arranged in a standard triangular formation?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the black 8-ball positioned specifically in the center of the rack (the middle of the third row)?",
+    "category": "World Knowledge",
+    "subcategory": "Object Arrangement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are there both solid-colored balls (numbered 1-7) and striped balls (numbered 9-15) visible in the rack?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Are the two back corner balls of the triangle different types (one solid and one stripe)?",
+    "category": "World Knowledge",
+    "subcategory": "Object Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

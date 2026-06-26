@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "question": "Is the main poster header text exactly \"CITY ASTRONOMY WEEK: Making the Night Sky Make Sense\" (including the colon) with correct spelling?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the main header text rendered in a geometric sans-serif font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the subtitle text exactly \"Public Lectures | Exhibition | Telescope Experience | Family Workshops\" including the vertical bars?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the subtitle text rendered in a thin serif typeface on a single line?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"Reach for the stars, but keep your feet on the ground\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the text \"Reach for the stars, but keep your feet on the ground\" displayed on a bold black banner in the center?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the sticky note text exactly \"E=mc^2 F=ma V=IR Formulas tell stories too\" including the formulas?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the sticky note text rendered in a monospace code font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the sticky note positioned beside the central black banner?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the ticket stub text exactly \"ADMISSION Zone B 19:30 Please arrive 10 minutes early\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Does the ticket stub appear to have a thermal-printed receipt paper texture with monospace print font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the name badge text exactly \"Speaker: Dr. Ray Lin | Topic: Why Formulas Tell Stories\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Is the name badge text rendered in a thin condensed sans-serif font?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the name badge shown pinned to a collar?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the neon sign text exactly \"OUTDOOR STARGAZING TONIGHT 20:45\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Does the text \"OUTDOOR STARGAZING TONIGHT 20:45\" exhibit a glowing neon tube effect?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is the neon sign located in the corner of the scene?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Is the mathematical formula \"1+2+3+...+n=n(n+1)/2\" correctly transcribed on the chalkboard including the ellipsis?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 19,
+    "question": "Does the formula appear to be written in chalk on a chalkboard?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Is the parchment scroll text exactly \"Though worlds apart, the same stars light our way\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 21,
+    "question": "Is the parchment scroll text rendered in elegant copperplate calligraphy?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 22,
+    "question": "Is the notebook cover text exactly \"From E=mc^2 to F=ma: Define the problem before seeking the answer\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 23,
+    "question": "Is the notebook text rendered in an embossed silver serif style?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 24,
+    "question": "Is the coffee cup sleeve text exactly \"Sip slowly, hot ideas can burn\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 25,
+    "question": "Is the coffee cup sleeve text rendered in a handwritten rounded script?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 26,
+    "question": "Are all text elements oriented correctly (i.e., not mirrored or flipped)?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 27,
+    "question": "Are there any garbled characters, unrecognizable symbols, or incomplete strokes in any of the text blocks?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "No",
+    "score": 9.67
+  },
+  {
+    "id": 28,
+    "question": "Does the overall image follow a Bauhaus-style flat collage aesthetic with geometric color blocks?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 29,
+    "question": "Are all text areas legible without excessive blur or visual artifacts?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  }
+]

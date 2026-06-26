@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Are there exactly six distinct traditional dwellings visible in the scene?",
+    "category": "Composition",
+    "subcategory": "Object Count",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the image presented in a panoramic wide-view format?",
+    "category": "Composition",
+    "subcategory": "Viewpoint",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is there a winding sandy path visible in the scene?",
+    "category": "Composition",
+    "subcategory": "Spatial Elements",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are the dwellings arranged sequentially from foreground to background on both sides of the path?",
+    "category": "Composition",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the Inuit igloo clearly identifiable by its dome shape and construction from snow or ice blocks?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the Mongolian yurt depicted as a circular tent structure with a felt or canvas covering?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the Southeast Asian dwelling feature a bamboo construction raised on stilts above the ground?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the West African Malian dwelling depicted with mud-brick (adobe) walls, consistent with Sahelian architecture?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the Mediterranean house exhibit the iconic whitewashed walls and smooth architecture typical of Santorini style?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the Yemeni Sana'a house depicted as a tall, multi-story tower with distinctive white geometric window ornamentation?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do the building materials correctly reflect adaptation to their specific climate zones (e.g., snow for Arctic, bamboo for tropics, thick mud for arid heat)?",
+    "category": "World Knowledge",
+    "subcategory": "Reasoning & Logic",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the lighting soft, diffused, and overcast, avoiding harsh direct sunlight or deep shadows?",
+    "category": "Style",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the image completely free of visible text, labels, or watermarks?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Are the architectural structures free from severe geometric distortions or physical impossibilities (e.g., floating walls, melted roofs)?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

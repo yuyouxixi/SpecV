@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Is a classic mechanical balance scale clearly depicted with a central fulcrum, a beam, and two pans?",
+    "category": "World Knowledge",
+    "subcategory": "Object Recognition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is there a solid cube located on the left pan that has a metallic yellow/gold appearance?",
+    "category": "World Knowledge",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is there a solid cube located on the right pan that has a metallic silver/grey appearance?",
+    "category": "World Knowledge",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Do both cubes appear to be approximately the same size (volume), consistent with the identical 10cm x 10cm x 10cm dimensions specified?",
+    "category": "Structure",
+    "subcategory": "Relative Size",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the balance tilted such that the left pan (holding the gold cube) is clearly lower than the right pan (holding the aluminum cube)?",
+    "category": "World Knowledge",
+    "subcategory": "Physical Reasoning",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the balance beam depicted in a horizontal/level position (incorrectly indicating equal weight)?",
+    "category": "World Knowledge",
+    "subcategory": "Physical Reasoning",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

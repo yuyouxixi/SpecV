@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"HMS ROYAL ARK, LOST AT SEA, 1758\" spelled correctly (including punctuation and the year)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the text \"HMS ROYAL ARK, LOST AT SEA, 1758\" formed by dense white barnacles on a rotting wooden hull?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"NEPTUNE'S BLESSING, FORTUNE AND GLORY AWAIT\" spelled correctly (including the apostrophe)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the text \"NEPTUNE'S BLESSING, FORTUNE AND GLORY AWAIT\" rendered as raised relief lettering on a gold coin held by a diver?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"DEEP SEA EXPLORATION UNIT, O2 REMAINING: 30%\" spelled correctly (including the colon and percent sign)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the text \"DEEP SEA EXPLORATION UNIT, O2 REMAINING: 30%\" stenciled in black waterproof paint on a yellow oxygen tank?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"GIANT CLAM SANCTUARY, KEEP DISTANCE\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the text \"GIANT CLAM SANCTUARY, KEEP DISTANCE\" formed by the shape of colorful living coral?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the text \"SEEKERS PERISH\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"SEEKERS PERISH\" formed by fine sand swirling in a searchlight beam?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the text \"OBJECT DETECTED: TORTOISESHELL ARTIFACT\" spelled correctly (including the colon)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"OBJECT DETECTED: TORTOISESHELL ARTIFACT\" displayed as green pixel text on a waterproof LED screen on a robot arm?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"LIGHT OF THE ABYSS\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Is the text \"LIGHT OF THE ABYSS\" formed by transparent, glowing blue jellyfish tentacles in the distance?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Are all text characters complete, recognizable, and free from merged, broken, or garbled strokes?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Are there any noticeable visual artifacts (e.g., unnatural smudging, ghosting, or extra floating letters) around the text areas?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "No",
+    "score": 8.33
+  }
+]

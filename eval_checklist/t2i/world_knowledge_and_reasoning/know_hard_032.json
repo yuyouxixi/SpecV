@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image composed as a realistic overhead (top-down) view?",
+    "category": "Composition",
+    "subcategory": "Spatial Perspective",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the image depict a museum display case environment?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are there exactly six distinct recording media artifacts displayed in the case?",
+    "category": "Reasoning",
+    "subcategory": "Counting",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are the artifacts arranged linearly from left to right in the correct historical order: Cuneiform Tablet -> Papyrus Scroll -> Medieval Codex -> Gutenberg Page -> Typewritten Doc -> E-reader?",
+    "category": "Reasoning",
+    "subcategory": "Chronological Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the leftmost object a Sumerian cuneiform clay tablet with characteristic wedge-shaped impressions?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the second object an Egyptian papyrus scroll exhibiting fibrous texture and a rolled format?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the third object a medieval parchment manuscript presented in codex (bound book) format?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the fourth object an early printed page (Gutenberg era) showing evidence of movable type (e.g., uniform blackletter font)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the fifth object a 20th-century typewritten document with monospaced characters and mechanical ink qualities?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the rightmost object a modern digital e-ink reader with a screen?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the e-ink reader depicted without any visible brand name or logo (unbranded)?",
+    "category": "Reasoning",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Are dates, era names, and explanatory text placards absent from the image?",
+    "category": "Reasoning",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Are all six artifacts fully visible within the frame, without being cut off by the image boundaries?",
+    "category": "Composition",
+    "subcategory": "Image Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the image have a realistic photographic quality as specified in the prompt?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

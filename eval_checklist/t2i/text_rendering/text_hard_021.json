@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"TAKLAMAKAN DESERT HEARTLAND: THE SEA OF DEATH FROM WHICH NONE RETURN\" spelled exactly correctly, including the colon?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the text \"TAKLAMAKAN DESERT HEARTLAND...\" formed naturally by shadows along the dune ridgeline?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Context",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"EXPEDITION LOG DAY 42: ALL WATER RESERVES COMPLETELY EXHAUSTED, THIS IS THE FINAL RECORD\" spelled exactly correctly, including the colon and comma?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the text \"EXPEDITION LOG DAY 42...\" spelled out by a team's footprints crossing the sand surface?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Context",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"ARCHAEOLOGICAL DISCOVERY DATE: JUNE 18, 1923, STEIN EXPEDITION MARKER\" spelled exactly correctly, including the colon, commas, and digits?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the text \"ARCHAEOLOGICAL DISCOVERY DATE...\" constructed from black stones arranged on the sand?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Context",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"MENTAL STATUS ASSESSMENT: LARGE WATER SOURCE DETECTED AHEAD (CONFIRMED TO BE MIRAGE HALLUCINATION)\" spelled exactly correctly, including the colon and parentheses?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the text \"MENTAL STATUS ASSESSMENT...\" integrated into distant heat waves or mirages with a hallucinatory effect?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Context",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the text \"SATELLITE MAP NOTATION: NEAREST SUPPLY OASIS POSITION MARKED, STRAIGHT-LINE DISTANCE 20 KILOMETERS\" spelled exactly correctly, including the colon, hyphen, and digits?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"SATELLITE MAP NOTATION...\" formed by the shadows of palm fronds on the sand?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Context",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the text \"SANDBOARD REAL-TIME TELEMETRY: CURRENT GLIDING SPEED 60 KM/H, MAINTAIN BALANCE\" spelled exactly correctly, including the hyphen, colon, comma, and units?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"SANDBOARD REAL-TIME TELEMETRY...\" carved out by sandboard tracks in the sand?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Context",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"PROFESSIONAL OUTDOOR EQUIPMENT: NOMAD SERIES TENT, WIND RATING LEVEL FIVE, UV RESISTANT\" spelled exactly correctly, including the colon and commas?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Is the text \"PROFESSIONAL OUTDOOR EQUIPMENT...\" rendered as undulating embroidered patterns on the tent fabric?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Context",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the text \"INTERNATIONAL SOS DISTRESS SIGNAL: OUR POSITION AT NORTHERN DUNES, URGENT NEED FOR MEDICAL KIT\" spelled exactly correctly, including the colon and comma?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Is the text \"INTERNATIONAL SOS DISTRESS SIGNAL...\" formed by campfire smoke rising into the night sky?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Context",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are all 8 required text blocks present in the image without any missing messages?",
+    "category": "Text Rendering",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Are all text characters free from severe distortion (e.g., missing strokes, merged letters, or collapsed structures) despite their integration with natural elements?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Is the image rendered in a non-photorealistic concept illustration style?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Is the transition from day to night depicted with stars beginning to appear in the sky?",
+    "category": "World Knowledge",
+    "subcategory": "Lighting & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 21,
+    "question": "Is the text legible without significant blurriness or low resolution?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 22,
+    "question": "Are there any obvious generation artifacts (ghosting, random noise, or unnatural smudging) surrounding the text areas?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "No",
+    "score": 8.0
+  },
+  {
+    "id": 23,
+    "question": "Is the perspective and physical integration of text elements (shadows, tracks, smoke) logically consistent with the environment?",
+    "category": "Structure",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the title text \"Landscape Scroll: Turn the chaos into stillness, and give your heart to the clouds and wind\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the title text displayed horizontally at the top of the scroll in an elegant cursive script?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Style",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the poem text \"The moon shines bright upon the night, like frost upon the ground; I raise my head to see its light, then bow with thoughts homeward bound\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the poem text displayed vertically on the right side of the painting?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the first maxim text \"Seek not haste in reading, but remembrance; let words settle in your heart, let deeds rest in your hands\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the second maxim text \"Walk not for distance, but for clarity; let footsteps land in the present, let eyes gaze toward the horizon\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Are both maxim texts displayed vertically on the left side of the scroll?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the annotation text \"Note: This scroll uses only black ink and pale grey, proving gentleness needs no color to endure\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Is the annotation text placed near the mountain base in a fine script style?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the bottom line text \"Write as water flows, smooth and continuous, yet every word must remain legible and upright\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Is the bottom line text rendered in clear print style at the bottom of the scroll?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Style",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"Still heart, slow steps, free as the wind\" spelled correctly inside the bottom-right seal?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is the seal at the bottom right square in shape and vermillion (red) in color?",
+    "category": "Text Rendering",
+    "subcategory": "Attributes (Shape/Color)",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the text \"Let each day unfold with quiet grace\" spelled correctly inside the bottom-left seal?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the seal at the bottom left rectangular in shape and vermillion (red) in color?",
+    "category": "Text Rendering",
+    "subcategory": "Attributes (Shape/Color)",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is all calligraphy crisp and legible, appearing like high-definition print rather than sloppy?",
+    "category": "Text Rendering",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are all text characters free from garbled symbols, incomplete strokes, or unrecognizable glyphs?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is the color palette strictly limited to black/grey ink and vermillion seals (no other colors)?",
+    "category": "Style",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Do the text and seals look naturally integrated onto the rice paper texture (e.g., seals look authentically stamped)?",
+    "category": "General",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

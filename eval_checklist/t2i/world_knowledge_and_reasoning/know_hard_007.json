@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image composed as a strict top-down flat lay (90-degree angle)?",
+    "category": "Composition",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Are exactly eight distinct stringed instruments visible in the image?",
+    "category": "World Knowledge",
+    "subcategory": "Quantity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are the instruments arranged in a radial pattern, evenly spaced around the center?",
+    "category": "Composition",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the background surface a light-colored circular white ash wood board (visible wood grain)?",
+    "category": "World Knowledge",
+    "subcategory": "Material Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is the Japanese shamisen depicted with a rectangular/box-shaped body (skin-covered appearance) and three strings?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the Indian sitar depicted with a large gourd resonator, long neck with curved metal frets, and multiple strings?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the West African kora depicted with a large calabash gourd body and strings arranged in two parallel rows?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the Iranian tar depicted with its characteristic double-bowl (figure-8) shaped body and membrane covering?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the Chinese pipa depicted with a pear-shaped wooden body, four strings, and frets extending onto the soundboard?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the Arabic oud depicted with a deep pear-shaped body, short fretless neck, and bent-back pegbox?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the Eastern European balalaika depicted with a distinct triangular body shape and three strings?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are small pieces of textile placed specifically in the gaps between adjacent instruments?",
+    "category": "Structure",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is a Chinese-style textile (e.g., silk) correctly paired/placed adjacent to the Chinese pipa?",
+    "category": "World Knowledge",
+    "subcategory": "Cultural Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is an African-style textile (e.g., kente cloth with geometric patterns) correctly paired/placed adjacent to the West African kora?",
+    "category": "World Knowledge",
+    "subcategory": "Cultural Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is a Persian-style textile (e.g., carpet fragment) correctly paired/placed adjacent to the Iranian tar?",
+    "category": "World Knowledge",
+    "subcategory": "Cultural Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Is the image free of any visible text, labels, or watermarks?",
+    "category": "General",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Are all eight instruments fully visible and not significantly cropped at the edges?",
+    "category": "Composition",
+    "subcategory": "Image Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

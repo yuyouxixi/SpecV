@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the spelling of the text \"Winterhold Fortress: The Last Northern Frontier Outpost, Authorized Personnel Only\" completely correct (including capitalization, colon, and spacing)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the text \"Winterhold Fortress...\" integrated naturally as frost patterns growing on a window glass?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the spelling of the text \"Advanced Ice Magic Spell: Instantly Freeze All That Flows, Both Matter and Time\" completely correct (including punctuation)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the text \"Advanced Ice Magic Spell...\" formed by precisely connected cracks in the ice?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the spelling of the text \"Main Quest Updated: Locate the Lost Millennium Frostheart Crystal Shards (0/5)\" completely correct (including parentheses and numbers)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the text \"Main Quest Updated...\" shaped by snow accumulated on forest tree canopies in the distance?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the spelling of the text \"Status Alert: Extreme Hypothermia, Movement Speed Reduced 50%, Health Draining Per Second\" completely correct (including percentages and commas)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the text \"Status Alert...\" displayed as reflective patches on thin ground ice?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the spelling of the text \"System Notice: Server Maintenance in Ten Minutes, Please Save Progress and Log Off\" completely correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"System Notice...\" formed by aurora bands curling across the sky?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the spelling of the text \"Legendary Item Stats: Durability 100/100, Light Radius +50, Intelligence +10\" completely correct (including special characters like + and /)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the text \"Legendary Item Stats...\" appear as glowing carved grooves inside an ice lantern?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the spelling of the text \"Party Chat [Mage]: Anyone got Greater Fireball? Need to melt this ice wall ahead now!\" completely correct (including brackets and punctuation)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Is the text \"Party Chat [Mage]...\" formed by white steam condensing from a hot tea cup?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the spelling of the text \"The Old Hunter whispers: These massive tracks lead deep into the mountains, where the Frost Beast dwells\" completely correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Is the text \"The Old Hunter whispers...\" formed by a trail of footprints and wind-blown snow powder?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are all text elements legible and structurally intact, without garbled characters, missing strokes, or random symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Are all key background elements present: frozen tundra, pine forest, dawn lighting, and glittering ice crystals?",
+    "category": "Composition",
+    "subcategory": "Scene Content",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "Is the overall image clear and high-resolution, ensuring that the extensive text elements are readable?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

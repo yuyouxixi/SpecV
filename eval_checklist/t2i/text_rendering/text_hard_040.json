@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Are there two distinct computer monitors positioned side by side on a desk?",
+    "category": "Composition",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Are oscilloscope probes, jumper wires, and circuit boards visible on the desk surface?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Is the C code (starting with #include) displayed specifically on the Left monitor?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the Makefile content (starting with CC=gcc) displayed specifically on the Right monitor?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "On the left screen, are the include headers rendered correctly: \"#include <stdint.h>\" and \"#include <stdbool.h>\"?",
+    "category": "Text Rendering",
+    "subcategory": "Code Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "On the left screen, is the 'Ring' struct defined correctly, including \"uint8_t data[64]\", \"uint8_t r\", and \"uint8_t w\"?",
+    "category": "Text Rendering",
+    "subcategory": "Code Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "On the left screen, is the 'ring_push' function visible with the logic \"if (nw == rb->r) return false;\"?",
+    "category": "Text Rendering",
+    "subcategory": "Code Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "On the left screen, is the 'Led' struct defined correctly with fields \"ms\", \"last\", and \"state\"?",
+    "category": "Text Rendering",
+    "subcategory": "Code Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "On the left screen, is the 'led_step' function rendered with the specific timing check \"if (now - l->last < 250)\"?",
+    "category": "Text Rendering",
+    "subcategory": "Code Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "On the left screen, does the 'crc16' function contain the correct hexadecimal constants \"0xFFFF\" and \"0x1021\"?",
+    "category": "Text Rendering",
+    "subcategory": "Code Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "On the left screen, is the 'main' function visible and does it contain an infinite loop \"for (;;)\"?",
+    "category": "Text Rendering",
+    "subcategory": "Code Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "On the right screen, are the variable assignments \"CC=gcc\" and \"TARGET=firmware\" rendered correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Code Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "On the right screen, is the CFLAGS line rendered exactly as \"CFLAGS=-std=c11 -O2 -Wall -Wextra -Werror\"?",
+    "category": "Text Rendering",
+    "subcategory": "Code Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "On the right screen, are the build rules \"$(TARGET): main.o\" and \"main.o: main.c\" rendered correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Code Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "On the right screen, is the clean rule rendered with the command \"rm -f $(TARGET) *.o\"?",
+    "category": "Text Rendering",
+    "subcategory": "Code Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "On the right screen, is the phony target declared as \".PHONY: all clean\"?",
+    "category": "Text Rendering",
+    "subcategory": "Code Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Do the screens exhibit slight reflections and perspective distortion as requested, without rendering the text illegible?",
+    "category": "Style",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Are code syntax characters (curly braces {}, semicolons ;, asterisks *, hex prefixes 0x) rendered with distinct glyph integrity (not merged, blurry, or hallucinated)?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Is the text sufficiently sharp and legible on both monitors despite the perspective and simulated screen texture?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 20,
+    "question": "Does the image appear as a realistic photo-style rendering rather than a vector illustration or cartoon?",
+    "category": "Style",
+    "subcategory": "Visual Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

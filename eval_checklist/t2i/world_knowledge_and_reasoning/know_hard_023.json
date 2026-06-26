@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image clearly a chess set placed on a wooden table?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the camera positioned from White's side at a slight overhead angle, such that White's back rank is the row nearest to the viewer?",
+    "category": "Composition",
+    "subcategory": "Viewpoint Consistency",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the chessboard correctly oriented with a light-colored square in the bottom-right corner relative to White's perspective?",
+    "category": "World Knowledge",
+    "subcategory": "Game Rules/Orientation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "On White's back rank (the row nearest the camera), are the pieces arranged in the correct standard order from left to right: Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook?",
+    "category": "World Knowledge",
+    "subcategory": "Game Rules/Setup",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Are the White Queen and King correctly positioned (Queen on her own color/d1, King on the opposite color/e1) without being swapped?",
+    "category": "World Knowledge",
+    "subcategory": "Game Rules/Setup",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is there exactly one White pawn that has moved from its starting position?",
+    "category": "World Knowledge",
+    "subcategory": "Game State/Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the moved White pawn specifically the King's Pawn (the one originally standing directly in front of the King on the e-file)?",
+    "category": "World Knowledge",
+    "subcategory": "Game State/Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Has the White King's Pawn advanced exactly two squares to the e4 position?",
+    "category": "World Knowledge",
+    "subcategory": "Game State/Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Do all other pieces (Black pieces and remaining White pieces) remain in their standard starting positions?",
+    "category": "World Knowledge",
+    "subcategory": "Game State/Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the chessboard completely free of coordinate letters (a-h) and numbers (1-8) on the borders or squares?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Is the image free of any readable text, numbers, logos, or watermarks anywhere in the scene?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the image exhibit high-detail realistic lighting with consistent shadows cast by the pieces?",
+    "category": "Style",
+    "subcategory": "Lighting/Realism",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are the chess pieces and board free of severe structural distortions, melting effects, or geometric artifacts?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

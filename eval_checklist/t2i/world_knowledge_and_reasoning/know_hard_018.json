@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Are there exactly six distinct ships visible in the composition?",
+    "category": "Composition",
+    "subcategory": "Object Count",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the ships arranged from the left foreground to the right background?",
+    "category": "Composition",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Do the ships progressively increase in size from left (smallest) to right (largest)?",
+    "category": "Composition",
+    "subcategory": "Relative Size",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the first ship (leftmost) resemble an Ancient Egyptian papyrus boat, featuring a hull made of bundled reeds and curved ends?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the second ship resemble an Ancient Greek trireme, characterized by a long hull, a bow ram, and visible banks/rows of oars?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the third ship resemble a Viking longship, featuring a clinker-built hull, a single square sail, and a curved prow?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the fourth ship resemble a Chinese Ming Dynasty treasure ship, distinguishing itself with multiple masts and characteristic battened junk sails?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the fifth ship resemble a Spanish galleon, featuring a high sterncastle structure and multiple square-rigged masts?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the sixth ship (rightmost) resemble a 19th-century clipper, featuring a sleek narrow hull and very tall, complex rigging?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the hull materials visually distinct across the eras (e.g., reeds vs. timber planking vs. junk hull construction)?",
+    "category": "World Knowledge",
+    "subcategory": "Material Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Are there any anachronistic elements visible (e.g., modern engines, radar, metal hulls)?",
+    "category": "World Knowledge",
+    "subcategory": "Temporal Consistency",
+    "expected_answer": "No",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the lighting suggest a dusk setting with side lighting?",
+    "category": "Style",
+    "subcategory": "Lighting Atmosphere",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are there golden reflections visible on the water surface?",
+    "category": "Style",
+    "subcategory": "Lighting Interactions",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Does the sea appear calm with a smooth or gently rippled surface?",
+    "category": "Style",
+    "subcategory": "Environmental Physics",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Do the ships appear to be anchored (stationary) rather than in motion (no large wakes)?",
+    "category": "World Knowledge",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Are there any visible flags on any of the ships?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "No",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "Is there any visible text or lettering in the image?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "No",
+    "score": 10.0
+  },
+  {
+    "id": 18,
+    "question": "Are there any visible logos or brand marks?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "No",
+    "score": 10.0
+  },
+  {
+    "id": 19,
+    "question": "Is the image aspect ratio widescreen?",
+    "category": "Composition",
+    "subcategory": "Aspect Ratio",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Is the image style photorealistic (not illustrative or cartoony)?",
+    "category": "Style",
+    "subcategory": "Aesthetic Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Are the rigging and masts structurally coherent (connected to ships, not floating or tangled)?",
+    "category": "Structure",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

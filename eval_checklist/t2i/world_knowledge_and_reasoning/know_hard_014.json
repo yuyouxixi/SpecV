@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Is there a clock visible in the image that is hanging on a wall?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Do the hands of the actual clock point to 10:10 (hour hand near 10, minute hand near 2)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is there a mirror positioned next to the clock?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the mirror clearly show a reflection of the clock?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the reflection of the clock laterally inverted (horizontally flipped) relative to the real clock?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the time shown in the reflection appear to be approximately 1:50 (the optical mirror image of 10:10)?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "If numbers are visible on the clock face inside the reflection, are they reversed (mirror writing)?",
+    "category": "Reasoning",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

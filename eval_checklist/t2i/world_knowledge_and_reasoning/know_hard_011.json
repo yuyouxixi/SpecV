@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image clearly depict a piano keyboard?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the image framed from a directly overhead (top-down) perspective?",
+    "category": "Structure",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the image a close-up view, with the keyboard filling the majority of the frame?",
+    "category": "Composition",
+    "subcategory": "Framing",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the image display at least two full octaves (showing the 2-black and 3-black key pattern at least twice)?",
+    "category": "Reasoning",
+    "subcategory": "Constraint Satisfaction",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Do the black keys follow the correct repeating pattern of alternating groups of two and three?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the black keys correctly depicted as shorter and narrower than the white keys?",
+    "category": "World Knowledge",
+    "subcategory": "Object Physics",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Are the black keys correctly positioned between the white keys (set back and raised), rather than flush or misaligned?",
+    "category": "World Knowledge",
+    "subcategory": "Object Physics",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

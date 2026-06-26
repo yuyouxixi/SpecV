@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"Heritage Mill Paper, Thin as Gossamer, Strong as Sinew\" placed on a freshly lifted wet sheet of handmade paper in the foreground?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the spelling of \"Heritage Mill Paper, Thin as Gossamer, Strong as Sinew\" completely correct, including punctuation and capitalization?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"Heritage Mill Paper...\" rendered as a clear watermark that appears to be catching the sunlight?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the text \"Ancient Method of Soaking, Forty-Nine Days of Patient Craft\" placed on the edge of a massive stone vat?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the spelling of \"Ancient Method of Soaking, Forty-Nine Days of Patient Craft\" completely correct, including the hyphen?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the text \"Ancient Method of Soaking...\" rendered in carved Roman serif letters that are covered in moss?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"Carter Workshop, Generations of Mastery\" placed on a wooden paddle handle held by a worker?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the spelling of \"Carter Workshop, Generations of Mastery\" completely correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does the text \"Carter Workshop...\" appear as charred letters branded by a red-hot iron?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"Sweat and Soul Nurture Craft\" placed on a linen towel draped over a worker's shoulder?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Is the spelling of \"Sweat and Soul Nurture Craft\" completely correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the text \"Sweat and Soul Nurture Craft\" appear woven into the rough texture of the linen?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"Living Waters Ever Flow\" formed on the water's surface near rushing stream water?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the spelling of \"Living Waters Ever Flow\" completely correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Is the text \"Living Waters Ever Flow\" rendered as white foam gathering on the surface?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Is the text \"Finest Linen and Oak Bark, Papermaker's Treasure\" placed on the bark of a thick oak tree in the background forest?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "Is the spelling of \"Finest Linen and Oak Bark, Papermaker's Treasure\" completely correct, including the apostrophe?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 18,
+    "question": "Does the text \"Finest Linen and Oak Bark...\" appear carved with a knife into the tree bark?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Is the text \"Sunlight Drying Area\" placed on wooden drying racks in the distance?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 20,
+    "question": "Is the spelling of \"Sunlight Drying Area\" completely correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 21,
+    "question": "Is the text \"Sunlight Drying Area\" rendered with a peeling red paint effect?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 22,
+    "question": "Are all text characters structurally complete and recognizable, avoiding merged strokes or garbled symbols?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "Is the image free of spurious text, random letter strings, or duplicate fragments not requested by the prompt?",
+    "category": "Text Rendering",
+    "subcategory": "Spurious Text",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 24,
+    "question": "Is the overall image and text clear, legible, and free from excessive blur?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 25,
+    "question": "Are the text areas free from unnatural visual artifacts (e.g., smudging, ghosting, or warped borders)?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

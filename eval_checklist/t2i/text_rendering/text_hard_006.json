@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict a rainy night cyberpunk street scene with neon reflections on wet ground?",
+    "category": "Composition",
+    "subcategory": "Scene Attributes",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 2,
+    "question": "Is the holographic billboard text \"Don't let the data streams dictate your next move, reclaim your focus first and then decide whether to scroll on or log off\" spelled completely correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the holographic billboard located above a street corner and rendered with a bright, glowing holographic effect?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is the vertical neon sign text \"The neon burns bright but keep your mind still, walk slow don't rush, steady steps matter more than speed\" spelled completely correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the vertical neon sign located on the left side and rendered with a neon lighting effect?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the scrolling LED ticker text \"Today's reminder: No screens before sleep, give your eyes some darkness, let your brain slowly power down\" spelled completely correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the LED ticker located on the right side and rendered in a dot-matrix style?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the wall graffiti text \"The world screams loud, I just want one thing clear: Breathe first then move, don't back yourself into a corner\" spelled completely correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the graffiti text rendered in bold brushstroke lettering on a wall surface?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the kiosk screen text \"Equation: 128+256-64=320, don't fear the numbers, follow each step, if you fail just restart and try again\" spelled completely correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the kiosk text displayed on a small screen on a roadside self-service kiosk using a digital interface font?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the metal warning sign text \"High voltage equipment do not touch, maintenance crew currently working, please detour and keep your distance\" spelled completely correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the metal warning sign appear to have embossed/raised lettering, rust, and raindrops on its surface?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the subway lightbox text \"Entrance descends thirty meters below, rainy stairs are slippery hold the rail, don't walk and scroll your phone\" spelled completely correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the subway text displayed on a lightbox located at a subway entrance?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is the access pass text \"Temporary access pass valid only tonight, expires at dawn keep it safe and exit the zone before deadline\" spelled completely correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is the access pass text neatly printed on a plastic pass worn on a pedestrian's chest?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are all signs in the scene unbranded (free of commercial logos)?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Do other light signs (aside from the specified text sources) contain only solid color geometric shapes without text?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Is the perspective of the text consistent with the surface it is written on (e.g., graffiti following the wall's angle, pass conforming to the chest)?",
+    "category": "General",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Do the generated text characters exhibit high glyph integrity (no garbled strokes, missing parts, or alien-like symbols)?",
+    "category": "General",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Is the image free from significant visual artifacts (smudging, ghosting, ringing) around the text areas?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

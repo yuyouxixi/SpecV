@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a realistic photo-style shot of a programmer's workstation with a late-night atmosphere?",
+    "category": "Style",
+    "subcategory": "Atmosphere & Tone",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 2,
+    "question": "Does the desk scene include a keyboard, mouse, tangled charging cables, a coffee cup, and several sticky notes?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Are there three computer screens lit simultaneously, positioned Left, Middle, and Right?",
+    "category": "Composition",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is the text on the Left Screen rendered in a monospace font and correctly positioned?",
+    "category": "Text Rendering",
+    "subcategory": "Font & Placement",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "On the Left Screen, are the imports exactly: 'from __future__ import annotations', 'import asyncio', 'import json', 'import time', 'from dataclasses import dataclass', and 'from typing import Any, Dict'?",
+    "category": "Text Rendering",
+    "subcategory": "Python Code Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "On the Left Screen, is the 'Job' class defined with the '@dataclass' decorator and fields: 'id: str', 'kind: str', 'payload: Dict[str, Any]', 'created_at: float'?",
+    "category": "Text Rendering",
+    "subcategory": "Python Code Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "On the Left Screen, is the 'handle' function signature exactly 'async def handle(job: Job) -> Dict[str, Any]:'?",
+    "category": "Text Rendering",
+    "subcategory": "Python Code Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "On the Left Screen, does the return statement in 'handle' match exactly: \"return {'id': job.id, 'ok': True, 'kind': job.kind, 'age_ms': int((now() - job.created_at) * 1000)}\"?",
+    "category": "Text Rendering",
+    "subcategory": "Python Code Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "On the Left Screen, does the 'main' function initialize 'q: asyncio.Queue[Job]' and use 'q.put_nowait' to add two specific jobs ('j-001', 'j-002')?",
+    "category": "Text Rendering",
+    "subcategory": "Python Code Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "On the Left Screen, is the logic 'while True:', 'job = await q.get()', 'result = await handle(job)', and 'print(json.dumps(result, ensure_ascii=False))' correctly rendered?",
+    "category": "Text Rendering",
+    "subcategory": "Python Code Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "On the Left Screen, is the indentation and line structure of the Python code preserved correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Formatting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the text on the Middle Screen rendered in a monospace font and correctly positioned?",
+    "category": "Text Rendering",
+    "subcategory": "Font & Placement",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "On the Middle Screen, is the 'CreateTodo' Zod object defined with 'title: z.string().min(1)' and 'due: z.string().optional()'?",
+    "category": "Text Rendering",
+    "subcategory": "TypeScript Code Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "On the Middle Screen, is the POST handler 'app.post('/api/todos'...)' visible with the ID generation line \"const id = `t-${Date.now()}`\"?",
+    "category": "Text Rendering",
+    "subcategory": "TypeScript Code Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "On the Middle Screen, is the PATCH handler 'app.patch('/api/todos/:id/done'...)' visible with the logic 't.done = true'?",
+    "category": "Text Rendering",
+    "subcategory": "TypeScript Code Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "On the Middle Screen, does the code end with 'app.listen(8080, () => { console.log('listening on 8080') })'?",
+    "category": "Text Rendering",
+    "subcategory": "TypeScript Code Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is the text on the Right Screen rendered in a monospace font and correctly positioned?",
+    "category": "Text Rendering",
+    "subcategory": "Font & Placement",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "On the Right Screen, does the Deployment section include 'name: inference-api', 'image: example/inference-api:1.2.0', and env vars 'LOG_LEVEL'/'WORKERS'?",
+    "category": "Text Rendering",
+    "subcategory": "YAML Config Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "On the Right Screen, are the resource limits defined as 'cpu: 200m', 'memory: 256Mi' (requests) and 'cpu: '1'', 'memory: 1Gi' (limits)?",
+    "category": "Text Rendering",
+    "subcategory": "YAML Config Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "On the Right Screen, is the Service section separated by '---' and defined with 'port: 80' and 'targetPort: 8080'?",
+    "category": "Text Rendering",
+    "subcategory": "YAML Config Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "On the Right Screen, is the HorizontalPodAutoscaler section visible with 'minReplicas: 2', 'maxReplicas: 10', and 'averageUtilization: 70'?",
+    "category": "Text Rendering",
+    "subcategory": "YAML Config Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 22,
+    "question": "On the Right Screen, is the YAML indentation structure correctly preserved?",
+    "category": "Text Rendering",
+    "subcategory": "Formatting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 23,
+    "question": "Is there a specific yellow sticky note on the desk with handwritten text?",
+    "category": "Text Rendering",
+    "subcategory": "Handwriting & Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 24,
+    "question": "Does the sticky note text include: \"Run tests & lint before merge; prod changes MUST have rollback script + observability metrics\"?",
+    "category": "Text Rendering",
+    "subcategory": "Handwriting Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 25,
+    "question": "Does the sticky note text include: \"Confirm stable before merging to main & silencing alerts\"?",
+    "category": "Text Rendering",
+    "subcategory": "Handwriting Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 26,
+    "question": "Is the image free from any other text, logos, or UI elements not specified in the prompt?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 27,
+    "question": "Is the text on all screens legible despite the requested perspective angle and effects?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 28,
+    "question": "Are the text characters free from severe structural degradation (e.g., melting letters, merged lines, or garbled glyphs)?",
+    "category": "General",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

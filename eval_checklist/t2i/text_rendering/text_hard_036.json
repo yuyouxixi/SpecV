@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "Are all seven required text instances present in the image (ice castle bubbles, chainsaw guide bar, husky leash stitching, snow imprints, aurora sky tracing, jacket back print, thermos sticker)?",
+    "category": "Text Rendering",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is the spelling of \"FORTRESS OF FROST, CRYSTAL ETERNAL, FROZEN IN TIME\" exactly correct, including commas and spacing?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"FORTRESS OF FROST...\" displayed on the massive ice castle in the center of the scene?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the text \"FORTRESS OF FROST...\" rendered specifically as natural air bubbles frozen inside the crystal-clear ice?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the spelling of \"ICEBREAKER PRO CHAINSAW, RAZOR SHARP PRECISION\" exactly correct, including the comma?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the text \"ICEBREAKER PRO CHAINSAW...\" located on the metal guide bar of the sculptor's chainsaw?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"ICEBREAKER PRO CHAINSAW...\" rendered in black industrial lettering?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the spelling of \"ARCTIC SLED DOG, HEART OF COURAGE\" exactly correct, including the comma?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the text \"ARCTIC SLED DOG...\" displayed on the genuine leather leash of a husky lying nearby?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"ARCTIC SLED DOG...\" rendered as thick thread stitching?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the spelling of \"CAUTION: ICY SURFACE, WATCH YOUR STEP\" exactly correct, including the colon and comma?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"CAUTION: ICY SURFACE...\" located in the thick snow on the ground?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the text \"CAUTION: ICY SURFACE...\" appear as deep imprints stomped by heavy boots (recessed into the snow)?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the spelling of \"AURORA ABLAZE, WINTER RETREATS, ICE FLOWS SURGE\" exactly correct, including commas?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the text \"AURORA ABLAZE...\" formed by the luminous path of green aurora ribbons in the sky?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the spelling of \"10TH ANNUAL ICE SCULPTURE CHAMPIONSHIP\" exactly correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Is the text \"10TH ANNUAL...\" displayed on the back of the sculptor's red shell jacket?",
+    "category": "Text Rendering",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is the text \"10TH ANNUAL...\" rendered in white reflective coating?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Is the spelling of \"HOT MULLED WINE\" exactly correct?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 20,
+    "question": "Is the text \"HOT MULLED WINE\" displayed on a waterproof sticker attached to a stainless steel thermos?",
+    "category": "Text Rendering",
+    "subcategory": "Style Compliance",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Do the text renderings follow the surfaces and scene geometry realistically (e.g., perspective on guide bar, fabric folds on jacket, leash curvature)?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 22,
+    "question": "Across all text instances, are the glyphs free from distortion, missing strokes, or garbled structures?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "Is the overall image clear, with text areas sharp and legible?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 24,
+    "question": "Is the image free from significant visual artifacts (ghosting, smudging, or weird pixelation) around the text areas?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

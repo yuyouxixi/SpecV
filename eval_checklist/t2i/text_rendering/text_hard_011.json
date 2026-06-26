@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"RIVERSIDE TEA HOUSE: Sit a while and speak slowly, no rush even when the tea grows cold\" spelled correctly, including the colon?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the text \"RIVERSIDE TEA HOUSE...\" displayed on a wooden sign at the tea house entrance using bold serif lettering?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"Tonight brings wind and moonlight, safe travels on your way\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the text \"Tonight brings wind...\" displayed on red paper lanterns using elegant cursive script?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the verse \"Sunset fades behind the hills, rivers flow to distant seas, to gaze upon a thousand miles, climb higher still with grace and ease\" spelled correctly, including all commas?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the verse \"Sunset fades...\" displayed on a long rice paper scroll hanging under the corridor in brush calligraphy style?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"Walk until the waters end, then sit and watch the clouds arise\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the text \"Walk until the waters end...\" displayed on an opened paper fan in delicate italic script?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the text \"LONG ROADS FEAR NOT SLOWNESS, ONLY STOPPING; WHEN TROUBLED, FIRST DRINK TEA AND THEN SPEAK\" spelled correctly, including the semicolon and all-caps format?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the text \"LONG ROADS FEAR NOT SLOWNESS...\" displayed on a stone stele at the bridge head in carved Roman capitals?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the text \"CLEAR WIND BRIDGE: Cross with care and mind the steps below\" spelled correctly, including the colon?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the text \"CLEAR WIND BRIDGE...\" displayed on a bridge plaque in gold-leaf serif lettering?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"Accounts: 3 coins...\" displayed on a counter ledger in a printed typeface?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the text \"Farewell traveler, may your journey be safe, and good tidings always find you\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Is the text \"Farewell traveler...\" displayed on the river boat sail in bold brush lettering?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the image rendered in an ukiyo-e woodblock print style (flat color blocks, wave patterns, non-realistic)?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Are the tea house, bridge, and small boat all clearly visible in the scene?",
+    "category": "Composition",
+    "subcategory": "Scene Elements",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Are all text elements clearly legible without significant blur, missing strokes, or garbled characters?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Does the text perspective align naturally with the surfaces (e.g., curving on the sail/lanterns, angled on the bridge/stele) rather than floating flatly?",
+    "category": "Structure",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

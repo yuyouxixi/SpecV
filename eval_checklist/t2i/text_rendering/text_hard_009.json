@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"Little Baking Class: Mix flour, milk, and patience into sweet memories\" spelled correctly (including punctuation)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the text \"Little Baking Class...\" rendered in a chalk lettering style on a small chalkboard located by the stove?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"Steps: First whisk eggs until fluffy, then pour in milk and stir well, finally add flour in three batches and fold gently\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the \"Steps...\" text rendered in pencil handwriting style on a recipe card located on the dining table?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"Math: 1/2 + 1/4 = 3/4, align measuring cup to the marking line\" spelled correctly (including fractions and symbols)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the \"Math...\" text rendered in a small monospace font at the bottom of the recipe card?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"1/4 cup  1/2 cup  2/3 cup  3/4 cup\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the text \"1/4 cup...\" rendered as printed sans-serif markings on a transparent measuring cup?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the text \"350°F × 20 min  Preheat before baking\" spelled correctly (including the special characters ° and ×)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the \"350°F...\" text rendered as metal engraved text on the oven dial?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the text \"ALL-PURPOSE FLOUR  Keep Sealed  Store in Cool Dry Place\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the flour bag text rendered in a bold packaging style on the flour bag?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"Take it slow, flavors bloom better, and mistakes stay far away\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Is the \"Take it slow...\" text rendered as embroidered script on the apron?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the text \"COUNTDOWN 00:20:00 IN PROGRESS  Do not open door frequently\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Is the countdown text rendered in a digital font on a phone timer interface?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is the text \"Baked with love, blessed from above\" spelled correctly?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 18,
+    "question": "Is the \"Baked with love...\" text rendered as icing piped lettering on a cookie located on a baking tray?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Are there any garbled characters, missing strokes, or unrecognizable symbols in any of the generated text?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "No",
+    "score": 9.67
+  },
+  {
+    "id": 20,
+    "question": "Is the text area blurry, distorted, or illegible?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Does the text naturally follow the perspective and curvature of the objects (e.g., cup curvature, dial angle, bag folds)?",
+    "category": "General",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

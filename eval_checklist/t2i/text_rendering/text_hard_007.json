@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict a colorful collage bullet journal page featuring torn-edge paper, washi tape, stickers, paper clips, coffee stains, and slight shadows?",
+    "category": "Composition",
+    "subcategory": "Scene Elements",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Are the decorative patterns (background textures, stains, tape designs) free of any random, illegible, or unwanted text (only specified text appears)?",
+    "category": "Text Rendering",
+    "subcategory": "Contextual Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the main title at the top spelled exactly as: \"My journal isn't meant to be perfect, it's meant to make sense of life and finally let my feelings breathe\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the main title rendered in bold handwriting at the very top of the page?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the middle paragraph spelled exactly as: \"Today I decided to do less and think more: write down how I feel first, then handle the tasks, take care of myself before taking care of my to-do list\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the middle paragraph rendered in neat black pen on lined paper in the middle of the page?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the sticker text on the right spelled exactly as: \"A reminder to myself: Don't use busyness to hide your real fears, it's okay to pause and take a breath\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the text starting with \"A reminder to myself...\" rendered in a printed font on a colorful sticker to the right?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the text on the lower left strip spelled exactly as: \"Love looks not with the eyes but with the mind, patience and slow progress are also a form of devotion\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the text starting with \"Love looks not...\" rendered in a typewriter font on a narrow paper strip in the lower left corner?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the formula card text spelled exactly as: \"(a+b)²=a²+2ab+b², remember the formula but also the derivation, don't just memorize without understanding\" (ensuring superscripts are correct)?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the formula text rendered in a clear monospace font on a card in the middle area?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the receipt text spelled exactly as: \"Today's expenses: Breakfast $5 + Coffee $4 + Bus $3 = $12, tracking spending keeps the mind at peace, adjust tomorrow\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Is the receipt text rendered in a neat printed font on a small receipt sticker?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the to-do list text spelled exactly as: \"To-Do List: Do laundry, call home, clean off the desk, sleep before eleven, don't procrastinate until too late\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Is the to-do list text rendered in rounded handwriting on a sticky note in the lower right corner?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is the washi tape phrase \"If you feel you're going slow, just lighten your steps a little, but don't stop and don't look back\" clearly readable at least once?",
+    "category": "Text Rendering",
+    "subcategory": "Visibility",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Is the washi tape text rendered in a printed style on a strip at the very bottom of the page?",
+    "category": "Text Rendering",
+    "subcategory": "Style & Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Is the overall image high-resolution and clear enough that all small text elements (like the receipt and formula) are legible?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

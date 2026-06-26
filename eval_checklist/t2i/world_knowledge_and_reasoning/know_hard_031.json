@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Are there exactly three transparent, sealed sample bottles visible on the workbench?",
+    "category": "Composition",
+    "subcategory": "Object Count & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the scene clearly situated in a laboratory fume hood environment (e.g., visible sash, baffles, ventilation interior)?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Do the bottle labels textually display \"Hg\", \"Br2\", and \"I2\" respectively, without additional readable explanatory words?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling & Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is a thermometer visible nearby that clearly reads \"22°C\"?",
+    "category": "Text Rendering",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the bottle labeled \"Hg\" (Mercury) contain a substance that appears as a silvery, metallic liquid?",
+    "category": "World Knowledge",
+    "subcategory": "Chemical Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the bottle labeled \"Br2\" (Bromine) contain a deep reddish-brown liquid (potentially with visible colored vapor)?",
+    "category": "World Knowledge",
+    "subcategory": "Chemical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the bottle labeled \"I2\" (Iodine) contain dark grey or purple-black solid crystals (not a liquid)?",
+    "category": "World Knowledge",
+    "subcategory": "Chemical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are laboratory safety elements (such as gloves or safety goggles) visible in the scene?",
+    "category": "World Knowledge",
+    "subcategory": "Safety Context",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are generic hazard pictograms present on the bottles or nearby, without readable text?",
+    "category": "World Knowledge",
+    "subcategory": "Safety Context",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the image a close-up, realistic photograph (photorealistic textures, lighting, depth of field)?",
+    "category": "Style",
+    "subcategory": "Photorealism",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Are there any explanatory annotations, captions, or callouts added to the image beyond the bottle labels and thermometer reading?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "No",
+    "score": 10.0
+  }
+]

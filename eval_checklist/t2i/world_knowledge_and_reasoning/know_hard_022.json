@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the central object a tall, transparent cylindrical container (glass cylinder or graduated cylinder)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are there exactly four distinct liquid layers visible in the container?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the bottom layer visually consistent with honey or syrup (thick, amber/golden color)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the top layer (or the layer just below the rim) visually consistent with cooking oil (yellowish, translucent, glossy)?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is there a clear water layer (transparent or lightly tinted blue) that is distinct from the other liquids?",
+    "category": "World Knowledge",
+    "subcategory": "Entity Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the liquids arranged in a physically plausible density order (e.g., Honey at the bottom, Oil at the top)?",
+    "category": "World Knowledge",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Do the liquids show distinct separation lines (immiscibility) rather than blending into a gradient?",
+    "category": "World Knowledge",
+    "subcategory": "Physics/Logic",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the glass container and liquid content exhibit realistic light refraction and transparency effects?",
+    "category": "Style",
+    "subcategory": "Realism/Physics",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Is the container free of readable measurement graduations (numbers or scale lines)?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the image completely free of text, brand logos, and watermarks?",
+    "category": "Text Rendering",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are the liquids visibly unlabeled (no tags, stickers, or text identifying them)?",
+    "category": "World Knowledge",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

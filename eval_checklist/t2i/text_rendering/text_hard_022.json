@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text \"Galactic Federation Interstellar Navigation Chart: Sector 7 Border Zone, Unexplored Territory\" rendered with perfect spelling, punctuation, and capitalization?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the navigation chart text formed by constellation star points connected by thin lines?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Medium",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the text \"Communication Link Failure: Severe Electromagnetic Nebula Interference, Primary Signal Lost\" rendered with perfect spelling, punctuation, and capitalization?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the communication failure warning text appear to coalesce from nebula dust or mist?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Medium",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the text \"Interstellar Cargo Freighter USCSS Nostromo, Port of Registry: Earth\" rendered with perfect spelling, punctuation, and capitalization?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the vessel name text displayed as metal-etched lettering with a cold glow on the space station hull?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Medium",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the text \"Orbital Mechanics Data: Eccentricity 0.002, Perigee Altitude 400.5 km\" rendered with perfect spelling and numerical accuracy?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the orbital mechanics data displayed on an astronaut helmet HUD?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the text \"Life Support System Alert: Critical Oxygen Leak Detected, Seal Section A Immediately\" rendered with perfect spelling, punctuation, and capitalization?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the life support alert rendered in a scrolling dot matrix screen style within a corridor?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Medium",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the text \"Cargo Hold Overview: Rare Mineral Samples 330 Tons, Hazard Class IV\" rendered with perfect spelling and numerical accuracy?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the cargo manifest text arranged using a cluster of floating ice crystals?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Medium",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the text \"Relative Navigation Data: Target Velocity 25000 m/s, Deceleration Burn in Progress\" rendered with perfect spelling and numerical accuracy?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the relative velocity data integrated into the streaks of a comet tail?",
+    "category": "Text Rendering",
+    "subcategory": "Placement & Context",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the text \"Rover Status Report: Surface Exploration Complete, Battery Low, Preparing for Return\" rendered with perfect spelling, punctuation, and capitalization?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is the rover status text formed by lunar rover tracks etched in the dust?",
+    "category": "Text Rendering",
+    "subcategory": "Material & Medium",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are all text elements free from garbled characters, unrecognizable symbols, or merged strokes?",
+    "category": "Text Rendering",
+    "subcategory": "Glyph Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is the overall image rendered in a poetic sci-fi illustration style (non-photorealistic) rather than a realistic photograph?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Are the text areas clear and legible, avoiding excessive blur or obscuring artifacts?",
+    "category": "General",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]
