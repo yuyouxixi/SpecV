@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the muddy ground, including any puddles or standing water, completely replaced with thick snow accumulation?",
+    "category": "Edit Execution",
+    "subcategory": "Ground Transformation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the trees, branches, and undergrowth (such as ferns and moss) covered with a heavy layer of snow?",
+    "category": "Edit Execution",
+    "subcategory": "Vegetation Transformation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Have the tire tracks been converted from muddy ruts into fresh, compacted impressions in the snow?",
+    "category": "Edit Execution",
+    "subcategory": "Detail Conversion",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are gently falling snowflakes visible throughout the scene?",
+    "category": "Edit Execution",
+    "subcategory": "Atmospheric Effects",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the snow accumulation on tree branches and trunks follow gravity, resting naturally on top surfaces and crevices?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Does the new snow surface show convincing depth and volume (mounding/unevenness) rather than looking like a flat white overlay?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Texture Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the interaction between the vehicle's tires and the snow physically plausible (tires slightly embedded with snow displaced around them)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Object-Scene Interaction",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the lighting and color temperature of the scene consistently reflect a cold, overcast winter atmosphere?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Are shadows and reflections on the vehicle consistent with the snowy environment (avoiding warm or muddy reflections)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Environmental Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the Land Rover vehicle preserved with its original shape, structure, and orientation intact?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Are specific vehicle accessories and details (roof rack, snorkel, grille, headlights) preserved and visible?",
+    "category": "Preservation",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Are the vehicle's wheels and tires preserved without distortion or deformation?",
+    "category": "Preservation",
+    "subcategory": "Component Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the transition between the vehicle and the new snowy background natural, without visible halos or jagged edges?",
+    "category": "General Quality",
+    "subcategory": "Blending",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the image free of significant AI artifacts, distortions, or smearing, particularly in complex areas like tree branches?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the vehicle rendered sharply without unintended global blur or loss of texture?",
+    "category": "General Quality",
+    "subcategory": "Sharpness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

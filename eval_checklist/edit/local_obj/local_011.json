@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Are exactly three white swans added to the lake surface?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is one swan positioned in the center-left area of the frame?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are two swans positioned further away on the right side of the frame?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the swan on the left scaled noticeably larger than the two swans on the right to correctly represent depth?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Perspective Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Do the swans' white feathers exhibit warm orange/pink tones consistent with the sunset lighting?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does each swan have a visible, vertically aligned reflection on the water surface?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Properties",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do the three swans display distinct poses rather than appearing as identical copies?",
+    "category": "Edit Execution",
+    "subcategory": "Object Variety",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Are the swans placed on open water without incorrectly intersecting with the canoe, foreground rocks, or shoreline?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the person in the canoe on the right side completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the mossy rocks in the bottom-left foreground completely preserved?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the image free of any unintended added objects or animals other than the three swans?",
+    "category": "Preservation",
+    "subcategory": "Content Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are the swans free of anatomical distortions or unrealistic body proportions?",
+    "category": "General Quality",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are the edges of the swans natural and free of jagged halos or artifacts?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Does the visual style (sharpness, noise, texture) of the swans match the original image?",
+    "category": "General Quality",
+    "subcategory": "Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

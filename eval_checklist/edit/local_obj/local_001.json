@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the neon sign reflection text (\"LUCKY'S NOODLE BAR OPEN LATE\") completely removed from the puddle?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is a reflection of a crescent moon visible in the puddle in place of the neon sign text?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the crescent moon reflection positioned strictly within the puddle boundaries where the original neon sign reflection was located?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Does the crescent moon reflection exhibit distortions consistent with the water ripples and surface texture of the puddle?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the crescent moon reflection appear as a luminous reflection on the water surface rather than a solid object superimposed on top?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the image free of any new moon object added outside the puddle (e.g., in the sky or on the dry asphalt)?",
+    "category": "Edit Execution",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Are the boundaries and shape of the puddle unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the texture of the asphalt (including cracks and wet sheen) outside the puddle completely preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the small circular raindrop rings and ripple patterns within the puddle preserved (excluding the area of the new reflection)?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the edited area free of ghosting, outlines, or remnants of the original neon letters?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the edited reflection area free of unnatural blurring, compositing seams, or visual artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

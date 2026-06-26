@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background strongly motion-blurred to convincingly convey high-speed movement?",
+    "category": "Edit Execution",
+    "subcategory": "Motion Blur Application",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are dynamic speed lines added to the image to visually enhance the sense of velocity?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Effects",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the car body kept crisp and perfectly in focus, creating a clear separation from the blurred background?",
+    "category": "Edit Execution",
+    "subcategory": "Focus Control",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Do the wheels exhibit radial or rotational blur to realistically simulate spinning at high speed?",
+    "category": "Edit Execution",
+    "subcategory": "Object-Specific Motion",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Does the road surface beneath the car exhibit appropriate motion streaking consistent with the car's direction?",
+    "category": "Edit Execution",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Do the background perspective lines and blur direction align correctly with the car's forward path?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physics & Perspective",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the car's identity preserved (red color, specific model, shape, and silhouette) without unwanted structural changes?",
+    "category": "Preservation",
+    "subcategory": "Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are fine details of the car (badges, headlights, mirrors, license plate) preserved without distortion or corruption?",
+    "category": "Preservation",
+    "subcategory": "Detail Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the edges of the car clean and precise, with no background blur bleeding onto the vehicle or haloing artifacts?",
+    "category": "Harmony & Blending",
+    "subcategory": "Edge Matting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Do the added speed lines integrate naturally without obscuring key vehicle details like the windshield or badge?",
+    "category": "Harmony & Blending",
+    "subcategory": "Effect Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Does the car maintain believable contact with the road (shadows and tire positioning) despite the motion effects?",
+    "category": "Harmony & Blending",
+    "subcategory": "Ground Contact",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from generative artifacts, unnatural distortions, or inconsistent blur patterns?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

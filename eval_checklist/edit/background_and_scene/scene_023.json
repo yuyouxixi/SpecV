@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Have the point-like stars been transformed into smooth, concentric arc trajectories?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Effects",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the center of rotation for the star trails located in the upper left region of the frame, simulating the position of Polaris?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Composition/Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Do the star trail arc lengths appear consistent with a two-hour exposure (partial arcs of approximately 30 degrees) rather than full circles?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Are the foreground rock formations (buttes) and desert terrain sharp and completely free of motion blur?",
+    "category": "Preservation",
+    "subcategory": "Foreground Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the photographer and the tripod in the lower right foreground preserved without distortion or blurring?",
+    "category": "Preservation",
+    "subcategory": "Subject Identity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Is the horizon line where the sky meets the land clean, with no star trails bleeding onto the terrain?",
+    "category": "Edit Execution",
+    "subcategory": "Masking/Edges",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the star trails smooth and continuous, free from jagged aliasing, banding, or segmentation?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the image free of ghosting artifacts, particularly around the edges of the static foreground elements?",
+    "category": "General Quality",
+    "subcategory": "Ghosting",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

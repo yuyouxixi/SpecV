@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is a red folding beach chair added to the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the beach chair positioned in the center of the lawn?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Positioning",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the seat of the chair facing toward the right side of the frame?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Positioning",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the chair possess the correct attributes (red canvas fabric and a metallic/aluminum folding frame)?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is the chair scaled appropriately for the scene, appearing consistent with the distance of the hedges and grass plane?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Does the chair cast a visible shadow on the grass?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the direction of the chair's shadow match the scene's lighting (extending down-right) and align with the existing shadows from the hedges?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Is the grass texture surrounding the chair coherent and free of smearing, repetitive patterns, or obvious inpainting artifacts?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Are the background hedges and their original shadows completely preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the sky area completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the image free of unintended additional objects (e.g., extra chairs, people)?",
+    "category": "Preservation",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the edited area free of visual artifacts such as jagged edges, halos, or unnatural color bleeding?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the structure of the chair geometrically correct (no warped parts, disconnected legs, or impossible geometry)?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

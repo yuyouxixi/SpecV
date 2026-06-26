@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the bright dance studio environment completely replaced by a dark theater stage setting with pitch-black surroundings?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Replacement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the mirrors and reflections (including the reflected dancer and pianist) completely eliminated or hidden in darkness?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Are the original studio fixtures (windows, ballet barres, radiators) removed or invisible in the new scene?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is the dancer illuminated by a single, distinct spotlight effect?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Design",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the subtle texture of the wooden stage floor planks faintly visible within the illuminated area?",
+    "category": "Preservation",
+    "subcategory": "Background Detail",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Does the illuminated floor area fade naturally into the surrounding darkness without appearing uniformly bright?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Is the dancer's pose (arabesque jump with extended limbs) preserved exactly as in the original image?",
+    "category": "Preservation",
+    "subcategory": "Subject Pose",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the dancer's attire (leotard, shorts, and pointe shoes) preserved without changes to style or color?",
+    "category": "Preservation",
+    "subcategory": "Subject Attire",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Are the dancer's anatomical proportions and fine details (such as the hair bun) preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Subject Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the lighting on the dancer's body consistent with the high-contrast spotlight source (highlights and shadows aligned)?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Realism",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Are the edges of the dancer clean and free from bright halos or pixel remnants from the original white background?",
+    "category": "General Quality",
+    "subcategory": "Edge Matting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Are all white folding chairs on both the left and right sides of the aisle completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are all seated guests completely removed, with no remaining body parts, clothing, or accessories visible?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the officiant standing between the couple completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are the shadows cast by the removed chairs, guests, and officiant completely eliminated from the lawn?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Are the bride and groom preserved without distortion, missing limbs, or altered silhouettes?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the shadow cast by the couple on the grass preserved and consistent with the scene?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Is the floral wedding arch fully preserved, maintaining its original structure and floral details?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are the rose petal decorations on the aisle preserved and clearly visible?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the background foliage and tree line preserved without blurring or alteration?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Are the boundaries around the couple and the wedding arch clean, with no jagged edges or halos where objects were removed?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the grass texture in the restored areas natural and consistent with the surrounding lawn, avoiding repetitive patterns?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the lighting in the inpainted lawn areas consistent with the original lighting direction and intensity?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from editing artifacts such as ghosting, floating elements, or unnatural smudges?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

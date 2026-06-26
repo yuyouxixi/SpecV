@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the main chef, particularly his hands and the pan, rendered in sharp focus?",
+    "category": "Edit Execution",
+    "subcategory": "Focal Plane",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the flames rising from the pan kept sharp and distinct, appearing in the same focal plane as the main subject?",
+    "category": "Edit Execution",
+    "subcategory": "Focal Plane",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Do the spice jars in the immediate foreground exhibit pronounced bokeh blur?",
+    "category": "Edit Execution",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is the sous chef and the surrounding background significantly blurred out?",
+    "category": "Edit Execution",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the blur intensity scale realistically with distance (e.g., foreground jars are blurrier than mid-ground objects)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Optical Physics",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Do the blurred areas exhibit realistic lens bokeh characteristics (soft, rounded highlights) rather than uniform Gaussian blur?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Optical Physics",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is the main chef's identity, posture, and clothing preserved without unintended alteration?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Are the foreground and mid-ground objects (raw steaks, vegetables, alcohol bottle) preserved in their original arrangement?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the 'Prime Cuts Steakhouse' sign and general kitchen background content preserved (aside from the blur)?",
+    "category": "Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Are the edges of the sharp subjects (chef, flames) free from harsh halos, fringing, or cutout artifacts against the blurred background?",
+    "category": "General Quality",
+    "subcategory": "Edge Rendering",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from pixelation, unnatural distortions, or AI-generated artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

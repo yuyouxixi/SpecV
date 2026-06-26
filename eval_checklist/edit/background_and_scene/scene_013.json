@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the dense red smoke and fog completely removed from the stage environment?",
+    "category": "Edit Execution",
+    "subcategory": "Atmosphere Removal",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the lighting color temperature changed from intense red to a clear cool white?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Adjustment",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is a drummer and drum kit clearly visible and recognizable at the back of the stage?",
+    "category": "Edit Execution",
+    "subcategory": "Object Reveal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is an LED video wall clearly visible behind the stage?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Element Addition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Do the stage lights project clear illumination without visible scattering through haze?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Physics",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Are the three musicians in the foreground preserved in their original poses and positions?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the instruments (guitars) held by the musicians structurally intact and recognizable?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Are the stage equipment elements (microphone stands, amplifiers) preserved in their original positions?",
+    "category": "Preservation",
+    "subcategory": "Scene Details",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Is the newly revealed background (drummer, LED wall) visually consistent with the stage perspective and depth?",
+    "category": "Edit Execution",
+    "subcategory": "Perspective Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Are the edges of the foreground musicians clean and free from residual red fog or halos?",
+    "category": "General Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the image free of visible inpainting artifacts (smudging, banding, distortion) in the revealed areas?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

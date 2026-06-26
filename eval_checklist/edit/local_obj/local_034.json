@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the photobombing man wearing neon green swim trunks (including his patterned shirt, exposed belly, and held drink) completely removed from the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the woman in the floral bikini (foreground subject) fully preserved with no changes to her outline, face, sunglasses, or raised arms?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are the ocean wave ripples in the background reconstructed realistically and clearly visible, without being blurred or smudged?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are the footprints in the sand clearly preserved and distinct, rather than being smoothed over or blurred out?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the sand texture in the edited area consistent with the surrounding granular beach surface, avoiding smooth patches or painterly artifacts?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Are the other background people (such as the child playing in the water and swimmers) completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Are the background static objects (colorful umbrellas, beach toys, buckets) preserved without distortion or color changes?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the lighting and shadow consistency maintained in the edited area (e.g., no leftover shadows of the removed man or mismatched brightness)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the edited area free from visual artifacts such as ghosting, visible seams, or semi-transparent remnants of the removed person?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from AI hallucinations, such as extra limbs, floating objects, or nonsensical elements introduced during the inpainting process?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

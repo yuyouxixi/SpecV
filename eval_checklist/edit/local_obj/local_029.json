@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the man on the far left (wearing a blue shirt and holding a phone) completely removed from the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the man on the far right (wearing a grey shirt) completely removed from the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are the left and right image boundaries clean, ensuring no partial limbs, clothing fragments, or cut-off artifacts remain?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the background behind the removed figures (restaurant interior, walls, frames, other diners) reconstructed realistically and seamlessly?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting & Blending",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Are the table edges, chairs, and seating areas where the people were removed reconstructed with correct perspective and continuity?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting & Blending",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Are the people immediately adjacent to the removed figures (the woman in the dark blue dress on the left and the man in the white shirt on the right) preserved without distortion or missing parts?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are any body parts of the remaining group that were previously occluded by the removed people (e.g., shoulders, arms) reconstructed naturally?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting & Blending",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the central toasting group preserved with their original identities, poses, and facial expressions?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are the raised glasses, drinks, and table setting (plates, cutlery, bottles) preserved without modification or distortion?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the lighting and color tone in the reconstructed edge areas consistent with the rest of the indoor scene?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Color",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the edited image free of visible artifacts such as ghosting, smearing, seams, or unnatural blurring in the modified areas?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from AI hallucinations, such as extra hands, limbs, or distorted objects appearing in the cleared space?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

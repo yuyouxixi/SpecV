@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the sun repositioned to be perfectly centered within the opening of the floral arch structure?",
+    "category": "Edit Execution",
+    "subcategory": "Object Repositioning",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Has the color temperature been adjusted to reflect intensified golden hour warmth (stronger orange/amber tones)?",
+    "category": "Edit Execution",
+    "subcategory": "Color Grading",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is there a significantly strengthened backlighting effect, creating a higher contrast look consistent with the sun's position?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Adjustments",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is a dreamy luminous haze or bloom effect visible, diffusing softly around the couple?",
+    "category": "Edit Execution",
+    "subcategory": "Atmospheric Effects",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the rim lighting on the couple's silhouettes natural and aligned with the sun being directly behind them?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Direction",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Are the bride and groom preserved in their original kissing pose with their attire (dress/suit) clearly identifiable?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Are the couple's facial features still discernible (not completely crushed to black) despite the strong backlighting?",
+    "category": "Preservation",
+    "subcategory": "Detail Retention",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the driftwood floral arch structure intact, maintaining its original shape without warping or missing segments?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are background elements like guests, benches, candles, and string lights preserved without distortion or disappearance?",
+    "category": "Preservation",
+    "subcategory": "Scene Elements",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the added haze effect smooth and optically plausible, avoiding pixelation, banding, or an artificial filter overlay look?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Are the edges around the couple clean, avoiding harsh halos or unnatural cutouts against the bright background?",
+    "category": "General Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

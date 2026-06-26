@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Are the previously empty stadium seats now filled with a dense, sold-out crowd across all visible sections?",
+    "category": "Edit Execution",
+    "subcategory": "Crowd Density & Coverage",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Do the crowd members exhibit high-energy poses (standing, cheering, raising arms) to create the requested 'roaring' atmosphere?",
+    "category": "Edit Execution",
+    "subcategory": "Crowd Animation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Are visible camera flashes or sparkling light effects scattered throughout the stands?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Effects",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the crowd display realistic diversity in clothing colors and styles, avoiding repetitive textures or uniform patterns?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Variety",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is the dunking basketball player preserved with his original identity, jersey (Brooklyn #1), and pose intact?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Are the basketball hoop, glass backboard, net, and stanchion padding preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Are the visible arena advertisements and logos (Nike, State Farm, Gatorade, Chase, Tissot) preserved and legible?",
+    "category": "Preservation",
+    "subcategory": "Scene Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the structural layout of the arena (jumbotron, windows, seating tiers) maintained while filling the seats?",
+    "category": "Preservation",
+    "subcategory": "Background Structure",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Does the perspective and scale of the generated crowd match the geometry of the original arena seating?",
+    "category": "Edit Execution",
+    "subcategory": "Perspective Matching",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the boundary between the foreground player/hoop and the background crowd clean, seamless, and free of halos?",
+    "category": "Edit Execution",
+    "subcategory": "Edge Matting",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Do the lighting and shadows on the crowd appear consistent with the arena's environment and light direction?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the generated crowd free from severe anatomical distortions (e.g., melted faces, distorted limbs)?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the image sharp and clear, with distant crowd details rendered coherently rather than as blurry smears?",
+    "category": "General Quality",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

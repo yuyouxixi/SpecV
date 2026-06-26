@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the view outside the window clearly depict a violent thunderstorm with dark, oppressive storm clouds?",
+    "category": "Edit Execution",
+    "subcategory": "Weather Modification",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is heavy rain clearly visible falling in the outdoor city scene, reducing visibility as expected in a storm?",
+    "category": "Edit Execution",
+    "subcategory": "Weather Effects",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the city skyline appear significantly darker and gloomier to reflect the requested oppressive atmosphere?",
+    "category": "Edit Execution",
+    "subcategory": "Atmosphere Adjustment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are there realistic rain streaks running vertically or diagonally down the surface of the window glass?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Generation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Do the rain streaks appear properly placed on the glass surface (foreground) rather than floating in the air or blending into the distant buildings?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the interior lighting preserved (office remains well-lit) while the exterior is darkened, creating a realistic indoor-outdoor contrast?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is the man preserved exactly as in the original image, including his identity, facial features, and pose?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Are the man's clothing (suit, shirt) and the coffee cup in his hand preserved without alteration or blending artifacts?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Are the interior office elements (desk, lamp, chair, carpet) preserved without unintended changes?",
+    "category": "Preservation",
+    "subcategory": "Background Integrity (Interior)",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Are the window frames and mullions preserved with straight lines, unaffected by the warping or distortion of the weather effects?",
+    "category": "Preservation",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the image free of hallucinations, such as rain appearing inside the office or distorted building geometry in the background?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are the edges of the man and interior objects clean, without visible halos or fringing against the new background?",
+    "category": "General Quality",
+    "subcategory": "Edge Definition",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Are pink rose petals visible floating on the water's surface in the bathtub?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Do the added petals cover approximately 60% of the visible water area, leaving some water and tub interior visible?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Is the distribution of the petals naturally random and scattered rather than uniformly spaced or grid-like?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Distribution",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Do the petals follow the correct perspective of the water surface (e.g., appearing to float on the plane rather than hovering in mid-air)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Do the petals exhibit natural variety in orientation and shape (e.g., different angles, some curled edges vs. flat)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the lighting and shading on the petals consistent with the bathroom's ambient light sources?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Is the white bathtub structure and its chrome faucet fixture completely unchanged (aside from the water surface)?",
+    "category": "Preservation",
+    "subcategory": "Main Object",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the grey towel on the floor completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Foreground Object",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the background elements (marble walls, mirrors, glass shower enclosure, vanity) completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the edited image free from unnatural artifacts like jagged edges, blurring, or pixelation around the petals?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

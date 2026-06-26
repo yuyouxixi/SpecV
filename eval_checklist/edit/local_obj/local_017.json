@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Are the 2 people on the far left of the front (kneeling) row completely removed from the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the 3 people on the far right of the back (standing) row completely removed from the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.57
+  },
+  {
+    "id": 3,
+    "question": "Is the total number of people removed from the image exactly 5?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Is the carpeted floor area where the front-row subjects were removed reconstructed realistically with matching texture and pattern?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.73
+  },
+  {
+    "id": 5,
+    "question": "Is the blue backdrop behind the removed back-row subjects inpainted seamlessly without visible seams or color mismatches?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are the lower bodies and legs of the middle-row subjects, which were previously obscured by the removed front-row people, plausibly reconstructed?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.37
+  },
+  {
+    "id": 7,
+    "question": "Are the edges of the remaining subjects adjacent to the removed areas clean and natural, appearing without 'cut-out' artifacts or jagged boundaries?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.93
+  },
+  {
+    "id": 8,
+    "question": "Does the remaining group arrangement appear visually balanced and natural, without awkward gaps where people were removed?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.77
+  },
+  {
+    "id": 9,
+    "question": "Are all remaining individuals in the group preserved without distortion, blurring, or missing body parts (faces, hands, clothing)?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.37
+  },
+  {
+    "id": 10,
+    "question": "Is the 'GLOBAL SOLUTIONS INC.' logo, text, and globe icon on the backdrop preserved without distortion or missing elements?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.87
+  },
+  {
+    "id": 11,
+    "question": "Are the surrounding room elements (ceiling lights, walls, podium) preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.13
+  },
+  {
+    "id": 12,
+    "question": "Is the lighting and shadow consistency maintained in the edited areas, matching the original scene's illumination?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.23
+  },
+  {
+    "id": 13,
+    "question": "Is the edited image free of artifacts such as ghosting, hallucinations (e.g., extra limbs), or unnatural smudges?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.9
+  },
+  {
+    "id": 14,
+    "question": "Is the overall image sharpness and grain consistency maintained across the edited regions relative to the rest of the image?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.03
+  }
+]

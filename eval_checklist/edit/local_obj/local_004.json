@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the person with the green hiking backpack completely removed from the center of the frame?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the edited area free of any visible remnants or traces of the removed subject (e.g., backpack fabric, straps, shadows, or isolated limbs)?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are the white crosswalk stripes reconstructed continuously and aligned correctly in the area where the person was removed?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting & Blending",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the wet asphalt texture and its reflections in the edited area consistent with the surrounding road surface?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting & Blending",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are the background pedestrians and crowd elements previously occluded by the subject reconstructed plausibly without distortion?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting & Blending",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 6,
+    "question": "Is the person walking immediately to the left of the removed subject (wearing a dark jacket and blue jeans) completely preserved?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the person walking to the right with the black umbrella completely preserved?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the perspective of the crosswalk lines in the edited area consistent with the rest of the scene (converging correctly)?",
+    "category": "General Quality",
+    "subcategory": "Geometry & Structure",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Is the edited area free of visible seams, unnatural blurring, smudging, or ghosting artifacts?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the lighting and color tone in the edited area consistent with the rainy, overcast conditions of the original image?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Color",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the edited area free of AI-generated hallucinations or phantom objects (e.g., stray umbrellas, random blobs)?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

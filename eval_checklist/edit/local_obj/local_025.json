@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Are all three original throw pillows replaced, resulting in exactly three visible pillows on the sofa?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the replacement pillows a deep navy color?",
+    "category": "Edit Execution",
+    "subcategory": "Attribute Edit",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Do the replacement pillows exhibit a velvet texture with appropriate soft sheen and pile?",
+    "category": "Edit Execution",
+    "subcategory": "Attribute Edit",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is the abstract wall painting replaced with a composition depicting water lilies?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the new painting accurately reflect Monet's impressionist style (characteristic brushwork and color palette)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Do the new pillows sit naturally on the sofa with realistic wrinkle formations and correct occlusion (not floating or overlapping unnaturally)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Are the lighting and shadows on the navy pillows consistent with the ambient room lighting coming from the windows?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the new painting match the perspective, alignment, and lighting of the original frame on the wall?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the beige fabric of the sectional sofa completely preserved (excluding the area covered by the new pillows)?",
+    "category": "Preservation",
+    "subcategory": "Main Subject",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Are the coffee table, large potted plant, stacked books, and rug preserved without modification?",
+    "category": "Preservation",
+    "subcategory": "Foreground Objects",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the background elements (windows, outdoor view, walls, floor, and windowsill decor) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the image free of visual artifacts (e.g., jagged edges, color bleeding, or distortions) around the replaced pillows and painting?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

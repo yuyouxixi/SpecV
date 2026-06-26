@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is a clear glass vase added to the empty area on the left side of the desk?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the vase contain exactly three tulips with distinct red, pink, and yellow colors?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the vase filled with clear water, showing a visible water surface line?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the glass vase exhibit realistic transparency, allowing the background wall to be seen with refractive distortion?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Do the specular highlights on the vase and the cast shadows align with the light source coming from the window on the right?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Is the vase correctly grounded on the desk surface, appearing naturally placed rather than floating or tilted?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the laptop, white mug, and spiral notebook completely preserved without any modification?",
+    "category": "Preservation",
+    "subcategory": "Foreground Objects",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Are the background wall, window frame, and the rest of the desk surface unchanged (excluding the edit area)?",
+    "category": "Preservation",
+    "subcategory": "Background & Scene",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the edited area free from visual artifacts, such as unnatural blurring, jagged edges, or hallucinations?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Does the added content maintain consistent image clarity, resolution, and artistic style with the original scene?",
+    "category": "General Quality",
+    "subcategory": "Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

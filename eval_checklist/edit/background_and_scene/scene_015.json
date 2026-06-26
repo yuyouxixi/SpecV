@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original vintage background replaced with a contemporary London streetscape featuring modern architecture and urban elements?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Replacement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the new background displayed in full color?",
+    "category": "Edit Execution",
+    "subcategory": "Colorization",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the new background sharp and detailed, effectively removing the blurriness present in the original photo?",
+    "category": "Edit Execution",
+    "subcategory": "Image Enhancement",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Are the two main figures strictly preserved in black-and-white/monochrome?",
+    "category": "Preservation",
+    "subcategory": "Color Integrity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the vintage wartime attire (trench coat, hats, jumpsuit) of the figures preserved without alteration to style or texture?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Are the facial features and expressions of both figures preserved accurately without distortion?",
+    "category": "Preservation",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Are the poses and body proportions of the figures preserved without modification?",
+    "category": "Preservation",
+    "subcategory": "Posture Preservation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Are the edges of the figures clean, ensuring no color from the background bleeds onto the black-and-white subjects?",
+    "category": "Edit Execution",
+    "subcategory": "Masking Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the area immediately surrounding the figures free from remnants or 'ghosts' of the original background objects?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the perspective and scale of the figures align naturally with the new streetscape?",
+    "category": "Edit Execution",
+    "subcategory": "Perspective Matching",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do the figures have plausible contact shadows, appearing firmly grounded on the new street surface?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Integration",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Does the image successfully create a striking time-displacement contrast (vintage monochrome figures vs. modern colored background)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Thematic Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from visible AI artifacts, distortions, or unnatural structural anomalies?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

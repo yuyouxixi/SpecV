@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the wooden utility pole on the left side of the image completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the silver/metal trash can in the bottom left corner completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the construction scaffolding in the background completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are the overhead wires previously connected to the utility pole removed or handled without leaving floating segments?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Is the sky area where the pole was located seamlessly blended with the surrounding clouds and blue sky?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Is the ground area where the trash can was located reconstructed with texture consistent with the surrounding asphalt?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the chain-link fence on the left (previously behind the pole and trash can) reconstructed naturally?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the background area where the scaffolding was removed reconstructed plausibly (e.g., consistent building facade or sky)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the 'Burger Boogie' food truck (sign, shape, and structure) completely preserved?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are the people standing in line and the chef at the grill completely preserved?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are the blue canopy tents in the background preserved?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the visible smoke from the grill preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the edited image free of significant artifacts, such as blurring, smudging, or ghosting in the modified areas?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the lighting and shadow consistency maintained in areas where objects were removed?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

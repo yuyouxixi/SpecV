@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Are the geometric venetian blind shadow stripes completely removed from the woman's face?",
+    "category": "Edit Execution",
+    "subcategory": "Shadow Removal",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are the geometric venetian blind shadow stripes completely removed from the wall behind the woman?",
+    "category": "Edit Execution",
+    "subcategory": "Shadow Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the geometric venetian blind shadow stripes completely removed from the succulent plants on the windowsill?",
+    "category": "Edit Execution",
+    "subcategory": "Shadow Removal",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is a large tree visible outside the window, replacing the previous exterior view?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are organic, irregular dappled leaf shadow patterns visible on the woman's face?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Modification",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Are organic, irregular dappled leaf shadow patterns visible on the wall behind the woman?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Modification",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Do the new dappled shadows conform naturally to the 3D curvature of the woman's face?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Do the shadow edges appear soft and realistic, characteristic of light filtering through a tree canopy?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Light Physics",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the lighting direction and color temperature of the new shadows consistent with the sunlight source from the window?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Global Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Does the tree outside the window appear naturally integrated with correct perspective and scale?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the woman's facial identity and features preserved without unintended modifications?",
+    "category": "Preservation",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Is the woman's curly hair texture and style preserved?",
+    "category": "Preservation",
+    "subcategory": "Attribute Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the woman's beige knit sweater preserved without alterations to texture or color?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Are the succulent plants and terracotta pots preserved (shape and texture) aside from lighting changes?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is the skin texture beneath the removed stripes reconstructed naturally without banding or artificial smoothing?",
+    "category": "General Quality",
+    "subcategory": "Texture Reconstruction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Is the wall surface reconstructed smoothly where the stripes were removed?",
+    "category": "General Quality",
+    "subcategory": "Texture Reconstruction",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 17,
+    "question": "Are the window frame and sill edges clean and free of inpainting seams or artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 18,
+    "question": "Is the image free of 'ghosting' artifacts or residual geometric stripe patterns?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.5
+  }
+]

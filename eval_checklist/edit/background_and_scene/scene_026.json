@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Are all walking pedestrians converted into motion blur trails or ghostly streaks?",
+    "category": "Edit Execution",
+    "subcategory": "Long Exposure Effect",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the motion blur effect applied comprehensively, covering pedestrians in the foreground, mid-ground, and background crowds?",
+    "category": "Edit Execution",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Do the blur trails appear as directional streaks indicating movement, rather than static amorphous blobs?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Do the pedestrian trails show a natural transparency gradient, appearing 'ghostly' rather than fully opaque?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Realism",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Are accessories held by pedestrians, such as umbrellas, blurred consistently with the figures?",
+    "category": "Edit Execution",
+    "subcategory": "Object Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Are the buildings and architectural structures preserved with sharp edges and no motion blur?",
+    "category": "Preservation",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Are the illuminated billboards and signage kept crisp, with text remaining legible?",
+    "category": "Preservation",
+    "subcategory": "Text & Signage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the texture of the pavement, including lane markings and crosswalk stripes, preserved sharply?",
+    "category": "Preservation",
+    "subcategory": "Foreground Details",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Do the reflections of pedestrians on the wet pavement exhibit motion blur consistent with the figures above them?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Is the transition between the motion trails and the sharp ground seamless, without hard cutout edges or halos?",
+    "category": "Edit Execution",
+    "subcategory": "Blending Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the overall image resolution and clarity maintained in the non-blurred areas?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

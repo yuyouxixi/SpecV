@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Are exactly two vintage Volkswagen Beetles added to the street scene?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are the two added Volkswagen Beetles different colors from each other?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Are the Beetles parked along the curb or edge of the street, rather than blocking the center?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is a ginger cat added to the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Is the ginger cat positioned on the nearest windowsill (foreground)?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the ginger cat appear to be napping (lying down, eyes closed)?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Do the Beetles exhibit correct perspective scaling, with the farther car appearing smaller than the closer one?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Are the Beetles properly grounded on the cobblestones (wheels touching the ground, not floating)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Does the cat have an appropriate scale relative to the windowsill and surrounding flower pots?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the lighting on the added objects (cars and cat) consistent with the scene's diffuse, overcast ambient light?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Do the added objects cast soft shadows that match the environmental lighting conditions?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Are the vintage Beetles structurally coherent (e.g., correct wheel shape, symmetric body, no distorted parts)?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the cat's anatomy coherent (no extra limbs, natural posture)?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from visual artifacts like halos, jagged edges, or smearing around the added objects?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Are the original stone buildings, balconies, and sky preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Are existing details such as flower pots, plants, and the iron street lamp preserved?",
+    "category": "Preservation",
+    "subcategory": "Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 17,
+    "question": "Is the cobblestone street texture preserved in areas not covered by the new cars?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Is the scene free of unintended new objects (e.g., people, signs, extra animals)?",
+    "category": "Preservation",
+    "subcategory": "Unwanted Additions",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

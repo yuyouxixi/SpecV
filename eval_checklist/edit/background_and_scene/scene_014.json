@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Has the blue pool water been completely transformed into molten lava with appropriate red, orange, and yellow volcanic coloring?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the lava appear viscous and opaque, obscuring the pool tiles beneath (unlike clear water)?",
+    "category": "Edit Execution",
+    "subcategory": "Fluid Dynamics",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Have the splashing water droplets been successfully converted into glowing incandescent lava particles or embers?",
+    "category": "Edit Execution",
+    "subcategory": "Particle Effects",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is there a visible, glowing magical force field surrounding the puppy?",
+    "category": "Edit Execution",
+    "subcategory": "New Element Addition",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the force field translucent, allowing the puppy to be clearly seen inside it?",
+    "category": "Edit Execution",
+    "subcategory": "Transparency/Opacity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Does the force field fully cover the puppy, keeping it visually separated from the lava to ensure it appears unharmed?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the lighting on the puppy and the force field reflect the warm, orange/red glow of the surrounding lava?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting interaction",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the puppy's identity (Golden Retriever) and fur texture preserved without appearing scorched, melted, or artificially recolored?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are the puppy's pose and facial expression (e.g., open mouth, happy appearance) maintained exactly as in the original?",
+    "category": "Preservation",
+    "subcategory": "Pose & Expression",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the puppy's anatomy intact (eyes, nose, limbs) without distortion, duplication, or missing parts?",
+    "category": "Preservation",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Are secondary objects (such as the rubber duck) preserved in shape and position?",
+    "category": "Preservation",
+    "subcategory": "Background/Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Are the edges between the force field, the puppy, and the lava clean and free of jagged artifacts or haloing?",
+    "category": "General Quality",
+    "subcategory": "Edge Matting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from leftover blue water reflections or ripple patterns that contradict the lava texture?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

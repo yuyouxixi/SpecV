@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is the red fire extinguisher, including the cylinder, hose, nozzle, and handle, completely removed from the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the area free of any remaining shadows, red color casts, or visual remnants associated with the fire extinguisher?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the stone wall texture behind the removed object reconstructed to match the surrounding irregular masonry, mortar lines, and weathering?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are the stone steps in the removal area reconstructed with texture and geometric alignment consistent with the rest of the staircase?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Does the reconstructed area maintain consistent lighting, shadow direction, and color temperature with the surrounding scene?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the bridal train (tulle edge and lace details) near the removal area completely preserved without distortion, cropping, or blurring?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is the potted plant to the right of the removal area completely preserved and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the edited area free of visual artifacts such as unnatural blurring, smudging, ghosting, visible seams, or repetitive texture patterns?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Is the edited area free of any newly introduced unwanted objects or hallucinations?",
+    "category": "General Quality",
+    "subcategory": "Hallucinations",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

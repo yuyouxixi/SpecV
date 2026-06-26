@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Has the sky been changed to feature dramatic sunset clouds?",
+    "category": "Edit Execution",
+    "subcategory": "Sky Replacement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Do the sunset clouds feature the requested orange and pink hues?",
+    "category": "Edit Execution",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Has the global color palette been shifted to warm tones to create a cozy, nostalgic golden hour atmosphere?",
+    "category": "Edit Execution",
+    "subcategory": "Atmosphere & Mood",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Do the shadows appear elongated and cast in a consistent direction, reflecting the low sun angle of golden hour?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Physics",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Do scene elements like the ocean and sand exhibit lighting interactions consistent with the sunset (e.g., warm reflections)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Environmental Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Are all five people preserved in their original positions, poses, and identities?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the swimwear colors and styles of all individuals preserved without unintended changes?",
+    "category": "Preservation",
+    "subcategory": "Wardrobe Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the barbecue grill and the smoke rising from it preserved structurally?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Are the smaller foreground items (cups, bags, napkins) and handheld plates preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Is the ocean horizon line preserved as straight and natural without warping?",
+    "category": "Preservation",
+    "subcategory": "Background Structure",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are the edges of the subjects clean and free from halos or matting artifacts against the new sky?",
+    "category": "General Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Do skin tones appear natural under the warm lighting, avoiding excessive orange saturation?",
+    "category": "General Quality",
+    "subcategory": "Color Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from visible banding, noise, or unnatural generation artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

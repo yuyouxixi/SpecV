@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Are the surrounding trees transformed into cherry trees covered in dense pink and white blossoms?",
+    "category": "Edit Execution",
+    "subcategory": "Vegetation Transformation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the distant view and background skyline show masses of soft cherry blossoms?",
+    "category": "Edit Execution",
+    "subcategory": "Background Replacement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are there gently drifting cherry blossom petals visible in the mid-ground and background?",
+    "category": "Edit Execution",
+    "subcategory": "Atmospheric Elements",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the foreground picnic area (blanket, basket, food, bottles) free from obscuring drifting petals?",
+    "category": "Preservation",
+    "subcategory": "Occlusion Control",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Is the fountain preserved in its exact original position, scale, and structure (including water spray)?",
+    "category": "Preservation",
+    "subcategory": "Anchor Object Retention",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Are the background pedestrians and people in the mid-ground retained in the scene?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Do the background pedestrians exhibit a subtle bokeh blur, rendering them softer than the foreground?",
+    "category": "Edit Execution",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is there a gentle highlight bloom applied to the image?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Effects",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is a faint pink-tinted lens flare visible in the image?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Effects",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the red and white checkered picnic blanket preserved unchanged in appearance?",
+    "category": "Preservation",
+    "subcategory": "Foreground Objects",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Are the foreground items (wicker basket, glass bottles, food on plates) preserved without modification or distortion?",
+    "category": "Preservation",
+    "subcategory": "Foreground Objects",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the foreground items maintained in sharp focus (not affected by the background bokeh)?",
+    "category": "Preservation",
+    "subcategory": "Focus Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the transition between the sharp foreground and the softer, blossomed background natural and seamless?",
+    "category": "General Quality",
+    "subcategory": "Visual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the lighting on the new cherry blossom trees consistent with the overall scene lighting?",
+    "category": "General Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the image maintain overall optical clarity without appearing washed out or muddy despite the bloom/flare effects?",
+    "category": "General Quality",
+    "subcategory": "Image Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Are the edges of foreground objects clean and free from background color spill or artifacts?",
+    "category": "General Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 17,
+    "question": "Is the image free of unnatural artifacts (e.g., repeating petal patterns, distorted anatomy, smearing)?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

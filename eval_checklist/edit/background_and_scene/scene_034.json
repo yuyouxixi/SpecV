@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the new background clearly depict a modern minimalist coffee shop environment?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Style Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Are the requested architectural features (white walls, polished concrete floor, floor-to-ceiling windows) visible?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Elements",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Are the specific decor elements (sleek pendant lighting, minimal potted plants) present in the scene?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Elements",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are all original Victorian background elements (patterned wallpaper, ornate paintings, lace curtains, fireplace) completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the people originally seated in the background completely removed from the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the elderly woman in the foreground preserved with her original pose, expression, and identity intact?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Are the woman's clothing (patterned dress, apron) and accessories (glasses, jewelry) completely preserved?",
+    "category": "Preservation",
+    "subcategory": "Subject Details",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the complete tea service (teapot, cup, saucer, glass pitcher) and pastry plate preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the dark polished wooden table and serving tray preserved with original wood grain and shape?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Does the lighting on the foreground subjects match the directional side-light suggested by the new floor-to-ceiling windows?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the highlights on the table surface and tea service appear natural and consistent with the new light source?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Do the reflections on the glass pitcher and crystal items match the new bright window environment?",
+    "category": "Edit Execution",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are the shadows cast by the foreground elements consistent in direction and softness with the new window lighting?",
+    "category": "Edit Execution",
+    "subcategory": "Shadow Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the edge blending around the woman (particularly her wispy hair) natural, with no visible halos or cutout artifacts?",
+    "category": "General Quality",
+    "subcategory": "Matting/Masking",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the perspective of the new floor and background consistent with the angle of the foreground table?",
+    "category": "General Quality",
+    "subcategory": "Perspective & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is the image free of AI artifacts such as warped objects, duplicated edges, or inconsistent resolution?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

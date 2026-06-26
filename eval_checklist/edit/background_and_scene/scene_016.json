@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original cluttered street background (scaffolding, cars, buildings) completely replaced?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the new background consist of creamy bokeh orbs/circles?",
+    "category": "Edit Execution",
+    "subcategory": "Stylization",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Do the bokeh highlights near the edges of the frame exhibit mechanical 'cat-eye' (elliptical) vignetting?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Photographic Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is a subtle concentric 'onion-ring' texture visible within the bokeh highlights?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Photographic Knowledge",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the woman's facial identity, expression, and pose preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the woman's clothing items (white blouse and dark pleated skirt) preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Clothing Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the flower bouquet and tote bag fully preserved in the subject's possession?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are fine stray hair strands cleanly separated from the new background without jagged edges or artifacts?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the complex edges of the flower bouquet cleanly defined against the bokeh without halos?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the lighting on the subject consistent with the new background, avoiding mismatched exposure or color temperature?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the subject rendered in sharp focus while the background is strongly blurred?",
+    "category": "General Quality",
+    "subcategory": "Focus & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from unnatural artifacts, ghosting, or geometric distortions?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

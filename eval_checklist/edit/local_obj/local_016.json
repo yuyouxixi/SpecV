@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the orange tabby cat completely replaced by a black and white Boston Terrier?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the Boston Terrier depicted in a cradled-in-arms posture consistent with the original image?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the dog display characteristic Boston Terrier features (short muzzle, erect ears, large round eyes, and black-and-white coat)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Object Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Has the long cat tail draped over the man's wrist been removed or replaced with a short nub/tail appropriate for a Boston Terrier?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Does the animal feature a short, smooth coat texture appropriate for a Boston Terrier, rather than fluffy cat fur?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Is the size of the Boston Terrier proportionate and realistic relative to the man's body?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Scale & Proportion",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do the man's hands and fingers wrap naturally around the dog's body without appearing deformed, merged, or missing?",
+    "category": "Edit Execution",
+    "subcategory": "Blending & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the lighting and shading on the dog consistent with the dappled sunlight and shadows of the autumn environment?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Shadow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the elderly man's face and clothing (tweed jacket, sweater) completely unchanged (outside of necessary contact areas)?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the background elements (wooden bench, autumn forest foliage, fallen leaves) completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the edited area free of visual artifacts, unnatural distortions, blurry edges, or residual traces of the original cat?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background replaced with a Parisian street scene?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the Eiffel Tower clearly visible in the new background?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are all traces of the original dark runway, stage lighting, and audience completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the lighting style reflect natural daylight rather than artificial stage spotlights?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Style",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Does the image achieve a candid street photography aesthetic rather than a staged fashion show look?",
+    "category": "Edit Execution",
+    "subcategory": "Aesthetic Style",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 6,
+    "question": "Is the model's facial identity and expression preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the model's walking pose and posture preserved exactly as in the original?",
+    "category": "Preservation",
+    "subcategory": "Pose",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the tan leather outfit (trench coat and wide-leg trousers) preserved with its original color and texture?",
+    "category": "Preservation",
+    "subcategory": "Clothing Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Are fine clothing details (belt, buckle, buttons, lapels) preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Clothing Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the model's hairstyle and hair color preserved?",
+    "category": "Preservation",
+    "subcategory": "Hair",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Does the perspective of the street ground plane align naturally with the model's feet and walking angle?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Is the subject's scale proportionally correct relative to the background elements (buildings, street)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the lighting direction and color temperature on the model consistent with the new background?",
+    "category": "Harmony & Blending",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Does the model cast a shadow on the ground that is consistent with the new environment's lighting?",
+    "category": "Harmony & Blending",
+    "subcategory": "Shadow Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Do the reflections and highlights on the leather outfit match the new outdoor environment?",
+    "category": "Harmony & Blending",
+    "subcategory": "Material Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Are the edges of the model clean and free from halos, jaggedness, or remnants of the original background?",
+    "category": "Harmony & Blending",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 17,
+    "question": "Is the generated background free from geometric distortions or unnatural AI artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 18,
+    "question": "Is the image resolution and sharpness maintained without unintended blurriness or pixelation?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

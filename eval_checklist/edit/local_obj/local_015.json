@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is a fireworks display visible in the night sky above the cityscape?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are there at least 5 distinct firework bursts visible in the sky?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Do the fireworks display varied colors (e.g., gold, red, green, blue, purple) rather than a single monochrome tone?",
+    "category": "Edit Execution",
+    "subcategory": "Attributes",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is at least one chrysanthemum-style firework burst (dense spherical bloom) clearly distinguishable?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Pattern Recognition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is at least one willow-style firework burst (long trailing arcs drooping downward) clearly distinguishable?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Pattern Recognition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is at least one ring-formation firework burst clearly distinguishable?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Pattern Recognition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are colorful reflections of the fireworks visible on the river surface?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Do the reflections on the water vertically align with the specific firework bursts above them?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Do the colors of the reflections on the river match the colors of the corresponding firework bursts?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Do the reflections exhibit a realistic water texture (rippled/elongated streaks) rather than appearing as sharp mirror images?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Are the fireworks positioned naturally in the sky without overlapping the buildings in the foreground?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Are the original skyline buildings and their structural details completely preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are the original city lights and their existing reflections on the water preserved?",
+    "category": "Preservation",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the sky free from unnatural banding, blocky artifacts, or repetitive 'copy-paste' patterns?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Are the edges of the fireworks and smoke blends smooth, without harsh halos or cutout lines?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

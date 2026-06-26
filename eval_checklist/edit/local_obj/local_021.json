@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the person on the right side (wearing a red cap) along with their backpack completely removed from the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are all shadows and reflections cast by the removed person eliminated?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Is the cobblestone path texture realistically reconstructed in the area where the person was removed?",
+    "category": "Edit Execution",
+    "subcategory": "Background Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are the cherry blossom branches and foliage reconstructed with natural continuity in the filled area?",
+    "category": "Edit Execution",
+    "subcategory": "Background Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the lighting and color tone in the filled-in region consistent with the surrounding environment?",
+    "category": "Edit Execution",
+    "subcategory": "Background Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the reconstructed background maintain the correct depth of field (blur) consistent with the rest of the scene?",
+    "category": "Edit Execution",
+    "subcategory": "Background Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the woman taking the selfie (including her face, denim jacket, and phone) completely preserved?",
+    "category": "Preservation",
+    "subcategory": "Main Subject",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Is the Torii gate in the background preserved and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Are the stone wall and cherry blossom trees on the left side of the image preserved?",
+    "category": "Preservation",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the edited area free of visual artifacts such as ghosting, smearing, visible seams, or unnatural edges?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the edited area free of distorted textures, warping, or unintentionally introduced objects?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the overall image quality (resolution and noise grain) in the edited region consistent with the original image?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

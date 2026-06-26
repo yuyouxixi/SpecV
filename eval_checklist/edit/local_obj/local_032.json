@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the slumped student in the grey hoodie, along with their belongings (e.g., backpack), completely removed from the front-left area?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.77
+  },
+  {
+    "id": 2,
+    "question": "Is the front-left seat now clearly vacant, revealing the chair structure and desk surface behind where the student sat?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is an open spiral notebook placed on the desk where the student was previously seated?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is a ballpoint pen placed on the desk near the notebook?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Do the added notebook and pen align correctly with the perspective, tilt, and scale of the desk surface?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Consistency",
+    "expected_answer": "Yes",
+    "score": 9.4
+  },
+  {
+    "id": 6,
+    "question": "Do the added objects cast realistic contact shadows on the desk surface?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Does the lighting on the added notebook and pen reflect the ambient environment, specifically the bluish glow from the projector?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.43
+  },
+  {
+    "id": 8,
+    "question": "Are the desk surface and chair back, which were previously occluded by the student, reconstructed realistically without gaps or distortion?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.9
+  },
+  {
+    "id": 9,
+    "question": "Is the text and content on the projection screen completely preserved and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background & Context",
+    "expected_answer": "Yes",
+    "score": 9.27
+  },
+  {
+    "id": 10,
+    "question": "Are all other students and their personal items (e.g., laptops, cups) completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background & Context",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Is the surrounding classroom environment, including the tiered seating and background desks, preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Background & Context",
+    "expected_answer": "Yes",
+    "score": 8.23
+  },
+  {
+    "id": 12,
+    "question": "Is the edited area free from visible artifacts such as unnatural blurring, smudging, or repetitive cloning patterns?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.27
+  },
+  {
+    "id": 13,
+    "question": "Is the integration of the new objects clean, with no unnatural halos or seams at the boundaries?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Do the added notebook and pen appear physically plausible (e.g., correct spiral binding structure, undistorted pen shape) without AI hallucinations?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

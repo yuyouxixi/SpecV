@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the red umbrella canopy completely removed from the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the umbrella handle and shaft completely removed from the pedestrian's hand?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the red reflection of the umbrella completely removed from the wet pavement?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are the pedestrian's head, face, and hair realistically reconstructed in the area previously occluded by the umbrella?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are the pedestrian's shoulders and upper coat area realistically reconstructed without distortion?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the pedestrian's hand appear natural and anatomically correct (not gripping empty air) after removing the handle?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is the background area previously occluded by the umbrella (buildings and sky) realistically reconstructed?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the wet pavement texture and rain ripple patterns preserved in the area where the red reflection was removed?",
+    "category": "Edit Execution",
+    "subcategory": "Blending",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the unedited portion of the pedestrian (coat, legs, shoes) preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the pedestrian's dark reflection on the wet road preserved (while the red reflection is removed)?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the surrounding background elements (cars, buildings, street signs) completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the lighting on the reconstructed areas consistent with the ambient overcast environment?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Blending",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Is the edited area free from visual artifacts (blurring, seams, color bleeding, or residual red tint)?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the overall image clarity, grain, and sharpness consistent with the original image?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

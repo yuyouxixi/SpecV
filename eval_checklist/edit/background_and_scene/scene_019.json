@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Are the continuous long-exposure light trails replaced by individual, discrete vehicles?",
+    "category": "Edit Execution",
+    "subcategory": "Effect Transformation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Do the generated vehicles appear stationary and sharp, effectively simulating a freeze-frame capture without motion blur?",
+    "category": "Edit Execution",
+    "subcategory": "Temporal Consistency",
+    "expected_answer": "Yes",
+    "score": 9.23
+  },
+  {
+    "id": 3,
+    "question": "Do the vehicles display distinct headlights (white/yellow) and taillights (red) instead of elongated light streaks?",
+    "category": "Edit Execution",
+    "subcategory": "Detail Rendering",
+    "expected_answer": "Yes",
+    "score": 9.27
+  },
+  {
+    "id": 4,
+    "question": "Are the generated vehicles rendered with realistic automotive shapes and silhouettes rather than amorphous blobs?",
+    "category": "Edit Execution",
+    "subcategory": "Object Realism",
+    "expected_answer": "Yes",
+    "score": 8.43
+  },
+  {
+    "id": 5,
+    "question": "Are the vehicles oriented correctly according to the traffic flow direction, with headlights facing forward and taillights trailing?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Traffic Logic",
+    "expected_answer": "Yes",
+    "score": 8.43
+  },
+  {
+    "id": 6,
+    "question": "Is the scale of the vehicles consistent with the perspective depth, appearing smaller in the distance?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Perspective & Scale",
+    "expected_answer": "Yes",
+    "score": 8.07
+  },
+  {
+    "id": 7,
+    "question": "Are the road surface textures and lane markings plausibly reconstructed in the areas previously covered by light trails?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting Quality",
+    "expected_answer": "Yes",
+    "score": 8.43
+  },
+  {
+    "id": 8,
+    "question": "Are the city buildings and their illumination patterns preserved exactly as in the original image?",
+    "category": "Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.63
+  },
+  {
+    "id": 9,
+    "question": "Is the overall nighttime atmosphere and ambient lighting preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Atmospheric Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the structural geometry of the highway interchange (ramps, loops, bridges) maintained without distortion?",
+    "category": "Preservation",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.7
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from residual light trail artifacts, smudging, or ghosting streaks?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the transitions between the generated vehicles and the road surface seamless, without visible cutout edges?",
+    "category": "General Quality",
+    "subcategory": "Visual Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

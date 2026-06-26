@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the view through the windows depict a dark cityscape with scattered building lights, free of any daytime elements?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the global interior ambient lighting significantly reduced, with overhead fluorescent lights dimmed or turned off?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Adjustment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are computer monitors and desk lamps the primary visible sources of illumination in the room?",
+    "category": "Edit Execution",
+    "subcategory": "Light Sources",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Do the light sources exhibit plausible color temperatures (e.g., cooler glow from monitors, warmer tones from desk lamps)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Lighting Properties",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Are details in the darkened areas still visible without being crushed into pure black?",
+    "category": "General Quality",
+    "subcategory": "Dynamic Range",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are all office workers preserved in their exact original positions, poses, and clothing?",
+    "category": "Preservation",
+    "subcategory": "Human Subjects",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Are all desk objects (papers, cups, plants) and monitor screens retained in their exact original locations?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Do shadows cast by people and objects consistently align with the direction of the new localized light sources (screens and lamps)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Shadow Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the illumination on people's faces and bodies consistent with the proximity and intensity of nearby desk lamps and monitor glow?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Do reflections on the glass partitions accurately mirror the new dark nighttime cityscape outside?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Reflection Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do reflections on the glass partitions accurately reflect the dimmed interior lighting rather than the original bright environment?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Reflection Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the overall scene convincingly convey a 'late-night crunch time' atmosphere?",
+    "category": "Edit Execution",
+    "subcategory": "Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Are the edges around people and objects clean, without unnatural halos or jagged cutouts against the darkened background?",
+    "category": "General Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from excessive noise, grain, or color banding in the darkened gradient areas?",
+    "category": "General Quality",
+    "subcategory": "Noise & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from generative artifacts, such as distorted faces, melted objects, or ghosting?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

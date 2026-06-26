@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Are all the red apples on the top tier replaced with Bartlett pears?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Do the replacement pears exhibit the characteristic elongated, teardrop shape of Bartlett pears?",
+    "category": "Edit Execution",
+    "subcategory": "Object Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Do the replacement pears display realistic smooth skin texture and green/yellow coloring consistent with fresh fruit?",
+    "category": "Edit Execution",
+    "subcategory": "Object Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Is the number of pears on the top tier approximately equal to the original number of apples?",
+    "category": "Edit Execution",
+    "subcategory": "Count Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Are all the oranges on the middle tier replaced with ripe mangoes?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Do the replacement mangoes exhibit the characteristic asymmetric, kidney-shaped form?",
+    "category": "Edit Execution",
+    "subcategory": "Object Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Do the mangoes appear ripe with a realistic yellow-orange-red color gradient and waxy texture?",
+    "category": "Edit Execution",
+    "subcategory": "Object Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Is the number of mangoes on the middle tier approximately equal to the original number of oranges?",
+    "category": "Edit Execution",
+    "subcategory": "Count Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Are the new fruits arranged naturally on the shelves without floating, overflowing, or unnatural gaps?",
+    "category": "Edit Execution",
+    "subcategory": "Physical Realism",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Do the replacement fruits feature specular highlights and lighting direction consistent with the store's overhead illumination?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Integration",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Are the kiwis on the bottom tier completely unchanged in appearance, number, and placement?",
+    "category": "Preservation",
+    "subcategory": "Unedited Objects",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 12,
+    "question": "Is the image free of pears or mangoes appearing on incorrect tiers (e.g., pears on the middle shelf)?",
+    "category": "Preservation",
+    "subcategory": "Edit Isolation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the wooden and metal display rack structure preserved without geometric distortion?",
+    "category": "Preservation",
+    "subcategory": "Background & Context",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the edited image free from visual artifacts such as unnatural blurring, visible seams, or merged textures?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the overall image sharpness and noise grain consistent across the edited and unedited regions?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

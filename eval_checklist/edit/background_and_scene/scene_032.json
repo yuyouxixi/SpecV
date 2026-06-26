@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the sky transformed to display heavy, ominous storm clouds with realistic scale and texture?",
+    "category": "Edit Execution",
+    "subcategory": "Weather Effects",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are there subtle lightning flickers visible on the distant horizon, kept understated as requested?",
+    "category": "Edit Execution",
+    "subcategory": "Weather Effects",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Has the sea surface changed from calm to choppy with visible windswept wave textures?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Transformation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the overall color grading shifted to a cool blue-gray tone appropriate for an evening storm?",
+    "category": "Edit Execution",
+    "subcategory": "Atmosphere & Tone",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the overall scene darkened to reflect an approaching evening storm while maintaining visibility of key elements?",
+    "category": "Edit Execution",
+    "subcategory": "Exposure Adjustment",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Are the faces of all people clearly visible and selectively brightened despite the darker environment?",
+    "category": "Edit Execution",
+    "subcategory": "Instruction Compliance",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Do the specular highlights on the metal railings adapt to the new lighting (reduced glare, cooler tone)?",
+    "category": "Edit Execution",
+    "subcategory": "Instruction Compliance",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the lighting direction and shadow softness on the subjects consistent with a diffuse, overcast stormy sky?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Are all people preserved with their original identities, poses, and positions?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Are clothing, accessories, and held objects (e.g., champagne glasses) preserved without modification?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is the yacht's deck structure and layout fully preserved?",
+    "category": "Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Are the edges of the foreground subjects (people, yacht) blended naturally against the new background without halos or artifacts?",
+    "category": "General Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the selective face brightening blend naturally without harsh mask edges or unnatural skin tones?",
+    "category": "General Quality",
+    "subcategory": "Local Adjustments",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the perspective of the new sea and sky consistent with the original horizon line?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from generative artifacts (e.g., warped limbs, pixelation, or banding) in both edited and preserved areas?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

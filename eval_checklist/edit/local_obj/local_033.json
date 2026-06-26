@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the red trail marker sign (reading 'EASY STREET') and its wooden post completely removed from the right foreground?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the snow surface where the sign was removed display continuous grooming patterns (corduroy texture) without visible seams or unnatural smoothing?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is a snowboarder added to the scene in the mid-ground, positioned slightly to the left?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the added figure clearly identifiable as a snowboarder (single board, side stance) rather than a skier?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the snowboarder depicted executing a carving turn, characterized by a leaned posture and edge engagement?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is there visible snow spray emanating from the snowboard's edge, aligning realistically with the turn direction?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Effects",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is slight motion blur applied to the snowboarder, consistent with the direction of movement?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Effects",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is a shadow cast by the added snowboarder onto the snow surface?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Effects",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Does the snowboarder's shadow match the direction and cool/bluish tint of the existing shadows in the scene?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Physics",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the scale of the added snowboarder consistent with the mid-ground depth (smaller than foreground elements, larger than background figures)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the ski lift towers, cables, and chairs on the left side preserved without distortion or disappearance?",
+    "category": "Preservation",
+    "subcategory": "Scene Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the edited image free from obvious AI artifacts, such as unnatural edges, smudged textures, or hallucinations in the edited regions?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

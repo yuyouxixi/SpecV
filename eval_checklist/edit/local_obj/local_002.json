@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the Dalmatian completely replaced by a single robotic dog?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the robotic dog feature metallic or hard-surface textures instead of organic fur?",
+    "category": "Edit Execution",
+    "subcategory": "Object Appearance",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the robotic dog positioned in the same location and scaled proportionally to the original subject?",
+    "category": "Edit Execution",
+    "subcategory": "Object Geometry",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are the specular highlights on the robotic dog consistent with the light source coming from the upper right?",
+    "category": "Edit Execution",
+    "subcategory": "Blending",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Does the robotic dog cast a consistent shadow and appear grounded on the grass?",
+    "category": "Edit Execution",
+    "subcategory": "Blending",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Are the trees, stone wall, rolling hills, and sky in the background completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the grassy field surrounding the dog preserved without unnatural smearing or repainting?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the overall golden-hour lighting and color grading of the scene preserved?",
+    "category": "Preservation",
+    "subcategory": "Global Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the robotic dog free from structural artifacts like disconnected parts, extra limbs, or warped geometry?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the edited area free from visible seams, jagged edges, or noise inconsistencies?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

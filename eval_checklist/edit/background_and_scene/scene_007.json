@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Are all tourists, crew members, and spectators completely removed from the scene?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are all film cameras, lighting rigs, dollies, and technical equipment completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are all modern infrastructure elements (tents, barriers, cables, trusses, signs) completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the background architecture (walls, archways, battlements) behind removed objects reconstructed with consistent, period-appropriate stone texture?",
+    "category": "Edit Execution",
+    "subcategory": "Background Reconstruction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the ground surface (e.g., cobblestones) naturally completed and consistent in areas where objects were removed?",
+    "category": "Edit Execution",
+    "subcategory": "Background Reconstruction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the scene appear empty, grand, and solemn, consistent with the instruction for a medieval royal palace?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Scene Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Is the reconstructed scenery historically authentic to the medieval period (e.g., no modern pavement, appropriate architectural style, no anachronistic flags)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Historical Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Is the main subject's facial identity and expression preserved without distortion or alteration?",
+    "category": "Preservation",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Are the details of the woman's period gown and feathered headdress (embroidery, texture, shape) fully preserved?",
+    "category": "Preservation",
+    "subcategory": "Clothing Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the woman's pose and body structure preserved exactly as in the original image?",
+    "category": "Preservation",
+    "subcategory": "Pose Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Are the edges of the main subject clean and distinct, without halos, jagged borders, or background bleeding?",
+    "category": "General Quality",
+    "subcategory": "Blending & Compositing",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the lighting on the subject consistent with the restored background, including realistic shadow integration?",
+    "category": "General Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are the perspective and scale of the reconstructed architectural elements consistent with the original scene geometry?",
+    "category": "General Quality",
+    "subcategory": "Perspective Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the image free of \"ghost\" remnants of removed objects (e.g., floating hands, partial equipment, leftover shadows)?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the inpainted background free of obvious artifacts like blurring, smudging, repetitive patterns, or visible seams?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

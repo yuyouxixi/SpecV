@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Has the graffiti-covered wall been completely replaced with a weathered old brick wall, removing all traces of the original artwork?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the new brick wall overgrown with green ivy?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are there visible patches of moss on the brick surface?",
+    "category": "Edit Execution",
+    "subcategory": "Detail Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is wild grass visible sprouting specifically through the mortar joints between the bricks?",
+    "category": "Edit Execution",
+    "subcategory": "Detail Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is a visible film-grain aesthetic applied across the entire image?",
+    "category": "Edit Execution",
+    "subcategory": "Style Transfer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the image exhibit a Morandi color palette with muted, desaturated tones?",
+    "category": "Edit Execution",
+    "subcategory": "Color Grading",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the green tones of the vegetation muted to fit the Morandi palette, avoiding neon or oversaturated colors?",
+    "category": "Edit Execution",
+    "subcategory": "Color Harmony",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the person's face and identity completely preserved without distortion or alteration?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Is the person's clothing (white shirt and jeans) preserved without changes to texture, shape, or folds?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is the person's pose and body scale maintained exactly as in the original image?",
+    "category": "Preservation",
+    "subcategory": "Pose Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Are the subject's edges (especially hair and shirt) clean and free from graffiti remnants, halos, or jagged artifacts?",
+    "category": "Harmony & Blending",
+    "subcategory": "Edge Matting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the lighting on the new brick wall consistent with the lighting and shadows on the subject?",
+    "category": "Harmony & Blending",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the vegetation (ivy, moss) exhibit realistic growth patterns and layering rather than appearing flat or pasted on?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the brick wall texture appear realistically weathered (chips, stains) without obvious repeating patterns or tiling artifacts?",
+    "category": "General Quality",
+    "subcategory": "Texture Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the sidewalk or ground area logically consistent, ensuring the wall edit does not inappropriately bleed onto the street?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Scene Logic",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

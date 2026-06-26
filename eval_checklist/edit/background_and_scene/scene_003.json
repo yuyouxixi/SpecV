@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the fishmonger (the man in the beige apron) the only person remaining in sharp focus?",
+    "category": "Edit Execution",
+    "subcategory": "Focus Selection",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Are the bystanders, crowd members, and background elements (signs, awnings, market stalls) significantly blurred?",
+    "category": "Edit Execution",
+    "subcategory": "Background Blur",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Do the string lights and reflective surfaces in the background render as natural, circular bokeh highlights?",
+    "category": "Edit Execution",
+    "subcategory": "Bokeh Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the blur effect appear 'creamy' and optical (smooth gradients) rather than a harsh, uniform Gaussian blur?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Style",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is there a natural depth gradient where elements further from the fishmonger appear more blurred than those closer?",
+    "category": "Edit Execution",
+    "subcategory": "Depth Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the fishmonger's face and facial expression preserved without distortion or loss of identity?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the fishmonger's pose and hand gesture (pointing) preserved accurately?",
+    "category": "Preservation",
+    "subcategory": "Pose & Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the fishmonger's clothing (apron, shirt) preserved with consistent texture and details?",
+    "category": "Preservation",
+    "subcategory": "Clothing Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Are the edges of the fishmonger clean and precise, free from halos, fringing, or background bleed?",
+    "category": "General Quality",
+    "subcategory": "Edge Matting",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Are partially occluded bystanders or objects overlapping the fishmonger correctly segmented and blurred without cutting into the subject?",
+    "category": "Edit Execution",
+    "subcategory": "Segmentation Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the lighting on the fishmonger consistent with the original image, without unintended brightness or contrast shifts?",
+    "category": "Preservation",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from unnatural artifacts like ghosting, pixelation, or geometric distortion in the blurred regions?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

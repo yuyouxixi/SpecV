@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict an outdoor music festival setting at night, replacing the original indoor venue?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Have the indoor architectural elements (ceiling, interior walls) been completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Does the stage structure appear expanded with a more open-air layout?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Are large LED video walls visible as part of the new stage setup?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are subtle fireworks or pyrotechnic sparks visible in the distant sky?",
+    "category": "Edit Execution",
+    "subcategory": "Atmospheric Elements",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Are the added fireworks sparse and non-overwhelming, occupying only a small portion of the sky?",
+    "category": "Edit Execution",
+    "subcategory": "Constraint Compliance",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is a subtle lens flare effect present in the image?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Effects",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Does the added lens flare avoid obscuring the singer's face?",
+    "category": "Edit Execution",
+    "subcategory": "Constraint Compliance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Have the audience phone screens been adjusted to have a softer brightness appropriate for an outdoor night atmosphere?",
+    "category": "Edit Execution",
+    "subcategory": "Attribute Edit",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the singer's pose (leaning forward) and microphone position preserved exactly?",
+    "category": "Preservation",
+    "subcategory": "Pose Integrity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are the singer's facial features and identity preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Is the singer's clothing (light-colored shirt) preserved?",
+    "category": "Preservation",
+    "subcategory": "Appearance Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Is the audience crowd structure preserved (not removed or replaced)?",
+    "category": "Preservation",
+    "subcategory": "Crowd Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Is the lighting on the singer and stage consistent with the new outdoor night environment?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Is the boundary between the foreground subjects and the new outdoor background seamless (no jagged edges or halos)?",
+    "category": "General Quality",
+    "subcategory": "Compositing",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is the crowd area free from generated artifacts, such as melted hands or distorted phones?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Are the new LED walls and stage structures rendered with correct perspective and without structural distortions?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

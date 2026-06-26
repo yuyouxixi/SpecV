@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background environment transformed into a whimsical candy wonderland theme?",
+    "category": "Edit Execution",
+    "subcategory": "Theme Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Have the trees been transformed into giant lollipops or candy-like structures?",
+    "category": "Edit Execution",
+    "subcategory": "Object Transformation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the ground texture resemble fluffy cotton candy?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Modification",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Has the playground structure (swings/slides) been transformed into candy-themed elements or effectively removed without leaving realistic wood/metal remnants?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is the background transformation complete, avoiding large untouched patches of the original park grass or trees?",
+    "category": "Edit Execution",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the child's identity, facial features, and expression preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the child's clothing (striped shirt and overalls) preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Clothing Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Are the bubble wand and solution bottle preserved in the child's hands?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the floating bubbles preserved in their original positions and distribution?",
+    "category": "Preservation",
+    "subcategory": "Object Retention",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Do the bubbles remain translucent and semi-transparent rather than becoming opaque solids?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physics & Materiality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the bubbles correctly refract the colors and shapes of the new candy background instead of the old green scenery?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Refraction Logic",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 12,
+    "question": "Are bubbles that overlap the child rendered transparently so the child remains visible through them?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Occlusion Handling",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are the edges of the child and bubbles clean, without green halos or artifacts from the original background?",
+    "category": "General Quality",
+    "subcategory": "Edge Matting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

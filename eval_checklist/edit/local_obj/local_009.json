@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Are all red vehicles in the parking lot replaced with yellow taxi cabs?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Do the replacement vehicles clearly feature NYC-style taxi attributes (yellow color, taxi signage)?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Are all replacement vehicles sedan body types (lower profile than the original SUVs)?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 4,
+    "question": "Do the replacement taxis maintain the exact parking positions of the original red vehicles?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Do the replacement taxis maintain the exact orientation and facing direction of the original vehicles?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the perspective and foreshortening of each replacement taxi consistent with its position in the image?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the wheels of the new taxis correctly grounded on the pavement without floating or sinking artifacts?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are all non-red vehicles (white, black, silver, etc.) completely preserved without changes?",
+    "category": "Preservation",
+    "subcategory": "Non-Target Objects",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the parking lot details (yellow lines, pavement texture, cracks) preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the edited image free from ghosting or remnants of the original red vehicles?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Are the replacement vehicles free from unnatural distortions, warping, or malformed structures?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the overall image clarity and resolution maintained?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the overall weather transformed into a heavy snowfall winter scene?",
+    "category": "Edit Execution",
+    "subcategory": "Weather Change",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are falling snow particles visible throughout the image?",
+    "category": "Edit Execution",
+    "subcategory": "Weather Elements",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the scene lighting consistent with an overcast, cold winter day?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is there visible snow accumulation on the streets and riverside walkways?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Detail",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is there visible snow accumulation on building rooftops and ledges?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Detail",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the river surface appear cold and grey, replacing the original rain-rippled texture?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Detail",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Do the building lights and windows emit a warm glow to contrast with the cold exterior?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the warm window lighting applied consistently across multiple buildings in the scene?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Does snow accumulation naturally follow the geometry of the architecture (sitting on horizontal surfaces rather than vertical walls)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is snow accumulation on modern glass towers and metal structures realistic (avoiding unnatural coverage of smooth vertical surfaces)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Material Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is Tower Bridge preserved and structurally identifiable?",
+    "category": "Preservation",
+    "subcategory": "Landmark Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Are The Shard and other background skyscrapers preserved in shape and position?",
+    "category": "Preservation",
+    "subcategory": "Landmark Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are the boats and vessels on the river retained in the scene?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Are pedestrians on the walkway preserved without being morphed into snow or artifacts?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Is the image free of residual rain streaks or wet surface reflections that contradict the snow scene?",
+    "category": "General Quality",
+    "subcategory": "Edit Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Are the edges of buildings and structures clean, without snow effects bleeding unnaturally into the background?",
+    "category": "General Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Is the image free of significant artifacts, distortions, or unnatural pixelation?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

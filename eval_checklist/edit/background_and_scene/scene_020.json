@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Are all signs of the studio setting, including light stands, cables, the assistant, and the white backdrop, completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the background transformed into an opulent interior resembling the Paris Opera House?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Replacement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is a grand marble staircase clearly visible in the scene?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are crystal chandeliers present as a primary source of illumination?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is red velvet carpeting visible on the staircase or flooring?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are gilded balustrades or ornate railings present in the architectural design?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the lighting appear dramatically theatrical, distinct from the original flat studio lighting?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Style",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the model's identity and facial features preserved exactly as in the original image?",
+    "category": "Preservation",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Is the model's pose (standing with hands on hips) preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Pose Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the black avant-garde dress preserved in its entirety, including its silhouette, texture, and asymmetrical shoulder piece?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is the model's slicked-back hairstyle preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Appearance Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the perspective and scale of the model consistent with standing on a staircase rather than a flat surface?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Do the specular highlights on the dress and skin match the warmth and direction of the new chandelier lighting?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the model appear firmly grounded on the new steps or floor with appropriate contact shadows (not floating)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the edges of the model and dress clean and free from white halos or artifacts from the original studio background?",
+    "category": "Edit Execution",
+    "subcategory": "Edge Matting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the generated background free of warped lines, impossible geometry, or repetitive pattern artifacts?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

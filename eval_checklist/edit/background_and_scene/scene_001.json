@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original mountain background replaced with a dramatic sunrise above a sea of clouds?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are the clouds rendered as vast and billowing with visible atmospheric depth?",
+    "category": "Edit Execution",
+    "subcategory": "Texture and Detail",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the lighting clearly originate from the back-left of the image, consistent with the sunrise placement?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Direction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is there a visible warm, golden rim light applied to the contours of the person's silhouette?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Effects",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the climber's facial identity, including the beard and helmet, preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Are the climber's red/orange clothing and general attire preserved without significant color shifts?",
+    "category": "Preservation",
+    "subcategory": "Clothing Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Are the climbing gear details (harness, carabiners, ice axe, crampons) kept intact and structurally coherent?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the person's standing posture and anatomical structure (hands, legs) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Pose & Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the rocky terrain immediately beneath the climber's feet preserved to maintain their stance?",
+    "category": "Preservation",
+    "subcategory": "Foreground Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the edges of the climber clean and free from artifacts, halos, or remnants of the original grey sky/mountain?",
+    "category": "Harmony & Blending",
+    "subcategory": "Edge Matting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the color tone of the climber interact naturally with the new warm sunrise lighting (avoiding a cutout look)?",
+    "category": "Harmony & Blending",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Are the shadows and contrast on the subject consistent with a backlit scenario?",
+    "category": "Harmony & Blending",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Does the scale and perspective of the cloudscape match the elevated summit viewpoint of the original image?",
+    "category": "Harmony & Blending",
+    "subcategory": "Perspective Matching",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Is the transition between the rocky foreground terrain and the sea of clouds seamless and natural?",
+    "category": "Harmony & Blending",
+    "subcategory": "Scene Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Is the image free of visible AI artifacts, unnatural distortions, or floating objects in the sky?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

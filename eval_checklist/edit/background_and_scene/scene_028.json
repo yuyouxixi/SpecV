@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Are details in the darkest shadow areas (such as corners, under the bar, and dark wall sections) visibly brighter and more defined compared to the original?",
+    "category": "Edit Execution",
+    "subcategory": "Shadow Recovery",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the image exhibit an HDR-like effect where textures in dark areas (brick, wood) are enhanced without crushing blacks to a solid color?",
+    "category": "Edit Execution",
+    "subcategory": "HDR Effect",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Are bright highlights (lamp shades, stage spotlight, candle flames) preserved without being blown out or losing texture details?",
+    "category": "Edit Execution",
+    "subcategory": "Highlight Preservation",
+    "expected_answer": "Yes",
+    "score": 9.6
+  },
+  {
+    "id": 4,
+    "question": "Does the overall image exhibit a distinct blue-purple cinematic color grade reminiscent of 'La La Land'?",
+    "category": "Edit Execution",
+    "subcategory": "Color Grading",
+    "expected_answer": "Yes",
+    "score": 8.9
+  },
+  {
+    "id": 5,
+    "question": "Do the bottles and glassware behind the bar display distinct, crisp specular reflections and highlights?",
+    "category": "Edit Execution",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 9.1
+  },
+  {
+    "id": 6,
+    "question": "Do glass objects exhibit plausible light refraction and transparency rather than looking opaque or painted on?",
+    "category": "Edit Execution",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Are the skin tones of the subjects (bartender, patrons, musician) preserved naturally, avoiding excessive blue/purple contamination from the color grade?",
+    "category": "Preservation",
+    "subcategory": "Skin Tone Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the bartender preserved in his original pose and attire (vest, tie, white shirt) without distortion?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.27
+  },
+  {
+    "id": 9,
+    "question": "Are the saxophone player and the instrument preserved in their original positions and structural integrity?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.27
+  },
+  {
+    "id": 10,
+    "question": "Are the background elements, such as the brick walls and jazz posters (Ellington, Basie), preserved with legible details?",
+    "category": "Preservation",
+    "subcategory": "Background Detail",
+    "expected_answer": "Yes",
+    "score": 8.1
+  },
+  {
+    "id": 11,
+    "question": "Do practical light sources (pendant lamps, candles) retain a warmer color temperature that contrasts correctly with the global blue-purple grade?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Logic",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Do objects retain grounded contact shadows (e.g., chairs on floor, bottles on shelves) despite the shadow lifting?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.1
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from excessive noise or grain amplification in the areas where shadows were lifted?",
+    "category": "General Quality",
+    "subcategory": "Noise & Grain",
+    "expected_answer": "Yes",
+    "score": 8.07
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from unnatural 'halo' artifacts or glowing outlines around high-contrast edges (common in HDR processing)?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

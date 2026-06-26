@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Are all traces of the original background clutter (posters, sticky notes, album covers) completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Clutter Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the new background feature clean white walls consistent with a minimalist Scandinavian aesthetic?",
+    "category": "Edit Execution",
+    "subcategory": "Style Transfer",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the scene exhibit bright, natural lighting and an airy atmosphere as requested?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Atmosphere",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the wooden desk structure preserved without changes to its shape, color, or drawers?",
+    "category": "Preservation",
+    "subcategory": "Furniture Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the laptop preserved with the 'Research' page on the screen clearly visible and legible?",
+    "category": "Preservation",
+    "subcategory": "Text/Screen Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Are the stacks of textbooks (e.g., 'Literary Theory', 'Organic Chemistry') preserved in their original positions and appearance?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the specific branded items (Cheetos, pretzels, Starbucks cups) preserved with legible logos and correct colors?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Are fine details like tangled wires, earbuds, the mouse, and the open notebook preserved without erasure or distortion?",
+    "category": "Preservation",
+    "subcategory": "Fine Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Are all foreground items maintained in their exact original spatial arrangement relative to each other?",
+    "category": "Preservation",
+    "subcategory": "Layout Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Are the edges of foreground objects clean, free from halos, jagged lines, or remnants of the old background?",
+    "category": "Edit Execution",
+    "subcategory": "Edge Matting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do the shadows cast by the desk items appear consistent with the direction and intensity of the new lighting?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Do reflective surfaces and object lighting blend naturally with the new environment's color temperature?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Coherence",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Does the perspective of the new background room align logically with the angle of the existing desk?",
+    "category": "Edit Execution",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from inpainting artifacts, unnatural blurring, or geometric distortions in the new background area?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Distortion",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

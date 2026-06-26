@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Are several (more than two) farmworkers added to the wheat field?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Do the added farmworkers appear to be wearing wide-brimmed straw hats?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Are the farmworkers depicted in a bent-over posture consistent with binding sheaves?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Are wheat sheaves (bundles) visible near the workers, indicating the action of binding?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is the scale of the added farmworkers consistent with the high-altitude aerial perspective (appearing appropriately small)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Do the farmworkers show varied poses and realistic spacing (avoiding identical copy-paste patterns)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Are exactly two white herons added to the sky?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Are the herons depicted in flight with wings spread, clearly recognizable as birds?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Do the herons blend naturally into the sky with appropriate lighting and clean edges?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Are the existing farm buildings (barns and farmhouse) completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are the surrounding trees and distant mountains preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the texture and track pattern of the wheat field preserved in areas not occupied by the new workers?",
+    "category": "Preservation",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the sky area preserved (clouds and gradient) aside from the added herons?",
+    "category": "Preservation",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are the added farmworkers free from visual artifacts, distortions, or unnatural blurring?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are the added herons free from halos, jagged edges, or anatomical distortions?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Are both lion-head door knockers replaced with dragon-head knockers?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the dragon-head knockers correctly aligned with the perspective and surface of the wooden doors?",
+    "category": "Edit Execution",
+    "subcategory": "Blending",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Are the two knight statues replaced with traditional Chinese guardian lion statues?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Do the guardian lion statues match the gray stone texture and weathering of the surrounding castle walls?",
+    "category": "Edit Execution",
+    "subcategory": "Blending",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Are the guardian lion statues properly scaled and grounded on their bases without floating or sinking?",
+    "category": "Edit Execution",
+    "subcategory": "Blending",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Are all three triangular pennants replaced with Chinese-style red vertical streaming banners?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Do the new banners align with the original wind direction (blowing towards the right)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Are the wooden door planks preserved intact, excluding the replaced knockers?",
+    "category": "Preservation",
+    "subcategory": "Object Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Are the stone archway, castle walls, and ivy vegetation preserved without structural changes?",
+    "category": "Preservation",
+    "subcategory": "Background & Scene",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Are the sky, clouds, and foreground dirt path unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background & Scene",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the lighting on the replaced objects (knockers, statues, banners) consistent with the overcast environment?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the edited image free of visual artifacts, such as warped geometry or unnatural blurring, around the replaced objects?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

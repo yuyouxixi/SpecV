@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is a Starbucks-style iced Frappuccino added to the woman's hand?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Does the added drink feature a whipped cream dome on top?",
+    "category": "Edit Execution",
+    "subcategory": "Attribute Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the cup rendered as transparent plastic with visible ice or blended liquid inside?",
+    "category": "Edit Execution",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is the straw positioned to just touch the woman's lips?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the original small ceramic cup (if present) completely removed or replaced by the new drink?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Do the woman's fingers naturally wrap around the new cup with correct occlusion (grip)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Are the lighting and shadows on the Frappuccino consistent with the warm, dim café environment?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the scale of the cup realistic relative to the woman's hand and face?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the woman's face, expression, and hair preserved (excluding the lip contact point)?",
+    "category": "Preservation",
+    "subcategory": "Subject Identity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are the woman's clothing (black t-shirt), tattoo, and necklace unchanged?",
+    "category": "Preservation",
+    "subcategory": "Subject Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the edited area (hand, mouth, cup) free of unnatural blurring, smudging, or jagged edges?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the overall image sharpness and grain consistent between the edited region and the original photo?",
+    "category": "General Quality",
+    "subcategory": "Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

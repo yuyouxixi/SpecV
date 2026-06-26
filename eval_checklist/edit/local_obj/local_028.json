@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the SUV completely removed from the front lawn, leaving no visible parts such as wheels, windows, or body?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the shadow cast by the SUV on the grass completely eliminated?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the lawn texture in the vacated area reconstructed realistically, matching the color, mowing lines, and pattern of the surrounding grass?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Are the architectural elements previously obscured by the SUV (e.g., porch structure, entry steps, house siding) reconstructed coherently?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Is the lighting in the edited area consistent with the rest of the scene, avoiding unnatural bright or dark spots?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Are the flower beds and shrubs near the walkway and house preserved without distortion or missing plants?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the brick walkway leading to the front door preserved intact, maintaining its alignment and texture?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the 'For Sale' sign in the front yard preserved in its original position and shape?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the white house facade, including shutters, windows, and door, completely preserved outside the inpainted area?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the edited area free of visual artifacts like ghosting, seams, smudging, or repeating textures?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the edited region match the resolution and sharpness of the rest of the image, avoiding localized blurring?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the image free of AI-generated hallucinations or unwanted new objects in the cleared lawn area?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

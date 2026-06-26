@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Has the environment been transformed from a cherry blossom grove to a red maple forest, with no residual pink blossoms on the trees?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Replacement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Do the maple leaves display a visible red-to-yellow gradient coloring pattern?",
+    "category": "Edit Execution",
+    "subcategory": "Color Grading",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the ground, including the path, carpeted with fallen autumn leaves?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Detail",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Have the airborne falling elements been transformed from soft cherry petals to distinct maple leaves?",
+    "category": "Edit Execution",
+    "subcategory": "Object Transformation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Has the lighting been changed to a warm, golden late-afternoon backlight?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Adjustment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is there a distinct rim light effect added along the edges of the woman's hair?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Effects",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Are the shadows in the scene consistent with the direction of the new backlight?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Logic",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the main subject's identity, facial expression, and hairstyle preserved?",
+    "category": "Preservation",
+    "subcategory": "Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the woman's pose and body structure preserved exactly as in the original image?",
+    "category": "Preservation",
+    "subcategory": "Pose Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Are the woman's floral dress and hat preserved without unintended changes to pattern or structure?",
+    "category": "Preservation",
+    "subcategory": "Attire Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the overall composition and the structure of the cobblestone path preserved?",
+    "category": "Preservation",
+    "subcategory": "Composition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the edges of the subject free from residual pink halos or artifacts from the original cherry blossoms?",
+    "category": "General Quality",
+    "subcategory": "Edge Matting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the lighting on the subject and background figures blend naturally with the new golden atmosphere?",
+    "category": "General Quality",
+    "subcategory": "Visual Harmony",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Is the image free of unnatural artifacts, such as distorted leaves, repeating patterns, or color banding?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

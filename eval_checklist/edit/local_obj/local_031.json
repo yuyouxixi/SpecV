@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the photographer's reflected silhouette, including any phone or camera outline, completely removed from the glass display case?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the inherent highlights and specular glints on the glass display case preserved?",
+    "category": "Preservation",
+    "subcategory": "Subject Details",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are the rainbow-like prismatic edge refractions on the glass display case preserved?",
+    "category": "Preservation",
+    "subcategory": "Subject Details",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the ceramic vessel inside the display case completely free of distortion or alteration?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Are the background elements (visitors, artworks, ceiling, and floor) preserved unchanged, except for the added stanchion?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Is a stanchion consisting of two polished brass posts and a draped red velvet rope added to the scene?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is the added stanchion positioned naturally behind the display case?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Spatial Reasoning",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Does the stanchion match the perspective and scale of the room, aligning with the scene's depth?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Do the brass posts and velvet rope exhibit realistic textures and material properties?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Realism",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Does the lighting on the stanchion match the museum's mixed warm and cool lighting environment?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the area where the reflection was removed free from blurring, smudging, or ghosting, maintaining the glass's transparency?",
+    "category": "General Quality",
+    "subcategory": "Inpainting Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from visible artifacts, jagged edges, or hallucinations (e.g., floating objects or extra posts)?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

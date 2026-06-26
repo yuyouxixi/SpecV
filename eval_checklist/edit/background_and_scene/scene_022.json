@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the scene lighting successfully converted from harsh direct sunlight to a soft, diffused overcast effect?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Adjustments",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are the distinct hard shadows removed from the faces of all individuals, including under the eyes, noses, and chins?",
+    "category": "Edit Execution",
+    "subcategory": "Shadow Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the overall image remain bright and vibrant, avoiding a dark, flat, or washed-out appearance?",
+    "category": "Edit Execution",
+    "subcategory": "Tone & Exposure",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Are the cast shadows on the ground, blanket, and surrounding objects (guitar, cooler) softened to match the overcast lighting?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Are specular highlights on skin, hair, and reflective surfaces (sunglasses, guitar body) diffused to match the soft daylight?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Does the background lighting (sky and architecture) logically match the new overcast aesthetic without conflicting bright sun cues?",
+    "category": "Edit Execution",
+    "subcategory": "Global Coherence",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the skin texture in previously shadowed facial regions reconstructed naturally, avoiding a smudged or plastic-like appearance?",
+    "category": "General Quality",
+    "subcategory": "Texture Reconstruction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Do the faces retain natural 3D contouring and depth, ensuring they do not look artificially flat after shadow removal?",
+    "category": "General Quality",
+    "subcategory": "Facial Dimensionality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are skin tones consistent and natural-looking across all subjects, without patchy discoloration?",
+    "category": "General Quality",
+    "subcategory": "Skin Tone Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are all subjects (approx. 10 people) preserved with their original identities, poses, and expressions?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Is the clothing of all subjects preserved without changes to colors, patterns, or structure?",
+    "category": "Preservation",
+    "subcategory": "Clothing Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Are accessories such as sunglasses and watches preserved in their original positions and shapes?",
+    "category": "Preservation",
+    "subcategory": "Accessory Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the smartphone held by the woman in the foreground preserved without deformation or loss of detail?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the acoustic guitar preserved without structural changes or artifacts?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Are the picnic items (cooler, chips, bubble machine, cups) and the blanket pattern preserved?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the university building with the clock tower in the background preserved and visible?",
+    "category": "Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Is the image free from unnatural AI artifacts, such as edge halos, ghosting, or distorted facial features?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 18,
+    "question": "Is the overall image sharpness and clarity maintained without unintended blurriness?",
+    "category": "General Quality",
+    "subcategory": "Sharpness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

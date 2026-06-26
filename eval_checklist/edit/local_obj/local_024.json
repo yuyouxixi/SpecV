@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the blue hardcover book titled 'The Secret Garden' completely removed from the image, with no remaining cover, spine, or text visible?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is a silver iPad clearly visible in the boy's hands?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the iPad feature a metallic silver exterior and a glass-like screen surface, avoiding paper or cloth-like textures?",
+    "category": "Edit Execution",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the object exhibit the distinct thin profile and flat geometry of a tablet, effectively replacing the thick volume of the original book?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Consistency",
+    "expected_answer": "Yes",
+    "score": 9.1
+  },
+  {
+    "id": 5,
+    "question": "Do the boy's hands and fingers naturally grasp the iPad, with the grip adjusted to fit the device's slim dimensions?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.23
+  },
+  {
+    "id": 6,
+    "question": "Are the fingers and thumbs correctly occluding parts of the iPad where they overlap, preserving natural depth and layering?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the iPad oriented at a natural reading angle and proportionally sized relative to the boy's hands and body?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.4
+  },
+  {
+    "id": 8,
+    "question": "Are the lighting, shadows, and screen reflections on the iPad consistent with the soft outdoor autumn environment?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.43
+  },
+  {
+    "id": 9,
+    "question": "Are the boy's face, hair, expression, and clothing (corduroy jacket and jeans) completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Are the boy's hands and fingers free of distortion, missing digits, or extra fingers (preserving original skin texture)?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.23
+  },
+  {
+    "id": 11,
+    "question": "Are the wooden bench, autumn leaves, and background trees completely preserved and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.1
+  },
+  {
+    "id": 12,
+    "question": "Is the transition area between the hands and the iPad free of visual artifacts, haloing, unnatural edges, or blurring?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the edited region free of hallucinations (unintended objects) and consistent with the original image's resolution and noise pattern?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.37
+  }
+]

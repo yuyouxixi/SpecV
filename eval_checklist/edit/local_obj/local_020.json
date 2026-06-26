@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the distant diver (including body, tank, and fins) completely removed from the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the entire bubble stream rising from the diver to the surface completely eliminated?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the edited area free of any residual specular highlights, sparkles, or silhouette traces of the removed objects?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the reconstructed water background exhibit a natural volumetric haze gradient and blue-green color shift consistent with underwater depth?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are the suspended particles in the reconstructed area consistent in density, size, and randomness with the surrounding water?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Blending",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Are distant coral or kelp silhouettes naturally reconstructed in the background where the diver was, avoiding empty or flat patches?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Contextual Completion",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is the local brightness in the edited area consistent with the surrounding water, showing no vertical streaks or unnatural shadows?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Correction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are all foreground coral structures (including branching and brain corals) preserved exactly in their original positions and shapes?",
+    "category": "Preservation",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are the fine textures and colors of the foreground coral completely unaffected by the edit (no blurring or texture drift)?",
+    "category": "Preservation",
+    "subcategory": "Image Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Are all fish in the scene preserved in their exact original positions, orientations, and appearances?",
+    "category": "Preservation",
+    "subcategory": "Living Subjects",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the edited region free from visible seams, hard edges, or patch boundaries?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the reconstructed area free from repetitive cloning patterns or obvious 'stamp' artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from AI hallucinations or unexpected new objects appearing in the edited region?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the edited area maintain the same noise, grain, and sharpness characteristics as the rest of the image?",
+    "category": "General Quality",
+    "subcategory": "Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

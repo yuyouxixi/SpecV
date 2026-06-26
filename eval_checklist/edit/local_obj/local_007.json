@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Are all pedestrians currently walking on the crosswalks (including the central intersection and all side crossings) completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are the shadows cast by the removed pedestrians fully eliminated from the road surface?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the edited surface free of any partial human fragments (e.g., isolated feet, luggage) or ghost silhouettes?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Do the restored crosswalk stripes maintain correct geometric perspective, alignment, and continuity where pedestrians were removed?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the restored asphalt texture consistent with the surrounding road, avoiding smooth smears, repeated patterns, or blurry patches?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are the pedestrians standing on the sidewalks and corners (outside the crosswalk zones) preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Non-Target Objects",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are all vehicles (taxis, cars, vans) preserved exactly as they were in the original image?",
+    "category": "Preservation",
+    "subcategory": "Background Objects",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are the surrounding buildings, billboards, and digital advertisements preserved without distortion or text warping?",
+    "category": "Preservation",
+    "subcategory": "Background Scene",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are lane markings, arrows, and stop lines outside the removal zones preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Scene",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the edited area free of newly hallucinated objects (e.g., traffic cones, random debris) replacing the pedestrians?",
+    "category": "Preservation",
+    "subcategory": "Unintended Changes",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the edited image free from visible seams, edge halos, or inconsistent lighting in the inpainted regions?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Does the edited image maintain consistent sharpness and resolution across the intersection compared to the unedited areas?",
+    "category": "General Quality",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

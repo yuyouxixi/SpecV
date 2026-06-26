@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Has the indoor pool environment been successfully transformed into an outdoor tropical setting?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Replacement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Have the original indoor structural elements (ceiling, walls, tiled columns, light fixtures) been completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is an ocean horizon clearly visible in the background?",
+    "category": "Edit Execution",
+    "subcategory": "Content Addition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Are silhouettes of palm trees included in the background?",
+    "category": "Edit Execution",
+    "subcategory": "Content Addition",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Does the pool now feature an infinity edge that visually blends with the horizon line?",
+    "category": "Edit Execution",
+    "subcategory": "Structural Change",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the lighting in the image reflect a 'golden hour' setting with warm sunset tones?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting/Color",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Have the water reflections been shifted to warm golden/orange tones?",
+    "category": "Edit Execution",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Do the water ripples appear softer and more languid compared to the original choppy splashing?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Modification",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the lighting direction on the water and foreground consistent with a low-angle sunset source?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the geometry of the new infinity edge align correctly with the scene's perspective and vanishing point?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Geometric Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the foreground person preserved in their original identity, pose, and clothing?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 12,
+    "question": "Is the wooden lounge chair preserved in its original position and structure?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Are the smaller foreground props (e.g., towels, water bottle) preserved?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Are the edges around the foreground person and chair clean, free from halos or remnants of the indoor background?",
+    "category": "General Quality",
+    "subcategory": "Edge Matting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the transition between the pool water and the ocean horizon seamless and natural?",
+    "category": "General Quality",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Are the background details (ocean, trees) legible and not overly blurred?",
+    "category": "General Quality",
+    "subcategory": "Focus/Clarity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 17,
+    "question": "Is the image free from unnatural artifacts, geometric distortions, or inconsistent textures?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]
