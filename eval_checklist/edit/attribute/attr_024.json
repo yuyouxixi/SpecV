@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Have all the double-decker buses on the left side of the lane been completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Are there taxis positioned in the left lane where the double-decker buses used to be?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Do the replacement vehicles resemble taxis (sedan-type structure) rather than retaining tall, bus-like proportions?",
+    "category": "Edit Execution",
+    "subcategory": "Object Type",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Do the replacement taxis appear as distinct, individual vehicles rather than stretched or merged forms?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Structure",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the background area previously occluded by the large buses (e.g., buildings or street depth) filled in coherently?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the existing red taxi in the center lane preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Background Objects",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is the double-decker bus in the center/right lane (white and orange livery) preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Background Objects",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Are the pedestrians crossing the street, including the person in the lime green raincoat, preserved?",
+    "category": "Preservation",
+    "subcategory": "Human Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the crowd of people with umbrellas on the right sidewalk preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Human Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Are the neon signs preserved intact, specifically the vertical 'Pharmacy' (藥房) and green 'Sauna' (桑拿) signs?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the scale of the replacement taxis proportionally correct relative to the lane width and surrounding vehicles?",
+    "category": "General Quality",
+    "subcategory": "Geometry & Scale",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the replacement taxis aligned correctly with the road direction, with wheels properly touching the ground?",
+    "category": "General Quality",
+    "subcategory": "Geometry & Scale",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Do the replacement taxis display consistent reflections on the wet road surface (reflecting a car shape, not a bus)?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Reflections",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Are foreground elements (like pedestrians) correctly handled so they occlude the new taxis where appropriate?",
+    "category": "General Quality",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Is the edited area free from artifacts such as ghosting, smearing, or leftover bus parts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

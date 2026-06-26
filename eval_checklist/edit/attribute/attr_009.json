@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the phone's back panel changed from glossy black glass to a natural, slightly gray titanium color?",
+    "category": "Edit Execution",
+    "subcategory": "Color & Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the back panel surface exhibit a visible, directional brushed texture (striations)?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Are the brushed striations consistent in direction rather than appearing as random noise or grain?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Are the reflections on the back panel softer and more diffused compared to the original mirror-like glass?",
+    "category": "Edit Execution",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Does the back panel display anisotropic highlights (elongated along the brushing direction) characteristic of brushed metal?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the camera module (lenses, rings, flash, and layout) preserved exactly without changes to shape or finish?",
+    "category": "Preservation",
+    "subcategory": "Object Parts",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the phone's outer contours, frame shape, and side buttons preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Structure",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are the chamfered edge highlights on the phone's metal frame still sharp and well-defined?",
+    "category": "Preservation",
+    "subcategory": "Detail",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Is the marble countertop's texture and veining pattern completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Is the brushed texture applied strictly to the back panel without bleeding onto the camera lenses, phone frame, or marble countertop?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the image free of visible masking artifacts, seams, or haloing around the phone edges?",
+    "category": "General Quality",
+    "subcategory": "Coherence",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the edited image free of geometric distortions, warping, or loss of resolution?",
+    "category": "General Quality",
+    "subcategory": "Clarity & Distortion",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the new titanium finish interact realistically with the scene's lighting (e.g., consistent shading)?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

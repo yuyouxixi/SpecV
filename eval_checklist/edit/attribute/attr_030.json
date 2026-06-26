@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the man's head tilted upwards, looking toward the ceiling?",
+    "category": "Edit Execution",
+    "subcategory": "Pose",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the book completely absent from the man's hands?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the book visibly tucked into the trench coat pocket or indicated by a realistic bulge in the fabric?",
+    "category": "Edit Execution",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Is one of the man's hands gripping the vertical metal pole?",
+    "category": "Edit Execution",
+    "subcategory": "Pose",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Is the man standing in an upright, confident pose rather than leaning or slouching?",
+    "category": "Edit Execution",
+    "subcategory": "Pose",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 6,
+    "question": "Is the man's chin visibly lifted, anatomically consistent with an upward gaze?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Are the sunglasses aligned correctly with the upward head tilt (not floating or angled downwards)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the man's identity (facial features, hair style) preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the man still wearing the same dark trench coat and sunglasses?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the seated passengers on both sides of the subway car unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the digital clock displaying '4:12 PM' unchanged and legible?",
+    "category": "Preservation",
+    "subcategory": "Background Text",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the subway car interior (seats, windows, ads, lighting fixtures) preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from floating artifacts or ghosting remnants of the removed book?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the man's hands anatomically correct (no fused fingers or unnatural distortion)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the modified area (head, coat, hands) seamless and consistent in texture/resolution with the rest of the image?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

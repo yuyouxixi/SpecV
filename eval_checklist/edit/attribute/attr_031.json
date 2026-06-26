@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Are the upper garments of the two men actively playing chess (hands near the board) replaced with Tang-style jackets?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Do the new jackets feature traditional front-opening closures with knotted buttons (frog buttons)?",
+    "category": "Edit Execution",
+    "subcategory": "Style",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Do the jackets feature standing collars (Mandarin collars) consistent with Tang-style clothing?",
+    "category": "Edit Execution",
+    "subcategory": "Style",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 4,
+    "question": "Is exactly one of the new jackets dark navy in color?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is exactly one of the new jackets grayish brown in color?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Do the new garments display realistic dappled sunlight and shadow patterns consistent with the rest of the scene?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Are the sleeves and cuffs of the jackets aligned naturally with the players' arms and wrists, handling occlusions by the table correctly?",
+    "category": "Edit Execution",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the man on the far left (spectator holding a cup) still wearing his original grey polo shirt?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the man in the center (spectator facing forward) still wearing his original light grey shirt?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the man on the far right (spectator) still wearing his original light grey striped shirt?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the facial identities and hairstyles of the two chess players preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Are the lower garments (pants) of the chess players unchanged?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are the objects on the table (chessboard, pieces, tea pot, snacks) preserved without distortion or displacement?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are the background elements (red walls, gate with sign '东四八条', tree, bicycles) preserved structurally and textually?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Is the boundary between the new jackets and the surrounding environment free of artifacts like jagged edges, halos, or smears?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 16,
+    "question": "Is the image free of color bleeding from the new jackets onto the skin, table, or other objects?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

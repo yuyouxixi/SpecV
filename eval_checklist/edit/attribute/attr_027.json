@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Are all the strawberries on the fruit tarts, including those on the bottom shelf, replaced with cherries?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the image completely free of any remaining strawberries?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Do the replacement fruits have the characteristic round shape and smooth skin of cherries, distinct from the original strawberries?",
+    "category": "Edit Execution",
+    "subcategory": "Shape & Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are the cherries rendered in a realistic vibrant red color consistent with the display lighting?",
+    "category": "Edit Execution",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Do the cherries display realistic glossy highlights and reflections consistent with the environment?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Material",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Are the cherries appropriately scaled relative to the pastries and positioned naturally on the cream/custard?",
+    "category": "Edit Execution",
+    "subcategory": "Scale & Positioning",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Are other fruits, such as raspberries and yellow apricots/peaches, preserved without being altered?",
+    "category": "Preservation",
+    "subcategory": "Non-Target Objects",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Are the other pastries (macarons, cream puffs, éclairs, mille-feuille) completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Non-Target Objects",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the pastry crust and base structure of the modified tarts preserved in texture and color?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the edited area sharp and free from blurring or resolution loss compared to the rest of the image?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from visual artifacts, such as halos, unnatural seams, or color bleeding around the cherries?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

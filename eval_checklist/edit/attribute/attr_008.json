@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the figure's hair finish changed from glossy plastic to a matte, resin-like texture?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the strong, mirror-like specular highlights on the hair removed?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the hair retain subtle, soft highlights rather than appearing completely flat?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 9.23
+  },
+  {
+    "id": 4,
+    "question": "Do the figure's eyes appear to be made of glass, showing translucency or depth?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are there distinct, crisp highlight points visible within the eyes?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the figure's hair color (blue) preserved?",
+    "category": "Preservation",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the figure's hairstyle, including the ahoge (antenna) and strand geometry, unchanged?",
+    "category": "Preservation",
+    "subcategory": "Shape",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the eyes' original placement, size, and shape preserved?",
+    "category": "Preservation",
+    "subcategory": "Shape",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the figure's facial expression and skin tone unchanged?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the figure's clothing (school uniform) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the figure's pose and body shape unchanged?",
+    "category": "Preservation",
+    "subcategory": "Pose",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the desk lamp and its lighting effect on the scene unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Are the keyboard, mouse, and mousepad on the desk unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is the clear plastic stand beneath the figure unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Do the new highlights on the hair and eyes align with the direction of the desk lamp?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 16,
+    "question": "Is the hair free from unnatural blurring, distortions, or edge artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Are the eyes free from smearing, misalignment, or rendering artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

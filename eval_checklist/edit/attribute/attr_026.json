@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the fabric texture of the trainer's shirt changed to a snakeskin pattern?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the snakeskin pattern appear embossed with visual depth (highlights and shadows) rather than just a flat print?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the color of the shirt preserved as red, without shifting to other hues?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the snakeskin texture realistically follow the contours of the trainer's muscles and the stretch of the compression fabric?",
+    "category": "Edit Execution",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the embossed snakeskin pattern clearly visible and consistent in the trainer's reflection in the mirror?",
+    "category": "Edit Execution",
+    "subcategory": "Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the snakeskin texture cover the entire shirt consistently, including the sleeves?",
+    "category": "Edit Execution",
+    "subcategory": "Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the trainer's face and identity preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the trainer's squatting posture and body shape maintained?",
+    "category": "Preservation",
+    "subcategory": "Pose",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the trainer's black shorts and shoes unchanged?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Are the edges of the shirt clean, with no texture bleeding onto the skin or background?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Does the lighting and shading on the embossed texture align with the scene's lighting conditions?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

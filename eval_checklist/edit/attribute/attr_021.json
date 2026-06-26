@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Do the eyebrows appear neater and more groomed (e.g., stray hairs removed) compared to the original image?",
+    "category": "Edit Execution",
+    "subcategory": "Grooming",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Are the dark circles under the eyes significantly reduced or concealed?",
+    "category": "Edit Execution",
+    "subcategory": "Blemish Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are acne scars and blemishes on the cheeks and face visibly smoothed out or removed?",
+    "category": "Edit Execution",
+    "subcategory": "Blemish Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the skin tone appear more even, with less redness or blotchiness than the original?",
+    "category": "Edit Execution",
+    "subcategory": "Skin Tone",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is a subtle, natural-looking healthy warmth or color added to the complexion?",
+    "category": "Edit Execution",
+    "subcategory": "Color Adjustment",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Does the skin retain visible natural texture (pores/lines) rather than looking overly airbrushed, plastic, or mannequin-like?",
+    "category": "Edit Execution",
+    "subcategory": "Realism Constraint",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the face avoid unrequested 'beautification' effects like heavy makeup, lipstick, or reshaped features?",
+    "category": "Edit Execution",
+    "subcategory": "Style Constraint",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the person's identity clearly recognizable as the same individual?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Are the facial features (eyes, nose, mouth shape) unchanged from the original image?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the facial hair (stubble) preserved, without being blurred out during skin smoothing?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the hairstyle and hair color unchanged from the original image?",
+    "category": "Preservation",
+    "subcategory": "Hair",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Do the suit jacket and white shirt remain unchanged in color, shape, and style?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the background (office partition and ceiling lights) identical to the original image?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from visible editing artifacts such as halos, cutout edges, or unnatural blurring?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Are the retouched areas blended seamlessly without patchy edges or visible boundaries?",
+    "category": "General Quality",
+    "subcategory": "Blending",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

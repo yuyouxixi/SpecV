@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is there a visible physical gap between the man and the woman on the bench?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the woman sitting upright independently, rather than leaning on the man?",
+    "category": "Edit Execution",
+    "subcategory": "Pose Change",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the woman's head lifted off the man's shoulder and oriented naturally?",
+    "category": "Edit Execution",
+    "subcategory": "Pose Change",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Are the woman's arms retracted, no longer wrapped around or touching the man?",
+    "category": "Edit Execution",
+    "subcategory": "Pose Change",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Is the man sitting in an upright, natural seated position?",
+    "category": "Edit Execution",
+    "subcategory": "Pose Change",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Is the man's shoulder and jacket area, previously obscured by the woman, fully visible and seamlessly reconstructed?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the bench's backrest and scrollwork visibly continuous and realistic in the newly created gap?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the background visible through the gap consistent with the surrounding scene (e.g., leaves, path)?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Does the woman retain her original facial identity?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the man retain his original facial identity?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the woman still wearing the beige knit sweater and chunky scarf?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the man still wearing the dark jacket and grey beanie?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the man still holding the coffee cup in his hands?",
+    "category": "Preservation",
+    "subcategory": "Objects",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are the background elements (autumn trees, cobblestone path, distant people, fallen leaves) preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Is the wrought-iron bench with decorative scrollwork preserved?",
+    "category": "Preservation",
+    "subcategory": "Objects",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 16,
+    "question": "Does the image retain the original warm, golden autumn lighting and lens flare?",
+    "category": "Preservation",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 17,
+    "question": "Are the hands and body proportions of both individuals anatomically correct?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 18,
+    "question": "Is the image free of visual artifacts like blurring, ghosting, or unnatural seams?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

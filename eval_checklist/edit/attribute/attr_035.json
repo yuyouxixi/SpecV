@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Do the uniforms of the five players on the left side appear predominantly black with gold accents?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the original blue-and-white color scheme completely removed from the left-side players' uniforms?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is a flaming skull emblem visible on the uniforms of the five players on the left?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the original Cloud9 logo completely removed from the left-side players' uniforms?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the new uniform design (black-and-gold with flaming skull) applied consistently across all five players on the left?",
+    "category": "Edit Execution",
+    "subcategory": "Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Do the players on the right side of the stage retain their original red-and-white uniforms without modification?",
+    "category": "Preservation",
+    "subcategory": "Subject",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the facial features and identities of the five players on the left preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Are the headphones, gaming chairs, and monitors on the left side preserved without unintended color changes?",
+    "category": "Preservation",
+    "subcategory": "Objects",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the background (including LED screens, stage structure, and crowd) preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Is the flaming skull emblem correctly aligned with the perspective and folds of the players' shirts?",
+    "category": "General Quality",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from significant artifacts such as color bleeding, jagged edges, or blurring in the edited regions?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the uniform edits applied correctly behind occluding objects like cables and chair backs?",
+    "category": "General Quality",
+    "subcategory": "Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

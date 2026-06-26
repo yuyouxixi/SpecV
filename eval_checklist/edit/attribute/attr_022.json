@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Is the central figure wearing a black dress?",
+    "category": "Edit Execution",
+    "subcategory": "Clothing Attribute",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the dress feature visible lace textures?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Are there white ruffle trims visible on the dress?",
+    "category": "Edit Execution",
+    "subcategory": "Clothing Detail",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the costume silhouette reflect Gothic Lolita style (e.g., layered skirt, petticoat shape, or bows)?",
+    "category": "Edit Execution",
+    "subcategory": "Style",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Is the original blue sailor uniform completely replaced/removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is a mini top hat fascinator accessory present on the central figure's head?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is the added hat scaled appropriately as a 'mini' hat rather than a full-sized top hat?",
+    "category": "Edit Execution",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the central figure's face identity and facial expression preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the central figure's hairstyle generally preserved (allowing for interaction with the hat)?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the central figure's standing pose preserved?",
+    "category": "Preservation",
+    "subcategory": "Pose",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the magic wand prop still present and held by the figure?",
+    "category": "Preservation",
+    "subcategory": "Objects",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the magic wand's shape and structure preserved (not morphed into the dress or distorted)?",
+    "category": "Preservation",
+    "subcategory": "Objects",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Is the 'Anime Expo' banner in the background visible and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the 'MANGA MARKET' banner in the background visible and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Is the mini top hat positioned naturally on the head/hair without floating or awkward clipping?",
+    "category": "General Quality",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are the edges of the new dress blended seamlessly with the background (no halos or jagged cuts)?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are the figure's hands and fingers anatomically correct (no extra fingers or warping)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 18,
+    "question": "Are the lace and ruffle textures rendered clearly without significant blurring?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 19,
+    "question": "Is the lighting on the new outfit consistent with the environment's lighting?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Is the text on the background banners free from generative corruption or gibberish?",
+    "category": "General Quality",
+    "subcategory": "Text Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

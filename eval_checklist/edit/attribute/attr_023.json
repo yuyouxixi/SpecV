@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the woman standing second from the right in the back row (wearing a black sequin dress) the person whose hair has been modified?",
+    "category": "Edit Execution",
+    "subcategory": "Subject Localization",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 2,
+    "question": "Does the target woman now have short hair (clearly above the shoulders)?",
+    "category": "Edit Execution",
+    "subcategory": "Hair Length",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the target woman's hair color now ash blonde (cool-toned blonde)?",
+    "category": "Edit Execution",
+    "subcategory": "Hair Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are the facial features and identity of the target woman preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the target woman's facial expression unchanged?",
+    "category": "Preservation",
+    "subcategory": "Expression",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the black sequin dress texture correctly rendered and continuous in the areas previously covered by her long hair?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is the man in the grey suit standing to the immediate right of the target woman unchanged?",
+    "category": "Preservation",
+    "subcategory": "Immediate Context",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Are the background elements (stage lights, curtains, and 'Season's Greetings' banner) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Are the hairstyles and appearances of all other people in the photo unchanged?",
+    "category": "Preservation",
+    "subcategory": "Other Subjects",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the new hairstyle interact naturally with the complex colored stage lighting?",
+    "category": "General Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the new hair texture realistic and detailed, avoiding a plastic or painted look?",
+    "category": "General Quality",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the edited area free from artifacts, blurring, or unnatural edge boundaries?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

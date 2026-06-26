@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the gown colored deep emerald green?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the gown retain a visible sequin texture with individual sparkle points, avoiding a flat or uniform color fill?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.9
+  },
+  {
+    "id": 3,
+    "question": "Are the highlight directions and light reflections on the gown consistent with the original scene lighting?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 9.23
+  },
+  {
+    "id": 4,
+    "question": "Do the motion-blurred areas of the gown show smooth color transitions without pixelation, banding, or abrupt edges?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.6
+  },
+  {
+    "id": 5,
+    "question": "Are the shoes colored ivory white?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.8
+  },
+  {
+    "id": 6,
+    "question": "Do the shoes exhibit a soft satin finish with diffuse reflections, replacing the sharp glossy reflections of the original patent leather?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 9.27
+  },
+  {
+    "id": 7,
+    "question": "Is the model's identity (face, hair, and skin tone) preserved and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.03
+  },
+  {
+    "id": 8,
+    "question": "Are the structural details of the clothing (gown silhouette, strap style, shoe shape) preserved?",
+    "category": "Preservation",
+    "subcategory": "Object Shape",
+    "expected_answer": "Yes",
+    "score": 8.93
+  },
+  {
+    "id": 9,
+    "question": "Are the background elements, including the audience silhouettes and lit text signs, unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.47
+  },
+  {
+    "id": 10,
+    "question": "Is the white runway floor free from unwanted green or ivory color bleeding?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.27
+  },
+  {
+    "id": 11,
+    "question": "Are the edges of the gown and shoes clean, avoiding masking halos or jagged cutouts against the background?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.4
+  }
+]

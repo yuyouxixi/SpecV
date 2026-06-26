@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the woman on the far left have a dusty mauve lip color?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the lip finish on the woman on the far left appear natural or matte, avoiding high-gloss shine?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Does the woman on the far left have very understated, natural-looking eye makeup?",
+    "category": "Edit Execution",
+    "subcategory": "Makeup",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the complexion of the woman on the far left appear subtly evened while retaining natural skin texture?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Does the overall makeup on the woman on the far left reflect a 'no-makeup makeup' style (subtle and not heavy)?",
+    "category": "Edit Execution",
+    "subcategory": "Style",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the identity of the woman on the far left preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is the curly hair texture of the woman on the far left preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the green bomber jacket worn by the woman on the far left unchanged?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Is the natural skin undertone of the woman on the far left preserved (not significantly shifted)?",
+    "category": "Preservation",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the woman in the center free from any added makeup or facial alterations?",
+    "category": "Preservation",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Does the woman on the far right retain her original bold makeup (dark lipstick and defined eyes)?",
+    "category": "Preservation",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are the background elements (cherry blossoms, trees) and lighting effects (sun flare) preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the edited face free from unnatural smoothing, blurring, or loss of detail?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from visible editing artifacts (e.g., halos, makeup spillover, pixelation)?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Does the applied makeup blend naturally with the scene's lighting conditions?",
+    "category": "General Quality",
+    "subcategory": "Naturalness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the castle appear to be constructed entirely from LEGO-style bricks?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are characteristic circular studs visible on the surfaces of the bricks or castle structure?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the castle surface exhibit a smooth, plastic-like sheen typical of toy bricks?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are the castle walls composed of regular, geometric brick patterns with visible seams?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the original rough stone texture of the castle completely replaced by the LEGO texture?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Do architectural details like battlements and tower edges appear as assembled LEGO pieces?",
+    "category": "Edit Execution",
+    "subcategory": "Structure",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is the overall architectural silhouette of the castle (towers, keep, and walls) preserved?",
+    "category": "Preservation",
+    "subcategory": "Structure",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are key structural elements, such as the central keep, twin gatehouse towers, and conical roofs, still identifiable?",
+    "category": "Preservation",
+    "subcategory": "Structure",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Do the LEGO bricks follow the structural perspective and depth of the original castle geometry?",
+    "category": "General Quality",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the lighting on the LEGO surfaces (shadows and highlights) consistent with the scene's lighting direction?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from unnatural distortions, warping, or 'melting' artifacts in the brick structure?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the edges of the castle clean and well-defined, without visible halos or cutout artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the image sharp enough to clearly resolve individual brick details and studs?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the man wearing a black tailored blazer?",
+    "category": "Edit Execution",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is a crisp white dress shirt visible underneath the blazer?",
+    "category": "Edit Execution",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the original grey hoodie completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Is the man wearing charcoal or dark grey trousers?",
+    "category": "Edit Execution",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Do the trousers have a smooth wool or suiting fabric texture rather than denim?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Are the original blue jeans completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Are the man's facial features, beard, and hairstyle preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the man's leaning pose and arm position on the railing unchanged?",
+    "category": "Preservation",
+    "subcategory": "Pose",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the brown backpack still visible and correctly positioned on his back?",
+    "category": "Preservation",
+    "subcategory": "Object",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Do the backpack straps sit naturally over the new blazer without clipping or floating?",
+    "category": "General Quality",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the city skyscrapers and night sky in the background preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the pedestrian walkway structure and metal railing preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are the traffic light trails and other pedestrians in the background preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the lighting on the new clothing match the mixed artificial night lighting of the scene?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Does the new clothing fit naturally without anatomical distortions or impossible folds?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 16,
+    "question": "Is the image free of visible editing artifacts (halos, jagged edges, blurring) at the clothing boundaries?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

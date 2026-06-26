@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the liquid inside the glass dark brown or caramel-colored typical of cola?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the original ruby red color of the wine completely absent from the liquid?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are there distinct ice cubes visible within the liquid?",
+    "category": "Edit Execution",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are there visible bubbles in the liquid indicating carbonation?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Do the ice cubes appear translucent and realistic with proper light refraction?",
+    "category": "Edit Execution",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Does the liquid display realistic transparency and color gradation (e.g., lighter near the edges)?",
+    "category": "Edit Execution",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Is the shape, outline, and stem of the wine glass preserved?",
+    "category": "Preservation",
+    "subcategory": "Object Shape",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the fill level of the liquid approximately the same as in the original image?",
+    "category": "Preservation",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Is the hand holding the glass (including skin texture and position) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the lighting on the cola and ice match the warm ambient lighting of the scene?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the boundary between the liquid and the glass defined naturally without jagged edges or smudging?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the edited liquid region sharp and free from blurriness or loss of resolution?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

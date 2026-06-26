@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the SUV located at the fourth position from the left (between the red car and the blue truck) uniformly changed to an olive drab green color?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the modified SUV exhibit a matte finish consistent with a military vehicle, rather than a glossy automotive paint?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the other white SUV (second vehicle from the left) preserved as white and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Distractor Object",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are the surrounding vehicles (black sedan, red car, and blue truck) unchanged in color and appearance?",
+    "category": "Preservation",
+    "subcategory": "Context Objects",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Are the modified SUV's windows, headlights, and wheels preserved in their original materials without being painted green?",
+    "category": "Preservation",
+    "subcategory": "Object Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Are the grille, trim elements, and door handles of the modified SUV distinct and not flattened by the paint change?",
+    "category": "Preservation",
+    "subcategory": "Object Details",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the modified SUV retain its original body structure and proportions without deformation?",
+    "category": "Preservation",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the reflection of the modified SUV on the wet floor match the new green body color (if visible)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the shading and lighting on the new matte surface look realistic given the garage's fluorescent light sources?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from unnatural artifacts like color bleeding onto the floor/adjacent cars, blurring, or jagged edges?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Do the woman's legs appear visibly elongated compared to the original image?",
+    "category": "Edit Execution",
+    "subcategory": "Body Shape",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Do the woman's calves appear visibly slimmer and less bulky than in the original image?",
+    "category": "Edit Execution",
+    "subcategory": "Body Shape",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Do the woman's ankles appear thinner compared to the original image?",
+    "category": "Edit Execution",
+    "subcategory": "Body Shape",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Do the Doc Martens boots retain their original size and structural integrity without appearing vertically stretched?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are the black leather jacket and denim skirt preserved in texture, color, and style?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Are the woman's face, hair, and identity preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Is the metal balcony railing straight and free from warping, particularly near the modified legs?",
+    "category": "Preservation",
+    "subcategory": "Background Geometry",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the anatomical transition between the slimmer calves and the boot openings realistic?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Do both legs show consistent slimming and elongation without obvious mismatches in proportion?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the hemline of the denim skirt free from warping or jagged distortion where it meets the legs?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from visible artifacts like blurring, smearing, or unnatural seams around the modified leg area?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the lighting and shading on the modified legs consistent with the original night scene?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Do the boots still appear to make natural contact with the ground without floating or sinking?",
+    "category": "General Quality",
+    "subcategory": "Physics",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

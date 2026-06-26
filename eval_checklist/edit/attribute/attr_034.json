@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the edit applied specifically to the foremost Tibetan woman (closest to the camera)?",
+    "category": "Edit Execution",
+    "subcategory": "Subject Identification",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the foremost woman's inner robe (sleeves and top) colored sapphire blue?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the robe completely free of the original red color?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Has the foremost woman's waist apron (bangdian) been replaced with a striped pattern?",
+    "category": "Edit Execution",
+    "subcategory": "Pattern",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Does the new apron pattern include visible purple stripes?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Does the new apron pattern include visible green stripes?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Does the new apron pattern include visible red stripes?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the foremost woman's black outer vest/chuba preserved in its original black color?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the foremost woman's face and braided hairstyle unchanged?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the prayer wheel held by the foremost woman unchanged in shape and appearance?",
+    "category": "Preservation",
+    "subcategory": "Object",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are the clothing colors of the other women in the scene unchanged?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Does the newly colored robe maintain realistic fabric folds and shading?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Is the edited image free from color bleeding (e.g., blue spilling onto the black vest or background)?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the lighting on the edited areas consistent with the global scene lighting?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

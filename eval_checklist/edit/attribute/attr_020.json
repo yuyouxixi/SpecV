@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Do the roofs of the buildings now appear to have a golden or copper metallic color?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the roof surface exhibit a metallic, reflective finish with specular highlights characteristic of gilded copper?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Has the roof texture changed from matte slate tiles to a smoother appearance or standing-seam metal panels?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Are ornate decorative details, such as ridge caps or cresting, visible on the roofs to enhance the majestic appearance?",
+    "category": "Edit Execution",
+    "subcategory": "Style",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Have the roofs of all visible buildings in the complex been consistently updated to the new gilded copper material?",
+    "category": "Edit Execution",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Do the reflections in the pond accurately mirror the new golden/copper color of the roofs?",
+    "category": "Edit Execution",
+    "subcategory": "Physics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the stone masonry walls of the manor preserved in their original gray/beige color and texture?",
+    "category": "Preservation",
+    "subcategory": "Main Subject",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Are architectural details such as windows, chimneys, and climbing ivy preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Structure",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the original geometry and perspective of the roof structures (gables, dormers, pitch) preserved?",
+    "category": "Preservation",
+    "subcategory": "Structure",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the stone bridge in the foreground preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Foreground",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Are the surrounding landscape elements, including green hills, trees, and grass lawns, preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the boundary between the new roofline and the sky clean, free from halos or jagged artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Is the lighting on the new gilded roofs consistent with the soft, overcast natural light of the scene?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Does the new roofing appear visually integrated with the existing stone architecture without looking 'pasted on'?",
+    "category": "General Quality",
+    "subcategory": "Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from unnatural blurriness or resolution degradation in the edited areas?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

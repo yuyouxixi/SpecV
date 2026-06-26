@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Is the front-left girl's hair transformed into a silver-blue gradient?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the roots of the front-left girl's hair visibly darker (charcoal gray) compared to the tips?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.53
+  },
+  {
+    "id": 3,
+    "question": "Do the tips of the front-left girl's hair fade to a silver-blue color?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.53
+  },
+  {
+    "id": 4,
+    "question": "Does the front-left girl's hair retain realistic individual strand textures rather than appearing as a flat block of color?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the front-left girl have visible glitter or shimmer eyeshadow primarily on her upper eyelids?",
+    "category": "Edit Execution",
+    "subcategory": "Makeup",
+    "expected_answer": "Yes",
+    "score": 9.57
+  },
+  {
+    "id": 6,
+    "question": "Are fine shimmer particles visible in the eyeshadow rather than just a matte color?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the eyelashes of the front-left girl visibly enhanced and more prominent than in the original image?",
+    "category": "Edit Execution",
+    "subcategory": "Makeup",
+    "expected_answer": "Yes",
+    "score": 9.13
+  },
+  {
+    "id": 8,
+    "question": "Is the hair color of the girl wearing the black bandana (center) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.37
+  },
+  {
+    "id": 9,
+    "question": "Is the hair color of the girl with facial gems (third from left) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.37
+  },
+  {
+    "id": 10,
+    "question": "Is the hair color of the girl in the patterned shirt (far right) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.37
+  },
+  {
+    "id": 11,
+    "question": "Is the makeup of the other three friends preserved without added glitter or lash enhancements?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.4
+  },
+  {
+    "id": 12,
+    "question": "Are the skin tones of all friends (including the target) preserved without unnatural shifts in hue?",
+    "category": "Preservation",
+    "subcategory": "Skin Tone",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the front-left girl's facial identity (features and face shape) preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.1
+  },
+  {
+    "id": 14,
+    "question": "Is the front-left girl's clothing (beige/tan top) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.03
+  },
+  {
+    "id": 15,
+    "question": "Are the 'MAIN STAGE' and 'LIVE' signs in the background preserved exactly as they appear in the original?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.57
+  },
+  {
+    "id": 16,
+    "question": "Are the crowd and stage lighting colors in the background preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.97
+  },
+  {
+    "id": 17,
+    "question": "Is the hair gradient transition smooth and natural, avoiding harsh color banding?",
+    "category": "General Quality",
+    "subcategory": "Naturalness",
+    "expected_answer": "Yes",
+    "score": 8.43
+  },
+  {
+    "id": 18,
+    "question": "Is the glitter eyeshadow applied precisely to the eyelids without bleeding onto the cheeks, nose, or adjacent faces?",
+    "category": "General Quality",
+    "subcategory": "Precision",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 19,
+    "question": "Is the image free from unnatural artifacts (e.g., halos, blur, or distortions) around the edited hair?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.53
+  },
+  {
+    "id": 20,
+    "question": "Is the overall image resolution and clarity maintained in the edited regions?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

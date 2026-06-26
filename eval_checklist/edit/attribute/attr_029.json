@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Do the exterior walls of the buildings now appear to be made of grey concrete instead of red brick?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the original individual brick and mortar pattern completely removed from the wall surfaces?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Do the walls feature visual characteristics of board-formed concrete, specifically visible formwork seams?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Style",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Are visible tie-hole patterns present on the concrete walls, characteristic of the Tadao Ando style?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Have the walls on both the left and right sides of the alley been converted to concrete?",
+    "category": "Edit Execution",
+    "subcategory": "Scope",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the wall areas visible behind or between the hanging laundry correctly converted to concrete?",
+    "category": "Edit Execution",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the elderly man (including his face, clothing, and pose) preserved without unintended changes?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the wooden chair the man is sitting on preserved without merging into the wall or changing material?",
+    "category": "Preservation",
+    "subcategory": "Object",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Is the bicycle leaning against the wall preserved and free of concrete texture?",
+    "category": "Preservation",
+    "subcategory": "Object",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Are the hanging clothes preserved without grey color bleeding or concrete texture overlays?",
+    "category": "Preservation",
+    "subcategory": "Object",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the wet cobblestone street texture preserved (not turned into concrete)?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the window frames, glass panes, and doors preserved in their original shape and material?",
+    "category": "Preservation",
+    "subcategory": "Structure",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Are the architectural fixtures (drainpipes and street lamps) preserved in their original color and shape?",
+    "category": "Preservation",
+    "subcategory": "Object",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the image free of jagged edges or artifacts where the laundry and man overlap the walls?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

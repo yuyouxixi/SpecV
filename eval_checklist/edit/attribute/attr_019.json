@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the subject have rich bronze-toned eyeshadow applied to the eyelids?",
+    "category": "Edit Execution",
+    "subcategory": "Makeup",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the eyeshadow blended into a smooth smoky gradient effect?",
+    "category": "Edit Execution",
+    "subcategory": "Makeup",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is sharp winged cat-eye eyeliner visible on the subject's eyes?",
+    "category": "Edit Execution",
+    "subcategory": "Makeup",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are dramatic, voluminous false lashes visible on the upper lash line?",
+    "category": "Edit Execution",
+    "subcategory": "Makeup",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the lips colored a bold true-red shade?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Do the lips feature a velvet matte finish rather than a glossy texture?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the makeup applied symmetrically and with clean, defined edges (e.g., crisp eyeliner wings, no lipstick bleeding)?",
+    "category": "Edit Execution",
+    "subcategory": "Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the subject's facial structure and identity preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the messy bun hairstyle and hair color maintained exactly as in the original image?",
+    "category": "Preservation",
+    "subcategory": "Hair",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the grey oversized t-shirt preserved without changes to color or fabric?",
+    "category": "Preservation",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the phone and the hand holding it preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Object",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Does the skin texture appear natural, avoiding an overly plastic or airbrushed look?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the applied makeup blend realistically with the existing lighting and shading of the face?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from obvious artifacts, halos, or jagged edges around the edited areas?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

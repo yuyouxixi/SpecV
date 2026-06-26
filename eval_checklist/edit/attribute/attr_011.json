@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the sofa upholstery now appear to be a matte linen material with a natural woven texture, replacing the original velvet finish?",
+    "category": "Edit Execution",
+    "subcategory": "Material Transfer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the original teal color of the sofa preserved without shifting towards other hues?",
+    "category": "Preservation",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are the original wrinkles, creases, and seat cushion indentations on the sofa preserved exactly in their original positions and shapes?",
+    "category": "Preservation",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Do the light reflections and shadows on the sofa appear natural for linen (diffuse and matte) rather than retaining the high-contrast specular sheen of velvet?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Physics",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Do the two solid-colored pillows on the right display a subtle herringbone weave pattern?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Addition",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the herringbone pattern on the right pillows visually distinct from the linen texture of the sofa?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Are the pillows on the left side of the sofa completely free of any added herringbone pattern or texture changes?",
+    "category": "Preservation",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the dog sleeping on the floor completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Object",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the patterned rug on the floor completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Object",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Are the bookshelves, books, and houseplants in the background completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Scene",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the wooden coffee table and the items on top of it completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Object",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Are the windows and the exterior view through them completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Scene",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the image free of visual artifacts, such as unnatural blurring, tiling seams, or distorted edges around the sofa?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the overall lighting and color balance of the room consistent with the original image, showing no global re-rendering drift?",
+    "category": "General Quality",
+    "subcategory": "Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

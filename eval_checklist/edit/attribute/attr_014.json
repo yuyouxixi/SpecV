@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the bar countertop material changed to white marble?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the new countertop surface display gray veining patterns?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the countertop surface appear to have a polished, glossy finish?",
+    "category": "Edit Execution",
+    "subcategory": "Style",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the marble veining pattern natural and non-repetitive (avoiding tiling artifacts)?",
+    "category": "Edit Execution",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the marble texture follow the correct perspective and depth of the counter?",
+    "category": "Edit Execution",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Are reflections of the overhead lights visible on the new glossy countertop surface?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Do objects resting on the counter (e.g., espresso machine, pastry domes) cast realistic shadows onto the new surface?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the boundary between the man's arm and the countertop sharp and free of blending artifacts?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the original shape and edge geometry of the countertop preserved?",
+    "category": "Preservation",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Are the wooden wall panels and wine rack in the background preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Are the brass pendant lamps preserved in appearance and position?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Are the espresso machines and coffee equipment on the counter preserved?",
+    "category": "Preservation",
+    "subcategory": "Objects",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are the glass pastry domes and their contents preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Objects",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are smaller items on the counter (e.g., cups, newspaper) preserved?",
+    "category": "Preservation",
+    "subcategory": "Objects",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the edited area free of blurriness or resolution loss compared to the rest of the image?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is the edit confined to the countertop without color bleeding or texture spilling onto adjacent objects?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

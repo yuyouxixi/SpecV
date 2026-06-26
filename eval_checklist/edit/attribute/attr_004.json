@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the dress feature a clearly visible intricate botanical pattern?",
+    "category": "Edit Execution",
+    "subcategory": "Pattern Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the pattern clearly in a William Morris style (ornamental, repeating botanical motifs)?",
+    "category": "Edit Execution",
+    "subcategory": "Style",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Are the primary colors of the pattern deep navy and ivory?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the pattern applied comprehensively to the dress, including the bodice, sleeves, and skirt?",
+    "category": "Edit Execution",
+    "subcategory": "Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the pattern warp and curve naturally along the fabric's folds and creases?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Mapping",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Is the pattern scale and perspective consistent across the entire dress?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Mapping",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Does the pattern respect the original lighting, showing shadows and highlights consistent with the fabric?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the woman's face and identity completely preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the woman's hairstyle and hair color preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the woman's pose and body proportions preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the original shape and cut of the dress (V-neck, long sleeves, floor length) maintained?",
+    "category": "Preservation",
+    "subcategory": "Clothing Shape",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Is the fabric's original drape and flow preserved (not looking stiff or flattened)?",
+    "category": "Preservation",
+    "subcategory": "Clothing Shape",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Are the garden elements (wisteria, roses, foliage) preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the pattern confined strictly to the dress, avoiding bleed onto skin, hair, or background?",
+    "category": "Preservation",
+    "subcategory": "Masking Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from visible artifacts like seams, misalignments, or unnatural blurring at edges?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 16,
+    "question": "Is the overall image sharpness and resolution maintained?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the jacket changed to a charcoal gray wool overcoat?",
+    "category": "Edit Execution",
+    "subcategory": "Material & Color",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the jacket surface appear matte with a visible nubby wool grain texture, replacing the glossy patent leather shine?",
+    "category": "Edit Execution",
+    "subcategory": "Texture & Finish",
+    "expected_answer": "Yes",
+    "score": 9.6
+  },
+  {
+    "id": 3,
+    "question": "Are the visible acne marks on the cheek significantly faded or reduced?",
+    "category": "Edit Execution",
+    "subcategory": "Skin Retouching",
+    "expected_answer": "Yes",
+    "score": 9.43
+  },
+  {
+    "id": 4,
+    "question": "Is the lip color changed to a warm coral shade?",
+    "category": "Edit Execution",
+    "subcategory": "Makeup",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the new coat retain the original jacket's length and overall silhouette?",
+    "category": "Preservation",
+    "subcategory": "Clothing Structure",
+    "expected_answer": "Yes",
+    "score": 9.1
+  },
+  {
+    "id": 6,
+    "question": "Are the original zipper placement and collar structure preserved in the new garment?",
+    "category": "Preservation",
+    "subcategory": "Clothing Details",
+    "expected_answer": "Yes",
+    "score": 9.43
+  },
+  {
+    "id": 7,
+    "question": "Is natural skin texture (pores) visible on the face, avoiding an overly smooth or 'plastic' airbrushed appearance?",
+    "category": "Preservation",
+    "subcategory": "Skin Texture",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Are the smudges, dirt marks, and streaks on the mirror surface preserved exactly as in the original?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 8.6
+  },
+  {
+    "id": 9,
+    "question": "Are the elevator background elements (walls, ceiling lights) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Context",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the smartphone (position, shape, and camera lenses) preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the hand holding the phone preserved with correct anatomy and no color bleed?",
+    "category": "Preservation",
+    "subcategory": "Body Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Are the facial identity and hairstyle preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Does the lighting interaction on the new wool jacket appear realistic (matte shading vs previous glossy reflections)?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.27
+  },
+  {
+    "id": 14,
+    "question": "Are the edges of the new jacket clean and seamless where they meet the phone, hand, and neck?",
+    "category": "General Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Are the zipper teeth and structural lines coherent (not melted or distorted)?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

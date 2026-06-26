@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the red team player now performing a dribbling action (specifically a crossover) instead of a shooting action?",
+    "category": "Edit Execution",
+    "subcategory": "Action",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the red team player in a low, crouched stance with a wide base or lateral posture typical of a crossover move?",
+    "category": "Edit Execution",
+    "subcategory": "Pose",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the basketball positioned low (near the player's hands, waist, or knees) rather than high in the air?",
+    "category": "Edit Execution",
+    "subcategory": "Object Position",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are the red team player's feet planted on the court floor rather than being in mid-air?",
+    "category": "Edit Execution",
+    "subcategory": "Physics",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the red team player still wearing the red jersey with the text 'STATE' and number '23'?",
+    "category": "Preservation",
+    "subcategory": "Target Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the defending player still wearing the blue jersey with the text 'TECH' and number '11'?",
+    "category": "Preservation",
+    "subcategory": "Other Subjects",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the scoreboard in the background still clearly read 'STATE 78 - TECH 76' with the time '0:04'?",
+    "category": "Preservation",
+    "subcategory": "Background Text",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Are the background elements (crowd, basketball hoop, and arena lights) preserved without significant distortion?",
+    "category": "Preservation",
+    "subcategory": "Scene Layout",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Is the red player's anatomy correct in the new pose (proper limb proportions, no extra joints or missing limbs)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Are the player's hands and the basketball rendered coherently with natural interaction (no fused fingers or distorted ball shape)?",
+    "category": "General Quality",
+    "subcategory": "Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the edited area free from unnatural blurring, pixelation, or visible cut-out artifacts?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

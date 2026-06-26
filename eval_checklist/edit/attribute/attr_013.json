@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the shoe upper material changed from breathable mesh to short-nap suede?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the new suede texture exhibit a visible directional pile or brush-stroke effect?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are the shoelaces changed from fluorescent green to a slightly yellowed off-white color?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is the original grey color tone of the shoe upper generally preserved?",
+    "category": "Preservation",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Are all original stitching lines preserved in their correct positions and clearly defined?",
+    "category": "Preservation",
+    "subcategory": "Structural Details",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Is the embossed 'STRIDE' logo text preserved, remaining sharp and legible?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Are the perforation positions on the shoe upper preserved without being filled or blurred?",
+    "category": "Preservation",
+    "subcategory": "Structural Details",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the threading pattern and spatial arrangement of the laces unchanged?",
+    "category": "Preservation",
+    "subcategory": "Structure",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Is the sole of the shoe unchanged in color and texture?",
+    "category": "Preservation",
+    "subcategory": "Structure",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the overall shape and silhouette of the shoe identical to the original image?",
+    "category": "Preservation",
+    "subcategory": "Shape",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the blurred track background (including lane lines and surface color) completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 12,
+    "question": "Is the original shallow depth of field (sharp shoe, blurred background) correctly maintained?",
+    "category": "Preservation",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from unnatural artifacts, such as color bleeding from the laces or patchy textures?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Is the lighting and shading on the new suede material consistent with the original scene?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

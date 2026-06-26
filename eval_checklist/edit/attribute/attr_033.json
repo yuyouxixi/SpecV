@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Have the brown corrugated cardboard boxes on the conveyor belt been changed to a semi-transparent frosted acrylic material?",
+    "category": "Edit Execution",
+    "subcategory": "Material",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are faint silhouettes of items visible inside the modified boxes, consistent with the semi-transparent instruction?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Detail",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the original brown corrugated cardboard texture completely replaced by a smooth, frosted appearance (white, grey, or clear)?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Do the modified boxes exhibit realistic specular highlights and light scattering consistent with acrylic material under overhead lighting?",
+    "category": "Edit Execution",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is the material change applied consistently to all cardboard boxes on the conveyor belt, including those in the background and on different levels?",
+    "category": "Edit Execution",
+    "subcategory": "Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Do the white poly mailer bags and other non-cardboard packages on the conveyor belt remain opaque and unchanged in material?",
+    "category": "Preservation",
+    "subcategory": "Objects",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the cardboard scraps and debris on the floor preserved as original opaque cardboard (not changed to acrylic)?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Are the workers' safety vests, clothing, and physical appearance preserved without color shifts or distortion?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Is the metal structure of the conveyor belt system (rollers, frames) preserved without taking on the acrylic texture?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are background elements such as the 'BLACK FRIDAY RUSH' banner, ceiling lights, and floor markings unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Do the modified boxes retain their original rectangular shapes and rigid edges without looking melted or crumpled?",
+    "category": "Preservation",
+    "subcategory": "Structure",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the image free of significant artifacts such as floating silhouettes, jagged edges, or global blurring?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

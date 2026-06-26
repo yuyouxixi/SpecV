@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the bride wearing a traditional Indian lehenga, characterized by a separate skirt and blouse (choli)?",
+    "category": "Edit Execution",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is a dupatta (draped scarf/veil) visible as part of the bride's ensemble?",
+    "category": "Edit Execution",
+    "subcategory": "Clothing",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 3,
+    "question": "Is the bride's outfit primarily deep crimson red?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is heavy gold zari-style embroidery visible on the outfit?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is intricate beadwork visible on the fabric?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the original white lace gown and train completely replaced (no remaining white dress parts)?",
+    "category": "Edit Execution",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the bride's facial identity preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the bride's blonde hair color and updo hairstyle preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the bride's pose and body proportion preserved?",
+    "category": "Preservation",
+    "subcategory": "Pose",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the bouquet of white flowers in the bride's hands preserved?",
+    "category": "Preservation",
+    "subcategory": "Object",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the groom's appearance (face and black tuxedo) preserved?",
+    "category": "Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the priest in the white robe preserved in the background?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Are the guests and wooden pews in the background preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Are the stained glass window and stone walls in the background preserved?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from unnatural artifacts, distortions, or warping around the new outfit?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the lighting on the crimson fabric consistent with the ambient church lighting?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is the image free from red color bleeding onto the groom or background?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 18,
+    "question": "Are the bride's hands and fingers rendered naturally without deformation?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Does the gold embroidery appear to have a realistic metallic sheen rather than a flat yellow color?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

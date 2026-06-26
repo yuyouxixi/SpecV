@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Do the egg yolks exhibit a semi-fluid, jammy consistency with a gooey, flowing center?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Do the yolks appear freshly sliced with realistic translucence, rather than looking solid or hard-boiled?",
+    "category": "Edit Execution",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Do the nori sheets display a crispier appearance with pronounced surface texture and irregularities?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are visible micro-pores or fine porous details present on the surface of the nori sheets?",
+    "category": "Edit Execution",
+    "subcategory": "Texture",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the color of the nori sheets maintained as a natural dark tone, avoiding unnatural vivid green hues?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the position and orientation of the egg halves identical to the original image?",
+    "category": "Preservation",
+    "subcategory": "Position",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the outer shape of the egg whites preserved, maintaining the original halved oval silhouette without distortion?",
+    "category": "Preservation",
+    "subcategory": "Shape",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the steam rising from the bowl completely preserved in shape, density, and visibility?",
+    "category": "Preservation",
+    "subcategory": "Details",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Are the oil highlights and specular reflections on the broth surface preserved without smearing or removal?",
+    "category": "Preservation",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the noodles identical in arrangement, color, and thickness to the original image?",
+    "category": "Preservation",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the dark broth color and consistency maintained without lightening or thickening?",
+    "category": "Preservation",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Are the chopsticks, spoon, and ceramic bowl preserved with no changes to their appearance or position?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from unnatural artifacts, halos, or blurring around the modified egg yolks?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from noise, pixelation, or pasted-on texture artifacts on the nori sheets?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Does the lighting on the modified elements (yolks, nori) match the lighting consistency of the rest of the scene?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]
