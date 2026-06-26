@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer exactly 6?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify that the image displays two side-by-side heatmaps (Broadcasting scores and Receiving scores) with country codes on the x-axis and energy types on the y-axis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the three categories on the y-axis: 'Renewable', 'Non Renewable', and 'All'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid counting countries that clearly have colored bars in the 'Non Renewable' row (e.g., USA, CHN, RUS, FRA)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model avoid inventing country codes that are not present on the x-axis of the charts?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model explicitly define the visual criterion used to determine the count (e.g., identifying countries with no 'Non Renewable' data, or countries with no data at all if that aligns with the count)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

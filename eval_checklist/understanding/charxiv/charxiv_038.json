@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer provided by the model '10^1' (or the equivalent numeric value 10)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify and restrict its analysis to the second plot (the right-hand plot with the x-axis label 'p/⟨σ⟩')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly map the line styles to their definitions in the legend: identifying the dotted line as 'μ = 4' and the dashed line as 'μ_∞ = 8'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly recognize that the axes in the second plot use logarithmic scales (e.g., noting tick labels like 10^0, 10^-2, etc.)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model explicitly recognize the value '10^1' as a visible tick label on the x-axis of the second plot?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly interpret the condition 'log y-axis value... is 0.5 times...' as a relationship between the logarithmic values (exponents) of the two lines (e.g., verifying if -4 is 0.5 times -8)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly trace the lines to find that the condition (log y of μ is half of log y of μ_∞) is satisfied at the x-value of 10^1?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Did the model refrain from confusing data or labels from the first (left) plot (e.g., 'σ/⟨σ⟩') with the second (right) plot?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Did the model refrain from fabricating x-axis values or tick labels that are not explicitly written on the chart (e.g., claiming 10^2 is visible)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Did the model provide a single final answer explicitly grounded in the chart's text/labels as requested (e.g., '10^1') rather than an estimation or range?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer provided by the model 50 (or 50 km)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the four values of L shown in the legend: 50 km, 100 km, 150 km, and 200 km?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify that the y-axis represents 'Keyrate' and is plotted on a logarithmic scale (showing powers of 10)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly associate the top-most curve (the one reaching the highest peak) with L = 50 km?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model refrain from hallucinating L values that are not present in the legend (e.g., 75 km or 250 km)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model explicitly analyze the increase in keyrate specifically within the requested x-axis interval of α = 0.0 to 0.4?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly reason that the curve reaching the highest value at α = 0.4 (L=50km) represents the steepest increase, given the curves start from similar low points?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Did the response extract the specific numerical value (50) as requested, rather than just describing the curve (e.g., 'the blue dashed line')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the final answer include all four correct subgroups: 'English-speaking', 'Protestant', 'Confucian', and 'Baltic'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the final answer exclude subgroups that are spread across multiple quadrants (e.g., 'Catholic Europe', 'Orthodox', 'Latin America', 'African_Islamic')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly recognize that the quadrants are defined by the vertical line at Dimension 1 = 0 and the horizontal line at Dimension 2 = 0?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that the 'Confucian' subgroup (Teal points like China, Taiwan) is located entirely in the top-right quadrant (Dimension 1 > 0, Dimension 2 > 0)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify that the 'English-speaking' subgroup (Green points like USA, New Zealand) is located entirely in the bottom-right quadrant (Dimension 1 > 0, Dimension 2 < 0)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly identify that the 'Protestant' subgroup (Blue points like Germany, Sweden) is located entirely in the bottom-right quadrant?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly identify that the 'Baltic' subgroup (Cyan points like Estonia) is located entirely in the top-right quadrant?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly distinguish that the 'Catholic Europe' subgroup is NOT in a single quadrant (e.g., noting Slovenia is top-right while Spain is bottom-right)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly distinguish that the 'Latin America' subgroup is NOT in a single quadrant (e.g., noting Mexico is bottom-left while Argentina is bottom-right)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Did the model avoid inventing subgroup names or countries that are not labeled in the chart or legend?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Does the model's reasoning (if provided) explicitly verify that *every* visible point within a selected subgroup resides in the same quadrant, rather than just the majority?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Did the model correctly apply the quadrant definitions (Quadrant I: x>0, y>0; Quadrant II: x<0, y>0; Quadrant III: x<0, y<0; Quadrant IV: x>0, y<0) during its analysis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Does the final response provide the *names* of the subgroups as requested, rather than just a list of countries?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

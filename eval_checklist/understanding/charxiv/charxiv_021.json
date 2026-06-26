@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer exactly 0.5?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that the 'Theoretical' data is represented by the orange curve based on the legend?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the x-axis label as 'Eigenvalues of kernel random matrix'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid confusing the theoretical curve's peak with the global maximum of the simulated (blue) histogram, which is higher on the y-axis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly interpret the question as asking for an eigenvalue (x-axis value) rather than the probability density (y-axis value)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the response strictly adhere to the constraint of providing a number explicitly written on the chart (the axis tick '0.5') rather than estimating an unwritten value?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

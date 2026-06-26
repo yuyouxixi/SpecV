@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer provided by the model -0.3?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that the 'FE' variable corresponds to the red dashed line in the legend?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly observe that the Y-axis contains specific tick marks, including -0.3?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that the 'FE' curve reaches its lowest vertical position (trough) early in the time sequence (roughly between t=0 and t=200)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly observe that the lowest point of the 'FE' curve aligns vertically with the -0.3 tick mark on the Y-axis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid confusing the 'HW' (blue) line with the 'FE' (red) line?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Does the model avoid citing a value from the X-axis (Time) as the minimum value (e.g., answering 50 or 100 instead of the voltage value)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the model avoid fabricating a precise value that is not explicitly written on the chart (e.g., claiming -0.31 or -0.35 instead of -0.3)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the model demonstrate a logical process of locating the curve's minimum point and projecting it horizontally to the Y-axis to read the value?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

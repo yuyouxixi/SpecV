@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly identify 'B' or 'Panel B' as the one with more fine-grained resolution?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the top row as labeled 'A' and the bottom row as labeled 'B'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the column labels as 'Intensity Image' (left) and 'Segmentation and derived measures' (right)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that Panel A appears more pixelated, blocky, or coarse compared to Panel B?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly observe that Panel B appears smoother, has smaller pixels, or shows finer detail compared to Panel A?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Does the model refrain from stating specific numerical resolution values (e.g., '1080p', '512x512', '50 nm') that are not visible in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly link the visual observation of smaller pixels or smoother texture to the conclusion of 'more fine-grained resolution'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Does the final answer satisfy the grounding constraint by using the text label 'B' found in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer strictly \"Recip_gas\"?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the seven subplot titles: CCGT, Coal, Nuclear, Offshore, Onshore, PV, and Recip_gas?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly transcribe the Y-axis label as \"Total mean generated (MWh)\" and the X-axis label as \"Mean Absolute Error\"?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Does the model identify that the Y-axis values for the \"Recip_gas\" subplot are in the range of approximately 390 to 420?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly observe that the trend line (blue line) in the \"Recip_gas\" subplot is nearly horizontal or flat?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model refrain from hallucinating that the X-axis represents a time-series (e.g., years, dates, or time)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Did the model avoid fabricating energy sources or specific numerical slope values that are not explicitly labeled in the chart?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Does the model's reasoning interpret \"smallest change\" by analyzing the slope of the regression lines or the variation in Y-values across the subplots?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Did the model provide the answer using the full subplot label \"Recip_gas\" exactly as required, without abbreviation?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

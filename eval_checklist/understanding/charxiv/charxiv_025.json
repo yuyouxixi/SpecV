@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer the integer 0?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify from the legend that the 'social' variable corresponds to the green data points?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the Y-axis as 'Correlation Coefficient' and establish the 0.0 line as the threshold for determining positive correlations?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly observe that the green (social) data points for all eight specified demographic factors (female, male, child, elderly, elementary, college, African Americans, Asians) are located below the 0.0 line?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly distinguish the specified demographic factors from other x-axis categories (such as 'price framing' or 'temp = 1.0'), ensuring it did not count the positive correlations found in those non-demographic groups?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model refrain from hallucinating positive values for any of the demographic groups (e.g., incorrectly stating that 'elderly' or 'college' has a correlation > 0)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Did the model explicitly evaluate or reference all eight demographic factors listed in the prompt when determining the count, rather than checking only a subset?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

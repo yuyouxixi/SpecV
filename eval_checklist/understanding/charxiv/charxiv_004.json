@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model provide '3' as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer formatted as an exact integer (e.g., '3' rather than 'three' or '3.0')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model identify the presence of three distinct high-amplitude oscillatory bursts or packets in the signal?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly locate the oscillatory bursts at approximately t=0.5, t=1.3, and t=2.0-2.1?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model reason that 'cycles' refers to the distinct oscillatory packets/events rather than individual high-frequency waves?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model explicitly distinguish the three main bursts from the smaller initial transient (at t=0) or low-amplitude noise between bursts?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

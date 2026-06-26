@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer provided by the model exactly 0.7?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly locate and focus on the subplot labeled 'cB = 0.5' (the bottom-left panel)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the 'JH' test type curves as the dashed lines, distinguishing them from the solid 'T-hat' lines?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly associate ξ = 0.7 (JH) with the blue dashed line (inverted triangles) and ξ = 0.5 (JH) with the green dashed line (diamonds)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly observe that at cA = 2, the Power value (y-axis) for ξ = 0.7 is higher than that for ξ = 0.5?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model estimate the Power value for the ξ = 0.7 (JH) curve at cA = 2 to be approximately 0.4 (e.g., between 0.35 and 0.45)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Did the model avoid extracting data from the incorrect subplots (cB = 0 or cB = 1)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Did the reasoning explicitly compare the Power values of the two relevant ξ options specifically at the x-axis value of 2?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly provide the parameter ξ (0.7) as the final answer, rather than outputting the Power value?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

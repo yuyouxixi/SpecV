@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer provided by the model exactly 0.18?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly extract the numeric values associated with the variable 'c' from the legend (0.10, 0.18, 0.20)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify that for c=0.10 (blue bar), the cost reduction at 'Hub 1' is negative (below 0)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify that for c=0.20 (yellow bar), the cost reduction at 'Hub 3' is negative (below 0)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly observe that for c=0.18 (red/orange bar), the cost reduction values are positive across all four categories (Hub 1, Hub 2, Hub 3, Social Welfare)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly associate the unit 'CHF/kWh' with the variable 'c' (from the legend) rather than confusing it with the percentage unit from the y-axis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the model's reasoning explicitly rule out c=0.10 because it results in a negative value at Hub 1?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Does the model's reasoning explicitly rule out c=0.20 because it results in a negative value at Hub 3?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Did the model refrain from hallucinating numeric values for 'c' that are not present in the legend (e.g., claiming c=0.15 exists)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Did the model evaluate the condition 'all positive' across all four groups (Hub 1, Hub 2, Hub 3, Social Welfare) before concluding?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

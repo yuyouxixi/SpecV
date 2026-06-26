@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer strictly \"Actual\"?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that subplot (a) contains exactly two lines labeled \"Simulated\" and \"Actual\"?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly observe that both lines decrease to approximately 0 by the end of the X-axis (around week 6-7)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify the title of subplot (a) as \"BA (K=$165)\"?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid claiming that vertical bars (histograms) are present in subplot (a), distinguishing it from the right-column subplots?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid referencing axis labels (like \"Im(f_T)\") or data points that belong to other subplots (b through f)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model explicitly compare the difference between the starting and ending values for both lines to determine which decreased the most?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly conclude that because the \"Actual\" line starts higher and both end at a similar level, the \"Actual\" line has the larger overall decrease?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Does the response use the exact specific name \"Actual\" from the legend, rather than a generic description like \"the red line\"?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

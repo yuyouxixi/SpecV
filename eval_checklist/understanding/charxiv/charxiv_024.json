@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer exactly 2?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the 'no control' curve as the black dotted line according to the legend?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly observe that the maximum value of the 'no control' curve in the 'MG 1' chart exceeds 60 kW?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly observe that the maximum value of the 'no control' curve in the 'MG 4' chart exceeds 60 kW?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly observe that the maximum value of the 'no control' curve in the 'MG 2' chart is below 60 kW?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly observe that the maximum value of the 'no control' curve in the 'MG 3' chart is below 60 kW?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Did the model avoid hallucinating that the Y-axis scales for MG 2 and MG 3 extend to 60 or higher (actual max tick is 40)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Did the model avoid confusing the 'no control' curve with the 'open loop' or 'closed loop' curves when determining the maximum values?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Did the model explicitly compare the peak value of the 'no control' curve against the threshold of 60 kW for each of the four subplots?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Did the model evaluate all four charts (MG 1, MG 2, MG 3, and MG 4) individually before concluding the final count?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly identify the subplot as \"(ii)\" and the N value as \"N=500\"?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the final answer avoid listing any incorrect subplot/N pairs (e.g., subplot (i), subplot (iii), or N=200 in subplot (ii))?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly associate the label \"THBM\" with the solid teal/cyan colored bars and \"Mtb\" with the red cross-hatched bars?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify the subplot labels as \"(i)\", \"(ii)\", \"(iii)\" and the x-axis groups as \"N=200\", \"N=500\"?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly interpret the y-axis metric label as \"RMAE\"?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly observe that in subplot (ii) at N=200, the Mtb bar is taller (higher RMAE) than the THBM bar?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly observe that in subplots (i) and (iii), the Mtb bar is taller than the THBM bar for both N=200 and N=500?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the model refrain from hallucinating exact numerical RMAE values (e.g., 0.153) that are not explicitly labeled on the chart?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the model refrain from inventing N values (e.g., N=100) or subplots not present in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the reasoning demonstrate a systematic comparison of the relative heights of the THBM and Mtb bars?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the model's reasoning correctly exclude irrelevant series (SC, QSM, PQSM, LLM, Independent) from the comparison?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the model's reasoning logically eliminate subplots (i) and (iii) as valid answers based on the visual evidence?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the response fully contain both required components: the subplot identifier \"(ii)\" and the N value \"N=500\"?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

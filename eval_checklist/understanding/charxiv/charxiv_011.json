@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer explicitly '2'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the leftmost chart labeled 'DRIVER.AGE' as the relevant plot for analysis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the x-axis categories as Accident Frequencies 0, 1, and 2?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that red/coral colored boxes represent FEMALE and cyan/teal colored boxes represent MALE?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly interpret the 'width of the interquartile range' as the vertical height (length) of the boxes in the box plot?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model visually observe that the difference in box heights between genders is visibly larger at Accident Frequency 2 than at frequencies 0 and 1?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model refrain from hallucinating non-existent accident frequency values (e.g., 3 or 4) on the x-axis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Did the model's reasoning explicitly compare the difference in IQR widths between genders across all three accident frequencies (0, 1, and 2)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly conclude that the discrepancy in IQR widths between genders is largest at Accident Frequency 2 based on the visual comparison?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer strictly \"KG Instance Seg.\", matching the legend label exactly?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly associate the metrics \"Intersection over Union\", \"F1-score\", and \"Sensitivity\" with subplots (a), (b), and (d) respectively?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the x-axis variable for these plots as \"P.S.N.R.\"? (or PSNR)",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify that the \"KG Instance Seg.\" model corresponds to the green curve in the charts?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly observe that at the smallest P.S.N.R. (leftmost point), \"KG Instance Seg.\" has low values compared to \"Neuronal Model\" and \"UNet ResNet34\" in the relevant charts?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly describe that the \"KG Instance Seg.\" curve exhibits the steepest upward slope or most rapid improvement as P.S.N.R. increases?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning correctly distinguish between \"KG Instance Seg.\" and \"Mask RCNN\" (both start low) by explicitly identifying that \"KG Instance Seg.\" improves more rapidly?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the response explicitly address the trends in all three metrics mentioned in the question: Intersection over Union, F1-score, and Sensitivity?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the response provide the full name of the model (\"KG Instance Seg.\") rather than just referring to it by color or a partial name?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

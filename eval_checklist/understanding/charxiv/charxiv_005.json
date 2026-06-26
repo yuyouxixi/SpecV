@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer 'observed values X_t' (or a close variation like 'observed values Xt')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the 'observed values X_t' series as the red dashed line with circle markers?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly observe that the 'observed values X_t' series stays generally positive (ranging approx 0.1 to 0.6) while the other series ('KF predictions', 'sig predictions', 'hidden target Y_t') fluctuate significantly lower, often reaching negative values?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Does the response avoid fabricating data series names, legend entries, or specific numeric extrema that are not present in the chart?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Does the response avoid claiming that any of the other series (e.g., 'KF predictions' or 'hidden target Y_t') maintain higher values than 'observed values X_t' for the majority of the displayed time?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning explicitly compare the vertical positions (y-axis values) of the series across the entire time period to conclude which is highest?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the response follow the instruction to use the full name 'observed values X_t' as shown in the legend, rather than abbreviations (e.g., 'X_t') or visual descriptions?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

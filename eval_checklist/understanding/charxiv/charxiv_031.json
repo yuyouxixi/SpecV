@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer explicitly 'Spot for all dates'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the titles of the three subplots present in the image ('Future prices for 2022-12-16', 'Spot for all dates', and 'Convenience yield for all dates')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the data series present in the legends (specifically 'Cortazar', 'Kalman', and 'Market' for the top plot)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly observe that the 'Spot for all dates' subplot shows the highest degree of overlap (alignment) between the Cortazar and Kalman series compared to the other subplots?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model's reasoning logically compare the visual alignment of the Cortazar and Kalman series across the different subplots to determine the best fit?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Is the final answer provided as the exact, full text of the subplot title found in the chart, without unnecessary abbreviation or paraphrasing?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

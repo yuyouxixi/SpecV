@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer exactly 'Behavioral SIR'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly extract the text labels 'Behavioral Spatial SIR' and 'Behavioral SIR' from the legend?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify that the dashed curve corresponds to the label 'Behavioral SIR'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that the solid curve corresponds to the label 'Behavioral Spatial SIR'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly observe that the 'Behavioral SIR' curve ends significantly earlier on the x-axis (around day 60) compared to the 'Behavioral Spatial SIR' curve (which extends to near day 100)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly interpret 'span over the Days axis' as the horizontal duration (width) of the curve, avoiding confusion with the curve's peak height?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Did the model logically compare the horizontal extents of both curves to conclude that 'Behavioral SIR' has the smaller span?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Did the model provide the full name of the label ('Behavioral SIR') without abbreviation, as required by the prompt?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

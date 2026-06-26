@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer correctly identified as 'voterank_median'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the red dashed horizontal line across the subplots as representing the value 0 (zero)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly locate the data points corresponding to 'Window size' 9 on the x-axis for evaluation?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that the coefficient estimate for 'voterank_median' at window size 9 is positioned extremely close to the zero line (approximately 0)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly recognize that other close candidates, such as 'newman_betweenness_centrality_min' (approx -0.15) or 'clustering_max' (approx -0.18), are visibly farther from the zero line than 'voterank_median' at window size 9?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Does the model reference only subplot titles that are explicitly present in the image (avoiding hallucinations like 'voterank_max' or 'betweenness_centrality_max')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly apply the concept of 'closest to zero' by evaluating the absolute distance from the zero line (considering both positive and negative deviations)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Did the model provide the full, exact name of the subplot ('voterank_median') as requested, rather than an abbreviation or partial name?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

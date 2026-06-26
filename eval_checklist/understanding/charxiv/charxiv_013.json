@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model's final answer explicitly state that the value of k_f decreases?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify panel (a) (top-left) as the relevant subplot for analyzing the variable k_f?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify from the legend that the parameter d=4 corresponds to the cyan (or light blue) data points?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly describe the trend of the cyan data series as trending downwards or decreasing as the x-axis value (t_LH/t_s) increases?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model avoid confusing the d=4 series with other data series, such as the steeply dropping dark blue (d=2) series or the flat/oscillating orange (d=6) series?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model demonstrate a valid reasoning chain by linking the variable k_f to plot (a), the value d=4 to the cyan color, and then analyzing the slope of that specific data series?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Did the response fully address the specific condition d=4 without generalizing to all d values or omitting the specific comparison?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer exactly 3.7?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer formatted as a single number with exactly 1 decimal place (e.g., 3.7)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the 'Breaker status' subplot (bottom right) as the relevant graph for determining when the breakers are turned off?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly interpret that 'turned off' corresponds to the signal dropping from 1 (ON) to 0 (OFF) in the plot?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify from the legend (in the 'Generator Current' plot) that the red curve corresponds to the '2s Delay' condition?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model visually confirm that the red curve in the 'Breaker status' plot transitions to OFF at approximately 3.7s?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model derive the answer by logically adding the 2-second delay to the black curve's shut-off time (1.7s + 2s) or by explicitly reading the value from the x-axis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model avoid contradictory reasoning, such as stating the red curve turns off after 4s while still answering 3.7s?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Did the model avoid claiming that the red curve turns off at the same time as the black curve (1.7s)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Did the model avoid confusing data from the 'Relay trip in HiL test' subplot with the 'Breaker status' subplot?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

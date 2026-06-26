@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer clearly state \"Yes\" to indicate there are more large values (>= 7*10^6) at x=0 than at x=1?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly interpret the color bar, noting the scale multiplier of 10^6 and that values >= 7 correspond to orange/red colors?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the presence of a high-value region (red/dark orange) along the vertical line x=0, specifically near the bottom-left corner?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that the vertical line at x=1 consists predominantly of lower-value colors (yellow, green, cyan, or blue) and lacks significant red/orange regions?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid hallucinating specific labels for the axes (e.g., \"Time\", \"Temperature\") or variable names that are not present in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model explicitly compare the vertical slices at x=0 and x=1 to evaluate the distribution of large values to justify the conclusion?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the model explicitly reference the specific threshold value (7*10^6) mentioned in the prompt during its analysis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

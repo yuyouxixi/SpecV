@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer correctly identify the Beam series with N = 1 as the one that completes its line path first?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly associate the legend entry 'Beam, N = 1' with the blue line containing open circle markers?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly observe that the Beam N = 1 series is located at approximately Z = 5.0 (appearing as a vertical line) and does not extend to higher Z values?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly note that other Beam series (N = 2 through N = 5) extend to Z values significantly greater than 5.0?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly distinguish the 'Brick' series (dashed black line) from the 'Beam' series, ensuring it is not treated as a candidate for the answer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid hallucinating that the N = 1 line extends to the right side of the graph (e.g., Z > 5.4)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly reason that because the N = 1 line remains at the lowest Z value (Z=5) while others extend further, it is the one that completes its path 'first' regarding Z increase?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

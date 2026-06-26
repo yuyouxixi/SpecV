@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Does the final answer provided by the model match the integer 4?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify that the image contains a 4x4 grid arrangement of 16 subplots?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the y-axis label as 'y position (m)' or recognize that the vertical axis represents position in meters?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly observe that the subplots in the top row are the ones located at or above the y-value of 600 m?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly observe that the subplots in the lower three rows (centered around y=450, 300, and 150) do not reach the 600 m threshold?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 6,
+    "question": "Did the model explicitly apply the threshold condition 'reach or surpass 600 m' to the maximum y-values of the paths?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model demonstrate a consistent counting procedure (counting subplots rather than individual paths or colors) to avoid double-counting?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Did the response provide a single exact integer as requested, without ambiguity?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]
