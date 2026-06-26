@@ -1,6 +1,20 @@
-# SpecV
+<div align="center">
 
-**SpecV: Specification Verification for Robust Unified Multimodal Evaluation** (ECCV 2026)
+# SpecV: Specification Verification for Robust Unified Multimodal Evaluation （ECCV 2026）
+
+</div>
+
+<p align="center">
+  Weihao Yu<sup>1,†</sup>, Rongyao Fang<sup>2</sup>, Yuxuan Cai<sup>2</sup>, Linjiang Huang<sup>3</sup>, Yuhuan Yang<sup>2</sup>, Xianwei Zhuang<sup>2</sup>, Junyang Lin<sup>2</sup>, Yixuan Yuan<sup>1</sup>, Shuai Bai<sup>2</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup>The Chinese University of Hong Kong &nbsp;&middot;&nbsp; <sup>2</sup>Qwen Team, Alibaba Inc. &nbsp;&middot;&nbsp; <sup>3</sup>Beihang University
+</p>
+
+<p align="center">
+  <sup>†</sup>Work done during internship at Qwen Team
+</p>
 
 SpecV is a benchmark for **unified multimodal models (UMMs)** that evaluates visual understanding,
 image generation, editing, and interleaved image–text generation across **6 tracks** with the
