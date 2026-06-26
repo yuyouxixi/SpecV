@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "question": "Does the 'Tomatoes' price tag on the top shelf now read '$2.99'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the 'Bell peppers' price tag on the top shelf now read '$3.29'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the 'Zucchini' price tag on the top shelf now read '$1.99'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the 'Onions' price tag on the top shelf now read '$1.19'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the 'Cabbage' price tag on the middle shelf now read '$0.89'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the 'Spinach' price tag on the middle shelf now read '$3.99'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does the 'Scallions' price tag on the middle shelf now read '$1.79'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Does the 'Asparagus' price tag on the middle shelf now read '$4.59'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does the 'Carrots' price tag on the bottom shelf now read '$1.89'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Does the 'Parsnips' price tag on the bottom shelf now read '$2.79'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Does the 'Sweet Potatoes' price tag on the bottom shelf now read '$1.59'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the 'Butternut Squash' price tag on the bottom shelf now read '$1.69'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Does the 'Pumpkins' price tag on the bottom shelf now read '$0.99'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "In the promotional area, does the Organic Cauliflower 'Was' price now read '$5.99'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "In the promotional area, does the Organic Cauliflower 'Now' price now read '$3.99'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "In the promotional area, does the Organic Broccoli 'Now' price now read '$3.49'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "Does the 'Cucumbers' price tag correctly remain '$1.47'?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Does the 'Potatoes' price tag correctly remain '$1.45'?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Does the 'Romaine lettuce' price tag correctly remain '$2.49'?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 20,
+    "question": "Does the 'Celery' price tag correctly remain '$1.79'?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 21,
+    "question": "Does the 'Radishes' price tag correctly remain '$1.25'?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 22,
+    "question": "In the promotional area, does the Organic Broccoli 'Was' price correctly remain '$5.49'?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 23,
+    "question": "Do the modified price numbers match the original font style, weight, and size?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 24,
+    "question": "Are the modified price digits aligned correctly with the rest of the text on the tags?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Are all price tags (edited and unedited) clearly legible without blurring?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 26,
+    "question": "Are the product names on the tags (e.g., 'Tomatoes', 'Spinach') spelled correctly and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 27,
+    "question": "Is the large 'FRESH PRODUCE' sign at the top unchanged?",
+    "category": "Preservation",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 28,
+    "question": "Are the produce items (vegetables) visually unchanged and free from distortion?",
+    "category": "Preservation",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 29,
+    "question": "Is the background (shoppers, wall, cart) preserved without changes?",
+    "category": "Preservation",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 30,
+    "question": "Are the promotional graphic elements (e.g., red starburst) preserved?",
+    "category": "Preservation",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 31,
+    "question": "Is the image free from visible artifacts, smudging, or noise around the edited areas?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

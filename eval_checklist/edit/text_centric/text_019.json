@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does Rule #2 on the 'Library Guidelines' poster explicitly state '15 minutes' instead of '30 minutes'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the text paragraph for Rule #2 fully justified (aligned to both left and right margins)?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the line spacing of Rule #2 consistent with the other rules, with no text overflowing the poster margins?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the Spanish text 'Sala de Lectura' completely removed from the wall-mounted acrylic sign?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the wall-mounted sign display only 'Reading Room' centered in the upper portion?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the navy blue background of the wall sign restored cleanly, preserving the original acrylic texture and light reflections where the text was removed?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the table tent sign now read exactly 'Please silence your phone or set to vibrate'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Does the added text 'or set to vibrate' on the table tent match the font style, weight, and kerning of the original text?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Does the added text 'or set to vibrate' on the table tent match the exact gray tone of the original 'Please silence your phone' text?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the Spanish text 'Nuevas Adquisiciones' completely removed from the green shelf strip?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 11,
+    "question": "Does the green shelf strip display only 'New Arrivals'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the edges of the green shelf strip and the shadow beneath it preserved without distortion or damage?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Are the edited text areas free from gibberish characters, typos, or spelling errors?",
+    "category": "General Quality",
+    "subcategory": "Text Legibility",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are the edited areas free from visible AI artifacts such as blurriness, ghosting, halos, or blocky pixels?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

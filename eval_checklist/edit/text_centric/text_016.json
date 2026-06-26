@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the scrolling ticker at the bottom of the LED display now read exactly 'two (2) photocopies'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the new text 'two (2) photocopies' maintain the orange, pixelated dot-matrix style and baseline alignment of the original ticker?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the subheading on the 'SERVICE GUIDELINES' poster corrected to 'PROCEDURES' (removing the extra 'E')?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Does the corrected word 'PROCEDURES' match the font style, weight, and alignment of the surrounding poster text?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the lightbox above window 03 now read 'EMPLOYMENT SERVICES 03'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Does the new 'EMPLOYMENT SERVICES 03' sign feature the same glowing white-text-on-blue-background effect as the other windows?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is the text 'EMPLOYMENT SERVICES 03' properly centered and spaced (kerning) within the lightbox, matching the layout of the other window signs?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Geometry",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the signs for Window 01 ('GENERAL SERVICES'), Window 02 ('INFORMATION DESK'), and Window 04 ('VEHICLE REGISTRATION') unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Text",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the content of the upper LED display (e.g., 'NOW SERVING', 'TICKET A102', 'CURRENTLY SERVING') unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Text",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the surrounding scene elements (people, 'No Photography' sign, window decals, floor markers) preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Scene Details",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Is the image free of visible artifacts, blurring, or unnatural seams in the edited regions (LED ticker, poster, window sign)?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

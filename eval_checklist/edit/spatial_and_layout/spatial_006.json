@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is the butterfly physically separated from the flower petals, showing a visible gap between its legs/body and the surface?",
+    "category": "Edit Execution",
+    "subcategory": "Movement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Has the butterfly been repositioned upward in the frame, appearing clearly above its original resting spot?",
+    "category": "Edit Execution",
+    "subcategory": "Movement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the butterfly exhibit a flight posture, with wings spread open or angled dynamically rather than held vertically in a resting pose?",
+    "category": "Edit Execution",
+    "subcategory": "Pose Modification",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Do the butterfly's legs appear lifted or curled consistent with flight, rather than anchored or planted on a surface?",
+    "category": "Edit Execution",
+    "subcategory": "Pose Modification",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Is the area of the flower petal where the butterfly was originally resting fully reconstructed with realistic pink texture and water droplets?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting & Reconstruction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Does the green bokeh background remain consistent and unchanged, free from new smears, bands, or distortions?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Is the lighting on the butterfly consistent with the scene, showing appropriate highlights and shadows without ghosting artifacts?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the butterfly anatomically correct in its new position, with intact antennae, connected wings, and no floating legs left behind?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the image free from technical artifacts such as visible seams, haloing around the butterfly, or inconsistent noise/grain patterns?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

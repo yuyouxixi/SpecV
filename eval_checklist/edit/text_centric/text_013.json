@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the new discounted price on the 'Seedless Watermelon' sign written as '$2.40'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Calculation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the new discounted price on the 'Concord Grapes' sign written as '$4.00' or '$4'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Calculation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the new discounted price on the 'Georgia Peaches' sign written as '$3.20'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Calculation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the new discounted price on the 'Honey Mangoes' sign written as '$6.40'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Calculation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the new discounted price on the 'Rainier Cherries' sign written as '$7.20'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Calculation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the new discounted price on the 'Golden Pineapple' sign written as '$4.80'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Calculation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Are the original prices on all six signs visibly struck through with a line?",
+    "category": "Edit Execution",
+    "subcategory": "Action Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are both the strikethrough lines and the new price text colored red?",
+    "category": "Edit Execution",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Are the new discounted prices positioned next to the original prices without obscuring the product names?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the original product names (e.g., 'Seedless Watermelon', 'Concord Grapes') preserved and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the original white text of the prices still visible beneath the strikethrough lines?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the woman vendor in the center of the image completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Subject",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Are the fruits and crates in the foreground unchanged?",
+    "category": "Preservation",
+    "subcategory": "Objects",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Are the newly written prices clearly legible and free from spelling errors?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from obvious AI artifacts, blurriness, or distortions around the edited areas?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

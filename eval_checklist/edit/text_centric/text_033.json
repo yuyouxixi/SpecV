@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the 'Days Without Incident' value in the 'Monthly Safety Metrics' panel read '1290'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does procedure #2 in the 'Safety Operating Procedures' list start with the word 'Ensure' instead of 'Insure'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the team designation under David Miller's photo read 'CNC Team'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the value next to 'Corrected:' in the Monthly Safety Metrics table updated to '11'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the value next to 'In Progress:' in the Monthly Safety Metrics table updated to '1'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Do the updated 'Corrected' (11) and 'In Progress' (1) values sum correctly to the 'Hazards Identified' value (12)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logic & Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do the updated numbers (1290, 11, 1) and text ('Ensure', 'CNC Team') match the font style, color, and size of the original board text?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the 'CNC Team' text properly centered under David Miller's photo and are the new numbers aligned correctly within their table rows?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are all edited text elements ('1290', 'Ensure', 'CNC Team', '11', '1') clearly legible without distortion or typos?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the area surrounding the edited text free from visible artifacts, blurring, or background distortion?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Does the 'Hazards Identified' value remain exactly '12'?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Does the 'Violations This Month' value remain exactly '0'?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are the other names and teams in the 'Safety Stars of the Month' section (Sarah Chen, Marcus Johnsen) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are the other Safety Operating Procedures (#1, #3, #4, #5) and the Safety Personnel list unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

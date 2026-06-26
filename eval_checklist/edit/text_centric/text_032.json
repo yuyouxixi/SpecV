@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the schedule header date now read \"December 5, 2024\"?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the row for \"Ballroom A\" now list the event \"State Chamber of Commerce Executive Roundtable\"?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the row for \"Ballroom B\" now list the event \"9th Annual Artificial Intelligence Summit – Opening Ceremony\"?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is the time slot for \"Ballroom A\" preserved as \"09:00-12:00\"?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the time slot for \"Ballroom B\" preserved as \"09:00-17:00\"?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the left directional sign still read \"Ballroom A\" with a right-pointing arrow (→), adhering to the instruction to leave signs unchanged?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.4
+  },
+  {
+    "id": 7,
+    "question": "Does the right directional sign still read \"Ballroom B\" with a left-pointing arrow (←), adhering to the instruction to leave signs unchanged?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.4
+  },
+  {
+    "id": 8,
+    "question": "Does the row for \"Meeting Room 301\" remain unchanged with \"City Urban Planning Review Board\" at \"14:00-17:00\"?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.77
+  },
+  {
+    "id": 9,
+    "question": "Does the row for \"Meeting Room 302\" remain unchanged with \"New Employee Orientation (Session 3)\" at \"10:00-12:00\"?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.77
+  },
+  {
+    "id": 10,
+    "question": "Are the edited event names and date properly aligned within their respective rows and columns, maintaining original spacing?",
+    "category": "General Quality",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 8.43
+  },
+  {
+    "id": 11,
+    "question": "Is the edited text clearly legible and free of typos, spelling errors, or gibberish?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.2
+  },
+  {
+    "id": 12,
+    "question": "Are the \"Grand Hyatt Chicago\" sign and the floor decal text (\"Meeting Rooms 301-305...\") preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Scene Text",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from visible artifacts, blurring, or smudging around the edited schedule board?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.13
+  }
+]

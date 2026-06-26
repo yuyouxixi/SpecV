@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the edited image reflect the correct astronomical order of the planets: Mercury → Venus → Earth → Mars → Jupiter → Saturn → Uranus → Neptune?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is Jupiter (the large banded planet) now positioned as the 5th planet from the Sun?",
+    "category": "Edit Execution",
+    "subcategory": "Object Positioning",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is Saturn (the planet with prominent rings) now positioned as the 6th planet from the Sun?",
+    "category": "Edit Execution",
+    "subcategory": "Object Positioning",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the label \"Jupiter (Iuppiter)\" correctly placed directly beneath the Jupiter graphic in the 5th position?",
+    "category": "Edit Execution",
+    "subcategory": "Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the label \"Saturn (Saturnus)\" correctly placed directly beneath the Saturn graphic in the 6th position?",
+    "category": "Edit Execution",
+    "subcategory": "Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Are the distinctive visual features of Jupiter (bands, Great Red Spot) and Saturn (rings) preserved and undistorted after the swap?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the relative size difference maintained, with Jupiter appearing larger than the body of Saturn?",
+    "category": "Edit Execution",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Are the positions, appearances, and labels of the non-swapped planets (Mercury, Venus, Earth, Mars, Uranus, Neptune) preserved exactly as in the original image?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Is the Earth's Moon and its dotted orbital path preserved without modification?",
+    "category": "Preservation",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the Sun on the far left preserved without any changes?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Are the background elements (stars, galaxies) and the decorative frame/border preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Background & Style",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the edited image free from visible seams, blurring, or artifacts in the area where the planets were swapped?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are all text labels in the edited image sharp, readable, and free from distortion?",
+    "category": "General Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

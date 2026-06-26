@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the chalkboard title now read 'Lecture 4' in place of 'Lecture 3'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the phrases 'Data Structures & Algorithms' and 'Sorting' in the chalkboard title line preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the homework section in the bottom-right of the chalkboard now read 'HW: Ch.6, Problems 3–7, 3–8'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the third bullet point on the projector screen now read 'Complexity: O(n log n) (Quicksort average-case)'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the edited text on the chalkboard ('Lecture 4' and homework) exhibit a natural chalk texture with grain and dust marks consistent with the rest of the board?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the updated bullet point on the projector screen match the original font style, size, and alignment of the other bullet points?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the updated projector text retain the bluish projection color cast and screen texture (e.g., moiré pattern) visible in the original slide?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Are the other bullet points (1, 2, and 4) and the header 'Today's Objectives' on the projector screen preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the remaining text on the chalkboard (e.g., 'Comparison Sorts', 'Quicksort', 'Divide & Conquer', 'Stability') preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Are the students, classroom furniture, and the 'Please Erase Board' sign preserved without distortion or changes?",
+    "category": "Preservation",
+    "subcategory": "Scene Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is all the newly generated text clear, legible, and free of typos or malformed characters?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from obvious editing artifacts such as blurring, sharp rectangular patches, or inconsistent lighting around the edited areas?",
+    "category": "General Quality",
+    "subcategory": "Image Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

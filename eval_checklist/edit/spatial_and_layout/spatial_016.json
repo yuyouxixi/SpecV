@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image exhibit an extreme low-angle 'worm's-eye' view, with the camera appearing to be positioned at ground level?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the Notre Dame Cathedral show pronounced vertical perspective convergence, with the base appearing wider and the towers/spire tapering sharply upward?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Transformation",
+    "expected_answer": "Yes",
+    "score": 9.43
+  },
+  {
+    "id": 3,
+    "question": "Does the cathedral appear monumentally imposing, with the spire and roofline dominating the upper frame more than in the original eye-level shot?",
+    "category": "Edit Execution",
+    "subcategory": "Scale & Proportion",
+    "expected_answer": "Yes",
+    "score": 8.9
+  },
+  {
+    "id": 4,
+    "question": "Is the cobblestone pavement in the immediate foreground significantly enlarged and detailed, with perspective lines converging toward a high vanishing point?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Is the Notre Dame Cathedral clearly recognizable, preserving key architectural details like the rose window, twin towers, and central spire despite the geometric warping?",
+    "category": "Preservation",
+    "subcategory": "Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.1
+  },
+  {
+    "id": 6,
+    "question": "Are key semantic elements present in the original scene (the mime, the guitarist, the red buses, the crowd) retained in the new composition?",
+    "category": "Preservation",
+    "subcategory": "Scene Integrity",
+    "expected_answer": "Yes",
+    "score": 8.23
+  },
+  {
+    "id": 7,
+    "question": "Are the generated or modified tourists free from severe anatomical distortions, floating limbs, or missing body parts?",
+    "category": "General Quality",
+    "subcategory": "Anatomy & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Is the image free from 'shearing' artifacts, looking like a true 3D perspective change rather than a simple 2D skew or stretch?",
+    "category": "General Quality",
+    "subcategory": "Geometric Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

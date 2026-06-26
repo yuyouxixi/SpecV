@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the elephant in the foreground replaced with a penguin?",
+    "category": "Edit Execution",
+    "subcategory": "Subject Replacement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Has the environment been transformed from a savanna to a polar landscape (e.g., snow, ice, cold water)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are the zebras in the background replaced with animals native to polar regions (e.g., seals, penguins, walruses)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are savanna-specific elements, such as acacia trees and dry grass, completely removed from the background?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Contextual Awareness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Is the elephant fully removed, including its trunk, tusks, and large body mass, with no ghostly remnants?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Are the zebras in the background completely removed, leaving no stripes or zebra-shaped silhouettes?",
+    "category": "Edit Execution",
+    "subcategory": "Background Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Is the penguin depicted with realistic anatomy (beak, flippers, upright posture) and coloring?",
+    "category": "Edit Execution",
+    "subcategory": "Subject Realism",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the ground texture transformed from dry dirt/grass to snow or ice?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Synthesis",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Has the lighting and color temperature been shifted from warm savanna tones to cool polar tones (blues, whites, grays)?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the dust cloud thrown by the elephant either removed or logically converted into a snow spray effect?",
+    "category": "Edit Execution",
+    "subcategory": "Effect Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Do the new subjects (penguin and background animals) make natural contact with the ground without floating?",
+    "category": "General Quality",
+    "subcategory": "Geometry & Grounding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the edited image free of obvious artifacts, such as patchy inpainting, blurred boundaries, or distorted limbs?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Has the image canvas been expanded horizontally on both the left and right sides?",
+    "category": "Edit Execution",
+    "subcategory": "Outpainting",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the newly generated content on the expanded sides extend the room naturally without stretching or blurring?",
+    "category": "Edit Execution",
+    "subcategory": "Outpainting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Have the dad (man in blue) and mom (woman in white) been completely removed from their original positions behind the sofa?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the dad now standing beside the grandparents on one side of the sofa?",
+    "category": "Edit Execution",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the mom now standing beside the grandparents on the opposite side of the sofa from the dad?",
+    "category": "Edit Execution",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Are all adult family members now arranged in a single horizontal row relative to the camera?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Are the full bodies, including previously occluded legs and feet, of the dad and mom now visible?",
+    "category": "Edit Execution",
+    "subcategory": "Object Generation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Do the repositioned dad and mom appear at the correct scale and depth, appearing to stand on the same plane as the seated grandparents?",
+    "category": "Edit Execution",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the Christmas tree and wall background seamlessly reconstructed where the dad and mom originally stood?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the top of the sofa backrest clean and free of ghosting artifacts or remnants of the parents?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the grandparents still seated on the sofa in their original poses and positions?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the young boy sitting on the floor preserved without distortion or unintended movement?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are the original environmental details (fireplace, stockings, rug, and unoccluded parts of the tree) preserved?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Do the newly generated lower bodies of the parents appear anatomically natural and proportional?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Do the parents' feet appear to make natural contact with the floor/rug (grounding)?",
+    "category": "General Quality",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the lighting on the repositioned dad and mom consistent with the room's warm ambient lighting?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 17,
+    "question": "Is the image free from visible seams, floating limbs, or duplicate figures?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are the faces and bodies of the repositioned subjects sharp and clear, matching the original image quality?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the main company name on the truck read exactly 'RAPIDEX FREIGHT'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the previous company name 'SWIFT' and 'LOGISTICS GROUP' completely absent from the truck?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the phone number at the bottom read exactly '1-800-727-4339'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the website URL at the bottom read exactly 'www.rapidexfreight.com'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Are the old phone number ('1-800-555-SHIP') and website ('www.swiftlogistics.com') completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the new text maintain the navy blue color and bold font style consistent with the original branding?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the new text aligned correctly with the perspective and curvature of the truck body?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Geometry",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the globe logo with the arrow on the left side preserved and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the top slogan 'SAFETY FIRST • DRIVE RESPONSIBLY • PROTECT LIVES' preserved and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Are the service list lines (e.g., 'Nationwide LTL Freight', 'Warehousing & Distribution') preserved and unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Is the word 'Call' still present immediately before the phone number?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are the two QR codes and the text 'SCAN TO SHIP EASY' on the right side preserved?",
+    "category": "Preservation",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the truck cab, wheels, and the yellow reflective safety strip along the bottom unchanged?",
+    "category": "Preservation",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is the new text free from spelling errors, typos, or gibberish?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 15,
+    "question": "Are the edited areas free from visible artifacts, blurring, or color bleeding?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 16,
+    "question": "Do the lighting and reflections on the new text appear natural and consistent with the rest of the truck panel?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Realism",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

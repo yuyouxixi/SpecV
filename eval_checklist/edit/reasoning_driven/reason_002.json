@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Has the winter snow been removed from the roof, lawn, and surrounding environment to reflect the autumn season?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Seasonal Logic",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are visible autumn cues present in the outdoor environment, such as fallen leaves, bare branches, or autumn-colored foliage?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Seasonal Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Has the Christmas wreath on the front door been removed or replaced with a Halloween-themed decoration?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Are jack-o-lanterns, pumpkins, or other Halloween decorations (e.g., spiderwebs, bats) visible on the house exterior?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Have the Christmas string lights been removed or updated to colors/styles consistent with Halloween (e.g., orange, purple)?",
+    "category": "Edit Execution",
+    "subcategory": "Attribute Modification",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Has the Christmas tree visible through the window been removed or replaced with Halloween interior decor?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Have the Christmas stockings hanging on the fireplace mantle been removed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Have the wrapped Christmas presents been removed from the interior scene?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Has the formal turkey dinner on the table been replaced with Halloween-themed treats, candy, or casual party food?",
+    "category": "Edit Execution",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the scene free of residual specific Christmas identifiers (e.g., Santa imagery, 'Merry Christmas' text, red/green dominance)?",
+    "category": "Edit Execution",
+    "subcategory": "Theme Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the architectural structure of the house (siding, bay window, door frame, shutters) preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Are the family members at the dining table preserved in their original positions, count, and identities?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Is the interior furniture layout (e.g., fireplace, dining table position) preserved?",
+    "category": "Preservation",
+    "subcategory": "Scene Structure Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Is the edited image free of obvious artifacts, unnatural blurring, or texture distortions in the modified areas?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Do the newly added objects (e.g., pumpkins, decor) exhibit correct scale, perspective, and lighting consistent with the scene?",
+    "category": "General Quality",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

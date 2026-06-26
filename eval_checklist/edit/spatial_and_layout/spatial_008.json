@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Are all the books that were previously scattered on the desk now consolidated into a single area in the upper right corner?",
+    "category": "Edit Execution",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the new stack of books arranged neatly with aligned edges or spines, rather than being haphazardly piled?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Have the areas where books were originally located (e.g., behind the laptop and on the left side) been cleared?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the book stack appear physically plausible (stable, resting naturally on the desk surface, and not floating or intersecting with the lamp)?",
+    "category": "Edit Execution",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the laptop preserved in its original position and state?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Is the 'Stay Caffeinated' mug preserved and is the text still legible?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Is the wooden texture of the desk surface consistent and realistic in the areas where items were removed?",
+    "category": "General Quality",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

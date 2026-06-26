@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the first line on the right-side electronic display read exactly 'TODAY'S HOURS 7:00AM-9:30PM'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the second line on the right-side electronic display read exactly 'PLEASE RESPECT ALL EQUIPMENT'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "In the schedule table, does the Wednesday cell for the 6:00-7:00 PM row now read 'Open'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "In the schedule table, does the Wednesday cell for the 7:00-8:00 PM row now read 'Class'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the rules text now state 'Auto-cancel after 5 min late'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text on the electronic display retain a black-and-white pixelated/bitmap font aesthetic?",
+    "category": "General Quality",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is the text on the electronic display horizontally aligned correctly without tilting or waviness?",
+    "category": "General Quality",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Are the gridlines in the schedule table straight and intact around the edited Wednesday cells?",
+    "category": "General Quality",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the text in the edited Wednesday cells properly centered within the cells?",
+    "category": "General Quality",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the rules paragraph wrap naturally within its original layout area without overflowing?",
+    "category": "General Quality",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the orange sticky note with 'Lockers require quarters' completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the blue header 'COURT RESERVATION INFO' unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Are the unedited schedule cells (e.g., Thursday and Friday columns) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Is the Front Desk phone number '(555) 867-5309' unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Are the edited text areas free from spelling errors, typos, or gibberish characters?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 16,
+    "question": "Are the edited areas free from obvious blurring, smudging, or digital artifacts?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

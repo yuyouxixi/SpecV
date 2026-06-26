@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does Rule 7 on the yellow sign read exactly '7. Report hazards to the Safety Lead immediately and log in the work order system.'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the new text in Rule 7 end with a period and match the font weight (boldness) of the other rules on the sign?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does Rule 6 on the yellow sign now show the speed limit as '8 mph'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the 'mph' abbreviation in Rule 6 properly spaced and proportioned (not stretched or distorted) compared to the surrounding text?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Does the 'First Aid' line on the EMERGENCY CONTACTS board read exactly 'First Aid: (555) 234-1020'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the first inspection log (left) show the Inspector name as 'J. Lynn'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does the second inspection log (right) show the Inspector name as 'K. Woods'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Do the edited inspector names on the logs match the original printed font style and alignment relative to the 'Inspector:' label?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Are the 'Main Office' and 'Safety Lead' phone numbers on the EMERGENCY CONTACTS board preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Do the inspection logs still show the original dates '02/10/2026' and 'Status: OK'?",
+    "category": "Preservation",
+    "subcategory": "Text Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the other rules (1-5, 8-10) and the header on the yellow sign unchanged in wording and appearance?",
+    "category": "Preservation",
+    "subcategory": "Text Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Does the yellow sign retain its original matte/worn metal texture in the edited areas without unnatural smoothing?",
+    "category": "General Quality",
+    "subcategory": "Texture & Lighting",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the image free of visible artifacts (blur, halos, smudges) around the edited text areas?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is all edited text (Rule 7, 8 mph, phone number, names) clearly legible and free of spelling errors?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

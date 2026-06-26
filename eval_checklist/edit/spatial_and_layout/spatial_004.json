@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the picnic basket significantly reduced in size to appear realistic relative to the human figures (e.g., carryable by one person)?",
+    "category": "Edit Execution",
+    "subcategory": "Resizing",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the resized basket maintain realistic scale proportions compared to nearby objects like watermelons and plates?",
+    "category": "Edit Execution",
+    "subcategory": "Resizing",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the resized basket retain its original visual characteristics (wicker texture, handle, lid) without distortion?",
+    "category": "Edit Execution",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is the newly revealed area of the blanket filled with a continuous red and white checkered pattern that aligns with the existing grid?",
+    "category": "Edit Execution",
+    "subcategory": "Occlusion Handling",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the resized basket have realistic ground contact and cast shadows consistent with the scene's lighting direction?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the perspective of the resized basket consistent with the image's overhead camera angle?",
+    "category": "General Quality",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is the edited region sharp and clear, free from blurring, ghosting, or visible seams?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Are the people seated around the blanket preserved without unintended changes to their poses, faces, or clothing?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Are the surrounding environmental elements (grass, trees, shadows on grass) preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Are other items on the picnic blanket (plates, cups, other baskets) preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

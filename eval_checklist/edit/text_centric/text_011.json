@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the Status column for Train 6789 now read 'On Time'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the previous status 'Delayed 20 min' for Train 6789 completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the Platform column for Train 892 now display '8'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the previous platform number '12' for Train 892 completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Does the newly generated text match the yellow LED dot-matrix font style and glow intensity of the original display?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the new text ('On Time' and '8') properly aligned within the grid cells, matching the spacing of existing rows?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Are the unedited details for Train 6789 (Destination 'Los Angeles', Time '09:30', Platform '1B') preserved correctly?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Are the unedited details for Train 892 (Destination 'Chicago Union', Time '09:00', Status 'On Time') preserved correctly?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Are the details for other trains (e.g., 1051, 2056, 3042, 124) completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Are the column headers ('Train', 'Destination', 'Departs', 'Platform', 'Status') and vertical banners preserved?",
+    "category": "Preservation",
+    "subcategory": "Background & Scene",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the edited text legible and free from typos or gibberish?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the edited areas free from visual artifacts such as blurring, smudging, or inconsistent background texture?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the title on the green book cover read exactly 'The Art of Potion-Making'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the author name on the book cover read exactly 'S. Snape'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the original title 'Encyclopedia of Plants' completely removed from the cover?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the original author name 'Dr. Jonathan H. Smith' completely removed from the cover?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the new text feature a gold foil texture that matches the original cover's style?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the text display a realistic embossed effect with visible shadows and highlights indicating depth?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Do the specular reflections on the gold text align with the directional lighting from the lamp?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the font style of the new text match the ornate, vintage aesthetic of the original cover?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the author name 'S. Snape' correctly positioned near the bottom of the cover?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the new text clear, legible, and free from spelling errors or malformed characters?",
+    "category": "Edit Execution",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the edited area free from obvious visual artifacts, blurring, or unnatural smudging?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

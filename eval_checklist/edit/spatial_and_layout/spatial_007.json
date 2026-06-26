@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image zoomed out compared to the original, showing a wider field of view?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the full extent of the kitchen island now visible, including the edges (left, right, and bottom) that were previously cropped?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Do the original central objects (the glass with drink and the plate of lemons) appear smaller relative to the image frame, consistent with a zoom-out effect?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Does the extended area reveal plausible surrounding context, such as additional floor area, ceiling, or adjacent cabinetry?",
+    "category": "Edit Execution",
+    "subcategory": "Outpainting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Are the newly generated textures of the island (the stone countertop and vertical wood panels) consistent with the original materials?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Are the central objects (glass with straw/lime and plate of lemons) preserved in their original appearance and relative positions?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the background elements (cabinets, oven, shelves, windows, and dining area) preserved without unwanted changes?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the outpainted area free from visible seams, blurring, repetitive patterns, or distorted geometry?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the lighting and shadow direction in the extended areas consistent with the natural lighting of the original image?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the perspective remain coherent, with straight architectural lines and correct vanishing points in the zoomed-out view?",
+    "category": "General Quality",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

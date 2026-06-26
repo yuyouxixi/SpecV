@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the status column for the Los Angeles flight (UA892) now read 'CANCELLED'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the 'CANCELLED' text displayed in red color?",
+    "category": "Edit Execution",
+    "subcategory": "Color",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the word 'CANCELLED' spelled correctly (C-A-N-C-E-L-L-E-D)?",
+    "category": "Edit Execution",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the new text 'CANCELLED' maintain the same LED dot-matrix pixelated texture style as the rest of the board?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the 'CANCELLED' text correctly aligned with the perspective and angle of the display board?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the 'CANCELLED' text align with the baseline of the other text in the same row?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the 'CANCELLED' text fit within the status column without overlapping the time or destination columns?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the destination text 'LOS ANGELES' still displayed in its original yellow color?",
+    "category": "Preservation",
+    "subcategory": "Specific Details",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the flight number (UA892) and departure time (10:45) for the Los Angeles flight unchanged?",
+    "category": "Preservation",
+    "subcategory": "Specific Details",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the black background panel behind the 'CANCELLED' text clean and free from red color bleeding?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the edited area free from visible blurriness, smudges, or visual artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the 'CANCELLED' text clearly legible?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

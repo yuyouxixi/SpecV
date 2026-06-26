@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Are all 5 original spice jars present in the edited image (none missing or duplicated)?",
+    "category": "Edit Execution",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are the 5 spice jars arranged in a single, straight horizontal row?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the spacing between adjacent spice jars visually uniform and even?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Do the bases of the jars appear aligned on a consistent linear baseline on the countertop?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are the labels on all spice jars facing directly toward the camera?",
+    "category": "Edit Execution",
+    "subcategory": "Pose Modification",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are all jars upright with their lids facing up (not tilted or knocked over)?",
+    "category": "Edit Execution",
+    "subcategory": "Pose Modification",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Do the spice jars maintain their original size proportions relative to each other (no unnatural stretching or scaling)?",
+    "category": "Edit Execution",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the countertop area where the jars originally sat seamlessly filled with a matching speckled quartz texture?",
+    "category": "General Quality",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the inpainted countertop area free from visible blur, seams, or obvious repetitive patterns?",
+    "category": "General Quality",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Do the jars have realistic contact shadows that ground them to the countertop?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the shadows consistent with the original lighting direction and intensity?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from ghosting or remnants of jars in their original positions?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are the olive oil bottle and cutting boards on the left side preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Are the hanging utensils, copper rail, and subway tile backsplash preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Are the oven and knife block on the right side of the image preserved?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

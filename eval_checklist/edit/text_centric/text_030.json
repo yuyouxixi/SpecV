@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the 'Third Floor' row on the directory board now include the text 'Ophthalmology'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Manipulation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Has the text 'Ophthalmology' been completely removed from the 'Fourth Floor' row on the directory board?",
+    "category": "Edit Execution",
+    "subcategory": "Text Manipulation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the queue display for 'Internal Medicine' now show the text 'Waiting: 18 patients'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Manipulation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is the floor wayfinding line labeled 'Laboratory' now colored yellow?",
+    "category": "Edit Execution",
+    "subcategory": "Object Modification",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the moved 'Ophthalmology' text match the font style, size, and color of the other entries in the directory?",
+    "category": "General Quality",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the new number '18' on the queue display rendered in the same LED digital font style as the surrounding text?",
+    "category": "General Quality",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is the text 'Laboratory' on the floor strip clearly legible against the new yellow background?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the grid layout of the directory board preserved, with rows aligned and no overlapping text?",
+    "category": "General Quality",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the directory table area free of visible editing artifacts like blurring, smearing, or warped lines?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Is the yellow Laboratory wayfinding line free of color bleeding, jagged edges, or inconsistent texture?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Are the department lists for the Ground, Second, and Fifth floors in the directory completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Are the unedited departments on the Third Floor (Surgery, Orthopedics, etc.) and Fourth Floor (OB/GYN, Pediatrics, ENT) still present?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the 'Now Serving' number for Internal Medicine (A-157) and the entire Cardiology panel unchanged on the queue display?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Are the 'Internal Medicine' (green) and 'Emergency' (red) floor wayfinding lines unchanged in color and text?",
+    "category": "Preservation",
+    "subcategory": "Background & Objects",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

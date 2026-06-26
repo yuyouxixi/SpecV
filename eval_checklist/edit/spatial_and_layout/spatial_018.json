@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is the viewpoint successfully changed to a street-level pedestrian perspective looking upwards?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Do the vertical lines of the skyscrapers converge towards a vanishing point in the sky, creating a sense of height?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Transformation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are the building facades (vertical sides) now the primary visible surfaces, replacing the rooftops seen in the original aerial view?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Reconstruction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the scene exhibit a clear street canyon layout with skyscrapers flanking both sides of the road?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are plausible street-level elements (e.g., road surface, lane markings, storefronts) visible at the bottom of the frame?",
+    "category": "Edit Execution",
+    "subcategory": "Scene Enrichment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Are the nearest buildings visually larger and more detailed than distant ones, consistent with ground-level depth perception?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Depth & Scale",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the scene retain the specific architectural character and style of the original city (e.g., NYC/Empire State Building features)?",
+    "category": "Preservation",
+    "subcategory": "Identity Retention",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the sky visible and realistically rendered at the top of the frame between the buildings?",
+    "category": "Preservation",
+    "subcategory": "Background Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Is the image free from unnatural geometric distortions, such as warping or melting of straight structural lines?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

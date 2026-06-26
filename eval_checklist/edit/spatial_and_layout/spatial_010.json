@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the large colorful abstract painting now positioned on the right side of the gallery wall?",
+    "category": "Edit Execution",
+    "subcategory": "Object Movement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the two smaller gold-framed paintings now positioned on the left side of the gallery wall?",
+    "category": "Edit Execution",
+    "subcategory": "Object Movement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the portrait painting (man in dark clothing) now positioned above the landscape painting on the left wall?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Are the two smaller paintings vertically aligned in a stack (one directly above the other) rather than side-by-side or offset?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Arrangement",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Has the large abstract painting been completely removed from its original position on the left (no duplicates)?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the artistic content of the large abstract painting (brushstrokes, colors) preserved without hallucinated changes or distortion?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is the content of the two smaller paintings (the portrait figure and the landscape scenery) preserved accurately in their new locations?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Are the aspect ratios and relative sizes of all three paintings preserved (not noticeably stretched or squashed)?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Are the museum visitors and the sculpture on the pedestal (right side) preserved without distortion or accidental deletion?",
+    "category": "Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Does the large abstract painting on the right follow the correct wall perspective (vanishing point) rather than looking flat or pasted on?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Perspective & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the placement of the large painting on the right physically plausible (not cutting through the sculpture, bench, or visitors)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Occlusion & Physics",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the wall surface free from 'ghosting' artifacts, leftover textures, or dark rectangles where the paintings were originally located?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Are the edges of the relocated paintings clean and integrated, without jagged cutouts or halos?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

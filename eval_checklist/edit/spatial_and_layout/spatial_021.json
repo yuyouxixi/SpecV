@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image appear to be captured from a viewpoint shifted approximately two to three meters to the right of the original position?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Does the stone archway exhibit correct perspective foreshortening, appearing elliptical or angled rather than a symmetrical front-facing circle?",
+    "category": "Edit Execution",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the inner thickness or side surface of the stone arch visible (or appropriately occluded) in a way that is consistent with the new rightward viewing angle?",
+    "category": "Edit Execution",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Has the position of the fountain relative to the arch opening shifted horizontally, demonstrating significant parallax displacement consistent with the viewpoint change?",
+    "category": "Edit Execution",
+    "subcategory": "Parallax",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the three-layer depth relationship preserved, where the distant manor house shifts significantly less relative to the frame than the mid-ground fountain?",
+    "category": "Edit Execution",
+    "subcategory": "Parallax",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the previously occluded or out-of-frame garden area to the right of the arch now visible and plausibly generated?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Are the shadows and lighting in the newly revealed areas consistent with the global lighting direction established in the original image?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Are key scene elements, including the two people walking, the large oak tree, and the lily pond, preserved and positioned naturally within the new perspective?",
+    "category": "Preservation",
+    "subcategory": "Scene Elements",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Is the image free from unnatural geometric distortions, such as warped stone blocks or stretched textures, that cannot be explained by perspective?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from visible seams, blurring, or floating disconnected elements, particularly in the newly generated regions to the right?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

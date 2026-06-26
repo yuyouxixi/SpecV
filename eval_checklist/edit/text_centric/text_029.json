@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text in the top-left corner read 'April 2026 Issue'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the main headline read 'Cover Story: The Hidden Cost of Sustainable Materials'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the typo 'Comon' in the Toolkit section corrected to 'Common'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the 'April 2026 Issue' text in the same position and font style as the original 'March 2026 Issue'?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the main headline slightly larger than the original while maintaining the original serif font style?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Does the enlarged main headline fit within the layout margins without overlapping the sub-headlines below?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the corrected word 'Common' match the font style, weight, and kerning of the surrounding text in the Toolkit line?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the barcode number '9771001234005' unchanged and clearly visible?",
+    "category": "Preservation",
+    "subcategory": "Explicit Constraints",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Is the website URL 'www.designreview.example.com' unchanged?",
+    "category": "Preservation",
+    "subcategory": "Explicit Constraints",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the main magazine title 'DESIGN REVIEW' and the subtitle 'Est. 1987' unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the other article titles (e.g., 'Micro-Interventions', 'David Lin', 'Supply Chains', 'Wayfinding') unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the price '$9.99' in the top-right corner unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the magazine's paper grain and print halftone texture preserved within the edited text areas?",
+    "category": "General Quality",
+    "subcategory": "Texture & Lighting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are the specular highlights on the magazine cover preserved and naturally integrated with the edited text?",
+    "category": "General Quality",
+    "subcategory": "Texture & Lighting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from visible artifacts, blurriness, or edit boundaries around the text changes?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Is all edited text clearly legible and free of spelling errors or gibberish?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

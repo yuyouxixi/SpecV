@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the box office figure on the 'Inside Out 3' poster read '$1.5 Billion'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the price in the Theater 3 row on the showtimes board read '$17.50'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the status in the Theater 4 row on the showtimes board read 'In Progress'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the price for 'Combo A' on the concession menu read '$21.99'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the new text '$1.5 Billion' on the poster match the font style, color, and glossy texture of the original poster text?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Style",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Do the new entries on the showtimes board ('$17.50' and 'In Progress') match the digital LED font style and color scheme of the existing board text?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Style",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Does the new price '$21.99' on the concession menu match the font style, perspective, and backlit appearance of the other menu items?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Style",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Are the new text elements on the showtimes board and concession menu correctly aligned within their respective columns and rows?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Are the original values ('$1.4 Billion', '$19.50', 'Starting Soon', '$18.99') completely removed without any visible ghosting or residue?",
+    "category": "Edit Execution",
+    "subcategory": "Cleanliness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is all the newly added text clearly legible, correctly spelled, and free of distortions?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the 'Inside Out 3' poster artwork and title logo preserved, excluding the edited box office text?",
+    "category": "Preservation",
+    "subcategory": "Subject Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the unedited rows (Theater 1, 2, 5) and the 'Member Tuesdays' banner in the scene completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Text",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Are the unedited fields in Theater 3 (Time, Format) and Theater 4 (Time, Price) rows preserved correctly?",
+    "category": "Preservation",
+    "subcategory": "Background Text",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from visible artifacts, smudging, or blurriness around the edited regions?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Do the edits respect the environmental lighting, such as reflections on the poster and the glow of the digital displays?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Realism",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

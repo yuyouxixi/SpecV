@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the airborne basketball positioned closer to the hoop rim, appearing as if it is about to drop in?",
+    "category": "Edit Execution",
+    "subcategory": "Object Manipulation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Has the defender on the right been shifted approximately half a body width to the right?",
+    "category": "Edit Execution",
+    "subcategory": "Object Manipulation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the defender on the right now depicted in a full jump with both feet clearly off the ground?",
+    "category": "Edit Execution",
+    "subcategory": "Pose Modification",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is the right-side defender's palm positioned closer to the basketball without actually touching it?",
+    "category": "Edit Execution",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Do the floor reflections and shadows beneath the right-side defender correctly track and align with his new jumping position?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Does the jumping defender maintain natural anatomical proportions without distorted limbs or floating parts?",
+    "category": "General Quality",
+    "subcategory": "Anatomy & Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the crowd in the stands remain sharp and free from blur or distortion?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Have all other players (including the red jersey shooter and Duke #5) remained in their original positions and poses?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the basketball net and backboard preserved in its original position without distortion?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is the floor area where the defender was originally standing free from ghosting, residual artifacts, or texture discontinuities?",
+    "category": "General Quality",
+    "subcategory": "Inpainting & Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from visible seams, halos, or unnatural blending artifacts around the moved basketball and defender?",
+    "category": "General Quality",
+    "subcategory": "Inpainting & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are the lighting, motion blur, and resolution on the moved basketball and defender consistent with the rest of the scene?",
+    "category": "General Quality",
+    "subcategory": "Visual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

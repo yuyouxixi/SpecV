@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image transformed into an eye-level first-person perspective, appearing as if the viewer is seated at one end of the table looking across?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the table surface appear as a receding plane with strong perspective convergence (near end wider, far end narrower)?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Reconstruction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are the side profiles of dishes, bowls, and glasses visible (showing vertical walls and height) rather than just top surfaces?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Reconstruction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are circular objects (e.g., plate rims, cup openings) foreshortened into ellipses consistent with the eye-level viewing angle?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Reconstruction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Do the food piles (sashimi, tempura, yakitori) display plausible 3D height and volume consistent with a side view?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Reconstruction",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Do objects in the foreground appear significantly larger than similar objects at the far end, demonstrating correct perspective diminution?",
+    "category": "Edit Execution",
+    "subcategory": "Depth & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Do foreground objects appropriately partially occlude (block) objects situated behind them?",
+    "category": "Edit Execution",
+    "subcategory": "Occlusion Handling",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Are the diners across the table visible from a frontal or near-frontal view rather than from above?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Are the specific food types (sashimi, tempura, yakitori, miso soup) and table settings recognizable and preserved from the original image?",
+    "category": "Preservation",
+    "subcategory": "Content Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the background restaurant environment (style, lighting, other diners) consistent with the original scene?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Is the relative left-right arrangement of dishes consistent with the original layout?",
+    "category": "Preservation",
+    "subcategory": "Layout Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Do all objects appear to rest naturally on the table surface without floating or hovering?",
+    "category": "General Quality",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Are hands and arms rendered correctly without anatomical distortions or extra limbs?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from unnatural stretching, warping, or geometric distortions on the newly synthesized side surfaces?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are lighting, shadows, and reflections consistent with the new 3D geometry and the original scene's ambience?",
+    "category": "General Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

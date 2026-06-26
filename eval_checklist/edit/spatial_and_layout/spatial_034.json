@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the large departure display board oriented more frontally to the viewer compared to the original oblique angle?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the flight numbers on the departure display board clearly legible?",
+    "category": "Edit Execution",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are the gate assignments on the departure display board clearly legible?",
+    "category": "Edit Execution",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the text on the display board aligned in a consistent grid without warping, scrambling, or random glyphs?",
+    "category": "Edit Execution",
+    "subcategory": "Text Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Are the proportions of travelers and objects maintained naturally without appearing horizontally stretched or vertically squashed?",
+    "category": "Spatial & Layout",
+    "subcategory": "Perspective Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Are straight architectural lines (e.g., walls, counter edges, board frames) preserved without bending or rippling?",
+    "category": "Spatial & Layout",
+    "subcategory": "Geometric Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Do the vanishing lines of the floor tiles and ceiling structure align consistently with the new perspective?",
+    "category": "Spatial & Layout",
+    "subcategory": "Perspective Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the complex ceiling truss structure preserved without unnatural distortions, breaks, or impossible intersections?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Are the check-in counters and queue stanchions maintained in a continuous, logical layout without floating parts?",
+    "category": "Preservation",
+    "subcategory": "Scene Layout",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the departure board visually anchored to the wall structure appropriately, rather than floating or misaligned?",
+    "category": "Preservation",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the edited image free from stitching seams, ghosting, or duplicated elements caused by the viewpoint shift?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the departure board rendered with sufficient sharpness and resolution to match the rest of the scene?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

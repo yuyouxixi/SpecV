@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the red banner now read 'Lincoln County' instead of 'Jefferson County'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logic",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the banner still read 'Congratulations to our students' at the beginning?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the banner still include the phrase 'winning 1st Place Team Award'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the banner still include the year '2024'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Does the banner still end with 'Science & Innovation Fair!'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Is the edited text 'Lincoln County' displayed in white, sans-serif font matching the rest of the banner?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the edited text properly aligned with the baseline and contained within the banner boundaries?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the edited text legible, spelled correctly, and free from gibberish characters?",
+    "category": "Edit Execution",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the large archway sign 'LINCOLN COUNTY ELEMENTARY SCHOOL' unchanged?",
+    "category": "Preservation",
+    "subcategory": "Scene Text",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Is the red banner background consistent in tone and texture, without patchy discoloration?",
+    "category": "General Quality",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the edited area free from blurriness, haloing, or digital artifacts?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

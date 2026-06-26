@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Has the 'Beijing' label been corrected to read 'UTC+8'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Has the 'Tokyo' label been corrected to read 'UTC+9'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Has the 'Cairo' label been corrected to read 'UTC+2' (standard time offset)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the Los Angeles clock show 06:30 (hour hand halfway between 6 and 7)?",
+    "category": "Edit Execution",
+    "subcategory": "Temporal Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the New York clock show 09:30 (hour hand halfway between 9 and 10)?",
+    "category": "Edit Execution",
+    "subcategory": "Temporal Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Do the minute hands on all six clocks point exactly downwards to the 6 position?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Precision",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are all hour hands positioned exactly halfway between the hour markers to reflect the half-hour time?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Precision",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Do the corrected labels (Beijing, Tokyo, Cairo) match the font, weight, size, and alignment of the original labels exactly?",
+    "category": "Edit Execution",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Do the edited clock hands appear correctly layered beneath the glass surface, maintaining realistic depth?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Are the correct labels (Los Angeles UTC-8, New York UTC-5, London UTC+0) preserved without modification?",
+    "category": "Preservation",
+    "subcategory": "Label Preservation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the main title sticker 'Global Operations — Time Board' preserved exactly as in the original?",
+    "category": "Preservation",
+    "subcategory": "Text Element Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the reference time label 'Reference: UTC 2026-02-22 14:30 (DST not considered)' preserved exactly?",
+    "category": "Preservation",
+    "subcategory": "Text Element Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Are both sticky notes (yellow and pink) and their handwritten/printed text preserved exactly?",
+    "category": "Preservation",
+    "subcategory": "Text Element Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Is the 'Weekly Sync Agenda' paper on the desk preserved exactly?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Are the original glass reflections and highlights over the clock faces preserved or realistically maintained over the edited hands?",
+    "category": "Preservation",
+    "subcategory": "Lighting & Reflections",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is the edited image free of visual artifacts, ghosting, or unnatural blurring around the modified clock faces and labels?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Are the clock hands and text rendered with proper anti-aliasing and smooth edges?",
+    "category": "General Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

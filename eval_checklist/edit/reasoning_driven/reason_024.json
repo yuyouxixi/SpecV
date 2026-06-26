@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "On the poster, is Newton's Second Law corrected to 'F = m a' (replacing 'F = m v')?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "On the poster, is Momentum corrected to 'p = m v' (replacing 'p = m a')?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "On the poster, is Mass-Energy Equivalence corrected to 'E = m c²' (replacing 'E = m c³')?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "On the poster, is the Speed of Light corrected to approximately 'c = 3.0 × 10⁸ m/s' (correcting the exponent from 6 to 8)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "On the poster, is Gravitational Acceleration corrected to 'g = 9.8 m/s²' (replacing '98 m/s²')?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "On the poster, is Pi corrected to 'π = 3.14' (replacing '3.41')?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "On the poster, is the definition of the Newton unit corrected to '1 N = 1 kg·m/s²' (ensuring the squared time unit)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "On the blackboard, is the formula 'E = m c³' corrected to 'E = m c²'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "On the blackboard, is the formula 'F = m v' corrected to 'F = m a'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "On the pop quiz paper, is the given variable for Question 1 changed from velocity 'v' to acceleration 'a' (or units changed to m/s²) to logically align with Newton's Second Law?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the corrected text on the poster match the original font style, alignment, and sharpness of the printed material?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Does the corrected text on the blackboard retain a realistic chalk texture, including variations in opacity and dust?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the corrected text on the pop quiz sheet maintain a realistic printed paper appearance?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Is the original layout of the poster (Blue Mechanics section, Red Constants section) preserved without warping or color shifts?",
+    "category": "Preservation",
+    "subcategory": "Layout Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 15,
+    "question": "Are the students, desks, window, and general classroom environment preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Are the tape holding the pop quiz and the surrounding chalk dust/erasures on the blackboard preserved?",
+    "category": "Preservation",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 17,
+    "question": "Are mathematical superscripts (e.g., in c², 10⁸, m/s²) clearly rendered and legible across all surfaces?",
+    "category": "General Quality",
+    "subcategory": "Text Legibility",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 18,
+    "question": "Does the lighting and glare on the blackboard and poster appear natural and consistent after the edits?",
+    "category": "General Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 19,
+    "question": "Is the final image free from obvious text artifacts, such as blurry letters, ghosting, or inconsistent perspective warping?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

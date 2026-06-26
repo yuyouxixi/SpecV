@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is there exactly one additional player added to the team on the left side of the frame?",
+    "category": "Edit Execution",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Do the vertical poles of the volleyball net now occupy approximately half of the frame's total height?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the image perspective indicate a raised camera viewpoint, such as looking down more steeply at the sand or showing more background above the net?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the newly added player have a natural posture and scale consistent with the other players and the game context?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the added player cast a shadow on the sand that matches the direction and intensity of existing shadows?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 6,
+    "question": "Are the occlusion relationships accurate, such that the net or other players overlap the new player correctly according to depth?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Is the volleyball net's mesh texture and structural geometry (straight poles and top tape) preserved without distortion despite the viewpoint change?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Are the sky, clouds, and ocean horizon line preserved naturally without warping, tiling, or duplication artifacts?",
+    "category": "Preservation",
+    "subcategory": "Environment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the image free from visible editing artifacts like halos, jagged edges, or stitching seams where the player was added?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

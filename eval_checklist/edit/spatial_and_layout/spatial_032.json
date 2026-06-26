@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the overall scene reflect a raised camera angle (approx. 20-30cm higher) with a gentle downward tilt?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is there increased visibility of the top surfaces of objects (e.g., the table, paint cans, armchair) and a steeper floor plane consistent with looking down slightly?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the easel display updated perspective lines consistent with the higher viewpoint while remaining in the same location?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 8.77
+  },
+  {
+    "id": 4,
+    "question": "Is the painter retained in his original position relative to the easel and stool without significant lateral shifting?",
+    "category": "Preservation",
+    "subcategory": "Subject Consistency",
+    "expected_answer": "Yes",
+    "score": 9.07
+  },
+  {
+    "id": 5,
+    "question": "Are the painter's body proportions and size preserved, avoiding the stretching or squashing often caused by perspective warps?",
+    "category": "Preservation",
+    "subcategory": "Subject Consistency",
+    "expected_answer": "Yes",
+    "score": 9.3
+  },
+  {
+    "id": 6,
+    "question": "Is the cat maintained in its original location on the rug with its size and lying-down pose intact?",
+    "category": "Preservation",
+    "subcategory": "Subject Consistency",
+    "expected_answer": "Yes",
+    "score": 9.1
+  },
+  {
+    "id": 7,
+    "question": "Are the newspapers and papers on the floor rendered as flat, rectangular shapes without melting, skewing, or unnatural distortion?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.37
+  },
+  {
+    "id": 8,
+    "question": "Are scattered items like paint tubes and brushes free from geometric distortion (bending, waviness) or excessive blurring?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.1
+  },
+  {
+    "id": 9,
+    "question": "Does the lighting direction remain consistent (streaming from the left window) with highlights matching the original source?",
+    "category": "Preservation",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.3
+  },
+  {
+    "id": 10,
+    "question": "Do objects (painter on stool, easel, cat) make realistic contact with the floor without appearing to float?",
+    "category": "General Quality",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.7
+  },
+  {
+    "id": 11,
+    "question": "Are shadows cast by objects on the floor consistent with the new viewpoint and light direction (not flipped or missing)?",
+    "category": "General Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.23
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from visible seams, ghosting (duplicated parts), or warping artifacts on straight edges (furniture, walls)?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.13
+  }
+]

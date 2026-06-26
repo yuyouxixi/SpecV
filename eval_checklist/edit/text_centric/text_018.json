@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the overhead red banner now display 'SAVE $40' instead of 'SAVE $30'?",
+    "category": "Edit Execution",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the surrounding text on the banner ('BACK-TO-SCHOOL SALE! SPEND $199,' and 'Valid: Feb 10 - Mar 10') preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the 'SAVE $40' text maintain consistent white stroke weight and crisp edges matching the original banner font?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the brand name on the left yellow price tag corrected to spell 'Staples'?",
+    "category": "Edit Execution",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the yellow price tag still display '24/6 (1000 ct)' and '$5.80' unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the blue planner cover now display '2027 PLANNER' instead of '2026 PLANNER'?",
+    "category": "Edit Execution",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is the subtitle 'Weekly Planner' on the blue planner replaced with 'Agenda Hebdomadaire'?",
+    "category": "Edit Execution",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Do the new texts on the planner ('2027', 'Agenda Hebdomadaire') retain the original silver foil-embossed metallic style?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the circular sticker on the pen package now read '2nd Item 50% Off'?",
+    "category": "Edit Execution",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Does the '2nd Item 50% Off' text naturally conform to the curved surface of the shrink-wrapped package?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the 'Quick-Dry Gel Pens' text and the specular highlights on the pen packaging preserved?",
+    "category": "Preservation",
+    "subcategory": "Object Details",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from visible compositing seams, blurring, or digital artifacts around the edited text areas?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

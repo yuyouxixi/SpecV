@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Did the edit update the metric distance in the subtitle ('Official Race Distance') to 42.195 km (or 42.2 km)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Did the edit update the imperial distance in the subtitle to 26.2 miles?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the edit update the distance mentioned in the second body paragraph to the modern standard (42.195 km)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the new text match the original typography (font, color, weight) for both the yellow subtitle and white body text?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the new text correctly integrated beneath the panel's surface reflections, lighting gradients, and texture?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Is the text layout, line spacing, and flow maintained naturally without overlapping characters or misalignment?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the edited text free from typos, formatting errors, or missing digits?",
+    "category": "Edit Execution",
+    "subcategory": "Text Correctness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the panel title 'THE MARATHON' preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the graphic illustration of the runner on the left side of the panel preserved?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the map graphic and its other labels (e.g., 'Athens', 'Marathon') preserved intact, aside from the distance annotation?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Are the foreground and background elements (visitors, stanchions, red rope, room environment) preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Is the edited image free from obvious blurring, artifacts, or geometric distortion?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

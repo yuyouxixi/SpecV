@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the entire image rotated counterclockwise by approximately 15 degrees, resulting in a tilted horizon and angled structures?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Transformation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are all four corner gaps created by the rotation completely filled with generated content, leaving no black borders or transparency?",
+    "category": "Edit Execution",
+    "subcategory": "Outpainting",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the outpainted sky in the top corners seamlessly match the original twilight color gradient and cloud texture?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Do the bottom corners contain outpainted road structures, street-level details, and reflections that logically continue the perspective and geometry of the adjacent scene?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Continuity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the structural continuity of the multi-level highway interchange (ramps, pillars, guardrails) maintained where it extends into the filled regions?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Continuity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Do the light trails extend into the filled regions with smooth, natural curvature that follows the road trajectory?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Continuity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do the newly generated light trails maintain the consistent long-exposure motion blur style and color intensity (red taillights/white headlights) of the original trails?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Are the central subject elements (skyscrapers, stadiums, interchange details, and street scene) preserved without unintended distortion or blurring?",
+    "category": "Preservation",
+    "subcategory": "Content Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the transition between the original rotated image and the outpainted corners invisible, with no seams, stitching artifacts, or sudden color shifts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the outpainted areas free from hallucinations, such as floating objects, disconnected roads, ghosting, or repetitive pattern artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Does the image maintain consistent sharpness, noise grain, and lighting temperature across both the original and filled regions?",
+    "category": "General Quality",
+    "subcategory": "Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

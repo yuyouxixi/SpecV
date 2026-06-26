@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the recipient line read exactly 'Recipient: John D**'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the phone line read exactly 'Phone: (415) 555-0000'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the address line read exactly 'Address: XXXX Westfield Boulevard, Apt. XXXX, San Francisco, CA'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the note section read exactly 'Note: Leave at reception desk'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the side label text read exactly 'Pkg 2 of 3'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the 'ZIP: 94102' text unchanged?",
+    "category": "Preservation",
+    "subcategory": "Label Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the tracking number '1Z-01987-20260213' beneath the barcode unchanged?",
+    "category": "Preservation",
+    "subcategory": "Label Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the barcode visual pattern intact and free from distortion?",
+    "category": "Preservation",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Are the 'Order #: AMZ-20260213-01987' and 'Inspected' texts on the label unchanged?",
+    "category": "Preservation",
+    "subcategory": "Label Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the large 'A-17' text on the box unchanged?",
+    "category": "Preservation",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the green 'QC PASS' sticker unchanged?",
+    "category": "Preservation",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the 'FRAGILE', 'Handle With Care', and 'THIS SIDE UP' stickers unchanged?",
+    "category": "Preservation",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the edited text match the font style, weight, and grayscale of the original label?",
+    "category": "General Quality",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Is the new text properly aligned and fitted within the label boundaries?",
+    "category": "General Quality",
+    "subcategory": "Layout & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the 'Pkg 2 of 3' text consistent with the perspective and angle of the box?",
+    "category": "General Quality",
+    "subcategory": "Layout & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Do paper wrinkles, creases, and tape reflections appear natural and consistent in the edited areas?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Are the edited areas free from obvious blurring, smudging, or digital artifacts?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is all edited text clearly legible and free from spelling errors?",
+    "category": "General Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the large street name text on the sign read exactly 'WESTBOROUGH AVE W'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the smaller district text below the street name read exactly 'DOWNTOWN (Dist. 3)'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the word 'WESTBOROUGH' spelled correctly without any missing or extra letters?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is the new text rendered in a white, uppercase, sans-serif font that matches the original sign's typography?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the district text maintain the correct visual hierarchy (smaller size) and punctuation (parentheses and period) as the original?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Does the longer text 'WESTBOROUGH AVE W' fit within the blue sign boundaries without overlapping the white border or edges?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the new text blend naturally with the sign's surface, exhibiting realistic weathering consistent with the rusty metal?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are the lighting and specular highlights on the sign preserved and consistent across the edited text area?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Is the bottom section of the sign, containing 'Central Library - 500m' and the arrow, completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Are the physical characteristics of the sign, including rust patches, dents, and the white border frame, preserved?",
+    "category": "Preservation",
+    "subcategory": "Object Details",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is the edited text sharp and clearly readable?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the image free of visible AI artifacts such as blurring, smearing, jagged edges, or gibberish?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

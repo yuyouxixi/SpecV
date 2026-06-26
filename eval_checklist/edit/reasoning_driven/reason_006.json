@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the wall clock now display the time as approximately 9:00?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the outdoor sky visible through the windows dark, consistent with a nighttime environment (approx. 9:00 PM)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the terminal's interior lighting appear to be the dominant source of illumination, with ceiling and shop lights visibly active?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are the outdoor elements (aircraft, tarmac) appearing dim or lit by artificial ground lights, rather than sunlight?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Are the people in the foreground (e.g., man in white t-shirt, woman with suitcase) preserved in identity and pose?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Is the flight information display board preserved in content, structure, and legibility?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Are the terminal's architectural features (columns, ceiling, floor, window frames) preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Structure Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the edited clock face free of artifacts, with hands rendered with plausible geometry?",
+    "category": "General Quality",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Is the boundary between the window frames and the dark sky free of jagged edges or unnatural blending?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Blending",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the overall color temperature and lighting consistency realistic for a nighttime indoor scene?",
+    "category": "General Quality",
+    "subcategory": "Visual Coherence",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

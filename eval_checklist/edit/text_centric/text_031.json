@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the Monday 10:00 AM slot on the schedule board read \"Yoga w/ Emma\"?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the Wednesday 10:00 AM slot on the schedule board read \"Yoga w/ Emma\"?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the Sunday 10:00 AM slot on the schedule board read \"Yoga w/ Emma\"?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is the text \"Yoga w/ Sarah\" completely absent from the schedule board?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Are the new \"Yoga w/ Emma\" entries colored blue (matching the Pilates entries)?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the new Annual rate of \"$259.99\" visible on the membership rates sign?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is the new price \"$259.99\" displayed without a strikethrough?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the original price \"$299.99\" still visible on the membership sign with a strikethrough line applied to it?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Are the edited Yoga class entries properly positioned within their respective grid cells without overlapping borders?",
+    "category": "General Quality",
+    "subcategory": "Layout & Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Do the edited Yoga entries maintain the same font style and size as the other class entries on the schedule?",
+    "category": "General Quality",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the text \"Yoga w/ Emma\" clearly legible and free of spelling errors in all modified slots?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the original price \"$299.99\" still readable despite the strikethrough?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Are the edited areas on the schedule board free from blurring, smudging, or visual artifacts?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Is the membership sign free from distortions or artifacts around the edited pricing text?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Are the \"BodyPump\", \"Kickboxing\", \"Spin\", and \"Zumba\" class entries unchanged?",
+    "category": "Preservation",
+    "subcategory": "Schedule Content",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 16,
+    "question": "Are the \"Quarterly: $99.99\" and \"Monthly: $39.99\" rates on the membership sign unchanged?",
+    "category": "Preservation",
+    "subcategory": "Sign Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

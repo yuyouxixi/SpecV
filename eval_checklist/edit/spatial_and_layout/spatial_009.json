@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the airplane positioned significantly lower in the frame compared to the original image?",
+    "category": "Edit Execution",
+    "subcategory": "Movement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the airplane appear to be passing directly through the open sky gap between the two buildings?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the airplane visually centered horizontally within the gap, without overlapping the building facades?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Does the airplane retain its original low-angle perspective (underside view) and geometric proportions?",
+    "category": "Edit Execution",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the airplane's scale appropriate for its new position, appearing consistent with the depth of the gap?",
+    "category": "Edit Execution",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Is the original location of the airplane filled in with sky that matches the surrounding gradient without ghosting?",
+    "category": "Preservation",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the architectural details and outlines of the skyscrapers completely unchanged and undistorted?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Does the sky maintain a smooth, natural gradient without visible banding, seams, or patchiness?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Is the moved airplane free from unnatural halos, cutout edges, or blending artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Does the lighting and color tone of the airplane match the ambient environment of the scene?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Is the sharpness and grain structure of the airplane consistent with the rest of the image?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the contrail (if present) properly aligned with the airplane's new path or cleanly removed without residue?",
+    "category": "Edit Execution",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the lead singer now positioned in the horizontal center of the frame?",
+    "category": "Edit Execution",
+    "subcategory": "Movement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the singer's original position on the right side completely empty, free of ghosting or leftover body parts?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.43
+  },
+  {
+    "id": 3,
+    "question": "Is the area where the singer was removed filled naturally with stage haze and ambient lighting that matches the surrounding environment?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the microphone cable extend continuously from the singer's new central position to connect with the original cable routing on the stage floor?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the singer's scale and perspective consistent with the new central position relative to the stage floor and background elements?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the singer maintain his original pose (holding the microphone) and is he illuminated correctly by the center stage spotlights?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.1
+  },
+  {
+    "id": 7,
+    "question": "Is the drummer and drum kit on the left side retained in their original position and appearance?",
+    "category": "Preservation",
+    "subcategory": "Background Subject",
+    "expected_answer": "Yes",
+    "score": 9.1
+  },
+  {
+    "id": 8,
+    "question": "Is the guitarist in the background (originally behind the singer) still present and unmodified?",
+    "category": "Preservation",
+    "subcategory": "Background Subject",
+    "expected_answer": "Yes",
+    "score": 8.77
+  },
+  {
+    "id": 9,
+    "question": "Is the 'THE REVERBS' banner in the background preserved without text distortion or warping?",
+    "category": "Preservation",
+    "subcategory": "Text",
+    "expected_answer": "Yes",
+    "score": 8.57
+  },
+  {
+    "id": 10,
+    "question": "Are the stage monitors, amplifiers, and mic stands on the left side preserved in their original positions?",
+    "category": "Preservation",
+    "subcategory": "Background Objects",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Are the audience members' raised smartphones and hands in the foreground preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Foreground",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 12,
+    "question": "Do the volumetric light beams remain coherent and natural, ensuring no broken beams or inconsistencies where the singer was moved?",
+    "category": "General Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from obvious editing artifacts such as haloing, jagged edges, or blurring around the relocated singer?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

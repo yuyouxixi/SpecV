@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the menu board now feature exactly three vertical columns instead of four?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is there a single merged column that contains items from both the original 'Starters' and 'Soups & Salads' sections?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the 'Mains' section maintained as its own distinct column?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the 'Sides' section maintained as its own distinct column?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the vertical divider lines adjusted to separate the menu into exactly three sections?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Does the merged column include all original 'Starters' items (Buffalo Wings, Loaded Nachos, Onion Rings, Spinach Artichoke Dip) with correct prices?",
+    "category": "Edit Execution",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the merged column include all original 'Soups & Salads' items (Caesar Salad, Tomato Bisque, New England Clam Chowder) with correct prices?",
+    "category": "Edit Execution",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the 'Mains' column include all original items (Classic Cheeseburger, Fish & Chips, BBQ Baby Back Ribs, Grilled Ribeye Steak) with correct prices?",
+    "category": "Edit Execution",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Does the 'Sides' column include all original items (Seasoned Fries, Coleslaw, Mac & Cheese) with correct prices?",
+    "category": "Edit Execution",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is the title 'HOUSE FAVORITES' preserved at the top of the menu?",
+    "category": "Preservation",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the footer text regarding takeout ('All items available for takeout...') preserved and legible?",
+    "category": "Preservation",
+    "subcategory": "Content",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the text font style match the original hand-drawn chalk aesthetic?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Are the menu item names displayed in the original white color?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are the prices displayed in the original yellow color?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are the yellow underline accents under the section headers preserved or appropriately adapted?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 16,
+    "question": "Is the wooden frame surrounding the chalkboard unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Is the brick wall background surrounding the menu board unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Is all text on the menu clear, legible, and free from gibberish or spelling errors?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Is the image free from visible AI artifacts such as blurriness, smearing, or ghosting in the edited areas?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

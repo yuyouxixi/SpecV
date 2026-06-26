@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Is the grey L-shaped sofa now positioned on the right side of the room?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the wooden dining table now positioned on the left side of the room?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Are the black dining chairs arranged around the dining table on the left side?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the woven pendant lamp hanging above the dining table on the left side?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the round marble coffee table positioned in front of the sofa on the right side?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the gold floor lamp standing on the right side of the room?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the gallery wall of black-framed pictures mounted on the wall on the right side?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Is the patterned area rug positioned under the seating area on the right side?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Do the repositioned furniture pieces align correctly with the room's perspective lines and vanishing points?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Perspective & Scale",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Do the shadows cast by the moved furniture align consistently with the light sources from the windows?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the pendant lamp correctly attached to the ceiling on the left side without floating or missing cords?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Are the furniture pieces placed without physically impossible overlaps with walls, windows, or the fireplace?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Are the large windows and the snowy winter forest scene view preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Does the built-in fireplace and the fire within it remain unchanged in position and appearance?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 15,
+    "question": "Are the hardwood flooring, walls, and ceiling preserved without structural distortion or texture loss?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 16,
+    "question": "Are the areas where furniture was removed (e.g., original sofa and dining spots) free from ghosting, blurred textures, or leftover artifacts?",
+    "category": "General Quality",
+    "subcategory": "Inpainting Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 17,
+    "question": "Are all moved objects (chairs, sofa, frames) rendered with clean edges and no unnatural distortion or missing parts?",
+    "category": "General Quality",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 18,
+    "question": "Do the furniture pieces have realistic contact shadows on the floor to prevent a 'floating' appearance?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Are textures (rug pattern, lamp weave, sofa fabric) preserved and sharp in their new locations?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 20,
+    "question": "Is the image free from duplicated furniture items (e.g., two sofas or two dining tables)?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.5
+  }
+]

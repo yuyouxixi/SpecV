@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the jukebox now located on the left side of the image (previously on the right)?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the neon 'BEST BURGER IN TOWN' sign now positioned on the right side of the back wall?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the chalkboard menu now positioned on the left side of the back wall?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the man reading the newspaper now positioned on the right side of the image?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the text 'BEST BURGER IN TOWN' on the neon sign readable from left to right (not mirror-reversed)?",
+    "category": "Edit Execution",
+    "subcategory": "Text Correction",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the chalkboard header 'DAILY SPECIALS:' readable and correctly oriented?",
+    "category": "Edit Execution",
+    "subcategory": "Text Correction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Are the menu items on the chalkboard (e.g., 'MEATLOAF', 'CHICKEN POT PIE', 'LIVER & ONIONS') and their prices readable from left to right?",
+    "category": "Edit Execution",
+    "subcategory": "Text Correction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the text 'PIE OF THE DAY: APPLE' at the bottom of the chalkboard readable and correctly oriented?",
+    "category": "Edit Execution",
+    "subcategory": "Text Correction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the newspaper headline 'LOCAL HERO SAVES CAT' readable and correctly oriented?",
+    "category": "Edit Execution",
+    "subcategory": "Text Correction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Is 'The Times' masthead on the newspaper readable and correctly oriented?",
+    "category": "Edit Execution",
+    "subcategory": "Text Correction",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Does the neon sign maintain its original glowing effect and typography style without distortion?",
+    "category": "Preservation",
+    "subcategory": "Style Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the chalkboard text retain its hand-drawn chalk appearance without looking digitally typed or smeared?",
+    "category": "Preservation",
+    "subcategory": "Style Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Does the corrected text on the neon sign align correctly with the perspective and angle of the wall?",
+    "category": "Preservation",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Does the newspaper text align naturally with the curvature of the paper and the man's hands (no floating text)?",
+    "category": "Preservation",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the image free of visible vertical seams, stitching lines, or disjointed boundaries from the flip?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 16,
+    "question": "Is the area surrounding the corrected text elements free from blurring, smudging, or ghosting artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

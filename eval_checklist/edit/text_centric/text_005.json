@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the headline in the top-left notice correctly spell the word 'Opportunities' (replacing 'Oppurtunities')?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the date line on the 'Campus Talent Show' poster correctly spell 'Wednesday' (replacing 'Wenesday')?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "In the 'Lost & Found' note, is the word 'Library' spelled correctly (replacing 'Libary')?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "In the 'Lost & Found' note, is the word 'receive' spelled correctly (replacing 'recieve')?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "On the 'Used Textbooks' flyer, is the word 'Vocabulary' spelled correctly (replacing 'Vocabulery')?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Does the corrected word 'Opportunities' match the font, size, and weight of the surrounding headline text?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the corrected word 'Wednesday' match the font style and color of the rest of the date line on the poster?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Do the corrected words 'Library' and 'receive' maintain the original handwritten style of the 'Lost & Found' note?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Does the corrected word 'Vocabulary' match the printed font style and size of the surrounding list items?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is the phone number '(555) 876-5432' on the summer research notice preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Text Details",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Are the graphical illustrations (microphone, lips, etc.) and the QR code on the 'Campus Talent Show' poster preserved?",
+    "category": "Preservation",
+    "subcategory": "Visual Elements",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the name 'James Miller' on the 'Lost & Found' note preserved?",
+    "category": "Preservation",
+    "subcategory": "Text Details",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the contact info 'Emily Chen' and phone number on the 'Used Textbooks' flyer preserved?",
+    "category": "Preservation",
+    "subcategory": "Text Details",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is the cork board texture consistent and free of smoothing or artifacts around the edited text areas?",
+    "category": "General Quality",
+    "subcategory": "Texture & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Is the text alignment and spacing of the corrected words natural, without overlapping or shifting surrounding text?",
+    "category": "General Quality",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Are the edited regions free from obvious blurring, haloing, or digital artifacts?",
+    "category": "General Quality",
+    "subcategory": "Texture & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

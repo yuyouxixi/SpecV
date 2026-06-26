@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image demonstrate zero-gravity physics by showing multiple objects (e.g., pizza, books, clothes, laptop) floating in mid-air with visible gaps between them and the surfaces below?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physics Compliance",
+    "expected_answer": "Yes",
+    "score": 9.7
+  },
+  {
+    "id": 2,
+    "question": "Do the floating objects exhibit varied, random orientations (tilted, rotated) consistent with free drift rather than remaining parallel to the ground or aligned?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physics Compliance",
+    "expected_answer": "Yes",
+    "score": 8.6
+  },
+  {
+    "id": 3,
+    "question": "Has the cat's posture changed from a curled-up sleeping position to an active, flailing pose with limbs extended outward?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Biological Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the cat exhibit specific visual signs of being startled, such as wide-open eyes, an open mouth, or bristling fur?",
+    "category": "Edit Execution",
+    "subcategory": "Subject Expression",
+    "expected_answer": "Yes",
+    "score": 8.57
+  },
+  {
+    "id": 5,
+    "question": "Is the cat depicted as suspended in the air (floating) rather than resting in contact with the bed?",
+    "category": "Edit Execution",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Are small, lightweight objects (e.g., pens, crumpled paper balls) shown floating independently from the desks or floor?",
+    "category": "Edit Execution",
+    "subcategory": "Fine Detail",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Is the cat still clearly recognizable as an orange tabby cat?",
+    "category": "Preservation",
+    "subcategory": "Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.27
+  },
+  {
+    "id": 8,
+    "question": "Are the movie posters (Alien, Blade Runner, Star Wars) on the walls preserved with readable text and correct imagery?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 8.4
+  },
+  {
+    "id": 9,
+    "question": "Is the cat's body anatomically coherent (correct number of limbs, natural joints) despite the complex flailing pose?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the background free of significant artifacts (blurs, smudges, holes) in areas where objects were lifted from their original positions?",
+    "category": "General Quality",
+    "subcategory": "Inpainting Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.2
+  },
+  {
+    "id": 11,
+    "question": "Are the edges of floating objects clean (no halos or jagged cutouts) and is their lighting consistent with the room?",
+    "category": "General Quality",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.73
+  }
+]

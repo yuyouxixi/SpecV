@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the text 'Memorial Hospital' completely removed from the station list?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the text 'Civic Center' present in the station list?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is 'Civic Center' positioned correctly between 'Sports Arena' and 'City Hall'?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Logic",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does 'Lincoln High' appear immediately below 'City Plaza', closing the gap left by the removal?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Logic",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Does the station list contain exactly 8 distinct stops?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the full station order exactly: Central Station, City Plaza, Lincoln High, Sports Arena, Civic Center, City Hall, Tech Park, University District?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Logic",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Does the font style, size, and color of 'Civic Center' match the surrounding station names?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the vertical spacing between all station names consistent?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Are the graphic connector lines or dots connecting the stations properly aligned and continuous?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the new text 'Civic Center' clearly legible and free of typos?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the 'Route Map' title header unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the overhead 'Route 42' LED sign (including times and temperature) preserved?",
+    "category": "Preservation",
+    "subcategory": "Text",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the edited area on the Route Map panel free of obvious artifacts, blurring, or smudging?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

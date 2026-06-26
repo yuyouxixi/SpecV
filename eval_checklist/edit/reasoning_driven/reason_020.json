@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Are the wavelength annotations on the spectrum bar corrected so that Red is labeled approximately 700 nm and Violet approximately 400 nm?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge (Physics)",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the Rayleigh scattering formula updated to show an inverse-fourth-power dependence on wavelength (e.g., I ∝ 1/λ⁴)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge (Physics)",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the corrected body text accurately state that shorter wavelengths (blue/violet) are scattered more easily than longer wavelengths?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the explanation for sunsets correctly state that they appear red/orange because the blue light has been scattered away?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the conclusion box corrected to state that blue light is scattered most easily and red light is scattered least easily?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the intermediate wavelength values (for orange, yellow, green, etc.) updated to form a logical, monotonic progression between ~400 nm and ~700 nm?",
+    "category": "Edit Execution",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the formula on the handout cover (sitting on the pedestal) updated to reflect the correct 1/λ⁴ relationship?",
+    "category": "Edit Execution",
+    "subcategory": "Multi-Carrier Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the red text styling and positioning preserved for the corrected Rayleigh scattering formula line?",
+    "category": "Edit Execution",
+    "subcategory": "Typography Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the bilingual color labels (e.g., 'Red / Rojo') preserved on the spectrum bar?",
+    "category": "Edit Execution",
+    "subcategory": "Typography Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the visual rainbow gradient of the spectrum bar preserved (colors not swapped), with only the numerical annotations changed?",
+    "category": "Preservation",
+    "subcategory": "Visual Style Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the prism illustration on the left side of the poster completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the main title ('Why is the Sky Blue?') and subtitle unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are the visitors (man and woman), the wooden pedestal, and the stack of handouts physically unchanged (aside from the text correction on the cover)?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Are the background museum elements (ceiling, lights, other exhibits) completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Are the glossy reflections on the poster surface preserved naturally over the areas where text was modified?",
+    "category": "Preservation",
+    "subcategory": "Texture/Lighting Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the corrected text sharp, legible, and free from blur or pixelation?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 17,
+    "question": "Are the edited text areas free from visible artifacts like halos, smearing, or background color mismatches?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 18,
+    "question": "Do the font styles and sizes of the corrected text match the original poster design?",
+    "category": "General Quality",
+    "subcategory": "Typography Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Is the overall logical consistency maintained across the poster (spectrum numbers, formula, body text, and conclusion all agree)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Global Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

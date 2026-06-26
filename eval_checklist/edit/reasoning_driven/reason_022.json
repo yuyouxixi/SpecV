@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the digit in Row 1, Column 8 corrected to '1'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the digit in Row 1, Column 9 corrected to '2'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the edited grid satisfy Sudoku rules, with every row, every column, and every 3×3 box containing the digits 1–9 exactly once?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Sudoku Validity",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Were the corrections achieved by modifying exactly two cells, satisfying the 'minimum changes' constraint?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Constraint Satisfaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Do the modified digits visually match the original dry-erase marker style (stroke width, ink density variation, and handwriting font)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are the modified digits aligned consistently within their cells (centered and baseline matching neighbors)?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Are the modified cells free from visible editing artifacts, such as ghosting, hard edges, or mismatched whiteboard texture?",
+    "category": "Edit Execution",
+    "subcategory": "Seamlessness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Are all 79 unmodified digits in the grid preserved exactly as they appeared in the original image?",
+    "category": "Preservation",
+    "subcategory": "Grid Content Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Are the grid lines (thick box borders and thin cell dividers) preserved intact without breaks or distortion?",
+    "category": "Preservation",
+    "subcategory": "Structure Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the handwritten doodle text \"Rows aren't everything—check the columns too!\" preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Annotation Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the printed \"Sudoku Practice\" sheet and its tape preserved unchanged in the top-left corner?",
+    "category": "Preservation",
+    "subcategory": "Document Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the whiteboard glare/reflection preserved in its original position, shape, and intensity?",
+    "category": "Preservation",
+    "subcategory": "Lighting Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Is the edited image free from global quality issues like blurring, pixelation, or unnatural color shifts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

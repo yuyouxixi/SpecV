@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Are the three tech devices (earbuds case, smartwatch, and smartphone) arranged in a single straight horizontal line?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the tech devices ordered by size from left to right: Earbuds Case (smallest) -> Smartwatch (medium) -> Smartphone (largest)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Object Ordering",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the Earbuds Case positioned as the leftmost item in the arrangement?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Is the Smartphone positioned as the rightmost item in the arrangement?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is there visible spacing between the tech devices, ensuring they do not overlap or occlude one another?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Do the relative sizes of the devices appear realistic (e.g., the smartphone is significantly larger than the earbuds case)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Do the tech devices retain their original aspect ratios and shapes without unnatural stretching, squashing, or warping?",
+    "category": "General Quality",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the wooden table texture seamless and natural in the areas where the devices were originally located (no ghosting, holes, or obvious inpainting)?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are the non-tech items (notebook, pens, eyeglasses, and coffee cup) preserved in their original positions and appearances?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Do the rearranged devices cast realistic shadows that are consistent with the scene's original lighting direction?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from visible editing artifacts such as jagged edges, halos, or unnatural cut-and-paste seams around the devices?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Is the liquid in the middle beaker green, demonstrating the correct subtractive color mixing of blue and yellow?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge (Color Mixing)",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the liquid level in the left (blue) beaker visibly reduced by approximately half?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Reasoning",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the liquid level in the right (yellow) beaker visibly reduced by approximately half?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Reasoning",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the remaining liquid in the left beaker retain its original blue color?",
+    "category": "Edit Execution",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the remaining liquid in the right beaker retain its original yellow color?",
+    "category": "Edit Execution",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the green liquid in the middle beaker rendered as a uniform mixture rather than separated layers of blue and yellow?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Is the 'Color Theory 101' text on the paper note preserved clearly and legibly?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Are the positions and geometries of the three beakers preserved (excluding the changing liquid levels)?",
+    "category": "Preservation",
+    "subcategory": "Object Geometry Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the edited area free of visual artifacts, such as unnatural blurring, halos, or unintended spill trails?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

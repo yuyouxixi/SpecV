@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the modern smartphone removed from the woman's hands?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Object Identification & Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the blue plastic recycling bin completely removed from the scene?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Object Identification & Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are the film crew members and modern equipment (e.g., stands, flags, walkie-talkies) removed from the edges of the frame?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Object Identification & Removal",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Has the smartphone been replaced with a historically plausible 19th-century item (e.g., book, letter, pocket watch)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Historical Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Has the recycling bin been replaced with a period-appropriate container (e.g., barrel, crate) or seamlessly filled with background?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Historical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the replacement object in the woman's hands appear natural, with correct grip, size, and occlusion?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the area where the recycling bin was removed blended seamlessly with the cobblestone street, respecting perspective and shadows?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Do the replacement objects exhibit realistic textures consistent with period materials (e.g., wood, paper, metal) rather than plastic?",
+    "category": "Edit Execution",
+    "subcategory": "Material Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Is the woman in the foreground (face, hair, Victorian dress) preserved without unintended distortion?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are the horse-drawn carriages and horses preserved without structural errors (e.g., distorted wheels, fused legs)?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the lighting on the replacement objects consistent with the ambient scene lighting and color tone?",
+    "category": "General Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the image free of visible artifacts, blurring, or seams in the edited regions?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

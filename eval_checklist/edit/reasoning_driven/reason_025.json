@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "In the 'Overview of Australia' paragraph, has 'Sydney' been replaced with 'Canberra' as the capital?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the updated paragraph text accurately describe Canberra (e.g., removing the description of it as a 'port city')?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Has the red pushpin on the map been moved from the coast (Sydney) to an inland location southeast (corresponding to Canberra)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Geographic Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "In Table 3-1, is the capital of Australia updated to 'Canberra'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "In Table 3-1, is the capital of Canada updated to 'Ottawa'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "In Table 3-1, is the capital of Turkey updated to 'Ankara'?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "In Table 3-1, is the capital of Brazil updated to 'Brasília' (or 'Brasilia')?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Has the 'CAPITAL' label on the map been moved alongside the new position of the red pushpin?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Do the corrected table rows maintain the original em-dash format (e.g., 'Country — Capital') and consistent row spacing?",
+    "category": "Edit Execution",
+    "subcategory": "Formatting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Does the revised paragraph maintain a similar total length and block shape to the original text?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the handwritten sticky note ('Note to self...') preserved completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the 'Quick Quiz' box (title and questions) preserved completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Are the ruler and yellow highlighter on the right side preserved without distortion or edits?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the map's coastlines, terrain coloring, and legend box preserved unchanged (aside from the pin/label move)?",
+    "category": "Preservation",
+    "subcategory": "Map Element Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Are the page headers (e.g., 'Countries and Capitals', 'Overview of Australia') and the finger holding the page preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Context Preservation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is the area on the map where the pushpin was originally located (Sydney) seamlessly filled in (inpainted) without visible artifacts?",
+    "category": "General Quality",
+    "subcategory": "Inpainting Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 17,
+    "question": "Do the corrected texts in the paragraph and table match the original font family, size, perspective, and ink tone?",
+    "category": "General Quality",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 18,
+    "question": "Is the paper grain texture preserved consistently across the edited areas (no smooth 'pasted' look)?",
+    "category": "General Quality",
+    "subcategory": "Texture Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

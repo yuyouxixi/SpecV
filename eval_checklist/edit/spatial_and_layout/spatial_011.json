@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the red car significantly reduced in size compared to the original image?",
+    "category": "Edit Execution",
+    "subcategory": "Resizing",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the car appear to be positioned farther away from the camera than in the original image?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the car correctly positioned on the road surface without appearing to float above or sink into the pavement?",
+    "category": "Edit Execution",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the car remain aligned with the lane direction, facing forward along the highway?",
+    "category": "Edit Execution",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the car's shadow and ground contact consistent with its new size and position?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the area previously occupied by the larger car filled in seamlessly with appropriate road texture?",
+    "category": "Edit Execution",
+    "subcategory": "In-painting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the lane markings and road lines reconstructed continuously and correctly where the car used to be?",
+    "category": "Edit Execution",
+    "subcategory": "In-painting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are key details of the car (wheels, headlights, mirrors) preserved and discernible despite the size reduction?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the trees and forest background preserved without distortion or duplication artifacts?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the highway guardrail preserved in its original shape and alignment?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the sky and lighting (sunset/golden hour) preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the atmospheric haze and dust trail preserved naturally without abrupt cutouts?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the edited image free from halo effects, jagged edges, or unnatural outlines around the resized car?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from ghosting artifacts or floating/disconnected object parts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

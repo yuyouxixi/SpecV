@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Has the frozen waterfall (ice cascade) been transformed into flowing liquid water?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Phase Transition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Has the frozen river surface been converted into liquid water?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Phase Transition",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Do the trees display green foliage appropriate for summer instead of snow-covered branches?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Seasonal Phenology",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Are the heavy layers of snow removed from the rocks and ground?",
+    "category": "Edit Execution",
+    "subcategory": "Snow Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Are the hanging icicles on the cliff faces removed or replaced with flowing water?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Has the overall color palette shifted from cold blues/whites to warmer earth tones and greens?",
+    "category": "Edit Execution",
+    "subcategory": "Color Grading",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the waterfall show realistic characteristics of flowing water (e.g., motion blur, mist, cascading streams) rather than solid ice texture?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Rendering",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Does the river/pool surface exhibit liquid properties (ripples, reflections) rather than a cracked ice texture?",
+    "category": "Edit Execution",
+    "subcategory": "Texture Rendering",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Do the exposed rock surfaces show natural stone colors (brown/grey) rather than blue ice tints?",
+    "category": "Edit Execution",
+    "subcategory": "Material Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Is the structural shape of the canyon walls and cliffs preserved?",
+    "category": "Preservation",
+    "subcategory": "Background Structure",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the large boulder in the foreground (left side) preserved in position and shape?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Are the positions and layout of the trees consistent with the original image?",
+    "category": "Preservation",
+    "subcategory": "Object Layout",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the edited image free of unnatural artifacts (smudging, floating pixels) where ice/snow was removed?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the transitions between water, rocks, and vegetation seamless and visually natural?",
+    "category": "General Quality",
+    "subcategory": "Coherence",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

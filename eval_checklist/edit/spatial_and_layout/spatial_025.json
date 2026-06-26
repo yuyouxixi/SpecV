@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the central bronze sculpture positioned noticeably closer to the camera (lower in the frame) compared to its original location?",
+    "category": "Edit Execution",
+    "subcategory": "Movement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the sculpture appear larger in scale, consistent with the perspective shift of moving approximately 6 feet closer to the viewer?",
+    "category": "Edit Execution",
+    "subcategory": "Resizing",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the sculpture rotated clockwise by approximately 15 degrees relative to its original orientation?",
+    "category": "Edit Execution",
+    "subcategory": "Rotation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Has the reflection of the sculpture on the marble floor been correctly repositioned and rotated to match the object's new state?",
+    "category": "Edit Execution",
+    "subcategory": "Reflection Update",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the shadow cast by the sculpture shifted forward to correspond accurately with the sculpture's new position and the room's lighting?",
+    "category": "Edit Execution",
+    "subcategory": "Shadow Update",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the area where the sculpture originally stood seamlessly inpainted, revealing the continuous marble floor pattern without seams or ghosting artifacts?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Are any visitors or background elements previously hidden by the sculpture now visible and rendered with correct anatomy and proportions?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the sculpture retain its original bronze material texture and golden-brown color without unwanted hue shifts?",
+    "category": "Preservation",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Are the large abstract paintings on the left and right walls preserved in their original positions and appearance?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Do the visitors standing on the sides of the gallery or sitting on benches remain in their original locations and poses?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the arched doorway at the far end of the gallery preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the sculpture appear properly grounded on the floor (not floating or tilting) with perspective lines consistent with the room?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the shadow exhibit soft gradients consistent with the diffuse lighting from the skylight, rather than harsh cutout edges?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Are the edges of the moved sculpture seamlessly integrated into the new position without visible cut-and-paste artifacts or jagged lines?",
+    "category": "General Quality",
+    "subcategory": "Visual Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the edited image free from unnatural blur, resolution loss, or noise, particularly in the inpainted regions and on the sculpture itself?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

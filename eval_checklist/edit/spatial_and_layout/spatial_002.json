@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the painting containing beige tones and a curved arch line (originally in the center) now located at the leftmost position on the wall?",
+    "category": "Edit Execution",
+    "subcategory": "Object Repositioning",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Is the painting with lighter grey and beige blocks (originally on the right) now positioned in the center of the arrangement?",
+    "category": "Edit Execution",
+    "subcategory": "Object Repositioning",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the painting with heavy black abstract shapes (originally on the left) now located at the far right position on the wall?",
+    "category": "Edit Execution",
+    "subcategory": "Object Repositioning",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the internal artwork content of each painting remain unchanged (no morphing or composition alteration) despite the position swap?",
+    "category": "Edit Execution",
+    "subcategory": "Content Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are there exactly three framed paintings on the wall (no duplicates, missing frames, or partial fragments)?",
+    "category": "Edit Execution",
+    "subcategory": "Object Count",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Are all three paintings aligned horizontally at the same height (top and bottom edges aligned) without vertical drift?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Do the relocated paintings cast realistic drop shadows on the wall consistent with the directional sunlight coming from the right window?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the wall surface behind and around the paintings free from 'ghosting' artifacts, smudges, or lighter/darker patches where the frames used to be?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the grey sofa below the paintings preserved completely (shape, texture, and position) without warping near the painting area?",
+    "category": "Preservation",
+    "subcategory": "Background Objects",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Are the edited paintings and the surrounding wall area as sharp and detailed as the rest of the image (no localized blur)?",
+    "category": "General Quality",
+    "subcategory": "Image Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

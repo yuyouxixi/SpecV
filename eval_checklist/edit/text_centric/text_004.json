@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the wooden sign on the left now read \"Tony's Cafe\"?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the word \"Deli\" completely removed from the wooden sign?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the date text at the bottom of the advertisement board read \"August 1st - August 31st\"?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Are the newly generated texts (\"Cafe\" and the dates) free of spelling errors?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Does the font style and color of \"Cafe\" match the rustic, hand-painted aesthetic of \"Tony's\"?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Is the word \"Cafe\" properly aligned and sized relative to \"Tony's\" on the sign?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the new date text on the chalkboard match the existing white chalk-style typography?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the new date text fit properly within the chalkboard layout without overflowing or overlapping borders?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the word \"Tony's\" on the wooden sign preserved exactly as it was?",
+    "category": "Preservation",
+    "subcategory": "Text & Object",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the subtext \"Sandwiches & Salads\" on the wooden sign preserved?",
+    "category": "Preservation",
+    "subcategory": "Text & Object",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the rustic wooden texture of the sign plaque preserved around the edited text?",
+    "category": "Preservation",
+    "subcategory": "Text & Object",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the other texts on the advertisement board (\"Main Street Summer Sale\", \"Up to 70% Off\") preserved?",
+    "category": "Preservation",
+    "subcategory": "Text & Object",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the image free of blurriness, distortion, or artifacts around the edited wooden sign?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Is the image free of blurriness, distortion, or artifacts around the edited advertisement board?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

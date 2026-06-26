@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the room placard at the top read exactly 'B-417'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the 'B-417' text displayed in white on a blue background, maintaining the original font size and style?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Style",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does line 3 of the 'LAB ENTRY REQUIREMENTS' list now read '3. All Visitors Must Register at Front Desk'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Has the line 'No Eating or Drinking Inside' been renumbered to 4?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Has the line 'Please Close Door When Leaving' been renumbered to 5?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the vertical spacing between all five lines in the requirement list uniform?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the numbers 1 through 5 in the requirement list vertically aligned?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Does the black sticker above the card reader read exactly 'TAP TO ACCESS'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Is the text 'TAP TO ACCESS' centered on the black sticker and displayed in white?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are lines 1 ('Unauthorized Personnel Prohibited') and 2 ('Mask Required Upon Entry') preserved with their original numbering?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the worn/aged edges of the black sticker above the card reader preserved?",
+    "category": "Preservation",
+    "subcategory": "Visual Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the header 'LAB ENTRY REQUIREMENTS' and the footer 'Emergency: 555-0199' unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the circular 'Doorbell' sticker on the left unchanged?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Is the green 'EXIT' sign with the arrow unchanged?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Are the door handle and card reader hardware unchanged in shape and position?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Are all text additions ('B-417', list item 3, 'TAP TO ACCESS') legible and free of spelling errors?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is the sandblasted metal texture of the door consistent, without visible seams or smoothing around the edited areas?",
+    "category": "General Quality",
+    "subcategory": "Texture & Material",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Is the image free of visible AI artifacts, blurring, or smudging, especially around the text edits?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

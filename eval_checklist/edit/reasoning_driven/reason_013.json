@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Has the 'Venus de Milo' been replaced by a statue clearly recognizable as the 'Winged Victory of Samothrace' (Nike of Samothrace)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the new statue feature large, dramatic outstretched wings, which are the defining characteristic of the Winged Victory?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the new statue depicted without a head and without arms, consistent with the historical state of the Winged Victory?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the statue exhibit wind-blown, clinging drapery and a forward-leaning dynamic pose (as opposed to the static pose of Venus)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Has the text on the metal floor plaque been updated to read 'Winged Victory of Samothrace' (or 'Nike of Samothrace')?",
+    "category": "Edit Execution",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Does the updated plaque maintain the original typographic style, layout, and bilingual format (if originally present)?",
+    "category": "Edit Execution",
+    "subcategory": "Text Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Is the new statue correctly positioned on the central pedestal where the Venus de Milo originally stood?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Geometry",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Do the highlights and shadows on the new statue (especially the wings) align with the room's existing spotlight direction?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the cast shadows on the floor or wall consistent with the shape of the winged figure?",
+    "category": "Edit Execution",
+    "subcategory": "Shadow Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the marble texture of the new statue consistent with the visual aesthetic and material of the original museum collection?",
+    "category": "Edit Execution",
+    "subcategory": "Material Matching",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the two oil paintings on the left wall preserved exactly as they were in the original image?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Are the tourists, the gallery guide, and their clothing/poses preserved without distortion or alteration?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 13,
+    "question": "Is the velvet rope barrier and its stanchions preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the wall text 'CLASSICAL SCULPTURE AND THE IDEAL HUMAN BODY' preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Is the camera angle and perspective maintained exactly as in the original image?",
+    "category": "Preservation",
+    "subcategory": "Viewpoint Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 16,
+    "question": "Is the new statue integrated into the scene without visible seams, halos, or masking artifacts?",
+    "category": "General Quality",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Are the proportions of the Winged Victory appropriate for the pedestal and the surrounding gallery space?",
+    "category": "General Quality",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 18,
+    "question": "Is the image free from generative artifacts (e.g., melted geometry, blurred details, or illogical structural distortions)?",
+    "category": "General Quality",
+    "subcategory": "Image Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

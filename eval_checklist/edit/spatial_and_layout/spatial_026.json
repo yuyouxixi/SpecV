@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image exhibit a perspective shift consistent with the camera moving to the right (parallax effect), rather than just a simple crop or 2D stretch?",
+    "category": "Edit Execution",
+    "subcategory": "Viewpoint Change",
+    "expected_answer": "Yes",
+    "score": 9.93
+  },
+  {
+    "id": 2,
+    "question": "Do the people in the foreground on the right appear closer and slightly larger, consistent with the camera moving towards them?",
+    "category": "Edit Execution",
+    "subcategory": "Resizing",
+    "expected_answer": "Yes",
+    "score": 9.43
+  },
+  {
+    "id": 3,
+    "question": "Does the crowd on the left (near the train) appear relatively more distant compared to the foreground subjects, enhancing the sense of depth?",
+    "category": "Edit Execution",
+    "subcategory": "Depth Perception",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the Metro North train display a coherent perspective change (e.g., side plane angle) matching the new camera position?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Consistency",
+    "expected_answer": "Yes",
+    "score": 9.3
+  },
+  {
+    "id": 5,
+    "question": "Do the perspective lines of the platform (including the yellow safety strip and floor tiles) converge naturally to a new vanishing point consistent with the rightward shift?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the text on the overhead digital signs (e.g., 'JFK EXPRESS', 'DOWNTOWN', and minute values) sharp, legible, and free from perspective distortion?",
+    "category": "Preservation",
+    "subcategory": "Text Legibility",
+    "expected_answer": "Yes",
+    "score": 9.73
+  },
+  {
+    "id": 7,
+    "question": "Is the 'Metro North' text on the side of the train preserved clearly without blurring or warping?",
+    "category": "Preservation",
+    "subcategory": "Text Legibility",
+    "expected_answer": "Yes",
+    "score": 8.9
+  },
+  {
+    "id": 8,
+    "question": "Is the repeating tile pattern on the walls natural and continuous, without visible seams, misalignment, or stretching artifacts?",
+    "category": "General Quality",
+    "subcategory": "Texture & Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.77
+  },
+  {
+    "id": 9,
+    "question": "Are vertical structures (pillars, wall edges) and ceiling beams straight and geometrically logical, without unnatural bending?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Are human figures rendered correctly without anatomical distortions, floating limbs, or messy outlines?",
+    "category": "General Quality",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.23
+  },
+  {
+    "id": 11,
+    "question": "Do people and objects (like luggage) maintain proper contact with the ground, including consistent shadows and no 'floating' artifacts?",
+    "category": "General Quality",
+    "subcategory": "Physics & Lighting",
+    "expected_answer": "Yes",
+    "score": 8.7
+  },
+  {
+    "id": 12,
+    "question": "Does the lighting and shadow distribution remain consistent with the scene's light sources after the perspective shift?",
+    "category": "General Quality",
+    "subcategory": "Physics & Lighting",
+    "expected_answer": "Yes",
+    "score": 8.23
+  },
+  {
+    "id": 13,
+    "question": "Is the final image free of border issues (e.g., unusual cropping, missing edges, or stretched margins)?",
+    "category": "General Quality",
+    "subcategory": "Image Structure",
+    "expected_answer": "Yes",
+    "score": 8.77
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Does the main top horizontal banner display the year '2025'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the vertical text on the left pillar read 'NYC 2025'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the vertical text on the right pillar read 'NYC 2025'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the red sponsor banner on the left pillar read 'CHASE BANK'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the red sponsor banner on the right pillar read 'CHASE BANK'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the dark blue sponsor banner on the left pillar read 'ADIDAS'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the dark blue sponsor banner on the right pillar read 'ADIDAS'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Are all instances of the old text '2024', 'BANK OF AMERICA', and 'NIKE' (including logos) completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the 'Official Banking Partner' tagline preserved below 'CHASE BANK' on both pillars?",
+    "category": "Preservation",
+    "subcategory": "Text Detail",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the 'Official Footwear & Apparel' tagline preserved near 'ADIDAS' on both pillars?",
+    "category": "Preservation",
+    "subcategory": "Text Detail",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the 'NYC 2025' text on the pillars displayed in the original yellow/gold color?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the 'CHASE BANK' text rendered in a white, sans-serif font?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Do the new texts ('CHASE BANK', 'ADIDAS') fit properly within their respective banners without overflowing?",
+    "category": "Edit Execution",
+    "subcategory": "Layout & Size",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Does the '2025' text on the main banner properly follow the curvature and perspective of the arch?",
+    "category": "General Quality",
+    "subcategory": "Geometry & Perspective",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Are the new texts ('2025', 'CHASE BANK', 'ADIDAS') correctly spelled and free of gibberish?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is the edited image free from visible artifacts, blurring, or texture inconsistencies in the modified areas?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 17,
+    "question": "Do the lighting and shadows on the edited text areas match the surrounding environment?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Realism",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 18,
+    "question": "Is the 'NEW YORK CITY MARATHON' text on the main banner preserved?",
+    "category": "Preservation",
+    "subcategory": "Background Text",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 19,
+    "question": "Is the digital clock time '03:28:15' preserved exactly?",
+    "category": "Preservation",
+    "subcategory": "Scene Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 20,
+    "question": "Are the 'GATORADE' banners and logos preserved?",
+    "category": "Preservation",
+    "subcategory": "Background Text",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 21,
+    "question": "Are the runners, crowd, and ground markings (e.g., '26.2 MILES FINISH') unchanged?",
+    "category": "Preservation",
+    "subcategory": "Scene Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

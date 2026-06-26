@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the female model positioned noticeably to the left of the frame center, approximately one step from her original position?",
+    "category": "Edit Execution",
+    "subcategory": "Movement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the model appear approximately 5–8% larger in scale compared to the original, indicating she moved closer to the camera?",
+    "category": "Edit Execution",
+    "subcategory": "Resizing",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Is the model still fully contained within the frame, ensuring no new cropping of her head, hands, or feet occurred during the move?",
+    "category": "General Quality",
+    "subcategory": "Composition",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Are the model's pose, arm angles, and hand gestures completely unchanged from the original image?",
+    "category": "Preservation",
+    "subcategory": "Subject Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the model's facial expression and gaze direction completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Subject Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the shadows cast by the model on the backdrop and floor realistically updated to reflect her new position relative to the studio lights?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Do the model's feet and legs correctly occlude the floor tape marks and cables based on her new position?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the model's feet properly grounded on the floor without appearing to float, sink, or have mismatched contact shadows?",
+    "category": "General Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the photographer and the assistant preserved in their exact original positions and poses?",
+    "category": "Preservation",
+    "subcategory": "Background Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the studio lights, tripod, equipment cases, and floor cables (where not occluded) preserved in their original locations?",
+    "category": "Preservation",
+    "subcategory": "Background Content",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the area where the model originally stood filled in seamlessly with the correct grey backdrop and floor texture, leaving no ghosting or artifacts?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the model's edges, particularly around fine hair strands and the suit, free from jagged artifacts, halos, or unnatural blurring?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Is the texture detail and sharpness of the model's face and black suit maintained, matching the original image quality?",
+    "category": "General Quality",
+    "subcategory": "Image Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

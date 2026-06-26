@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict only one of the two conflicting species (either Polar Bear or Penguins), effectively resolving the ecological error?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the map inset highlight the correct geographic region corresponding to the remaining animal (Arctic circle for Polar Bear, Antarctica for Penguins)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Geography Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the central text box narrative corrected to remove the statement that the two species share the same habitat?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Text Semantics",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Are all remaining text elements (Location, Species names, 'Arctic/Antarctic' labels, subtitles) fully updated to be factually consistent with the single remaining species?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the area where the removed animal(s) stood seamlessly inpainted with snow/ice textures that match the surrounding lighting and perspective?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Are the footprints on the snow consistent with the remaining animal(s) (i.e., tracks belonging to the removed species are erased)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Is the edited image free of visible compositing errors, unnatural edge artifacts, or blurriness?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is all text (both preserved and modified) crisp, legible, and free of rendering artifacts?",
+    "category": "General Quality",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

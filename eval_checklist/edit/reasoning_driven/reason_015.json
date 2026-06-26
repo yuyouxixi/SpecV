@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the creature in the aquarium now possess a rounded, bulbous mantle characteristic of an octopus, replacing the elongated torpedo shape of the squid?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the prominent lateral fins (wings) seen on the original squid absent on the new creature?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the creature display eight arms of relatively similar length, without a distinct pair of longer feeding tentacles?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the new octopus visually integrated behind the aquarium glass, preserving existing glass reflections, water distortions, and surface imperfections?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Are the lighting and shadows on the octopus consistent with the aquarium's internal lighting and external light sources?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Shading",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 6,
+    "question": "Does the octopus appear naturally scaled and positioned within the aquarium environment (e.g., relative to rocks and coral)?",
+    "category": "Edit Execution",
+    "subcategory": "Scale & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the octopus exhibit realistic textures and anatomical details (e.g., suction cups) appropriate for a live cephalopod?",
+    "category": "Edit Execution",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the poster titled 'The Secret Life of the Octopus' on the wall preserved without text alteration or distortion?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Are the poster's internal details (cartoon octopus illustration, bullet points like 'eight flexible arms') preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the transparent glass octopus model on the desk preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Are the surrounding scene elements (aquarium rocks, desk objects, books, window, and students' hands) preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

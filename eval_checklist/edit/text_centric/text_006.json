@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the red banner text now read 'WORK HARD, AIM HIGHER'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the duty roster entry for Wednesday now read 'Ethan, Hannah'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the duty roster entry for Thursday now read 'David, Olivia'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the new text 'AIM HIGHER' match the white, bold, uppercase, sans-serif font style of 'WORK HARD'?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Do the new names on the chalkboard maintain a handwritten chalk texture consistent with the rest of the roster?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are the new names on the Wednesday and Thursday lines properly aligned horizontally with their day labels?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Are the roster entries for Monday ('Jake, Emma'), Tuesday ('Michael, Sophie'), and Friday ('Noah, Chloe') unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the 'Romeo & Juliet - Key Vocabulary' section on the left side of the chalkboard completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Are the students, desks, and other classroom elements (including the window view) unchanged in appearance and position?",
+    "category": "Preservation",
+    "subcategory": "Scene Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is all text on the banner and chalkboard clearly legible and free from spelling errors or gibberish?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the banner area free from visible editing artifacts, blurriness, or unnatural text boundaries?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the chalkboard area around the edited names free from unnatural smudges, erasure marks, or texture inconsistencies?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

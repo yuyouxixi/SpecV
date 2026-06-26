@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Do all wind-responsive elements (flag, smoke, trees, grass) consistently indicate a wind direction blowing from right to left?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Global Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the red flag on the lighthouse clearly streaming toward the left side of the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Modification - Flag",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the smoke plume from the chimney drifting consistently toward the left?",
+    "category": "Edit Execution",
+    "subcategory": "Object Modification - Smoke",
+    "expected_answer": "Yes",
+    "score": 9.4
+  },
+  {
+    "id": 4,
+    "question": "Are the trees on the right side of the image leaning or showing wind stress toward the left?",
+    "category": "Edit Execution",
+    "subcategory": "Object Modification - Vegetation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the tall grass in the foreground bent toward the left, consistent with the new wind direction?",
+    "category": "Edit Execution",
+    "subcategory": "Object Modification - Vegetation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "If rain streaks or sea spray are visible, are they angled or drifting in a direction consistent with wind blowing from right to left?",
+    "category": "Edit Execution",
+    "subcategory": "Atmospheric Effects",
+    "expected_answer": "Yes",
+    "score": 8.27
+  },
+  {
+    "id": 7,
+    "question": "Are the static structures (lighthouse tower, lantern room, stone cottage) preserved without distortion or unwanted geometrical changes?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation - Structures",
+    "expected_answer": "Yes",
+    "score": 8.9
+  },
+  {
+    "id": 8,
+    "question": "Is the rocky coastline and cliff geometry preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation - Landscape",
+    "expected_answer": "Yes",
+    "score": 8.1
+  },
+  {
+    "id": 9,
+    "question": "Are the background elements (stormy ocean waves, overcast sky) preserved, excluding necessary adjustments for wind direction?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Are the original lighting, color grading, and key object attributes (e.g., the red color of the flag) preserved?",
+    "category": "Preservation",
+    "subcategory": "Attribute Preservation",
+    "expected_answer": "Yes",
+    "score": 8.57
+  },
+  {
+    "id": 11,
+    "question": "Is the image free of ghosting, blurring, or artifacts, particularly in areas where the flag and smoke were originally positioned?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 9.03
+  },
+  {
+    "id": 12,
+    "question": "Are the modified elements (flag, smoke, vegetation) rendered with realistic physics and seamless visual integration (no halos or jagged edges)?",
+    "category": "General Quality",
+    "subcategory": "Visual Realism",
+    "expected_answer": "Yes",
+    "score": 8.63
+  }
+]

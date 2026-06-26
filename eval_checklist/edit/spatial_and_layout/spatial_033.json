@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the shopping cart now positioned in the front-left corner of the frame?",
+    "category": "Edit Execution",
+    "subcategory": "Object Movement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the shopping cart appear closer to the camera and scaled up to approximately 120% of its original size?",
+    "category": "Edit Execution",
+    "subcategory": "Resizing & Depth",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Is the shopping cart completely removed from its original mid-right position?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the floor in the vacated area seamlessly inpainted, with tile grout lines restored consistently?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Are the shelves and products in the vacated area filled in naturally without visible repetition or tiling artifacts?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Do the wheels of the relocated cart align realistically with the tile grout lines on the floor?",
+    "category": "Edit Execution",
+    "subcategory": "Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are floor reflections and shadows updated to correctly match the new position and scale of the cart?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting & Reflections",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Do the cart wheels make realistic contact with the floor without floating or sinking?",
+    "category": "Edit Execution",
+    "subcategory": "Physics & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the relocated cart avoid implausible intersections with nearby objects, such as cutting into shelves or products?",
+    "category": "Edit Execution",
+    "subcategory": "Physics & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the complex wire mesh structure of the shopping cart preserved without distortion, melting, or broken lines?",
+    "category": "General Quality",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Are the proportions of the shopping cart maintained without appearing stretched or squashed?",
+    "category": "General Quality",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the text on product packaging (on the cart and shelves) sharp and free from warping or smearing?",
+    "category": "General Quality",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Is the boundary of the relocated cart seamless, without halos, jagged edges, or floating artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the relocated cart sharp and in focus, consistent with the depth of field of the foreground?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

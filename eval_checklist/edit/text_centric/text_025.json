@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the top green directional sign now read \"East Ring Blvd\" instead of \"East Ring Rd\"?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the arrow on the \"East Ring Blvd\" sign preserved in its original position and pointing to the right?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the new text \"Blvd\" on the green sign match the original font style, weight, and white color?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Style",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the green sign background retain its reflective material appearance and realistic glare over the edited text area?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the construction notice board display the end date as \"Apr 10, 2026\"?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the new date \"Apr 10, 2026\" maintain the original font style, size, and character kerning of the printed notice?",
+    "category": "Edit Execution",
+    "subcategory": "Typography & Style",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the red banner text now read \"SAFETY FIRST – OUR SHARED DUTY\"?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Does the new banner text \"OUR SHARED DUTY\" realistically follow the fabric wrinkles and cast shadows?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the red circular \"DEPT. OF PUBLIC WORKS\" stamp on the notice board completely intact and free of distortion?",
+    "category": "Preservation",
+    "subcategory": "Text & Graphics",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Is the \"West Ring Rd\" text and its left-pointing arrow on the green sign unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text & Graphics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the construction start date \"Feb 15, 2026\" unchanged on the notice board?",
+    "category": "Preservation",
+    "subcategory": "Text & Graphics",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Are the blue distance signs for \"Train Station\" and \"City Hall\" unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text & Graphics",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Is the edited text on the green sign free of visible artifacts, blurring, or halo effects?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Is the edited text on the construction notice board free of artifacts, color bleeding, or inconsistent spacing?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Is the edited banner text free of jagged edges, unnatural flattening, or artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 16,
+    "question": "Are all edited text areas clearly legible and free of spelling errors or gibberish?",
+    "category": "General Quality",
+    "subcategory": "Legibility",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

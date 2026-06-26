@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the English title line on the plaque now read 'Bronze Ewer (Reconstruction)'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the English description text now contain the phrase 'completed in 1996'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the French title line on the plaque now read 'Aiguière en Bronze (Reconstitution)'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the French description text now contain the phrase 'Restauré en 1996'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Is the accession number '2A-017' at the bottom right of the plaque preserved exactly?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the surrounding unedited text on the plaque (e.g., 'Period:', 'Gallery 2A', 'Objects That Endure') preserved without changes to content or position?",
+    "category": "Preservation",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do the newly added words match the font style, weight, and color of the existing title and body text?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Are the French diacritical marks (accents) correctly rendered and preserved in the edited lines (e.g., in 'Restauré', 'Aiguière')?",
+    "category": "Edit Execution",
+    "subcategory": "Typography",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the text alignment and letter spacing natural, ensuring the longer replacement words fit without crowding or overlapping edges?",
+    "category": "Edit Execution",
+    "subcategory": "Layout",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is the brushed metal texture and engraved appearance of the plaque consistent within the edited text areas?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are the vertical light reflections and surface sheen on the plaque preserved naturally across the edited regions?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Reflections",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the bronze ewer artifact inside the glass case completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Subject",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Is the edited area free from visible artifacts, blurring, smudging, or unnatural halos?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

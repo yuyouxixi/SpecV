@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the swan positioned in the lower-left quadrant of the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Repositioning",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the swan visibly smaller in scale compared to the original image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Resizing",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the swan's original location (center/right) now completely empty of the bird?",
+    "category": "Edit Execution",
+    "subcategory": "Object Repositioning",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is there exactly one swan in the image (no duplicates, ghosting, or remnants)?",
+    "category": "Edit Execution",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the resized swan maintain natural proportions without appearing stretched or squashed?",
+    "category": "Edit Execution",
+    "subcategory": "Object Resizing",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the swan fully contained within the frame, without being clipped by the image borders?",
+    "category": "Edit Execution",
+    "subcategory": "Object Repositioning",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is there a realistic water reflection positioned directly beneath the moved swan?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Does the reflection match the scale and vertical alignment of the new, smaller swan?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Do water ripples appear to emanate naturally from the swan's new location?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Is the lighting on the moved swan consistent with the scene's ambient light (e.g., direction and warmth)?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Are the weeping willow trees and their reflections in the background preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the water surface at the swan's original location free from unnatural blur, smudges, or texture artifacts?",
+    "category": "General Quality",
+    "subcategory": "In-painting Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the repositioned swan free from visible seams, halos, or jagged cutout edges?",
+    "category": "General Quality",
+    "subcategory": "Edge Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the edited region (swan and water) match the sharpness and noise/grain level of the rest of the image?",
+    "category": "General Quality",
+    "subcategory": "Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

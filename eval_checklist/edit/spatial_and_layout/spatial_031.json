@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the orange tent in the center visibly larger (approximately 15% scale increase) compared to the original image?",
+    "category": "Edit Execution",
+    "subcategory": "Resizing",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the orange tent appear to be positioned farther back in depth relative to the campfire than it was originally?",
+    "category": "Edit Execution",
+    "subcategory": "Movement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the orange tent still positioned strictly between the two blue tents, without overlapping them?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the enlarged orange tent now appear more prominent as a 'hero element' in the composition compared to the flanking blue tents?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Prominence",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Is the contact edge where the orange tent meets the ground realistic, appearing firmly planted rather than floating or sinking?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the gravel and fallen leaf texture on the ground around the base of the orange tent free from unnatural stretching, blurring, or warping?",
+    "category": "General Quality",
+    "subcategory": "Texture Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Do the highlights and shadows on the resized orange tent remain consistent with the light source coming from the campfire (warm light from the front-right)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the brightness falloff on the orange tent plausible given its new, slightly farther distance from the campfire (not unrealistically bright)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Are the proportions and dome shape of the orange tent preserved without geometric distortion after scaling?",
+    "category": "General Quality",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Are the two blue tents on the left and right sides of the image completely unchanged in size, position, and appearance?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Are the people sitting around the campfire, the campfire itself, and the stone ring preserved without distortion or unintended changes?",
+    "category": "Preservation",
+    "subcategory": "Foreground Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are the surrounding environmental elements (misty forest, trees, hanging lantern, camping equipment) preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Is the edited region free from compositing artifacts such as visible seams, haloing, or ghosting around the tent outline?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the orange tent maintain consistent sharpness, noise levels, and color grading with the rest of the scene?",
+    "category": "General Quality",
+    "subcategory": "Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Does the orange tent maintain correct occlusion ordering (e.g., not incorrectly appearing in front of objects that should be closer)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

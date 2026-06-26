@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Are all hikers now concentrated in the lower/front portion of the boardwalk?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the back half of the boardwalk trail (upper section) completely empty of hikers, with no partial bodies or remnants remaining?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Have the hikers moved from the background been resized larger (including their gear) to match the perspective of the foreground?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Are the relocated hikers arranged naturally without physically impossible overlaps or collisions?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Do the occlusion relationships between the gathered hikers appear logically consistent (closer figures properly blocking view of those behind)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Do the gathered hikers fit within the width of the boardwalk without stepping off into the vegetation or floating over the edge?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the relocated hikers oriented naturally, facing directions consistent with walking along the boardwalk?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Do the relocated hikers appear firmly grounded on the planks rather than floating above or sinking into the wood?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the wooden plank texture in the cleared upper section of the boardwalk restored seamlessly without blur or pattern repetition?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Are the railings in the areas where hikers were removed reconstructed continuously without breaks or distortions?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Do the relocated hikers in the foreground cast realistic shadows consistent with the scene's lighting direction?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the lighting on the relocated hikers harmonized to match the brightness and color temperature of the foreground environment?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Are the relocated hikers free from anatomical anomalies like floating limbs, missing feet, or duplicated body parts?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from visible artifacts such as ghosting, halos, or hard cutout edges around the moved figures?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

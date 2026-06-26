@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's figure appear taller with visibly elongated legs and a higher waistline, effectively increasing the leg-to-torso ratio?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Manipulation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the elongation effect applied specifically to the lower body, ensuring the face and upper torso remain at their original natural proportions?",
+    "category": "Edit Execution",
+    "subcategory": "Geometric Manipulation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Do the elongated legs and knees retain anatomically plausible shapes, avoiding rubbery curves, kinked joints, or asymmetric thicknesses?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Anatomical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 4,
+    "question": "Does the model's stance remain physically grounded on the steps, without appearing to float above or sink into the stone surface?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Are the horizontal lines and edges of the stone steps perfectly straight and parallel, with no bending, waviness, or distortion near the model's dress?",
+    "category": "Preservation",
+    "subcategory": "Background Geometry",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the vertical architectural columns and curved arches in the background free from bowing, warping, or pinching?",
+    "category": "Preservation",
+    "subcategory": "Background Geometry",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the dress fabric drape naturally over the elongated figure, maintaining realistic fold patterns without unnatural vertical stretch marks or smeared pleats?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are the model's arms, hands, and wrist accessories (e.g., the bracelet) preserved without being stretched or distorted along with the legs?",
+    "category": "Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the stone texture of the steps and background free from smearing, blurring, or 'liquify' artifacts, especially immediately adjacent to the model?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the boundary between the subject and the background clean and seamless, with no visible halos, jagged cutout edges, or mismatched outlines?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Is the edited region (legs and dress) as sharp and detailed as the rest of the image, avoiding localized blurring or over-smoothing?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

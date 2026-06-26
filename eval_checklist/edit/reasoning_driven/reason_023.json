@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the edited text consistently reflect that 'Black' is the side to move, aligning with the stalemate condition shown on the board?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the new 'Try it' hint logically follow from the corrected turn (Black to move) and avoid suggesting a move for White (like Qg7)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the text 'Side to move: White' explicitly changed to 'Side to move: Black'?",
+    "category": "Edit Execution",
+    "subcategory": "Text Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is the first sentence of the explanation paragraph updated to state that it is Black to move (e.g., 'It is Black to move')?",
+    "category": "Edit Execution",
+    "subcategory": "Text Replacement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the 'Try it' section rewritten to remove the checkmate claim and provide a relevant hint consistent with stalemate?",
+    "category": "Edit Execution",
+    "subcategory": "Text Replacement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the edited text fluent, professional, and grammatically correct?",
+    "category": "Edit Execution",
+    "subcategory": "Language Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Does the font family, style, and weight of the edited text match the original document's typography?",
+    "category": "Edit Execution",
+    "subcategory": "Typography Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the text alignment, line spacing, and layout consistent with the original printed text?",
+    "category": "Edit Execution",
+    "subcategory": "Typography Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Does the edited text appear realistically printed on the paper, matching the ink texture and visual perspective?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the chess board diagram, including all piece positions (White King f7, White Queen g6, Black King h8), completely unchanged?",
+    "category": "Preservation",
+    "subcategory": "Diagram Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the 'Piece list' section unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Are the title and definition boxes ('Formal Definition', 'Simplified') unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Is the yellow highlighter marking over 'NOT in check' preserved exactly in position and appearance?",
+    "category": "Preservation",
+    "subcategory": "Annotation Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the handwritten cursive note 'NB: Stalemate ≠ Checkmate!' preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Annotation Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are the paper clip and blue pen preserved in their original positions?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Are the paper texture, wood grain background, and lighting conditions preserved?",
+    "category": "Preservation",
+    "subcategory": "Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 17,
+    "question": "Is the edited image free from visible artifacts, blurring, or halo effects in the modified regions?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

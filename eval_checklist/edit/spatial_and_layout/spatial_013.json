@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the referee (older man in a white shirt and bow tie) completely removed from the scene without leaving any visible body parts or clothing remnants?",
+    "category": "Edit Execution",
+    "subcategory": "Object Removal",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the two boxers positioned significantly closer to each other than in the original image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Repositioning",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are the boxers positioned centrally in the ring to create a direct, intense face-off composition?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Do both boxers maintain their original fighting stances and orientation (facing each other) after the move?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Are specific visual attributes preserved, such as the text 'EL TORO' on the red shorts and 'ICE COLD' on the blue shorts, without distortion?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Are the boxers' anatomical details (limbs, muscles, gloves) complete and natural, with no missing parts or extra limbs caused by the repositioning?",
+    "category": "Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Are the ring ropes in the background reconstructed coherently, appearing continuous, straight, and correctly aligned without warping where the referee stood?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the crowd and background behind the ring coherent, free from repetitive cloning patterns, smudging, or distorted faces in the edited regions?",
+    "category": "Preservation",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Is the canvas floor texture consistent and clean, showing no ghost shadows, footprints, or blurriness where the referee was removed?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the boxers' feet plausibly planted on the canvas with appropriate contact shadows (no floating, sinking, or missing shadows)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is the relative scale of the boxers consistent with the perspective of the ring (neither appears unnaturally small or large relative to the other)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Physical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from obvious editing artifacts like halos, cut-out edges, or resolution mismatches between the boxers and the background?",
+    "category": "General Quality",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

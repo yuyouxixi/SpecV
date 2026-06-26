@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Has the modern laptop been replaced with a bulky CRT monitor and/or desktop tower typical of the early 1990s?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Has a separate wired keyboard been added to accompany the desktop computing setup?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Has the wireless mouse been replaced with a wired mouse (e.g., a ball mouse with a visible cord)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Has the smartphone been replaced with a period-appropriate device (e.g., corded landline phone, brick mobile phone) or removed?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Has the smart speaker been replaced with a 1990s audio device (e.g., boombox, radio, cassette player) or removed?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the calendar explicitly display a year within the early 1990s range (1990-1994)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Logical Deduction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Do the replacement devices exhibit a cohesive early 1990s aesthetic (e.g., beige/grey plastics, bulky form factors)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Era-Appropriate Aesthetics",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "If a computer screen is visible, does it avoid modern UI elements (e.g., high-res icons, modern OS) in favor of a period-appropriate or neutral display?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "World Knowledge",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Have modern accessories like the wireless charging pad and specific modern brand logos (e.g., Sonos) been completely removed?",
+    "category": "Edit Execution",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the replaced 1990s devices (especially the CRT monitor) appropriately scaled relative to the desk size?",
+    "category": "Edit Execution",
+    "subcategory": "Scale & Proportion",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Do the new objects cast shadows that are consistent with the direction and intensity of the natural window lighting?",
+    "category": "Edit Execution",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Are the buildings and city view visible through the window preserved without significant alteration?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Is the wooden texture of the desk surface preserved in areas not occupied by the new devices?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Is the edited image free from obvious visual artifacts, such as malformed geometry, floating objects, or distorted text?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Clarity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is the text on the calendar (month, day, year) legible and coherent?",
+    "category": "General Quality",
+    "subcategory": "Text Rendering Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

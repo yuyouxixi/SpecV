@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the model in the black blazer noticeably smaller (approximately 20% reduced in scale) compared to the original image?",
+    "category": "Edit Execution",
+    "subcategory": "Resizing",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Has the model in the black blazer been shifted to the right, creating a visible separation from the other figure?",
+    "category": "Edit Execution",
+    "subcategory": "Movement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is there distinct 'breathing room' or a visible gap between the two figures, ensuring they are no longer crowded or overlapping?",
+    "category": "Edit Execution",
+    "subcategory": "Layout Modification",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the resized model in the black blazer maintain correct anatomical proportions (head-to-body ratio, limb lengths) without distortion?",
+    "category": "Edit Execution",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the original pose (including hand-in-pocket) and facial expression of the model in the black blazer preserved after resizing?",
+    "category": "Preservation",
+    "subcategory": "Subject Identity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model in the red dress remain at her original size, position, and clarity without distortion?",
+    "category": "Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is the newly exposed background area between the figures filled with floral textures (roses, hydrangeas, foliage) that are consistent with the surrounding arch?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the side of the red dress, which was previously occluded by the black blazer, reconstructed naturally without artifacts?",
+    "category": "Edit Execution",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the 'MODERN MUSE' masthead and 'THE SYMMETRY ISSUE' subtitle text preserved without distortion or displacement?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Are the background architectural elements (arched windows) and unedited parts of the floral arch preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Are the facial features, hair, and clothing texture of the resized model sharp and distinct, avoiding blurriness or pixelation?",
+    "category": "General Quality",
+    "subcategory": "Clarity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Does the repositioned model appear grounded with consistent lighting and shadows, avoiding a 'floating' appearance?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the image free of editing artifacts such as visible seams, halos around the subject, or extra/floating limbs?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

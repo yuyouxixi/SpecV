@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Are the students' costumes changed from Medieval/Renaissance style (tailored, puffy sleeves) to Ancient Roman style (draped togas or tunics)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Historical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Have the Medieval longswords been replaced with Roman-appropriate weaponry (e.g., gladius short swords or pilum javelins)?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Historical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the new costume color palette consist of muted, earthy tones (ochre, off-white, deep red) rather than bright velvet or jewel tones?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Attribute Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is the text on the hand-held placard changed from 'Knights of the Round Table' to a Roman-related phrase (e.g., 'SPQR', 'Senate of Rome')?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Has the whiteboard text mentioning 'Medieval', 'Camelot', or 'Legends' been replaced with Roman Republic-related terms (e.g., 'Republic', 'Consul', 'Tiber')?",
+    "category": "Reasoning & Knowledge",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the modified whiteboard text retain the original marker stroke style, hand-drawn appearance, and line spacing?",
+    "category": "Edit Execution",
+    "subcategory": "Text Style Matching",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the whiteboard glare/reflection preserved naturally, overlapping the edited text realistically?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Does the text on the hand-held placard align correctly with the sign's perspective and retain the cardboard material look?",
+    "category": "Edit Execution",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Do the students' hands interact naturally with the new props (weapons, placard) without clipping, floating, or missing fingers?",
+    "category": "Edit Execution",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Are the facial features and identities of all front-row students preserved without alteration?",
+    "category": "Preservation",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 11,
+    "question": "Are the standing positions and body poses of the front-row students maintained from the original image?",
+    "category": "Preservation",
+    "subcategory": "Pose Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 12,
+    "question": "Is the large banner text 'THE ROMAN REPUBLIC' preserved unchanged?",
+    "category": "Preservation",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Are background elements (timeline posters, ceiling tiles, whiteboard frame) preserved without distortion?",
+    "category": "Preservation",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Are the audience members in the foreground and their recording devices (phone screens) preserved intact?",
+    "category": "Preservation",
+    "subcategory": "Foreground Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Are the wooden podium and papers on the desks preserved (excluding replaced weapons)?",
+    "category": "Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does the lighting on the new costumes match the direction and intensity of the room's ambient light?",
+    "category": "General Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 17,
+    "question": "Are the edges of the new costumes blended naturally without visible halos or mask artifacts?",
+    "category": "General Quality",
+    "subcategory": "Compositing Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Is the image free from severe anatomical distortions, melted textures, or unnatural artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Is the girl holding a balloon now located in the lower right corner of the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Movement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Has the girl been completely removed from her original position on the left side of the image?",
+    "category": "Edit Execution",
+    "subcategory": "Object Movement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is there exactly one instance of the girl visible in the image (no duplicates left behind)?",
+    "category": "Edit Execution",
+    "subcategory": "Object Movement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the girl depicted in a seated pose on the chair rather than standing?",
+    "category": "Edit Execution",
+    "subcategory": "Pose Modification",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the girl's seated posture look physically natural (hips on seat, legs bent appropriately) without floating or clipping?",
+    "category": "Edit Execution",
+    "subcategory": "Pose Modification",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Is the girl's raincoat now yellow?",
+    "category": "Edit Execution",
+    "subcategory": "Attribute Edit",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Are the texture and details of the raincoat (folds, hood, seams) preserved despite the color change?",
+    "category": "Edit Execution",
+    "subcategory": "Attribute Edit",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the balloon held by the girl now green?",
+    "category": "Edit Execution",
+    "subcategory": "Attribute Edit",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Is the balloon string still visibly and naturally connected to the girl's hand?",
+    "category": "Edit Execution",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the girl scaled appropriately relative to the surrounding furniture (chair, lamps) in the lower right?",
+    "category": "General Quality",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the lighting on the girl and balloon consistent with the warm, dim market environment?",
+    "category": "General Quality",
+    "subcategory": "Visual Integration",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the background where the girl originally stood (left side) realistically restored with appropriate antique stall details?",
+    "category": "Preservation",
+    "subcategory": "Background Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the area where the girl was removed free from blurring, smudging, or obvious inpainting seams?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Are the neon signs ('ANTIQUES', 'BOOKS', 'COFFEE') preserved without text distortion or shifting?",
+    "category": "Preservation",
+    "subcategory": "Scene Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Are the overhead string lights preserved without breaks, missing bulbs, or unnatural distortion?",
+    "category": "Preservation",
+    "subcategory": "Scene Details",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Are the other shoppers and background furniture (clothing racks, lamps, tables) unchanged?",
+    "category": "Preservation",
+    "subcategory": "Scene Details",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 17,
+    "question": "Is the girl's face still visible and distinct, without distortion or loss of detail?",
+    "category": "General Quality",
+    "subcategory": "Anatomy & Detail",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 18,
+    "question": "Does the girl's anatomy look correct in the new pose (no missing/extra limbs or twisted joints)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy & Detail",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 19,
+    "question": "Are the edges of the moved girl clean, avoiding halos or jagged cutout effects?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]
