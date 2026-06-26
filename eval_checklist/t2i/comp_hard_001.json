@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a top-down realistic photograph of a dark wooden tabletop with clearly visible wood grain?",
+    "category": "Composition",
+    "subcategory": "Scene Attributes",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is there a silver aluminum laptop at the exact center, opened at approximately 110 degrees, with a visible black keyboard and large trackpad?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is there a closed dark gray matte laptop in the upper right corner, with its bottom edge parallel to and slightly overlapping the top edge of the central laptop?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are there exactly 3 smartphones arranged in a vertical column directly to the left of the central laptop?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the topmost smartphone orange with its screen facing down?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the middle smartphone mint green with its screen facing up and illuminated?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the bottommost smartphone white with a ceramic back, placed diagonally with its top pointing toward the upper left?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are there exactly 2 earphone charging cases placed side by side near the lower left of the frame?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the left earphone case white plastic and half-open revealing 2 earbuds, and the right case matte lemon yellow and closed tight?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are there exactly 2 mugs in the upper left corner: a white ceramic mug with brown foam (left) and a transparent glass with blue foam and condensation (right)?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attributes",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are there exactly 2 hardcover notebooks standing vertically to the right of the central laptop?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the notebook closer to the laptop kraft paper with linen texture, and the one further right dark green cloth-bound with weave texture?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are there exactly 3 pens lying horizontally on the kraft paper notebook, with all tips/nibs pointing to the right?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the bottom pen a black fountain pen with a gold clip, and are the two pens above it short ballpoint pens in red and silver respectively?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are there exactly 2 mechanical pencils crossed below the notebooks?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is there a blue mechanical pencil pointing toward the lower left, and a neon purple one crossing it (lower left to upper right) with tip pointing toward lower right?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Are there exactly 6 USB drives arranged in a fan shape between the laptops and the notebooks?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Is there a red metal USB drive (port up) and a silver swivel USB drive (port left)?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Is there a mint green fuzzy velvet USB drive (port down) and a black rubber waterproof USB drive (port right)?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Is there a transparent crystal-shell USB drive (port lower left) and a matte orange card-style USB drive (port upper right)?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 21,
+    "question": "Are there 2 sticky notes on the central laptop's trackpad: a bottom yellow layer and a top transparent frosted layer overlapping it?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 22,
+    "question": "Is there a red paper clip and a blue paper clip attached to the upper right corners of the sticky notes on the trackpad?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 23,
+    "question": "Are there exactly 2 blank light pink sticky notes placed side by side on the lower left corner of the closed dark gray laptop?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 24,
+    "question": "Is there a pink cactus in a terracotta pot with fine cracks located in the upper center-right area?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 25,
+    "question": "Are there exactly 2 pairs of glasses in the upper center-left area: one round tortoiseshell (folded) and one thin metal frame (green lenses)?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 26,
+    "question": "Is there a transparent plastic ruler with gold glitter inside placed horizontally at the bottom center?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 27,
+    "question": "Are there matte black scissors at the bottom left, half-open with blade tips pointing right?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 28,
+    "question": "Is there a small black camera at the bottom right with a lens cap attached, facing toward the upper left?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 29,
+    "question": "Is the image free from severe physical distortions or artifacts (e.g., malformed keyboards, floating objects)?",
+    "category": "General",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]
