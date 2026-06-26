@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option C as the missing piece in its final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer expressed unambiguously (e.g., selecting exactly one option rather than multiple)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model's reasoning identify the continuity of the blue holographic text box (\"Principles of Familiar Bonding\") on the left side of the hole as a key feature for matching?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model's reasoning identify the continuity of the character's hair at the top edge of the missing region?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly identify that Options A and D are rotated or inverted versions of the correct content?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly reason about the floor tile pattern or desk items (e.g., succulent, scroll) needing to continue from the main image into the bottom of the missing piece?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly eliminate Option B based on boundary misalignment (e.g., it shows upper background elements rather than the required seated figure)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "If the model generated a reconstructed final image, are the edges of the inserted piece aligned with the background without obvious gaps, overlaps, or drifting seams?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "If the model generated a reconstructed final image, do the lines of the holographic text box on the left connect seamlessly across the boundary?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "If the model generated a reconstructed final image, is the girl's hair at the top edge aligned without unnatural gaps or disjointed lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "If intermediate images were generated, does the lighting, color tone, and texture of the inserted piece match the surrounding scene?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the generated image avoid hallucinations (visual elements not present in either the original puzzle image or the candidate pieces)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "If the model generated a reconstructed image, is the visual content semantically consistent (e.g., the girl is seated naturally, the book is held correctly, and the owl is positioned logically)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "If the model describes manipulating an option (e.g., 'Option D is upside down' or 'Rotating Option A'), does the generated image or visual analysis reflect this description accurately?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are there any contradictions between the text description and the visual content shown (e.g., text says piece A fits but the image shows piece C)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "If the model describes spatial relations (e.g., 'owl is on the right of the reader', 'book is centered'), are those relations depicted consistently in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

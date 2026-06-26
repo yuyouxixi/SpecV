@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final answer (Option B)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the model's final answer unambiguous and consistent (i.e., it selects exactly one option and does not contradict itself)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model's reasoning correctly identify that the missing section corresponds to the lower body/legs of the central character (the dragon-born) and the floor area?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that the candidate pieces (specifically Option B) are rotated relative to the scene and require rotation to fit?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model explicitly mention matching specific visual features across the gap boundaries, such as the continuity of the armor, the battle axe handle/blade, or the floor texture?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model provide valid reasoning for eliminating other options (e.g., noting that Option A contains pegboard/wall items, or that C/D show upper body parts/shelves that do not fit the lower-central gap)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "If the model generated intermediate or reconstructed images, is the inserted piece (Option B) placed in the correct central-bottom location without severe perspective warping or distortion?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "In the generated images, are the seams between the inserted piece and the background aligned naturally, without significant gaps, overlaps, or ghosting?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the generated images sufficiently sharp and free from hallucinations (i.e., the content matches the provided option art rather than inventing new details)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Are the colors and lighting of the inserted piece consistent with the surrounding environment in the generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "In the reconstructed image, do the dragon-born character's body (torso to legs) and the battle axe connect plausibly across the boundary?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "In the reconstructed image, are the floor objects (boots, tools) and background elements (red toolbox, yellow bucket) positioned consistently with the scene's perspective and layout?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "If multiple intermediate images were generated, do the object positions, chosen piece identity, and alignments remain consistent across all steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "If the model describes spatial relationships or connections (e.g., 'connects to the red toolbox', 'boots on the floor'), does the generated image accurately reflect these descriptions?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the model's textual description of the piece's rotation or content free from contradiction with what is shown in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

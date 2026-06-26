@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final piece sequence 4, 2, 3, 1 (corresponding to Top-Left, Top-Right, Bottom-Left, Bottom-Right)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model explicitly identify that Piece 2 (girl/window) is upside down or needs to be rotated 180 degrees?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model explicitly identify that Piece 3 (bicycle/basket) needs to be rotated 90 degrees clockwise to align with gravity and adjacent pieces?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that Piece 4 should be positioned in the top-left corner based on cues like the sky, rooftop, or cafe sign?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model justify connecting Piece 4 (Top-Left) and Piece 2 (Top-Right) by referencing the continuity of the string lights, roofline, or flower boxes?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model justify connecting Piece 2 (Top-Right) and Piece 1 (Bottom-Right) by referencing the continuity of the girl's blue dress, body, or the building facade?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model justify connecting Piece 4 (Top-Left) and Piece 3 (Bottom-Left) by referencing the continuity of the bicycle parts, green door, or wall alignment?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the model justify connecting Piece 3 (Bottom-Left) and Piece 1 (Bottom-Right) by referencing the continuity of the stone pavement pattern or the white dog's fur?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "In the model's generated images (intermediate or final), is Piece 2 (the girl) depicted in an upright orientation (not upside down)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "In the model's generated images (intermediate or final), is Piece 3 (the bicycle/cat) depicted in the correct upright orientation (basket on ground, not sideways)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "In the final generated image, are the pieces arranged in the correct spatial configuration: Piece 4 (Top-Left), Piece 2 (Top-Right), Piece 3 (Bottom-Left), Piece 1 (Bottom-Right)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Do the generated images show proper edge alignment between pieces without unnatural gaps, significant overlaps, or jagged offsets in lines (e.g., pavement or walls)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are the puzzle pieces displayed in the generated images without hallucinated new visual content or missing major elements (e.g., preserving the bicycle, dog, and girl)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the final reconstructed image show a coherent, unified cafe scene where the background building and ground plane are continuous across the four pieces?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "If multiple intermediate images were generated, do pieces that were joined in earlier steps remain in the same relative position and orientation in subsequent steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "If the text describes a specific rotation for a piece (e.g., 'rotate Piece 2 180 degrees'), does the generated image visually reflect this correction?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "If the text describes a specific spatial relationship (e.g., 'Piece 4 is to the left of Piece 2'), does the generated image accurately reflect this placement?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "If the text mentions specific matching features at the seams (e.g., 'the string lights connect' or 'the dress continues'), does the generated image visually confirm this continuity at the correct location?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

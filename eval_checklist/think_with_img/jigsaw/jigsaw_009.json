@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly select Option D as the missing piece?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer unambiguous (exactly one option is selected, with no conflicting alternatives)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly reject Options A and C by recognizing that they depict the already visible right side of the room (the man in purple)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly reject Option B (and/or C) by identifying that it is rotated (incorrect orientation) relative to the scene?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify that the missing piece must contain the 'MEDICINA' book and mortar/pestle to complete the table in the foreground?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "If a reconstructed image is generated, is the rectangular void on the left side completely filled with image content?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "In the generated image, does the inserted piece align seamlessly with the main image, specifically ensuring continuity of floor lines, ceiling beams, and table edges?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the inserted content in the final generated image displayed in the correct upright orientation?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the inserted content in the generated image faithfully preserve the visual details of Option D (e.g., the man in green, 'MEDICINA' book) without hallucinating new objects?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the visual content of the generated image consistent with the selected option (e.g., showing the man in green from Option D rather than the man in purple)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If the model's reasoning mentions specific visual details (e.g., 'MEDICINA' book, mortar), are these details clearly visible and correctly placed in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the response free from contradictions between the textual reasoning and the generated images (e.g., text describes rotation but image is upright)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

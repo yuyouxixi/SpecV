@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option B as the correct missing piece?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the missing area as the upper-right section of the scene, containing sky, clouds, and the top of the stage structure?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model explicitly identify that the candidate images are rotated and that Option B specifically needs to be rotated 180 degrees (or flipped) to fit?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model identify specific visual cues in Option B to justify the match, such as the airship/blimp with the \"HEALING HARMONY TOUR\" banner?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model identify continuity elements such as the rainbow arc or cloud patterns that extend from the main image into the missing piece?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly eliminate other options (A, C, D) by noting they depict foreground or floor elements (e.g., audience, flowers, tambourine) that do not fit the sky/stage area?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "If the model generated a reconstructed or intermediate image of Option B, is the airship displayed upright with the text \"HEALING HARMONY TOUR\" clearly readable?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "If the model generated a final reconstructed image, does it semantically match the reference scene (showing a complete concert stage, airship, and sky) without missing major objects?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "If the model generated a reconstructed image, are the edges between the inserted piece and the background aligned seamlessly without visible gaps, offsets, or misalignments?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Do the intermediate images preserve the original art style and content of the puzzle pieces without hallucinating new objects, text, or patterns?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "If the text describes an action like \"rotating the piece\", does the corresponding generated image show the piece in that specific new orientation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "If the text describes specific visual features (e.g., \"airship\", \"birds\", \"hanging banners\"), are these clearly visible and correctly depicted in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "If the model describes the location of the missing piece as the upper-right, does the generated image actually place the piece in that specific region?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If the model states that a visual line (like the rainbow or cloud edge) continues through the missing piece, does the image visually depict this smooth continuation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Are there any contradictions between the text description and the visual evidence (e.g., text says \"upright\" but image shows \"upside down\", or text claims Option B fits but image shows Option A content)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

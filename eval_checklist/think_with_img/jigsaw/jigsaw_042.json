@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final piece sequence/grid (1, 2, 3, 4) or explicitly state the arrangement as Top-Left: 1, Top-Right: 2, Bottom-Left: 3, Bottom-Right: 4?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the reasoning explicitly identify that Image 1 is inverted/upside-down and requires a 180-degree rotation to be upright?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the reasoning explicitly identify that Image 2 requires rotation (specifically 90 degrees clockwise) to align the string lights correctly at the top?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the reasoning explicitly identify that Image 3 requires rotation (specifically 90 degrees clockwise) to align the table/legs correctly?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning explicitly identify that Image 4 is inverted/upside-down (e.g., noting the upside-down text 'NEKO') and requires a 180-degree rotation?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly identify that the female character in the teal suit appears in both Image 1 (top portion) and Image 3 (bottom portion) and should be vertically connected?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly use text clues (e.g., 'NEKO' on the shirt, 'Honey Lavender Latte' on the chalkboard) or specific objects (helmet, cafe sign) to determine orientation or placement?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model identify the continuous background elements (sky, city buildings, or rooftop structures) as matching features across the pieces?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "If the model generates intermediate images of the individual puzzle pieces, are they depicted in their correct, upright orientation (correcting the input rotation)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "In the final generated image, is the seam between Piece 3 (Bottom-Left) and Piece 4 (Bottom-Right) aligned such that the table surface and foreground elements appear continuous?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the final generated image correctly depict the 'NEKO' text on the character's shirt in Piece 4 as upright and readable?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the edges between joined pieces in generated images visually aligned without unnatural gaps, overlapping, distortions, or hallucinations of new content?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "If the model generates an image showing joined pieces, does the image accurately depict the relative positions described (e.g., Piece 1 is correctly placed to the left of Piece 2, or above Piece 3)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "If the final reconstructed image is generated, does it show a coherent rooftop cafe scene with two characters (female in teal suit, male in brown jacket) consistent with gravity and perspective?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "If the model generated multiple intermediate images, do the piece orientations and relative positions remain consistent across steps (no unexplained flipping or swapping)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is there any contradiction between the text and the image regarding rotation (e.g., Text says 'I rotated Piece 1 180 degrees', but the image shows Piece 1 still upside down)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "If the text describes a specific spatial relationship (e.g., 'Piece 2 is placed to the right of Piece 1'), does the generated image accurately reflect this position?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Are there any instances where the text claims a successful match (e.g., 'the sky connects smoothly'), but the generated image shows misaligned or non-matching edges?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 9.33
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final piece sequence '3, 4, 2, 1' (representing Top-Left, Top-Right, Bottom-Left, Bottom-Right)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model avoid outputting any extra pieces or duplicating any piece index in the final sequence?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify that Image 1 (bike/fairy) and Image 4 (roof/solar panels) need to be rotated 180 degrees (or flipped upside-down) to fit the scene?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model identify the vertical connection between Image 3 (Top-Left) and Image 2 (Bottom-Left) based on the continuity of the woman's body, the utility pole, or the tree?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model identify the horizontal connection between Image 3 (Top-Left) and Image 4 (Top-Right) based on the continuity of the sky, clouds, or the roof structure?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "If the model generated a reconstructed or intermediate image, are the contents of Image 1 and Image 4 displayed in the correct upright orientation (e.g., roof pointing up, bike wheels on ground)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "If intermediate or final images were generated, are the seams between joined pieces visually aligned without significant gaps, overlaps, or misalignment?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Do the generated images preserve the original visual content of the pieces without hallucinating new objects or significantly distorting existing features?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the final generated image depict a coherent suburban scene with the sky at the top, ground at the bottom, and consistent lighting/perspective?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "If the text describes a specific spatial arrangement (e.g., 'Image 3 is above Image 2'), does the generated image visually reflect this arrangement?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If the text states that a piece is rotated (e.g., 'Image 1 is rotated 180 degrees'), does the generated image show that piece in the described orientation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are there any contradictions between the textual description of the assembly and the visual arrangement shown in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.33
+  }
+]

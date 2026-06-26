@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option B as the correct missing piece?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model's reasoning explicitly identify the visual context surrounding the missing area (e.g., the green cabinets at the top, the stove/oven at the bottom, or the wall shelves on the left)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify that the missing piece (Option B) must contain specific kitchen elements (e.g., the upper part of the stove, hanging utensils, or spice jars) to bridge the gap?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model use edge-matching reasoning to verify that lines from the main image (e.g., the green cabinet edges, the shelf lines, or the step stool) align with the features in Option B?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "If the model generated a reconstructed image, is Option B placed correctly into the white rectangular gap without significant misalignment or empty space?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "In the generated reconstructed image, do the structural lines (e.g., the edge of the stove, the lines of the shelves) flow continuously from the background image into the inserted piece?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the inserted region in the generated image visually consistent with the background in terms of line-art style, color palette, and resolution (no obvious artifacts or blurring)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the inserted content in the generated image make semantic sense within the scene (e.g., the stove burners align with the oven, and the utensil rack connects logically to the wall)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "If the text describes specific features of the chosen piece (e.g., 'a pot on the stove', 'hanging utensils', 'jars of spices'), are these features clearly visible in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "If the text states that the piece requires rotation, does the generated image correctly depict the piece in that rotated orientation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the model's textual description of the final assembly accurately match the visual result shown in the generated image (e.g., confirming the fit of the stove and shelves)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final piece sequence 3, 4, 1, 2 (representing Top-Left, Top-Right, Bottom-Left, Bottom-Right)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify that Piece 3 (woman's head) is upside down and needs to be rotated 180 degrees?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify that Piece 4 (window/herbs) is rotated and needs to be reoriented (approximately 90 degrees)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that Piece 2 (shelves/cat) is rotated and needs to be reoriented (approximately 90 degrees)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model recognize that Piece 1 (table/legs) is already in the correct upright orientation?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model identify that Piece 3 and Piece 1 connect vertically to form the complete woman's figure?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Did the model identify the continuity of the ceiling beam or wall elements between Piece 3 (Top-Left) and Piece 4 (Top-Right)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model explicitly mention visual cues (e.g., clock orientation, hanging gravity, body continuity) to justify the rotations or placement?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "In the generated images, are the pieces that required rotation (3, 4, and 2) depicted in their correct upright orientation?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Do the generated images preserve the original visual content of the pieces (e.g., specific objects like the map, cat, clock) without hallucinating new objects?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "In the generated assembly images, are the seams between pieces aligned reasonably well without large gaps or severe misalignments?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the final reconstructed image form a coherent scene with consistent lighting and perspective across the four pieces?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image showing the join of Piece 3 and Piece 1 correctly depict a continuous, proportional human figure?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If multiple intermediate images were generated, do the pieces retain their orientation and position consistently across steps (no random flipping or moving)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "If the text describes rotating a piece, does the corresponding generated image show that piece in the new, corrected orientation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Do the generated images correctly place the pieces in the quadrants described by the text (e.g., Piece 3 in Top-Left, Piece 4 in Top-Right)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is the response free from contradictions between the text description of positions/rotations and the visual generated output?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

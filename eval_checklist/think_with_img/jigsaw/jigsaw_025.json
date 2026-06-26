@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option B as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer presented unambiguously as a single choice (e.g., not 'A or B')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model explicitly identify that Option B needs to be rotated 180 degrees (or is currently upside down) to fit the scene correctly?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that the missing piece must contain the upper body of the character (green/white outfit, pink cape) to match the legs visible at the bottom of the gap?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model cite specific visual continuity features to justify the fit, such as the '仙醫閣' characters, the dragon pillar alignment, or the smoke trail continuity?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly eliminate the other options (A, C, D) based on orientation mismatches (e.g., rotated 90 degrees) or content mismatches (e.g., wrong background elements like shelves instead of the central doorway)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Did the model generate a final reconstructed image (or intermediate assembly image) where Option B is placed into the missing region?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "In the generated image, are the boundaries of the inserted piece seamless, aligning with lines like the pillar, shelf edges, or the character's body without gaps or misalignment?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the inserted content in the generated image faithfully preserve the details of Option B (e.g., microphone, clothing pattern) without hallucinating new objects?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Are the generated images sufficiently clear and free from significant artifacts or blurriness to verify details?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "In the final reconstructed image, is the inserted piece correctly oriented (upright) to match the surrounding scene, rather than remaining upside down?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the generated image showing the fit accurately reflect the semantic context, such as completing the central archway and the character's figure?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "If the text describes a specific manipulation (e.g., 'rotating the piece'), does the corresponding generated image visually depict this change?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the final generated image accurately reflect the solved state described in the text (character fully assembled, standing centrally, archway complete)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are the specific visual features mentioned in the reasoning (e.g., 'green dress matches', 'smoke connects') clearly visible and accurate in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the response free from contradictions between the textual description of the solution and the visual representation provided?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

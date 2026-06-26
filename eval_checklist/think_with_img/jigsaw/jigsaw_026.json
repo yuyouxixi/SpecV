@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final piece sequence '3, 4, 1, 2' (corresponding to Top-Left, Top-Right, Bottom-Left, Bottom-Right)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify that Image 3 (Pagoda/Sky/Shop '菓子店') belongs in the Top-Left position?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify that Image 4 (Sign '武道館'/Man in white) belongs in the Top-Right position?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that Image 1 (Blue figure/Oranges) belongs in the Bottom-Left position?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify that Image 2 (Red dress/Lantern on ground) belongs in the Bottom-Right position?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning text explicitly identify that Image 1 (Blue figure) requires rotation (approx. 180 degrees) to be upright?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning text explicitly identify that Image 2 (Red dress) requires rotation (approx. 90 degrees) to be upright?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the reasoning text correctly identify the Top Row (Images 3 & 4) based on visual cues such as the sky, rooflines, or hanging lanterns?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the reasoning text correctly identify the Bottom Row (Images 1 & 2) based on visual cues such as the ground, cobblestones, or character legs?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the reasoning text identify the specific horizontal continuity of the hanging lantern string between Image 3 and Image 4?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning text identify specific vertical alignment cues, such as the umbrellas/shop elements connecting Image 3 (Top-Left) and Image 1 (Bottom-Left)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the reasoning text identify specific vertical alignment cues, such as the weapons shop/crate/bonsai connecting Image 4 (Top-Right) and Image 2 (Bottom-Right)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "In the generated intermediate or final images, is Image 1 (Blue figure) correctly rotated so the character is standing upright?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "In the generated intermediate or final images, is Image 2 (Red dress) correctly rotated so the character is standing upright?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Do the generated images show the lantern string connecting seamlessly across the top seam (between pieces 3 and 4) without discontinuity?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Do the generated images show the ground/cobblestone patterns connecting naturally across the bottom seam (between pieces 1 and 2)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Do the generated images show logical vertical continuity for elements like character bodies (e.g., the man in white) or building lines across the vertical seams?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Are the assembled pieces in the generated images aligned without unnatural gaps, white lines, overlapping artifacts, or distortions at the seams?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Do the generated images preserve the original visual details (e.g., specific characters on signs, dress patterns) without hallucinating new objects or text?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "If the model describes joining specific pieces in text (e.g., 'Piece 3 next to Piece 4'), does the corresponding generated image accurately show those exact pieces joined?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 21,
+    "question": "If multiple intermediate images are generated, do the pieces remain in consistent relative positions and scales across steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 22,
+    "question": "Does the model's textual description of each piece's content accurately match the visual details actually present in the original input images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "Is the spatial arrangement described in the text (e.g., 'Image 3 is to the left of Image 4') consistently reflected in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 24,
+    "question": "Are specific matching features mentioned in the text (e.g., 'the lantern string continues') clearly visible and aligned in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Is the response free from contradictions between the text plan and the generated visual result regarding piece placement or orientation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

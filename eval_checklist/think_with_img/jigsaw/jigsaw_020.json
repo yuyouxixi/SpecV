@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output Option C as the final answer for the missing piece?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model identify that Option C is the correct piece but requires rotation (specifically 90 degrees counter-clockwise, or generally noting the orientation mismatch) to fit the scene?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model mention the continuity of key visual lines, such as the magic circle arcs, floor tiles, or the edges of the dresses, as a basis for the match?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly eliminate Options A, B, and D by explaining that they depict incorrect parts of the room (e.g., windows, bookshelf, throne) or do not match the floor context?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "If the model generated a reconstructed image, are the edges of the inserted piece (Option C) aligned seamlessly with the main image without visible gaps or misalignments?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image of the inserted piece faithfully represent the visual content of Option C (e.g., dress colors, objects) without hallucinating new elements?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image preserve the original background of the main scene (walls, other characters) without unintended changes or distortions outside the missing region?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "If multiple intermediate images were generated, do the visual elements (characters, objects, style) remain consistent across all steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "If the text describes rotating the piece, does the generated image show the piece in the correct final orientation (upright and aligned with the scene)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are the spatial relationships described in the text (e.g., 'book in the bottom right', 'banner on the floor') accurately depicted in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the response free of contradictions between the text description and the visual content shown in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

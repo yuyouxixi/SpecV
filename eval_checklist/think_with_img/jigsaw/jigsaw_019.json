@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model explicitly select Option B as the correct missing piece?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify that the missing piece corresponds to the fox detective character (wearing a trench coat)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model cite specific background continuity cues (such as the stacked storage boxes, tool board/pegboard, or TV monitors) to support the placement?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly eliminate Options A, C, and D by identifying that they contain elements already present in the scene (like the rat) or do not match the visual context?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "If a reconstructed image was generated, is the white rectangular hole completely filled with the new visual content?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "In the generated image, is the inserted piece (the fox) shown in the correct upright orientation relative to the room?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Do the edges of the inserted piece align with the surrounding image without unnatural gaps, overlaps, or visible seams?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Do prominent visual features (e.g., the fox's arm connecting to the hand, the pegboard tools, or wall lines) continue smoothly across the boundaries of the inserted piece?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the lighting and color (particularly the pink/purple glow from the doorway) match consistently across the seam between the inserted piece and the main image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the generated image free from hallucinations, such as duplicating surrounding context elements (e.g., the rat or shelf) or introducing artifacts not present in the source option?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the reconstructed image preserve the scene's semantic logic (e.g., showing the fox confronting the rat) without introducing contradictory elements?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "If the text describes rotating the piece (e.g., 'rotated to be upright'), does the generated image visually show the piece in the resulting correct orientation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image accurately reflect the spatial relationships and actions described in the text (e.g., the fox pointing towards the rat)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model explicitly select Option B as the missing piece to complete the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer presented in a clearly identifiable form (e.g., exactly one option selected, without ambiguity)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify that the legs visible in the main image (brown loafers on the left, white sneakers on the right) match the upper bodies of the girl and boy in Option B?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model's reasoning cite the continuation of the jet trail/airplane contrail and the sky gradient from the top of the main image into the missing piece?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model identify continuity in background infrastructure (e.g., power lines, building edges, or the road) to justify the fit of Option B?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly identify the semantic content of the missing piece as a scene involving two students exchanging a letter (confession scene)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Did the model provide valid reasoning for rejecting other options (e.g., Option A is legs only, Option C is upside down, Option D is sky only/sideways)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "If the model generated a reconstructed image, is the white rectangular gap filled with the content from Option B without leaving visible white space or overlaps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "If the model generated intermediate or final images, is the artistic style and resolution consistent with the original image (avoiding hallucinations or obvious style shifts)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "In the final reconstructed image (if generated), does the skyline (clouds, contrail, birds) remain continuous across the top boundary of the inserted piece?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "If the model generated a final image, are the characters correctly oriented and positioned (Girl on the left, Boy on the right) relative to the scene context?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "If the text describes a specific intermediate action (e.g., 'rotating the piece'), does the corresponding generated image faithfully reflect this action?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the model's textual description of spatial relationships (e.g., 'girl is on the left') match the visual evidence in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "If the model mentions matching specific background elements (e.g., 'YAMATO truck', 'houses'), are these elements actually visible in the option piece being discussed?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Does the model's textual description of the rotation applied to the chosen piece match what is shown in any generated visual demonstration?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Are there any contradictions between the model's textual reasoning and the visual evidence shown in generated images (e.g., claiming alignment while showing a mismatch)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 9.0
+  }
+]

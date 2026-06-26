@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model explicitly select Option C as the missing piece in its final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the model's final answer unambiguous (identifying a single option rather than multiple candidates)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model's reasoning explicitly identify that Option C is rotated (specifically upside down or 180 degrees) relative to the main image's orientation?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify that the missing piece should contain the upper body/head of the Slime Girl (teal/cyan creature) and background elements like the chandelier or bookshelves?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model justify its choice by analyzing the boundary continuity with surrounding elements (e.g., the Slime Girl's waist, the sitting boy's arm, or the bookshelf lines)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly eliminate Option A (the upright distractor) by identifying mismatches in boundary alignment or visual details?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly eliminate Option B by identifying that it depicts foreground table elements (apple, book) rather than the missing central region?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly eliminate Option D by identifying mismatches in visual elements, orientation, or boundary continuity?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "If the model generates a reconstructed image with the piece filled in, are the structural lines (e.g., shelves, architectural arches, character bodies) continuous and aligned without disjointed breaks?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "If the model generates a reconstructed image, does the inserted piece blend seamlessly with the lighting and color tone of the surrounding main image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "If the model generates intermediate images showing the candidate piece (Option C), is it displayed in the correct upright orientation (corrected from the original upside-down state)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the generated final image visually confirm the correct semantic composition (e.g., showing the Slime Girl in the center, Punk Girl on the right, and Boy on the left)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "If intermediate images are generated, do they preserve the original content of Option C without hallucinating new symbols, text, or objects not present in the option image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If multiple intermediate images were generated, do they maintain consistent piece orientations and positions across steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "If the text describes a transformation step (e.g., 'I am rotating Option C 180 degrees'), does the corresponding generated image show the piece in the correct new orientation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "If the model claims to show a piece fitting into the missing area in an image, does the generated image actually show that piece inserted into the correct spatial location?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are there any contradictions between the text and the generated image regarding the content or orientation of the missing piece (e.g., text says 'piece fits' but image shows misalignment)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.33
+  }
+]

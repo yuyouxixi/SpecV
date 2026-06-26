@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final piece sequence '1, 2, 3, 4' (representing Top-Left, Top-Right, Bottom-Left, and Bottom-Right positions)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model identify the vertical connection between Image 1 and Image 3 based on the continuity of the man's suit/body?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model identify the vertical connection between Image 2 and Image 4 based on the continuity of the girl's figure and/or shelving units?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model identify the horizontal connection between Image 3 and Image 4 based on the continuous desk surface?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify that the window/blinds (Image 1) belong on the left and the EXIT sign/clock (Image 2) belong on the right based on natural scene context?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "In the generated intermediate or final images, are the pieces shown in their correct upright orientation (correcting the input rotations)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Do the generated images show correct alignment at the seams (e.g., man's body, girl's neck, desk surface) without unnatural gaps, overlaps, or misalignment?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "In the final reconstructed image, is text (e.g., 'PERIODIC TABLE', 'EXIT') readable and properly oriented?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the generated images free from heavy blur, pixelation, or geometric distortion (stretching/shearing) caused by rotation?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Do the generated images preserve the original visual content without hallucinating new objects or features not present in the source crops?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "If the model claims to join specific pieces (e.g., 'Image 1 with Image 2'), does the corresponding generated image actually show those specific pieces adjacent?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "If the text describes a specific spatial arrangement (e.g., 'Image 1 is Top-Left'), does the corresponding generated image accurately reflect this placement?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "If the text describes rotating a piece, does the corresponding generated image show that piece in the described rotated orientation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "If the model references a specific feature match (e.g., 'desk edge aligns'), is that feature visibly aligned in the generated image as described?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Are there no contradictions where the text claims a specific spatial arrangement or seamless fit, but the generated image shows a different arrangement or visible gaps?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

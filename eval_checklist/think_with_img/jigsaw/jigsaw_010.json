@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output Option A as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer unambiguous (i.e., it does not list multiple options as the final choice)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model's reasoning explicitly identify that Option A needs to be rotated 180 degrees (or is upside down) to fit the scene?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify visual continuity of the character's body (connecting the legs/arm in the main image to the torso in Option A) as a reason for the selection?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model's reasoning cite the matching of specific background elements (e.g., the right-side shelving, whiteboard, ceiling lights, or floor tiles) to justify the fit?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model explain why other options (B, C, D) are incorrect based on verifiable mismatches (e.g., wrong orientation, conflicting objects like server racks, or edge discontinuities)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "If the model generated an intermediate or final image, is the inserted piece shown in the correct upright orientation (rotated 180 degrees from the original option)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "In the generated image, are the edges where the piece joins the main image (specifically the character's body and shelf lines) aligned without severe distortion, gaps, or overlaps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the generated image clear and free from severe artifacts (blurriness, invented symbols) that would obscure the verification of the solution?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the right-side shelving structure in the generated image appear continuous and correctly positioned relative to the visible shelves outside the blank area?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the final reconstructed image visually match the provided reference answer (showing the complete laboratory with the hooded figure)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "If multiple intermediate images are generated, does the selected piece maintain consistent orientation, scale, and position across steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "If the text describes a specific rotation (e.g., 'rotate 180 degrees'), does the generated image accurately reflect this transformation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the visual content of the filled area in the generated image correspond to the textual description of Option A (e.g., green hooded character, blue USB drive)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "If the text points out specific details like the 'COMPONENTS' box or specific shelf items, are these visible and correctly placed in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the response free of contradictions between the text description of the piece's placement/orientation and the generated visual representation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

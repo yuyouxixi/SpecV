@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final piece sequence 3, 4, 1, 2 (representing Top-Left, Top-Right, Bottom-Left, Bottom-Right)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model explicitly and correctly map the specific images to their positions (e.g., Image 3 to Top-Left, Image 4 to Top-Right, Image 1 to Bottom-Left, Image 2 to Bottom-Right)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model's reasoning correctly identify that Image 3 (Owl head/shelves) is upside-down and requires a 180-degree rotation?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model's reasoning correctly identify that Image 2 (Wolf Knight/Oxygen tank) is sideways and requires a 90-degree rotation to stand upright?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model use specific visual cues (e.g., the 'EMERGENCY' sign, 'WASH HANDS' sign, or the Owl's orientation) to justify the rotation of Image 3?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model justify connecting Image 3 (Top-Left) and Image 1 (Bottom-Left) based on the vertical continuity of the Owl Doctor character (head in 3, legs in 1) or the medical cabinet?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Did the model generate at least one intermediate image showing the pieces being assembled or rotated?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "If an intermediate image was generated, is Image 3 depicted rotated 180 degrees (upright) compared to the input?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "If an intermediate image was generated, is Image 2 depicted rotated approximately 90 degrees so the oxygen tank and Wolf Knight are upright?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "In the generated images, are the seams between joined pieces (e.g., the Owl's waist or the hospital bed) aligned without obvious disjointed gaps or misaligned borders?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do the generated images preserve the original content of the puzzle pieces without hallucinating new objects, changing characters, or severely blurring text?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "In the final assembled image (or last step), does the scene exhibit correct global structure (ceiling at the top, floor at the bottom, walls vertical)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "If text appears in the generated rotated images (e.g., 'EMERGENCY' or 'WARD 7-B'), is it readable and oriented correctly?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If multiple intermediate steps were generated, do the pieces maintain consistent relative positions and visual integrity across steps (no swapping or morphing)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "If the text describes placing Image 3 in the Top-Left, does the generated image correctly show the Owl head/shelves in the top-left position?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "If the text describes placing Image 4 in the Top-Right, does the generated image correctly show the Bunny/Window in the top-right position?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "If the text describes placing Image 1 in the Bottom-Left, does the generated image correctly show the Medical Tray/IV/Owl legs in the bottom-left position?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "If the text describes placing Image 2 in the Bottom-Right, does the generated image correctly show the Wolf Knight/Oxygen tank in the bottom-right position?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Are there any contradictions between the text description and the generated image regarding rotation (e.g., text says 'upright', image shows 'sideways')?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

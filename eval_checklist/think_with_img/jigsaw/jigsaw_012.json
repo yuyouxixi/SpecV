@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model explicitly select Option D as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer unambiguous (selecting a single option rather than a range or multiple possibilities)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the location of the missing piece as the lower-right area or ground level of the marketplace scene?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model acknowledge that the option images may be rotated or that Option D requires rotation to fit the scene?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly reject Option A, B, or C based on valid visual mismatches (e.g., incorrect content like sky/buildings, or incorrect orientation like being upside-down)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model justify selecting Option D by identifying specific matching features such as the wooden crate, fountain, boots, scattered coins, or rug?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the generated final image show the white rectangular hole filled with content?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "In the generated image, are the edges of the inserted piece visually aligned with the main image (e.g., rope coil and wall lines continue seamlessly) without severe gaps or offsets?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Is the inserted content in the generated image free from hallucinations (e.g., avoiding the addition of extra people or objects not present in Option D)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the inserted piece in the generated image maintain consistent scale, lighting, and color palette with the surrounding main image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "In the generated image, is the inserted piece oriented correctly (upright) such that objects like the fountain and crate align with the scene's gravity?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "If the model's text describes specific spatial relationships or rotation (e.g., \"rotate 90 degrees\"), does the generated image visually match that description?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image visibly include the specific objects mentioned in the model's textual reasoning (e.g., if the text cites a fountain or boots, are they visible)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are there no contradictions between the model's textual reasoning and the generated images (e.g., text says the piece fits perfectly but the image shows misalignment)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

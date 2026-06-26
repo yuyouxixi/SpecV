@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final piece sequence 4, 1, 2, 3 (corresponding to Top-Left, Top-Right, Bottom-Left, Bottom-Right)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that Image 1 is rotated upside down (180 degrees) and requires rotation to be upright?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify that Image 4 is rotated sideways and requires a 90-degree rotation to make the trees and signpost upright?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model identify the vertical connection between Image 4 (Top-Left) and Image 2 (Bottom-Left) based on the continuity of the man in the purple jacket or the white-haired person?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model identify the vertical connection between Image 1 (Top-Right) and Image 3 (Bottom-Right) based on the continuity of the bass guitar (neck in Image 1, body in Image 3)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model identify the horizontal connection between Image 2 (Bottom-Left) and Image 3 (Bottom-Right) based on the continuity of the acoustic guitar, rug, or foreground equipment?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the model identify the horizontal connection between Image 4 (Top-Left) and Image 1 (Top-Right) based on the continuity of the sky, clouds, or tree line?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "In the generated images, are Image 1 and Image 4 actually displayed in the correct upright orientation (e.g., trees growing upward, text readable), correcting the original rotations?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "If the model generates an image combining Image 4 and Image 2 vertically, are the lines of the man's purple jacket aligned continuously without significant offset or cut-off parts?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "If the model generates an image combining Image 1 and Image 3 vertically, does the neck of the bass guitar in Image 1 align correctly with the body of the bass guitar in Image 3?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Do the generated intermediate or final images preserve the legibility of text elements (e.g., \"HARMONY RETREAT\", \"STUDIO B\", \"LAKE 2KM\") without mirroring or corruption?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the seams between adjacent pieces in the generated images visually smooth, avoiding obvious gaps, overlaps, or sharp color discontinuities (e.g., in the sky gradient)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "In the final reconstructed image (if generated), does the visual arrangement match the sequence 4(TL), 1(TR), 2(BL), 3(BR) with all pieces correctly oriented and positioned?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "If multiple intermediate images are generated, do the pieces remain in consistent relative positions and orientations across steps (no swapping or drifting)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "If the model describes rotating a specific image (e.g., Image 1 or 4), does the corresponding generated image visually reflect that rotation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "If the model describes placing a piece in a specific relative position (e.g., \"Image 4 to the left of Image 1\"), does the generated image visually show that exact spatial arrangement?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the model correctly interpret and describe the visual content of the pieces (e.g., identifying instruments, signs, or clothing colors) in its text reasoning?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Are there any contradictions between the textual description of piece positions/orientations and the visual evidence shown in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

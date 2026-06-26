@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option A as the correct missing piece?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the model's final answer unambiguous (i.e., it clearly indicates a single option letter, not multiple candidates)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model explicitly state that Option A is rotated (e.g., 'upside down' or '180 degrees') relative to the orientation of the main room?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "In the generated reconstructed image, do the edges of the inserted piece align seamlessly with the surrounding context (e.g., pipes, wall lines, and floor) without obvious gaps or misalignments?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "In the generated reconstructed image, is the content from Option A oriented upright, effectively correcting the 180-degree rotation of the input option?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "If the text describes rotating Option A (e.g., 'rotating 180 degrees'), does the generated image visually reflect this change rather than pasting the original unrotated clip?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model's text accurately describe the visual content of the input options (e.g., noting the presence of the yellow suit in Option A or the maid in Option B)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are there any contradictions between the model's textual claims about the piece's content and what is actually visible in the generated or option images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.33
+  }
+]

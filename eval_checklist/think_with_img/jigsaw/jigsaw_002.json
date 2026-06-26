@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output Option C as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify that the missing area corresponds to the upper bodies of the center (pink-haired) and right (orange-haired) performers?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model identify the connection between the visible legs/boots at the bottom of the missing area and the upper bodies in the missing piece as a key matching feature?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model reference background elements (e.g., 'BATTLE LIVE', 'ROUND 07' signs, or the disco ball) to justify the fit or orientation of the missing piece?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "If the model generated a reconstructed image, does the inserted piece (Option C) align seamlessly with the surrounding background without obvious misalignment, gaps, or overlapping borders?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "If intermediate images were generated, do they preserve the original visual content (including readable text like 'BATTLE LIVE') without hallucinating new elements or distorting existing ones?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "If the model generated an image of the solution or reconstruction, is Option C depicted in an upright orientation (characters standing up) rather than upside down?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "If the model generated a final reconstructed image, does it show the complete scene with all three performers (blue, pink, and orange) correctly positioned on the stage?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "If multiple intermediate images were generated, do the orientation and placement of the inserted piece remain consistent across all steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "If the text describes a specific rotation (e.g., 'rotate 180 degrees'), does the generated image accurately depict that rotation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "If the text describes connecting the upper bodies of the characters to the visible legs, does the generated image visually demonstrate this alignment?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the model's response free of contradictions between the textual reasoning and the visual evidence provided in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final piece sequence as 2, 4, 3, 1 (corresponding to Top-Left, Top-Right, Bottom-Left, Bottom-Right)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the specific grid positions: Image 2 (Top-Left), Image 4 (Top-Right), Image 3 (Bottom-Left), and Image 1 (Bottom-Right)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model's reasoning correctly identify that Image 2 requires rotation (approximately 180 degrees) due to the upside-down 'EMERGENCY' text, clock, or athlete?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model's reasoning correctly identify that Image 4 requires rotation (approximately 90 degrees counter-clockwise) to be upright, citing cues like the 'Colony Cup' pennant, 'Dr. Tanaka' sign, or ceiling vent?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model's reasoning correctly identify that Image 1 requires rotation (approximately 90 degrees clockwise) to be upright, citing cues like the 'VITAMIN PRO' bottle orientation or medical tray placement?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly identify the visual connection between Image 2 (Top-Left) and Image 3 (Bottom-Left), citing features like the continuity of the athlete's body, the circular window, or the green wall?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly identify the visual connection between Image 2 (Top-Left) and Image 4 (Top-Right), citing features like the continuity of the wall cabinets, ceiling, or wall color?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly identify the visual connection between Image 4 (Top-Right) and Image 1 (Bottom-Right), citing features like the continuity of the doctor's figure, the IV pole, or the door frame?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly identify the visual connection between Image 3 (Bottom-Left) and Image 1 (Bottom-Right), citing features like the floor continuity or the positioning of the medical equipment?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "In the generated intermediate or final images, are the pieces oriented correctly (e.g., the athlete is sitting upright, the blue bottle is standing vertically) rather than maintaining their original incorrect rotations?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "In the final reconstructed image, do the edges between the pieces align smoothly to form coherent objects (e.g., the circular window is complete, the ceiling and floor lines are continuous)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Do the generated images preserve the original visual content (medical supplies, trophies, people) without hallucinating new objects or distorting existing details?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the final reconstructed image show a coherent, unified scene with the doctor treating an athlete, consistent with the semantic context?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If multiple intermediate images were generated, do previously joined pieces remain in the same relative position and orientation throughout subsequent steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "If the text states a specific spatial relationship (e.g., 'Image 2 is Top-Left' or 'Image 4 is to the right of Image 2'), does the generated image accurately depict this arrangement?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "If the text describes rotating a specific image, does the corresponding visual output show that image in the rotated orientation described?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

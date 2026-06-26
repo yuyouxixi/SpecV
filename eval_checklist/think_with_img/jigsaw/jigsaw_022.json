@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final option (D) as the missing piece?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model's reasoning correctly identify that the missing rectangular area corresponds to the lower bodies (legs, feet) of the man and the teal figure, along with the floor area?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model provide valid reasoning for rejecting the incorrect options (e.g., A is ceiling/wall, B is upside down, C is upper body/wrong context)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model verify the fit using specific visual continuity cues, such as the alignment of the man's brown jacket/bag and the teal figure's waist?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "If the model generated a reconstructed image, is the inserted piece (derived from Option D) displayed in the correct upright orientation?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "In the generated reconstruction, are the boundaries of the inserted piece aligned seamlessly with the surrounding image, without visible gaps, offsets, or color discontinuities?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the inserted piece in the generated image faithfully preserve the visual content of Option D (e.g., texture of the bag, transparency of the slime legs) without hallucinating new objects?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the generated reconstructed image demonstrate correct semantic continuity, showing the man's legs and the teal figure's lower body connecting naturally to their respective upper bodies?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the spatial relationships in the generated image consistent with the text (e.g., showing the man on the left and the teal figure on the right within the inserted region)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the model's textual description of the chosen option (D) accurately match the visual content shown (e.g., identifying the brown bag, boots, and teal legs)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

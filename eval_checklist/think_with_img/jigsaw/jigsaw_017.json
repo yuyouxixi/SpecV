@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model explicitly select Option B as the correct missing piece?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer unambiguous (e.g., providing a single option letter rather than a range or hesitant guess)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model's reasoning explicitly identify that the image in Option B is rotated (specifically upside down or 180 degrees) relative to the main scene?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model cite specific visual cues to justify the rotation, such as the inverted text 'Dr. Wong's Clinic' / '比爾醫診所' or gravity-dependent elements?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model identify specific visual features within Option B (e.g., the clinic sign, air conditioning units, vending machine, or pink vines) that match the context of the missing area?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly reason about the continuity of boundaries, such as the 'Safe Zone' sign, building pipes, or ground objects (MRE boxes/map) connecting seamlessly to the missing piece?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly eliminate other options (A, C, D) by identifying mismatched content (e.g., rooftop solar panels, skyline) or incorrect spatial orientation that cannot be fixed by simple rotation?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "If the model generated a reconstructed image, is the white rectangular cutout in the main image completely filled with content?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "In the generated reconstructed image, is the inserted piece (Option B) oriented correctly (rotated 180 degrees so the 'Dr. Wong's Clinic' sign is upright and readable)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the boundaries of the inserted piece visually seamless with the surrounding background, avoiding unnatural gaps, misalignments, or color discontinuities?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the inserted piece in the generated image preserve the original visual details of Option B (e.g., text legibility, object shapes) without severe blurring, pixelation, or hallucinated new objects?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the generated image correctly place the content of Option B into the specific white rectangular missing area (and not elsewhere in the scene)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the generated content semantically match Option B (showing the clinic storefront and vending machine) rather than generating generic building textures or unrelated elements?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If the text describes performing a rotation (e.g., 'I am rotating the piece 180 degrees'), does the corresponding generated image show the piece in that specific, corrected orientation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "If the text describes specific visual features of the missing piece (e.g., 'Dr. Wong's Clinic' sign, red cross, vines), are these clearly visible in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "If the text claims the piece connects to specific surrounding elements (e.g., 'vines connect to the wall', 'next to the Safe Zone sign'), does the image visually demonstrate this connection?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Is the model's response free from contradictions between the text explanation and the generated images (e.g., text says the piece fits perfectly, but the image shows a mismatch)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

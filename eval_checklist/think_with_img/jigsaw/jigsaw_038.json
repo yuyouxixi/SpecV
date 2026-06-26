@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final piece sequence as 2, 3, 4, 1?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the final reconstructed image show a coherent scene with the Singer (Piece 2) at Top-Left, White Suit Character (Piece 3) at Top-Right, Equipment/Speaker (Piece 4) at Bottom-Left, and Mixing Console (Piece 1) at Bottom-Right?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify that Image 3 is upside-down (rotated 180 degrees) and needs to be flipped/rotated to be upright?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that Image 1 and/or Image 4 are rotated 90 degrees and require rotation to be upright?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning identify the visual connection between Image 2 (Top-Left) and Image 4 (Bottom-Left), such as the alignment of the singer's body/legs or the window frames?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning identify the visual connection between Image 3 (Top-Right) and Image 1 (Bottom-Right), such as the white suit character's position relative to the stage or window/railing continuity?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning identify the visual connection between Image 4 (Bottom-Left) and Image 1 (Bottom-Right), specifically the 'SYNC//CITY LIVE' neon sign or stage edge spanning across them?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the reasoning identify the visual connection between Image 2 and Image 3, such as the stage lighting truss continuity or the characters facing each other?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the model explicitly mention gravity or orientation cues (e.g., readable text, upright bottles, vertical sliders) to justify the necessary rotations?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "If intermediate images were generated, are the seams/edges between joined pieces visually aligned without unnatural gaps, overlaps, or shearing?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are the generated images free from severe hallucinations (e.g., adding objects not present in source crops) and do they preserve the original visual content?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "If the model generates intermediate images involving rotations, are the pieces shown in a clean, rectified orientation (not distorted or warped)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "If the model generates an image showing the connection between pieces (e.g., the Singer's waist or the 'SYNC//CITY LIVE' sign), is the object/text rendered coherently across the join?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If multiple intermediate images were generated, do the pieces remain in consistent positions and rotation states throughout the assembly process?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "If the text describes a piece as being rotated to an upright position, does the corresponding generated image actually show the piece upright?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "If the text describes a specific spatial relationship (e.g., 'Piece 2 is above Piece 4' or 'Singer is left of White Suit'), does the generated image accurately depict this arrangement?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the final image displayed by the model visually match the textually described final order (2, 3, 4, 1) without contradictions?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

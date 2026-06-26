@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option B as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that the missing piece should complete the head/upper body of the man in the green jacket and the head of the older woman?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model explicitly state that Option B requires a 180-degree rotation (or being turned upside down) to fit the scene?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model identify specific matching visual elements in Option B, such as the 'Water District Map', corkboard, calendar, or the stone arch?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "If the model generated an intermediate image of Option B, is it shown in the correct upright orientation (e.g., characters' heads pointing up, map text readable)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "If a reconstructed image is generated, do the edges of the inserted piece align seamlessly with the background (specifically the lines of the man's jacket, the older woman's shawl, and the stone arch)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Do the generated images preserve the original illustration style (line art, shading, color palette) without hallucinating new elements not found in the options?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the final reconstructed image show a semantically complete scene, specifically completing the figures of the man and the older woman?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "In the reconstructed image, do background objects like the hanging lanterns and wall map connect plausibly with the surrounding environment?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "If the model describes a specific rotation (e.g., 'rotate 180 degrees'), does the generated image visually reflect this orientation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the generated image visually confirm the presence of specific features mentioned in the reasoning (e.g., map, corkboard) in the correct location?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the visual content of the inserted piece in the generated image consistent with the selected Option B (i.e., not displaying the content of A, C, or D)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final piece sequence '3, 4, 2, 1' (corresponding to Top-Left, Top-Right, Bottom-Left, Bottom-Right)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model's reasoning identify the vertical connection between Image 3 (Top-Left) and Image 2 (Bottom-Left) based on the continuity of the shop structure, the 'Fresh Fish' sign, or the tea shop ('龍井茶莊') context?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model's reasoning identify the horizontal connection between Image 3 (Top-Left) and Image 4 (Top-Right) based on the shared sky gradient, horizon line, or building alignment?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly use semantic cues to anchor the quadrants, such as placing sky/building elements (Images 3, 4) in the top row and market/street elements (Images 1, 2) in the bottom row?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model recognize that specific pieces (such as Image 1, 3, or 4) required rotation or orientation correction to fit the final upright scene?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "In the final reconstructed image, are the four images arranged in a correct 2x2 grid layout?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "In the generated image, are the Samurai's body parts (head/torso and legs) aligned continuously across the piece boundaries without severe offsets or anatomical distortion?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "In the generated image, do the background elements (sky, buildings, floor) transition smoothly across the seams without unnatural gaps, overlaps, or misalignments?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Do the generated images preserve the original visual content (textures, text like 'HARBOR GRAND', specific objects) without hallucinating new patterns?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the final reconstructed image depict a coherent, upright Asian market street scene with a samurai in the center?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the model correctly identify the visual content of the images in its textual reasoning (e.g., identifying Image 3 as the green building, Image 2 as the fish stand)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "If the text describes a specific spatial arrangement (e.g., 'Image 3 is top-left'), does the corresponding generated image visually depict this arrangement?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "If the text states that a piece needs to be rotated, does the corresponding generated image show the piece in the corrected orientation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the response free from contradictions between the text describing piece positions and the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

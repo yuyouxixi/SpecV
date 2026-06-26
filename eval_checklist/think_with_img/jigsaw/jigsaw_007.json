@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model explicitly select Option D as the correct missing piece?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer unambiguous (i.e., it does not list multiple options or hedge between choices)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly analyze the orientation of the options, distinguishing that Option A is rotated relative to the scene while Option D is upright (or correctly identifying the rotation needed for the correct piece)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model provide logical reasoning for rejecting incorrect options (A, B, C) based on concrete mismatches in content, orientation, or edge continuity?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model generate at least one image (intermediate or final) that visually inserts a candidate piece into the missing region?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "In the generated images, is the inserted piece scaled and styled consistently with the main puzzle image (preserving the original artwork style without hallucinations)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "If multiple images were generated, do the already-placed elements and background remain consistent across steps (no morphing or jumping of objects)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "If the model's text describes specific visual features matching across the boundary (e.g., 'the arm continues', 'pavement lines match'), does the corresponding generated image clearly show this alignment?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the model avoid text-image contradictions, such as describing a piece as fitting well while the generated image shows obvious misalignment, or claiming to show a specific option while displaying a different one?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "If the model describes a specific spatial relationship or rotation (e.g., 'rotated 90 degrees', 'placed to the left'), does the generated image accurately reflect this description?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

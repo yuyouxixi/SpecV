@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final piece sequence as 3, 1, 2, 4 (corresponding to Top-Left, Top-Right, Bottom-Left, Bottom-Right)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify that input Images 1, 2, and 3 are rotated (approximately 90 degrees counter-clockwise) and need to be corrected to an upright orientation?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model identify the continuous tabletop surface or specific items (like the placemat, tray edges, or candy) to connect Image 2 (Bottom-Left) with Image 4 (Bottom-Right)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "In the generated intermediate or final images, are the pieces oriented correctly (upright) rather than remaining in their original rotated input states?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "If the model generates an image joining pieces (e.g., at the girl's neck or the tabletop seam), are the edges aligned correctly without significant discontinuity, gaps, or steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Do the generated images preserve the original visual content without hallucinating new objects, altering text (e.g., on the milk carton or signs), or changing textures at the seams?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "If a final composite is generated, does the pink-haired girl appear as a complete, coherent figure eating at a table, and is the 'Crystal Water' bottle correctly positioned near her?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "If the text describes placing a specific image in a position (e.g., 'Image 3 goes in top-left'), does the corresponding generated image accurately visually depict that piece in that quadrant?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "If the text claims a match based on a specific feature (e.g., 'the ceiling lines align' or 'the girl's neck connects'), does the generated image clearly show that specific alignment?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are there any contradictions between the text description of piece positions/orientations and the visual depiction in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

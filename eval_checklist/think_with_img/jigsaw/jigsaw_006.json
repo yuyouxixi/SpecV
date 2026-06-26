@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model explicitly select Option B as the final correct answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify that the missing piece corresponds to the upper-right quadrant of the scene (the garage area), rather than the left side?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model's reasoning correctly reject Option C because it depicts characters (the couple) that are already visible on the left side of the main image?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that Options A and/or D are incorrect because they are rotated 180 degrees (upside down)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "If the model generated intermediate images, are they clear, upright, and free from severe distortion or blur?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "If the model generated a reconstructed image, does the inserted piece (Option B) align flush with the existing borders (garage frame, sky, grass) without significant gaps, overlaps, or misalignment?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "If the model generated a composite image, do structural lines (such as the fence, garage roof, or ground edge) continue seamlessly across the seam between the main image and the inserted piece?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "If the model generated an image of the placed piece, does it preserve the original visual details of Option B without hallucinating new objects or altering shapes?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "If multiple intermediate images were generated, do the candidate pieces and scene elements remain consistent in scale and position across steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Does the model's text description of the missing piece's location (e.g., 'right side', 'garage area') accurately match the visual evidence shown in its generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If the model describes specific visual features of the selected piece (e.g., 'lawnmower', 'girl in costume', 'shelves'), are these features clearly visible in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are there any contradictions between the model's textual reasoning (e.g., claiming a piece fits perfectly) and the generated visual evidence (e.g., showing a clear mismatch)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]
