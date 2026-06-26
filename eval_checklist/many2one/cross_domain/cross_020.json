@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the castle from the second image positioned at the center of the snowflake crystal from the first image?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the castle scaled down effectively to fit within the central hub of the snowflake without obscuring the outer dendritic arms?",
+    "category": "Instruction Following",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the castle appear to be physically anchored to the snowflake surface (e.g., showing contact shadows or occlusion) rather than floating disjointedly above it?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are the key architectural features of the castle (pointed turrets, stone walls, central keep) recognizable despite the size reduction?",
+    "category": "Subject Fidelity",
+    "subcategory": "Castle Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the hexagonal symmetry and specific branching pattern of the input snowflake preserved?",
+    "category": "Subject Fidelity",
+    "subcategory": "Snowflake Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Does the castle exhibit a visible frost-covered or icy texture effect?",
+    "category": "Instruction Following",
+    "subcategory": "Texture Modification",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the frost effect allow the underlying architectural details of the castle to remain visible rather than completely obscuring them?",
+    "category": "Instruction Following",
+    "subcategory": "Effect Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the castle's color and lighting adjusted to blend harmoniously with the grayscale, Scanning Electron Microscope (SEM) aesthetic of the snowflake?",
+    "category": "Style & Domain Consistency",
+    "subcategory": "Style Harmonization",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the background free of the original castle's landscape (forest, moat), maintaining the clean microscopy context of the snowflake image?",
+    "category": "Style & Domain Consistency",
+    "subcategory": "Background Context",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the boundary between the castle and the snowflake free from severe artifacts like jagged cropping edges, halos, or unnatural blurring?",
+    "category": "General Quality",
+    "subcategory": "Compositing Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the castle free from unnatural geometric distortions (e.g., warped towers, melted structures)?",
+    "category": "General Quality",
+    "subcategory": "Geometric Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the combined image sharp enough to resolve both the micro-texture of the snowflake and the architectural details of the castle?",
+    "category": "General Quality",
+    "subcategory": "Sharpness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

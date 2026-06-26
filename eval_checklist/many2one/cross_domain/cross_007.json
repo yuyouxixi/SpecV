@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the nebula from the first input image clearly visible inside the glass jar from the second input image?",
+    "category": "Instruction Following",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the nebula strictly confined within the interior boundaries of the glass jar, without bleeding onto the glass exterior or the background?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Constraints",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the nebula inside the jar retain the characteristic purple, pink, and blue color palette and starry texture of the first input image?",
+    "category": "Subject Preservation",
+    "subcategory": "Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the specific structure of the glass jar preserved, including the metal wire clasp/bail closure mechanism?",
+    "category": "Subject Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are the background elements (wooden desk, books, dried flowers, mug) preserved from the second input image?",
+    "category": "Subject Preservation",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Does the nebula appear to emit vibrant light from within the jar, acting as an internal light source?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting Emission",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Does the light emitted by the nebula cast visible colored illumination onto the surrounding wooden tabletop?",
+    "category": "Visual Realism",
+    "subcategory": "Global Illumination",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the outer surface of the glass jar exhibit reflections or specular highlights consistent with the glowing nebula inside?",
+    "category": "Visual Realism",
+    "subcategory": "Material Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the glass jar maintain its transparency, allowing the nebula to be seen through the material rather than appearing painted on the surface?",
+    "category": "Visual Realism",
+    "subcategory": "Material Physics",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the nebula appear as a three-dimensional volumetric cloud filling the jar, rather than a flat 2D image pasted onto it?",
+    "category": "Visual Realism",
+    "subcategory": "Depth & Volume",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from unnatural blending artifacts, such as jagged edges or halos, where the nebula meets the jar's interior?",
+    "category": "Image Quality",
+    "subcategory": "Compositing Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the overall photorealistic style of the second input image maintained, without introducing cartoonish or painterly effects?",
+    "category": "Image Quality",
+    "subcategory": "Style Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

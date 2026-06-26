@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Has the moss-covered stone from the second image been completely replaced by a low-poly mountain?",
+    "category": "Instruction Following",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the background environment (blurred forest, ground debris) preserved from the second input image?",
+    "category": "Subject Identity",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the inserted mountain retain the distinct low-poly, faceted geometric style of the first input image (rather than appearing as a photorealistic rock)?",
+    "category": "Subject Identity",
+    "subcategory": "Style Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are the specific colors of the input mountain (white peak, blue/teal mid-section, orange/red base) clearly recognizable?",
+    "category": "Subject Identity",
+    "subcategory": "Color Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Is the mountain scaled down to the size of a small rock, fitting appropriately into the macro scene?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the inserted mountain exhibit depth-of-field blur consistent with the shallow focus of the original macro photo?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Optical Simulation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is the lighting on the low-poly mountain consistent with the ambient forest light (e.g., soft, diffuse illumination)?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Are there visible contact shadows grounding the mountain onto the forest floor?",
+    "category": "General Quality",
+    "subcategory": "Physical Grounding",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Is the boundary between the mountain and the ground seamless, without harsh cutout edges or halos?",
+    "category": "General Quality",
+    "subcategory": "Compositing Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the generated image free from severe geometric distortions or 'melting' of the low-poly facets?",
+    "category": "General Quality",
+    "subcategory": "Geometry Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the added object clearly recognizable as the wedge-shaped sports car from the reference image?",
+    "category": "Subject Consistency",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the vehicle retain key structural details (e.g., wheels, rear thrusters, cabin shape) despite the style transfer?",
+    "category": "Subject Consistency",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the vehicle positioned in the sky area, clearly flying above the mountains and landscape?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is the vehicle rendered strictly in monochromatic ink wash tones (black, gray, white) with absolutely no neon pink, purple, or blue colors remaining?",
+    "category": "Style Consistency",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the vehicle feature ink wash painting textures (brush strokes, ink gradients) instead of photorealistic 3D metallic surfaces?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Matching",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Are any lighting effects (like engine glow or exhaust) stylized as ink wisps or negative space rather than bright neon gradients?",
+    "category": "Style Consistency",
+    "subcategory": "Effect Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the background landscape clearly recognizable as the original ink wash painting (mountains, river, mist) without any added cyberpunk city structures?",
+    "category": "Instruction Following",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the vehicle blend seamlessly into the scene with consistent paper grain texture and edge softness (avoiding a sharp 'cut-out' appearance)?",
+    "category": "General Quality",
+    "subcategory": "Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the vehicle scaled appropriately for the landscape (neither dominating the entire scene nor too small to distinguish)?",
+    "category": "General Quality",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Is the generated vehicle free from significant geometric distortions or structural deformities?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from obvious digital artifacts, blurring, or pixelation?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

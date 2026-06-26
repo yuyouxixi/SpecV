@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the pixel art character transformed into a 3D object with visible volume and depth, rather than remaining a flat 2D sprite?",
+    "category": "Style & Material",
+    "subcategory": "Dimensionality Conversion",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the figurine exhibit a realistic plastic texture with visible specular highlights or sheen?",
+    "category": "Style & Material",
+    "subcategory": "Material Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the figurine clearly recognizable as the red knight from the input, retaining the red armor and helmet visor?",
+    "category": "Subject Consistency",
+    "subcategory": "Core Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the figurine retain the specific white plume/feather accessory on top of the helmet?",
+    "category": "Subject Consistency",
+    "subcategory": "Detail Retention",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the figurine hold a sword that is colored predominantly blue?",
+    "category": "Subject Consistency",
+    "subcategory": "Prop Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Is the figurine positioned standing on the specific wooden desk surface from the background image?",
+    "category": "Instruction Following",
+    "subcategory": "Location Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the figurine placed adjacent to the open book as specified in the instruction?",
+    "category": "Instruction Following",
+    "subcategory": "Relational Positioning",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the scale of the figurine plausible for a 15cm object (e.g., comparable to the glasses or pen, significantly smaller than the lamp)?",
+    "category": "Scene Integration",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Is the lighting on the figurine consistent with the warm, directional light source (brass lamp) in the scene?",
+    "category": "Scene Integration",
+    "subcategory": "Lighting Match",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the figurine cast a realistic contact shadow onto the desk surface consistent with the scene's lighting direction?",
+    "category": "Scene Integration",
+    "subcategory": "Shadow Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the figurine appear physically grounded on the desk, avoiding 'floating' artifacts or unnatural clipping?",
+    "category": "Scene Integration",
+    "subcategory": "Physical Grounding",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are the key background elements (lamp, open book, glasses, wooden texture) preserved without significant distortion or replacement?",
+    "category": "Image Quality",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the figurine free from severe anatomical errors (e.g., extra limbs) or generated artifacts (e.g., melted geometry)?",
+    "category": "Image Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

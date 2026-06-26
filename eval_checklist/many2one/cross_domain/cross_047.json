@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background recognizable as the street corner from the first input image, maintaining its original anime style?",
+    "category": "Instruction Following",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are both the bicycle and the robot present in the generated image?",
+    "category": "Instruction Following",
+    "subcategory": "Subject Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the bicycle positioned parked at the roadside (near the curb or building edge)?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the robot positioned standing beside the bicycle?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the bicycle recognizable as the vintage model from the second input image (e.g., leather saddle, drop handlebars, thin tires)?",
+    "category": "Subject Identity",
+    "subcategory": "Feature Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Is the robot recognizable as the specific character from the third input image (e.g., white round body, screen face, wheeled base)?",
+    "category": "Subject Identity",
+    "subcategory": "Feature Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Do both the bicycle and the robot have thick, clear outlines consistent with the line art of the anime background?",
+    "category": "Style Consistency",
+    "subcategory": "Line Art",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Are the realistic textures of the bicycle (e.g., rust, metallic noise) simplified into clean, flat color blocks?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Abstraction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Are the 3D-render traits of the robot (e.g., glossy reflections, smooth gradients) replaced with flat anime-style coloring?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Abstraction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Are the shadows on the bicycle and robot rendered as flat cel-shaded tiers rather than smooth realistic gradients?",
+    "category": "Style Consistency",
+    "subcategory": "Shading Style",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are there defined, anime-style contact shadows on the ground beneath the bicycle tires and the robot (flat shapes, not soft realistic shadows)?",
+    "category": "Style Consistency",
+    "subcategory": "Contact Shadows",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Are the bicycle and robot scaled appropriately relative to each other and the surrounding buildings?",
+    "category": "Geometric Consistency",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Does the perspective of the bicycle and robot match the vanishing points and depth of the street scene?",
+    "category": "Geometric Consistency",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Do the bicycle and robot appear firmly grounded on the pavement, without floating or clipping into the ground?",
+    "category": "Geometric Consistency",
+    "subcategory": "Grounding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the bicycle free from severe structural distortions (e.g., warped wheels, disconnected frame, impossible geometry)?",
+    "category": "Image Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Is the robot free from severe structural distortions (e.g., malformed limbs, asymmetrical body shape, missing wheels)?",
+    "category": "Image Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is the image free from blending artifacts (e.g., white halos, jagged cutouts) where the added objects meet the background?",
+    "category": "Image Quality",
+    "subcategory": "Compositing",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 18,
+    "question": "Is the overall image free from photorealistic elements or spurious duplications of objects?",
+    "category": "Image Quality",
+    "subcategory": "Global Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the dragon recognizable as the specific Chinese-style dragon from the input sketch, featuring characteristic elements like a serpentine body, flowing mane, and whiskers?",
+    "category": "Subject Consistency",
+    "subcategory": "Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the tallest glass skyscraper from the second input image clearly recognizable as the target object?",
+    "category": "Subject Consistency",
+    "subcategory": "Target Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the surrounding cityscape background preserved in its original photorealistic style?",
+    "category": "Subject Consistency",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is the dragon clearly coiling or wrapping around the tallest building, rather than simply floating in front of or beside it?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Interaction",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the dragon's body exhibit correct 3D depth, with parts of the body appearing to pass both in front of and behind the building?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Coherence",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Is the dragon depicted as massive in scale, sufficiently large to wrap around the skyscraper?",
+    "category": "Instruction Following",
+    "subcategory": "Scale Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the dragon retain its original pencil sketch texture (visible linework/hatching) rather than being rendered with photorealistic skin?",
+    "category": "Instruction Following",
+    "subcategory": "Style Retention",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Are there visible, realistic shadows cast by the dragon's body onto the glass curtain wall of the building?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does the building continue to transmit or reflect the warm sunset light from the original photo, rather than being obscured by dark or neutral lighting?",
+    "category": "Instruction Following",
+    "subcategory": "Environmental Lighting",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is the dragon cleanly extracted from the sketch, appearing without the original sketchbook paper background, spiral binding, or bounding boxes?",
+    "category": "General Quality",
+    "subcategory": "Extraction Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the dragon's body anatomically coherent, appearing continuous without disconnected segments or extra limbs?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the building's structural geometry preserved (straight lines, no warping or melting) where it interacts with the dragon?",
+    "category": "General Quality",
+    "subcategory": "Structural Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are the edges where the sketched dragon meets the photorealistic environment clean, avoiding harsh cutouts or jagged artifacts?",
+    "category": "General Quality",
+    "subcategory": "Blending Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

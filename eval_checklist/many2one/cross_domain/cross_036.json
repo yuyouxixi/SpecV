@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the snowy forest scene from the first image clearly recognizable as the background?",
+    "category": "Instruction Following",
+    "subcategory": "Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the wooden bench from the original image preserved and visible in the scene?",
+    "category": "Instruction Following",
+    "subcategory": "Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the overall lighting and color tone consistent with a cool, overcast day (avoiding warm sunlight shifts)?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are all three requested elements present: the inflatable palm tree, the penguin plush, and the warning sign?",
+    "category": "Instruction Following",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the palm tree depicted as an artificial 'inflatable fabric installation' rather than a real biological plant?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Object Transformation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the inflatable palm tree exhibit nylon fabric details such as visible seam stitching and slight wrinkles?",
+    "category": "Instruction Following",
+    "subcategory": "Material Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are anchoring ropes and ground stakes visible at the base of the inflatable palm tree?",
+    "category": "Instruction Following",
+    "subcategory": "Object Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Does the snow show compression marks or indentations where the inflatable palm tree sits?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the penguin plush toy positioned directly on the wooden bench?",
+    "category": "Instruction Following",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the inserted object recognizable as the penguin plush toy from the fourth image, preserving its fuzzy texture?",
+    "category": "Subject Identity",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the penguin plush toy scaled appropriately as a small toy relative to the bench?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Does the penguin plush toy cast a realistic contact shadow on the bench and show subtle cool ambient reflections?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is the sun icon transformed into a physical warning sign stuck in the snow?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Object Transformation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 14,
+    "question": "Is the sun graphic from the third image clearly recognizable on the warning sign?",
+    "category": "Subject Identity",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Does the warning sign appear to be a plastic board with slight surface wear and dirt spots?",
+    "category": "Instruction Following",
+    "subcategory": "Material Details",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is the image free from severe compositing artifacts such as jagged edges, floating objects, or unnatural blending?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

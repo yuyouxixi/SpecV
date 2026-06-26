@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the Golden Retriever from the first image wearing the knight armor from the second image?",
+    "category": "Instruction Following",
+    "subcategory": "Core Action",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the generated armor exhibit strong fisheye barrel distortion consistent with the original photograph's perspective?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Perspective Matching",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the cuirass (chest portion) of the armor bulge outward noticeably towards the lens, matching the extreme close-up perspective?",
+    "category": "Instruction Following",
+    "subcategory": "Fisheye Bulge Effect",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is the armor structurally adapted to fit a four-legged canine body rather than retaining a human bipedal shape?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Anatomical Adaptation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Are the Golden Retriever's key facial features (large nose, eyes, open mouth, tongue) preserved and clearly visible?",
+    "category": "Subject Identity",
+    "subcategory": "Primary Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are the distinctive winged creature engravings/motifs from the reference armor visible on the generated armor?",
+    "category": "Subject Identity",
+    "subcategory": "Secondary Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Are the circular fisheye vignette and the outdoor park background preserved from the original image?",
+    "category": "Subject Identity",
+    "subcategory": "Style & Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Do the lighting and reflections on the armor match the outdoor environment (e.g., reflecting trees/grass) rather than the reference studio lighting?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the blending between the dog's fur and the armor edges natural, avoiding sharp 'cut-and-paste' artifacts?",
+    "category": "General Quality",
+    "subcategory": "Blending",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from anatomical errors (e.g., human hands, extra legs) and floating armor parts?",
+    "category": "General Quality",
+    "subcategory": "Coherence & Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

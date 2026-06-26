@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the library reading room from the first image preserved as the base scene, retaining the elderly man, wooden table, and bookshelves?",
+    "category": "Subject Preservation",
+    "subcategory": "Base Scene Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is there a holographic UI projecting upwards from the open book on the table?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the holographic UI oriented upright and aligned with the perspective of the table?",
+    "category": "Visual Consistency",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the content of the hologram recognizable as the data interface from the second input image?",
+    "category": "Subject Preservation",
+    "subcategory": "Source Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is there a pale blue glow emanating from the book pages at the base of the hologram?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting Effects",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the blue light subtly illuminate the surrounding table and page edges without casting the entire room in a blue tint?",
+    "category": "Instruction Following",
+    "subcategory": "Color Constraints",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Does the holographic projection appear translucent or volumetric rather than opaque and flat?",
+    "category": "Visual Consistency",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the dragon image from the third input transformed into a tapestry hanging on a side wall or bookshelf?",
+    "category": "Instruction Following",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the dragon's composition recognizable on the tapestry despite the material change?",
+    "category": "Subject Preservation",
+    "subcategory": "Source Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Does the tapestry exhibit a visible woven fabric texture instead of the original oil paint impasto?",
+    "category": "Instruction Following",
+    "subcategory": "Material Conversion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the tapestry display physical characteristics of hanging fabric, such as slight sagging or folds?",
+    "category": "Instruction Following",
+    "subcategory": "Physical Simulation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Are the light and shadow variations on the tapestry consistent with the direction of the window light from the base image?",
+    "category": "Visual Consistency",
+    "subcategory": "Global Illumination",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the tapestry correctly aligned with the perspective of the wall it hangs on?",
+    "category": "Visual Consistency",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are the added elements (hologram and tapestry) blended naturally into the scene without harsh seams or artifacts?",
+    "category": "Image Quality",
+    "subcategory": "Blending & Compositing",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from severe geometric distortions or anatomical errors (e.g., regarding the elderly man)?",
+    "category": "Image Quality",
+    "subcategory": "General Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

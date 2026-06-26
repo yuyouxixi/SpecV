@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the cartoon penguin from the second input image clearly visible in the generated image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Subject Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the penguin retain its key visual attributes: the red-and-white striped scarf, blue vest, and orange beak/feet?",
+    "category": "Subject Fidelity",
+    "subcategory": "Attribute Retention",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the background the specific photorealistic desert sand dune landscape from the first input image?",
+    "category": "Background Fidelity",
+    "subcategory": "Scene Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the penguin retain its 3D cartoon rendering style (smooth shading, stylized features) without being converted to a photorealistic texture?",
+    "category": "Style Consistency",
+    "subcategory": "Subject Style Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the desert background maintain its photorealistic appearance, distinct from the cartoon style of the penguin?",
+    "category": "Style Consistency",
+    "subcategory": "Background Style Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are there visible footprints in the sand located beneath or behind the penguin's feet?",
+    "category": "Instruction Following",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Do the footprints appear as realistic indentations in the sand (matching the background texture) rather than cartoonish drawings?",
+    "category": "Instruction Following",
+    "subcategory": "Interaction Realism",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Does the penguin cast a shadow onto the sand that is consistent with the direction and intensity of the desert sunlight?",
+    "category": "Lighting & Integration",
+    "subcategory": "Shadow Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Does the lighting on the penguin's body reflect the directional sunlight and warm color temperature of the desert environment?",
+    "category": "Lighting & Integration",
+    "subcategory": "Illumination & Tone",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Does the penguin appear to be standing firmly on the sand surface (proper ground contact) rather than floating or clipping into the ground?",
+    "category": "Spatial Consistency",
+    "subcategory": "Placement & Contact",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the penguin's scale proportionally reasonable relative to the sand ripples and dune perspective?",
+    "category": "Spatial Consistency",
+    "subcategory": "Scale Coherence",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from residual elements of the original background, specifically patches of snow?",
+    "category": "General Quality",
+    "subcategory": "Hallucinations/Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Is the penguin free from anatomical distortions, such as extra limbs, missing flippers, or warped facial features?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Are the contours of the penguin cleanly blended with the background, without jagged edges or pixelated artifacts?",
+    "category": "General Quality",
+    "subcategory": "Blending Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

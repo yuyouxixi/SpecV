@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the red paper-cut phoenix from the first input image clearly recognizable as the main subject in the output?",
+    "category": "Subject Consistency",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the phoenix retain a flat, 2D paper-cut appearance with visible paper texture, rather than appearing as a realistic 3D biological bird?",
+    "category": "Subject Consistency",
+    "subcategory": "Style Preservation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are the intricate hollow-cut patterns and negative spaces of the original phoenix design preserved (i.e., not filled in or treated as solid objects)?",
+    "category": "Subject Consistency",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the background clearly recognizable as the blizzard mountain scene from the second input image?",
+    "category": "Background Consistency",
+    "subcategory": "Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the phoenix positioned in the sky area, appearing to fly above the mountains?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is there visible snow accumulation on the body or edges of the paper phoenix?",
+    "category": "Instruction Following",
+    "subcategory": "Detail Addition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the snow accumulation respect the paper-cut geometry (e.g., resting on solid paper parts rather than floating unnaturally in the hollow cutout spaces)?",
+    "category": "Image Quality & Coherence",
+    "subcategory": "Physical Logic",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Are there visual effects indicating the phoenix is interacting with strong wind (e.g., trailing snow streaks, directional blur, or slight curvature of the paper)?",
+    "category": "Instruction Following",
+    "subcategory": "Environmental Interaction",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Does the phoenix appear spatially integrated into the blizzard environment (e.g., partially obscured by atmospheric haze or falling snow) rather than pasted on top?",
+    "category": "Image Quality & Coherence",
+    "subcategory": "Scene Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is the bright red color of the phoenix appropriately influenced by the scene's lighting (e.g., showing cool tones or desaturation consistent with the overcast blizzard)?",
+    "category": "Image Quality & Coherence",
+    "subcategory": "Lighting Harmonization",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the scale of the phoenix plausible within the scene (clearly visible but not overwhelmingly large compared to the mountain peaks)?",
+    "category": "Image Quality & Coherence",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the phoenix free from severe anatomical distortions, such as missing parts, disconnected wings, or melted structures?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are the edges of the phoenix clean and distinct, without unnatural halos, jagged pixelation, or muddy blending with the background?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the running boy from the first image composited onto the glacier landscape from the second image?",
+    "category": "Instruction Following",
+    "subcategory": "Composition",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the boy positioned in the foreground of the glacier scene?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the glacier background (ice, mountains, and dark terrain) clearly visible and preserved?",
+    "category": "Instruction Following",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the boy retain the specific running posture (mid-stride, arms bent) seen in the source image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Pose Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Is the boy wearing a blue t-shirt and tan/khaki shorts consistent with the input image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Appearance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Has the visual quality (sharpness and texture detail) of the boy been enhanced to match the high resolution of the background image?",
+    "category": "Domain Adaptation",
+    "subcategory": "Resolution Matching",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Has the color temperature of the boy been adjusted to match the cold, bluish tones of the glacier (removing the warm/green cast from the original photo)?",
+    "category": "Domain Adaptation",
+    "subcategory": "Style Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the lighting on the boy appear consistent with the overcast, diffused lighting of the glacier scene?",
+    "category": "Domain Adaptation",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the scale of the boy plausible relative to the foreground terrain (appearing as a small figure in a vast environment rather than a giant)?",
+    "category": "Visual Coherence",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Is the boy placed on the ground with appropriate contact shadows, avoiding a 'floating' appearance?",
+    "category": "Visual Coherence",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Are the edges of the composited subject blended naturally without jagged pixelation, halos, or residual green grass from the original image?",
+    "category": "General Quality",
+    "subcategory": "Blending Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the boy's face and body anatomy rendered correctly without severe distortion or missing limbs?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

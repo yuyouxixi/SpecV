@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the owl clearly recognizable as the specific owl from the reference sketch, retaining key features like the ear tufts, large eyes, and feather patterns?",
+    "category": "Subject Fidelity",
+    "subcategory": "Main Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the background recognizable as the tropical rainforest from the second input image, retaining its lush vegetation and lighting?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the owl retain its original pencil sketch aesthetic (grayscale, hatching lines, hand-drawn texture) without being colorized?",
+    "category": "Style Consistency",
+    "subcategory": "Subject Style Preservation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the rainforest background remain fully photorealistic and in color, creating a clear visual contrast with the sketch-style owl?",
+    "category": "Style Consistency",
+    "subcategory": "Background Style Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the owl depicted in a natural perching pose on a tree branch?",
+    "category": "Instruction Following",
+    "subcategory": "Pose and Action",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Are the owl's talons visible and depicted as physically gripping the tree branch (e.g., wrapping around or making firm contact)?",
+    "category": "Instruction Following",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Do the generated talons/feet match the pencil sketch style of the owl's head and body?",
+    "category": "Style Consistency",
+    "subcategory": "Coherence of Generated Elements",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the scale of the owl plausible relative to the tree branch it is perched on (neither disproportionately large nor microscopic)?",
+    "category": "General Quality",
+    "subcategory": "Scale and Perspective",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the edges of the owl sketch cleanly integrated into the scene without obvious rectangular cutouts, white borders, or harsh halos?",
+    "category": "General Quality",
+    "subcategory": "Compositing Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the owl anatomically correct (two eyes, centered beak, correct body proportions) without severe distortions or missing parts?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the depth ordering correct, with the owl appearing in front of the background foliage and the talons interacting logically with the branch?",
+    "category": "General Quality",
+    "subcategory": "Depth and Occlusion",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from unintended style bleeding, such as the owl becoming photorealistic or the background turning into a sketch?",
+    "category": "General Quality",
+    "subcategory": "Domain Separation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the VR headset correctly positioned on the nobleman's face, covering the eyes?",
+    "category": "Instruction Following",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the VR headset oriented to match the nobleman's semi-profile head pose?",
+    "category": "Instruction Following",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the VR headset's strap wrap around the nobleman's head in a physically plausible manner?",
+    "category": "Instruction Following",
+    "subcategory": "Structural Logic",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is the structural shape of the inserted object recognizable as the VR headset from the reference image?",
+    "category": "Subject Identity",
+    "subcategory": "Secondary Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are the nobleman's visible facial features (beard, ear, hair) preserved?",
+    "category": "Subject Identity",
+    "subcategory": "Primary Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the nobleman's red velvet robe with fur trim and gold embroidery preserved?",
+    "category": "Subject Identity",
+    "subcategory": "Clothing Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is the nobleman's ornate ruff collar preserved and properly rendered around the neck?",
+    "category": "Subject Identity",
+    "subcategory": "Accessory Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the original landscape background preserved without being replaced by a modern environment?",
+    "category": "Subject Identity",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Has the VR headset's smooth plastic surface been transformed to exhibit visible brushstroke textures consistent with the oil painting?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Transfer",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Does the VR headset's color palette harmonize with the warm, aged tones of the original painting (avoiding stark, modern bright whites)?",
+    "category": "Style Consistency",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the lighting and shading on the VR headset match the directional light source visible on the nobleman's face?",
+    "category": "Style Consistency",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the VR headset exhibit aging effects (e.g., craquelure or varnish yellowing) consistent with the rest of the painting?",
+    "category": "Style Consistency",
+    "subcategory": "Aging Effects",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Are modern elements like the blue LED light either removed or stylistically adapted to fit the oil painting aesthetic?",
+    "category": "Style Consistency",
+    "subcategory": "Anachronism Resolution",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Is the VR headset scaled appropriately to the size of the nobleman's head?",
+    "category": "General Quality",
+    "subcategory": "Scale Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the boundary between the headset and the face free from sharp 'cut-and-paste' artifacts or halos?",
+    "category": "General Quality",
+    "subcategory": "Blending Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Are there visible contact shadows where the headset touches the face, grounding it in the scene?",
+    "category": "General Quality",
+    "subcategory": "Compositing Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is the image free from anatomical distortions or duplicated features (e.g., extra ears or nose parts)?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

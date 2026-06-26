@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the object clearly recognizable as the mecha from the second image (retaining key features like color scheme, shield, or head shape)?",
+    "category": "Subject Identity",
+    "subcategory": "Recognition",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the basketball court from the first image clearly used as the background?",
+    "category": "Instruction Following",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the mecha positioned at or near the center circle of the basketball court?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Has the mecha been successfully transformed from a 2D illustration into a realistic 3D volumetric form?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Dimensionality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the mecha appear massive in scale relative to the court environment (e.g., significantly larger than doors or bleachers)?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the mecha's surface exhibit the glossy, plastic texture of the inflatable PVC material shown in the third image?",
+    "category": "Instruction Following",
+    "subcategory": "Material Transfer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are heat-welded seams visible on the mecha's surface, following plausible panel boundaries?",
+    "category": "Instruction Following",
+    "subcategory": "Material Details",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Are localized wrinkles and pressure-induced bulging visible on the surface, consistent with an inflated structure?",
+    "category": "Instruction Following",
+    "subcategory": "Material Physics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is there visible compression deformation at the base where the mecha contacts the floor?",
+    "category": "Instruction Following",
+    "subcategory": "Contact Deformation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Are soft contact shadows visible on the ground where the mecha touches the floor?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is a blurred reflection of the mecha visible on the lacquered wooden floor?",
+    "category": "Instruction Following",
+    "subcategory": "Environmental Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the highlights on the mecha's head align with the direction of the venue's overhead lights?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from severe artifacts such as floating geometry, disjointed limbs, or incoherent blending between the mecha and background?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

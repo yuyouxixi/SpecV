@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the photorealistic bathroom scene from the first input image (sink, faucet, mirror, window) clearly preserved as the base environment?",
+    "category": "Instruction Following",
+    "subcategory": "Base Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the astronaut figurine recognizable as the specific object from the second input image (white suit, black visor, backpack)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Recognition",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the astronaut figurine positioned sitting on the handle of the faucet?",
+    "category": "Instruction Following",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is the astronaut figurine rendered at a miniature scale (approx. a few centimeters) appropriate for a toy relative to the faucet?",
+    "category": "Visual Consistency",
+    "subcategory": "Scale & Proportion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the astronaut figurine clearly visible in the mirror reflection behind the sink?",
+    "category": "Instruction Following",
+    "subcategory": "Mirror Reflection Presence",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the reflection of the astronaut in the mirror geometrically accurate (showing the correct perspective/angle relative to the real object)?",
+    "category": "Visual Consistency",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the astronaut's black visor reflect specular highlights consistent with the bathroom environment's lighting?",
+    "category": "Visual Consistency",
+    "subcategory": "Material & Lighting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is there a soap dispenser bottle in the scene with a recognizable anime sticker from the third input image applied to it?",
+    "category": "Instruction Following",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the anime sticker warped or curved to match the rounded surface of the soap dispenser bottle?",
+    "category": "Visual Consistency",
+    "subcategory": "Texture Mapping",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the sticker exhibit a laminated sheen or glossy reflection?",
+    "category": "Instruction Following",
+    "subcategory": "Material Properties",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Does the sticker feature visible lifted edges or peeling details?",
+    "category": "Instruction Following",
+    "subcategory": "Fine Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the astronaut figurine cast a contact shadow on the faucet handle consistent with the scene's lighting?",
+    "category": "Visual Consistency",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the overall image maintain a photorealistic style, avoiding a global conversion to a cartoon or anime style?",
+    "category": "Instruction Following",
+    "subcategory": "Style Constraint",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from significant compositing artifacts (e.g., white halos, jagged edges) or anatomical distortions on the figurine?",
+    "category": "Image Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

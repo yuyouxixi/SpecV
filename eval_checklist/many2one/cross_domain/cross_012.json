@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the pop-art explosion effect positioned clearly behind the vintage car in the foreground?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the vintage car correctly occlude the explosion, ensuring the graphic does not incorrectly overlap the front or wheels of the car?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the explosion effect retain its vivid Pop-art colors (e.g., bright reds, yellows) without being converted to the monochrome style of the photograph?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Style Retention",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are characteristic comic book style elements, such as halftone dot patterns or thick outlines, visible within the explosion effect?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Style Retention",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the word 'BOOM' from the input explosion image clearly visible and legible in the generated output?",
+    "category": "Subject Identity",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 6.83
+  },
+  {
+    "id": 6,
+    "question": "Does the surrounding environment (street, buildings, pedestrians) retain the original black-and-white or sepia vintage photograph style?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Style Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is there a strong visual contrast between the colorful explosion and the monochrome vintage environment?",
+    "category": "Instruction Following",
+    "subcategory": "Visual Attributes",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Does the light emitted by the explosion visibly illuminate the vintage car (e.g., highlights on the rear, side, or roof)?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the street surface ahead of the explosion illuminated, showing realistic light falloff consistent with the explosion acting as a light source?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the vintage car in the foreground recognizable as the specific vehicle from the input photograph, retaining its geometry and details?",
+    "category": "Subject Identity",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Are distinct background elements from the input photo (e.g., the Coca-Cola sign, buildings, or the tram) preserved and recognizable?",
+    "category": "Subject Identity",
+    "subcategory": "Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the integration of the explosion free from obvious rectangular copy-paste artifacts or harsh, unblended seams?",
+    "category": "General Quality",
+    "subcategory": "Compositing Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are the pedestrians in the scene free from significant distortions or anatomical errors (e.g., missing or extra limbs)?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 7.67
+  }
+]

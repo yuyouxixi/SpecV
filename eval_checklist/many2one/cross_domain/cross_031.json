@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Is the showroom background and red sports car from Input 1 preserved with the original composition?",
+    "category": "Instruction Following",
+    "subcategory": "Base Image Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the anime character from Input 2 clearly recognizable in the generated image (e.g., outfit, hair, helmet)?",
+    "category": "Subject Identity",
+    "subcategory": "Character Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the character placed as a standee to the front-right of the sports car?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the character on the standee retain the original anime art style (2D illustration) without appearing photorealistic?",
+    "category": "Subject Identity",
+    "subcategory": "Style Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the standee object exhibit visible side thickness (cardboard layers) to indicate it is not a flat digital overlay?",
+    "category": "Instruction Following",
+    "subcategory": "Object Detail",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is there a visible base support structure (e.g., brace, foot plate) at the bottom of the standee?",
+    "category": "Instruction Following",
+    "subcategory": "Object Detail",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are subtle halftone printing dots or a printed texture visible on the standee's surface?",
+    "category": "Instruction Following",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 7.0
+  },
+  {
+    "id": 8,
+    "question": "Does the standee surface show slight specular reflections consistent with glossy cardboard?",
+    "category": "Instruction Following",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Is the wheel rim from Input 3 recognizable (spoke design preserved) in the scene?",
+    "category": "Subject Identity",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Has the wheel rim been transformed into a complete spare tire (rim surrounded by rubber sidewall/tread)?",
+    "category": "Instruction Following",
+    "subcategory": "Object Transformation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the spare tire placed in the background, leaning against the white wall?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the spare tire align correctly with the perspective of the wall and floor (not appearing to float or tilt unnaturally)?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do the standee and spare tire cast realistic contact shadows on the floor?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Environmental Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are reflections of the added elements (standee and tire) visible on the polished showroom floor?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Environmental Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Are faint reflections of the standee or spare tire visible on the red sports car's glossy paint?",
+    "category": "Instruction Following",
+    "subcategory": "Environmental Integration",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 16,
+    "question": "Do the highlights on the spare tire and standee match the direction and intensity of the showroom's ceiling lighting?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 17,
+    "question": "Are the brightness and color temperature of the added elements unified with the showroom's environment?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Color Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 18,
+    "question": "Is a subtle film grain texture applied across the entire image?",
+    "category": "Instruction Following",
+    "subcategory": "Texture/Effects",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 19,
+    "question": "Do the standee and spare tire appear at a plausible life-size scale relative to the sports car?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 20,
+    "question": "Is the image free from severe artifacts, such as jagged edges around the standee or anatomical distortions?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

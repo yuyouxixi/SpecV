@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image use the underwater coral reef scene from the first image as the base environment?",
+    "category": "Instruction Following",
+    "subcategory": "Base Image Usage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the diver from the original base image preserved (unless naturally occluded by the new foreground elements)?",
+    "category": "Subject Identity",
+    "subcategory": "Base Preservation",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 3,
+    "question": "Is the structural design of the spaceship (angular hull, thrusters, cockpit) recognizable as the object from the second input image?",
+    "category": "Subject Identity",
+    "subcategory": "Spaceship Recognition",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the spaceship positioned behind the coral reef and slightly to the left side of the image?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the spaceship partially occluded by the coral reef elements, creating a correct foreground/background relationship?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Occlusion & Depth",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the spaceship appear to be approximately 3-5 meters in scale relative to the surrounding coral and diver?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Appropriateness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the spaceship hull exhibit visible signs of underwater weathering, such as rust, algae, or sediment coverage?",
+    "category": "Instruction Following",
+    "subcategory": "Weathering Effects",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are the spaceship's colors desaturated and tinted to match the blue-green underwater ambient lighting?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Color Adaptation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the jellyfish positioned in the immediate foreground, appearing closer to the camera than the reef?",
+    "category": "Instruction Following",
+    "subcategory": "Jellyfish Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Have the jellyfish been transformed from flat watercolor strokes to realistic, volumetric textures?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Style Transfer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Do the jellyfish retain the pink and blue color aesthetic from the watercolor input image?",
+    "category": "Subject Identity",
+    "subcategory": "Color Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Do the jellyfish exhibit semi-transparency with a subsurface scattering glow effect at the edges?",
+    "category": "Instruction Following",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the depth of field rendered such that the foreground jellyfish are sharp while the background elements are relatively blurred?",
+    "category": "Instruction Following",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the lighting on the inserted objects consistent with the direction of the sun rays coming from the surface in the base image?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from severe blending artifacts (e.g., jagged white outlines, harsh seams) around the inserted objects?",
+    "category": "General Quality",
+    "subcategory": "Blending & Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Are the inserted objects free from severe structural distortions (e.g., melted spaceship geometry, disconnected jellyfish tentacles)?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

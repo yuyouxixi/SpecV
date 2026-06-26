@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original Chinese text (e.g., '宏达建设集团') completely removed from the banner on the right side of the image?",
+    "category": "Instruction Following",
+    "subcategory": "Text Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the natural wrinkles and folds of the banner fabric preserved in the area where the text was removed?",
+    "category": "General Quality",
+    "subcategory": "Inpainting Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the anime robot from the second image composited onto the barrier banner as a large-scale graphic?",
+    "category": "Instruction Following",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the robot graphic retain the recognizable core design and color palette (pink, blue, yellow) of the second input image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Robot Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the robot graphic visually distort along the banner's wrinkles and folds, following the fabric's geometry?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Texture Mapping",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Does the robot graphic appear to be printed on fabric (matte texture, slight ink bleeding) rather than appearing as a glossy digital overlay?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Material Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Does the robot graphic exhibit signs of environmental wear, such as minor edge wear or dust accumulation, consistent with the banner?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Weathering Effects",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the LEGO minifigure from the third image positioned in the extreme foreground and seated on a concrete block?",
+    "category": "Instruction Following",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the LEGO minifigure recognizable with its specific attributes (yellow skin, orange hard hat, blue vest, holding tools)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Minifigure Identity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the LEGO minifigure's plastic surface show a visible light coating of construction dust?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Material Weathering",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are there pronounced contact shadows visible where the LEGO minifigure meets the concrete block?",
+    "category": "General Quality",
+    "subcategory": "Lighting/Shadows",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the depth of field applied such that the foreground LEGO minifigure is sharp while the background construction site (including the banner) is slightly blurred?",
+    "category": "Instruction Following",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the original construction site environment (cranes, scaffolding, corrugated fence) preserved as the background?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the scale relationship logical, with the LEGO minifigure appearing as a small prop and the robot banner appearing as a large background element?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 15,
+    "question": "Is the lighting on the LEGO minifigure consistent with the ambient outdoor lighting of the construction site?",
+    "category": "General Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is the image free from severe artifacts such as floating objects, compositing halos, or anatomical errors on the LEGO figure?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

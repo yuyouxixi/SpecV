@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the Earth scaled down significantly to fit entirely within the boundaries of the palm?",
+    "category": "Instruction Following",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the Earth orb positioned centrally over the palm of the hand?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the Earth object exhibit a glowing, glass-like or crystal ball aesthetic (translucency, specularity) rather than appearing as an opaque solid globe?",
+    "category": "Instruction Following",
+    "subcategory": "Style Application",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the Earth orb depicted as hovering slightly above the palm, indicated by a visible gap or shadow separation between the orb and the skin?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is there a visible blue radiance or glow emanating from the orb and illuminating the skin of the palm?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting Effect",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are there projected light patterns or shadows on the palm surface that resemble the Earth's contours or caustics?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Are recognizable geographic features (continents, clouds) from the input Earth image visible on the orb?",
+    "category": "Subject Consistency",
+    "subcategory": "Earth Identity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the hand recognizable as the specific hand from the input image (matching skin tone, texture, and palm lines)?",
+    "category": "Subject Consistency",
+    "subcategory": "Hand Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the hand free from anatomical distortions (e.g., correct number of fingers, natural joints)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from severe rendering artifacts, such as jagged edges, pixelation, or unnatural blending where the orb meets the hand?",
+    "category": "General Quality",
+    "subcategory": "Image Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

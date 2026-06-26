@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the sports car clearly recognizable as the vehicle from the first input image (maintaining its angular silhouette, low profile, and rear spoiler)?",
+    "category": "Subject Consistency",
+    "subcategory": "Main Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the background recognizable as the lake scene from the second input image, preserving the willow trees, wooden dock, and boats?",
+    "category": "Background Consistency",
+    "subcategory": "Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the sports car positioned on top of the wooden boardwalk/dock?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Has the visual style of the car been completely transformed into a watercolor painting (showing visible brushstrokes and soft washes) rather than looking photorealistic?",
+    "category": "Style & Domain Adaptation",
+    "subcategory": "Style Transfer",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Are realistic metallic reflections, glossiness, and sharp textures (like carbon fiber) completely absent from the car's surface?",
+    "category": "Style & Domain Adaptation",
+    "subcategory": "Attribute Constraint",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is there a visible reflection of the sports car rendered on the water surface?",
+    "category": "Instruction Following",
+    "subcategory": "Specific Detail",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is the reflection on the water rendered in a watercolor style (soft edges, rippled distortion) rather than a sharp mirror-like reflection?",
+    "category": "Style & Domain Adaptation",
+    "subcategory": "Reflection Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the reflection correctly positioned on the water surface (vertically aligned beneath the car) without bleeding onto the dock or land?",
+    "category": "Visual Quality & Coherence",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the scale of the sports car plausible relative to the width of the boardwalk and the surrounding boats?",
+    "category": "Visual Quality & Coherence",
+    "subcategory": "Scale & Proportion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the perspective of the car aligned with the direction and vanishing point of the wooden boardwalk?",
+    "category": "Visual Quality & Coherence",
+    "subcategory": "Perspective & Geometry",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the car blend seamlessly with the background without harsh 'cut-and-paste' outlines or inconsistent resolution?",
+    "category": "Visual Quality & Coherence",
+    "subcategory": "Compositing Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Are there visible contact shadows or watercolor grounding where the car's wheels meet the dock surface?",
+    "category": "Visual Quality & Coherence",
+    "subcategory": "Scene Integration",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the car free from significant structural distortions (e.g., extra wheels, missing body panels, or melted geometry)?",
+    "category": "Visual Quality & Coherence",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Do the colors and shading of the car harmonize with the soft, pastel palette of the surrounding watercolor scene?",
+    "category": "Style & Domain Adaptation",
+    "subcategory": "Color Harmony",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the hot air balloon depicted as a miniature object, appearing significantly smaller than the dandelion seed structure to imply it is being carried?",
+    "category": "Instruction Following",
+    "subcategory": "Scale Handling",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the hot air balloon positioned directly beneath the dandelion seed?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is there a visible string or tether physically connecting the dandelion seed to the hot air balloon?",
+    "category": "Instruction Following",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Does the dandelion seed appear to be airborne or floating (separated from the main seed head)?",
+    "category": "Instruction Following",
+    "subcategory": "Action/State",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the balloon retain the characteristic red color and vertical gore (panel) design from the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Visual Appearance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the wicker basket structure of the balloon visible and correctly positioned beneath the envelope?",
+    "category": "Subject Fidelity",
+    "subcategory": "Structural Detail",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Is the carrier object clearly recognizable as a dandelion seed with delicate pappus filaments?",
+    "category": "Subject Fidelity",
+    "subcategory": "Visual Appearance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the lighting on the miniaturized balloon match the soft, ambient direction and intensity of the macro scene?",
+    "category": "Style Consistency",
+    "subcategory": "Lighting Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the focus and depth-of-field of the balloon consistent with the dandelion seed it is attached to (e.g., matching blur/sharpness)?",
+    "category": "Style Consistency",
+    "subcategory": "Focus Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Does the background maintain the green, macro-photography bokeh style of the second reference image (avoiding elements from the balloon's original background)?",
+    "category": "Style Consistency",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from obvious compositing artifacts (e.g., halos, jagged edges) where the balloon and string attach to the seed?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the balloon free from severe geometric distortion (e.g., crushed shape or warped panels)?",
+    "category": "General Quality",
+    "subcategory": "Geometric Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is there exactly one hot air balloon present in the image (no duplicate balloons)?",
+    "category": "General Quality",
+    "subcategory": "Element Count",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

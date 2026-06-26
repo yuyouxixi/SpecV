@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the luxury yacht from the second image clearly visible within the scene?",
+    "category": "Instruction Following",
+    "subcategory": "Subject Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the giant octopus and the ukiyo-e wave scene from the first image clearly preserved?",
+    "category": "Instruction Following",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Is the yacht depicted as being entangled or wrapped by the tentacles of the giant octopus?",
+    "category": "Instruction Following",
+    "subcategory": "Action/Interaction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Has the visual style of the yacht been completely transformed into a ukiyo-e woodblock print style (e.g., bold outlines, flat colors, lack of photorealistic gradients)?",
+    "category": "Style Consistency",
+    "subcategory": "Domain Adaptation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the color palette of the yacht match the limited, muted tones (e.g., indigo, rust red, cream) of the original woodblock print?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are the water interactions around the yacht (e.g., splashes, wake) rendered using stylized, claw-like wave patterns typical of the original image rather than realistic fluid dynamics?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the structural identity of the yacht (modern multi-deck profile, sleek hull) recognizable despite the stylistic transformation?",
+    "category": "Subject Fidelity",
+    "subcategory": "Structural Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Do the tentacles interacting with the yacht demonstrate logical occlusion (passing in front of and behind the hull)?",
+    "category": "Spatial Consistency",
+    "subcategory": "Occlusion & Layering",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the scale of the yacht plausible relative to the octopus, appearing as a vessel large enough to be entangled?",
+    "category": "Spatial Consistency",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from obvious 'cut-and-paste' artifacts, such as photorealistic lighting or resolution mismatches on the yacht against the drawn background?",
+    "category": "Image Quality",
+    "subcategory": "Compositing Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Are the octopus tentacles continuous and anatomically consistent (e.g., suckers aligned correctly, no disconnected segments)?",
+    "category": "Image Quality",
+    "subcategory": "Anatomical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the yacht free from severe structural distortions (e.g., melted decks, broken geometry) aside from the necessary stylistic simplification?",
+    "category": "Image Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

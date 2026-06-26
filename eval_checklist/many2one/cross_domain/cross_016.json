@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background recognizable as the cyberpunk city street from the first input image?",
+    "category": "Subject Identity",
+    "subcategory": "Background Presence",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the vehicle clearly recognizable as the vintage red Volkswagen Beetle from the second input image?",
+    "category": "Subject Identity",
+    "subcategory": "Main Subject Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Are the specific rust patches and weathered textures from the original car visible on the generated vehicle?",
+    "category": "Subject Identity",
+    "subcategory": "Texture Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the car positioned by the roadside or curb, appearing parked rather than driving in the center of the road?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the car maintain its vintage aesthetic without appearing modernized or morphed into a futuristic vehicle?",
+    "category": "Instruction Following",
+    "subcategory": "Style Constraint",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the car body reflect the specific purple and blue neon lighting of the cyberpunk environment?",
+    "category": "Scene Integration",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the car's global lighting consistent with the night-time scene, avoiding bright daylight illumination from the original image?",
+    "category": "Scene Integration",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the scale of the car realistic relative to the street width, buildings, and other scene elements?",
+    "category": "Scene Integration",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the car's perspective aligned correctly with the road plane and the vanishing point of the street?",
+    "category": "Scene Integration",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the car properly grounded on the street surface with appropriate contact shadows or wet-road reflections?",
+    "category": "Scene Integration",
+    "subcategory": "Physical Grounding",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Is the car free from severe geometric distortions, such as warped body panels or missing/malformed wheels?",
+    "category": "General Quality",
+    "subcategory": "Shape Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are the edges of the car clean and well-blended with the background, avoiding white halos or jagged cut-out artifacts?",
+    "category": "General Quality",
+    "subcategory": "Compositing Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

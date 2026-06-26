@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the rooftop garden base layer preserved without significant modification to the skyline, deck, or existing furniture?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the clay robot from the second input image visible, retaining its distinct features (button eyes, antennae, chest buttons) and matte texture?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Recognition",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the glass dome from the third input image recognizable as a transparent hemispherical object?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Recognition",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the robot placed specifically on top of the round metal table?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Is the robot scaled appropriately to appear as a small decorative figurine relative to the table?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is there a realistic contact shadow beneath the robot on the table surface?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is a faint reflection or specular highlight of the robot visible on the metal table surface?",
+    "category": "Instruction Following",
+    "subcategory": "Material Interaction",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the glass dome positioned on the wooden floor, covering a small section of the potted plants?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are the plants behind or inside the dome visible with realistic refraction or distortion?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Material Physics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the glass dome show reflections of the surrounding skyline or sky?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Material Physics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the glass dome cast a shadow on the wooden floor that exhibits the specified subtly darker edges?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Do the lighting direction and intensity on the robot and dome match the scene's natural sunlight?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Global Illumination",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the image maintain a realistic photographic style, avoiding cartoon or claymation filters?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Style Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are the inserted objects free from obvious compositing artifacts, such as jagged edges or unnatural halos?",
+    "category": "General Quality",
+    "subcategory": "Compositing Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

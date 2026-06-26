@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background image recognizable as the provided mountain lake landscape with the wooden boardwalk?",
+    "category": "Subject Identity",
+    "subcategory": "Base Image Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the koi fish positioned in the water beside the boardwalk?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the koi appear to be submerged just beneath the surface, evidenced by water ripples or refraction distortion?",
+    "category": "Instruction Following",
+    "subcategory": "Physics/Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the koi exhibit a slight visual compression or stretching effect consistent with the instruction to simulate light bending near the surface?",
+    "category": "Instruction Following",
+    "subcategory": "Optical Realism",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 5,
+    "question": "Has the koi's skin been rendered with realistic scale texture rather than flat anime-style shading?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Realism",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Does the koi retain the high-contrast orange, white, and black color scheme of the original anime reference?",
+    "category": "Subject Identity",
+    "subcategory": "Color Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is the drone positioned hovering in the air above the end of the boardwalk?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the drone recognizable as the specific black quadcopter model from the reference image?",
+    "category": "Subject Identity",
+    "subcategory": "Object Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Do the drone's propellers exhibit motion blur?",
+    "category": "Instruction Following",
+    "subcategory": "Action/Detail",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Does the drone cast a visible shadow specifically onto the wooden planks of the boardwalk?",
+    "category": "Instruction Following",
+    "subcategory": "Physics/Interaction",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is there a faint reflection of the drone visible on the water surface?",
+    "category": "Instruction Following",
+    "subcategory": "Physics/Interaction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Is the lighting on the drone and koi consistent with the ambient daylight of the lake scene?",
+    "category": "Global Consistency",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are the relative scales of the koi and drone plausible within the landscape (e.g., koi not giant, drone not tiny)?",
+    "category": "Global Consistency",
+    "subcategory": "Scale Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 14,
+    "question": "Are the inserted objects (koi and drone) free from severe anatomical or structural distortions (e.g., extra fins, missing arms)?",
+    "category": "Image Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from obvious blending artifacts, such as harsh cutout halos or pixelated edges around the inserted objects?",
+    "category": "Image Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

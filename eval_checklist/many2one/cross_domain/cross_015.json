@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background clearly recognizable as the specific ink wash mountain painting provided in the input?",
+    "category": "Instruction Following",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Is the added object clearly recognizable as a quadcopter drone, retaining its core structure (central body and four arms) despite the stylization?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Recognition",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the drone positioned logically within the scene (e.g., flying in the sky or mist) without conflicting with foreground elements like trees or rocks?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is the drone rendered using a monochromatic ink palette (blacks, grays, sepias) consistent with the background, completely avoiding the bright white or blue colors of the original photo?",
+    "category": "Style Consistency",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the drone exhibit traditional brushstroke characteristics (e.g., varying line weights, ink wash diffusion) rather than appearing as a photorealistic or 3D-rendered object?",
+    "category": "Style Consistency",
+    "subcategory": "Artistic Technique",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the drone integration utilize negative space (liu bai) or dry brush effects (fei bai) to blend naturally with the misty atmosphere, avoiding hard digital edges?",
+    "category": "Style Consistency",
+    "subcategory": "Atmospheric Integration",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 7,
+    "question": "Is the drone scaled plausibly relative to the mountains, appearing as a distant object rather than dwarfing the landscape features?",
+    "category": "General Quality",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the paper/canvas texture consistent across the entire image, ensuring the drone looks painted on the same surface as the background?",
+    "category": "General Quality",
+    "subcategory": "Texture Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Is the image free from obvious compositing artifacts such as haloing, pixelation, or sharp cut-out borders around the drone?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the drone free from severe structural distortions, such as melted arms, disconnected rotors, or asymmetrical appendages?",
+    "category": "General Quality",
+    "subcategory": "Geometric Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

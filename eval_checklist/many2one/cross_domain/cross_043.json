@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background clearly recognizable as the climbing gym from the first input image, preserving the wall layout and mats?",
+    "category": "Subject Identity",
+    "subcategory": "Base Image Retention",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the pearl from the third image transformed into an oversized, iridescent climbing hold on the wall?",
+    "category": "Instruction Following",
+    "subcategory": "Object Transformation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the pearl hold feature visible bolt mounting points connecting it to the wall?",
+    "category": "Instruction Following",
+    "subcategory": "Detail Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the pearl hold show worn edges or scuffing consistent with repeated climbing use?",
+    "category": "Instruction Following",
+    "subcategory": "Detail Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are prominent chalk marks visible on the surface of the pearl hold itself?",
+    "category": "Instruction Following",
+    "subcategory": "Detail Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Do the highlights and reflections on the pearl hold match the gym's lighting sources and wall colors?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the pearl hold cast appropriate shadows and appear physically anchored to the wall rather than floating?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Spatial Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is a cloud of chalk dust visible around the pearl hold and near several adjacent holds?",
+    "category": "Instruction Following",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Does the chalk dust conform to the lighting direction and depth of field of the base image?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Environmental Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the chalk dust rendered with a particulate, powder-like texture rather than appearing as a solid blob or flat overlay?",
+    "category": "Subject Identity",
+    "subcategory": "Material Properties",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the ninja from the second image recognizable as a graffiti element on the wall?",
+    "category": "Subject Identity",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the ninja rendered as a flat stencil or spray-paint effect rather than a 3D character?",
+    "category": "Instruction Following",
+    "subcategory": "Style Transfer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the graffiti texture follow the underlying contours and roughness of the climbing wall?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Texture Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Are there visible weathering effects, such as paint chipping or fading, applied to the ninja graffiti?",
+    "category": "Instruction Following",
+    "subcategory": "Detail Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the original climbing holds and wall features from the base image preserved without being removed or distorted?",
+    "category": "Subject Identity",
+    "subcategory": "Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is the image free from obvious compositing artifacts such as unnatural floating elements, jagged edges, or mismatched noise?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

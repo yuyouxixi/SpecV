@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the laboratory setting from the first image preserved as the base scene, including the microscope and background equipment?",
+    "category": "Subject Identity",
+    "subcategory": "Base Image Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the blue slime character from the second image clearly visible on the side of the microscope?",
+    "category": "Subject Identity",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the slime character retain its 2D anime art style (flat shading, outlines) rather than being rendered realistically?",
+    "category": "Style Consistency",
+    "subcategory": "Style Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Does the slime sticker appear deformed or curved to match the geometry of the microscope's surface?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Do the edges of the slime sticker exhibit a subtle peel-up effect?",
+    "category": "Instruction Following",
+    "subcategory": "Detail Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Are there visible adhesive edge reflections on the sticker borders?",
+    "category": "Instruction Following",
+    "subcategory": "Detail Accuracy",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 7,
+    "question": "Is the DNA double helix structure from the third image placed on the countertop surface?",
+    "category": "Subject Identity",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the DNA object converted into a realistic acrylic ornament with visible transparent refraction?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Material Transformation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are there realistic contact shadows cast by the DNA ornament onto the countertop?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the DNA ornament show subtle environmental reflections consistent with the laboratory lighting?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Does the sharpness of the DNA ornament match the depth of field of the table area where it is placed?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Camera Effects",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the original surface imperfections of the countertop (dust particles, scratches) preserved without appearing overly smoothed?",
+    "category": "General Quality",
+    "subcategory": "Texture Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Is the microscope structure preserved without warping or distortion where the sticker was applied?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from severe compositing artifacts, such as jagged white fringes or unnatural color bleeding around the added objects?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the slime sticker and DNA ornament scaled appropriately relative to the microscope and lab environment?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Appropriateness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

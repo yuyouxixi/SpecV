@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the elephant resized to a miniature scale comparable to the surrounding chess pieces?",
+    "category": "Instruction Following",
+    "subcategory": "Scale Transformation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the elephant positioned directly on the surface of the chess board, appearing grounded rather than floating?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the elephant standing specifically on a light-colored (white) square of the chess board?",
+    "category": "Instruction Following",
+    "subcategory": "Specific Detail",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the elephant occupy a single square without physically intersecting or overlapping with adjacent chess pieces?",
+    "category": "Instruction Following",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Does the elephant cast realistic contact shadows beneath its feet onto the board?",
+    "category": "Visual Consistency",
+    "subcategory": "Shadow Presence",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Are the direction and softness of the elephant's shadows consistent with the existing shadows cast by the chess pieces?",
+    "category": "Visual Consistency",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the sharpness or blurriness of the elephant accurately match the depth of field (macro focus level) of the board area it occupies?",
+    "category": "Visual Consistency",
+    "subcategory": "Depth of Field Matching",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Does the elephant's color temperature and lighting harmonize with the warm, indoor aesthetic of the chess board image?",
+    "category": "Visual Consistency",
+    "subcategory": "Style Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the perspective of the elephant aligned with the camera angle of the chess board (viewed from slightly above)?",
+    "category": "Visual Consistency",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the inserted subject clearly recognizable as the African elephant from the first input image (retaining tusks, trunk, and large ears)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Feature Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the elephant anatomically coherent (e.g., correct number of legs, natural posture) without distortions?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the boundary between the elephant and the background clean, free from jagged edges, halos, or residual background artifacts?",
+    "category": "General Quality",
+    "subcategory": "Compositing Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Are the surrounding chess pieces and board grid free from distortion or warping caused by the edit?",
+    "category": "General Quality",
+    "subcategory": "Scene Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

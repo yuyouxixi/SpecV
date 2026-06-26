@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the train carriage interior from the first image clearly recognizable as the base scene?",
+    "category": "Subject Identity",
+    "subcategory": "Base Image Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the green dragon keychain hanging from a hook located beneath the luggage rack?",
+    "category": "Instruction Following",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the keychain retain the key visual features of the second image (green body, orange belly, blue horns) and its 3D plastic look?",
+    "category": "Subject Identity",
+    "subcategory": "Object Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the connecting hardware (chain or ring) between the dragon figure and the hook visible?",
+    "category": "Instruction Following",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is the keychain depicted at a plausible small scale relative to the surrounding train interior elements?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the keychain exhibit subtle motion blur that is aligned with the outside scenery's direction but noticeably weaker?",
+    "category": "Instruction Following",
+    "subcategory": "Motion Physics",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is there a reflection of the keychain visible on the window glass that is fainter and softer than the object itself?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting and Reflections",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are the watercolor clouds from the third image applied as a window decal on the train window?",
+    "category": "Instruction Following",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the watercolor paper texture clearly visible within the cloud decal area?",
+    "category": "Subject Identity",
+    "subcategory": "Texture Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the cloud decal semi-transparent, allowing the motion-blurred outside scenery to be visible through it?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Material Properties",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Do the edges of the cloud decal show visible signs of slight lifting or curling?",
+    "category": "Instruction Following",
+    "subcategory": "Fine Detail Generation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Are there adhesive residue highlights visible near the edges of the decal?",
+    "category": "Instruction Following",
+    "subcategory": "Fine Detail Generation",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 13,
+    "question": "Does the lighting on the keychain match the soft, natural interior lighting of the carriage?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Style Harmonization",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the visual layering correct, with the decal and reflection appearing on the glass surface in front of the outside scenery?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from severe blending artifacts, halos, or geometric distortions around the inserted keychain and decal?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

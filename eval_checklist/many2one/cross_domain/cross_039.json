@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background clearly recognizable as the subway tunnel from the first input image, preserving the tile wall pattern and corridor structure?",
+    "category": "Subject Identity",
+    "subcategory": "Base Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the blank advertisement space on the wall free from the original stains and adhesive marks (cleanly inpainted)?",
+    "category": "Instruction Following",
+    "subcategory": "Inpainting Cleanup",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Is the manga character from the second image clearly visible and recognizable as a poster on the wall?",
+    "category": "Subject Identity",
+    "subcategory": "Main Subject Visibility",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the poster retain the black-and-white screentone style of the original manga character input?",
+    "category": "Subject Identity",
+    "subcategory": "Style Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the poster perspective-distorted to align correctly with the vanishing point and grid lines of the tiled wall?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the poster exhibit visible paper texture or grain, distinguishing it from a digital overlay?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Material Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are there visible creases, folds, or curled corners on the poster to simulate physical wear?",
+    "category": "Instruction Following",
+    "subcategory": "Physical Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Are tape mounting marks visible securing the poster to the wall?",
+    "category": "Instruction Following",
+    "subcategory": "Mounting Details",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Is the neon sign text '電音夜色' from the third image clearly legible and accurate?",
+    "category": "Subject Identity",
+    "subcategory": "Text Legibility",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is the neon sign positioned vertically above the manga poster on the wall?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the neon sign maintain the characteristic blue/purple glow color from the input image?",
+    "category": "Subject Identity",
+    "subcategory": "Color Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are mounting brackets or hardware visible connecting the neon sign to the wall?",
+    "category": "Instruction Following",
+    "subcategory": "Object Details",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Do the mounting brackets or the sign cast small, realistic shadows onto the wall?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Shadow Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Is there visible colored light spill from the neon sign onto the surrounding wall tiles?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is there visible colored light spill from the neon sign onto the floor surface?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the glossy floor surface show a blurred reflection of the neon sign?",
+    "category": "Instruction Following",
+    "subcategory": "Environmental Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is the manga character's anatomy (e.g., hands, facial features) preserved without distortion?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Accuracy",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 18,
+    "question": "Are the original directional signs and ceiling elements of the subway tunnel preserved?",
+    "category": "Subject Identity",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "Are the poster and neon sign scaled appropriately relative to the wall and each other?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 20,
+    "question": "Is the image free from severe blending artifacts or unnatural edges where the new elements meet the wall?",
+    "category": "General Quality",
+    "subcategory": "Compositing Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

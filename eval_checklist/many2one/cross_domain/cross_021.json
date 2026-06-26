@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the MacBook placed within the sunflower field environment depicted in the first input image?",
+    "category": "Instruction Following",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the background preserve the key artistic features of the first input image, specifically the swirling purple/pink sky, yellow impasto sunflowers, and dark vertical cypress trees?",
+    "category": "Subject Identity",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Has the physical body of the MacBook (casing, keyboard, trackpad) been transformed to have an oil painting brushstroke texture matching the background?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Style Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the MacBook screen display an image of a sunflower field?",
+    "category": "Instruction Following",
+    "subcategory": "Screen Content",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the content displayed on the MacBook screen rendered in a realistic photographic style, distinct from the oil painting style of the surroundings?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Nested Domain Resolution",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is there a clear visual distinction between the impasto texture of the laptop body and the smooth, photorealistic texture of the screen content?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Texture Differentiation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the MacBook clearly recognizable as a laptop (with visible keyboard, trackpad, and screen bezel) despite the artistic stylization?",
+    "category": "Subject Identity",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the MacBook positioned with correct perspective relative to the ground plane, appearing to rest naturally among the flowers rather than floating?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the scale of the MacBook proportionally reasonable relative to the surrounding sunflowers?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the boundary between the realistic screen content and the painted laptop bezel crisp and defined, without brushstrokes bleeding into the screen image?",
+    "category": "General Quality",
+    "subcategory": "Boundary Definition",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Does the lighting on the MacBook appear coherent with the warm, dramatic lighting of the painted sunset environment?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from significant artifacts such as residual white backgrounds, duplicated laptops, or severe geometric distortions?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

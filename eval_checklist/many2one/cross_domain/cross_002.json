@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the green 3D cartoon dinosaur from the first input image clearly visible in the generated image?",
+    "category": "Subject Consistency",
+    "subcategory": "Main Subject Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the dinosaur retain its specific visual features, including the 'X' shaped eyes and the red tie?",
+    "category": "Subject Consistency",
+    "subcategory": "Feature Retention",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the dinosaur maintain its original 3D cartoon aesthetic rather than being converted into a photorealistic creature?",
+    "category": "Subject Consistency",
+    "subcategory": "Style Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is the background recognizable as the specific boardroom from the second input image (long mahogany table, black chairs, city view)?",
+    "category": "Background Consistency",
+    "subcategory": "Scene Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the dinosaur positioned at the head of the table (the main seat at the far end)?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Is the dinosaur sitting in the chair rather than standing on top of the table or floating in mid-air?",
+    "category": "Instruction Following",
+    "subcategory": "Pose/Action",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the dinosaur's posture or gesture convey that it is 'pretending to be the boss' (e.g., authoritative stance, gesturing, attention to the room)?",
+    "category": "Instruction Following",
+    "subcategory": "Role Depiction",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 8,
+    "question": "Is there a clearly visible reflection of the dinosaur on the mahogany tabletop?",
+    "category": "Instruction Following",
+    "subcategory": "Specific Detail (Reflection)",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Is there a visible cast shadow from the dinosaur onto the table or chair area?",
+    "category": "Instruction Following",
+    "subcategory": "Specific Detail (Shadow)",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the scale of the dinosaur appropriate for the environment (roughly fitting the executive chair, not toy-sized or filling the whole room)?",
+    "category": "Spatial & Physical Logic",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Does the lighting on the cartoon dinosaur match the direction and intensity of the boardroom's ambient light (e.g., from the windows)?",
+    "category": "Spatial & Physical Logic",
+    "subcategory": "Lighting Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the reflection on the table geometrically consistent with the dinosaur's position (mirrored correctly rather than a generic shadow)?",
+    "category": "Spatial & Physical Logic",
+    "subcategory": "Physical Logic",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the blending of the cartoon character into the realistic scene free from obvious artifacts like white halos, jagged edges, or severe blur?",
+    "category": "Image Quality",
+    "subcategory": "Compositing Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 14,
+    "question": "Is the dinosaur free from severe anatomical distortions (e.g., extra limbs, missing parts, or warped body shape)?",
+    "category": "Image Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

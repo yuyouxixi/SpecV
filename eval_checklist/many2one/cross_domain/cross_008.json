@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the mecha recognizable as the 'Sakura Samurai' unit, retaining key features like the V-fin helmet and large shoulder armor?",
+    "category": "Subject Consistency",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the mecha holding the long energy rifle shown in the reference image?",
+    "category": "Subject Consistency",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 3,
+    "question": "Is the background recognizable as the specific ruined street scene from the second input image?",
+    "category": "Background Consistency",
+    "subcategory": "Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the mecha positioned standing in the middle of the rubble/street area as instructed?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the entire image rendered in black-and-white with no color remaining?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Does the image apply vintage photographic effects (film grain, noise, scratches) to the mecha to match the background?",
+    "category": "Style Consistency",
+    "subcategory": "Texture & Aging",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Has the mecha been transformed from a flat 2D anime drawing into a realistic-looking 3D object with photographic shading?",
+    "category": "Domain Adaptation",
+    "subcategory": "2D to 3D Conversion",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Does the mecha appear significantly larger than the surrounding debris and tank, maintaining a logical 'giant robot' scale?",
+    "category": "Scene Integration",
+    "subcategory": "Scale Logic",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Does the lighting on the mecha match the direction and contrast of the ambient light in the background scene?",
+    "category": "Scene Integration",
+    "subcategory": "Lighting Match",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the mecha cast a realistic contact shadow on the rubble, indicating it is grounded rather than floating?",
+    "category": "Scene Integration",
+    "subcategory": "Grounding & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the boundary between the mecha and the background seamless, without visible halos or sharp 'cut-out' edges?",
+    "category": "Scene Integration",
+    "subcategory": "Blending Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from text, labels, and diagram lines present in the original character sheet?",
+    "category": "Negative Constraints",
+    "subcategory": "Source Artifact Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Is the mecha anatomically coherent (e.g., correct number of limbs, no disconnected parts)?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

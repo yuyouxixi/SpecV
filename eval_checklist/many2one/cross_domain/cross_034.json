@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the gallery room (walls, floor, ceiling lights, pedestal structure) preserved from the first image without significant unintended changes?",
+    "category": "Instruction Following",
+    "subcategory": "Base Layer Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the low-poly dinosaur placed on top of the central white pedestal?",
+    "category": "Instruction Following",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the dinosaur sculpture retain the distinctive low-poly, faceted geometry of the input model?",
+    "category": "Subject Identity",
+    "subcategory": "Shape Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the dinosaur's material appear to be matte spray-painted metal rather than the original digital/paper appearance?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Material Transformation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are there subtle visual details indicating physical fabrication (e.g., seams or slight wear) on the dinosaur sculpture?",
+    "category": "Instruction Following",
+    "subcategory": "Material Detail",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the dinosaur exhibit clear highlight and shadow planes consistent with the overhead spotlights?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the dinosaur cast a visible shadow on the pedestal surface?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Shadow Logic",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Does the dinosaur cast a shadow onto the floor that is consistent with the overhead lighting?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Shadow Logic",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the ink portrait displayed as a framed artwork on the left wall?",
+    "category": "Instruction Following",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Is the subject of the framed artwork recognizable as the elderly man from the input sketch?",
+    "category": "Subject Identity",
+    "subcategory": "Portrait Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the artwork within the frame retain the ink line drawing style of the input portrait?",
+    "category": "Subject Identity",
+    "subcategory": "Style Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Does the portrait feature a frame with visible thickness or depth?",
+    "category": "Instruction Following",
+    "subcategory": "Detail Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the framed portrait perspective-distorted to align correctly with the receding angle of the left wall?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are there visible reflections on the portrait surface suggesting the presence of glass?",
+    "category": "Instruction Following",
+    "subcategory": "Material Detail",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Do the glass reflections on the portrait plausibly reflect the gallery's overhead light strips?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Are the dinosaur and framed portrait scaled appropriately for the pedestal and wall respectively?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Appropriateness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Are the edges of the added objects (dinosaur and frame) clean and free from obvious compositing halos?",
+    "category": "General Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Is the dinosaur free from severe geometric distortions or malformed limbs?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

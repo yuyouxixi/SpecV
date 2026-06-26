@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the miniature city clearly positioned entirely inside the glass sphere, with no elements floating outside the glass boundary?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the watercolor forest rendered as a curved backing paper that visually conforms to the inner rear wall of the sphere?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the miniature city visually positioned in front of the watercolor backing paper (correct occlusion)?",
+    "category": "Instruction Following",
+    "subcategory": "Layer Ordering",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Do the city structures near the edges of the sphere exhibit pronounced refractive magnification and curved distortion?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Physics/Refraction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the studio specular highlight reflections from the original glass sphere preserved on the surface, overlaying the internal contents?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is there visible depth-of-field layering, with the city or foreground elements appearing sharper than the background backing paper?",
+    "category": "Instruction Following",
+    "subcategory": "Depth Effects",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the paper texture of the watercolor backing subtly visible without overpowering the imagery?",
+    "category": "Instruction Following",
+    "subcategory": "Texture Details",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Are the distinct building structures (skyscrapers, modern architecture) from the input city image recognizable inside the sphere?",
+    "category": "Subject Identity",
+    "subcategory": "Structure Retention",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the green watercolor style and forest silhouette from the second input image recognizable in the backing layer?",
+    "category": "Subject Identity",
+    "subcategory": "Style Retention",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the crystal square base from the original glass sphere image present and properly supporting the sphere?",
+    "category": "Subject Identity",
+    "subcategory": "Object Retention",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the glass sphere retain its transparency, allowing clear visibility of the internal city and backing paper?",
+    "category": "Subject Identity",
+    "subcategory": "Material Properties",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Does the overall image retain the photorealistic studio photography aesthetic of the original glass sphere input?",
+    "category": "General Quality",
+    "subcategory": "Style Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

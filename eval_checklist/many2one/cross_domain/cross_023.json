@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the white modern villa clearly recognizable as the main subject, retaining its original architectural structure and window placement?",
+    "category": "Subject Identity",
+    "subcategory": "Architectural Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are the swimming pool and surrounding green lawn preserved in their original shapes and positions?",
+    "category": "Subject Identity",
+    "subcategory": "Scene Layout Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Has the original clear blue sky been completely replaced by a Makoto Shinkai-style sky featuring large cumulus clouds and contrails from the reference image?",
+    "category": "Instruction Following",
+    "subcategory": "Sky Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Does the new sky retain the warm sunset color palette (oranges, pinks, and purples) shown in the anime reference image?",
+    "category": "Instruction Following",
+    "subcategory": "Style & Color Matching",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Do the white building surfaces exhibit a warm color cast (golden/pink hues) consistent with the ambient lighting of the new anime sky?",
+    "category": "Instruction Following",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the anime-style clouds and sky colors clearly visible in the reflections on the swimming pool's water surface?",
+    "category": "Instruction Following",
+    "subcategory": "Pool Reflection Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Do the reflections in the villa's large glass windows correspond to the new anime sky rather than the original blue sky?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Cross-Surface Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the pool water retain a realistic liquid texture (ripples and perspective distortion) applied to the anime reflection, avoiding a flat or pasted-on look?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Texture & Physics Realism",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the boundary between the building's roofline and the new sky seamless, without visible white halos, jagged edges, or remnants of the original blue sky?",
+    "category": "General Quality",
+    "subcategory": "Compositing & Masking",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the generated image free from severe artifacts such as architectural line distortion, color banding in the sky, or unnatural noise?",
+    "category": "General Quality",
+    "subcategory": "Image Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

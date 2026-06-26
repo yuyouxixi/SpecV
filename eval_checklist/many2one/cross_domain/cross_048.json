@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the overall image resemble a vintage nautical chart with a yellowed, aged paper texture?",
+    "category": "Style Consistency",
+    "subcategory": "Global Aesthetic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the colors low-saturation and muted (e.g., faded inks), avoiding vivid photorealistic tones?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the geographical shape of the coastline clearly preserved from the first input image?",
+    "category": "Subject Consistency",
+    "subcategory": "Coastline Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the sea area rendered as a flat chart fill or wash rather than a photorealistic water surface?",
+    "category": "Style Consistency",
+    "subcategory": "Domain Adaptation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Is the compass positioned in the lower-left corner of the chart?",
+    "category": "Instruction Following",
+    "subcategory": "Element Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the compass features (star points and N/S/E/W markers) clearly recognizable?",
+    "category": "Subject Consistency",
+    "subcategory": "Compass Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Has the compass texture been transformed from 'chalk on blackboard' to 'ink lines on paper'?",
+    "category": "Instruction Following",
+    "subcategory": "Texture Transfer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the original black background of the compass completely removed?",
+    "category": "Image Quality",
+    "subcategory": "Artifact Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Does the tentacle appear to emerge partially from the sea area of the chart?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the tentacle rendered in an embossed impression or woodcut print style, avoiding photorealistic gloss/slime?",
+    "category": "Instruction Following",
+    "subcategory": "Style Transfer",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Are the tentacle's suction cups distinct and recognizable within the illustration style?",
+    "category": "Subject Consistency",
+    "subcategory": "Feature Retention",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Do the inserted elements (compass and tentacle) share the same paper grain/texture as the map background?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Cohesion",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from unnatural rectangular borders or sharp cut-out edges around the inserted elements?",
+    "category": "Image Quality",
+    "subcategory": "Blending",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from severe blurriness, geometric distortions, or unrequested objects?",
+    "category": "Image Quality",
+    "subcategory": "General Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

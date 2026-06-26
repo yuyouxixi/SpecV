@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the arctic fox positioned on the ground in front of the building?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the fox rendered in a thermal imaging pseudo-color style consistent with the background (FLIR palette), rather than a realistic photo style?",
+    "category": "Style Consistency",
+    "subcategory": "Domain Adaptation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the fox's body core (torso) displayed in red-yellow colors to indicate high temperature?",
+    "category": "Instruction Following",
+    "subcategory": "Color/Attribute",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are the fox's limbs and ear tips displayed in green or lower-temperature colors as specifically requested?",
+    "category": "Instruction Following",
+    "subcategory": "Color/Attribute",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the tip of the fox's nose rendered as a bright white hotspot?",
+    "category": "Instruction Following",
+    "subcategory": "Color/Attribute",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Does the fox maintain the sitting posture and facing direction from the reference image?",
+    "category": "Subject Consistency",
+    "subcategory": "Pose Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the fox's outline clearly recognizable as an arctic fox (pointed ears, snout, bushy tail shape) without blending indistinguishably into the background?",
+    "category": "Subject Consistency",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Does the fox avoid showing visible-light fur texture (white fur detail), relying instead on thermal gradients to define shape?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Handling",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the fox scaled realistically relative to the building (significantly smaller than the building structure)?",
+    "category": "Scale & Perspective",
+    "subcategory": "Relative Size",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Does the fox appear to make physical contact with the ground (not floating or overlapping the wall)?",
+    "category": "Scale & Perspective",
+    "subcategory": "Spatial Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the original building details (windows, rooftop equipment) and the thermal data overlay (text/color bar) preserved without distortion?",
+    "category": "Background Consistency",
+    "subcategory": "Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the generated fox free from anatomical errors (e.g., extra legs, missing parts, distorted proportions)?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from severe artifacts such as unnatural edge blending, color bleeding, or ghosting?",
+    "category": "General Quality",
+    "subcategory": "Image Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

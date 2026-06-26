@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the desert highway scene from the first image preserved as the base environment?",
+    "category": "Subject Identity",
+    "subcategory": "Base Image Retention",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the physical structure of the road sign (posts and frame) preserved, with only the face modified?",
+    "category": "Subject Identity",
+    "subcategory": "Structural Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Has the road sign face been transformed into an LED dot matrix display rather than a flat sticker or print?",
+    "category": "Instruction Following",
+    "subcategory": "Object Transformation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the LED display show visible dot matrix granularity (individual pixels/dots)?",
+    "category": "Instruction Following",
+    "subcategory": "Texture Modification",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the LED display exhibit a slight glow effect characteristic of an illuminated electronic screen?",
+    "category": "Instruction Following",
+    "subcategory": "Visual Effects",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Is the pixel cactus from the second image clearly recognizable as the pattern displayed on the screen?",
+    "category": "Subject Identity",
+    "subcategory": "Content Inclusion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the cactus pattern on the screen retain its blocky, pixelated appearance?",
+    "category": "Style Consistency",
+    "subcategory": "Pixel Art Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the content on the LED screen correctly conform to the perspective and angle of the road sign?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is there a giant butterfly-shaped kite or inflatable floating in the distance above the highway?",
+    "category": "Instruction Following",
+    "subcategory": "Object Addition",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the kite retain the recognizable color and pattern (orange and black) of the monarch butterfly from the third image?",
+    "category": "Subject Identity",
+    "subcategory": "Object Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the kite material appear semi-transparent with glowing edges consistent with being backlit by sunlight?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the kite appear at a giant scale appropriate for a distant advertising inflatable, rather than looking like a small insect?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Is there a visible tether line connecting the kite to the vicinity of the sign post?",
+    "category": "Instruction Following",
+    "subcategory": "Detail Addition",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Is the tether line rendered as a continuous, coherent strand without severe fragmentation?",
+    "category": "General Quality",
+    "subcategory": "Fine Detail Stability",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Does the kite exhibit slight motion blur in a consistent downwind direction?",
+    "category": "Instruction Following",
+    "subcategory": "Visual Effects",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 16,
+    "question": "Is the distant kite visually affected by heat wave distortion or atmospheric haze consistent with the desert environment?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Atmospheric Consistency",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 17,
+    "question": "Is the overall image color natural, avoiding the application of strange global filters?",
+    "category": "General Quality",
+    "subcategory": "Color Harmony",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 18,
+    "question": "Are the edges of the kite and the sign display cleanly blended into the scene without harsh halos or cutout artifacts?",
+    "category": "General Quality",
+    "subcategory": "Compositing",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the chocolate cake positioned on top of the green stove in the clay kitchen scene?",
+    "category": "Instruction Following",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Has the visual style of the cake been successfully transformed from photorealistic to a claymation/plasticine style consistent with the kitchen?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Style Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the surface of the cake exhibit visible hand-sculpted imperfections, such as fingerprint marks, dents, or an uneven finish?",
+    "category": "Instruction Following",
+    "subcategory": "Texture Details",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Has the original glossy mirror-glaze finish of the cake been replaced with a matte, clay-like texture?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Material Transformation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the cake recognizable as the reference subject, maintaining its round shape with a slice cut out revealing interior layers?",
+    "category": "Subject Identity",
+    "subcategory": "Shape Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Are the decorative elements (raspberries and gold leaf) present and reinterpreted as small clay sculptures rather than photorealistic fruit or foil?",
+    "category": "Subject Identity",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Do the interior layers of the cake (visible in the cut-out section) appear to be made of matte clay rather than realistic sponge texture?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Interior Material Conversion",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the scale of the cake appropriate for the stove, fitting logically onto the burners without appearing excessively large or small?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the cake cast a plausible contact shadow onto the stove surface, indicating it is physically resting there rather than floating?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are the original background elements (orange fridge, green stove, yellow cabinets, checkered floor) preserved without unintended distortions?",
+    "category": "Subject Identity",
+    "subcategory": "Background Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the boundary between the cake and the stove clean and blended, avoiding sharp 'cut-and-paste' artifacts or halos?",
+    "category": "General Quality",
+    "subcategory": "Compositing Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the lighting on the cake consistent with the soft, diffuse illumination of the clay kitchen environment?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

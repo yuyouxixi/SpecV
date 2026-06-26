@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the yellow school bus from the first input image present in the generated scene?",
+    "category": "Subject Identity",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the identifying features of the bus, specifically the text 'SCHOOL BUS' and the number '42', visible and legible?",
+    "category": "Subject Identity",
+    "subcategory": "Feature Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 3,
+    "question": "Is the background scene recognizable as the flooded city street from the second input image, retaining its photorealistic style?",
+    "category": "Background Consistency",
+    "subcategory": "Scene Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the school bus retain its flat vector style (solid colors, lack of realistic shading) distinct from the photorealistic background?",
+    "category": "Style Consistency",
+    "subcategory": "Domain Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Is the school bus scaled appropriately relative to the surrounding environment (e.g., comparable in size to the submerged cars)?",
+    "category": "Spatial Consistency",
+    "subcategory": "Scale Adaptation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the perspective and orientation of the school bus consistent with the camera angle of the flood scene?",
+    "category": "Spatial Consistency",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the school bus depicted as floating on the surface of the floodwater?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the lower portion of the school bus (wheels, undercarriage) obscured by the murky water to indicate partial submersion?",
+    "category": "Instruction Following",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Are there visible muddy water splatters or stain marks on the body of the school bus?",
+    "category": "Instruction Following",
+    "subcategory": "Detail Generation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the muddy stains rendered in a flat style consistent with the vector bus, rather than appearing as photorealistic dirt textures?",
+    "category": "Style Consistency",
+    "subcategory": "Detail Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from severe compositing artifacts, such as white halos, jagged edges, or unnatural cutoffs around the bus?",
+    "category": "Image Quality",
+    "subcategory": "Compositing",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the school bus free from significant geometric distortions or structural warping?",
+    "category": "Image Quality",
+    "subcategory": "Geometric Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

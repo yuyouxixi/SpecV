@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the sapphire ring placed specifically on the ring finger (the fourth digit) of the X-ray hand?",
+    "category": "Instruction Following",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the ring positioned on the proximal phalanx (the bone segment closest to the palm), consistent with standard ring-wearing anatomy?",
+    "category": "Instruction Following",
+    "subcategory": "Anatomical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the metal band of the ring rendered with an X-ray effect (bright white/radiopaque), matching the visual density of the hand's bones?",
+    "category": "Instruction Following",
+    "subcategory": "Style Transfer (Metal)",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the gemstone portion retain its original photorealistic appearance, specifically displaying the true blue color and sparkling facets?",
+    "category": "Instruction Following",
+    "subcategory": "Attribute Retention (Gemstone)",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the blue color strictly confined to the gemstone, ensuring the metal band and hand remain in the monochromatic X-ray palette?",
+    "category": "Style Consistency",
+    "subcategory": "Color Isolation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the gemstone shape clearly recognizable as the large oval cut from the reference ring image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Ring Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Are the skeletal structures of the hand preserved without distortion, missing digits, or extra fingers?",
+    "category": "Subject Fidelity",
+    "subcategory": "Anatomical Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the faint soft tissue shadow outlining the hand preserved in the background, rather than being erased or obscured?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Detail",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 9,
+    "question": "Is the ring scaled proportionally to the finger bone, appearing physically fitted rather than oversized or microscopic?",
+    "category": "Domain & Scale",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the ring band appear to wrap around the bone (showing depth/encirclement) rather than floating flat on top of the image?",
+    "category": "Domain & Scale",
+    "subcategory": "Spatial Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is the ring oriented with the gemstone facing the viewer, consistent with the hand's dorsal view?",
+    "category": "Domain & Scale",
+    "subcategory": "Geometric Alignment",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the background free from intrusive elements from the ring's source image, such as velvet box textures or studio lighting gradients?",
+    "category": "General Quality",
+    "subcategory": "Domain Contamination",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the junction between the photorealistic gemstone and the X-ray metal band seamless, forming a single coherent object without jarring breaks?",
+    "category": "General Quality",
+    "subcategory": "Object Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from obvious compositing artifacts like rectangular halos, blurriness, or visible seams around the ring?",
+    "category": "General Quality",
+    "subcategory": "Blending Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from hallucinations such as duplicate rings, floating jewelry parts, or disjointed bones?",
+    "category": "General Quality",
+    "subcategory": "Hallucinations",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

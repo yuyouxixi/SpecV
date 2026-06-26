@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original hand and phone body from the first input image preserved, maintaining the same pose and holding position?",
+    "category": "Subject Fidelity",
+    "subcategory": "Base Image Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the phone screen content replaced with a pixel art game interface, strictly confined within the screen boundaries without bleeding onto the bezel?",
+    "category": "Instruction Following",
+    "subcategory": "Masking & Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the background of the interface recognizable as the city skyline from the fourth input image (Empire State Building/Freedom Tower)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Reference",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Has the city skyline background been pixelated to a low-resolution style as requested?",
+    "category": "Style Consistency",
+    "subcategory": "Pixelation Effect",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the background color palette shifted to a cyan-purple gaming atmosphere?",
+    "category": "Style Consistency",
+    "subcategory": "Color Grading",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the pixel art character from the second input image (green hooded figure with sword) visible in the center of the screen?",
+    "category": "Instruction Following",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the 3D glassy button from the third input image placed at the bottom of the screen to serve as a 'Start' button?",
+    "category": "Instruction Following",
+    "subcategory": "Element Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the 'Start' button have a realistic UI drop shadow that grounds it to the interface, rather than appearing to float unnaturally?",
+    "category": "Physical Consistency",
+    "subcategory": "Lighting & Depth",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the original window reflections and bright glare from the first image clearly visible overlaying the new screen content?",
+    "category": "Physical Consistency",
+    "subcategory": "Reflection Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Are the original fingerprint smudges and dust particles preserved and visible on top of the generated game interface?",
+    "category": "Physical Consistency",
+    "subcategory": "Texture Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the original edge vignetting (darker corners) of the screen preserved?",
+    "category": "Physical Consistency",
+    "subcategory": "Lighting Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Does the perspective distortion of the new interface content match the physical tilt and angle of the phone screen?",
+    "category": "Physical Consistency",
+    "subcategory": "Geometric Alignment",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 13,
+    "question": "Does the screen content appear emissive (glowing from within) rather than looking like a matte sticker pasted on the surface?",
+    "category": "Style Consistency",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Is the layering order correct, with reflections and fingerprints appearing strictly on top of the UI elements?",
+    "category": "Physical Consistency",
+    "subcategory": "Compositing Logic",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the hand holding the phone rendered naturally without anatomical errors or artifacts?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 16,
+    "question": "Is the screen area free from severe moiré patterns or unintentional aliasing artifacts?",
+    "category": "General Quality",
+    "subcategory": "Image Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

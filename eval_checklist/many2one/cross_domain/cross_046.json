@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background recognizable as the blue sci-fi corridor from the first input image?",
+    "category": "Subject Identity",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the Golden Retriever from the second image present in the scene?",
+    "category": "Subject Identity",
+    "subcategory": "Subject Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the Golden Retriever positioned sitting on the corridor floor?",
+    "category": "Instruction Following",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Has the dog's lighting been successfully changed from the original warm indoor tones to cool blue tones that match the corridor?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Lighting Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is there visible cool-toned rim lighting on the dog's fur consistent with the corridor's light strips?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Rim Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are there visible contact shadows on the floor directly underneath the dog's paws?",
+    "category": "Instruction Following",
+    "subcategory": "Physics/Lighting",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Is there a subtle, blurred reflection of the dog visible on the corridor floor?",
+    "category": "Instruction Following",
+    "subcategory": "Environmental Interaction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the helmet from the third image placed correctly on the dog's head?",
+    "category": "Instruction Following",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the helmet appropriately scaled to fit the dog's head (not unnaturally small or excessively large)?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Has the helmet been transformed from a flat 2D illustration into a realistic 3D object with perceptible depth and volume?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Dimensionality Conversion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the helmet visor rendered with a glass-like material property (transparency/specularity) rather than opaque flat color?",
+    "category": "Domain/Scale Handling",
+    "subcategory": "Material Inference",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the specific design elements (flames, wings, stars, text) from the 2D illustration preserved as printed livery on the 3D helmet?",
+    "category": "Subject Identity",
+    "subcategory": "Feature Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Are reflections of the corridor's light strips visible on the surface of the helmet's visor?",
+    "category": "Instruction Following",
+    "subcategory": "Detail Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are the edges of the dog's fur blended naturally into the scene without jagged cutout lines or residual warm-colored halos?",
+    "category": "General Quality",
+    "subcategory": "Compositing Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the dog's body free from severe distortion, extra limbs, or missing body parts?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]
