@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that there are exactly 6 stickers?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the stickers in the top row (e.g., white chicken/bird and orange fox/cat)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the stickers in the middle row (e.g., green dragon and zebra)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify the stickers in the bottom row (e.g., brown deer/cow and blue dolphin/whale)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model refrain from misidentifying the background patterns (green diamonds/stars) as additional stickers?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid hallucinating non-existent animals, text, or numbers that are not present in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the response account for stickers in all positions (top, middle, and bottom rows) to derive the total?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

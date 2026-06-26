@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer 'No'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the presence of two horizontal lines, with the top line being green (or teal) and the bottom line being red (or coral)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly observe that the green line appears visually longer than or equal to the red line (i.e., it does not look shorter)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 4,
+    "question": "Does the model avoid hallucinating nonexistent details such as specific numerical measurements, text labels, or additional geometric shapes beyond the two colored lines?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Does the model provide a definitive 'Yes' or 'No' response without ambiguity?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

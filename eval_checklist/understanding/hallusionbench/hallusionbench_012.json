@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly answer 'No' to the question regarding whether the album 'Proof' has a sale of 422,000 in 2022?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify from the table that the sales figure for the album 'Proof' is 1,818,000?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify that the sales figure 422,000 corresponds to the album 'Midnights' (or artist Taylor Swift)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid falsely stating that the table shows 'Proof' has sales of 422,000?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning logically compare the queried value (422,000) with the actual value found in the 'Proof' row (1,818,000) to derive the answer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the response completely address the query by citing the actual sales figure for 'Proof' to explain why the answer is 'No'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

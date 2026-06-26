@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly provide the final answer 'No'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the square symbol at vertex C as indicating a right angle?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify point D as lying on the line segment AB (the hypotenuse)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model avoid hallucinating geometric markings or values not shown in the image (e.g., a perpendicular symbol at D, tick marks, or specific angle measures)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly state that in a right-angled triangle, the orthocenter is located at the vertex containing the right angle (vertex C)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly reason that since the orthocenter is at C, point D (on the hypotenuse) cannot be the orthocenter (optionally noting that D is the circumcenter)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  }
+]

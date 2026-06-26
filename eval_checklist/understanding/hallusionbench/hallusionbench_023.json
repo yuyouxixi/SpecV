@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state 'Yes' or confirm that the character is getting closer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the visual content as a sequence of frames or panels showing the same cartoon character?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly observe that the character appears significantly larger or more 'zoomed in' in the final (rightmost) frame compared to the previous frames?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model refrain from hallucinating dynamic actions (like running or waving) that are not visible in the static poses shown?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Did the model refrain from hallucinating additional objects, characters, or background scenery (e.g., a room, outdoors) not present in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly reason that the increase in the character's apparent size (or the camera zooming in) indicates the character is getting closer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly interpret the 'positive sequence' as reading the images from left to right?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

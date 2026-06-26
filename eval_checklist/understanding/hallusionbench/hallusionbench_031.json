@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly answer 'No' or state that the information regarding the lowest percentage change for 2022-2023 is not available in the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Did the model avoid selecting a specific month from the table (e.g., Nov 19) as the answer for the requested 2022-2023 period?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the text in the image title indicating the data covers 'September 2019 to March 2020'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify the months listed in the table as spanning from Sep 19 to Mar 20?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Did the model refrain from claiming that the image contains data for the years 2022 or 2023?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model avoid fabricating data rows or values for the months between September 2022 and September 2023?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Did the model explicitly identify the discrepancy between the timeframe requested in the prompt (2022-2023) and the timeframe shown in the image (2019-2020)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Did the response fully address the prompt by concluding that the question cannot be answered based on the provided image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

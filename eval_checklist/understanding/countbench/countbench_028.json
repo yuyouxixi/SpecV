@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that there are 8 chairs in the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model provide a specific integer count as the answer, avoiding ranges, approximations, or vague estimates?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

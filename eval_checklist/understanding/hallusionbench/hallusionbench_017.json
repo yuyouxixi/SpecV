@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model provide a final answer of 'Yes'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the text 'Maryland' on the sign?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the text 'Road House' (or 'Roadhouse') in the neon script on the sign?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Did the model explicitly recognize that the combination of the text elements forms the name 'Maryland Roadhouse'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model refrain from claiming the text says 'Texas' (avoiding hallucination based on the logo shape or prior knowledge of the brand 'Texas Roadhouse')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model refrain from fabricating additional text or specific location details not visible in the image (e.g., 'Grill', 'Bar', 'Steakhouse', or a specific city)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model's reasoning prioritize the visible text ('Maryland') over the visual shape of the logo (the state of Texas) or external brand knowledge to determine the name?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

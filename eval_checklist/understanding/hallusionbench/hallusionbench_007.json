@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final response explicitly answer 'Yes' or confirm that the poster is for the TV series Tokyo Tarareba Girls?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the large, glittery pink Japanese text '東京タラレバ娘' (or its phonetic reading) in the center of the poster as the title?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly associate the Japanese characters '東京タラレバ娘' with the English translation 'Tokyo Tarareba Girls'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model explicitly base its conclusion on the text found in the image as requested (e.g., citing the title or date), rather than relying solely on visual recognition of the actors?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid claiming that the text on the poster refers to a completely different show title (e.g., 'Tokyo Idols' or other unrelated names)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid claiming the poster is for a movie (film), given the text indicates a TV broadcast schedule (e.g., 'Weekly Wednesday')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

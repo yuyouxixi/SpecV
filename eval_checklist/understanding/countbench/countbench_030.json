@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that there are exactly 9 icons in the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly describe the spatial arrangement of the icons as a 3x3 grid or three rows of three?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Did the model avoid fabricating objects, icons, or elements that are not in the image (e.g., people, animals, or icons outside the 3x3 grid)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "If the model provides a counting method, does it logically sum the rows (3 + 3 + 3) or multiply the grid dimensions (3 x 3) to reach the total?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Are the model's intermediate steps or counts self-consistent and free of arithmetic errors (e.g., ensuring sub-counts sum correctly to the final total)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model provide a single definitive integer count as requested by the prompt?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

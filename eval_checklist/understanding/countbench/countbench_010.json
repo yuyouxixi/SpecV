@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer state that there are exactly 2 cats?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the presence of two cats sitting side-by-side, facing away from the camera (viewed from behind)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly describe the 'No Cats' sign on the wall (a red circle with a slash containing a black cat silhouette)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid classifying the black cat silhouette inside the prohibition sign as a real, living cat?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model's reasoning explicitly distinguish between the living cats and the cat silhouette on the sign to avoid counting the silhouette?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the model's reasoning internally consistent (i.e., the description of the scene matches the final count provided)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the response directly answer the specific question 'How many' with a single numerical value?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

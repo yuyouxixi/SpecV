@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model provide a final answer of exactly 6 individual earrings?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the three distinct metal colors present in the image: Silver, Gold, and Rose Gold?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the main jewelry items as hoop earrings?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 4,
+    "question": "Did the model demonstrate a clear and correct counting logic, such as identifying 3 pairs and multiplying by 2 (3 × 2 = 6)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

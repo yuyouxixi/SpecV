@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that there are exactly 6 kittens in the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that the kittens are situated inside three distinct cups or pots?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly observe that there are exactly two kittens in the left (blue/cyan) cup?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that there are exactly two kittens in the middle (green/lime) cup?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly observe that there are exactly two kittens in the right (pink/purple) cup?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model refrain from hallucinating additional kittens hidden behind the cups or in the background (i.e., reporting a number higher than 6 based on assumption)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Does the response directly answer the specific question with a definitive count, without omitting the final total?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

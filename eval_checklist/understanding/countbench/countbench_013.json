@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model provide '2' as the final answer for the number of zebras in the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the animals in the image as zebras based on their visual features (e.g., black and white stripes)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model avoid hallucinating additional zebras hidden in the bushes or background?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "If reasoning is provided, does the model correctly distinguish the two individual zebras as separate animals despite their close proximity and overlapping features?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

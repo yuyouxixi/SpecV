@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly answer 'No' to the question of whether the red shape is a square?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the central figure as a red, diamond-shaped (or rotated) quadrilateral outline?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly describe the background pattern as consisting of blue straight lines (diagonal or radiating)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Does the model avoid hallucinating concentric circles or curved lines in the background (recognizing they are straight lines)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid falsely claiming the red shape has 90-degree angles or is an axis-aligned (upright) square?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the response provide a clear and unambiguous 'Yes' or 'No' answer as requested by the prompt?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

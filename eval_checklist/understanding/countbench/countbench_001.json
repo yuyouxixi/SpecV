@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly state that there are exactly 2 kids in the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the subjects as children or boys?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 3,
+    "question": "Did the model avoid claiming there are additional people (children or adults) visible in the background or elsewhere in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid misidentifying background elements (such as trees, shadows, or blurry shapes) as additional people?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly distinguish the two individuals as separate entities, ensuring their close proximity or embrace does not result in a counting error?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the response provide a clear and direct numerical answer to the question 'How many kids are there'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

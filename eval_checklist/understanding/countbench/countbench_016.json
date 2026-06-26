@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model provide a final answer of exactly 10 coins?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model avoid fabricating additional coins that are not visible in the image (e.g., claiming coins are cut off at the edges or hidden)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Did the response directly answer the question with a specific numerical value, rather than a range or a vague description?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

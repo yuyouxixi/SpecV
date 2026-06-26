@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state 'Yes', confirming that the US has the highest carbon dioxide emissions according to the table?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly extract the emission value for the 'United States' as 5681 million metric tons?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly extract the emission value for 'India' as 5681 million metric tons?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly extract the emission value for 'China' as 617 million metric tons?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly extract the emission value for 'Russia' as 1676 million metric tons?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly extract the emission value for 'Japan' as 1215 million metric tons?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Did the model refrain from using external world knowledge to incorrectly claim that China has the highest emissions (contradicting the specific values in the image)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the model avoid hallucinating countries, rows, or years not present in the table (e.g., Germany, UK, or a year other than 2010)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly identify 5681 as the maximum numerical value in the 'Million metric tons' column?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Does the model correctly reason that the US has the highest emissions (or is tied for highest) by comparing 5681 against the other listed values?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the model provide a direct Yes/No response to the question?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

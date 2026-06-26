@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly answer 'No' to the question of whether Latinos were the largest population group with Whites and African Americans as second and third?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify from the chart that the 'Asian' group is the largest population with 56.8%?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify from the chart that the 'Hispanic or Latino' group is the second largest with 19.6%?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify from the chart that the 'Black or African American' group is 12.4%?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly identify from the chart that the 'White' group is listed with 5.7%?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid using external real-world US Census knowledge (where Whites are typically the majority) to contradict the specific data shown in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Does the model avoid fabricating percentage values that are not present in the image (e.g., claiming Whites are ~60%)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly reason that since 'Asian' (56.8%) is the highest percentage, the claim that Latinos are the largest group is incorrect?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly reason that 'White' (5.7%) cannot be the second largest group because it is smaller than both 'Hispanic or Latino' (19.6%) and 'Black or African American' (12.4%)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the model address all three specific components of the user's premise: the ranking of Latinos, Whites, and African Americans?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer strictly 'No'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the character in the images as Homer Simpson?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly describe the setting as a green hedge, bushes, or shrubbery?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that the first (leftmost) panel shows Homer standing fully visible in front of the bushes?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model describe the action depicted as backing into, disappearing into, or hiding in the bushes?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid falsely claiming that Homer is emerging, walking out, or stepping forward out of the bushes?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the model refrain from describing objects or characters not present in the image (e.g., Marge, cars, or a house)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the model avoid inventing any on-image text, captions, or sound-effect words that are not present in the panels?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly reason that the sequence progression (left-to-right) depicts Homer going into the bushes rather than coming out?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the response directly answer the specific question about whether Homer 'comes out' without ambiguity?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

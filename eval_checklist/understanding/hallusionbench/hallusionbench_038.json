@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state 'No'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the legend color mapping (UK=blue, U.S.=green, Eurozone=yellow, Japan=red)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify that the Eurozone interest rate (yellow line) was approximately 0% in 2019?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify that the U.S. interest rate (green line) was significantly higher than the Eurozone rate (around 2.0%-2.5%) in 2019?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly identify that the UK interest rate (blue line) was higher than the Eurozone rate (around 0.75%) in 2019?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly identify that the Japan interest rate (red line) was slightly negative and lower than the Eurozone rate in 2019?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the model explicitly focus its analysis on the year 2019, as requested, rather than describing trends from other years?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Does the model's reasoning correctly conclude that the answer is 'No' because the Eurozone rate was lower than the U.S. and UK rates?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Did the model address all three comparison regions (U.S., UK, and Japan) in its response?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Did the model avoid hallucinating countries or regions not shown in the legend (e.g., mentioning China or Germany)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

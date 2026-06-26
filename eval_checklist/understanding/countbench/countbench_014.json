@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that there are exactly 3 women in the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly describe the woman on the left as wearing a white top?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly describe the woman on the right as wearing a red dress or outfit?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model refrain from identifying any men or children in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model avoid counting any additional people in the blurred background or fabricating non-existent people?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning demonstrate a process of distinct enumeration (e.g., listing the women by position or clothing) to justify the count?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model provide a precise integer count without ambiguity (e.g., avoiding ranges like '3 or 4' or vague estimates)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model provide the final answer as 'Yes'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the square symbol at vertex C as an indication that angle C is 90 degrees?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the vertices A, B, and C, and recognize the structure of triangle ABC (e.g., AC and BC as legs, AB as the hypotenuse)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model refrain from claiming that the 60° angle or specific numerical side lengths are explicitly labeled in the image (distinguishing between text conditions and visual labels)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly infer that triangle ABC is a right-angled triangle based on the visual evidence at vertex C?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly apply the trigonometric definition (cos 60° = AC/AB) or the properties of a 30-60-90 triangle to relate side AC to side AB?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly state that the cosine of 60 degrees is 0.5 (1/2), or that the side opposite the 30-degree angle is half the length of the hypotenuse?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model logically conclude that AB = 2AC based on the established geometric relationships?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Did the model explicitly address the relationship AB = 2AC by integrating both the visual information (right angle) and the text condition (angle A = 60°)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

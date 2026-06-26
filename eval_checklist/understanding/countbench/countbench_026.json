@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final count of bottles provided by the model exactly 7?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the objects in the image as plastic water bottles?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model avoid identifying the 'shutterstock' watermark text or graphical overlays as physical objects?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "If the model provided a reasoning process, did it logically distinguish each individual bottle without double-counting or merging objects?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the response explicitly state the total number of bottles as requested?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer 'Yes'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the main figure as a triangle with vertices labeled A, B, and C?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify that the segments AF, BE, and CD intersect at a common point labeled M?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly recognize the visual indicators of perpendicularity (right-angle square symbols) at points D, E, and F?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model refrain from hallucinating geometric elements not present in the image (e.g., circumcircles, incircles, or points labeled G, H, O)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 6,
+    "question": "Did the model avoid incorrectly identifying the segments AF, BE, and CD as medians or angle bisectors without justification?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly classify the segments AF, BE, and CD as altitudes based on the perpendicularity conditions?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly define the orthocenter as the point where the three altitudes of a triangle intersect?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the model logically conclude that since M is the intersection of the identified altitudes, M must be the orthocenter?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Did the model address all three perpendicular conditions (BE ⊥ AC, CD ⊥ AB, AF ⊥ BC) in its analysis?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Did the model provide a definitive 'Yes' or 'No' response as explicitly requested by the prompt?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

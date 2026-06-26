@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that there are exactly 2 people in the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the two subjects as distinct individuals situated side-by-side?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Did the model refrain from counting any ambiguous shapes or background textures (like the straw/thatch strands) as additional people?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Did the model refrain from inventing a third person, a hidden figure, or a crowd beyond the two visible individuals?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "If the model provides reasoning, does it remain internally consistent (i.e., not describing more than two people in the text while concluding with a count of 2)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the response directly answer the specific question 'How many people' with a clear numerical count?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

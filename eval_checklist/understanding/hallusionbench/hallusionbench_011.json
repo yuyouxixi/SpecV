@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly answer 'Yes' or confirm that the image is a poster for 'The Shawshank Redemption'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the visible title text 'THE SHAWSHANK REDEMPTION' on the poster?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the actor names 'TIM ROBBINS' and 'MORGAN FREEMAN' visible above the movie title?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 4,
+    "question": "Does the model refrain from stating that the text indicates a different movie title (e.g., 'The Green Mile')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid fabricating text elements not visible in the image (e.g., ratings, reviews, or names of actors not listed)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Does the model explicitly cite the visible text elements (title, names, or tagline) as the primary evidence for its conclusion, satisfying the prompt's constraint 'According to the text'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

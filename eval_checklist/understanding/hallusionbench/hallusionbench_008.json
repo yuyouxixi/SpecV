@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model provide a definitive 'No' answer to the question regarding whether 'Midnights' had sales of 1,818,000?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly extract the sales figure for the album 'Midnights' as 422,000 from the table?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify that the sales figure 1,818,000 corresponds to the album 'Proof' (or artist BTS)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid hallucinating incorrect associations, such as stating that 'Midnights' is the album with 1,818,000 sales?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model's reasoning explicitly compare the actual sales of 'Midnights' (422,000) against the queried figure (1,818,000) to justify the answer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

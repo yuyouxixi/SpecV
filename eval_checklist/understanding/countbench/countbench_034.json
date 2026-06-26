@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer state that there are exactly 4 canvases?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model avoid counting non-canvas objects (e.g., the stack of books, lamp, vase, or chair) as canvases?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Does the model avoid fabricating additional canvases that are not present in the image (e.g., claiming there are 5 or more)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is the model's counting logic consistent, treating each framed panel as a distinct unit without double-counting or incorrectly merging them?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model provide a direct and unambiguous final count for the canvases?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

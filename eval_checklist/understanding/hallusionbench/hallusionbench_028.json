@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer explicitly 'No'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly describe the scene as a perspective grid, corridor, tunnel, or hallway?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Does the model identify exactly two human silhouettes/figures in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that one figure is positioned in the center/background and the other is on the right/foreground?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly observe that the figure in the center (background) is visually larger or taller than the figure on the right (foreground)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid incorrectly claiming that the two figures are identical in pixel size (a common hallucination based on standard illusions)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning correctly conclude that the answer is 'No' based on the observed size difference, rather than incorrectly assuming it is a standard illusion where sizes are equal?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.83
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer state that there are exactly 10 greeting cards?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model avoid providing conflicting counts (e.g., stating '10' in the conclusion but a different number in the reasoning)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the items as greeting cards or photo cards featuring landscape/nature scenes?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify that the cards are arranged in three rows (top, middle, and bottom)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly count that there are 3 cards in the top row?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly count that there are 4 cards in the middle row?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly count that there are 3 cards in the bottom row?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the model avoid hallucinating accessory items or text not present in the image (e.g., envelopes, pens, hands, or specific greetings like 'Happy Birthday')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the model avoid claiming the existence of cards that are not visible (e.g., stating there are cards 'stacked underneath' or 'off-frame')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the model demonstrate a valid reasoning process, such as summing the counts of the rows (3 + 4 + 3) or counting sequentially, to reach the final total?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Does the response provide a definitive numerical answer rather than an ambiguous estimate or range?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final response answer 'Yes' or affirm that Zhejiang has the second most dense population according to the table?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the population density of Zhejiang as 1334 inhabitants per square kilometer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the population density of Shandong as 3922 inhabitants per square kilometer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify the population density of Tianjin (or the misspelled 'Tlanjin') as 1194 inhabitants per square kilometer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly identify the population density of Jiangsu as 847.9 inhabitants per square kilometer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly identify the population density of Guangdong as 700 inhabitants per square kilometer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly recognize that the table shows data for the year 2020?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly determine that Shandong (3922) has the highest population density among the listed provinces?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly rank Zhejiang (1334) as the second highest, specifically placing it below Shandong and above Tianjin/Tlanjin?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Does the model refrain from using external knowledge to include provinces not listed in the table (e.g., Shanghai, Beijing) in its ranking calculation?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the model avoid fabricating population density values or implying the table contains more provinces than the five listed?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

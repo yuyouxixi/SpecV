@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model correctly answer 'No', indicating that the images are NOT in the correct order for a parking attempt?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that the image consists of three vertically stacked panels?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the presence of exactly one blue car and two yellow/orange cars in each panel?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that in the top panel, the blue car is fully parked and aligned between the two yellow cars?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly observe that in the middle panel, the blue car is at a diagonal angle (performing the backing maneuver)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly observe that in the bottom panel, the blue car is positioned parallel to the road but outside the parking spot (the starting position)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly notice the red trajectory or guide lines visible in the top or middle panels?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the model avoid hallucinating explicit sequence numbers (e.g., '1', '2', '3') or text annotations that are not present in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Does the model avoid fabricating additional vehicles, pedestrians, or marked parking stall lines that are not visible?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the model correctly reason that the actual chronological order for a parking maneuver is Bottom -> Middle -> Top?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 11,
+    "question": "Does the model correctly infer that the presented sequence (Top to Bottom) represents the reverse of parking (unparking) or simply an incorrect order?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Does the model provide a complete analysis by referencing the visual state of the car in all three panels to support its conclusion?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

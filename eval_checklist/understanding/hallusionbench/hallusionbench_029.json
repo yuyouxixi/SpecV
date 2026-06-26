@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state 'Yes'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the presence of a small inset image or separate picture located in the top-left corner?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly describe the contents of the top-left inset image as a jar, cup, or bowl containing yogurt (or a similar creamy substance) with toppings?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the model refrain from hallucinating that the yogurt container is physically placed on the main plate alongside the popsicles (i.e., treating the inset as part of the main scene's perspective)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the model refrain from claiming that the chocolate-covered bars on the main plate are themselves cups or bowls of yogurt?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model's reasoning cite the specific presence of the yogurt in the inset image (or top-left corner) as the justification for the answer 'Yes'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the model's reasoning consistent, avoiding contradictions such as stating no yogurt is visible while answering 'Yes'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

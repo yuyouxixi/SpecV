@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that there are 4 tree trunk cuts?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the circular objects as tree trunk cuts, wood slices, or cross-sections with concentric rings?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model avoid confusing the central text 'WOOD EPS' with a tree trunk cut?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the response directly answer the specific question 'How many' with a numerical value?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

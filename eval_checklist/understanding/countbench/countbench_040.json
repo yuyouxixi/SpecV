@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that there are exactly 4 people in the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify or include the person on the far left wearing a pink or floral jacket?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the person second from the left as wearing a grey sweater and having blonde hair?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify the person second from the right as wearing a blue plaid/checkered shirt and a cap?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly identify the person on the far right as having long dark hair and wearing a blue top?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid hallucinating additional individuals not present in the scene (e.g., claiming a fifth person is visible)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the model avoid confusing non-human background elements (e.g., buildings, trees) with people?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the model's reasoning logically lead to the count of 4 without contradictions (e.g., describing 3 people but concluding 4, or double-counting)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the response provide a definitive integer count without ambiguity or ranges (e.g., avoiding answers like '3 or 4')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

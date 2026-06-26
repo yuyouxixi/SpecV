@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state 'Yes' or affirm that 'Black Panther' achieved the highest box office revenue?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the specific revenue value for 'Black Panther' as 700.06 (million U.S. dollars)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly observe that 'Black Panther' is positioned at the top of the list or has the longest bar?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify from the chart title or labels that the data represents 'North America' box office revenue in '2018'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid claiming that any other movie (e.g., 'Avengers: Infinity War') had a higher revenue than 'Black Panther'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid hallucinating movie titles or numerical values that are not present in the chart?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

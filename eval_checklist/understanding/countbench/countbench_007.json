@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model provide a final count of exactly 8 couples?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the two couples in the foreground (the woman in the orange dress on the left and the woman in the teal/green dress on the right)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the couples on the far ends of the back row (the woman in the yellow/lime dress on the far left and the woman in the pink dress on the far right)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the model avoid counting background elements such as band members, audience, reflections, or stage crew as couples?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid fabricating additional couples that are not visible in the image (e.g., claiming there are people off-stage or behind curtains)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model's response account for couples across the entire stage layout, including both the lower foreground and the elevated background platform?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

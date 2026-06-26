@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that there are 4 banners?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the objects as vertical banners, posters, or panels arranged side-by-side in a single row?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model refrain from counting individual decorative elements (such as bats, spiders, or text blocks) or the bottom watermark as separate banners?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid hallucinating a 5th banner, a grid layout, or additional panels that are not present in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model provide a single, unambiguous integer count without hedging (e.g., avoiding 'about 4' or '3 or 4')?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

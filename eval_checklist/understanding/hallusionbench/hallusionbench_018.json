@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state 'No'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that the image consists of a sequence of three frames?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly describe the leftmost image as showing the plug separated or disconnected from the outlet?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly describe the middle image as showing the plug approaching or partially inserting into the outlet?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly describe the rightmost image as showing the plug fully inserted or connected to the outlet?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly identify the overall visual progression from left to right as the plug inserting into the outlet?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Does the model avoid hallucinating the presence of visible agents (e.g., a hand or person) holding or manipulating the plug?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly interpret 'positive sequence' as reading the images chronologically from left to right?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly reason that because the sequence depicts the action of plugging in (insertion), the answer to whether the plug is 'removed' must be negative?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the model's response directly address the question asked, providing a clear verdict rather than just describing the images?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

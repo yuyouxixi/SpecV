@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that there are exactly 5 people in the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify visible text on the sashes (e.g., Oklahoma, Michigan, Colorado, Virginia, Maine) to distinguish the individuals?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model refrain from hallucinating additional people (e.g., audience members, judges, photographers, or background figures) that are not visible in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "If a reasoning process is provided, does it distinctively identify each of the 5 individuals (e.g., by sash name or position) to justify the total count without skipping or double-counting?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the response explicitly provide a numerical value for the count to satisfy the question?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

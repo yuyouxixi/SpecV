@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model explicitly answer 'No' to the question of whether the two triangles are different colors?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the presence of exactly two triangles in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the color of the triangles as green?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that both triangles are the same shade of green?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "If the model provided reasoning, did it correctly explain that the triangles are the same color despite the optical illusion caused by the surrounding stripes?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

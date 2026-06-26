@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly answer 'No' to the question of whether the figure depicts a singer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the image as the NBA (National Basketball Association) logo?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly describe the figure as a basketball player or an athlete in a dribbling pose?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly describe the visual composition, specifically the blue section on the left, red section on the right, and a white silhouette in the center?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly identify the round object being handled by the figure as a basketball, rather than a microphone?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model refrain from hallucinating visual elements associated with singers, such as a microphone, musical instruments, musical notes, or a stage?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the model avoid incorrectly identifying the silhouette as a specific famous singer (e.g., Michael Jackson)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the model reason that the presence of a basketball and the athletic pose indicate a sport rather than a musical performance?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the model provide a definitive, unambiguous answer to the user's specific Yes/No question?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

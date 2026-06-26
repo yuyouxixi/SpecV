@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that there are 3 pumpkin candles?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the objects as pumpkin-shaped candles rather than real pumpkins?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model's reasoning demonstrate the ability to distinguish between the three separate candles, avoiding miscounting ridges or segments as separate items?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Did the response provide a direct and specific answer to the question about the quantity of pumpkin candles?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state 'No'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the Prime Meridian as the vertical line labeled '0°' on the map?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly observe that the Prime Meridian intersects the Arctic Ocean (visible at the top of the map)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that the Prime Meridian intersects the Southern Ocean (visible at the bottom of the map)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly observe that the Prime Meridian passes through the Atlantic Ocean, Europe, or Africa, rather than the Pacific Ocean?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model avoid hallucinating an intersection between the Prime Meridian (0°) and the Pacific Ocean?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly reason that the Pacific Ocean is located far from the Prime Meridian (e.g., near 160°W/E or on the far sides of the map)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly use conjunctive logic to conclude that the failure to intersect the Pacific Ocean makes the overall answer 'No'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Did the model address the intersection status of all three oceans mentioned in the prompt (Pacific, Southern, and Arctic)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Did the model explicitly identify the Pacific Ocean as the specific ocean that the Prime Meridian does NOT intersect to justify the answer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly answer 'Yes' indicating that the lengths of the vertical line and horizontal line are the same?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly describe the geometric configuration as exactly two lines (one vertical, one horizontal) forming an inverted 'T' shape?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Did the model avoid describing non-existent visual elements such as grid lines, ruler markings, text, or additional geometric shapes?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid incorrectly asserting that the vertical line is longer than the horizontal line (successfully avoiding the vertical-horizontal illusion)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.83
+  }
+]

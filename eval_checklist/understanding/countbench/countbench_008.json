@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final count of pumpkins explicitly stated as 6?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the objects in the image as pumpkins or jack-o'-lanterns?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly describe the arrangement of the pumpkins (e.g., two rows of three) or correctly identify that there are 3 pumpkins in the top row and 3 in the bottom row?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the model avoid claiming there are additional pumpkins hidden, partially visible, or in the background that are not actually in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid double-counting pumpkins or incorrectly treating facial features (like eyes or mouths) as separate objects to be counted?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the response fully answer the prompt by providing the total number of pumpkins without omitting the final numerical value?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

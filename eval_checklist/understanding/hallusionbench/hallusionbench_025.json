@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model correctly answer 'No' to the question of whether China is the third largest country according to the chart?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify Russia as the top country in the chart with a land area of 17,098,242?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify Canada as the second country in the chart with a land area of 9,984,670?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify the USA as the third country in the chart with a land area of 9,833,517?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly identify China as the fourth country in the chart with a land area of 9,596,960?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the model explicitly reason that China is ranked 4th (following Russia, Canada, and the USA) based on the visual evidence?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the model avoid using external real-world knowledge to incorrectly claim China is the third largest country, contradicting the specific data in the chart?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

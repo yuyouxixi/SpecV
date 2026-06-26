@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model correctly answer 'Yes' to indicate that the center area on the left is larger than the center area on the right?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly describe the image as containing two side-by-side panels?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the background of the left panel as a uniform or solid gray field?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify the background of the right panel as a high-contrast, noisy, or textured pattern?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly identify that both panels contain a textured circular area in the center?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model avoid incorrectly claiming that the two center areas are the same size (e.g., relying on general illusion knowledge instead of the specific visual evidence)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model's reasoning explicitly compare the size of the two center circles as requested, rather than solely discussing contrast or brightness?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the model's reasoning self-consistent (e.g., avoiding statements that the circles are equal in size while simultaneously concluding the left is larger)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the response directly address the specific question regarding size comparison without omitting a final conclusion?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

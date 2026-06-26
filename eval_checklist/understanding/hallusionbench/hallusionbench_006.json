@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that the cake in the image is a red velvet cake (e.g., answering 'Yes')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the text 'RED VELVET' printed on the packaging?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model describe the visual appearance of the cake slice as having a red or dark red interior/crumb?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid misidentifying the flavor as something else (e.g., strawberry, cherry, or plain chocolate) despite the red color?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Did the model avoid hallucinating visual details (e.g., candles, fruit toppings) or text (e.g., specific ingredients list) not present on the packaging?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model logically cite the visible text 'RED VELVET' or the cake's appearance as evidence to support the final conclusion?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Does the response directly address the specific question asked ('is this a red velvet cake?') rather than only providing a general description of the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

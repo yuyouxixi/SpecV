@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer 'Yes'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the market share of 'Carlsberg India' as 75.4% from the table?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the market share of 'UB Group' as 54% from the table?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model refrain from correcting the table's data based on external knowledge (e.g., refusing to accept Carlsberg as the leader because UB Group is typically larger in reality)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model refrain from asserting that the percentages in the table sum to 100% (or fabricating values to make them sum to 100%)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model explicitly compare the market share of Carlsberg India (75.4%) against the other companies (specifically UB Group at 54%) to determine the highest portion?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the response explicitly confirm that Carlsberg India's share is the highest among the listed companies based on the visual data?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

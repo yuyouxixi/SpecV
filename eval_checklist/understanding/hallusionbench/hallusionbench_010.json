@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state 'No'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify from the chart annotations that the total deaths in February 2021 were '500K' (or 500,000)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify from the chart annotations that the '937K' (or 937,000) total deaths figure corresponds to 'February 2022'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly interpret that the question is about 'total deaths' (cumulative) and not the plotted 'average number of daily reported deaths' curve?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid claiming that the 937,000 figure was reached by February 2021?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model's reasoning correctly compare the annotated February 2021 total (500K) with the queried value (937K) to justify the negative answer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the model's reasoning correctly identify that the 937,000 figure corresponds to a later date (February 2022) to support the answer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

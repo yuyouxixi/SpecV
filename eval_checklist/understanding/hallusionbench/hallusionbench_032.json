@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final answer 'Yes'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify visually that the state labeled 'Michigan' shares a border with the body of water labeled 'Lake Huron'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly observe that the landmass bordering Lake Huron to the north/east is labeled 'Ontario'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that other visible U.S. states (such as Ohio, Wisconsin, or New York) do not touch the borders of Lake Huron on this map?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model refrain from hallucinating a border between Lake Huron and U.S. states that are physically separated from it in the image (e.g., Ohio, New York)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model refrain from incorrectly classifying 'Ontario' as a U.S. state?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning correctly distinguish that while Ontario borders Lake Huron, it is not a U.S. state, thereby validating the condition that Michigan is the 'only U.S. state'?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

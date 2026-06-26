@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state 'No', confirming that 2020 was not the year China's exports to the United States reached their highest value?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify 2018 as the year with the highest export value (the peak of the blue line)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly observe that the export value in 2018 (approx. 480B) is visually higher than the export value in 2020 (approx. 450B)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Does the model avoid hallucinating a strictly monotonic increasing trend throughout the period, correctly acknowledging the fluctuations (ups and downs) in the data?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 5,
+    "question": "Does the model justify its answer by explicitly comparing the value in 2020 to the peak value identified in 2018?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

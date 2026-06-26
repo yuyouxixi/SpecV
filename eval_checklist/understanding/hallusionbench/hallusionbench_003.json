@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model provide the final answer as 'Yes'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the primary geometric figure as a triangle with vertex A at the top, B at the bottom-left, and C at the bottom-right?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify that points D, E, and F lie on the sides AB, AC, and BC respectively?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that the segments AF, BE, and CD intersect at a single internal point labeled M?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Did the model refrain from mentioning geometric markers, extra labels, or numerical measurements not present in the image (e.g., right-angle symbols, circumcircles, or side lengths)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly interpret the lines AF, BE, and CD as medians (connecting vertices to the midpoints of opposite sides) based on the visual and textual context?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly reason that M is the centroid because it is the intersection point of the three medians?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

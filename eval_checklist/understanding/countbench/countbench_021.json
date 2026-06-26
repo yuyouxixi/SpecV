@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer state that there are exactly 8 eggs?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the model's reasoning internally consistent (e.g., the explanation matches the final count of 8)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model provide a single, clear numerical answer to the counting question?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

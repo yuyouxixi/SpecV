@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state that there are 6 animals in the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the three cats in the image (black/white with yarn, grey/white striped, and orange sitting)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the two dogs in the image (brown dog with a bone and brown/white sitting dog)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly identify the animal in the bottom-middle position as a mouse?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly associate specific visual details with the animals, such as the yarn with the black cat or the bone with the brown dog?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model refrain from counting inanimate objects (like the yarn ball or the bone) as animals?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Did the model avoid hallucinating animals not present in the image (e.g., birds, rabbits, or squirrels)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Did the model avoid misinterpreting background elements, watermarks, or text as additional animals?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "If the model provides a step-by-step count, is the summation mathematically consistent with the items listed (e.g., 3 cats + 2 dogs + 1 mouse = 6)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the model's response cover all animals present in both the top and bottom rows without omission?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state 'Yes'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the food items depicted as chocolate chip cookies?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model avoid claiming the presence of other types of baked goods (e.g., muffins, brownies, or biscuits) mixed in with the cookies?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model avoid hallucinating objects, agents, or text not present in the scene (e.g., a glass of milk, people, hands, or brand labels)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model's reasoning justify the answer by citing visible characteristics shared by all the items (e.g., round shape, golden-brown color, embedded chocolate chips)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly interpret the question's scope as referring to the baked goods, distinguishing them from background objects (like the rack or cloth) or loose ingredients?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

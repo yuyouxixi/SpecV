@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final response explicitly state 'No' or indicate that the two circles are not the same color?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the presence of exactly two circles in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly describe the colors of the circles, identifying the left circle as yellow (or lighter) and the right circle as orange (or darker)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model avoid fabricating colors that are not present in the image (e.g., claiming a circle is red, blue, or green)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model avoid falsely claiming that the circles are the same color due to a 'simultaneous contrast' optical illusion (incorrectly projecting external knowledge onto the image)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model's reasoning rely on the observed difference in hue or shade between the two circles to justify the negative answer?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Is the model's reasoning logically consistent (e.g., ensuring the description of visual differences aligns with the final 'No' verdict)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state 'No' regarding whether the text is made in Canada?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify that the text contains specific phrases indicating American origin, such as \"my fellow Americans\" or \"new generation of Americans\"?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify or transcribe the famous quote in the text: \"ask not what your country can do for you—ask what you can do for your country\"?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model refrain from hallucinating the presence of the words \"Canada\", \"Canadian\", or \"Made in Canada\" within the text image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model refrain from hallucinating visual symbols associated with Canada (such as a maple leaf or Canadian flag) that are not present in the image?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model's reasoning logically connect the textual mentions of \"Americans\" or the specific JFK quote to the conclusion that the text is of US origin and therefore not made in Canada?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Did the model avoid non-sequitur reasoning, such as concluding the text is not made in Canada based on unrelated visual properties (e.g., font style or layout) rather than the text content?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final answer explicitly state 'Yes', confirming that 2019 exported the most value?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the subject of the chart as the export value of bread, biscuits, wafers, cakes, and pastries from the UK?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly interpret the axes, identifying the X-axis as 'Year' (spanning 2001-2019) and the Y-axis as 'Export value' (in thousand GBP)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly observe that the rightmost data point (2019) visually reaches the highest vertical level on the chart?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Visual Faithfulness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model avoid fabricating specific numerical export values for individual years that are not explicitly labeled on the chart?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model refrain from hallucinating a peak in an earlier year (e.g., claiming 2015 or 2010 had the highest value) or a significant drop at the end?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model avoid adding extra categories, countries, or comparisons (e.g., exports to EU vs Non-EU) that are not present in the chart?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the model logically deduce that because the curve is highest at the rightmost point (2019), it represents the maximum value for the entire period?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the response completely address the query by confirming the status of the year 2019 relative to the entire period mentioned (2001-2019)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

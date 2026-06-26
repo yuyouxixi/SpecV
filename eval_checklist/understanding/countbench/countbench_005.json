@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final response explicitly state that there are 4 photos in the image?",
+    "category": "Final Answer Correctness",
+    "subcategory": "N/A",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model refrain from hallucinating specific content inside the frames (e.g., describing people, landscapes, or readable text that is not visible)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Hallucination-free",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 3,
+    "question": "Does the response provide a single, clear numerical answer without ambiguity (e.g., avoiding ranges like '3-4' or approximations)?",
+    "category": "Process-Level Evaluation",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]
