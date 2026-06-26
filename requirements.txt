@@ -1,0 +1,6 @@
+# SpecV — evaluation + data-download dependencies
+# Python 3.9+
+
+requests>=2.28        # judge-model API calls
+Pillow>=9.0           # image loading / compression for multimodal prompts
+huggingface_hub>=0.23 # scripts/download_data.py (fetch images + model outputs)
