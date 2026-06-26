@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option A as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Did the model calculate the width of the canyon bottom CD to be approximately 177.19 meters (accepting range 177.17 - 177.21)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly calculate the vertical height (300m) and horizontal width (160m) of slope AC based on the 15:8 ratio and length 340?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly calculate the vertical height (720m) and horizontal width (540m) of slope BD based on the 4:3 ratio and length 900?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly determine the vertical height difference between points A and B (420 meters)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly use the angle of depression (26°) and the vertical height difference to calculate the total horizontal distance between A and B (approx. 877.19 meters)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly solve for CD by establishing the relationship that the total horizontal distance equals the sum of the left slope width, right slope width, and CD?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Did the model use the provided reference values (e.g., tan 26° = 0.4788) correctly in its calculations?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the generated image include constructed auxiliary lines (such as perpendiculars to the ground or a horizontal reference line) to facilitate geometric reasoning?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are the perpendicular lines drawn from points A and/or B visually depicted at a 90-degree angle to the canyon bottom baseline?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the horizontal reference line at B (used for the angle of depression) drawn parallel to the canyon bottom baseline?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are key points (A, B, C, D) and necessary auxiliary points clear and clearly labeled in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is point B depicted higher than point A in the generated image, consistent with the vertical calculation?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the 26° angle correctly marked as an angle of depression (positioned between the horizontal line at B and the line of sight BA)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are the feet of the perpendiculars (e.g., E, F) correctly placed on the line containing the canyon bottom CD?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are the auxiliary lines described in the text (e.g., perpendiculars AE, BF) actually present in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "If the text specifies lengths (e.g., AC=340, BD=900), are these values labeled on the correct segments in the image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Does the text's logic for calculating CD (e.g., subtracting slope widths from the total distance) match the visual segmentation shown in the image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Does the solution avoid contradictions between text descriptions (e.g., claiming lines are perpendicular) and their visual representation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

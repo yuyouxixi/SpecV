@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the correct final answer of \\frac{9\\sqrt{3}}{4} (or an equivalent form like 2.25\\sqrt{3}) or a decimal approximation around 3.897?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model explicitly identify the shaded region as \\triangle BDF (or an equivalent region defined by the same vertices)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly derive the necessary angle values, such as identifying \\angle ABC = 60^\\circ and \\angle BCD = 120^\\circ based on the given \\angle A = 120^\\circ?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify the side lengths (3 for ABCD, 4 for ECGF) and recognize that the base segment BG has a total length of 7 (since BC and CG are collinear)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly calculate the necessary heights or perpendicular distances using trigonometric values (e.g., height of rhombus ABCD is \\frac{3\\sqrt{3}}{2})?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model employ a valid geometric strategy (such as Inclusion-Exclusion, Coordinate Geometry, or direct base-height calculation) to solve for the area of the shaded region?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the intermediate arithmetic calculations (such as the areas of component shapes like \\triangle BCD, trapezoid CDFG, or \\triangle BGF) correct?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are the generated images clear and legible, with key vertices (A, B, C, D, E, F, G) correctly labeled and positioned?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "If auxiliary lines (such as perpendiculars) are generated, are they visually distinct and depicted with approximate accuracy (e.g., perpendicular lines looking like 90^\\circ angles)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the visual depiction of the angles match the semantic description (e.g., \\angle A appearing obtuse as 120^\\circ, \\angle B appearing acute as 60^\\circ)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "If the shaded region is highlighted in the image, does it strictly correspond to \\triangle BDF as defined in the problem?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are vertex labels and geometric configurations consistent across all generated images (e.g., point positions and auxiliary constructions do not contradict between steps)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image accurately reflect specific geometric constructions described in the text (e.g., if the text says 'draw a perpendicular from B', does the image show this)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are there any obvious contradictions between the text and the image (e.g., text claims a segment is length 3, but the image labels it as 4)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

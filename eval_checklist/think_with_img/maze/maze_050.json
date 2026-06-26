@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the final text solution match the optimal path sequence: 'up, up, up, left, left, up, left, down, down, down' (or a semantically equivalent step-by-step description)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final path length exactly 10 moves?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "When the generated move sequence is executed on the maze, does the path successfully connect 'S' to 'E' without passing through any walls or leaving the maze boundaries?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the reasoning correctly identify that the initial movement must be 'Up' (since the 'Left' path is immediately blocked by a wall)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly navigate the upper corridor section (moving Left, then forced Up, then Left again) to align with the vertical corridor above 'E'?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning correctly identify that the final approach to reaching 'E' requires a straight downward descent (down, down, down)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "In all generated images, is the drawn path strictly contained within the white corridors without crossing, clipping, or overlapping the black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the generated path clearly distinguishable from the maze structure (e.g., using a distinct color like blue or red) and clearly visible?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the drawn path consist of straight, axis-aligned segments (vertical and horizontal) without diagonal lines, curves, or ambiguous shortcuts?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the drawn path visually originate exactly within the green 'S' square and terminate exactly within the red 'E' square?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the generated images preserve the structural integrity of the original maze (correct locations of 'S' and 'E', and wall layout does not shift or disappear)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "If multiple intermediate images are generated, does the path in each subsequent image continue exactly from the endpoint of the previous image without teleportation or gaps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the visual path in the initial segment correspond exactly to the text description (e.g., if text says 'up, up, up', the image shows three upward unit steps from S)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the visual path in the middle section correspond exactly to the text description (e.g., showing the specific 'left, left, up, left' turns at the correct junctions)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the visual path at the end correspond exactly to the text description (e.g., if text says 'down, down, down', the image shows a straight downward descent into E)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Are there zero instances where the text description contradicts the visual evidence (e.g., text claims to reach 'E' while the image shows the path stopping short)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

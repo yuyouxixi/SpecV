@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's text response explicitly state the shortest path sequence as 'down, left, left' (or directionally equivalent terms like 'South, West, West')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the model's reported final path length exactly 3 moves?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the final text sequence use only the allowed four directions (up, down, left, right) without suggesting diagonal moves or teleportation?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "In the generated images, is the drawn path clearly visible and distinguishable from the maze walls and background?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "In the generated images, is the drawn path strictly contained within the open corridors, without intersecting or crossing any black walls?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the underlying maze structure (walls, 'S' location, 'E' location) preserved in the generated images without distortion or hallucinated changes?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the generated path visualization correctly originate from the green cell marked with 'S'?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the generated path visualization correctly terminate at the red cell marked with 'E'?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the drawn path follow the correct geometric route (a vertical segment moving down, followed by a horizontal segment moving left) corresponding to the reference solution?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "If multiple intermediate images are generated, does the path progressively build upon previous steps without teleporting or resetting earlier segments?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the model correctly identify that the first move from 'S' must be 'down' due to the wall layout?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the model correctly identify that after moving down, the subsequent moves must be 'left' to reach 'E'?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "If the text describes the first move as 'down', does the corresponding image show the path moving vertically downward from 'S'?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "If the text describes the subsequent moves as 'left', does the image show the path turning and moving horizontally leftward?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are there any contradictions between text and image (e.g., text says 'turn left' but image shows a right turn, or text claims success while image hits a wall)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 9.0
+  }
+]

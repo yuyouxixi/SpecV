@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the final text response explicitly identify the optimal path sequence as 'right, right, up, right, down'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the final generated image show a continuous, unbroken line that successfully connects the green 'S' (Start) region to the pink 'E' (End) region?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the total length of the solution exactly 5 steps (moves), matching the optimal shortest path for this maze?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the path drawn in the generated images clearly distinguishable from the maze walls and background (e.g., using a contrasting color or line thickness)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Is the drawn path strictly contained within the white open corridors, avoiding any overlap with or crossing of the black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the drawn path correctly originate from within the green cell marked 'S'?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the drawn path correctly terminate within the red/pink cell marked 'E'?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Do all generated images preserve the original maze structure (walls, Start location, End location) without hallucinating changes to the layout?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "If multiple intermediate images are provided, does the path progress continuously from the previous step without teleporting (the start of the new segment matches the end of the previous one)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Does the reasoning process demonstrate valid movement logic by only using the four cardinal directions (Up, Down, Left, Right) and avoiding diagonal moves?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning avoid all unnecessary detours, loops, or backtracking (unless explicitly correcting a stated mistake)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do the visual path segments correspond exactly to the textual directions (e.g., text says 'up', image shows a vertical upward line)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the number of movement steps described in the text consistent with the number of path segments drawn in the image (specifically 5 segments)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the order of moves described in the text match the sequential progression of the path shown in the images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are there any contradictions where the text claims to avoid a wall, but the image shows the path colliding with or crossing that wall?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

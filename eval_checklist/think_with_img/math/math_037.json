@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output 150° (or 150 degrees) as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly interpret the first fold as creating a vertical diameter crease (or a line of symmetry along the vertical axis)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify that the second fold (bringing a point on the circumference to the center) implies the crease is the perpendicular bisector of the radius (or that the distance from the center to the chord is half the radius)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly deduce that the triangle formed by the center, the folded point, and the intersection (e.g., △AOG) is equilateral, or otherwise correctly derive the 60° angle using valid trigonometry?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify the angle between the vertical diameter and the horizontal radius (e.g., ∠GOC) as 90°?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly calculate the final angle ∠BOC by summing the relevant intermediate angles (e.g., 60° + 90° = 150°)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image clearly depict a circle with the center O correctly positioned and radii (if drawn) appearing of approximately equal length?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image show the first fold as a vertical diameter and the second fold as a chord perpendicular to a horizontal radius?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the points A, B, and C correctly positioned on the circumference of the circle in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Are the point labels (O, A, B, C) and geometric objects consistent across all generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "If the model states that a triangle is equilateral (e.g., △AOG), does the corresponding triangle in the image visually appear equilateral?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the visual placement of points B and C in the image align with the text description (e.g., C at the top, B in the lower-left quadrant) and visually suggest an obtuse angle?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are there no direct contradictions between the model's textual claims (e.g., specific angle values or perpendicular relationships) and what is visually depicted in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

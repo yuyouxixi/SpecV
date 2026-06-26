@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the final output formatted as a clear, sequential list of directional moves (e.g., 'left, down, down...')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model's final path successfully connect the Start point (S) to the End point (E) without crossing any walls or making illegal diagonal moves?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the final path length exactly 6 steps, matching the optimal shortest path?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the final text sequence exactly match the reference solution: 'left, down, down, down, down, left'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly identify the starting position (Green 'S') and the ending position (Red 'E') in its reasoning?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model demonstrate understanding of the movement constraints (only up, down, left, right; no passing through black lines)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "In the generated images, is the drawn path clearly distinguishable from the maze background and walls (e.g., using a distinct color or line thickness)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "In the generated images, is the drawn path strictly contained within the open corridors without crossing or overlapping any black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the generated image accurately preserve the original maze structure (walls, S location, E location) without hallucinating new walls or removing existing ones?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "If multiple intermediate images are generated, does the path extend continuously from the previous step without teleporting or discontinuities?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the visual path originate exactly from the 'S' cell and terminate exactly at the 'E' cell?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the visual path correctly depict the L-shaped route (initial left turn, long vertical descent, final left turn) corresponding to the solution?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do the directional moves described in the text match exactly with the visual path segments shown in the generated images (e.g., text says 'left', image shows left)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are the generated images free from contradictions with the text (e.g., the image does not show a right turn if the text says 'turn left')?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the model avoid claiming success (reaching E) in the text if the provided path visualization clearly ends elsewhere or fails to reach the red cell?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

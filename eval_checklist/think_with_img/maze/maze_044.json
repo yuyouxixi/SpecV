@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model's final path successfully connect the Start point (green 'S' square) to the End point (red 'E' square)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the final path sequence match the optimal reference solution: 'right, up, up, left, left, left, left, up' (or an equivalent valid shortest path)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the final path length exactly 8 moves long?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "In the generated images, is the drawn path strictly contained within the open corridors without crossing or overlapping any black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the path drawn in the generated image visually distinct (e.g., using a contrasting color) and clearly distinguishable from the maze background?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the drawn path form a continuous, unbroken line from the start to the end (or current position), without gaps or breaks?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are all turns in the generated image right-angled, consistent with the grid-based movement (no diagonal shortcuts)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the path in the generated images correctly start from the green cell marked 'S'?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the path in the generated images correctly terminate at (or move towards) the red cell marked 'E'?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Do the generated images preserve the original maze structure, ensuring that walls and start/end zones are not erased, moved, or distorted?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If multiple intermediate images are generated, does the path in a subsequent image extend continuously from the ending position of the previous image (no teleporting or resetting)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the model correctly identify the initial move direction as 'Right' (avoiding immediate dead-ends or walls)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the reasoning correctly identify the optimal route topology: moving Right, then Up the vertical corridor, then Left across the top corridor, and finally Up into E?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the model's reasoning avoid proposing impossible moves through walls or hallucinating openings that do not exist?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "If the text response describes a specific sequence of moves, does the visual path in the image exactly mirror this sequence?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "When the text indicates a specific direction (e.g., 'move left'), does the corresponding path segment in the generated image extend in that correct direction?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the total number of directional moves described in the text correspond to the number of cell transitions/segments shown in the generated path image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Are there any contradictions where the text claims to have reached a specific location (like the End) or avoided a wall, but the visual path shows otherwise?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 9.0
+  }
+]

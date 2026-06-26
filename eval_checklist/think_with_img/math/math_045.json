@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model identify statements ①, ②, and ③ as the correct statements?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model explicitly state that statement ④ is incorrect?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "In the generated image, are the two squares (ABCD and ECGF) correctly depicted sharing vertex C, with side CD lying on side CE?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "If auxiliary lines (e.g., FO, BD, OH) are generated, are they drawn straight and connected to the correct points?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is point O visually positioned as the midpoint of segment EG in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is point M correctly positioned at the intersection of segments EG and FH in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the intersection of GH and BE (point H) visually appear to form a 90° angle in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "If multiple images are generated, do the point labels (A, B, C, D, E, F, G, H, O, M) remain consistent in their positions across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "For Statement ①, does the model prove GH ⊥ BE using valid geometric logic (e.g., congruence of △BCE and △DCG, or rotation arguments)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "For Statement ②, does the model validly deduce BG = EG (e.g., by establishing that △BGE is isosceles because GH is both an altitude and an angle bisector)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "For Statement ③, does the model correctly deduce △MFG is isosceles (e.g., using the midline theorem for HO || BG, or the property of the median OF to the hypotenuse)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "For Statement ④, does the model correctly calculate the ratio DE/AB = √2 (or DE = √2·AB) to refute the claimed value of 1+√2?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the model correctly identify that D lies on the perpendicular bisector of BE (or use equivalent logic) to establish the length relationship for DE?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If the model's text describes adding auxiliary lines (e.g., connecting F and O, or B and D), are these lines clearly present in the corresponding generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "If the text claims geometric properties (e.g., GH ⊥ BE, △MFG is isosceles), are these visually represented in the image without contradiction?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Is the text description of the squares' configuration (CD on CE) consistent with the visual representation in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are there any explicit contradictions between the model's textual geometric deductions and the visual state of the generated diagrams?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

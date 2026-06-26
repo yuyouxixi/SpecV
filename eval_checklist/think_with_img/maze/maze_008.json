@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the final text response provide the specific path sequence 'down, left, left, down, down, left, up, up' (or an equivalent notation of these exact 8 moves)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the final generated image show a continuous line connecting the green 'S' (Start) block to the pink 'E' (End) block?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the final path exactly 8 moves long, representing the shortest possible route without unnecessary loops or backtracking?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the final text sequence use only the four allowed directions (up, down, left, right) without diagonals or invalid jumps?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model provide at least one image showing the path overlaid on the maze as part of its reasoning or solution?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "In the generated images, is the drawn path strictly contained within the open white corridors without crossing or overlapping any black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the background maze structure (wall positions, Start/End locations) in the generated images identical to the original input image (i.e., no hallucination of new openings or walls)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "In the generated images, is the drawn path clearly visible and distinguishable from the maze walls and background?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "In the final path visualization, does the path begin exactly at the 'S' cell and terminate exactly at the 'E' cell (not stopping short or overshooting)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the reasoning demonstrate the correct overall strategy: moving down from S, traversing left along the upper corridor, moving down the center, then left and up to reach E?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning explicitly acknowledge wall constraints (e.g., noting that direct paths are blocked) and avoid suggesting moves that pass through walls?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Do the directional instructions in the text (e.g., 'move down', 'turn left') exactly match the direction of the line drawn in the corresponding image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is the total number of direction commands in the text equal to the number of cell-to-cell movements shown in the visual path?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the image correctly visualize the specific 'Down' movement from the Start (S) as described in the text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Does the image correctly visualize the final 'Left, Up, Up' sequence terminating at the End (E) as described in the text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Are there any contradictions where the text claims to have reached the 'End' point or avoided a wall, but the visual path in the image shows otherwise?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

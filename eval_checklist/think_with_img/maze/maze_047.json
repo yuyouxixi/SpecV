@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the final text response provide a path that successfully leads from the Start point (S) to the End point (E)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the generated path exactly match the optimal reference sequence: 'Up, Left, Left, Down, Left, Down, Left, Down, Right'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the final answer consist of a discrete sequence of directional steps (e.g., 'up, down, left, right') rather than vague descriptions or continuous coordinate streams?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "In the generated images, is the drawn path clearly distinguishable from the maze background and walls (e.g., using a contrasting color or line thickness)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the drawn path strictly contained within the open white corridors, without crossing, overlapping, or clipping through any black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the drawn path visually originate exactly from the green 'S' square and terminate exactly in the red 'E' square?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the drawn path turn exactly at the corridor intersections/corners rather than turning mid-corridor or cutting corners diagonally?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "If intermediate images are provided, does the current endpoint of the drawn path in image K correspond to the agent's position described in the text for step K?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the underlying maze structure (wall layout, S position, E position) remain unchanged across all generated intermediate images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "If multiple images are generated, does the path in a subsequent image continue seamlessly from the endpoint of the previous image without teleporting?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning strictly adhere to grid-based movement (Up/Down/Left/Right), avoiding diagonal moves, jumps, or 'squeezing' through walls?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the visual directions in the generated images (e.g., a line going up) match exactly with the text descriptions (e.g., 'go up')?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are the text instructions and the visual path free of contradictions (e.g., text does not claim to 'go right' while the image shows the line going 'left')?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

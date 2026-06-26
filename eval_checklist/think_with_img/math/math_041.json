@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output 6 as the final numerical answer for the distance between the roads?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model select Option D as the correct choice?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the generated image clearly depict the original geometric elements: parallel lines AD and BC, transversal AB, and point P located between the parallel lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are the lines AD and BC drawn as visually parallel in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the perpendicular segment PE from P to AB clearly shown, and does it appear visually perpendicular to AB?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are right-angle symbols (small squares) explicitly marked at the feet of perpendiculars (e.g., at E, and at F/G if auxiliary lines are drawn) to indicate orthogonality?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Are all key geometric points (A, B, C, D, P, E) clearly and correctly labeled in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image correctly place point P within the region between the parallel lines AD and BC (not outside)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "If the model generates auxiliary lines representing the distance to the parallel roads (e.g., PF and PG), are they correctly positioned to connect P to AD and BC respectively?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the generated image depict the distance between the parallel lines as a straight line (or collinear segments) passing through P and perpendicular to both AD and BC?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If multiple images are generated, do the point labels (A, B, P, E, etc.) remain consistent in their positions across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "If multiple images are generated, is the relative configuration of the parallel lines and the triangle ABP maintained consistently?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the model correctly identify that AP and BP are the angle bisectors of ∠DAB and ∠CBA respectively?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Does the model explicitly apply the Angle Bisector Theorem (or property) to reason that P is equidistant from the sides of the angles?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Does the model correctly deduce that the perpendicular distance from P to AD is equal to PE (i.e., length 3)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Does the model correctly deduce that the perpendicular distance from P to BC is equal to PE (i.e., length 3)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Does the model logically conclude that the total distance between the parallel lines is the sum of the two perpendicular distances from P (3 + 3 = 6)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Is the reasoning free from unnecessary or incorrect assumptions (e.g., assuming AB is perpendicular to AD) that would invalidate the general proof?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "If the text describes drawing specific auxiliary lines (e.g., 'draw PF perpendicular to AD'), are these specific lines actually present in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 20,
+    "question": "Are the point labels used in the generated image consistent with the labels used in the textual reasoning (e.g., newly defined points F and G match the text)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Are there no contradictions between the text description and the generated image regarding geometric relationships (e.g., text says lines are perpendicular, but image shows them oblique)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

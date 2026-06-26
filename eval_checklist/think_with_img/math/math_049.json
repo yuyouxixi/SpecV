@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly answer both sub-questions (1) and (2) in its final response?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly conclude that AC is parallel to BD (AC ∥ BD)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model calculate the vertical height of the clothes rack (distance from AC to ground) as 120 cm?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model conclude that the windbreaker will touch the ground based on the comparison (122 cm > 120 cm)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly calculate the lengths of OB and OD as 85 cm (derived from 136 - 51)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model identify the correct ratio (e.g., OA/OB = 3/5) or proportional relationship to establish similarity between △AOC and △BOD?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Did the model explicitly identify that ∠AOC and ∠BOD are vertical angles (or equal) to support the similarity proof?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model use a valid geometric criterion (e.g., SAS Similarity leading to alternate interior angles) to prove AC ∥ BD?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly identify that triangle OEF is isosceles and that the altitude from O bisects the base (calculating EM = 16 cm)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly calculate the length of OM as 30 cm using the Pythagorean theorem (√(34² - 16²))?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Did the model correctly set up a proportion based on similar triangles (e.g., △OEM ∽ △ABH) or a scaling factor to determine the total height?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Did the model correctly compare the windbreaker length (122 cm) with the calculated rack height (120 cm) to justify the final conclusion?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "If perpendicular lines are depicted (e.g., OM ⊥ EF), do they visually appear to meet at 90-degree angles or include right-angle markers?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Are the text labels (A, B, C, D, O, E, F) in the generated image(s) legible and placed near their corresponding geometric points?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Are the key geometric points positioned correctly relative to each other: O at the intersection, A/C at the top, and B/D on the ground?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Is the chain buckle EF depicted as a horizontal segment connecting the legs below point O?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "If auxiliary point M is shown, is it visually positioned as the midpoint of segment EF?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "If multiple images are generated, do the labels and relative positions of the rack components remain consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "If the text describes specific auxiliary constructions (e.g., 'draw OM perpendicular to EF'), are these constructions present in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Does the visual depiction of AC and BD align with the textual conclusion of parallelism (i.e., they appear parallel rather than converging)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Does the generated image avoid contradictions with the text (e.g., labels swapping positions or conflicting length depictions)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

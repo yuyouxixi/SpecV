@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the final text response explicitly identify the shortest path as the sequence 'Right, Up, Up' (or semantically equivalent directions like 'East, North, North')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the final text response confirm that the path starts at the 'S' cell and ends at the 'E' cell with a total path length of exactly 3 moves?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "In the generated image(s), is the drawn path clearly visually distinguishable from the maze walls and background (e.g., using a contrasting color or line thickness)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the generated image show a continuous path that physically connects the Start (S) zone to the End (E) zone without any visual gaps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "In the generated image(s), is the path strictly contained within the open corridors, avoiding any overlap with or crossing of the black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image correctly reflect the semantic geometry of the solution: a horizontal segment moving right from 'S', followed by vertical upward movement to 'E'?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "If multiple intermediate images are generated, does the underlying maze structure (walls, S and E positions) remain consistent across all images (no walls added/removed/shifted)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "If multiple intermediate images are generated, does the path extend incrementally from the previous endpoint in each step, rather than 'teleporting' to a new location?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the reasoning demonstrate that the path to 'E' involves entering the vertical corridor to the right of 'S' and moving upward, avoiding unnecessary detours or invalid shortcuts?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "When the text describes the first move as 'Right', does the corresponding image visualization show a horizontal line extending to the right from the Start zone?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "When the text describes the subsequent moves as 'Up', does the corresponding image visualization show a vertical line extending upwards towards the End zone?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the response free from Text-Image contradictions (e.g., text says 'path is clear' while the image shows the line hitting a wall, or text says 'turn' where image goes straight)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

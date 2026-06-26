@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the final text answer describe a path that successfully connects the 'S' (Start) point to the 'E' (End) point?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the final text answer exactly equivalent to the optimal path sequence: 'up, left, left' (or 'North, West, West')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the final answer avoid including any unnecessary detours, extra steps, or invalid moves (such as diagonals)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "In the generated images, is the drawn path clearly visible and visually distinct from the background and maze walls (e.g., using contrasting color or line thickness)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is the drawn path in the images strictly contained within the open corridors, avoiding any clipping through or crossing of the black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image correctly initiate the drawn path specifically from the green 'S' (Start) zone in the bottom right corner?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image correctly terminate the drawn path at the pink/red 'E' (End) zone in the middle left area?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the model's reasoning correctly identify that the first movement must be 'Up' (or North) to exit the starting corridor?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the model's reasoning correctly identify that after moving up, the path must turn and proceed 'Left' (or West) to reach the target?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the reasoning explicitly adhere to the constraints of the maze (moving one cell at a time, only in four cardinal directions, and not passing through walls)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "When the text indicates the first move is 'Up', does the corresponding visual path draw a vertical line upwards from the start?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "When the text indicates the subsequent moves are 'Left', does the visual path draw a horizontal line moving towards the left?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the total number of steps or path length described in the text consistent with the visual path shown in the image (matching the 3-step structure)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the output free of contradictions where the text claims a successful move (e.g., 'moved left') but the image shows the path hitting a wall or stopping?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

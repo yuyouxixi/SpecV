@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final text response explicitly provide the optimal path sequence 'down, down, left' (or equivalent notation like 'South, South, West')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final text path exactly 3 moves long, matching the shortest path for this maze, without adding unnecessary steps after reaching the destination?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the final text path use only the allowed four directions (up, down, left, right) without diagonal moves or multi-cell jumps?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model's final generated image successfully connect the 'S' (Start) point to the 'E' (End) point?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "In the generated images, is the drawn path clearly visible and distinguishable from the maze walls and background (e.g., via distinct color or thickness)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the drawn path strictly contained within the open corridors without crossing, overlapping, or passing through any black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the drawn path visually continuous (no gaps or teleportation) from the start to the end?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the visual path start clearly within the green 'S' block (top-right) and end clearly within the pink 'E' block (bottom-middle)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "If step-by-step images are provided, does each step's visual endpoint match the location described in the reasoning (e.g., after 'down', the path ends in the cell strictly below S)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the underlying maze structure (walls, S position, E position) remain visually consistent and unchanged across all generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If multiple images are generated, does the path extend continuously from the previous step without the start point or previous segments shifting location?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the model demonstrate valid spatial reasoning by identifying that the only valid move from 'S' is 'down' (correctly recognizing walls to the left and top)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the reasoning correctly identify that the path must proceed 'down' twice to clear the internal vertical wall before turning 'left' toward 'E'?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Do the text descriptions of 'down' moves correspond to vertical downward segments in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Do the text descriptions of 'left' moves correspond to horizontal leftward segments in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the visual path alignment match the text sequence: showing two vertical segments (down) followed by a left turn, rather than turning too early or too late?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are there any contradictions where the text describes a valid move (e.g., 'turn left') but the image shows a collision, a different direction, or no movement?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

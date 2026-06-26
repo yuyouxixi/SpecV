@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output 70° (or Option B) as the final answer for the measure of ∠EAF?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly calculate ∠DAB = 125° (derived from 360° - 90° - 90° - 55°)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model identify that minimizing the perimeter of △AEF requires using reflections (Heron's Problem principle) to unfold the path into a straight line?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly deduce that the reflection points (A' and A'') lie on the extensions of sides AB and AD respectively (due to ∠B = ∠D = 90°)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly apply symmetry properties to establish that ∠BAE = ∠BA'E and ∠DAF = ∠DA''F (or equivalent angle transfers)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly calculate the sum of the angles (∠BAE + ∠DAF) as 55° (or derive that ∠AA'E + ∠AA''F = 55°)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "In the generated image, are the points A, B, A' depicted as collinear, and points A, D, A'' depicted as collinear (consistent with reflections across perpendicular sides)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "If the minimization path is drawn, is the line segment connecting the reflection points (A'A'') depicted as a single straight line?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "If reflection points are shown, are A' and A'' positioned on the opposite sides of lines BC and CD from A respectively?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the image show the points E and F at the intersections of the line segment A'A'' with the sides BC and CD respectively?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "If the text describes constructing reflection points (A', A''), are these points clearly labeled and visible in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the geometric construction described in the text (e.g., connecting A' and A'') consistent with the visual elements shown in the image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are there no contradictions between the angle values stated in the text (e.g., ∠C = 55°) and their visual representation (e.g., looking obtuse)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

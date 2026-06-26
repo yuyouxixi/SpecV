@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text response provide the exact optimal shortest path sequence: 'up, right, down, right, up, up' (or a semantically equivalent description of these 6 steps)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the model's final visualized path successfully connect the Start point (S) to the End point (E) without leaving the maze boundaries?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Are the moves strictly limited to the four allowed directions (up, down, left, right), avoiding diagonal moves or invalid actions (e.g., jumping walls)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "In the generated images, is the drawn path strictly contained within the open corridors, avoiding any overlap, crossing, or clipping of the black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the drawn path visually distinct from the maze background (e.g., using a contrasting color or line thickness) and clearly legible?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the drawn path continuous, appearing as a single connected stroke without breaks, gaps, or teleportation?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Do the maze structure, wall positions, and locations of 'S' and 'E' remain consistent and identical to the original input image across all generated intermediate steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "If multiple intermediate images are generated, does the path progress continuously from the previous endpoint (i.e., step N+1 starts exactly where step N ended)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the reasoning correctly identify that reaching 'E' requires moving 'Up' twice along the right-side vertical corridor?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Does the visualized path for the first move corresponds exactly to the text description (e.g., text says 'Up' and image shows an upward line from S)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the visualized path for the third move corresponds exactly to the text description (e.g., text says 'Down' and image shows the line going down through the gap)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the visualized path for the final moves corresponds exactly to the text description (e.g., text says 'Up, Up' and image shows the line ascending to E)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the response free from contradictions between text and image (e.g., text claims the path is clear while the image shows the line hitting a wall, or text says 'left' while image shows 'right')?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output 11 (or approximately 11) as the final answer for the distance between the fishing boat and lighthouse P?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly round the calculated value (approximately 11.25) to the nearest integer as required by the problem?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly interpret the 'due south' movement to imply that the path AB is a vertical line segment?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly interpret the bearings to identify the relevant geometric angles (e.g., identifying angle PAC as 30° and angle PBC as 55°)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly calculate the horizontal distance from P to the line AB (e.g., PC = 18 * sin(30°) = 9)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model set up the correct trigonometric relationship to solve for PB (e.g., sin(55°) = 9/PB)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly use the provided reference approximation (sin 55° ≈ 0.8) to calculate the unrounded result (e.g., 9 / 0.8 = 11.25)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are the key points (P, A, B) and any constructed points (like C) clearly labeled and distinguishable in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the generated image correctly depict the relative positions of the points (A is North-East of P, B is South-East of P)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the segment AB depicted as a vertical line in the image, consistent with the 'due south' direction?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "If an auxiliary perpendicular from P to AB is shown, does it visually form a right angle with line AB?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the marked angles (30° and 55°) visually positioned correctly relative to the vertical north-south direction?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image contain the specific auxiliary constructions described in the text (e.g., if the text mentions drawing a perpendicular PC, is it present in the image)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are there any contradictions between the text and the image regarding the placement of angles or the geometric configuration (e.g., text says acute but image shows obtuse)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option A as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Did the model provide the correct numerical value for sin∠A, which is 3√13/13 (or equivalently 3/√13)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify that ∠C = 90° implies triangle ABC is a right-angled triangle with AC ⊥ BC?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly use the condition BD = AB (with D on the extension of AB) to derive a geometric relationship, such as AD = 2AB or a similarity ratio of 1:2?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model employ a valid geometric construction (e.g., drawing BE // AC) or coordinate method to utilize the condition tan∠DCB = 1/3?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Did the reasoning correctly deduce the ratio between the legs of the right triangle ABC (specifically AC : BC = 2 : 3)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly calculate the hypotenuse AB (or its proportional value) using the Pythagorean theorem (e.g., AB = √13x)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly define sin∠A as the ratio of the opposite side to the hypotenuse (BC / AB)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the reasoning process free from logical hallucinations, such as incorrectly assuming triangle BCD is a right triangle without proof?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the vertex labels (A, B, C, D) clearly legible and positioned near their corresponding vertices in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Is the angle ∠ACB visually depicted as a right angle (approximately 90 degrees) in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the generated image accurately depict point D lying on the extension of segment AB (i.e., A, B, and D appear collinear in the order A-B-D)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "If the model's solution relies on an auxiliary line (e.g., BE), is this specific line clearly visible in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "If the model constructs parallel or perpendicular lines (e.g., BE // AC), do these lines appear visually parallel or perpendicular in the image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Does the generated image visually support the geometric constructions described in the text (e.g., if text says 'draw BE parallel to AC', is BE shown)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is the position of point D in the image consistent with the text description (i.e., on the extension of AB rather than between A and B)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

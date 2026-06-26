@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output approximately 11.32m (or the exact expression 10√3 - 6) as the final designed height of the lamp pole CD?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly round the final numerical answer to 0.01m as specified in the problem?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the generated image clearly depict the essential geometric components: the vertical lamp pole (CD), the inclined lamp arm (AD), and the ground line?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the angle between the lamp arm (AD) and the lamp pole (CD) visually rendered as an obtuse angle (approximately 120°) in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the generated image correctly depict the geometric constraints: the pole CD perpendicular to the ground and the arm AD perpendicular to the lampshade axis AB?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "If the model constructs auxiliary lines (e.g., extending CD and BA to intersect at P), are these lines and the intersection point visually consistent with the geometric extension in the image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the lamp pole base (Point C) depicted at the center of the green belt MN (or visually consistent with the described spacing) in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Are point labels (A, B, C, D) and geometric elements consistent across the text description and all generated images (no swapping or contradictions)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly analyze the angles to find the supplementary angle ∠ADP = 60° (or ∠P = 30°) based on the given 120° angle?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly identify that the triangle formed by the arm and axis (e.g., △PAD) is a right-angled triangle due to the perpendicularity of AB and AD?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Did the model correctly calculate the length of the vertical projection or auxiliary segment PD = 6m (derived from AD=3m and cos(60°))?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Did the model correctly calculate the length of the segment AP = 3√3 m (or approximately 5.2m)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Did the model establish a correct geometric relationship (e.g., similar triangles △PAD ~ △PCB or trigonometric ratio tan(30°) = BC/PC) to solve for the total height?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Did the model correctly calculate the total height from the apex to the ground (e.g., PC = 10√3 m)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Did the model correctly derive the lamp pole height CD by subtracting the auxiliary segment from the total height (CD = PC - PD)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Did the model use the reference data √3 ≈ 1.732 correctly to compute the final numerical value without arithmetic errors?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the text description of geometric constructions (e.g., 'extend line CD') accurately match the visual modifications shown in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are the geometric properties described in the text (e.g., 'AB is perpendicular to AD', 'angle is 120 degrees') visually consistent with the generated diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is the location of point B (where the axis hits the road) in the image consistent with the text description (midpoint of the single-sided road)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

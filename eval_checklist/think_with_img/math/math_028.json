@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly identify the coordinates of vertex A as (2, -1)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify the coordinates of vertex B as (4, 3)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the coordinates of vertex C as (1, 2)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model calculate the final area of triangle ABC as 5?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Are the vertices A, B, and C in the generated image placed at the correct grid intersection points corresponding to (2, -1), (4, 3), and (1, 2)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the coordinate system (x-axis, y-axis, origin) correctly depicted with proper orientation (x right, y up) and visible grid lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the vertices and any auxiliary points clearly labeled (e.g., A, B, C) in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "If auxiliary lines are generated (e.g., perpendiculars, bounding shapes), are they drawn straight and aligned with the grid lines or intersections?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the generated image accurately reflect the relative positions of the points (e.g., A is below the x-axis, B is the highest point)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "If the model describes a specific geometric construction (e.g., a bounding trapezoid or rectangle), does the image semantically represent this specific shape enclosing the triangle?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Did the model correctly interpret the grid scale (1 unit per square) to determine coordinates and lengths?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Did the model use a valid mathematical method to calculate the area (e.g., bounding box/complementary method, shoelace formula, or coordinate determinant)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "If the complementary/subtraction method was used, did the model correctly calculate the dimensions and areas of the auxiliary shapes (e.g., trapezoid area = 8, subtracted triangles = 1.5 each)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Did the model correctly handle the negative y-coordinate of point A during length or area calculations (e.g., correctly determining the vertical distance involves subtraction of a negative)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are all intermediate arithmetic calculations (additions, subtractions, multiplications) correct and consistent with the final result?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does the text description of the geometric construction match the visual elements shown in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Are the specific coordinate values or segment lengths mentioned in the text (e.g., \"length is 3\") consistent with the visual representation in the image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Are there any contradictions between the text and the image regarding the position of points (e.g., text says A is at (2, -1) but image shows it elsewhere)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "If the text references specific visual features (e.g., \"point D\", \"shaded region\", \"vertical line\"), are these features clearly present in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

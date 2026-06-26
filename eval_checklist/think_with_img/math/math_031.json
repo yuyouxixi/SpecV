@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly conclude that Option A (AC ∥ plane BEF) is correct?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly conclude that Option B (Points B, C, E, F cannot be coplanar) is correct?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly conclude that Option C (If EF ⊥ CF, then plane ADEF ⊥ plane ABCD) is correct?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that Option D (Plane BCE and plane BEF may be perpendicular) is incorrect?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model provide a clear, unambiguous final selection stating that the correct answer is A, B, and C?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the generated 3D image clearly depict the folded structure, using dashed lines to represent hidden edges (e.g., parts of the base ABCD obscured by the fold)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are all key vertices (A, B, C, D, E, F) clearly labeled and legible in the generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the 3D folded image correctly show quadrilateral ADEF folded upward along the fixed crease AD, with ABCD remaining as the base plane?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the relative lengths in the image consistent with the conditions AB = DE = 2BC = 2AF (e.g., AF appears approximately half the length of AB/DE)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "If the text describes specific auxiliary elements (like midpoint O, midpoint M, or extended point G), are they correctly positioned and labeled in the image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If an initial planar diagram is generated, does it correctly show the trapezoid with right angles at B and C, and AD parallel to BC?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "If multiple images are generated, do the vertex labels remain consistent (e.g., point A is always at the same corner relative to the shape) across all steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Did the model correctly interpret the geometric setup, specifically that AD ∥ BC, the folding occurs along AD, and the length ratios hold?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "For Option A, did the model use a valid geometric argument (such as the midline theorem or constructing a parallel line like FM) to prove AC ∥ plane BEF?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "For Option B, did the model use sound logic (e.g., proof by contradiction showing BC would have to be parallel to EF) to demonstrate that B, C, E, F are not coplanar?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "For Option C, did the model correctly deduce the perpendicularity of planes by using the condition EF ⊥ CF to establish that a line (e.g., CD) is perpendicular to plane ADEF?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "For Option D, did the model provide a valid geometric justification (e.g., analyzing the foot of the perpendicular) for why planes BCE and BEF cannot be perpendicular?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Does the text accurately refer to the labels and elements present in the image without hallucinating features or labels that are not shown?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "If the text describes specific spatial relationships or constructions (e.g., 'connect M and O', 'extend AF to G'), are these visually realized in the corresponding image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Is the visual representation free from direct contradictions with the text (e.g., text states lines are parallel, but they clearly converge in the image)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "If the model claims a perpendicular relationship (e.g., EF ⊥ CF), does the image visually depict this or include a right-angle marker consistent with the claim?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

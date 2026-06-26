@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model correctly and unambiguously conclude that line AF is parallel to line CD (AF ∥ CD)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly calculate the sum of ∠A + ∠B + ∠C as 360 degrees?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the reasoning explicitly mention drawing a specific auxiliary line (e.g., CF) to connect the known parallel lines with the target lines?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly apply the property of parallel lines (BC ∥ EF) to identify equal alternate interior angles (e.g., ∠BCF = ∠EFC)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly combine the given angle equality (∠C = ∠F) with the derived alternate interior angles to prove the relationship between the remaining angle parts (e.g., ∠DCF = ∠AFC)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly cite a valid geometric criterion (e.g., 'alternate interior angles are equal implies parallel lines') to conclude that AF is parallel to CD?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "In solving for the angle sum, does the model correctly identify a relevant polygon (e.g., quadrilateral ABCF) and apply the correct sum of interior angles formula (e.g., 360°)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly substitute the angle equality derived in the first part (e.g., ∠AFC = ∠DCF) into the angle sum equation to solve for ∠A + ∠B + ∠C?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the reasoning free from circular logic and unjustified assumptions (e.g., assuming the hexagon is regular or symmetric without proof)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the generated image clearly depict a hexagon with all six vertices labeled A, B, C, D, E, and F?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "If the model draws an auxiliary line (e.g., connecting C and F), is this line visually straight and accurately connecting the correct vertices?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the vertices in the generated image labeled in the correct cyclic order (A-B-C-D-E-F) forming a single closed hexagon?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image visually represent the condition that side BC is parallel to side EF?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the generated image contain the specific auxiliary construction described in the text (e.g., line CF if mentioned)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Are the geometric elements referenced in the text (vertices, angles like ∠BCF) clearly identifiable and correctly positioned in the image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is the visual representation of lines AF and CD consistent with the textual conclusion (i.e., do they appear parallel and not intersecting)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "If the text describes specific geometric structures (like a 'Z-shape' or a specific quadrilateral), does the image visually support these descriptions?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

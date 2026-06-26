@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly state that 'CD is a tangent to Circle F' (or equivalent) in the final conclusion for Part 1?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the model explicitly state that 'CD = AE' (or equivalent) in the final conclusion for Part 2?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the reasoning correctly identify that angle BAC is 90 degrees (or OA is perpendicular to AC) because AC is a tangent to Circle O?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the reasoning use valid geometric properties (e.g., isosceles triangles OAD/FAD or angle chasing) to prove that angle FDO is 90 degrees (or FD is perpendicular to CD)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly identify that angle ADE is 90 degrees, derived from the fact that AB is the diameter of Circle O (implying angle ADB is 90 degrees)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning explicitly state that AE is the diameter of Circle F (based on angle ADE being 90 degrees)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly use the condition AC = AB (or AC = 2*OA) and similarity (e.g., triangle CDF ~ triangle CAO) to derive the ratio CD = 2*DF?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the proof logically connect the two parts to conclude CD = AE (e.g., by linking both lengths to the radius or diameter of Circle F)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the generated images visually clear with legible labels for key points (A, B, C, D, E, F, O) placed near the correct geometric locations?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is Circle O drawn correctly with AB appearing as the diameter and the tangent line l appearing perpendicular to AB at A?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If the auxiliary radius FD is part of the solution, is it drawn as a straight segment connecting F and D in the image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Do the images correctly depict the collinearity of points O, D, and C (where line OC intersects Circle O)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Do the images correctly depict the collinearity of points B, D, and E (where the extension of BD intersects the tangent line)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is Circle F depicted correctly, appearing to pass through points A, D, and E?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are the positions of key labeled points and geometric figures consistent across all generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "If the model's text mentions drawing an auxiliary line (e.g., connecting D and F), is this line visibly drawn in the corresponding intermediate image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is the position of point F in the image consistent with the text (specifically, lying on segment AE)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "If the model states that specific angles are 90 degrees (e.g., angle BAC or angle FDO), does the generated image visually show this perpendicular relationship?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "Are there any contradictions between the text and image regarding point locations (e.g., text says E is on the tangent line, but image shows otherwise)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

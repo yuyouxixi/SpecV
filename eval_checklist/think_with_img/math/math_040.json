@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly determine the volume of tetrahedron PBFC as 2/3?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Did the model successfully prove that line AE is parallel to plane PFC?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model successfully prove that plane PFC is perpendicular to plane PCD?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly extract from the views that the square base has side length 2 and the height PA = 2?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify that F is the midpoint of AB (or BF = 1) and E is the midpoint of PD based on the view markings?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly calculate the area of triangle BFC as 1 and apply the correct tetrahedron volume formula V = (1/3) * Base_Area * Height?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "For Part II, did the model propose a valid method (such as constructing an auxiliary midpoint Q on PC) to identify a line within plane PFC that is parallel to AE?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly establish geometric relationships (e.g., using the midsegment theorem to show EQ || CD and AF || CD) to prove that AE is parallel to a line in plane PFC (such as FQ)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "For Part III, did the model correctly deduce that CD is perpendicular to plane PAD (or specifically CD perpendicular to AE) based on the fact that PA is perpendicular to the base?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly deduce that AE is perpendicular to PD (e.g., using the properties of the isosceles right triangle PAD where E is the midpoint of the hypotenuse)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Did the model logically conclude that plane PFC is perpendicular to plane PCD by showing that plane PFC contains a line (e.g., FQ) that is perpendicular to plane PCD?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the generated image accurately depict a quadrangular pyramid with the apex P positioned vertically above vertex A (consistent with PA perpendicular to the base)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are the points E and F visually positioned at the midpoints of segments PD and AB respectively?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If auxiliary elements (like point Q, segment EQ, or segment FQ) are constructed in the text, are they clearly depicted in the image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the vertex labels clear and legible, and is the overall image free from severe distortions?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "If the model depicts plane PFC, are points P, F, and C visibly connected to form a triangular region?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Are the vertex labels (P, A, B, C, D, E, F) and geometric structure consistent across the text and all generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "If the text describes specific auxiliary constructions (e.g., \"connect E to Q\"), does the image reflect these exact constructions?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is the positioning of points in the image consistent with the text description (e.g., F is on AB, not BC; E is on PD, not PC)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Is there no contradiction between the text and image regarding geometric properties (e.g., text states PA is perpendicular to base, image shows PA vertical)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

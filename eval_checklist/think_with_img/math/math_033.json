@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output 3.8 (or an equivalent fraction like 19/5) as the final answer for the length of segment EF?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly convert the given part-to-part ratio (AE:EB = 2:3) into the appropriate part-to-whole ratio required for calculation (e.g., AE:AB = 2:5)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify or calculate the length difference between the bases (BC - AD = 2) or correctly use the base lengths in a valid formula?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly apply similar triangles, the intercept theorem, or a linear interpolation formula to determine the length contribution relative to the position of E (e.g., calculating 0.8 or 4/5)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are all intermediate arithmetic calculations correct (e.g., 0.8 + 3 = 3.8)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "If the model uses an auxiliary construction (like a line parallel to a leg), does it correctly deduce the resulting segment lengths (e.g., MF = 3)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the solution avoid unjustified assumptions (e.g., assuming the trapezoid is isosceles or right-angled without proof)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image clearly depict a trapezoid ABCD with a segment EF connecting the non-parallel legs?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "In the generated image, are the segments AD, EF, and BC visually parallel to each other?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is point E positioned on leg AB such that it visually reflects the ratio AE:EB = 2:3 (i.e., E is closer to A than to B)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Are the vertices labeled A, B, C, D positioned correctly (A and D on the top base, B and C on the bottom base) consistent with the problem description?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is point F visually located on segment CD (not outside the segment)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do the positions of the main vertices (A, B, C, D) and points (E, F) remain consistent across all generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "If the text describes adding specific auxiliary lines or points (e.g., 'Draw a line through A parallel to CD intersecting EF at M'), are these explicitly depicted and labeled in the image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Does the visual depiction support the text's geometric claims (e.g., if the text claims triangles are similar or lines are parallel, does the image show this)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "If the text decomposes EF into multiple segments (like EM + MF), does the image clearly show this decomposition and match the text's references?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are there no contradictions between the text and image (e.g., text states a point is on a specific segment, but the image shows it elsewhere)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

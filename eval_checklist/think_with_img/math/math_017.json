@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output 4 as the final answer for the area of the pentagon?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify and utilize the given conditions: AB = AE = CD = 2, BC + DE = 2, and ∠ABC = ∠AED = 90°?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the reasoning employ a valid geometric strategy to combine segments BC and DE (e.g., constructing a point F on the extension of DE such that EF = BC, or rotating △ABC)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model provide a valid justification for the congruence of the transferred triangle (e.g., proving △ABC ≅ △AEF via SAS)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly derive that the combined segment (e.g., DF) has a length of 2 (based on DF = DE + EF = 2)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly identify the symmetry or congruence of the resulting larger shape (e.g., proving △ACD ≅ △AFD via SSS, or establishing AC = AF)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the intermediate area calculations correct (e.g., calculating the area of right triangle △AFD as 0.5 * 2 * 2 = 2)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image clearly depict a pentagon with vertices labeled A, B, C, D, and E?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the right angles at vertices B and E visually represented (e.g., perpendicular lines or marked with right-angle symbols) in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "If auxiliary lines are drawn (e.g., extending DE to F or connecting AF), are they visually straight and distinguishable from the original polygon edges (e.g., using dashed lines)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "If point F is constructed, does the image correctly show D, E, and F as collinear in that specific order (F on the extension of DE, not between D and E)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "If multiple images are generated, do the vertex labels (A, B, C, D, E) maintain consistent positions across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image accurately reflect the specific geometric constructions described in the text (e.g., if text says 'extend DE to F', the image shows exactly that)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are all geometric labels referenced in the reasoning text (e.g., 'Point F', 'Triangle AEF') present and correctly located in the corresponding generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the response free from contradictions between text and image regarding segment lengths or angle properties (e.g., text says segments are equal but image shows them as clearly different)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

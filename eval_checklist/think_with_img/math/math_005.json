@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output 130^\\circ or Option D as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify that point B lies on the minor arc AC (or that AC does not contain B), necessitating a specific geometric approach like constructing a cyclic quadrilateral or using the reflex angle?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly calculate a necessary intermediate angle, such as \\angle ADC = 50^\\circ (where D is on the major arc) or Reflex \\angle AOC = 260^\\circ?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly apply geometric theorems (e.g., Properties of Cyclic Quadrilaterals summing to 180^\\circ or Inscribed Angle Theorem on the major arc) to derive \\angle ABC from the intermediate angle?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model avoid the common error of incorrectly stating \\angle ABC = 50^\\circ (which would imply B is on the major arc)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the final arithmetic calculation (e.g., 180^\\circ - 50^\\circ = 130^\\circ or 260^\\circ / 2 = 130^\\circ) performed correctly?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "In the generated image(s), is the circle clearly drawn with the center O and original points A, B, C clearly labeled?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "If auxiliary lines (e.g., chords AD and CD) or radii are generated, are they rendered as straight lines connecting the intended vertices?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "In the generated image(s), is point B correctly positioned on the minor arc (below chord AC) and, if used, point D on the major arc (above chord AC)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "If the text describes specific geometric constructions (e.g., \"connect AD and CD\"), does the generated image actually show these specific lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "If multiple images are generated, do the labels and positions of points A, B, C, O (and auxiliary points if applicable) remain consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the text explanation accurately refer to the labels and features present in the generated image (e.g., referring to a point 'D' only if 'D' is actually in the image)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the visual representation of \\angle ABC in the image consistent with the calculated value of 130^\\circ (appearing clearly obtuse)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

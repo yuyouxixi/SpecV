@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output 35° (or 35 degrees) as the final answer for Part (1)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model output 12.8 cm (or 12.8) as the final answer for Part (2)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model avoid providing contradictory final answers for either part (e.g., stating multiple different values)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model generate at least one intermediate reasoning image (excluding the original input image) to support the solution?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are the key vertices (A, B, C, F) and the horizontal line (CE) clearly labeled and legible in the generated diagram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the line CE depicted as a straight horizontal baseline representing the table edge?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image accurately depict the geometric setup: a tilted rectangle ABCD and a vertical line AF perpendicular to the horizontal line CE?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the 35° angle correctly marked at the appropriate location (between side BC/extension and the horizontal line CE) in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "If the model's text describes constructing auxiliary lines (e.g., a perpendicular from B to AF), are these lines correctly depicted in the image according to the description?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "If multiple images are generated, do the point labels, positions, and the role of line CE remain consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning process explicitly utilize the property that angle ABC is 90° (or that ABCD is a rectangle) to determine angle relationships?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the model use a valid geometric argument (e.g., alternate interior angles, complementary angles, or parallel line properties) to derive that ∠BAF = 35°?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the model correctly identify and use the side lengths AB = 10 cm and BC = 8 cm in the calculations without swapping them?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the model correctly decompose the length AF into components (e.g., vertical projections of AB and BC) or use an equivalent valid geometric method?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Are the trigonometric functions correctly applied (e.g., using cos(35°) for the vertical component of AB and sin(35°) for the vertical component of BC)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Are the intermediate numerical calculations accurate (e.g., 10 × 0.8192 ≈ 8.19 and 8 × 0.5736 ≈ 4.59)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Does the model correctly round the final result for AF to 0.1 cm precision (i.e., rounding ~12.78 to 12.8)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Does the text description of geometric values (e.g., angles like 35°) match the visual labels and markers in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is the generated image consistent with the text regarding the structural properties (e.g., rectangle ABCD looks rectangular, parallel lines look parallel, perpendiculars look perpendicular)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

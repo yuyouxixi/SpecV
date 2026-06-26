@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model provide a final movement sequence using only the allowed directions (up, down, left, right) without diagonal moves or ambiguous actions?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the final text sequence successfully connect the Start point (S) to the End point (E) without crossing any walls when traced on the grid?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the final path length exactly 7 moves (matching the optimal solution)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the final sequence start with exactly three consecutive 'right' moves (navigating the bottom corridor)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the final sequence continue with exactly two consecutive 'up' moves (navigating the right-side vertical corridor)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the final sequence end with 'left' followed by 'up' to reach the End point E?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "In the generated images, are the maze structure (walls), Start position, and End position consistent with the original input image (no hallucinated openings or blockages)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "In the generated images, is the drawn path clearly visible, distinguishable from the background, and strictly contained within the open corridors (no wall overlaps)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "In the generated images, does the drawn path visually connect the Start zone (S) to the End zone (E) without any gaps or discontinuities?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the generated image correctly depict the initial path segment moving horizontally to the right along the bottom corridor?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the generated image correctly depict the vertical ascent through the open corridor on the right side of the maze?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the generated image correctly depict the final approach as a left turn followed by an upward move into the pink E zone?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "If multiple intermediate images are generated, do the maze layout and path progress remain consistent across steps (no teleportation or changing walls)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the model's reasoning correctly identify that moving directly 'up' from the Start is blocked, necessitating a move to the 'right'?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Does the model's reasoning identify the correct general strategy: traverse the bottom corridor to the right, go up the right side, and cut back left to E?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Does the reasoning explicitly avoid proposing moves through solid walls or claiming nonexistent openings (e.g., passing through the central barriers)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Do the directional keywords in the text response (right, up, left) exactly match the direction of the path drawn in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

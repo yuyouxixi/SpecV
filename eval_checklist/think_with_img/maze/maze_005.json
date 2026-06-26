@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final text response identify the optimal path sequence exactly as 'right, up, up, left, down' (or semantically equivalent directional instructions)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the final generated image show a continuous path connecting the 'S' (Start) region to the 'E' (End) region?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the total number of moves in the final text response exactly 5?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model's reasoning correctly identify that the first move must be 'Right' to avoid the wall directly between S and E?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly deduce the sequence 'Up, Up' followed by 'Left' to navigate around the central wall obstacle?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning correctly conclude with a 'Down' move to enter the target 'E' from the top?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning text avoid claiming validity for impossible moves (e.g., passing through walls, diagonal jumps, or moving directly Up from S)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "In the generated images, is the drawn path strictly contained within the open corridors without crossing any black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "If multiple images are generated, does the underlying maze structure (walls, S location, E location) remain consistent without morphing across steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "If multiple images are generated, does the path build continuously upon the previous step without teleporting or skipping cells?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the visual path originate exactly within the green 'S' box and terminate exactly within the red 'E' box?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the directions described in the text (Right, Up, Left, Down) consistently match the directional segments drawn in the corresponding images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are there zero instances of text-image contradiction, such as the text claiming to reach 'E' while the image shows the path elsewhere?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

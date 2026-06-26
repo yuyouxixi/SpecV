@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly identify Option A as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model generate an image depicting a 3D folded cube (or a recognizable 3D geometric representation of the net)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the key vertices (e.g., A, B, C, D, M, N) clearly labeled in the generated 3D image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "If hidden edges are depicted in the cube diagram, are they visually distinguished (e.g., using dashed lines) from visible edges?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Are face diagonals (e.g., CN, BM) drawn as straight lines connecting the correct vertices without significant distortion?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the generated 3D cube accurately reflect the topology of the input net (i.e., correct vertex adjacency and face arrangement)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "If auxiliary shapes (like triangle ANC or parallelogram BENC) are drawn, do they visually respect their geometric properties (e.g., forming a closed triangle or parallel lines)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Are vertex labels consistent across all generated images (e.g., between the net view and the 3D view)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly identify the spatial correspondence of vertices after folding the net into a cube?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "For Option A, did the model correctly derive the 60° angle (e.g., by identifying BM is parallel to AN and using the equilateral triangle ANC)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "For Option B, did the model correctly reason that BM and ED are skew lines (neither parallel nor intersecting)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "For Option C, did the model correctly reason that CN and BE are parallel (e.g., by identifying they form a parallelogram)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "For Option D, did the model correctly reason that the angle between DM and BM is 60° (part of an equilateral triangle), refuting the 90° claim?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are the vertex labels used in the text reasoning consistent with the labels in the generated image(s)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "If the text describes specific edges as face diagonals, does the image correctly show them traversing the faces diagonally?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "If the text claims edges are parallel (e.g., BM || AN), does the image visually depict them as parallel?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Is the folding process or final orientation described in the text consistent with the generated 3D image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's final textual answer explicitly match the optimal path sequence: 'down, down, left, left, up' (allowing for minor formatting variations like capitalization)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "If one simulates the model's text instructions step-by-step starting from 'S', does the path successfully reach 'E' without hitting any walls?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the final path length exactly 5 moves, matching the reference shortest path?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model's final generated image visually show a continuous path connecting the Start point (Green 'S') to the End point (Red 'E')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model's reasoning explicitly adhere to the four-direction constraint (up/down/left/right), avoiding diagonal moves or passing through walls?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "In the generated images, is the drawn path clearly distinguishable from the maze walls (e.g., via color or thickness) and visible against the background?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Is the drawn path in the images strictly contained within the open white corridors, never crossing or overlapping the black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Do the generated images preserve the original maze structure, keeping the walls and the positions of the Start (Green) and End (Red) areas exactly as they appear in the prompt?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "If intermediate images are provided, does the end of the drawn line in each image correspond accurately to the specific step described in the text (e.g., stopping at the bottom corner after 'down, down')?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "If multiple images are generated, does the path grow cumulatively from 'S' across steps without the line 'teleporting', resetting, or shifting location unexpectedly?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "When the text describes 'down' moves, does the corresponding image segment show a vertical line extending downwards?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "When the text describes 'left' moves, does the corresponding image segment show a horizontal line extending to the left?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "When the text describes the final 'up' move, does the corresponding image segment show a vertical line extending upwards into the 'E' zone?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are there any contradictions between text and image (e.g., text says 'turn left' but image shows a turn right, or text says a move is possible but image shows a wall blocking it)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 9.33
+  }
+]

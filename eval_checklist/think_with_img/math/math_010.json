@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output '5 pairs' or select Option A as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the generated image depict a triangle ABC that is visually isosceles (with AB ≈ AC)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "In the generated image, is point D located visually at the midpoint of segment BC?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are the line segments AD and EF clearly drawn as straight lines connecting their respective endpoints?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Are all vertices and key points (A, B, C, D, E, F, and G if used) clearly and correctly labeled in the image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the perpendicular lines DE and DF drawn such that E lies on segment AB and F lies on segment AC (not on extensions), with visual perpendicularity or right-angle markers?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "If the model identifies the intersection point of AD and EF (e.g., G), is it correctly marked at the geometric intersection in the image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the figure maintain the expected bilateral symmetry about the axis AD?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly identify the congruence of the large triangles △ABD and △ACD?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Did the model use valid criteria (e.g., SSS with AB=AC, BD=CD, AD common) to justify the congruence of △ABD and △ACD?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Did the model correctly identify the congruence of the triangles formed by the perpendiculars, △AED and △AFD?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Did the model correctly derive that DE = DF (e.g., via angle bisector property or congruence of △AED/△AFD) or that AD bisects ∠BAC?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Did the model correctly identify the congruence of the bottom corner triangles, △BED and △CFD?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Did the model correctly identify the congruence of the internal triangles formed by the intersection of AD and EF (e.g., △AEG ≌ △AFG)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Did the model correctly identify the congruence of the smaller internal triangles formed by the intersection (e.g., △DEG ≌ △DFG)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Did the model avoid claiming false congruent pairs or using invalid congruence criteria?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Do the labels used in the text reasoning (especially for the intersection point G) exactly match the labels present in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Does the generated image accurately reflect the text description of perpendiculars (DE⊥AB, DF⊥AC) with appropriate visual placement?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Are there any contradictions between the text description and the image (e.g., text says AB=AC but image shows clearly unequal sides)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.33
+  }
+]

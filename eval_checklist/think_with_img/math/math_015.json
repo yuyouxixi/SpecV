@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output 60° (or 60 degrees) as the final answer for the angle formed by the skew lines MN and PQ?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model output 1/6 (or 1:6) as the final answer for the ratio of the volume of the triangular pyramid M-NPQ to the volume of the cube?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model generate a recognizable 3D representation of a cube (or folded polyhedron) to assist in the reasoning process?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the generated image correctly depict segments MN and PQ as face diagonals (connecting opposite corners of square faces) rather than edges or space diagonals?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the spatial arrangement of vertices M, N, P, and Q in the generated 3D image correctly correspond to the folding logic of the provided surface net (i.e., are they on the correct relative faces)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "If the model introduced an auxiliary point (e.g., B) or line to calculate the angle, is it geometrically correctly positioned in the image (e.g., BQ || MN)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly identify that MN and PQ are skew lines (neither parallel nor intersecting) based on the net folding?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model employ a valid geometric method (e.g., translating a line to form a triangle like triangle PBQ) or an algebraic method (e.g., vectors) to determine the angle?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly calculate or identify the lengths of the relevant segments (e.g., face diagonals have length sqrt(2) assuming unit edge) or vector components?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly conclude that the angle is 60° based on valid geometric properties (e.g., triangle PBQ is equilateral) or vector calculations?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Did the model correctly identify the base area of the pyramid (e.g., Area(triangle MNP) = 1/2 for unit cube) and the height (Distance = 1)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Did the model correctly apply the volume formula (V = 1/3 * Base * Height) to derive the ratio 1/6?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are the vertex labels (M, N, P, Q) in the generated image consistent with the references in the reasoning text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If the text describes specific auxiliary constructions (e.g., \"connect BQ\"), are these clearly visible in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the generated image visually support the geometric claims made in the text (e.g., if text says \"MN is parallel to BQ\", does it look parallel)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is the generated image free from contradictions with the text (e.g., text states \"equilateral triangle\" but image shows scalene, or text claims \"face diagonal\" but image shows edge)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

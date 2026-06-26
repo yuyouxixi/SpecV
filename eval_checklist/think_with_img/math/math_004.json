@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the final ratio of the length of PR to RC as n / ((m+1)(n+1)) or an algebraically equivalent expression?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer expressed strictly in terms of the variables m and n (and constants), without dependence on specific side lengths, angles, or shape types?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Are the text labels (A, B, C, D, P, Q, R, and any auxiliary points) in the generated image legible and positioned near the correct vertices or intersection points?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are the lines in the generated images visually straight (no unintended bends) and do they connect the intended labeled points accurately?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "If the model draws auxiliary lines (e.g., extensions), are they visually distinguishable from the original polygon sides (e.g., using dashed lines or lighter strokes)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the main geometric figure depicted as a convex quadrilateral that visually resembles a parallelogram (opposite sides appearing parallel)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the vertices A, B, C, D labeled in a sequential cyclic order (e.g., counter-clockwise or clockwise) consistent with the definition of a parallelogram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are points P and Q correctly positioned on segments AB and AD respectively (not on extensions or other sides) in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the generated image clearly show segments BQ and CP intersecting at a single internal point labeled R?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "If the solution involves an auxiliary point (e.g., E) formed by extending lines, is this point depicted at the correct linear intersection in the image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If multiple images are generated, do the positions and labels of vertices and points remain consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the model correctly translate the given geometric ratios into algebraic expressions (e.g., converting AP/PB = m to AP = m * PB or AP = m/(m+1) * AB)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the reasoning correctly identify and apply properties of a parallelogram (e.g., opposite sides are parallel and equal in length) to solve the problem?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the model identify and apply a valid geometric method (such as constructing similar triangles or using the Menelaus Theorem) to relate the segments?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "If using similar triangles, does the model correctly justify the similarity based on parallel lines (e.g., citing alternate interior angles)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are the proportionality equations derived from the similar triangles correct (e.g., relating AE/BC to AP/PB)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are the intermediate algebraic manipulations correct, particularly the combination of ratios to find the length of auxiliary segments (e.g., calculating QE)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Does the reasoning avoid assuming unjustified special cases (like the figure being a rectangle or square) unless explicitly using an affine invariance argument?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Do the geometric constructions described in the text (e.g., extending specific lines) strictly match the visual elements presented in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 20,
+    "question": "Is the generated image free from contradictions with the text description (e.g., lines described as parallel actually look parallel; points described as collinear look collinear)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Does the image accurately reflect the relative ordering of points described in the reasoning (e.g., if R is between C and P, is it visually depicted that way)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Does the text avoid referencing specific visual elements (like labels or auxiliary lines) that are missing from the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

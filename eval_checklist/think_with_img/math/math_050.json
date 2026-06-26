@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the final answer match the exact value (3π - 9√3/4) cm² or an equivalent decimal approximation (approx. 5.52 to 5.53 cm²)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the reasoning correctly identify that the radius of the semicircle is 3 cm and/or that the width of the rectangle (CD) is 3 cm?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the reasoning correctly apply the folding property to state that the length of segment A'D is equal to AD (6 cm)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the reasoning correctly deduce that angle CDA' (or angle CDK) is 60° based on the properties of the right triangle A'CD (hypotenuse 6, leg 3)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly derive that angle ODK is 30° (calculated as 90° - 60° or equivalent)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning correctly calculate the central angle of the sector (angle DOK) as 120°?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning correctly identify the strategy to calculate the shaded area as 'Area of Sector ODK minus Area of Triangle ODK' (or an equivalent valid geometric subtraction method)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the reasoning correctly calculate the area of sector ODK as 3π cm²?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the reasoning correctly calculate the area of triangle ODK as (9√3)/4 cm²?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the generated image accurately reflect the geometric proportions, specifically with the length AD appearing approximately twice the length of CD?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the folded vertex A' visually positioned on the line segment BC in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "If auxiliary lines (such as radii OD/OK or perpendicular OH) are drawn, do they appear straight and geometrically accurate (e.g., OD and OK visually equal in length)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the semicircle correctly drawn with diameter AD and visually touching (tangent to) the opposite side BC?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "If the center 'O' is used in reasoning, is it clearly marked at the midpoint of the top edge AD in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the shaded region correctly depicted as the circular segment bounded by chord DK and arc DK?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "If multiple images were generated, are the point labels (A, B, C, D, O, K, A') and geometric configurations consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Are the labels for key points (A, B, C, D, A', O, K) consistent between the generated text and the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Do the geometric relationships depicted in the image (e.g., A' on BC, angle sizes, shaded region) align with the specific claims made in the text reasoning?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

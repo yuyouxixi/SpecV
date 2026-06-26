@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model's text response explicitly state the shortest path sequence as 'down, left, up' (or an equivalent valid notation)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final textually reported path length exactly 3 moves long?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the final generated image show a continuous path line successfully connecting the 'S' (Start) area to the 'E' (End) area?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model's reasoning demonstrate an understanding that a direct 'Left' move from S to E is invalid due to the intervening wall?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly identify the strategy to bypass the wall by moving 'down' into the lower corridor first?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the reasoning free of hallucinations, such as suggesting diagonal moves or paths that pass through solid walls?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "In the generated images, is the drawn path clearly visible and distinguishable from the maze walls and background?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the drawn path in the image strictly contained within the open corridors, avoiding any overlap with or crossing of black wall lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Do the generated images preserve the original maze structure, keeping the 'S' and 'E' regions and walls in their correct relative positions without distortion?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the visual path correctly start exactly within the 'S' (green) region and terminate exactly within the 'E' (pink) region?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do the visual path segments correspond directionally to the text instructions (e.g., text says 'down', image shows a vertical downward line)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the number of directional moves mentioned in the text equal to the number of cell transitions/segments shown in the generated path image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Are there any contradictions between the text and image, such as the text describing a move (e.g., 'left') while the image shows a different direction?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 9.0
+  }
+]

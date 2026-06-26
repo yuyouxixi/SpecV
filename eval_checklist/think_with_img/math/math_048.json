@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly state the final answer as 1 cm or select Option D?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the object height (6), object distance (12), and image distance (2) from the problem statement?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model explicitly identify the geometric relationship as similar triangles (e.g., △OAB ∼ △OCD) or apply the pinhole imaging proportionality principle?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly set up the mathematical proportion relating the object height and image height to their respective distances (e.g., 6/CD = 12/2)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly solve the equation to find that the length of CD is 1 cm?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image clearly depict a pinhole imaging setup with an object (AB), a pinhole (O), and an image (CD) forming two triangles meeting at a common vertex?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the key vertices (A, B, C, D, O) visually distinct and legible in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image correctly show light rays passing through the pinhole O, connecting corresponding points (e.g., B to D and A to C) to illustrate image inversion?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the object AB and image CD depicted as parallel vertical line segments in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "If auxiliary lines or distance annotations are included, are the values 12 and 2 correctly placed on the respective distances from the pinhole (and not on the triangle sides or incorrect segments)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the numerical values labeled in the generated image (e.g., 6, 12, 2) consistent with the values used in the text reasoning?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "If the model introduces specific auxiliary points (e.g., E, F) in the text, do they appear at the corresponding locations in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is there any contradiction between the text explanation and the visual representation (e.g., text says image is inverted but image shows upright)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

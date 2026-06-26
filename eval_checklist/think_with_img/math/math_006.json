@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model correctly conclude that line BC is tangent to circle O in Part (1)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the model provide the correct distance from center O to line segment AD for Part (2) (Answer: 2√13/3)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model provide the correct value for the ratio BE/BD in Part (3) (Answer: 2/3)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "In Part (1), does the model correctly identify that OA = OD (radii) to establish that triangle OAD is isosceles (or ∠OAD = ∠ODA)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "In Part (1), does the model correctly use the angle bisector property and the isosceles triangle property to prove OD || AC (or ∠ODA = ∠DAC)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "In Part (1), does the model correctly conclude that OD ⊥ BC using the relationship AC ⊥ BC and OD || AC (or equivalent angle calculation)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "In Part (2), is the length of AD correctly calculated as 2√13 (or √52) using the Pythagorean theorem?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "In Part (2), does the model correctly identify that the perpendicular from center O to chord AD bisects the chord (implying AF = √13)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "In Part (2), does the model correctly use similarity (e.g., △AOF ~ △ADC) or trigonometric ratios to find the distance OF?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "In Part (3), does the model correctly identify that ∠ADE = 90° because AE is the diameter of the circle?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "In Part (3), does the model correctly use tan(∠DAC) = 2/3 to determine the ratio of sides in △ADE (specifically ED/AD)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "In Part (3), does the model correctly establish similarity between △BED and △BDA (or use equivalent geometric logic) to derive the ratio BE/BD?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are all arithmetic calculations and algebraic manipulations in the solution correct?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the generated image clearly depict the basic geometric setup: Right Triangle ABC, Angle Bisector AD, and Circle O with diameter AE?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are the auxiliary lines mentioned in the reasoning (e.g., OD, OF, ED) drawn as straight, distinct lines in the image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the image correctly show point D lying on the intersection of line segment BC and Circle O?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Does the image correctly show points A and E on the circle, with O visually positioned as the center of diameter AE?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is the angle at vertex C visually depicted as a right angle (90°) in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "If the perpendicular OF is drawn, does it visually meet AD at a right angle?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Do point labels (A, B, C, D, E, O) remain consistent in position and identity across all generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "If the text mentions connecting OD, is the line segment OD present in the corresponding generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 22,
+    "question": "If the text mentions drawing a perpendicular OF to AD, is this segment present in the image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "If the text mentions connecting ED, is the line segment ED present in the image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 24,
+    "question": "Does the visual orientation of OD relative to BC in the image support the text's conclusion that they are perpendicular?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Does the visual representation of AD in the image support the text description of it being the angle bisector of ∠BAC?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 26,
+    "question": "If the text states that ∠ADE is 90°, does the image visually depict a right angle at D?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

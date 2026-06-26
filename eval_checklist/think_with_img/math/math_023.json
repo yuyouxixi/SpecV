@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly state the final shortest total distance is 130 meters?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model identify the optimal water-fetching position E as lying strictly on the riverbank segment CD?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify the geometric strategy of using reflection (symmetry) across the riverbank to linearize the path (e.g., referencing the 'Drinking Horse' problem)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the reasoning correctly calculate the vertical leg of the constructed right triangle as 120m (derived from AC + BD = 70 + 50)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly identify the horizontal leg of the constructed right triangle as 50m (equal to the riverbank length CD)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly apply the Pythagorean theorem (√120² + 50²) to calculate the final distance?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image show the riverbank CD as a straight line with points A and B initially on the same side?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image visually depict the reflection of a point (e.g., A' or B') on the opposite side of the riverbank CD?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the image show a straight line connecting the reflected point (e.g., A') to the other target point (e.g., B), intersecting the riverbank segment CD at point E?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "If the reasoning relies on an auxiliary right triangle for calculation, is this triangle clearly depicted in the generated image?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Are the geometric constructions (perpendicular lines, right angles) visually accurate (e.g., perpendicular lines look 90 degrees)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the reflected point visually symmetrical to the original point with respect to the riverbank (i.e., equal perpendicular distance to CD)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are all key points (A, B, C, D, E) and auxiliary points clearly labeled without visual clutter or ambiguity?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the image accurately reflect the textual description of the geometric construction (e.g., if text says 'connect A' to B', the image shows this segment)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are the visual proportions in the image consistent with the specific values in the text (e.g., AC appears longer than BD, and E appears closer to D than C)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Are there no contradictions between the textual description of point locations/relationships and their visual representation in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]
