@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the thin silver ring clearly visible on the index finger, consistent with the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the ink stain on the thumb clearly preserved from the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the fingernail shapes (short, natural curvature) preserved from the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the background completely replaced with a deep blue base color to mimic an engineering blueprint?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Are the hand, notebook, and pencil rendered using cyan-white lines instead of photorealistic shading?",
+    "category": "Style Consistency",
+    "subcategory": "Rendering Medium",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is there a visible hierarchy of line weights (e.g., thicker outlines vs. thinner detail lines)?",
+    "category": "Style Consistency",
+    "subcategory": "Line Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Are the dimension arrows and dashed lines from the structure reference present in the generated image?",
+    "category": "Structural Adherence",
+    "subcategory": "Graphic Elements",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the hand pose strictly match the structure reference (fingers curled, grip configuration)?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the pencil angle and orientation strictly follow the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is the spiral binding of the notebook positioned on the left side, matching the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Composition",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Is the image free of readable text annotations, containing only lines and symbols?",
+    "category": "Structural Adherence",
+    "subcategory": "Negative Constraint",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Are the lines rendered cleanly and crisply, without being shaky, wobbly, or blurry?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the hand anatomically correct, with five fingers and proper joint proportions (no malformed or missing digits)?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from visual artifacts like ghosting, smeared edges, or inconsistent blending between elements?",
+    "category": "General",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

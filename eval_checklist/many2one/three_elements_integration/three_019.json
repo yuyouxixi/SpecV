@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the subject clearly recognizable as a Shiba Inu, characterized by triangular erect ears, a fox-like muzzle, and a compact body?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Are the Shiba Inu's characteristic facial markings (urajiro: lighter cheeks/muzzle contrasting with darker face) distinguishable, even within the stylized color palette?",
+    "category": "Subject Fidelity",
+    "subcategory": "Markings Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 3,
+    "question": "Does the image predominantly use the Prussian blue (indigo), white, and beige color palette characteristic of 'The Great Wave' reference?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 4,
+    "question": "Are the outlines rendered with bold, variable-width linework typical of ukiyo-e woodblock prints?",
+    "category": "Style Consistency",
+    "subcategory": "Linework Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Does the image feature flat color fills with minimal gradients and a texture suggesting woodblock printing (rather than photorealistic shading)?",
+    "category": "Style Consistency",
+    "subcategory": "Medium Simulation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the Shiba Inu bending its body forward at the waist/torso, matching the curvature of the provided skeleton diagram?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the forelegs extended forward in front of the body, mimicking the reaching arm position of the skeleton?",
+    "category": "Structural Adherence",
+    "subcategory": "Limb Positioning",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Are the front paws positioned close together in a cupped or cradling gesture, as requested in the instructions?",
+    "category": "Structural Adherence",
+    "subcategory": "Gesture Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Do the hind legs appear flexed or crouched to support the forward-leaning weight, consistent with the skeleton's stance?",
+    "category": "Structural Adherence",
+    "subcategory": "Lower Body Mechanics",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are there any severe anatomical distortions (e.g., extra limbs, disjointed parts, broken joints) resulting from adapting the dog's body to the human skeleton pose?",
+    "category": "General",
+    "subcategory": "Anatomical Integrity",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are there any visible rendering artifacts, such as digital noise, blurriness, or undefined pixelation, that detract from the image quality?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "No",
+    "score": 8.33
+  }
+]

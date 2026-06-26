@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated avatar retain the short, straight black bob hairstyle of the subject in the first reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Hairstyle Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the avatar wear black-framed glasses, consistent with the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Accessory Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the subject's facial identity (e.g., Asian features, face shape) recognizable in the generated avatar?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 7.33
+  },
+  {
+    "id": 4,
+    "question": "Does the image exhibit a 3D-modeled or CGI avatar aesthetic rather than a photorealistic style?",
+    "category": "Style Consistency",
+    "subcategory": "Medium & Rendering",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the color palette prominently feature neon pinks, purples, and blues consistent with the cyberpunk style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Does the background depict a futuristic city with neon signage or high-tech architecture?",
+    "category": "Style Consistency",
+    "subcategory": "Environment Theme",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the subject positioned on the left side of the frame, leaning on a railing or balcony, strictly following the composition of the third reference image?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout & Composition",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the perspective simulate a high-angle view looking down into a deep city canyon, matching the depth cues of the third reference image?",
+    "category": "Structural Adherence",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is there visible colored lighting (e.g., neon reflections) cast onto the avatar's face, as requested in the instruction?",
+    "category": "General",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from severe anatomical distortions (e.g., warped face, malformed hands) and rendering artifacts?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

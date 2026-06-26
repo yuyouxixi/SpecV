@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the aircraft's nose clearly feature the distinct quad headlights and chrome grille of the red vintage car reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the vehicle primarily colored in the iconic red of the reference car, distinguishing it from a purely monochromatic sepia output?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are chrome accents, such as the front bumper or trim lines, preserved from the car reference and visible on the aircraft?",
+    "category": "Subject Fidelity",
+    "subcategory": "Feature Retention",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 4,
+    "question": "Does the generated object follow the overall geometry and perspective of the aircraft in the line drawing (Image 3), rather than retaining the car's body shape?",
+    "category": "Structural Adherence",
+    "subcategory": "Shape Alignment",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the aircraft feature a high-wing configuration with visible supporting struts, matching the structural reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Component Layout",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the propeller configuration consistent with the reference schematic (e.g., presence of nose-mounted and/or wing-mounted propellers)?",
+    "category": "Structural Adherence",
+    "subcategory": "Propulsion System",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 7,
+    "question": "Is the image rendered as a vintage-style illustration with sepia or aged paper tones, matching the style reference (Image 2)?",
+    "category": "Style Consistency",
+    "subcategory": "Rendering Style",
+    "expected_answer": "Yes",
+    "score": 7.0
+  },
+  {
+    "id": 8,
+    "question": "Does the vehicle feature steampunk material textures such as brass, copper, bronze, or riveted metal panels?",
+    "category": "Style Consistency",
+    "subcategory": "Material Aesthetic",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are visible mechanical elements like gears, pipes, valves, or steam vents incorporated into the design?",
+    "category": "Style Consistency",
+    "subcategory": "Steampunk Motifs",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the car's front end seamlessly integrated into the aircraft's fuselage without looking like a disjointed cut-and-paste?",
+    "category": "General",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from significant rendering artifacts, such as distorted propeller blades, floating parts, or blurred details?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

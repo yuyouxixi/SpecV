@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the main structure composed of dark brown material resembling the chocolate cake and ganache from Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Material Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Are the strawberries from Image 1 repurposed as the rooftops or spires of the castle towers?",
+    "category": "Subject Fidelity",
+    "subcategory": "Instruction Adherence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Are secondary cake elements from Image 1 (such as blueberries, edible flowers, mint leaves, or chocolate shards) visible as decorations on the castle?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 4,
+    "question": "Does the image exhibit a matte, plasticine-like texture consistent with the claymation style in Image 2, rather than photorealistic food textures?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Matching",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Do the forms display the soft, chunky geometry and rounded edges typical of hand-sculpted clay figures?",
+    "category": "Style Consistency",
+    "subcategory": "Form Language",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Are there visible surface imperfections characteristic of claymation, such as fingerprints, molding marks, or slight unevenness?",
+    "category": "Style Consistency",
+    "subcategory": "Surface Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Does the lighting resemble the soft, studio-style illumination seen in the stop-motion reference (Image 2)?",
+    "category": "Style Consistency",
+    "subcategory": "Lighting & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 8,
+    "question": "Has the original cylindrical shape of the cake been completely replaced by the complex castle architecture?",
+    "category": "Structural Adherence",
+    "subcategory": "Shape Transformation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the generated object strictly follow the multi-tower silhouette and layout provided in the line art of Image 3?",
+    "category": "Structural Adherence",
+    "subcategory": "Silhouette Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are specific architectural details from Image 3, such as the winding staircase, arched windows, and onion domes, clearly represented?",
+    "category": "Structural Adherence",
+    "subcategory": "Detail Alignment",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the object clearly identifiable as a 'cake castle' (a castle made of cake ingredients) rather than a generic stone castle?",
+    "category": "Subject Fidelity",
+    "subcategory": "Concept Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from obvious visual artifacts, such as blurred textures, floating toppings, or disjointed geometry?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

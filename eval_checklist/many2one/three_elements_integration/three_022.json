@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the central character a British Shorthair cat with a solid blue-gray coat, consistent with the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity & Color",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the cat character retain key facial features of the reference, specifically a round face shape and copper/orange eyes?",
+    "category": "Subject Fidelity",
+    "subcategory": "Feature Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Is the cat character depicted in a standing pose, distinct from the sitting pose in the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Pose Transformation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the cat positioned in front of the castle gate and scaled like a game protagonist (significantly larger than realistic scale relative to the building)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Contextual Scaling & Placement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the background architecture strictly follow the castle edge map, featuring a tall central tower flanked by two cylindrical side turrets?",
+    "category": "Structural Adherence",
+    "subcategory": "Global Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the bridge/causeway and the central arched gate visible and aligned with the perspective of the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Perspective & Key Elements",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the crenellations (battlements) on the castle walls and towers preserved in the pixel representation?",
+    "category": "Structural Adherence",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Is the entire image rendered in a pixel art style with visible, discrete pixel blocks and no smooth gradients?",
+    "category": "Style Consistency",
+    "subcategory": "Medium & Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the color palette match the vibrant, saturated retro game aesthetic of the style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Are the outlines and edges crisp and grid-aligned (aliased), avoiding blurry or anti-aliased transitions?",
+    "category": "Style Consistency",
+    "subcategory": "Edge Definition",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Does the image include game interface elements (e.g., HUD, life bars, or text boxes) consistent with the provided style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Scene Elements",
+    "expected_answer": "Yes",
+    "score": 6.17
+  },
+  {
+    "id": 12,
+    "question": "Is the pixel grid size consistent across the entire image, ensuring the character and background appear to belong to the same resolution?",
+    "category": "General Quality",
+    "subcategory": "Visual Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from significant distortions, such as floating geometry, malformed limbs, or unrecognizable artifacts?",
+    "category": "General Quality",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

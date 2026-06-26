@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the subject clearly identifiable as a British Shorthair cat, retaining the breed's characteristic round face and stocky build?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Does the cat preserve the specific blue-grey and white bicolor fur pattern (blue-grey on head/back, white on chest/paws) seen in the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color & Markings",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Are the cat's eyes depicted with warm copper or amber tones consistent with the subject reference, rather than incorrect colors like blue or green?",
+    "category": "Subject Fidelity",
+    "subcategory": "Facial Features",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Does the image exhibit the visual style of a Ukiyo-e woodblock print, featuring flat color fills and a lack of photorealistic shading?",
+    "category": "Style Consistency",
+    "subcategory": "Medium & Aesthetic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are there bold, graphic black outlines defining the subject and major elements, consistent with the style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Linework",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the color palette limited and muted (e.g., indigo blues, reds, earth tones) rather than using vibrant, modern, or neon colors?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Does the background feature an aged paper or parchment texture, effectively replacing the original modern interior/bookshelves?",
+    "category": "Style Consistency",
+    "subcategory": "Texture & Background",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the cat positioned in a wide-legged, crouched stance (battōjutsu) matching the skeleton structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the cat's front paws positioned to mimic the sword-drawing action, with one paw gripping the hilt and the other stabilizing the sheath?",
+    "category": "Structural Adherence",
+    "subcategory": "Action Mapping",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the cat's torso show a dynamic twist consistent with the rotational tension of the sword-drawing pose in the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Body Orientation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the cat wearing recognizable samurai attire (e.g., kimono, armor, or kabuto helmet) consistent with the transformation instruction?",
+    "category": "Structural Adherence",
+    "subcategory": "Costume Elements",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is a katana or Japanese sword present, positioned at the waist or being drawn as shown in the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from anatomical errors such as extra limbs, multiple tails, or impossible joint bends?",
+    "category": "General",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Do the samurai costume elements blend naturally with the cat's body, avoiding a 'cut-and-paste' appearance?",
+    "category": "General",
+    "subcategory": "Coherence",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from unintended text, watermarks, or obvious digital artifacts?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the number '08' clearly visible and legible on the player's jersey?",
+    "category": "Subject Fidelity",
+    "subcategory": "Text/Number Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the player retain the defining visual features of the original subject, specifically short dark hair, facial hair, and a white jersey with blue accessories?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 3,
+    "question": "Does the font weight of the '08' appear bold and thick, consistent with the original jersey's typography?",
+    "category": "Subject Fidelity",
+    "subcategory": "Typography Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the image rendered in a flat vector infographic style with crisp edges and geometric shapes, avoiding photorealism?",
+    "category": "Style Consistency",
+    "subcategory": "Medium & Technique",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Has the wooden floor texture been completely removed and replaced with clean geometric planes or solid colors?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the player's pose (forward lean and extended left arm) strictly align with the green silhouette in the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the wheelchair's angle and orientation match the diagonal placement shown in the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the background elements (three diagonal bands and an upper-right circular icon) positioned exactly as defined in the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Match",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the number '08' placed specifically within the chest region defined by the rectangular number box in the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from any added readable text descriptions, titles, or captions (excluding the jersey number)?",
+    "category": "General",
+    "subcategory": "Text Constraints",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from significant anatomical distortions (e.g., malformed hands, warped face) or rendering artifacts?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

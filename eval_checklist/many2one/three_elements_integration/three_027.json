@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the subject clearly recognizable as a fox, featuring distinct characteristics like pointed triangular ears and a tapered snout?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the image retain a white or light-toned base for the fox to maintain its 'Arctic' identity, distinct from the primary color accents?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color Identity",
+    "expected_answer": "Yes",
+    "score": 7.17
+  },
+  {
+    "id": 3,
+    "question": "Is a bushy tail clearly visible and integrated into the design, consistent with the anatomy of a fox?",
+    "category": "Subject Fidelity",
+    "subcategory": "Defining Features",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 4,
+    "question": "Does the image exclusively use the specified Bauhaus color palette: red, yellow, blue, black, and white?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the fox rendered using geometric stylization (e.g., circles for the body, triangles for ears) rather than realistic organic forms?",
+    "category": "Style Consistency",
+    "subcategory": "Geometric Stylization",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the colors applied as flat, solid blocks without gradients, shading, or photorealistic textures?",
+    "category": "Style Consistency",
+    "subcategory": "Aesthetic Treatment",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Does the fox's pose match the structural reference, specifically being curled into a compact ball shape?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Does the tail wrap around the body or face, following the curved line depicted in the edge map?",
+    "category": "Structural Adherence",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the head tucked inward toward the body, consistent with the sleeping/curled pose in the edge map?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Are there any obvious visual artifacts, jagged edges, or disorganized shapes that disrupt the clean geometric aesthetic?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

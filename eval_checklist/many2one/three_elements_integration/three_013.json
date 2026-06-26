@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the central figure clearly recognizable as the brown teddy bear with a red bow tie, matching the subject reference (Image 1)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity & Accessories",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the teddy bear retain its plush, furry texture and specific facial features (round ears, snout) despite the lighting changes?",
+    "category": "Subject Fidelity",
+    "subcategory": "Texture & Details",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the image adopt the cold, dark color palette (teal, cyan, deep blues, and blacks) of the horror style reference (Image 2)?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the lighting simulated as a harsh, directional flashlight beam that creates a bright spotlight on the subject against darkness?",
+    "category": "Style Consistency",
+    "subcategory": "Lighting Style",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the image exhibit visible film grain, noise, or lens flare effects consistent with the visual texture of the horror reference?",
+    "category": "Style Consistency",
+    "subcategory": "Texture & Effects",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the environment strictly follow the geometry of the concentric square spiral corridor shown in the depth map (Image 3)?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is the teddy bear positioned at the far end (vanishing point) of the corridor, consistent with the depth map's layout?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Is the teddy bear scaled appropriately small to reflect its distance at the end of the deep perspective corridor?",
+    "category": "Structural Adherence",
+    "subcategory": "Scale Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the teddy bear blend naturally into the scene with appropriate shadows and lighting interaction, avoiding a 'sticker' look?",
+    "category": "General",
+    "subcategory": "Blending & Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from significant anatomical distortions (e.g., melted limbs) or geometric breaks in the corridor structure?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

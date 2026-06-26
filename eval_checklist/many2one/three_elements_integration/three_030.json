@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the exploding object clearly identifiable as a classic British telephone booth, evidenced by its silhouette or specific features?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are key identifying details of the booth, such as the domed roof, 'TELEPHONE' sign, or crown emblem, visible either intact or on the fragments?",
+    "category": "Subject Fidelity",
+    "subcategory": "Key Features",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Are the characteristic multi-pane window grids and cast-iron frame elements visible on the shattered fragments?",
+    "category": "Subject Fidelity",
+    "subcategory": "Fine Structural Details",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Is the image rendered strictly in black-and-white, avoiding any chromatic colors?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the image utilize manga-specific rendering techniques, such as high-contrast inking, hatching, or screentones?",
+    "category": "Style Consistency",
+    "subcategory": "Rendering Technique",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are radial speed lines or focus lines present to convey dynamic explosive movement, consistent with the manga reference?",
+    "category": "Style Consistency",
+    "subcategory": "Visual Effects",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Does the explosion layout follow a radial burst pattern emanating from the center, matching the geometry of the provided normal map?",
+    "category": "Structural Adherence",
+    "subcategory": "Composition Layout",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Do the shapes and arrangement of the major debris fragments correspond to the specific surface relief chunks defined in the normal map?",
+    "category": "Structural Adherence",
+    "subcategory": "Fragment Geometry",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 9,
+    "question": "Does the shading on the fragments suggest varying 3D angles and depth (relief) consistent with the surface normals in the reference map?",
+    "category": "Structural Adherence",
+    "subcategory": "Depth & Relief",
+    "expected_answer": "Yes",
+    "score": 7.17
+  },
+  {
+    "id": 10,
+    "question": "Are the structural textures of the booth (e.g., window grids) correctly mapped onto the warping fragments rather than appearing as a flat overlay?",
+    "category": "General",
+    "subcategory": "Texture Mapping",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Is the linework crisp and clear, without significant blurriness, pixelation, or illogical blending artifacts?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are there any obvious visual artifacts, such as melted geometry or inconsistent lighting, that detract from the coherency of the scene?",
+    "category": "General",
+    "subcategory": "Artifacts",
+    "expected_answer": "No",
+    "score": 8.0
+  }
+]

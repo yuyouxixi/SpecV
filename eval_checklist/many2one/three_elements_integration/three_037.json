@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image clearly depict a mechanical watch movement exploded into its components (e.g., gears, rotor, case parts)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Is the number '3120' visible on the rotor component in a simplified but recognizable form?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Are the blued screws from the original movement represented with minimal blue color accents?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Is the image rendered as a clean, flat vector graphic, completely free of photorealistic textures, noise, or shading gradients?",
+    "category": "Style Consistency",
+    "subcategory": "Medium & Aesthetic",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the color palette consist primarily of black, white, and gray, with limited blocks of primary colors (red, blue, yellow) consistent with the Bauhaus reference?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Are the mechanical components abstracted into simplified geometric shapes (circles, arcs, rectangles) rather than realistic metallic textures?",
+    "category": "Style Consistency",
+    "subcategory": "Geometric Stylization",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the image strictly follow the vertical isometric exploded layout, with components stacked along a central vertical axis?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the stacking order consistent with the structure reference (Top: Bezel/Crystal -> Dial -> Movement -> Rotor -> Case -> Bottom: Caseback)?",
+    "category": "Structural Adherence",
+    "subcategory": "Layer Hierarchy",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Are annotation boxes with leader lines present on the right side, matching the spatial arrangement of the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Composition Elements",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Are the annotation boxes free of readable text (containing only empty space or abstract lines)?",
+    "category": "General",
+    "subcategory": "Text Constraints",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Are the edges of the vector shapes sharp and anti-aliased, without jagged boundaries or compression artifacts?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from logical geometric distortions (e.g., melted rings, warped ellipses) and random visual noise?",
+    "category": "General",
+    "subcategory": "Artifacts & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

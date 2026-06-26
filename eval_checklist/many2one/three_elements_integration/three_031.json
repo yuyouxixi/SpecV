@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the grand piano positioned in the center-left area of the stage, aligning with the red region of the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are audience chairs placed on the right side of the stage, aligning with the blue region of the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are curtains visible in the upper background area, corresponding to the purple region of the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are columns present on both the far left and far right sides of the stage, corresponding to the gray regions of the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is a lighting rig or truss visible at the top edge of the image, corresponding to the yellow region of the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is there a curved or arched backdrop element behind the stage, corresponding to the white region of the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Alignment",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Is the main subject clearly a grand piano with its lid propped open, preserving the pose and silhouette of the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the piano's defining details—specifically the keyboard keys and the internal gold frame/strings—recognizable despite the stylized rendering?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Does the image utilize a Fauvist color palette with intense, non-naturalistic colors (e.g., a purple piano or red floor) as requested?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Does the image feature thick, visible, expressive brushstrokes and impasto textures consistent with the provided Fauvist style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Brushwork & Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are the piano's reflections and material properties reinterpreted as bold, simplified blocks of color rather than photorealistic glossy highlights?",
+    "category": "Style Consistency",
+    "subcategory": "Material Reinterpretation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from severe geometric distortions, such as melting piano legs, floating chairs, or incoherent keyboard structure?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

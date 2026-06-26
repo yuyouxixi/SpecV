@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the subject a little girl with reddish hair, consistent with the identity in the input reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Is the girl wearing a yellow raincoat, blue jeans, and yellow rainboots?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the girl holding a red umbrella?",
+    "category": "Subject Fidelity",
+    "subcategory": "Prop Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the image rendered in a Low Poly 3D style featuring visible geometric facets and polygonal shapes?",
+    "category": "Style Consistency",
+    "subcategory": "Geometric Aesthetic",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the rendering use flat, solid colors typical of low poly art, rather than realistic textures or complex gradients?",
+    "category": "Style Consistency",
+    "subcategory": "Rendering Technique",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the color palette bright and saturated, matching the aesthetic of the style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Is the girl in a jumping pose with feet off the ground, matching the leg configuration of the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the girl's head turned to look backward (retrospective gaze), consistent with the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Head Orientation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Are the arms positioned dynamically (one raised/bent, one extended) to match the provided skeleton blueprint?",
+    "category": "Structural Adherence",
+    "subcategory": "Limb Positioning",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the hem of the raincoat billowing upward to realistically reflect the upward motion of the jump?",
+    "category": "Structural Adherence",
+    "subcategory": "Physics & Dynamics",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Is the umbrella held naturally in the girl's hand without floating, clipping through the body, or looking disconnected?",
+    "category": "General",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Is the image free of severe anatomical distortions (e.g., broken joints, malformed hands) and rendering artifacts (e.g., noise, blur)?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

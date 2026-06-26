@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated bottle retain the rectangular silhouette with rounded shoulders from the subject reference (Image 1), explicitly overriding the round shape shown in the structure reference (Image 3)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Shape Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the bottle feature a cylindrical gold cap matching the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Component Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the liquid inside the bottle depicted as a pale pink color?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the bottle surface appear matte and opaque like clay, rather than transparent and glossy like glass?",
+    "category": "Style Consistency",
+    "subcategory": "Material Transfer",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Are there visible surface imperfections, such as fingerprints, slight unevenness, or hand-molding marks, consistent with the claymation style reference (Image 2)?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Details",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the gold cap rendered with a soft, satin, or matte finish typical of clay animation, rather than a highly reflective photorealistic metal finish?",
+    "category": "Style Consistency",
+    "subcategory": "Material Specificity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the perfume bottle positioned in the right-center of the frame with an oval mirror standing directly behind it?",
+    "category": "Structural Adherence",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Are the makeup brushes and tray visible in the bottom-left foreground, matching the layout of the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the mirror reflection accurately show the back of the bottle with a liquid level consistent with the main object?",
+    "category": "Structural Adherence",
+    "subcategory": "Geometric Logic",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is the label text either absent or rendered as illegible abstract markings, avoiding distinct garbled characters?",
+    "category": "General",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Do the objects cast realistic contact shadows on the surface, preventing them from appearing to float?",
+    "category": "General",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the background a neutral surface (e.g., vanity table) consistent with the structure reference, avoiding the forest environment from the style reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Scene Context",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

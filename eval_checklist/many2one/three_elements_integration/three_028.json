@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image recognizable as a narrow Japanese shopping street with traditional two-story wooden buildings (machiya-style) on both sides?",
+    "category": "Subject Fidelity",
+    "subcategory": "Scene Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are key street elements such as noren curtains (fabric dividers), vertical shop signs with Japanese characters, and stone pavement present?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Are secondary details like overhead power lines and potted plants/bonsai visible in the scene?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 7.17
+  },
+  {
+    "id": 4,
+    "question": "Is the Torii gate visible in the background, serving as a focal point at the end of the street?",
+    "category": "Subject Fidelity",
+    "subcategory": "Landmark Presence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the scene layout strictly follow the strong radial fisheye distortion defined by the structure reference depth map (e.g., buildings curving around the viewer)?",
+    "category": "Structural Adherence",
+    "subcategory": "Geometric Distortion",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the central vanishing point maintained with a deep corridor perspective, matching the symmetry of the depth map?",
+    "category": "Structural Adherence",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Does the image exhibit a surrealist oil-painting aesthetic (smooth blending, dreamlike atmosphere) similar to Salvador Dalí's 'The Persistence of Memory'?",
+    "category": "Style Consistency",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the color palette match the warm earth tones (saturated oranges, browns) and surreal blues of the style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Do the shop signs or building elements exhibit melting, dripping, or sagging deformations characteristic of the surrealist style?",
+    "category": "Style Consistency",
+    "subcategory": "Surrealist Deformation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Do the noren curtains appear to flow like liquid or exhibit soft, organic distortions as requested?",
+    "category": "Style Consistency",
+    "subcategory": "Specific Motif (Liquid Fabric)",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is the Torii gate depicted as floating in the air, twisted, or distorted in a surreal manner?",
+    "category": "Style Consistency",
+    "subcategory": "Specific Motif (Floating Landmark)",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Do the surrealist melting effects and the optical fisheye distortion coexist without conflicting or rendering the scene spatially incoherent?",
+    "category": "General",
+    "subcategory": "Visual Coherence",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from unintentional visual artifacts (e.g., random noise, severe pixelation, or broken geometry) that are not part of the artistic distortion?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

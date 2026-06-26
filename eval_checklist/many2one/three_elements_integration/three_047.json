@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the butterfly clearly identifiable as a Blue Morpho, featuring bright blue wing surfaces with distinct black edges?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity & Color",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are the antennae and body properly formed and visible, without missing parts or extra limbs?",
+    "category": "Subject Fidelity",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Is the entire image rendered as a mosaic collage composed of discrete tesserae (tiles)?",
+    "category": "Style Consistency",
+    "subcategory": "Medium",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the grout separating the tesserae distinct and light gray in color?",
+    "category": "Style Consistency",
+    "subcategory": "Grout Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Do the tesserae exhibit authentic irregularity and roughness rather than appearing as perfect, uniform digital squares?",
+    "category": "Style Consistency",
+    "subcategory": "Material Authenticity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Are tonal variations on the wings achieved through distinct, differently colored tesserae rather than smooth gradients or shading?",
+    "category": "Style Consistency",
+    "subcategory": "Technique (No Gradients)",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is the butterfly's fuzzy body texture represented using smaller, denser, dark-colored tesserae compared to the wings?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Detail",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the butterfly composition strictly enclosed within a circular frame?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout & Boundaries",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the butterfly maintain the specific tilt angle from the reference, with the left wing positioned higher than the right?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is there a visible radial pattern in the background tesserae?",
+    "category": "Structural Adherence",
+    "subcategory": "Background Composition",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the background radial pattern subtle enough that it does not overpower the butterfly subject?",
+    "category": "Structural Adherence",
+    "subcategory": "Visual Hierarchy",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the mosaic structure consistent, avoiding artifacts like melted tiles, blurred grout, or non-mosaic patches?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

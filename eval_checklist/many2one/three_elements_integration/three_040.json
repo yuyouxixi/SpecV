@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the central figure clearly retain the specific design details of the astronaut figurine, including the white suit with blue accents and the chest unit shape?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.57
+  },
+  {
+    "id": 2,
+    "question": "Is the small scratch on the astronaut's left chest preserved and visible in the final image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 9.87
+  },
+  {
+    "id": 3,
+    "question": "Is the gold visor rendered using flat color blocks with minimal highlights, strictly avoiding realistic reflections?",
+    "category": "Subject Fidelity",
+    "subcategory": "Texture Rendering",
+    "expected_answer": "Yes",
+    "score": 9.63
+  },
+  {
+    "id": 4,
+    "question": "Does the image feature a silkscreen print aesthetic with visible halftone dots?",
+    "category": "Style Consistency",
+    "subcategory": "Artistic Medium",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the color palette restricted to retro tones (e.g., orange, teal, cream) similar to the style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.07
+  },
+  {
+    "id": 6,
+    "question": "Are vintage print imperfections, specifically paper grain texture and slight registration misalignment, visible in the image?",
+    "category": "Style Consistency",
+    "subcategory": "Texture & Effects",
+    "expected_answer": "Yes",
+    "score": 8.7
+  },
+  {
+    "id": 7,
+    "question": "Does the layout strictly follow the structure reference, featuring a large planetary circle and radiating light beams?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Composition",
+    "expected_answer": "Yes",
+    "score": 9.43
+  },
+  {
+    "id": 8,
+    "question": "Is the astronaut positioned standing on a rock formation in the center foreground, matching the pose and placement of the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Are blank information bars present at the top and bottom of the image?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Elements",
+    "expected_answer": "Yes",
+    "score": 9.7
+  },
+  {
+    "id": 10,
+    "question": "Is the image completely free of readable text, with the title and information bars rendered as blank placeholders?",
+    "category": "Structural Adherence",
+    "subcategory": "Content Constraints",
+    "expected_answer": "Yes",
+    "score": 9.9
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from obvious visual artifacts, anatomical distortions, or unintended blurring?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.63
+  }
+]

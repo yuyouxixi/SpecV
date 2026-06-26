@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the central subject clearly recognizable as a mechanical owl, retaining the distinctive round head shape and facial disk of the snowy owl reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the snowy owl's signature bright yellow eyes preserved in the design (rendered either as biological eyes or glowing yellow optical sensors)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Key Feature Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the small, hooked beak structure of the owl visible and centrally located on the face?",
+    "category": "Subject Fidelity",
+    "subcategory": "Facial Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Has the biological feather texture been successfully transformed into hard-surface mechanical armor (e.g., plating, carbon fiber) without leaving residual organic soft feathers?",
+    "category": "Subject Fidelity",
+    "subcategory": "Domain Transformation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the mechanical owl feature specific textures from the style reference, such as carbon fiber patterns, worn metal, or segmented plating?",
+    "category": "Style Consistency",
+    "subcategory": "Texture & Material",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Are glowing blue neon lines or energy accents integrated into the armor design, matching the lighting aesthetic of the style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Lighting Effects",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the color palette predominantly feature metallic grays/silvers with cool blue highlights, consistent with the battle armor reference?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the owl depicted in a flying pose with wings spread wide, matching the 'Giant Flying Creature' layout in Image 3 (distinct from the perched pose in Image 1)?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Is the mechanical owl surrounded by explosion debris or floating fragments distributed radially, as defined in the layout diagram?",
+    "category": "Structural Adherence",
+    "subcategory": "Scene Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Do the debris fragments appear to have motion blur or directional placement suggesting an outward explosion, rather than a static pattern?",
+    "category": "Structural Adherence",
+    "subcategory": "Motion Dynamics",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 11,
+    "question": "Are the mechanical wings and joints logically constructed without obvious distortions (e.g., disconnected parts, impossible articulation, or asymmetric wing counts)?",
+    "category": "General",
+    "subcategory": "Anatomical Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from unintended text overlays, such as 'DEBRIS FRAGMENT' labels or bounding box lines from the layout reference?",
+    "category": "General",
+    "subcategory": "Artifacts & Text",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 13,
+    "question": "Do the explosion debris and the mechanical owl share consistent lighting and shadows, appearing to belong to the same coherent sci-fi environment?",
+    "category": "General",
+    "subcategory": "Scene Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

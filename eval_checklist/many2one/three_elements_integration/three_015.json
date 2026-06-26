@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the facial identity of the basketball player recognizable as Stephen Curry (from Image 1), including features like his beard and short curly hair?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 2,
+    "question": "Is the subject wearing a yellow jersey with blue trim that retains recognizable details such as the number '30' or 'The City' text?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Does the jersey fabric exhibit heavy, classical robe-like drapery and folds, blending the athletic wear with the Renaissance style of Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Semantic Fusion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the image exhibit the visual texture, visible brushstrokes, and medium of a Renaissance oil painting?",
+    "category": "Style Consistency",
+    "subcategory": "Medium & Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the lighting soft and directional (chiaroscuro) with an earthy color palette, matching the aesthetic of the reference painting?",
+    "category": "Style Consistency",
+    "subcategory": "Lighting & Color",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Is the background rendered in a subdued, painterly style consistent with the classical reference, rather than a sharp or photorealistic modern court?",
+    "category": "Style Consistency",
+    "subcategory": "Scene Treatment",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is the subject performing a tomahawk dunk with the ball cocked back behind the head, matching the action in Image 3?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Do the limbs follow the skeletal reference configuration: legs bent/tucked in the air and the non-shooting arm extended for balance?",
+    "category": "Structural Adherence",
+    "subcategory": "Limb Configuration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is a basketball hoop present in the scene, positioned logically to contextualize the dunking action?",
+    "category": "Structural Adherence",
+    "subcategory": "Scene Elements",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 10,
+    "question": "Are the hands (particularly the one holding the ball) rendered anatomically correctly, without missing or extra fingers?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from severe visual artifacts, such as warped facial features, glitchy textures, or disconnected limbs?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

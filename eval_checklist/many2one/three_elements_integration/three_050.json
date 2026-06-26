@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the bonsai retain the specific twisted, S-shaped trunk structure of the subject reference (Image 1)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the foliage arranged in distinct pads or clusters with small leaves, preserving the dense canopy structure of the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Foliage Structure",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Is the bonsai planted in a shallow, oval ceramic pot with visible moss mounds at the base, matching the subject reference's proportions?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Details",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the image utilize thick, distinct outlines for major objects (bonsai, pot, staircase), mimicking the cel-shaded animation style of the reference (Image 2)?",
+    "category": "Style Consistency",
+    "subcategory": "Line Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are shadows rendered as flat, hard-edged blocks (two-stage shading) rather than smooth, realistic gradients?",
+    "category": "Style Consistency",
+    "subcategory": "Shading Technique",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Are colors applied as flat, solid fills with minimal texture, consistent with a clean animation production design?",
+    "category": "Style Consistency",
+    "subcategory": "Color Rendering",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is the bonsai placed on a pedestal centered toward the bottom of the frame, strictly adhering to the composition of the structure reference (Image 3)?",
+    "category": "Structural Adherence",
+    "subcategory": "Composition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is there a spiral staircase positioned on the right side of the image, matching the layout of the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Spatial Geometry",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Does the spiral staircase demonstrate correct perspective depth and foreground-background tonal gradation?",
+    "category": "Structural Adherence",
+    "subcategory": "Perspective & Depth",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the primary light source clearly coming from the left, consistent with the highlights on the bonsai and staircase?",
+    "category": "Structural Adherence",
+    "subcategory": "Lighting Direction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is there a clear, directionally consistent cast shadow from the bonsai onto the pedestal or floor (falling to the right)?",
+    "category": "Structural Adherence",
+    "subcategory": "Shadow Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the background wall kept simple and clean, avoiding unnecessary decorations or textures not present in the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Background Detail",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Are the complex organic branches of the bonsai rendered with clean, stable contours without becoming messy or fragmented?",
+    "category": "General",
+    "subcategory": "Technical Execution",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Are there any obvious visual artifacts, such as warped staircase steps, floating elements, or broken geometry?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "No",
+    "score": 8.5
+  }
+]

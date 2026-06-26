@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the entire image composed of distinct, small colored dots characteristic of the Pointillism technique, rather than solid brushstrokes or smooth fills?",
+    "category": "Style Consistency",
+    "subcategory": "Technique Application",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are the gray concrete areas depicted using a visible mixture of blue, gray, and white dots as specified in the instruction?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the interior architecture appear to be constructed from exposed concrete (smooth, unpainted texture), retaining the material identity of the Subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Material Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Are the rows of benches or pews from the Subject reference preserved, maintaining the church interior context?",
+    "category": "Subject Fidelity",
+    "subcategory": "Context Preservation",
+    "expected_answer": "Yes",
+    "score": 6.67
+  },
+  {
+    "id": 5,
+    "question": "Does the ceiling structure feature pointed ribbed vaults, strictly adhering to the geometry in the Gothic Structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Architectural Elements",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Are the vertical supports rendered as clustered columns (bundled shafts) aligning with the layout of the Structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Architectural Elements",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is a rose window visible at the far end of the hall, matching the circular tracery element in the Structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Key Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Does the image maintain a strong one-point perspective with a central aisle, consistent with the spatial layout of the provided references?",
+    "category": "Structural Adherence",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Are the intricate structural lines (such as the ribs of the vaults and window tracery) clearly defined and not obscured by the pointillist dot texture?",
+    "category": "General",
+    "subcategory": "Detail Clarity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from significant visual artifacts, such as smeared dots or distorted geometry, that break the coherence of the architectural forms?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

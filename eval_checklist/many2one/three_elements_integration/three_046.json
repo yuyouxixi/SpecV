@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Are the distinct parallel orange stripes visible on the nose/top casing of the drone?",
+    "category": "Subject Fidelity",
+    "subcategory": "Key Feature Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the camera gimbal depicted with a spherical shape and a transparent protective cover?",
+    "category": "Subject Fidelity",
+    "subcategory": "Component Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the drone retain its four-arm structure with visible folding mechanisms/joints?",
+    "category": "Subject Fidelity",
+    "subcategory": "Mechanical Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the drone presented in an isometric exploded view with components floating apart?",
+    "category": "Structural Adherence",
+    "subcategory": "Viewpoint & Layout",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Are the propellers depicted as detached components floating above the motor arms?",
+    "category": "Structural Adherence",
+    "subcategory": "Exploded Part Placement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the camera gimbal unit shown floating detached below the main body?",
+    "category": "Structural Adherence",
+    "subcategory": "Exploded Part Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are dashed or dotted guide lines used to connect the exploded components to their assembly points?",
+    "category": "Structural Adherence",
+    "subcategory": "Diagram Elements",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are annotation boxes and leader lines positioned primarily on the right side of the image?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Composition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the image utilize clean technical line art with gray marker-style shading?",
+    "category": "Style Consistency",
+    "subcategory": "Artistic Medium",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the color palette primarily grayscale with minimal orange accents?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the text within annotation boxes rendered as illegible scribbles or shorthand pseudo-text?",
+    "category": "Style Consistency",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Does the background feature an aged or scanned paper texture?",
+    "category": "Style Consistency",
+    "subcategory": "Aesthetic Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the linework stable and crisp, avoiding wavy lines or blurred details?",
+    "category": "General",
+    "subcategory": "Line Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Are there any hallucinations of extra limbs, propellers, or unconnected mechanical parts?",
+    "category": "General",
+    "subcategory": "Logical Errors",
+    "expected_answer": "No",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Are the geometric relationships between exploded parts logically aligned (e.g., propellers centered over motors)?",
+    "category": "General",
+    "subcategory": "Mechanical Logic",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

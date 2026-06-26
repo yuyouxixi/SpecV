@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image clearly depict the Asian woman from the subject reference, preserving her facial structure, high cheekbones, and straight black hair?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 2,
+    "question": "Are the subject's round, thin-rimmed glasses clearly present in the generated image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Specific Features",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the image reflect the Art Nouveau style of Alphonse Mucha, featuring characteristic strong outlines, flat shading, and decorative flowing curves?",
+    "category": "Style Consistency",
+    "subcategory": "Aesthetic Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the color palette use the muted, earthy tones (creams, golds, olives, muted reds) typical of the style reference, rather than the bright neon colors of the segmentation map?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are the glasses successfully stylized to match the Art Nouveau aesthetic (e.g., illustrated with lines) rather than appearing as a photorealistic overlay?",
+    "category": "Style Consistency",
+    "subcategory": "Style Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the figure positioned centrally, confined primarily to the area defined by the pink circle in the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Accuracy (Center)",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is there a decorative vine wreath or circular pattern located in the ring area corresponding to the green circle of the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Accuracy (Ring)",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Are symmetrical floral or decorative patterns placed in the four corners, matching the yellow regions of the segmentation map?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Accuracy (Corners)",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the background area (corresponding to the blue region) remain distinct from the decorative foreground elements?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Accuracy (Background)",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 10,
+    "question": "Do the decorative elements respect the boundaries of the segmentation map without bleeding significantly into the central figure's area?",
+    "category": "Structural Adherence",
+    "subcategory": "Boundary Precision",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the face rendered clearly without anatomical distortions, blurring, or loss of detail?",
+    "category": "General",
+    "subcategory": "Anatomy & Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from obvious visual artifacts, glitchy textures, or unnatural blending between the figure and the background?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

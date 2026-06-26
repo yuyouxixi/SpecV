@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the subject clearly recognizable as a koi fish, retaining key features like the head shape, barbels, and flowing fins?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the fish rendered in a continuous circular 'Ouroboros' pose, with the head biting or connecting to the tail to form a closed ring?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the fish maintain the specific orientation of the line drawing reference (head on the left, body curving downwards)?",
+    "category": "Structural Adherence",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the composition include radiating lines or a sun-ray border element surrounding the fish, consistent with the line drawing reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Compositional Elements",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Are the fish's scales transformed into a pattern of small golden triangles arranged in sequence, as specified in the instruction?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Transfer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the image feature a dominant gold leaf texture and a color palette of gold, yellow, and black, consistent with Klimt's 'The Kiss'?",
+    "category": "Style Consistency",
+    "subcategory": "Color & Material",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the image incorporate Klimt-style geometric decorative motifs (e.g., spirals, rectangles, circles) in the background or on the fish?",
+    "category": "Style Consistency",
+    "subcategory": "Decorative Patterns",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the background rendered as a flat, ornamental field characteristic of Klimt's style, rather than a photorealistic underwater environment?",
+    "category": "Style Consistency",
+    "subcategory": "Background Treatment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Despite the circular deformation, is the fish's body anatomically coherent (continuous spine, proper fin placement) without appearing broken or segmented?",
+    "category": "General",
+    "subcategory": "Anatomical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are there any obvious visual artifacts, such as blurry patches, duplicated heads, or illogical merging of the subject with the background?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "No",
+    "score": 8.83
+  }
+]

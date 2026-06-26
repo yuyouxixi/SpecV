@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the subject wearing the distinct multi-colored oversized puffer jacket (featuring yellow, blue, red, and beige panels) from Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the jacket feature visible strap-like elements or webbing, consistent with the reference outfit in Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Is the subject wearing black pants and chunky white sneakers, matching the outfit in Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Outfit Completeness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the character appear to be a young male with short brown hair, resembling the model in Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 5,
+    "question": "Does the image feature visible Ben-Day dots (halftone patterns) on the skin, clothing, or background, matching the Pop Art style of Image 2?",
+    "category": "Style Consistency",
+    "subcategory": "Texture & Pattern",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the character and objects defined by bold, thick black outlines typical of comic book illustrations?",
+    "category": "Style Consistency",
+    "subcategory": "Line Work",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is the color rendering flat, graphic, and highly saturated (lacking photorealistic gradients), matching the comic book aesthetic?",
+    "category": "Style Consistency",
+    "subcategory": "Rendering Style",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the character performing a one-handed handstand with the body fully inverted, matching the orientation of the skeletal reference in Image 3?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Do the legs strictly follow the skeletal diagram: one leg extended diagonally upwards/outwards and the other bent sharply at the knee?",
+    "category": "Structural Adherence",
+    "subcategory": "Limb Positioning",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the oversized puffer jacket drape downwards towards the character's head/shoulders, correctly simulating gravity in an inverted pose?",
+    "category": "Structural Adherence",
+    "subcategory": "Physics & Gravity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the hanging straps or webbing from the jacket fall downwards towards the ground, consistent with the inverted gravity?",
+    "category": "Structural Adherence",
+    "subcategory": "Detail Physics",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are there any significant anatomical distortions, such as malformed hands (especially the supporting hand) or missing fingers?",
+    "category": "General",
+    "subcategory": "Anatomical Accuracy",
+    "expected_answer": "No",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from significant rendering artifacts, such as smeared textures or incoherent geometry in the complex jacket patterns?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

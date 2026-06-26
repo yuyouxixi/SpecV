@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the object held by the figure clearly recognizable as the drone from Image 1, featuring key elements like a white rounded body, landing gear, and an under-mounted gimbal?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Are the drone's propellers visible and attached to the arms, ensuring the object is identifiable as a quadcopter?",
+    "category": "Subject Fidelity",
+    "subcategory": "Component Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Is the drone depicted in a strict profile view, consistent with the 2D flat aesthetic of the requested style?",
+    "category": "Subject Fidelity",
+    "subcategory": "Viewpoint Adaptation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the image utilize the specific Ancient Egyptian color palette from Image 2, consisting primarily of ochre, gold, blue, terracotta, and cream?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the image rendered in a flat mural style with clear outlines and solid color fills, avoiding photorealistic shading or 3D lighting effects?",
+    "category": "Style Consistency",
+    "subcategory": "Rendering Technique",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Is the kneeling figure depicted with canonical Egyptian stylization, including a profile head, frontal eye, and traditional attire (e.g., kilt, headdress)?",
+    "category": "Style Consistency",
+    "subcategory": "Art Convention",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the background texture resemble an ancient wall painting (plaster or papyrus surface) rather than a realistic environment?",
+    "category": "Style Consistency",
+    "subcategory": "Material Texture",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the scene layout strictly follow the depth map (Image 3), showing a figure kneeling on the right facing an altar on the left?",
+    "category": "Structural Adherence",
+    "subcategory": "Spatial Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the architectural archway or frame from the depth map clearly visible in the background?",
+    "category": "Structural Adherence",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Is the figure holding the drone with both hands extended towards the altar, consistent with the interaction geometry in the depth map?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Are the figure's hands rendered coherently (e.g., correct finger count, natural grasping shape) without severe anatomical distortions?",
+    "category": "General",
+    "subcategory": "Anatomical Accuracy",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 12,
+    "question": "Is the drone stylistically integrated into the image, appearing as a painted element of the mural rather than a photorealistic object pasted onto the scene?",
+    "category": "General",
+    "subcategory": "Coherence & Blending",
+    "expected_answer": "Yes",
+    "score": 9.5
+  }
+]

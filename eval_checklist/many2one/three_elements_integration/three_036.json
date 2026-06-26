@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Are the cat's eyes clearly visible with distinct heterochromia (left eye blue, right eye amber) as specified in the instruction?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the cat depicted as white or clear/frosted glass, rather than the orange color of the structure reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Are the green collar and round brass tag present and rendered as distinct colored glass pieces?",
+    "category": "Subject Fidelity",
+    "subcategory": "Accessory Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the cat's fluffy texture expressed through fine, small glass piece segments rather than realistic individual fur strands?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Rendering",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the image exhibit gem-like backlighting translucency and glass textures (e.g., bubbles, ripples) consistent with the style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Lighting & Material",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the lead cames (dark lines) defined with uniform thickness and clean, sharp edges, avoiding blurriness?",
+    "category": "Style Consistency",
+    "subcategory": "Line Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the overall composition and segmentation strictly follow the boundaries of the structure reference (cat silhouette, windowsill, window frame, plant)?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Matching",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the cat's tail curl direction (hanging down and curling to the right) consistent with the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the plant leaves positioned on the left side of the composition, strictly matching the placement in the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Element Positioning",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from significant anatomical distortions (e.g., extra limbs) or visual artifacts that disrupt the stained glass illusion?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

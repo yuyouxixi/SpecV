@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image depict a horse with a dark brown or bay coat, black mane, and black tail, consistent with the physical characteristics of the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color & Feature Matching",
+    "expected_answer": "Yes",
+    "score": 4.17
+  },
+  {
+    "id": 2,
+    "question": "Is the horse's athletic build and flowing mane preserved in the rendering, reflecting the form of the reference horse?",
+    "category": "Subject Fidelity",
+    "subcategory": "Body Structure",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the artwork employ a traditional Chinese ink wash (shuimo) style, characterized by visible brush strokes, variable ink density, and a muted or monochrome palette?",
+    "category": "Style Consistency",
+    "subcategory": "Aesthetic Matching",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the rendering specifically feature 'flying white' (feibai) dry brush effects and/or ink diffusion (wet wash), as requested in the instruction?",
+    "category": "Style Consistency",
+    "subcategory": "Technique Application",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the composition characterized by large areas of negative space (unpainted background), consistent with the style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Composition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the horse's pose successfully translate the martial arts reference by standing primarily on its hind legs (rearing)?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Interpretation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is one front leg raised high and extended in a kicking motion, mirroring the dynamic side-kick action of the OpenPose skeleton?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Are the horse's limb joints (knees and hocks) bent in anatomically correct directions for a quadruped, avoiding human-like joint articulation?",
+    "category": "Structural Adherence",
+    "subcategory": "Anatomical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the image free from severe anatomical errors such as extra legs, disconnected limbs, or malformed hooves?",
+    "category": "General",
+    "subcategory": "Anatomical Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from digital artifacts, pixelation, or photorealistic background elements (e.g., realistic grass) that conflict with the ink wash aesthetic?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

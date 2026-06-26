@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated sword clearly depict the Western medieval broadsword from Image 1 (straight blade, perpendicular crossguard), avoiding conversion into an Eastern-style sword (e.g., katana)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the sword retain specific fine details from the reference: a central fuller on the blade, a dark leather-wrapped grip, and a flared pommel?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the image rendered in the style of a traditional Chinese ink wash painting, characterized by monochromatic ink tones, visible brushstrokes, and a paper-like background?",
+    "category": "Style Consistency",
+    "subcategory": "Medium & Aesthetic",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are the stones and background elements rendered using ink wash techniques (e.g., wet washes, dry brush texturing) rather than photorealistic 3D or photo textures?",
+    "category": "Style Consistency",
+    "subcategory": "Texture & Rendering",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the sword stylized to blend physically and aesthetically with the ink wash environment (e.g., ink outlines, wash shading) rather than looking like a photorealistic overlay?",
+    "category": "Style Consistency",
+    "subcategory": "Style Fusion",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Does the sword's orientation match the depth map: positioned vertically (with a slight tilt) and thrust into the center of the stone base?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose & Alignment",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the stone formation correspond to the volume and perspective of the depth map (a central raised pedestal with receding background elements)?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout & Volumetrics",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the physical interaction logically rendered, showing the sword blade embedded into the rock (tip obscured) without floating or clipping errors?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the sword geometry coherent and straight, free from warping, bending, or 'melting' artifacts?",
+    "category": "General",
+    "subcategory": "Geometry & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the overall image clear and well-composed, without significant noise, blur, or compositing halos?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

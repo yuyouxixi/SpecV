@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the giant object in the sky clearly resemble the diamond ring from Image 1, featuring a silver band, a prominent round diamond, and prong settings?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the specific hammered metal texture from Image 1 visible on the surface of the ring's band?",
+    "category": "Subject Fidelity",
+    "subcategory": "Texture Preservation",
+    "expected_answer": "Yes",
+    "score": 6.17
+  },
+  {
+    "id": 3,
+    "question": "Are the floral or leaf-like decorative details from the band in Image 1 preserved on the giant ring structure?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 4,
+    "question": "Is the diamond rendered as a transparent, faceted gemstone with visible internal refractions, rather than an opaque or flat object?",
+    "category": "Subject Fidelity",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Does the image utilize a retro Synthwave color palette dominated by neon pinks, purples, cyans, and deep blues, consistent with Image 2?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the environment feature characteristic Synthwave motifs, such as a glowing perspective grid on the ground or wireframe/low-poly styling on the mountains?",
+    "category": "Style Consistency",
+    "subcategory": "Scene Motifs",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are there Synthwave lighting effects present, such as vertical light beams, a glowing sun/moon backdrop, or general bloom/glow similar to Image 2?",
+    "category": "Style Consistency",
+    "subcategory": "Lighting Effects",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Do the ring's silver band and diamond surfaces reflect the surrounding neon colors (e.g., pink or cyan highlights), integrating the object into the environment?",
+    "category": "Style Consistency",
+    "subcategory": "Material Reflection",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the ring positioned as a large circular object in the upper portion of the image, aligning with the 'Sky Ring Bounding Box' in Image 3?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the mountain range span the lower portion of the image and follow the triangular peak profile defined in the 'Terrain Mesh' of Image 3?",
+    "category": "Structural Adherence",
+    "subcategory": "Terrain Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the ring successfully transformed into a massive, macroscopic object (UFO) hovering over the landscape, rather than appearing as a small jewelry item?",
+    "category": "Structural Adherence",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the ring hover clearly above the mountain peaks, respecting the Z-axis limits and avoiding physical intersection with the terrain?",
+    "category": "Structural Adherence",
+    "subcategory": "Depth & Layering",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Is the image free of severe rendering artifacts, such as garbled geometry on the ring, pixelation, or broken textures?",
+    "category": "General",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the ring blend naturally into the scene with consistent lighting and shadows, avoiding a 'cut-and-paste' appearance?",
+    "category": "General",
+    "subcategory": "Lighting Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

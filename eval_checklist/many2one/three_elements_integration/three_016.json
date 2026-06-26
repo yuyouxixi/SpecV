@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "Are the distinct colors of the fruits from Image 1 (red/yellow apples, yellow bananas, purple grapes) clearly recognizable as the primary color palette of the design?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Are the fruit elements forcefully integrated into the mandala's geometric shapes, ensuring the outlines remain strictly geometric rather than morphing into realistic fruit silhouettes?",
+    "category": "Structural Adherence",
+    "subcategory": "Geometric Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the image exhibit the visual characteristics of stained glass, specifically translucent, glowing colors and distinct glass textures?",
+    "category": "Style Consistency",
+    "subcategory": "Material & Lighting",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are the pattern outlines rendered as distinct, dark lead cames (dividing lines) characteristic of the cathedral window reference in Image 2?",
+    "category": "Style Consistency",
+    "subcategory": "Lead Cames",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the generated image strictly follow the complex geometric line pattern and radial symmetry (e.g., central star, concentric rings) of the mandala in Image 3?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Match",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the image free from irrelevant background elements from Image 1, such as the woven basket, wooden table, or curtains?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Suppression",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Is the image free from visual confusion, such as realistic 3D fruit objects appearing to float on top of a flat glass surface?",
+    "category": "General",
+    "subcategory": "Visual Cohesion",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Are the intricate lines of the mandala pattern rendered sharply, without significant blurring, artifacts, or breaks in the geometry?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

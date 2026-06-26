@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the subject clearly recognizable as a Siberian Husky with grey and white fur and erect, triangular ears?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Are the Husky's distinct black 'eyebrow' markings preserved and clearly visible?",
+    "category": "Subject Fidelity",
+    "subcategory": "Key Markings",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the Husky wearing a red harness that includes a visible metal O-ring or buckle positioned plausibly on the chest or shoulders?",
+    "category": "Subject Fidelity",
+    "subcategory": "Accessory Details",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the image utilize a cel animation style with clean, defined black outlines and no sketchy or painterly strokes?",
+    "category": "Style Consistency",
+    "subcategory": "Linework",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the coloring flat with distinct two-tier shading (hard-edged shadows), avoiding realistic smooth gradients?",
+    "category": "Style Consistency",
+    "subcategory": "Shading Technique",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Are realistic fur textures completely replaced by smooth, stylized shapes consistent with the 'no realistic fur strands' instruction?",
+    "category": "Style Consistency",
+    "subcategory": "Texture Rendering",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the background rendered as simplified color blocks representing grass and trees?",
+    "category": "Style Consistency",
+    "subcategory": "Background Stylization",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is there a slight depth-of-field blur applied to the background to separate it from the subject?",
+    "category": "Style Consistency",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the image include subtle animation film grain and a slight vignette effect to resemble a finished storyboard frame?",
+    "category": "Style Consistency",
+    "subcategory": "Finishing Effects",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the Husky in a mid-air leaping pose with front legs reaching and back legs extending, strictly matching the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is there a frisbee positioned in the upper right area of the frame, matching the trajectory shown in the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the composition reflect the low camera angle and upward motion arc direction defined in the structure sketch?",
+    "category": "Structural Adherence",
+    "subcategory": "Composition & Motion",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are there any anatomical distortions in the Husky's limbs, paws, or spine (e.g., impossible joints, warped geometry)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from rendering artifacts such as wobbly lines, smeared textures, or unnatural blending between subject and background?",
+    "category": "General Quality",
+    "subcategory": "Image Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

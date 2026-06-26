@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the generated subject clearly identifiable as a firefighter wearing turnout gear (coat and pants)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Does the firefighter wear a helmet that resembles the red helmet in the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Equipment Preservation",
+    "expected_answer": "Yes",
+    "score": 7.33
+  },
+  {
+    "id": 3,
+    "question": "Is an SCBA (oxygen tank) visible on the firefighter's back?",
+    "category": "Subject Fidelity",
+    "subcategory": "Equipment Preservation",
+    "expected_answer": "Yes",
+    "score": 5.33
+  },
+  {
+    "id": 4,
+    "question": "Are reflective safety stripes visible on the firefighter's uniform?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Details",
+    "expected_answer": "Yes",
+    "score": 6.33
+  },
+  {
+    "id": 5,
+    "question": "Does the image exclusively utilize the color palette of gold, black, and red?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Does the background feature a radiating geometric sunburst or light ray pattern?",
+    "category": "Style Consistency",
+    "subcategory": "Background Aesthetic",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Does the rendering style combine Ukiyo-e characteristics (flat colors, bold outlines) with Art Deco geometric elements?",
+    "category": "Style Consistency",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the subject's pose consistent with the structure reference: one arm raised in a fist and the other hand on the hip?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Is the subject standing in a wide, heroic stance with legs apart, matching the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Has the cape from the structure reference been replaced by a fire hose billowing behind the subject?",
+    "category": "Structural Adherence",
+    "subcategory": "Creative Adaptation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the billowing fire hose follow the general contour and flow of the cape in the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Creative Adaptation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the hands (particularly the raised fist and hand on hip) rendered with correct anatomy (e.g., five fingers, no malformations)?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from significant visual artifacts, blurring, or conflicting perspectives?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

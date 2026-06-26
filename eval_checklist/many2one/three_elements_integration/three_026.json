@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Are all five distinct succulent varieties from the subject reference (Greenovia, Purple Echeveria, String of Pearls, Stacked Crassula, Red Succulent) clearly identifiable in the generated image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Do the succulents retain their distinctive morphological features (e.g., spherical beads for String of Pearls, geometric columns for Stacked Crassula, layered petals for rosettes)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Feature Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the Greenovia (the green, rose-shaped succulent) placed specifically in the central circular area as requested in the edit instruction?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the layout strictly follow the segmentation map, featuring a central circle surrounded by four distinct fan-shaped quadrants separated by a cross-shaped divider?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is each fan-shaped quadrant filled with a single, distinct succulent variety (one variety per area), avoiding mixed planting within a single quadrant?",
+    "category": "Structural Adherence",
+    "subcategory": "Semantic Separation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the image presented as a top-down garden plan view, effectively transforming the scale from a potted plant to a French garden layout?",
+    "category": "Structural Adherence",
+    "subcategory": "Viewpoint & Scale",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Are the cross-shaped pathways rendered as golden scroll patterns or ornamental gold curves?",
+    "category": "Style Consistency",
+    "subcategory": "Specific Element Rendering",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the image incorporate Rococo-style decorative elements, such as shell-curve (rocaille) ornaments, floral flourishes, and gold borders?",
+    "category": "Style Consistency",
+    "subcategory": "Aesthetic Matching",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the color palette include soft pastel tones (pinks, blues, creams) in the background or ornamentation, consistent with the Rococo reference?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 10,
+    "question": "Are there any obvious visual artifacts, such as smeared textures, broken geometry in the scrollwork, or unnatural blending between plants and ornaments?",
+    "category": "General Image Quality",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "No",
+    "score": 8.83
+  }
+]

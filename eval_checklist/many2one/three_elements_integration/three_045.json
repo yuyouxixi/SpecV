@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the main subject clearly a baby elephant, matching the age and proportions of the first reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the elephant clearly exhibit the distinctive notch on its left ear from the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Key Identifying Features",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are the elephant's skin wrinkles and texture details preserved, remaining visible despite the painterly style?",
+    "category": "Subject Fidelity",
+    "subcategory": "Texture Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the image exhibit an impasto oil painting style with thick, visible brushstrokes and layered paint buildup?",
+    "category": "Style Consistency",
+    "subcategory": "Medium & Texture",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the edges of objects (elephant, rocks) painterly and soft rather than sharp or photorealistic?",
+    "category": "Style Consistency",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Does the sky adopt the surreal, vibrant color palette (e.g., purples, teals, oranges) of the style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the scene composed of a floating rock platform on the left (holding the elephant) and a second rock formation on the right, separated by a gap?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout & Composition",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is there a misty valley or void visible beneath the floating platforms, creating atmospheric depth as shown in the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Depth & Environment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the elephant's position and relative scale on the platform align with the composition in the third reference image?",
+    "category": "Structural Adherence",
+    "subcategory": "Spatial Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are there visible contact shadows beneath the elephant's feet where they meet the rock surface?",
+    "category": "General",
+    "subcategory": "Physical Grounding",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is there visible dust or debris rendered around the elephant's feet to reinforce its interaction with the ground?",
+    "category": "General",
+    "subcategory": "Physical Grounding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the lighting direction consistent across the elephant, the rock platforms, and the sky?",
+    "category": "General",
+    "subcategory": "Lighting Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from obvious anatomical distortions (e.g., malformed trunk, extra legs, distorted proportions)?",
+    "category": "General",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from unnatural blending artifacts, ensuring the elephant does not look 'pasted on' to the background?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

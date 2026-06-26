@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the subject clearly identifiable as a Blue-ringed Octopus, featuring a rounded mantle and tentacles?",
+    "category": "Subject Fidelity",
+    "subcategory": "Species Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the octopus feature a yellowish-beige or tan base skin color consistent with the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 3,
+    "question": "Are distinct bright blue rings with dark outlines clearly visible on the octopus's skin?",
+    "category": "Subject Fidelity",
+    "subcategory": "Pattern Detail",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the image feature an aged, yellowed paper background with vintage textures like foxing, stains, or parchment effects?",
+    "category": "Style Consistency",
+    "subcategory": "Medium & Texture",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Does the rendering style mimic a traditional natural history scientific illustration (e.g., ink, watercolor, fine linework) rather than a photorealistic photograph or 3D render?",
+    "category": "Style Consistency",
+    "subcategory": "Artistic Technique",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Are scientific annotation elements present, such as thin indicator lines or text labels (e.g., 'Fig.', Latin names), matching the style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Layout & Elements",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are exactly two tentacles arranged to mimic the legs of the Tree Pose skeleton (one extending straight down, the other bent to press against it)?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment (Legs)",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are exactly two tentacles extended upward and joined together at the tips or above the head to mimic the raised arms of the skeleton?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment (Arms)",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Are the remaining four tentacles depicted hanging down naturally, distinct from the four used to mimic the human limbs?",
+    "category": "Structural Adherence",
+    "subcategory": "Limb Allocation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the octopus maintain an overall upright, vertical orientation consistent with the standing balance pose of the reference skeleton?",
+    "category": "Structural Adherence",
+    "subcategory": "Global Orientation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Are there exactly eight tentacles visible in total, ensuring anatomical correctness for an octopus?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the subject free from human anatomical features (e.g., bones, human hands/feet), relying solely on octopus anatomy to achieve the pose?",
+    "category": "General Quality",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from significant artifacts, such as disconnected tentacles, severe blurring of the ring patterns, or unnatural pixelation?",
+    "category": "General Quality",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

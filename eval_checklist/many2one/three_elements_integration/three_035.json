@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the subject recognizable as the Asian male from the reference, preserving his facial structure and short hairstyle with a fade?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 2,
+    "question": "Is the small scar above the subject's right eyebrow clearly visible?",
+    "category": "Subject Fidelity",
+    "subcategory": "Key Details",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the subject wearing a teal windbreaker that matches the color of the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the 'B-17' patch clearly visible, legible, and correctly positioned on the subject's left arm?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Details",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are the secondary clothing details (black cargo pants, fingerless gloves, and dark athletic shoes) preserved?",
+    "category": "Subject Fidelity",
+    "subcategory": "Secondary Attire",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 6,
+    "question": "Is the image rendered in an Art Nouveau poster style with fine black outlines and flat color blocks (no photorealism)?",
+    "category": "Style Consistency",
+    "subcategory": "Artistic Technique",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the composition framed by a symmetrical vine and flower decorative border?",
+    "category": "Style Consistency",
+    "subcategory": "Decorative Elements",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Does the image exhibit a vintage print aesthetic with subtle paper grain, fading, and sparse halftone texture?",
+    "category": "Style Consistency",
+    "subcategory": "Texture & Finish",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Does the subject's mid-air leaping pose and limb proportions strictly match the structure reference line drawing?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Are the hands and feet oriented correctly according to the structure reference (e.g., hands splayed, feet angled dynamically)?",
+    "category": "Structural Adherence",
+    "subcategory": "Extremity Orientation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the background consist of simplified rooftop lines and a distant skyline, including the vertical architectural element on the right?",
+    "category": "Structural Adherence",
+    "subcategory": "Background Layout",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the subject positioned within the frame in the same center-left location as the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Compositional Placement",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from obvious anatomical distortions (e.g., malformed hands, extra fingers, impossible limb bends)?",
+    "category": "General",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the line work crisp and the subject extraction clean, avoiding hard-cut edges or blurriness?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

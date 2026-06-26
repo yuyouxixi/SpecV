@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the main subject recognizable as the specific red Ferrari model from the reference, retaining its low-slung silhouette and mid-engine proportions?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are key design details of the Ferrari, such as the side air intakes, swept-back headlights, and multi-spoke alloy wheels, accurately preserved?",
+    "category": "Subject Fidelity",
+    "subcategory": "Feature Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 3,
+    "question": "Is the Ferrari's base red paint color distinguishable, despite the influence of the colored cyberpunk lighting?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color Identity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Does the image utilize a cyberpunk color palette dominated by neon purples, blues, and magentas, consistent with the style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are holographic advertisements or neon signage elements added along the roadside, featuring cyberpunk visual cues like glow or transparency?",
+    "category": "Style Consistency",
+    "subcategory": "Key Elements",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the scene maintain a dark, nighttime environment with high-contrast lighting, consistent with the cyberpunk aesthetic?",
+    "category": "Style Consistency",
+    "subcategory": "Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the road path strictly follow the S-shaped winding curve and depth progression defined in the structure reference depth map?",
+    "category": "Structural Adherence",
+    "subcategory": "Layout Matching",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the Ferrari positioned on the road with the correct 3D perspective and foreshortening to match the winding curve?",
+    "category": "Structural Adherence",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the car's orientation aligned with the direction of the road curve, appearing to drive along the path rather than perpendicular to it?",
+    "category": "Structural Adherence",
+    "subcategory": "Directional Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is the mountain terrain structure visible on the sides of the road, maintaining the context from the depth map?",
+    "category": "Structural Adherence",
+    "subcategory": "Environment Geometry",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the Ferrari's glossy body surface exhibit physically plausible reflections of the surrounding neon lights and holographic elements?",
+    "category": "Scene Integration",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are there visible neon reflections or colored light gradients on the road surface corresponding to the roadside lights?",
+    "category": "Scene Integration",
+    "subcategory": "Environmental Lighting",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Do the added holographic elements and signs respect the scene's depth, appearing smaller and less distinct further down the road?",
+    "category": "Scene Integration",
+    "subcategory": "Depth Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Does the car blend naturally with the road surface, with tires making contact and casting appropriate shadows?",
+    "category": "Scene Integration",
+    "subcategory": "Grounding",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from significant visual artifacts, such as malformed wheels, distorted text on holograms, or unnatural geometry?",
+    "category": "Image Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

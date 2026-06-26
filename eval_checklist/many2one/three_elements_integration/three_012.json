@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the tree foliage retain the specific needle-like texture and pad-like clustering of the bonsai pine from Image 1, rather than changing to broad leaves?",
+    "category": "Subject Fidelity",
+    "subcategory": "Foliage Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the tree trunk exhibit the gnarled, twisted, and aged bark texture characteristic of the bonsai pine reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Texture Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Has the subject been successfully transformed into a towering giant tree, completely removing the bonsai pot and tabletop context from Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Scale Adaptation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the image utilize the specific bioluminescent color palette (neon blues, purples, and cyans against a dark background) from Image 2?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Do the tree and foliage appear to be self-emitting light sources (bioluminescent), matching the lighting behavior of Image 2?",
+    "category": "Style Consistency",
+    "subcategory": "Lighting Style",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the foliage or bark feature glowing veins, edges, or luminescent patterns similar to the exotic plant details in Image 2?",
+    "category": "Style Consistency",
+    "subcategory": "Luminescent Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the bioluminescent glow from the tree realistically illuminate the surrounding stone ruins (colored light spill)?",
+    "category": "Style Consistency",
+    "subcategory": "Environmental Interaction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the tree's root system drape over and wrap around the stone structures, strictly following the layout and flow of the line drawing in Image 3?",
+    "category": "Structural Adherence",
+    "subcategory": "Root Configuration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the architectural details of the ruins (doorways, stone blocks, carvings) preserved and positioned according to the structure reference (Image 3)?",
+    "category": "Structural Adherence",
+    "subcategory": "Architectural Elements",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Does the overall composition maintain the central massive trunk and frontal viewpoint established in the line drawing?",
+    "category": "Structural Adherence",
+    "subcategory": "Composition Alignment",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are there visible artifacts such as floating roots, smeared textures, or incoherent blending between the glow and the stone?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "No",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the image sharp and clear, ensuring the pine needles and stone textures are distinct rather than blurry?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

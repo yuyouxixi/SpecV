@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the generated figure immediately recognizable as a Golden Retriever, exhibiting key breed features such as floppy ears and a medium-length snout?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the figure retain the characteristic golden/cream coloration of the Golden Retriever, applied to the paper material?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Is the organic fur texture completely replaced by rigid, matte paper surfaces with visible creases and folds, avoiding any realistic hair strands?",
+    "category": "Style Consistency",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the figure utilize a low-poly, faceted construction method with sharp angular edges, consistent with the origami style in Image 2?",
+    "category": "Style Consistency",
+    "subcategory": "Geometric Construction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the lighting create realistic shadows under the folds and creases, giving the figure a tangible, 3D paper-folded appearance?",
+    "category": "Style Consistency",
+    "subcategory": "Lighting & Depth",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the overall image aesthetic (including any background elements) reflect a crafted paper diorama style similar to Image 2, rather than a realistic photo?",
+    "category": "Style Consistency",
+    "subcategory": "Scene Aesthetic",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the dog's pose strictly follow the 'Downward-Facing Dog' structure, forming an inverted 'V' shape with the hips positioned as the highest point?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Are the front legs extended forward and planted firmly, mimicking the arm position of the yoga skeleton reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Limb Positioning",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are the hind legs extended backward with paws grounded, reflecting the hamstring stretch of the reference pose?",
+    "category": "Structural Adherence",
+    "subcategory": "Limb Positioning",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the spine straight/elongated and the head positioned low (between or near the shoulders), consistent with the spinal extension in the diagram?",
+    "category": "Structural Adherence",
+    "subcategory": "Spinal & Head Alignment",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from visual artifacts, such as realistic fur textures unnaturally blending with paper or blurred, undefined edges?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the figure anatomically logical with the correct number of limbs and physically plausible fold connections?",
+    "category": "General",
+    "subcategory": "Anatomical Logic",
+    "expected_answer": "Yes",
+    "score": 8.5
+  }
+]

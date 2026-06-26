@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the visual focal point a yellow vintage Chesterfield sofa with deep button tufting and rolled arms, matching Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the sofa visibly retain the velvet texture (soft pile and sheen) from Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Texture Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the sofa maintain its mustard/yellow base color, distinguishable despite the colored lighting?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are specific details of the sofa, such as the dark wooden bun feet, preserved from Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 5,
+    "question": "Is the sofa positioned in the center against the back wall, corresponding to the 'LARGE SOFA BOX' location in Image 3?",
+    "category": "Structural Adherence",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is there a vintage TV or retro monitor positioned on the left side, corresponding to the 'VINTAGE TV BOX' location in Image 3?",
+    "category": "Structural Adherence",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is there a large floor-to-ceiling window positioned on the right side, corresponding to the 'HUGE FLOOR-TO-CEILING WINDOW BOX' location in Image 3?",
+    "category": "Structural Adherence",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Does the room's interior design and lighting adopt the Vaporwave aesthetic (neon pinks, purples, cyans) from Image 2?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the scenery outside the window depict a Vaporwave landscape (e.g., retro grids, neon sun, palm trees) similar to Image 2?",
+    "category": "Style Consistency",
+    "subcategory": "Environmental Aesthetics",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the TV styled as a retro CRT monitor or vintage computer, matching the hardware aesthetic in Image 2?",
+    "category": "Style Consistency",
+    "subcategory": "Object Stylization",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the room decor or floor feature Vaporwave elements like neon grids, geometric shapes, or palm silhouettes?",
+    "category": "Style Consistency",
+    "subcategory": "Decorative Elements",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Does the lighting on the sofa realistically reflect the surrounding neon colors while keeping the velvet texture identifiable?",
+    "category": "General",
+    "subcategory": "Lighting & Blending",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are there any obvious rendering artifacts, distorted geometries, or unnatural blending seams in the image?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "No",
+    "score": 9.17
+  }
+]

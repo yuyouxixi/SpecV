@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the object recognizable as the specific mountain bike helmet from the subject reference, preserving its overall silhouette and visor shape?",
+    "category": "Subject Fidelity",
+    "subcategory": "Shape Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are the ventilation holes preserved in the same distribution and arrangement as the subject helmet?",
+    "category": "Subject Fidelity",
+    "subcategory": "Feature Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the abrasion scratch on the left side of the helmet preserved and translated into a surface texture or dent in the metal?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Are the skull and triangle sticker shapes visible as raised or recessed embossed patterns on the helmet surface?",
+    "category": "Subject Fidelity",
+    "subcategory": "Sticker Conversion",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the number '27' clearly legible on the side of the helmet, rendered purely through embossed relief depth without using blue pigment?",
+    "category": "Subject Fidelity",
+    "subcategory": "Text Legibility & Method",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the image successfully simulate a copper embossed plaque relief material, including a metallic texture?",
+    "category": "Style Consistency",
+    "subcategory": "Material Appearance",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the image strictly monochromatic (metallic copper/bronze tones), completely avoiding the original white, red, and blue colors of the stickers?",
+    "category": "Style Consistency",
+    "subcategory": "Color Constraint",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are grooves and recessed areas darkened with an oxidized patina effect, consistent with the style reference?",
+    "category": "Style Consistency",
+    "subcategory": "Patina Effect",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Do highlights follow along the raised edges of the relief, consistent with the embossed metal aesthetic?",
+    "category": "Style Consistency",
+    "subcategory": "Highlight Placement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the helmet rotated approximately 30 degrees to the right, aligning with the orientation of the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the helmet positioned on a rectangular base plate with chamfered edges, matching the layout of the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Base Plate Geometry",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the lighting direction match the structure reference, creating consistent highlights and shadows (e.g., raking light)?",
+    "category": "Structural Adherence",
+    "subcategory": "Lighting Direction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are there any visible rendering artifacts, distorted geometry, or residual colors that break the metallic relief illusion?",
+    "category": "General",
+    "subcategory": "Artifacts & Distortion",
+    "expected_answer": "No",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the image sharp and clear, allowing for the distinct visibility of embossed details like vents and scratches?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

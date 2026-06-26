@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the face clearly recognizable as the man from Image 1, retaining his specific beard shape, short hair, and facial structure?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the subject dressed in heavy medieval armor, fully replacing the suit and tie from Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Replacement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the image mimic the visual aesthetic of Image 2, appearing as a dark, textured oil painting with visible brushstrokes?",
+    "category": "Style Consistency",
+    "subcategory": "Medium & Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the color palette and lighting match the dark fantasy atmosphere of Image 2 (utilizing deep browns, blacks, and dramatic shadows)?",
+    "category": "Style Consistency",
+    "subcategory": "Color & Lighting",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the figure's arm raised high holding a staff, matching the specific skeletal pose in Image 3?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment (Upper Body)",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the figure's opposite arm extended outward to the side with an open hand, mirroring the gesture in Image 3?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment (Upper Body)",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the figure adopt the wide-legged, dynamic lunging stance seen in the skeletal structure reference (Image 3)?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment (Lower Body)",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Does the overall character presentation feel imposing and powerful, consistent with the specific edit instruction?",
+    "category": "Subject Fidelity",
+    "subcategory": "Instruction Adherence",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 9,
+    "question": "Are the hands rendered anatomically correctly (no missing/extra fingers) and is the staff gripped naturally?",
+    "category": "General Image Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Does the face blend naturally with the heavy armor and painted style without looking like a poorly pasted cutout?",
+    "category": "General Image Quality",
+    "subcategory": "Blending & Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

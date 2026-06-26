@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the vehicle clearly feature steampunk mechanical elements such as exposed gears, cogs, and copper/brass piping?",
+    "category": "Subject Fidelity",
+    "subcategory": "Steampunk Elements",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is a steam gauge or pressure dial included in the design, referencing the specific detail on the steampunk bicycle handlebars?",
+    "category": "Subject Fidelity",
+    "subcategory": "Key Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Are the metallic components rendered with verdigris (green oxidation) and aged copper tones, matching the material properties of the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 6.67
+  },
+  {
+    "id": 4,
+    "question": "Does the vehicle's silhouette match the Café Racer motorcycle edge map, specifically exhibiting an elongated fuel tank and a rear seat cowl (hump)?",
+    "category": "Structural Adherence",
+    "subcategory": "Silhouette Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the central frame area (where a motorcycle engine sits) filled with steampunk machinery, rather than being left open like a bicycle frame?",
+    "category": "Structural Adherence",
+    "subcategory": "Volume Filling",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Are the handlebars positioned low and forward (clip-on style) to match the motorcycle edge map, rather than the upright handlebars of the original bicycle?",
+    "category": "Structural Adherence",
+    "subcategory": "Component Placement",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Does the design include an exhaust-like pipe structure following the lower curve indicated in the motorcycle edge map?",
+    "category": "Structural Adherence",
+    "subcategory": "Component Placement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the image utilize the specific color palette of the Hokusai reference, predominantly featuring Prussian blue, pale salmon/orange, and off-white?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the image rendered with flat color blocks, bold outlines, and minimal shading, characteristic of the ukiyo-e woodblock print style?",
+    "category": "Style Consistency",
+    "subcategory": "Rendering Technique",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the image exhibit a visible paper grain or woodblock texture, avoiding photorealistic glossy finishes?",
+    "category": "Style Consistency",
+    "subcategory": "Medium Texture",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the vehicle free of bicycle-specific drive components, such as pedals and a chainring crank, ensuring a logical transformation to a motorcycle form?",
+    "category": "General",
+    "subcategory": "Logical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the wheels rendered as proper circles without obvious warping or geometric distortion?",
+    "category": "General",
+    "subcategory": "Geometric Integrity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

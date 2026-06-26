@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the subject have short purple hair, consistent with the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the subject wearing a black tank top with a small white logo visible on the chest?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Details",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is a pink chalk bag visible and correctly positioned at the climber's lower back?",
+    "category": "Subject Fidelity",
+    "subcategory": "Accessory Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the image exhibit a sci-fi 3D render aesthetic (smooth shading, physically based materials) rather than a realistic photograph?",
+    "category": "Style Consistency",
+    "subcategory": "Overall Aesthetic",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the subject's skin exhibit visible subsurface scattering (soft, translucent light penetration)?",
+    "category": "Style Consistency",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Are the edges of the figure highlighted with cyan-blue and orange rim lighting?",
+    "category": "Style Consistency",
+    "subcategory": "Lighting Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the background include volumetric light beams with visible floating particles?",
+    "category": "Style Consistency",
+    "subcategory": "Atmospheric Effects",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is there a noticeable depth of field (bokeh) blurring the background while keeping the subject sharp?",
+    "category": "Style Consistency",
+    "subcategory": "Camera Effects",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the climber positioned in the exact pose from the structure reference (pressed against an overhang, reaching up)?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the camera angle and perspective match the side-view of the overhang wall shown in the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Perspective & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the chalk on the hands rendered as fine floating dust particles visible in the light beams?",
+    "category": "General",
+    "subcategory": "Prompt Specific Details",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Are there realistic contact shadows where the figure touches the wall, avoiding a 'pasted-on' appearance?",
+    "category": "General",
+    "subcategory": "Object Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Is the lighting direction unified throughout the image (consistent shadows on subject and wall)?",
+    "category": "General",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the hands and limbs anatomically correct, without distortion or warping?",
+    "category": "General",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

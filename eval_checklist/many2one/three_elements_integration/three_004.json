@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Is the main architectural subject clearly recognizable as the modern villa from Image 1, retaining its distinctive boxy concrete geometry, flat roofs, and multi-volume structure?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.57
+  },
+  {
+    "id": 2,
+    "question": "Does the villa feature the specific architectural details from Image 1, particularly the cantilevered upper block and large floor-to-ceiling glass windows with dark frames?",
+    "category": "Subject Fidelity",
+    "subcategory": "Key Features",
+    "expected_answer": "Yes",
+    "score": 9.27
+  },
+  {
+    "id": 3,
+    "question": "Does the image adopt the Studio Ghibli animation style from Image 2, specifically utilizing a watercolor aesthetic, vibrant greens, and hand-painted textures?",
+    "category": "Style Consistency",
+    "subcategory": "Aesthetic Matching",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are the sky and clouds rendered in the specific anime style of Image 2, featuring volumetric, billowing white cumulus clouds?",
+    "category": "Style Consistency",
+    "subcategory": "Key Elements",
+    "expected_answer": "Yes",
+    "score": 8.77
+  },
+  {
+    "id": 5,
+    "question": "Has the realistic concrete texture of the villa been converted to a soft, painterly anime-style finish, avoiding photorealistic grain or noise?",
+    "category": "Style Consistency",
+    "subcategory": "Medium Conversion",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Do the glass windows of the villa visibly reflect the anime-style sky and clouds as requested in the edit instruction?",
+    "category": "Style Consistency",
+    "subcategory": "Detail Consistency",
+    "expected_answer": "Yes",
+    "score": 9.27
+  },
+  {
+    "id": 7,
+    "question": "Does the scene strictly adhere to the depth map (Image 3) by depicting a floating island with vertical waterfalls cascading from the edges?",
+    "category": "Structural Adherence",
+    "subcategory": "Terrain Layout",
+    "expected_answer": "Yes",
+    "score": 9.2
+  },
+  {
+    "id": 8,
+    "question": "Is the villa positioned on the elevated plateau of the island, effectively replacing the original structure shown in the depth map while maintaining correct perspective?",
+    "category": "Structural Adherence",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.03
+  },
+  {
+    "id": 9,
+    "question": "Is the villa seamlessly integrated into the grassy terrain, showing logical contact shadows and no unnatural gaps or 'floating' effects?",
+    "category": "General",
+    "subcategory": "Blending & Coherence",
+    "expected_answer": "Yes",
+    "score": 9.3
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from significant visual artifacts, such as warped architectural lines, blurry patches, or inconsistent resolution between the villa and the background?",
+    "category": "General",
+    "subcategory": "Distortion & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.9
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the subject depicted as an elderly woman with short gray hair and thick black-framed glasses, matching the subject reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the specific mole on the woman's left cheek clearly visible?",
+    "category": "Subject Fidelity",
+    "subcategory": "Specific Features",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the woman shown performing the action of knitting with needles and yarn?",
+    "category": "Subject Fidelity",
+    "subcategory": "Activity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the image rendered primarily as a black and white woodcut print with bold, high-contrast shapes?",
+    "category": "Style Consistency",
+    "subcategory": "Medium Aesthetics",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are shadows and volume rendered using hatching or cross-hatching lines rather than smooth digital gradients?",
+    "category": "Style Consistency",
+    "subcategory": "Shading Technique",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Is the green yarn the sole accent color in the image, with all other elements strictly in black and white?",
+    "category": "Style Consistency",
+    "subcategory": "Color Palette",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Do the edges exhibit the slight roughness characteristic of woodcut carving while remaining sharp and free of blur?",
+    "category": "Style Consistency",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the figure rotated to a three-quarter profile view, consistent with the angle of the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Pose Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Are the hands and knitting needles positioned centrally in the frame?",
+    "category": "Structural Adherence",
+    "subcategory": "Composition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the desk lamp (left) and bookshelf (background) positioned consistent with the layout of the structure reference?",
+    "category": "Structural Adherence",
+    "subcategory": "Scene Layout",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Are the hands and fingers rendered with plausible anatomy (e.g., no missing/extra fingers or fused joints)?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the knitting needles rendered as straight, rigid tools, without warping or blending into the hands?",
+    "category": "General",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from significant visual artifacts, digital noise, or unintentional blurring?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]
