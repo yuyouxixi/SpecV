@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output follow the structure of a 3-step digital art tutorial with clear headers or sections for Step 1, Step 2, and Step 3?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text adopt a consistent tutorial blog post tone (e.g., instructional, 'how-to' style) rather than a narrative story?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text for Step 1 specifically explain how to utilize light and shadow to establish a visual center?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does Step 1 include specific operational guidance (e.g., mentioning tools, composition rules, or lighting adjustments) beyond high-level description?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the generated image for Step 1 depict a glowing antlered mythical creature integrated into the center of the forest scene?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the mythical creature in the Step 1 image positioned under sunlight or light rays, consistent with the lighting in the input forest photo?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the text for Step 2 explain how to zoom in to emphasize details and emotional interaction?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does Step 2 include specific operational guidance for creating details, close-ups, or emotional interaction?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the generated image for Step 2 depict a close-up view of the mythical creature?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the Step 2 image clearly show the creature interacting with (e.g., kissing or sniffing) glowing blue mushrooms?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the text for Step 3 explain how to reconstruct the background using a wide shot technique?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does Step 3 include specific operational guidance for background reconstruction or perspective expansion?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image for Step 3 depict a grand wide or distant view of the forest scene?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the Step 3 image clearly reveal that the forest is floating above a sea of clouds?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the mythical creature visually consistent (same species, antlers, glowing features) across Step 1 and Step 2 images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Do the generated images preserve the general aesthetic and recognizable elements (e.g., tree types, atmosphere) of the original input forest photo?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Is each generated image placed immediately adjacent to or within its corresponding step's text section?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Does the output contain exactly three generated images, one corresponding to each tutorial step?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Does the image sequence successfully demonstrate a multi-scale progression (Medium/Wide -> Close-up -> Grand Wide) as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

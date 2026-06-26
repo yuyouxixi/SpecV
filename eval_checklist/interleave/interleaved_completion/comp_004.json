@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text include three distinct sections covering 'Design Philosophy and Materials', 'Outdoor Application Scenarios', and 'Ultimate Portability'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the generated text written in the format of a verbatim product pitch script suitable for an investor presentation (i.e., professional, persuasive, spoken-word style)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text in the 'Design Philosophy' section explicitly mention the 'canvas' and 'aluminum' materials as labeled in the input sketch?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the output contain exactly three images, with one image placed within or immediately adjacent to each of the three text sections?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the first generated image depict the chair in a minimalist pure white studio setting?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the second generated image show the chair on a sunny outdoor camping lawn with a tent visible nearby?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the third generated image depict the chair in a fully folded state being carried by a model on a city street?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Do the generated images successfully transform the hand-drawn sketch style into realistic, commercial-quality photography?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Do all generated images consistently depict the specific chair design shown in the input sketch (e.g., tubular metal frame, X-frame structure, canvas seat)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the folded chair in the third image accurately reflect the 'Compact Pack' configuration illustrated in the input sketch?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the images interleaved logically, appearing immediately adjacent to the specific text section they illustrate (e.g., Studio shot with Design section, Street shot with Portability section)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Do the generated images provide informative visual evidence that supports the text claims (e.g., showing the texture of materials or the ease of carrying)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output include exactly two new images—one corresponding to Step 4 (color grading) and one corresponding to Step 5 (light effects)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text for Step 4 explicitly describe shifting shadows toward teal/cyan and highlights toward warm/orange tones, referencing tools like 'Color Balance' or 'Split Toning'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text for Step 4 mention increasing contrast (e.g., using 'Curves') and adding 'Film Grain' or noise texture?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the generated image for Step 4 clearly exhibit a 'Teal and Orange' color grading style, with visible teal tones in the shadows and warm orange tones in the highlights?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text for Step 5 explicitly describe adding atmospheric effects such as a 'Lens Flare' and 'Light Leaks'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text for Step 5 specify technical compositing parameters for the light effects, such as specific 'Blending Modes' (e.g., Screen, Overlay) or 'Opacity' adjustments?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image for Step 5 visually depict a backlight lens flare effect and light leak overlays?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the final image (Step 5) reflect a cumulative editing process, retaining the teal/orange grading and grain from Step 4 while adding the new light effects?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Do the generated images strictly maintain the subject's identity, pose, and the specific 'face slimming' geometry established in the input Image 3?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the generated text accurately describe the specific visual changes seen in the accompanying images (e.g., the image actually shows the teal shadows described in the text)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the output strictly follow the requested workflow order, presenting Step 4 (Color Grading) before Step 5 (Light Effects)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the Step 4 image refrain from adding obvious atmospheric light effects (lens flares/leaks), ensuring those are reserved for Step 5 as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the generated text written in a fluent, professional tutorial style using correct Photoshop terminology?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output start with a text recap summarizing the crisis involving the anomaly and the spaceship's exterior state shown in the input panels?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the generated content structured in a strictly interleaved format (Recap Text -> Scene 1 Text -> Scene 1 Image -> Scene 2 Text -> Scene 2 Image -> Scene 3 Text -> Scene 3 Image)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the output contain exactly three generated images corresponding to the three requested scenes?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the Scene 1 text describe the protagonist's thrilling escape immediately after pressing the button?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the Scene 1 generated image depict an interior view of the escape pod (or the protagonist inside it) during the ejection process?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the Scene 2 text convey a sense of despair or isolation regarding the escape pod drifting in space?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the Scene 2 generated image show the escape pod drifting alone in the cosmos (e.g., against a starfield/space background)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the Scene 3 text describe an unexpected discovery after the pod lands or crashes?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the Scene 3 generated image depict the escape pod crashed or landed in an alien jungle featuring giant glowing plants?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Do all generated images maintain a consistent American comic book art style (e.g., strong outlines, dynamic shading) matching the input images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are visual elements, such as the protagonist's appearance and the escape pod's design, consistent across the generated images and compatible with the input images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the generated text consistently maintain a sci-fi suspense tone appropriate for a serialized comic update?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Do the generated images accurately reflect the specific details described in their corresponding text sections (e.g., ejection action, mood of isolation, specific alien flora)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the narrative logically continue from the input panels (anomaly/ship damage) through the escape sequence to the alien planet landing without unexplained gaps?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Did the model successfully handle the requested perspective shifts (Interior -> Exterior -> Alien Environment) across the three generated scenes?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

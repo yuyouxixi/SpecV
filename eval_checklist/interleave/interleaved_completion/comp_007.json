@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text include exactly three sections with the specific titles: 'Classic Reimagined', 'Luxurious Black Truffle Edition', and 'French Minimalist Appetizer Edition'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the article follow the format of a WeChat public account article, characterized by a promotional tone, clear sectioning, and interleaving of text and visuals?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the first generated image successfully transform the perspective of the Beef Wellington from the original top-down view to a 45-degree slight side angle?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the first generated image demonstrate sophisticated side backlighting and a Michelin-star promotional style, significantly improving upon the dark lighting of the input image?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the second generated image visibly include black truffle elements and red wine sauce as specified in the instructions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the second generated image adhere to a 'dark-toned' and luxurious plating aesthetic?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the third generated image depict the Beef Wellington cut into small, appetizer-sized pieces?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the third generated image feature a 'bright minimalist' plating style with clean composition?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the generated text in each section include specific, sensory-rich descriptions of food textures (e.g., flaky pastry, tender meat) as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Do all three generated images consistently depict Beef Wellington as the core subject (pastry exterior, beef interior) despite changes in angle, lighting, and plating?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Do the images correctly correspond to the descriptive details in their respective text sections (e.g., the text for the second section describes the truffle/sauce shown in the image)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the generated images free from obvious AI artifacts, distortions, or unrealistic food representations?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the output contain exactly three generated images, with one image paired with each of the three text sections?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Are the images inserted at logical breakpoints (e.g., immediately after section titles or introductory text) to ensure a smooth reading flow?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

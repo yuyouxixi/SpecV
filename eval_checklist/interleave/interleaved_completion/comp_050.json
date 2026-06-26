@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output contain exactly three sections titled 'Street Graffiti Spirit', 'Deconstructivist Techwear Style', and 'Skateboard Culture Revival'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the overall output formatted as a professional brand collaboration proposal (e.g., includes partnership framing, persuasive pitch language) rather than a simple description?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is the written copy in the proposal extremely edgy, utilizing streetwear slang (e.g., 'drip', 'flex', 'hype') and conveying a strong attitude as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the first generated image depict the input canvas shoes covered in highly saturated American street graffiti with visible spray paint drip effects?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the second generated image show the shoes modified with specific techwear elements: black post-apocalyptic style straps, metal buckles, and chunky soles?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the third generated image clearly depict a candid street-photography style shot of a skater kid in baggy cargo pants executing a mid-air kickflip?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "In the third image (the skater shot), are the shoes being worn visually consistent with the 'graffiti version' design established in the first section?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Do all generated images preserve the fundamental high-top canvas shoe silhouette of the input image (allowing for the requested modifications)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the images interleaved correctly, appearing immediately adjacent to their corresponding text sections (Graffiti image with Graffiti text, etc.)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the output contain exactly three generated images, corresponding one-to-one with the three required sections?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the generated images (especially the dynamic skater shot) free from severe anatomical distortions, impossible physics, or rendering artifacts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

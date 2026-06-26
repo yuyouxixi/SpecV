@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated article use the exact title 'Kepler-X: Humanity's New Home?' as specified in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the output include the four specific section titles: 'A Distant Gaze', 'Piercing Through the Clouds', 'Surface Wonders', and 'The First Step'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the output follow the interleaved format, alternating between text sections and generated images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text in the first section, 'A Distant Gaze', describe the scientific or technical hardships associated with discovering the planet?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text in 'A Distant Gaze' acknowledge the planet's initial appearance as blurry or unclear, logically continuing from the provided input image?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the text utilize a 'hard sci-fi' style, incorporating plausible scientific terminology (e.g., regarding atmosphere, gravity, or spectroscopy)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image for 'Piercing Through the Clouds' depict a space probe conducting a close flyby of the planet?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image for 'Piercing Through the Clouds' clearly show a massive red storm eye and ice rings?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the generated planet image in the second section significantly higher in resolution and detail (ultra-high-definition) than the blurry input image?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Does the generated image for 'Surface Wonders' depict mountains that appear crystalline and purple?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the generated image for 'Surface Wonders' show fluorescent or luminous lakes?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the text in the 'Surface Wonders' section explicitly describe the lakes as containing liquid methane?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image for 'The First Step' depict an astronaut in a futuristic spacesuit standing at a cliff's edge?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the generated image for 'The First Step' depict a binary star sunset (two suns)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Are the generated images free from severe AI artifacts or distortions that would impair the hard sci-fi aesthetic?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does the generated planet in the high-resolution images maintain the reddish hue consistent with the blurry input image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Do all generated images maintain a consistent visual style (e.g., realistic sci-fi art direction) across the article?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Does the text in 'Piercing Through the Clouds' accurately describe the visual elements shown in its accompanying image (red storm eye, ice rings)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Does the text in 'Surface Wonders' accurately describe the visual elements shown in its accompanying image (purple crystalline mountains, fluorescent lakes)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Does the text in 'The First Step' accurately describe the visual elements shown in its accompanying image (astronaut, cliff, binary sunset)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Are the generated images placed immediately after or within their corresponding sections (Sections 2, 3, and 4) rather than clustered at the end?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 22,
+    "question": "Does the article contain exactly three generated images (one corresponding to each of Sections 2, 3, and 4)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 23,
+    "question": "Does the narrative logically progress from remote observation to probe flyby, then to surface landing, and finally to human exploration?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

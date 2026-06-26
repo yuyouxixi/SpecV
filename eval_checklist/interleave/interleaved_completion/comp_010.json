@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text include the three specific section titles: 'Birth of the Dark Knight', 'Mount Akina Road Test', and 'Tribute to the Sunset'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output follow the requested interleaved format with exactly three sections, each containing both text and a corresponding generated image?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the generated content logically continue from the input image, treating the stock white car as the 'before' state and the generated images as the modified 'after' state?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text in the 'Birth of the Dark Knight' section explicitly list the modification specs: matte black paint, carbon fiber spoiler, forged wheels, and red brake calipers?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text in the 'Mount Akina Road Test' section describe the chassis support and handling characteristics?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text in the 'Tribute to the Sunset' section describe the exhaust note?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the text utilize car enthusiast jargon and slang (e.g., 'stance', 'downforce', 'flat-six', 'burbles', 'grip') appropriate for a modification channel?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the first generated image show the car repainted in matte black while maintaining the original garage background setting?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the carbon fiber spoiler, forged wheels, and red brake calipers clearly visible in the first generated image?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the second generated image depict the car on a winding mountain road with visible autumn foliage?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the second generated image exhibit a dynamic panning shot effect or motion blur to suggest the car is speeding?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the third generated image depict the car on a desert highway with distinct sunset lighting?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Do all generated images consistently portray the same car model (e.g., Porsche 911) as shown in the input image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are the applied modifications (matte black paint, spoiler, wheels) consistently present in the second and third images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is each generated image placed immediately adjacent to its corresponding text section?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

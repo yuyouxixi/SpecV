@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text employ a concise, cinematic writing style characteristic of Gu Long (e.g., short, punchy sentences, focus on atmosphere and inner force)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Does the narrative logically continue immediately from the tense standoff established in the input (swordsman entering, everyone freezing), without restarting the scene?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the generated content follow the specific three-beat structure: (1) assassin attacks, (2) swordsman blocks with scabbard, (3) aftermath with wine pouring?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the first text passage describe an assassin suddenly springing into action to attack the swordsman?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the first generated image depict a masked assassin drawing a blade and leaping to strike?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the second text passage describe the swordsman calmly responding using his inner force and blocking with his scabbard (without drawing the sword)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the second generated image show a close-up of the swordsman blocking the attack with his scabbard, accompanied by flying sparks?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the third text passage describe the dust settling, the onlookers being struck with dread, and the swordsman pouring wine?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the third generated image depict the assassin collapsed on the ground while the swordsman sits at a table pouring wine?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the output contain exactly three generated images, corresponding one-to-one with the three requested scenes?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do all generated images maintain an ink wash painting style consistent with the input images and the requested aesthetic?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the visual appearance of the swordsman (e.g., hat, robes) and the inn setting consistent across the input and all generated images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the visual content of each generated image semantically match the specific details described in its accompanying text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

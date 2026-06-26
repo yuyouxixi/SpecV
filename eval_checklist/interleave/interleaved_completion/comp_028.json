@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output generally follow the interleaved format, alternating or mixing text and images rather than presenting all images at the end?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the output contain exactly 4 generated images (1 final logo + 3 application mockups)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the 'Final Version' logo image presented first in the sequence, followed by the three application mockups?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the generated 'Final Version' logo successfully combine the simplified graphic style from Revision 2 (Image 3) with the blue color scheme from the Original Version (Image 1)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the 'Final Version' logo strictly colored using the requested Deep Navy/Sky Blue/White palette, with no traces of the green color scheme from the revisions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the 'Final Version' logo clearly include the text elements 'NEXON DYNAMICS' and 'EST. 2019'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the generated logo image high-quality, with legible text and no significant artifacts or distortions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the specific 'Final Version' logo design (Blue + Simplified Graphics) used consistently as the subject across all three subsequent mockup images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the first mockup image depict the logo placed on a dark-colored business card background as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the design note accompanying the business card mockup include specific physical dimensions (e.g., 3.5x2 inches, 90x55mm)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the design note for the business card include craft or process recommendations (e.g., paper stock, foil stamping, UV coating)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the second mockup image display the logo in the context of a mobile app splash screen (e.g., phone screen interface)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the design note accompanying the splash screen mockup include specific pixel dimensions or resolution recommendations (e.g., 1080x1920)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the design note for the splash screen include technical specifications suitable for digital display (e.g., RGB color mode, PNG/SVG file format)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Does the third mockup image visually demonstrate glass material characteristics (e.g., transparency, reflection, frosting) for the door decal?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Does the design note accompanying the glass door decal mockup include physical dimensions appropriate for a door or decal application?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Does the design note for the glass door decal include material or installation recommendations (e.g., vinyl type, reverse printing, transfer tape)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Does the text adjacent to each mockup image accurately describe the specific scenario shown (e.g., text about business cards is next to the business card image)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

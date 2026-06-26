@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly three distinct text sections corresponding to the themes 'The Fall of Civilization', 'Nature's Reclamation', and 'A Faint Spark of Hope'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the output include exactly three generated images, with one image accompanying each text section?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the content presented in an interleaved format where each image is placed immediately adjacent to the text paragraph it illustrates?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the first paragraph explicitly describe the 'deathly silence' and the passage of '50 years' after humanity's disappearance?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the first generated image depict Times Square transformed into a wasteland, specifically including vines, flooded streets, and rusted cars?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the first generated image retain recognizable architectural layouts or landmarks from the input Times Square image (e.g., billboard placement, intersection shape) while showing decay?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the second paragraph focus on 'Nature's Reclamation' and describe how wildlife takes over the city?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the second generated image depict a herd of mutated wild deer (showing visible signs of mutation or adaptation)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the second generated image clearly show the deer leaping across the rooftops of abandoned taxis?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the second generated image rendered in a 'storyboard' style (e.g., sketch-like, rough lines, or cinematic framing) as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the third paragraph describe 'A Faint Spark of Hope' and the survivors' arduous struggle for survival?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the third generated image depict survivors lighting a campfire specifically beneath remnant billboards?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the third generated image clearly depict a nighttime setting?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the third generated image rendered in a 'storyboard' style, consistent with the request?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the text consistently maintain a desolate and epic atmosphere appropriate for a post-apocalyptic film art design book preface?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Does the narrative progress logically from the fall, to nature's reclamation, to survivors, creating a coherent thematic arc?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Does the first image successfully integrate the complex combination of flooding, overgrowth, and rust into the urban scene without losing the identity of Times Square?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

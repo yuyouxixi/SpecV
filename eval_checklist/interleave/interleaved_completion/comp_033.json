@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output follow the requested interleaved sequence: first the 3D box mockup, then the brand presentation image, followed by the text rationale?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the first generated image (3D mockup) clearly apply the 'ink splash' pattern (green mountains with gold strokes) from Input Image 3 onto the box surfaces?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the first generated image retain the original text elements (e.g., 'Yunling Chun', 'Pre-Qingming Longjing') and box structure (lid-and-base) as seen in Input Images 1 and 2?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the applied pattern in the generated 3D mockup demonstrate correct spatial mapping, conforming to the perspective and planes of the box rather than appearing as a flat 2D overlay?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the second generated image (brand presentation) depict all three requested items: the packaging box, a tote bag, and a seal sticker?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Do the tote bag and seal sticker in the generated presentation image visually share the same 'ink splash' design language and color palette (green and gold) as the main box?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the generated text explicitly provide a design rationale explaining why the 'ink splash' style was chosen and its relationship to the brand's aesthetic identity?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the design rationale text approximately 100 words in length (e.g., between 70 and 130 words)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the generated text accurately describe the visual elements (e.g., ink splash, mountains, gold strokes) actually present in the generated images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are the generated images free of obvious AI artifacts, such as distorted box geometry, broken text rendering, or visual glitches?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

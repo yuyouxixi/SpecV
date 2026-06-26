@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output generate exactly two new images corresponding to Frame 4 and Frame 5?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the generated images presented before the director's statement, following the logical order of 'draw then write' implied by the prompt?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does Frame 4 depict the crane folding its wings and standing still on the withered lotus stem?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does Frame 5 depict a long shot (pull-back) where the crane appears as a mere dot or minimal figure in the center of the lake?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Do the generated images maintain the specific ink wash painting style of the input, including features like brush stroke aesthetics and rice paper texture?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Do the generated images exhibit a coherent ink tonal system with multiple gradations (shades of black and grey) rather than flat or monochromatic coloring?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the generated images free of obvious artifacts or visual styles incompatible with traditional ink wash (e.g., photorealism, 3D rendering, neon colors)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the crane in the generated frames maintain consistent visual identity (e.g., red crown, body proportions, coloring) with the crane in the input frames?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the visual narrative flow logically from the landing action (Input Frame 3) to a static pose (Frame 4) and then to a distant view (Frame 5)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is there a significant visual scale change (pull-back) between Frame 4 and Frame 5, with Frame 5 showing substantially more negative space?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the director's statement explicitly analyze the camera movement rhythm as progressing from 'far to near and back to far' across the five frames?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the director's statement analyze the proportional changes in ink wash 'negative space' (blank space/liubai) across the sequence?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Does the director's statement discuss the overall approach to creating the 'artistic conception' (or Yijing) of the shot sequence?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the director's statement cover the analysis for all five frames (input and generated) as explicitly instructed?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the text employ traditional Chinese aesthetic terminology appropriate for ink wash art analysis (e.g., 'negative space', 'ink tones', 'artistic conception')?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Does the director's statement accurately describe the visual content of the generated Frame 4 and Frame 5, ensuring semantic coherence?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

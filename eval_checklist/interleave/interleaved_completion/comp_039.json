@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text begin with a passionate thank-you message to backers for unlocking a new expansion pack?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output contain exactly three distinct sections titled or clearly corresponding to 'Terrain Reveal', 'Full Sandbox View', and 'Epic Showdown'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text maintain an enthusiastic tone using terminology reflecting board game culture (e.g., 'geek enthusiasm')?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the output follow a strict interleaved structure with exactly three text sections alternating with three corresponding images?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Is each generated image placed immediately adjacent to its corresponding text section (e.g., Terrain Reveal text paired with the Terrain Reveal image)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the 'Terrain Reveal' text describe the transformation of the blank tile into a 'Dark Dragon's Lair' divided by lava?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does the first generated image depict a single hexagonal tile illustrated as a 'Dark Dragon's Lair' with visible lava?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the first generated image strictly maintain the hexagonal shape constraint provided in the input template?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the 'Full Sandbox View' text describe the grand scale of connecting multiple tiles into a complete map?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the second generated image successfully extrapolate from the single tile concept to show a large-scale map composed of numerous (dozens) connected hexagonal tiles?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Do the tiles in the second image display diverse terrain types rather than identical repetition?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the second generated image include visible miniature figures placed on the map?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the 'Epic Showdown' text describe a climactic moment involving a player placing a knight miniature?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the third generated image depict a close-up of a player's hand placing or holding a knight miniature?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the hand in the third image rendered with anatomical plausibility (correct finger count, natural pose) and free from severe distortion?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is the 'Dragon's Lair' tile design in the first image visually consistent with the tile appearance in the third image where the miniature is being placed?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Do the generated images provide specific visual details (e.g., actual tile art, map layout, miniatures) that enrich the text rather than serving as generic placeholders?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are all generated images free from nonsensical text artifacts, watermarks, or severe visual glitches?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

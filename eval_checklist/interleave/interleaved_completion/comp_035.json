@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output contain exactly two distinct species sections, presented in the order of Chinese Tulip Tree (Liriodendron chinense) first, followed by Dove Tree (Davidia involucrata)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the morphological identification key for the Chinese Tulip Tree approximately 50 characters in length (e.g., between 40-60 characters)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Is the morphological identification key for the Dove Tree approximately 50 characters in length (e.g., between 40-60 characters)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the Chinese Tulip Tree illustration clearly depict the characteristic saddle-shaped (4-lobed) leaves with a truncated or notched apex?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the Dove Tree illustration prominently feature large white bracts (resembling handkerchiefs or dove wings) surrounding the central flower head?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Are the white bracts on the Dove Tree depicted in pairs of unequal size, consistent with the botanical characteristics of Davidia involucrata?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do the generated images maintain the specific layout of the input examples: Scientific name at top-left, central branch illustration, and labeled detail insets (a, b, c, d) at the bottom?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the artistic style of the generated images consistent with the input examples (fine ink lines with watercolor-style coloring on an off-white/cream background)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Do both generated images include labeled detail insets (e.g., a, b, c, d) showing specific parts like seeds, fruits, or flower structures, providing information beyond the main branch?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the text of the Chinese Tulip Tree identification key explicitly mention its saddle-shaped leaves and tulip-like flowers?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the text of the Dove Tree identification key explicitly mention its large white bracts (or dove/handkerchief appearance)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the generated illustrations free from obvious AI artifacts, such as distorted text, anatomically impossible branching, or unnatural repetitions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the generated text use precise and accurate botanical terminology (e.g., referring to 'bracts' for the Dove Tree rather than 'petals')?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

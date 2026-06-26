@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output generate exactly two new images representing Panel 3 and Panel 4 of the comic?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output follow the specific interleaved structure: Image (Panel 3) -> Text (Notes) -> Image (Panel 4) -> Text (Notes)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Do the generated images maintain the exact art style of the input (cel-shaded anime style, specific line weight, and warm color palette)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the character depicted in the generated panels visually consistent with the input (young boy, black spiky hair, white shirt, blue overalls)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the setting in the generated panels consistent with the input (wooden interior with round window and bookshelves)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image for Panel 3 logically continue the narrative from the 'golden beam of light' in Panel 2 (e.g., showing the source or reaction)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image for Panel 4 clearly depict a 'comedic twist' ending (e.g., a mundane object, funny expression, or anticlimax)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Do the storyboard notes for both panels explicitly identify the 'shot type' or 'camera language' used (e.g., close-up, high angle)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Do the storyboard notes for both panels explicitly analyze the character's emotional changes?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Do the storyboard notes for both panels explicitly analyze the narrative pacing (e.g., explaining why the moment was arranged that way)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do the generated images accurately reflect the shot types and actions described in their corresponding storyboard notes?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do the character's facial expressions in the generated images match the emotional descriptions provided in the storyboard notes?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are the generated images free of significant AI artifacts, distortions, or anatomical errors?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

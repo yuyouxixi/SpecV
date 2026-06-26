@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text include the three specific section titles: 'Visual Style Exploration', 'Micro-interaction Design: Lighting Control', and 'Scenario-based Design: Security Mode'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output follow an interleaved format with at least three images, ensuring one image accompanies each of the three required sections?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the images inserted at logical breakpoints (e.g., immediately following the relevant section title or description) rather than interrupting sentences?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the first image (Homepage) faithfully convert the wireframe layout, including the Avatar, Greeting, four main buttons (Lighting, Temperature, Security, Curtains), and bottom navigation?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the Homepage UI image successfully apply the requested visual style: 'Dark Mode' combined with 'Glassmorphism' (translucency/blur) and 'neon blue' accent color?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the 'Lighting Control' image display an expanded interface that includes both a color palette and a brightness control mechanism?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the 'Security Mode' image display a UI with a real-time surveillance feed area and a visible alarm/SOS button?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Do all generated UI images maintain a consistent visual identity (Dark Mode, Neon Blue accents, Glassmorphism) throughout the article?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Do the sub-page UIs (Lighting and Security) logically represent expanded states of the homepage modules, appearing to belong to the same app ecosystem?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the text in the 'Visual Style Exploration' section explicitly explain the design rationale for combining Dark Mode with Glassmorphism?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the text in the 'Micro-interaction' and 'Scenario-based' sections describe the interaction logic (e.g., how controls work, security response) rather than just listing features?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the generated UI images high-fidelity and free from significant artifacts, distortions, or illegible text?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the content of each image accurately illustrate the specific descriptions provided in its accompanying text section?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Do the images provide specific visual details (e.g., layout arrangements, specific UI controls) that complement and enrich the text descriptions?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

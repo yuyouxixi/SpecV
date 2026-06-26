@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text explicitly structure the content into the four required parts: 'Inspiration & Sketches', 'Font Library Expansion', 'Material Exploration: Liquid Metal', and 'Application Scenario: Cyber Street'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text in Part One 'Inspiration & Sketches' analyze the structural characteristics of Gothic lettering (e.g., angular strokes, thick-thin contrast) based on the input image?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the generated text adopt a professional, avant-garde design tone with vocabulary suitable for a Behance project showcase?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the generated image for Part Two 'Font Library Expansion' depict a complete alphabet poster containing all letters from A to Z?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the letters in the 'Font Library Expansion' image rendered as gold characters on a black background as explicitly requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the generated alphabet in Part Two demonstrate the ability to expand the style of the single input 'A' into a cohesive set of 26 consistent Gothic letters?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image for Part Three 'Material Exploration' clearly depict the letter 'A' transformed into a 3D, flowing silver liquid metal material?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the liquid metal render in Part Three exhibit realistic material properties (e.g., reflections, surface tension, depth) while retaining the underlying Gothic structure?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the generated image for Part Four 'Application Scenario' feature a giant red neon sign situated in a cyberpunk-style rainy night alley?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the Part Four image successfully integrate the typography into a complex environment with appropriate lighting effects (neon glow, wet surface reflections, rain)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do the generated visual elements across all parts (alphabet, liquid metal 'A', neon sign) consistently maintain the specific Gothic calligraphy style of the original input image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Do the text descriptions in Parts 2, 3, and 4 accurately describe the specific visual contents of the accompanying images (e.g., matching the described material properties or scene details)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the output contain at least three generated images, specifically corresponding to the 'Font Library Expansion', 'Material Exploration', and 'Application Scenario' sections?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Are the generated images placed immediately adjacent to or within their corresponding text sections (e.g., the liquid metal image near the Part Three text)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are all generated images of high visual quality, free from severe artifacts such as distorted text shapes, blurry regions, or unintelligible forms?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output include all four required acts: 'Shaping the Bones', 'Trial by Fire', 'The Marvel of Ice Crackle', and 'Returning to Life' in the correct sequence?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output contain at least three generated images corresponding to Acts Two, Three, and Four (in addition to the referenced input image)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text for Act One 'Shaping the Bones' specifically describe the focus and process of wheel throwing, referencing the context of the input image?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the generated text written in a poetic, documentary-narration style that incorporates Eastern philosophical sentiments (e.g., references to impermanence, harmony, or Zen)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the generated image for Act Two 'Trial by Fire' depict the pottery piece glowing red-hot inside a kiln, surrounded by raging flames?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image for Act Three 'The Marvel of Ice Crackle' clearly show the piece transformed into a sky-blue Ru ware vase?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the Act Three image a close-up that clearly displays 'ice crackle' patterns on the vase's surface?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image for Act Four 'Returning to Life' show the vase holding a single withered plum branch placed on a wooden table?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the Act Four image depict a minimalist Chinese tea room setting that conveys a serene atmosphere?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the pottery piece maintain a consistent shape and form across all generated images (from the input clay to the final vase), representing the same object?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do the generated images successfully depict the distinct texture transformations required: from raw clay to high-temperature glowing state to refined porcelain with crackle glaze?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the generated images inserted at logical breakpoints, appearing adjacent to their corresponding textual Acts?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the content of each generated image align with the specific descriptions provided in its corresponding text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are the generated images free from obvious AI artifacts, distortions, or unrealistic visual elements?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

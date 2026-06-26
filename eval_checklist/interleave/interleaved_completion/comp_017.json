@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text explicitly structure the content into the three required sections: 'Visual Concept Presentation', 'Unboxing Experience Design', and 'Lifestyle Scene Integration'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the output presented in an interleaved format containing both text and images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text in Part One explicitly elaborate on the design philosophy of 'Song Dynasty blue-green landscape painting'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text in Part Two describe the sense of surprise and anticipation associated with opening the packaging?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text in Part Three describe the ambiance of tea appreciation in a culturally refined, antique-style setting?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the copywriting sophisticated and culturally refined, matching the requested tone for a premium tea brand proposal?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does Part One include an image of the outer packaging box featuring 'Song Dynasty blue-green landscape' artwork?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does Part One include an image of the cylindrical tea canister featuring blue-green landscape artwork?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is a gold-foil stamped logo visibly rendered (with metallic texture) on the packaging images in Part One?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Does Part Two include an image showing the packaging box in an open or opening state?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the opened packaging box image in Part Two reveal an internal silk lining?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does Part Two include an image of the tea canister with its lid half-open?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the half-open tea canister image in Part Two reveal verdant tea leaves inside?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does Part Three include a scene image set in an antique-style tea room?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the tea room scene show tea steeping in a Ru ware tea bowl (characterized by a pale blue-green celadon glaze)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the designed packaging box visible in the background of the Lifestyle Scene Integration image in Part Three?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Are the generated images free from severe AI artifacts (e.g., distortion, illegible details) and of high visual quality suitable for a proposal?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Do all generated packaging images maintain the exact geometric shapes (square box and cylindrical tube) of the input blank mockup?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "Is the visual design (blue-green artwork and gold logo) consistent across the packaging images in all three parts?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Do the images accurately reflect the specific descriptive details in the accompanying text (e.g., matching the described unboxing states and tea ware)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Are the images inserted at logical breakpoints, appearing immediately adjacent to the text sections they illustrate?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 22,
+    "question": "Does each of the three parts include at least one generated image illustrating the content of that section?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "Does the model successfully perform texture mapping by applying the design to the blank surfaces of the input mockup without distorting the 3D perspective?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 24,
+    "question": "Does the output demonstrate a logical progression of the packaging states (closed -> opening -> background prop) across the three sections?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

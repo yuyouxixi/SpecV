@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output include a generated image of the cat converted into the Ghibli style?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output include a second generated image depicting both the cat and the dog together in a single scene?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the output include a distinct text caption specifically suitable for social media at the end?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the output format follow an interleaved structure with at least two generated images and accompanying text blocks?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the generated Ghibli cat image clearly retain the visual identity of the source cat from [IMAGE1] (e.g., orange and white markings, specific pose)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the generated cat image successfully mimic the art style of the reference dog image [IMAGE3] (e.g., soft shading, watercolor textures, anime-style line work)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the composite scene image feature a \"flower field\" background as explicitly requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the composite scene depict the cat and dog actively playing or interacting, rather than just standing statically?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the dog in the generated composite scene recognizable as the same Golden Retriever character from [IMAGE3]?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the cat in the generated composite scene consistent in appearance (style and markings) with the standalone Ghibli cat generated earlier in the output?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are the generated images free from significant AI artifacts (e.g., distorted faces, extra limbs, muddled anatomy)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the generated caption adopt a \"healing,\" heartwarming, or whimsical tone consistent with the requested Miyazaki vibe?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the social media caption accurately reflect the content of the composite image (e.g., mentioning the interaction or setting)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the output follow the requested logical progression: Cat Conversion Image → Composite Scene Image → Caption?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are the images inserted at logical breakpoints in the text (e.g., placing the conversion image after its description and before the composite scene)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does the composite scene successfully integrate the two characters into a unified environment without visible style inconsistencies or lighting mismatches between them?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

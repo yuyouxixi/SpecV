@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly two new generated images, one corresponding to the seaside rocks and one to the highland meadows?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output avoid regenerating, modifying, or including the original desert highway example images as part of the results?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Do both generated images demonstrate an upward extension of the canvas, specifically expanding the sky area as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the vertical extension in both generated images approximately double the original height, matching the ratio demonstrated in the example?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the output structured in an interleaved format where each outpainted image is immediately followed by its corresponding text explanation?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the generated seaside image maintain a coastal atmosphere (e.g., cool tones, marine haze, appropriate cloud types) consistent with the original input?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the generated highland image maintain a high-altitude atmosphere (e.g., bright daylight, clear clouds, warm/neutral tones) consistent with the original input?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the extended sky area in the seaside image align correctly with the original horizon line and perspective?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the extended sky area in the highland image preserve the geometry of the mountain range without distortion?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are the original foreground elements (rocks/waves for seaside, grass/stream for highland) preserved in the generated images without obvious warping or identity changes?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are the transitions between the original image content and the newly generated sky areas seamless and visually undetectable in both images?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the generated images free of obvious AI artifacts such as distorted shapes, unnatural repetitive patterns, or pixelation?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the text explanation for the seaside image specifically describe the visual elements added to the sky (e.g., specific cloud types, haze)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Does the text explanation for the highland image specifically describe the visual elements added to the sky (e.g., cumulus clouds, blue gradient)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Do the text explanations describe the processing techniques used to ensure a seamless transition (e.g., masking, blending, color matching)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Do the visual elements described in the text explanations accurately match the actual content generated in the corresponding images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Do the two generated images show distinct atmospheric conditions appropriate to their specific environments (seaside vs. highland), despite applying the same outpainting technique?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

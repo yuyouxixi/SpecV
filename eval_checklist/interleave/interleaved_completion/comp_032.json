@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output include exactly two new individual images representing the time points 06:30 and 07:00?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the generated output include a final composite panorama image consisting of five frames?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "In the generated 06:30 frame, is the sun depicted as fully risen above the horizon (clearly higher than the 'emerging' state in the 06:10 input)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "In the generated 07:00 frame, is the sun depicted at a noticeably higher elevation than in the 06:30 frame?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Do the generated frames show a realistic transition to daylight, with sky colors shifting from sunrise oranges to brighter blue/white tones compared to the input frames?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Do the generated images maintain strict geometric consistency with the input images, showing the exact same city skyline, building arrangement, and perspective?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the photographic style (color grading, contrast, urban aesthetic) of the generated frames consistent with the input sequence?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the panorama consist of five horizontally arranged frames in the correct chronological order (05:30 → 05:50 → 06:10 → 06:30 → 07:00)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does each frame in the panorama include text annotations at the bottom specifying both the time and a color temperature (K) value?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Do the visual colors of the panorama frames correspond semantically to their annotated K values (e.g., warmer tones for lower K, cooler tones for higher K)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the generated content follow a logical interleaved structure, presenting the individual 06:30 and 07:00 updates before concluding with the comparison panorama?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the accompanying text accurately describe the lighting progression and specific time points without hallucinating features not present in the images?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are the generated images (individual and panorama) free from significant artifacts, such as distorted buildings, stitching errors, or unreadable text annotations?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output include the main title 'Specimens of Time' and the four required section titles ('Life Frozen in Time', 'Turning Back Time: Return to Verdant Green', 'A Microscopic Universe', 'Rulers of the Jurassic') in the correct order?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output follow the interleaved format with exactly three generated images corresponding to paragraphs 2, 3, and 4?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the first section ('Life Frozen in Time') explicitly reference the dried fern leaf shown in the input image while describing the significance of specimens?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the generated text consistently maintain a tone that combines scientific rigor (terminology, facts) with poetic prose?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the image for the second section successfully demonstrate 'state reversal' by depicting a living, vibrant green fern, contrasting with the dried brown input specimen?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the second image clearly depict the fern in a tropical rainforest setting with visible morning dew on the fronds?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the image for the third section feature a false-color high-magnification aesthetic typical of an electron microscope?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the microscopic image clearly showcase leaf structures such as glowing sporangia as described in the prompt?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the image for the fourth section have the visual qualities of grand concept art (dramatic composition, sweeping scale)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the fourth image depict a massive tree fern forest set in an ancient, Jurassic-era environment?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are the generated images placed logically adjacent to their corresponding paragraphs (Rainforest with 'Turning Back Time', Microscopic with 'Microscopic Universe', Jurassic with 'Rulers of the Jurassic')?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Do the generated images semantically match the specific descriptions in their surrounding text (e.g., text mentions dew/lushness and image shows dew/lushness)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the fern depicted in the restored living image (Section 2) recognizably the same biological type/morphology as the original dried specimen provided in the input?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Are all generated images visually clear, free from obvious AI artifacts or distortions, and of sufficient quality for a museum article?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

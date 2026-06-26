@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output follow the requested interleaved structure: [Poster 3 Image] → [Poster 3 Text] → [Poster 4 Image] → [Poster 4 Text]?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the generated image for the 'Desert Expedition' poster visually depict a desert theme (e.g., dunes, camels, cactus, pyramids) and include a central figure?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the 'Desert Expedition' poster image visibly include the specific title text \"CROSS THE DESERT\" and the number \"NO.03\"?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the generated image for the 'Polar Crossing' poster visually depict a polar theme (e.g., icebergs, snow, penguins, aurora) and include a central figure?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the 'Polar Crossing' poster image visibly include the specific title text \"BRAVE THE POLAR\" and the number \"NO.04\"?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Do both generated posters visually adhere to the series' screen printing aesthetic, exhibiting a limited 5-color palette, halftone dot shading, and a distressed/vintage texture overlay?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Do both generated posters maintain the series' layout consistency: a central foreground figure, bold sans-serif typography centered at the top, and a bottom series label (e.g., \"ADVENTURE SERIES\")?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Do the central figures in both generated posters wear attire appropriate to their specific environments (e.g., desert explorer gear for No.03, heavy polar gear/parka for No.04)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the text associated with the 'Desert Expedition' poster include specific recommendations for paper (mentioning type or weight), ink type, and distressed post-processing?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the text associated with the 'Polar Crossing' poster include specific recommendations for paper (mentioning type or weight), ink type, and distressed post-processing?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Do the printing recommendations demonstrate technical plausibility for screen printing by mentioning specific details (e.g., paper weights like 100-300gsm, uncoated stock, spot colors, or water-based/plastisol inks)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are both generated poster images free of significant AI artifacts (e.g., garbled text, distorted anatomy) and is the main typography clearly legible?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

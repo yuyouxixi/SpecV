@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly three chapters titled 'Eons of Formation', 'Masterful Craftsmanship', and 'Timeless Beauty'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the content arranged in an interleaved format where each chapter's text is immediately followed by a corresponding generated image?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text adopt a luxurious 'Old Money' tone, utilizing sophisticated vocabulary appropriate for a top-tier jewelry brand catalog?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text in Chapter One describe the rarity of the rough stone and explicitly mention the 'asterism' effect?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text in Chapter Two describe the cutting techniques and explicitly mention the 'cushion' shape and 'pavé diamond platinum' setting?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the first generated image depict a macro or microscope view of a rough sapphire showing an internal asterism (star-like) effect?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the second generated image show the sapphire transformed into a faceted 'cushion' cut (rounded square shape)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the ring setting in the second generated image feature an intricate 'pavé diamond platinum' design (small diamonds set closely on silver-colored metal)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the third generated image depict an elegant woman wearing the sapphire ring, dressed in a black evening gown?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the third generated image show the woman holding a champagne glass within a dinner party or social scene setting?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the sapphire consistently depicted as a deep blue stone across all generated images, maintaining the color identity of the input rough stone?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the ring shown in the third image (lifestyle) appear to be the same design (cushion cut, platinum, pavé) as the product shot in the second image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the visual progression from the first image (rough) to the second image (cut) successfully demonstrate a transformation in texture and finish?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Are the generated images free of obvious AI artifacts (e.g., malformed hands, distorted jewelry symmetry, or blurred textures)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the narrative logically progress chronologically from geological formation to craftsmanship, and finally to lifestyle usage?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

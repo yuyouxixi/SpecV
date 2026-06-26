@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated article include the exact title 'Vermeer Beyond the Frame' at the beginning?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the output contain exactly three distinct sections with the headers: 'What if the painting were completed?', 'The Painter\\'s Gaze', and 'The Bystander of History'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the content presented in an interleaved format, alternating between text and at least three generated images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text in the first section ('What if the painting were completed?') analyze the hypothetical extension of the artwork into a full scene?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text in the second section ('The Painter\\'s Gaze') describe the artistic process from Vermeer\\'s first-person perspective?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the text in the third section ('The Bystander of History') discuss the scene from an exterior observer\\'s viewpoint?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the text include accurate art historical references (e.g., Dutch Golden Age context, Vermeer\\'s techniques, lighting, or pigments)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the first generated image depict the 'Girl with a Pearl Earring' as a full figure placed within a recognizable 17th-century Dutch interior setting?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the first generated image function as a logical 'outpainting' continuation, extending the composition while maintaining the original subject's pose and features?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the second generated image adopt a first-person perspective, showing painting tools (canvas, easel, or brushes) in the foreground?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the second generated image show the girl posing by or near a window, consistent with the prompt's description?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the third generated image clearly depict an exterior viewpoint looking through window glass into the interior scene?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the third generated image include visual cues of looking through glass (e.g., reflections, framing, or exterior wall elements)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Are all generated images free from anachronisms (e.g., modern furniture, technology) and historically plausible for the 17th century?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Are the images free from significant AI artifacts, distortions, or anatomical errors (especially in the face and hands)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the girl's identity (blue and yellow turban, pearl earring, facial features) consistent across all images where she appears?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Does each image semantically align with the specific text section it accompanies (e.g., POV image next to 'Painter\\'s Gaze' text)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Are the images placed logically at the end of or within their corresponding sections, rather than clustered together?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Does the model successfully execute the three distinct perspective shifts (Outpainting/Objective -> First-Person/Subjective -> Exterior/Observer) in both text and images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

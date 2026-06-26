@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output contain exactly three distinct sections, each corresponding to one of the requested elemental guitars ('Voice of Ashes', 'Winter's Lament', and 'Song of Revival')?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is each generated image placed immediately adjacent to or within its corresponding text section (e.g., the flame guitar image is next to the 'Voice of Ashes' text)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the generated text follow a 'Game Wiki' format, including specific attribute panel details (e.g., stats, rarity, or skill descriptions) for each item?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text correctly describe 'berserk' attributes for the 'Voice of Ashes', 'crowd control' skills for 'Winter's Lament', and 'healing' effects for 'Song of Revival'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the text written in a fluent, encyclopedic tone with correct grammar, consistent with a Wikipedia entry?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Do all three generated images strictly retain the basic silhouette and shape of the original wooden guitar provided in the input, without morphing into different instrument types?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does the image for 'Voice of Ashes · Flame Guitar' depict a guitar body composed of burning lava and obsidian, with strings made of fire?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the image for 'Winter's Lament · Frost Guitar' depict a guitar carved entirely from crystal-clear ice, emanating cold mist?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the image for 'Song of Revival · Nature Guitar' depict a guitar body formed from intertwining ancient tree vines and blooming flowers?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Do all three generated images maintain a consistent fantasy art style and structural proportions relative to each other?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Is the visual content of each image semantically coherent with its accompanying text description (i.e., no contradictions between the described and shown materials)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the content thematically unify the three items under the requested lore 'The Bard's Three Elemental Artifacts'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

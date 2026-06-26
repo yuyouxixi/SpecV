@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output include at least 3 generated images representing the sequence: (1) right-half colorization result, (2) intermediate repair/restoration step, and (3) final fully restored version?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are the generated images inserted logically immediately following the text describing the corresponding processing step?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the generated text explain the colorization strategy for the right half, explicitly mentioning the use of deep navy blue for the suit and dark grayish-brown for the hat?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the generated text describe the specific processing approach used for repairing scratches and correcting fading?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the first generated image a result of colorizing only the right half, while preserving the manually colorized left half provided in the input?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "In the generated colorization result, is the man's Zhongshan suit colored in deep navy blue as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "In the generated colorization result, is the man's felt hat colored in dark grayish-brown as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the boundary between the left (input) and right (generated) halves of the colorized image seamless, without a visible vertical seam or abrupt color shift?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Do the inferred colors on the right half (e.g., skin tones, bench, background) visually harmonize with the colors on the left half?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "In the repair and final images, are prominent scratches (such as the diagonal line or marks on the tree trunk) effectively removed?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the final restored image show improved global contrast and color vibrancy (fading correction) compared to the intermediate colorization result?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the final restored image retain the specific colorization (navy suit, brown hat) applied in the previous step without reverting to black-and-white or shifting colors?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are the generated images free from significant AI artifacts, such as distorted faces, unnatural textures, or color bleeding?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Do the facial features and identities of the family members remain consistent across all generated images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

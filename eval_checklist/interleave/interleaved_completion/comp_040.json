@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text include three distinct sections titled or focusing on 'Industrial Design & Specifications', 'Overload Mode', and 'Combat Records'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output follow an interleaved format with at least one image generated for each of the three sections?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are the images placed logically within or immediately following their corresponding text sections (e.g., the 3D render with 'Industrial Design', the overheating image with 'Overload Mode')?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the generated text written in a cold, hardcore tone filled with sci-fi jargon, appropriate for a 'dark web black market weapon electronic codex'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text in the first section ('Industrial Design & Specifications') detail technical specifications, materials, or design features of the weapon?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text in the second section ('Overload Mode') describe the mechanics or specific dangers of the weapon overheating?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text in the third section ('Combat Records') provide narrative accounts, incident logs, or telemetry of the weapon being used in combat?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the first generated image depict the weapon as a high-definition 3D game asset (rendered style) rather than a pencil sketch?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "In the first generated image, does the weapon feature a matte black metal body and wires emitting a faint blue glow?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the weapon design in the first image faithfully reflect the structural geometry of the input pencil sketch (e.g., cylinder shape, vent placement, grip details)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the second generated image depict a close-up of the barrel glowing red-hot and discharging blue electric arcs?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the third generated image depict a cyberpunk assassin with visible mechanical prosthetic limbs aiming or firing the weapon?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the setting of the third generated image depicted as a neon-lit rainy alleyway at night?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Do the weapons shown in the second and third images maintain visual consistency (design features, silhouette) with the weapon rendered in the first image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the text content in the 'Overload Mode' section align with the visual depiction of overheating (red glow, arcs) in the corresponding image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Does the text in the 'Combat Records' section align with the specific scenario (assassin, alleyway) depicted in the third image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

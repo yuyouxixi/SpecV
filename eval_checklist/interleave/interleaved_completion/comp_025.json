@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly 6 generated detail images, consisting of 3 distinct details for Scheme A and 3 distinct details for Scheme B?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Do the generated images generally function as 'zoomed-in' crops or close-up views derived from the provided input renderings rather than showing full-room views?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Do the detail images for Scheme A visually correspond to the Japanese Zen style elements seen in Input Image 2 (e.g., wooden latticework, tatami platform, tea set, stone garden)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Do the detail images for Scheme B visually correspond to the Scandinavian minimalist style elements seen in Input Image 3 (e.g., white blinds, terrazzo flooring, plant stands, wishbone chair)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are the generated detail images visually clear and free from significant AI artifacts (e.g., distorted geometry, impossible furniture shapes, severe blurriness)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the text analysis for each detail point explicitly discuss both design highlights (pros) and potential issues (cons)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the analysis for each detail point specifically address practical factors such as maintenance difficulty, cost, or daily practicality/usability?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the text analysis consider specific constraints relevant to a balcony environment (e.g., exposure to sunlight, humidity, outdoor durability, or limited space)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is each generated detail image immediately accompanied by text that accurately describes the specific design element visible in that image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the output follow a consistent interleaved format (e.g., Image → Text pairs) for all 6 detail points without breaking the pattern?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Are there clear transitions or structural markers (e.g., headings, transitional phrases) distinguishing the Scheme A section from the Scheme B section?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Do the selected detail points represent distinct and meaningful design elements (avoiding repetitive views of the same object) from each scheme?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the output conclude with a final recommendation section that explicitly selects one scheme over the other?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Is the final recommendation justified by a comprehensive comparison that synthesizes the pros and cons analyzed in the detailed sections?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

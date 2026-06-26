@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text include the title 'A Gaze Across a Century'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the generated output presented in an interleaved format with text and images interspersed?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text consist of three distinct paragraphs corresponding to the three specified life stages (attic discovery, age 40, age 70)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the first paragraph describe the narrator's excitement upon discovering the great-grandmother's photograph in the attic?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the second paragraph describe the subject's resilience at age 40 as a journalist during World War II?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the third paragraph describe the subject's peaceful later years at age 70 in a garden?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the text consistently maintain a tone of historical weight and warmth appropriate for a family memoir?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the first generated image a high-definition, colorized restoration of the input image, featuring realistic skin tones and clothing colors?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the first generated image successfully remove scratches and aging marks from the original input to appear restored?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the second generated image depict the subject aged to approximately 40 years old, wearing 1940s professional attire?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the third generated image depict the subject aged to approximately 70 years old with silver hair, situated in a garden setting?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Do the generated images demonstrate a realistic and monotonic aging progression (Youth -> 40 -> 70) while maintaining recognizable identity?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do all three generated images maintain consistent facial bone structure and identity traits consistent with the original input?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are the generated images stylistically consistent with each other (e.g., consistent photorealism)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Do the visual details in the images (e.g., 1940s fashion, garden elements) semantically align with the specific descriptions in the accompanying text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Do the images provide visual storytelling value (e.g., period-specific attire, environmental context) that enhances the textual narrative?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Are the generated images free of significant AI artifacts, distortions, or unnatural features?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Is each image placed immediately after or alongside the specific text paragraph that describes that life stage?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Does the output contain exactly three generated images, corresponding one-to-one with the three paragraphs?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Are the transitions between text and images natural, with the text appropriately introducing or contextualizing the accompanying image?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

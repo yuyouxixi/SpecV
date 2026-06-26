@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text include three distinct sections titled 'Spatial Clearing and Artistic Intervention', 'Introducing Community Commerce', and 'Lighting Up the Night Economy' (or close equivalents)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the generated text adopt a professional urban planning tone, demonstrating humanistic care and using appropriate terminology suitable for an architect forum?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the first generated image depict the alley cleaned of the original trash and debris, showing a clear ground surface?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the first generated image clearly feature a large vibrant floral 3D graffiti mural on the brick wall at the end of the alley?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the first generated image show the ground paved with bluestone slabs (or similar stone paving) as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the second generated image show natural wood-style outdoor seating areas added to the sides of the alley?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the second generated image depict the walls of the alley covered in hanging greenery or vertical plants?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the third generated image distinctly set at nighttime, featuring darker ambient lighting compared to the previous images?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the third generated image show warm yellow string lights hanging overhead across the alley?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the third generated image show people (e.g., young people drinking and chatting) to convey a vibrant urban life atmosphere?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Do all generated images maintain the basic structural contours and perspective of the original input alley (narrow path, tall flanking buildings, dead-end wall)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the generated images appear as realistic architectural renderings with elements (graffiti, greenery) naturally integrated into the scene rather than looking artificially superimposed?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do the images collectively maintain a consistent visual style as if they were part of the same architectural proposal package?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the text in each section accurately describe the specific visual elements (mural, seating, lighting) shown in the accompanying image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are the images correctly interleaved such that the mural image follows the first section, the seating image follows the second, and the night scene follows the third?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Does the output contain exactly three images, one corresponding to each of the three proposal sections?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the generated sequence demonstrate a logical progression from spatial renovation (cleaning/paving) to commercial introduction, and finally to night economy activation?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

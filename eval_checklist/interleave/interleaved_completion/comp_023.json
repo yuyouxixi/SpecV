@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model generate exactly two distinct color scheme versions as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the generated text explicitly identify the two versions as 'warm apricot' and 'warm grayish milk tea'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the output include exactly one rendered image for the 'warm apricot' version and one rendered image for the 'warm grayish milk tea' version?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is the output structured in an interleaved format where each generated image is placed immediately adjacent to (before or after) its corresponding text analysis?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the generated image for the 'warm apricot' version clearly depict a warm, orange-leaning but softened color tone?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image for the 'warm grayish milk tea' version clearly depict a warm, low-saturation beige or neutral color tone?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Do the generated colors visually represent a reasonable 'compromise' (i.e., warmer than the original cool tone [IMAGE1] but less saturated/vibrant than the revision [IMAGE2])?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are the two generated color schemes clearly visually distinguishable from each other?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Do the generated images strictly maintain the product form factor (oval earbuds case), camera angle, composition, and lighting style of the input images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Do the generated images preserve specific hardware details visible in the inputs, such as the LED indicator, USB-C port, and lid seam?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Are the generated images photorealistic and free from significant artifacts (e.g., distorted geometry, blurred details, or unnatural textures)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the generated text for *both* versions include an analysis of the approximate HSB (Hue, Saturation, Brightness) value ranges?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Does the generated text for *both* versions include a color psychology rationale explaining the color's suitability for consumer electronics?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Does the generated text for *both* versions include a material texture analysis discussing how the color interacts with the surface finish (e.g., matte vs. gloss)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Does the visual appearance of each generated image accurately reflect the color characteristics and HSB ranges described in its corresponding text analysis?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

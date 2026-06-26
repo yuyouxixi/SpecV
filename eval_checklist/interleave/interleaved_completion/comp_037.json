@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output include at least three distinct components: a Q3 infographic image, a Q1-Q3 trend summary chart image, and a text-based data insights summary?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the generated content follow the specific sequence: Q3 infographic first, followed by the trend summary chart, and concluding with the data insights summary?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the generated Q3 infographic image clearly display the title '2025 THIRD QUARTER REPORT Q3' (or equivalent indicating Q3 2025)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the Q3 infographic image display the Revenue exactly as '42 MILLION YUAN' with a growth indicator of '+8%'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the Q3 infographic image display the User Count exactly as '3.8 MILLION' with a growth indicator of '+15%'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the Q3 infographic image display the Satisfaction Rate as '92%' (optionally with '+1%') and New Product Launches as '3 ITEMS'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the Q3 infographic maintain the specific visual style of the input images, including the navy blue/yellow color scheme, the shield logo at the top, and the specific footer text ('Data Source... INNOVATING FOR TOMORROW...')?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the Q3 infographic use the correct specific icons consistent with Q1/Q2 (Yellow Coin icon for revenue, User Avatar in blue circle, Semi-circular gauge, and Yellow square icons for products)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the generated trend summary chart a Line Graph or Bar Chart as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the trend summary chart explicitly label the X-axis or categories as Q1, Q2, and Q3?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the trend summary chart accurately visualize the Revenue trajectory (Q1: 35M -> Q2: 39M -> Q3: 42M)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the trend summary chart accurately visualize the User Count trajectory (Q1: 2.8M -> Q2: 3.3M -> Q3: 3.8M)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the trend summary chart adopt a design style (colors, fonts, clean lines/bars) that is unified with the single-quarter infographics?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the data insights summary text explicitly identify the trend of slowing growth rates for Revenue (+12% -> +11% -> +8%)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Does the data insights summary text explicitly identify the trend of slowing growth rates for User Count (+20% -> +18% -> +15%)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Does the data insights summary text mention the consistent improvement in Satisfaction Rate (88% -> 91% -> 92%)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Does the text summary provide management-relevant signals or recommendations based on the observed deceleration (e.g., focus on retention, monetization)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Is the data insights summary approximately 150 words in length (acceptable range: 120-180 words)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Are the generated images inserted at logical breakpoints (e.g., Q3 infographic before/after Q3 intro, Trend chart before/after trend analysis) rather than clustered randomly?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Are the generated images free from severe AI artifacts, such as garbled text, distorted logos, or illegible numbers?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

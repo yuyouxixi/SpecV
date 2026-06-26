@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text include exactly three sections titled 'Longing for Tranquility: Wabi-Sabi Style', 'Romance at Heart: Vintage French Style', and 'Restrained Ruggedness: Modern Industrial Style'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the 'Wabi-Sabi' section text specifically analyze the pairing of microcement and natural wood as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the 'Vintage French' section text specifically analyze the textures of plaster moldings and velvet sofas as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the 'Modern Industrial' section text specifically analyze the collision of metal frameworks with preserved cement walls as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text adopt a professional yet lifestyle-oriented tone suitable for a home decor blogger on the 'Haohaozhu' App?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the first generated image accurately depict a Wabi-Sabi style interior (e.g., microcement, natural wood, earth tones) within the context of the input room?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the second generated image accurately depict a Vintage French style interior (e.g., plaster moldings, velvet furniture, elegant details) within the context of the input room?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the third generated image accurately depict a Modern Industrial style interior (e.g., metal frameworks, exposed cement walls) within the context of the input room?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Do the specific visual elements described in each text section (e.g., velvet sofas, metal frameworks, natural wood) appear in their corresponding generated images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Do the rendered images provide visual design details (e.g., lighting, furniture arrangement, decor) that go beyond the explicit text descriptions to enhance informativeness?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Are the three images visually distinct in style while consistently representing the same underlying room geometry?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is each generated image placed immediately adjacent to or within the text section describing that specific style?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the output contain exactly three rendered images, with one image corresponding to each of the three design possibilities?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]
