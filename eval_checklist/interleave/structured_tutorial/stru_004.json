@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output follow the interleaved format containing both text and images as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial include at least 4 distinct images illustrating the process?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are the generated images presented as realistic photos (photorealistic style) rather than diagrams, sketches, or cartoons?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the tutorial specifically cover the 'hardline' water cooling process (rigid tubing) rather than soft tubing or AIO installation?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text cover the complete workflow requested: heating/bending, connecting/installing, and filling/leak testing?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the text include a list of necessary tools and materials (e.g., heat gun, silicone insert, fittings, coolant) before starting the steps?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text provide actionable details for the bending process, specifically mentioning the use of a silicone insert (bending cord) to prevent tube collapse?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the text include safety warnings or specific precautions (e.g., avoiding overheating/blisters on tubes, leak testing without powering the motherboard)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the text free of grammatical errors and written in a clear, instructional tone using correct terminology (e.g., 'compression fittings', 'water block', 'reservoir')?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Does at least one image clearly depict a heat gun being used to heat a section of tubing?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does at least one image clearly show the hardline tubing being bent or shaped?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does at least one image show the tubing connected to a specific PC component (CPU/GPU water block or radiator) with visible fittings?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does at least one image depict the system being filled with colored coolant or the final filled state?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are the generated images free of severe AI artifacts, particularly on human hands holding tools or on the geometry of the tools themselves?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Are the internal PC components (motherboard, GPU, RAM slots) rendered with recognizable detail and without severe geometric distortion?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Does the image accompanying the 'heating' or 'bending' step semantically match the text (showing the specific action described)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Do the images provide instructional value by clearly showing how components fit together or how tools are applied, rather than just generic PC aesthetic shots?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Are the images placed immediately adjacent to (before or after) the specific text step they illustrate?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Is there at least one image provided for each major phase: (1) Heating/Bending, (2) Installation/Connection, and (3) Filling/Result?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Do the images follow a logical chronological progression (e.g., loose tubes -> heating -> installed tubes -> filled system) matching the text flow?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Do the images of the completed loop demonstrate physically plausible connectivity (tubes connecting components in a loop without floating ends or impossible intersections)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 22,
+    "question": "Does the tutorial successfully depict the 'hardline' nature of the build in the images, avoiding the appearance of flexible/sagging soft tubing?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

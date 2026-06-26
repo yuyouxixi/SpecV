@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text include a preparation step that explicitly instructs the user to place a bucket or container beneath the P-trap to catch wastewater before loosening the nuts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text clearly explain the direction to turn the slip nuts (counterclockwise) to loosen them, or explain that they may be hand-tightened?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text define or explain technical plumbing terms (e.g., 'P-trap', 'slip nut', 'tailpiece', 'washer') suitable for the requested 'complete beginner' audience?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text emphasize the importance of retaining the sealing washers/gaskets and describe their correct orientation (e.g., tapered side facing the joint) during reassembly?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the text written in clear, jargon-free, or well-explained language with an encouraging instructional tone appropriate for a beginner?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Do the generated images accurately depict a U-shaped P-trap pipe located in a confined, under-sink environment?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does at least one image clearly show the P-trap in a disassembled state (removed from the line) with the open pipe ends visible?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the images free from severe AI artifacts, particularly regarding the geometry of hands, tools, pipe threads, and slip nuts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the key mechanical components (slip nuts, threads, joints) rendered with sufficient clarity and resolution to be visually distinguishable?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the image accompanying the 'loosening' step clearly show hands or a tool interacting with the slip nuts at the correct location on the pipe?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the image accompanying the 'catching wastewater' step depicts a bucket or container positioned beneath the trap as described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does at least one image provide instructional value by clearly revealing the sealing washer/gasket, helping the user identify this critical part?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Do the images visually indicate specific hand positions or tool placements for loosening the slip nuts, adding value beyond a static photo of the pipe?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is the pipe material (e.g., white PVC vs. chrome metal) consistent across all images in the sequence?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is each image placed immediately adjacent to (before or after) the specific text step it illustrates?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the tutorial contain at least 5 distinct images covering the major phases: preparation/loosening, draining, removing, cleaning, and reassembly?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Do the images show a logical chronological progression from an intact system, to a disassembled one, and finally to a reassembled state?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Does the tutorial cover all three specific phases requested in the prompt: loosening the slip nuts, catching the wastewater, and reassembling everything?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 19,
+    "question": "Are the images styled as 'actual photos taken from beneath the pipes' (realistic perspective and texture) as strictly requested, rather than diagrams or illustrations?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Does the tutorial include a final step for testing the reassembled connection for leaks (e.g., running water and checking joints)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Does the tutorial include a specific step (text and/or image) for cleaning debris or hair from the removed P-trap, as implied by the goal 'to clean it myself'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

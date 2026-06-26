@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text provide clear, step-by-step instructions specifically for building a 'Log Cabin' style fire, describing the perpendicular or crisscross stacking method?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text explicitly instruct to place tinder or kindling at the very bottom/center before stacking the larger logs?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text specify using thicker logs for the outer stacking layers compared to the tinder and kindling used at the base?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the first image clearly depict tinder or kindling materials (e.g., dry leaves, twigs, paper) placed on the ground?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Do the images depicting the log layers show a clear perpendicular 'crisscross' arrangement (approx. 90-degree angles) rather than parallel stacking?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the images free of severe AI artifacts, such as floating logs, distorted geometries, impossible intersections, or mangled hands?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does each image accurately reflect the specific construction stage described in the adjacent text (e.g., correct number and orientation of logs added for that layer)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Do the images clearly visualize the hollow square/rectangular structure characteristic of a Log Cabin fire to aid user understanding?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the images inserted immediately adjacent to the specific text step they illustrate (e.g., directly following the instruction for a specific layer)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the tutorial strictly follow the constraint to include exactly one image for each layer as it is built?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the visual sequence demonstrate a clear chronological progression, starting from the ground up and growing taller with each step?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the tutorial explicitly identify the fire structure as a 'Log Cabin' style campfire as specified in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do the images depict a visible size difference between the finer tinder/kindling at the base and the thicker logs used for the walls?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

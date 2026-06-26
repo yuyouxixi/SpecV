@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the tutorial text explicitly explain the specific folding method for a swirl pattern (e.g., pinching the center and twisting the fabric into a flat spiral/disk)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial text clearly describe the tying method, specifying how to place rubber bands to create wedge/pie-shaped sections?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text provide specific quantitative details for the 'dye ratio' (e.g., amount of dye powder to water) and the 'soaking time' (e.g., specific hours), as explicitly requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the tutorial include necessary preparation and finishing steps (e.g., gathering materials, pre-wetting the shirt, rinsing until clear, washing)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is the text written in a clear, beginner-friendly instructional tone, free from significant grammatical errors or unexplained terminology?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the image illustrating the 'folding' step visually demonstrate the action of twisting the white T-shirt into a spiral or disk shape?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the image illustrating the 'tying' step accurately show the fabric bundled with rubber bands intersecting to form distinct wedge sections?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the image illustrating the 'dyeing' step show blue dye being applied to the fabric bundle?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the final result image display a T-shirt with a recognizable blue gradient swirl pattern?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are the generated images free from significant AI artifacts, particularly regarding the anatomical correctness of hands and the structure of rubber bands?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Do the images semantically match their adjacent text steps (e.g., the folding image appears next to the folding instructions and accurately depicts that specific action)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the images provide instructional value by demonstrating techniques (e.g., hand positions, dye application zones) rather than just showing static, generic objects?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the 'gradient' aspect visually informative, showing different dye intensities or placement (e.g., saturation changes from center to edge) in the dyeing step image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is each process image placed immediately adjacent to the specific text step it illustrates?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Does the tutorial include at least one distinct image for each major phase: folding, tying, dyeing, and the final result?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the image sequence show a clear chronological progression (White Shirt -> Twisted Spiral -> Bound Bundle -> Dyed Bundle -> Final Swirl Pattern)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Does the output strictly follow the prompt constraints by covering all four required elements: folding method, tying method, dye ratio, and soaking time?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 18,
+    "question": "Does the tutorial specifically address the 'gradient blue swirl' pattern requirement, rather than a different pattern or color scheme?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 19,
+    "question": "Does the tutorial (text or image) explain/demonstrate the logic for achieving the 'gradient' effect (e.g., applying dye with varying saturation or specific placement logic)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

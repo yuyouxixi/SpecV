@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated tutorial explicitly organize the content into the requested stages: Base form, Wings, and Head?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial explicitly state or demonstrate that the dragon origami is folded from a single square sheet of paper, without requiring cuts, glue, or multiple sheets?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the output avoid presenting random disconnected images, instead showing a coherent visual sequence of a single object transforming step-by-step?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Do the text instructions utilize specific origami terminology (e.g., 'mountain fold', 'valley fold', 'squash fold', 'crease') to describe the actions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Do the text instructions provide specific, actionable geometric references (e.g., 'fold the top corner to the center', 'align the edge with the diagonal') rather than vague directions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Do the generated images depict geometric folded paper structures with visible sharp creases, rather than organic, fleshy, or illustrated cartoon dragons?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the generated images free of obvious AI artifacts such as impossible paper geometry, floating disconnected sections, or physically impossible fold configurations?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the image corresponding to the 'Base Form' stage show a recognizable intermediate geometric shape (such as a Bird Base or Preliminary Base) consistent with the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the image corresponding to the 'Wings' stage clearly show the paper being manipulated to form wide, flat wing structures distinct from the body?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the image corresponding to the 'Head' stage clearly show a recognizable dragon head shape (with snout or jaw) being formed?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Do the images accurately depict the specific geometric transformations described in the adjacent text (e.g., if text says 'fold diagonally', the image shows a diagonal crease)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Do the images provide sufficient detail to understand the folding action, showing visible crease lines, layers, or reference points mentioned in the instructions?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do the images demonstrate a logical topological progression where the paper shape gets progressively more complex without impossible jumps or unrelated shapes appearing?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the output presented as an interleaved sequence where images are placed immediately adjacent to the specific text steps they illustrate?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is there at least one specific image generated for each of the three requested major stages (Base, Wings, Head), plus the final result?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the tutorial successfully demonstrate a 'complex' dragon origami (with identifiable wings, head, body, and tail) rather than a simplified or abstract shape?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Does the tutorial conclude with an image of a completed 3D dragon model that plausibly results from the preceding steps?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the tutorial explicitly teach the 'corner-into-corner' folding technique (tucking corner pockets into each other) as requested in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial conclude with a final result depicting the fitted sheet folded into a neat square or rectangle suitable for storage?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text provide logical instructions for combining all four corners (e.g., tucking the first pair, then integrating the third and fourth corners) before the final folds?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the instructional text written in clear, grammatically correct English with a consistent tutorial tone?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Do the images clearly depict a fitted sheet with visible elasticized edges or gathered corners, distinguishing it from a standard flat sheet?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are the images free from significant AI artifacts, such as malformed hands, incorrect numbers of fingers, or physically impossible fabric geometry?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is the fabric texture and folding state rendered clearly enough in the images to distinguish between layers and identify the position of the elastic edges?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the image corresponding to a 'tucking' step visually demonstrate the specific action of one corner pocket being inserted over or into another?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does each image accurately reflect the specific state of the sheet described in its adjacent text (e.g., if the text says 'fold in thirds', the image shows the sheet folded in thirds)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Do the images provide instructional value by showing *how* to hold or manipulate the corners (e.g., hands inside pockets) rather than just showing the sheet lying flat?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do the images clearly show the intermediate states of the folding process, specifically the transition from a messy pile to a structured shape as corners are combined?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the fitted sheet retain the same visual appearance (color, pattern, texture) across every image in the tutorial?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the generated response include a specific image accompanying every distinct folding step, as explicitly requested in the prompt?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Are images placed immediately adjacent to the specific step text they illustrate, creating a clear text-then-image (or image-then-text) flow?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the visual sequence show a clear, logical progression of volume reduction, transitioning from a large drape of fabric to a compact flat shape?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does the tutorial successfully demonstrate the topological transformation of the irregular fitted sheet shape into a regular rectangle (hiding the elastic) before the final folds?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

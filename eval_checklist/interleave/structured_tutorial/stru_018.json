@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output include specific, distinct tutorial sections for all four requested items: broccoli, carrot, strawberry, and banana?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the tutorial presented in an interleaved format (images and text mixed throughout) rather than having all images grouped separately?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the tutorial focus on hand-sculpting techniques (e.g., rolling, pinching, shaping) as requested, rather than using molds or other non-manual methods?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text include a preparation section listing required materials (e.g., clay colors) and tools before the step-by-step instructions begin?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Do the text instructions provide specific, actionable verbs for manipulating clay (e.g., 'roll', 'pinch', 'flatten', 'indent') rather than just describing the final appearance?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the image corresponding to the broccoli steps accurately depict a green, tree-like shape with textured florets?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the image corresponding to the carrot steps accurately depict an orange, tapered cone shape, optionally with green leaves or texture lines?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the image corresponding to the strawberry steps accurately depict a red, conical or heart-like shape with visible seed textures and green leaves?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the image corresponding to the banana steps accurately depict a yellow, curved crescent shape with distinct ends?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the images free of severe AI artifacts or distortions, particularly in the depiction of hands, fingers, and sculpting tools?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the visual content of each step image match the specific action described in the adjacent text (e.g., if text says 'add texture', the image shows texturing)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Do the images accurately reflect the specific clay colors mentioned in the text for each item (e.g., green for broccoli, orange for carrot)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Do the images provide instructional value by showing intermediate states of the clay models (e.g., basic shapes before details) rather than just the final object?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the images placed immediately adjacent to (before or after) the relevant step text they illustrate?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the visual sequence for each item demonstrate a clear logical progression from raw material/basic shape to the final detailed model?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text include clear instructions for initially positioning the book diagonally (at an angle) relative to the wrapping paper?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text explain how to determine the correct size of wrapping paper needed or include a step for trimming it to size?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly explain a technique to secure the wrapping without leaving visible tape on the outside (e.g., using double-sided tape inside, tucking, or a sticker)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text provide specific instructions on how to create crisp, sharp creases (e.g., advising to use a bone folder, ruler, or fingernail)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the first instructional image clearly depict the book positioned diagonally (in a diamond orientation) on the wrapping paper?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the final image show a completed wrapped book with clean edges and no visible clear tape on the exterior surfaces?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do the generated images depict sharp, straight geometric fold lines and paper edges, avoiding wavy, melted, or irregular distortions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does each image accurately depict the specific folding action described in the immediately adjacent text (e.g., the correct corner being folded)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Do the images clearly show the intermediate states of the wrapping process (e.g., flaps partially folded over) rather than just static boxes?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Do the book (size/shape) and wrapping paper (color/pattern) maintain consistent visual properties across all images in the tutorial?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are the images placed immediately adjacent to the text steps they illustrate (e.g., Image 1 next to Step 1 text)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the tutorial include at least one image for every distinct folding step described in the text?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the visual sequence progress chronologically from the initial open paper state to the final wrapped result without missing major state changes?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the tutorial strictly demonstrate the 'diagonal' or 'Japanese-style' wrapping method (book at angle) rather than the standard square wrapping method?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the tutorial adhere to the negative constraint of 'no visible clear tape on the outside' in both the text instructions and the visual depiction?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Do the images correctly render the logical layering of paper overlaps (e.g., showing the correct flap on top based on the folding order)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Do the images accurately maintain the 3D rectangular prism geometry of the book throughout the wrapping process (folds conform tightly to edges)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

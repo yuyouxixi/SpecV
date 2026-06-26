@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output provide a step-by-step tutorial specifically for 'frequency separation' skin retouching?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial include at least 3 distinct images illustrating the retouching process as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does each major instructional step include a corresponding before-and-after comparison (or side-by-side) image to show specific changes?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text cover the complete workflow from separating frequencies (creating Low/High layers) to the final brush blending?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text clearly explain the creation of a 'Low Frequency' layer (for color/tone) and a 'High Frequency' layer (for texture) using appropriate filters (e.g., Gaussian Blur, High Pass/Apply Image)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text provide actionable instructions for the final blending stage, such as specific brush settings, flow/opacity, or masking techniques?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the initial image depict a close-up of facial skin with visible realistic blemishes or imperfections suitable for a retouching demonstration?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the image representing the 'Low Frequency' layer accurately depict the skin as blurry and devoid of sharp texture details, while retaining color information?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the image representing the 'High Frequency' layer accurately depict a predominantly grey or neutral layer that isolates fine details like pores and edges?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the final result image clearly demonstrate the removal of blemishes while strictly preserving the skin's natural pore texture (avoiding a plastic/waxy look)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Do the close-up skin images exhibit high-quality micro-details (pores, fine lines) without obvious AI artifacts, distortions, or unnatural geometric patterns?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Do the images illustrating specific steps (e.g., the grey texture layer or blurred layer) visually match the corresponding text description?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Do the images provide genuine instructional value by showing the actual visual differences between frequency layers rather than just generic skin photos?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Do all generated images (from start to finish) consistently depict the exact same subject, facial region, and camera angle to allow for valid comparison?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the lighting, white balance, and skin tone consistent across the before-and-after images, ensuring differences are attributable only to the retouching steps?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Are the images placed in immediate proximity (adjacent) to the relevant textual steps they illustrate?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is there a corresponding image provided for each key stage of the process (Original, Low Freq, High Freq, Final Result)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Does the sequence of text and images follow a logical chronological progression from the raw image to the separated layers and finally the retouched outcome?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Does the model successfully generate the specific technical intermediate state of a 'High Frequency' texture layer (grey with edges) distinct from a normal photo?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

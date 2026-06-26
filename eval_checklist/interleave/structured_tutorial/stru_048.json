@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text clearly describe a recipe that includes all three required components: a staple food, a protein source, and fruits or vegetables?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the textual content structured specifically as a recipe, featuring a list of ingredients followed by sequential preparation steps?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Do the preparation instructions respect the '5-minute quick breakfast' constraint (e.g., utilizing quick-cook ingredients or simple assembly rather than time-consuming cooking methods)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text specify clear quantities and actionable instructions (e.g., '1 egg', 'slice the apple') rather than vague descriptions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the text written in an engaging, instructional tone suitable for social media, and free from grammatical errors?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the tutorial include an image clearly displaying the raw ingredients or the initial setup before preparation begins?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Are the images free from significant AI artifacts, particularly on hands, utensils, or food textures?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "If text labels are generated within the images, are they properly typeset and legible without garbled characters (if no text is present, answer Yes)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Do the images corresponding to specific steps accurately depict the exact food items and actions described in the text (e.g., showing a fried egg if the text mentions frying an egg)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the final result image clearly show a completed bento box containing the staple, protein, and fruit/vegetable components mentioned in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the same bento box (shape, color, and style) used consistently across all images where it appears?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Do the food items maintain visual continuity (same appearance, color, size) as they progress from preparation to final assembly?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do the images provide instructional value by showing meaningful intermediate states (e.g., packing arrangement) rather than just static shots of ingredients?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are the images interleaved immediately adjacent to their corresponding instructional steps (e.g., the packing image appears right after the packing text)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the tutorial contain at least one distinct image for each major phase of the process (ingredients, prep/cooking, packing)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Do the images, when viewed in sequence, show a clear chronological progression from raw ingredients to the final packed bento?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

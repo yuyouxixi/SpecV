@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output follow the requested interleaved format, presenting images interspersed with text steps rather than clustering all images together?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial explicitly cover all four specific stages requested: pencil sketching, laying down base washes, detailing feathers, and adding eye highlights?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the subject of the tutorial specifically a kingfisher painted in a watercolor style (as opposed to another bird or medium)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text provide actionable technical advice relevant to watercolor painting, such as mentioning specific techniques like 'wet-on-wet' or 'dry brush'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the instructional text written in a clear, logical step-by-step tone suitable for a beginner?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Do the generated images visually simulate the characteristic texture and appearance of watercolor paint on paper (e.g., paper grain, transparency, water stains)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the generated images free from significant anatomical distortions (e.g., malformed beak, extra limbs) or severe digital artifacts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the image accompanying the 'pencil sketching' step depict a monochromatic line drawing or outline of the kingfisher without applied colored paint?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the image accompanying the 'base washes' step show soft, diffused colors with bleeding edges, consistent with the requested wet-on-wet effect?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the image accompanying the 'detailing feathers' step show sharper, more defined brushstrokes (dry brush style) overlaid on the softer base washes?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the final image clearly depict a completed kingfisher with a distinct white highlight in the eye as requested?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Do the images provide instructional value by clearly showing the distinct visual state of the painting at each stage (e.g., distinguishing between the wash stage and the detail stage)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the kingfisher maintain consistent proportions, pose, and head angle across all progress images (from sketch to final)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is there at least one unique progress image provided for each of the four major transition points (sketch, wash, detail, finish)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is each progress image placed immediately adjacent to the specific text step it is intended to illustrate?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Do the images display a logical chronological progression where color density and detail increase sequentially without regressing?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Do the images successfully simulate the specific 'bleeding effect' of watercolor as requested in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

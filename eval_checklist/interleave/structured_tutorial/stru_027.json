@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the tutorial text explicitly mention that the total animation duration is approximately 3 seconds, as specified in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial include instructions for BOTH keyframe-based animation techniques AND expression-based animation (e.g., wiggle, loopOut) as explicitly requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the tutorial cover all three required animation phases: (1) particles converging to form the logo, (2) the logo fully forming, and (3) a ring of light waves emitting?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the tutorial provide screenshots of the preview effect for the steps, illustrating the visual progression of the animation?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text provide clear, numbered, step-by-step instructions covering the workflow from setup (composition creation) to the final result?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text specify the names of built-in After Effects tools or effects (e.g., CC Particle World, Radio Waves, Shatter, or Shape Layers) used to achieve the described result?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the tutorial provide at least one concrete expression code snippet (e.g., `wiggle(5, 50)` or `time * 100`) rather than just a vague instruction to add an expression?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the text written using correct After Effects terminology (e.g., 'Composition', 'Timeline', 'Keyframes', 'Effect Controls', 'Pick whip') and free from major grammatical errors?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Do the generated images accurately depict recognizable After Effects interface elements, such as the Composition panel, Timeline, or Effect Controls panel?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Are the text labels and UI elements within the generated screenshots (e.g., layer names, property values, timecodes) legible and free from severe AI artifacts or gibberish?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the image corresponding to the 'converging particles' step visually depict scattered dots, shards, or particles moving towards a central point or shape?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the image corresponding to the 'light waves' step clearly show a ring-like, ripple, or glowing wave effect expanding outwards from the logo?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do the images maintain visual consistency regarding the logo subject (same shape/color) and the interface theme (same layout/style) across all steps?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are the images interleaved immediately adjacent to the specific step text they are meant to illustrate?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Do the sequential images show a clear chronological progression: Scattered Particles → Formed Logo → Expanding Waves?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

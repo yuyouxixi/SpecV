@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Do all generated images strictly depict black dog nails, avoiding any instances of white, clear, or light-colored nails as explicitly requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial explicitly teach the technique of locating the quick by examining the cross-section of the nail from the underside of the paw?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the generated images predominantly close-ups focused on the paw and nails, rather than distant or full-body shots of the dog?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text clearly describe the specific visual indicators to look for when trimming black nails, such as a chalky ring, a gray/white dot, or a 'bullseye' pattern on the cut surface?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text provide specific instructions on the proper cutting angle (e.g., 45 degrees) or clipper positioning relative to the nail?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text include safety advice on what to do if the quick is accidentally cut (e.g., applying styptic powder or cornstarch)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the tutorial include at least one clear image showing the cross-section (cut surface) of a black nail or the view from the underside of the paw?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "In the cross-section or underside images, is the quick indicator (e.g., a lighter central dot, ring, or oval) clearly distinguishable from the surrounding black nail material?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the close-up images sharp and free from significant distortions, allowing clear visibility of the nail texture and anatomical landmarks?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Are the depicted paws and tools free from obvious AI artifacts (e.g., extra toes, warped clipper blades, unnatural joints, or impossible mechanics)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the image illustrating the cutting action visually match the angle and tool positioning described in the corresponding text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the image corresponding to the 'underside examination' step accurately depict the perspective of looking at the paw or nail from below?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do the images provide necessary visual information that is difficult to convey via text alone, such as the exact appearance of the 'safe' vs. 'unsafe' cross-section?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is each image placed immediately adjacent to the specific text step it illustrates, rather than being clustered at the beginning or end of the response?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the tutorial include at least 4 distinct images covering major steps (e.g., paw positioning, underside examination, cutting angle, trimming action)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Does the sequence of text and images follow a logical, chronological progression from initial preparation/inspection to the final trimmed result?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Does the text explicitly advise making small, incremental cuts (e.g., 1-2mm slices) and checking the surface frequently, addressing the specific difficulty of judging depth on black nails?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

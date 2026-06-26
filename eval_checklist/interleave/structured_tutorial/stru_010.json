@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the tutorial contain exactly 4 distinct stretching exercises as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are all 4 exercises specifically relevant to correcting rounded shoulders or kyphosis (e.g., chest openers, thoracic extensions, wall angels)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are all exercises designed to be performed at home without requiring specialized gym equipment (using only bodyweight or common household items like a wall/doorway)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text for each exercise explicitly include a section or detailed description of 'key engagement points' (e.g., specific muscles to feel, alignment cues)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text for each exercise explicitly describe 'common mistakes' to avoid?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does each exercise include actionable step-by-step instructions that specify duration (time or breaths) or repetition counts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Do all demonstration images depict a photorealistic 'real person' rather than cartoons, sketches, or 3D abstract models?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are the human figures in the images free from severe anatomical hallucinations (e.g., no extra fingers, distorted faces, missing limbs, or unnatural joint bends)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the demonstration images of sufficient resolution and clarity to allow the user to clearly discern body positioning and posture details?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the image for each exercise accurately reflect the specific pose, equipment, and starting position described in the accompanying text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the images visually communicate the 'key engagement points' or 'common mistakes' (e.g., through visual emphasis, annotations, or clear form demonstration) as requested in the prompt?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Do the images clearly demonstrate correct ergonomic form, enabling a user to understand the movement visually without relying solely on the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is there at least one demonstration image provided for each of the 4 exercises?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are the images placed immediately adjacent to the specific exercise text they illustrate, ensuring a logical flow?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the tutorial follow a logical sequence (e.g., introduction -> exercises -> conclusion) and clearly delineate each exercise?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Are the depicted stretching movements biomechanically safe and plausible for someone with postural issues (avoiding extreme hyperextension or dangerous loading)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

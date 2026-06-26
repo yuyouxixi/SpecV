@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text include clear, actionable instructions for preparing the nerikiri dough, mentioning key ingredients (e.g., white bean paste/shiro-an and gyuhi/binder) and portioning?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text provide specific guidance on coloring the dough, including instructions for creating the pink/red gradient shades required for the peony petals?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text describe specific shaping techniques (e.g., pinching, pressing, rolling, using tools) rather than just high-level descriptions like 'shape into a flower'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text correctly use or explain traditional wagashi terminology (e.g., nerikiri, bokashi, anko) where relevant?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Does the image for the dough preparation step accurately depict nerikiri dough (smooth, pliable paste) rather than a generic flour dough?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the final image display a completed, realistic peony-shaped wagashi with visible layered petals and gradient coloring?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the hands shown in close-up images free from severe AI artifacts (e.g., extra fingers, distorted joints, merged digits)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Do the images exhibit a realistic texture characteristic of nerikiri (smooth, slightly translucent, edible appearance) without plastic or cartoon-like artifacts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the image corresponding to the 'color blending' step visually match the text description (e.g., showing a gradient transition or marbling)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the image illustrating the dough layering step accurately show multiple layers or wrapping as described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "If specific tools (e.g., triangular stick/sankaku-bou, skewer) are mentioned in the text, do the corresponding images clearly display those tools being used?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does each image depict the specific intermediate state described in the adjacent text (e.g., a ball vs. a partially shaped flower)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Do the images provide informative visual cues for micro-operations, such as the angle of a tool or finger position during shaping?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Do the images demonstrate clear intermediate states (e.g., partially formed petals) rather than just the starting and ending states?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are images placed immediately adjacent to their corresponding step text (either directly before or after) throughout the tutorial?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is there at least one image for each major phase: preparation, coloring, layering, shaping, and final assembly?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Are multiple images provided for the complex shaping phase to capture the detailed progression of petal formation?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Does the visual sequence show a logical chronological progression where the dough becomes progressively more flower-like in each subsequent image?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is the final shaped wagashi specifically a peony flower design as requested, distinguishing it from generic flowers?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 20,
+    "question": "Does the tutorial cover the complete workflow from dough preparation/coloring to final shaping and presentation?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Tutorial Completeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Does the tutorial include a distinct step for wrapping a filling core (e.g., anko ball) with the nerikiri dough, a standard step in wagashi making?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Tutorial Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 22,
+    "question": "Do the images include close-up shots of hands performing delicate operations (e.g., pinching, using tools) to address the difficulty of the shaping task?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 23,
+    "question": "Is the technique for layering different colored doughs (to create petal depth) clearly illustrated in the images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 24,
+    "question": "Does the tutorial include a step showing how petal grooves or separations are created to achieve the specific peony structure?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

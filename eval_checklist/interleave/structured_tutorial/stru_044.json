@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output explicitly organize the tutorial into the four required phases: removing the plant, loosening the root ball, pruning rotten roots, and replanting?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Tutorial Completeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text include a list of necessary materials (e.g., new pot, fresh soil, scissors/shears) or a preparation step before the main instructions begin?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Do the text instructions provide specific, actionable techniques for removing the plant and loosening the root ball (e.g., tilting the pot, using fingers or a tool to tease roots)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text explain how to identify rotten roots (e.g., by dark color, mushy texture, or smell) and instruct the user to trim them?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text specify that the new container should be larger than the previous one and mentions the importance of drainage?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the text grammatically correct, fluent, and written in an imperative, instructional tone suitable for a home gardener?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Do the images clearly depict a Monstera deliciosa, identifiable by its large, fenestrated (split) green leaves?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the image sequence include a clear depiction of the 'root-bound' state, showing a dense root mass that retains the cylindrical or tapered shape of the pot?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the tutorial include an image depicting the use of a cutting tool (e.g., shears or scissors) being applied to the roots?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the final image clearly show the successfully repotted Monstera standing upright in its new container?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Are the generated images free of severe anatomical distortions (e.g., malformed hands) and artifacts, particularly in complex details like root networks and tools?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the image illustrating the 'removal' step visually match the specific technique described in the text (e.g., tilting, pulling, or sliding out)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the image for 'loosening the roots' visually reflect the method described in the text (e.g., using fingers vs. using a specific tool)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the image for 'trimming/pruning' accurately show the tool described in the text being applied to the roots?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Do the images visually distinguish between healthy roots (typically light/firm) and rotten roots (dark/mushy) to aid the user in identification?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Do the images effectively illustrate the *degree* of root processing required, showing a visible transformation from a solid block to a spread-out system?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Do the images provide instructional value by showing *how* actions are performed (e.g., hand positions, cutting angles) rather than just showing static poses of the plant?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Does the sequence of images show a logical, continuous transformation of the root system (compact → loosened → pruned) without unexplained state jumps?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Is each image placed immediately adjacent (before or after) to the specific text step it illustrates?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Is there at least one image included for each of the four major phases (removal, loosening, pruning, replanting)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 21,
+    "question": "Is the output formatted as an interleaved sequence of text and images as explicitly requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 22,
+    "question": "Does the model successfully generate a realistic, complex root-bound texture (dense, circling roots) rather than a generic or sparse root system?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 23,
+    "question": "Does the tutorial successfully visualize the specific 'root pruning' action, clearly showing the removal of parts of the root system while preserving the healthy bulk?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

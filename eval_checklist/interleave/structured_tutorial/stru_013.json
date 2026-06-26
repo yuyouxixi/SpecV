@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text include critical safety preparations such as turning on hazard lights, engaging the parking brake, or using wheel chocks before the jacking process begins?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the text formatted as a clear, step-by-step guide (e.g., numbered list) with an appropriate emergency instructional tone?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the image depicting the jack clearly show it contacting a reinforced lift point (chassis/frame) rather than a body panel or plastic trim?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "In the lug nut removal image, is the wrench shown properly seated on a lug nut with realistic physical alignment?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Are the mechanical tools (jack, wrench) and vehicle components rendered with realistic geometry, free from severe AI artifacts like floating objects or impossible intersections?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the content of each image strictly correspond to the specific action described in the adjacent text step (e.g., 'wheel removed' shows the hub without the wheel)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Do the images provide informative visual details (e.g., specific angles, close-ups of tool placement) rather than generic wide shots?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is each image placed immediately adjacent (before or after) to the text step it is intended to illustrate?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the guide include at least 5 distinct steps covering the core workflow (Safety, Jacking, Removal, Installation, Lowering)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Do the images collectively form a coherent chronological sequence from the flat tire to the installed spare?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the tutorial include an image for each major step, as explicitly requested in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the tutorial cover the full requested scope, starting from 'locating the jack point' and ending with 'removing and installing lug nuts'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the guide correctly sequence the 'loosen lug nuts' step to occur *before* the 'jack up vehicle' step to ensure safety?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the tutorial explicitly address the 'star' or 'diagonal' tightening pattern in either the text or visual overlays?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Does the text or image explicitly identify the correct jack point location (e.g., pinch weld), distinguishing it from arbitrary under-car locations?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

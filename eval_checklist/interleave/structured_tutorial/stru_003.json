@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text explicitly mention the use of all three specified materials: Fittonia (nerve plants), Leucobryum moss (white cushion moss), and Akadama soil?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are the textual instructions logically ordered, starting with the drainage/base layer, followed by the soil layer, and finishing with the moss placement and planting?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text provide actionable details for the steps, such as specifying approximate layer depths (e.g., in cm or inches) or specific placement techniques?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the image corresponding to the soil step visually depict granular, reddish-brown clay-like particles consistent with Akadama soil?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the image corresponding to the moss placement step accurately depict Leucobryum moss (white/pale green cushion-shaped mounds)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the image corresponding to the planting step clearly show plants with the distinctive vein patterns characteristic of Fittonia (nerve plants)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is there a distinct image generated for each of the key stages: base layer, soil addition, moss placement, and planting?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Are the images interleaved immediately following or alongside their corresponding textual step description?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the image for the first step (base layer) show only the drainage material in the container, without prematurely displaying soil, moss, or plants?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Do the images provide instructional value by clearly showing the side profile of the transparent container to illustrate the separate layers?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do the images demonstrate a consistent progressive accumulation of layers, where the bottom drainage layer remains visible beneath the soil layer in subsequent steps?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the final image depict a completed terrarium containing all the specified elements (Akadama, Fittonia, Moss) arranged together?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 10.0
+  }
+]

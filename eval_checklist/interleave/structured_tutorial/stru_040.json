@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text explicitly include instructions for all requested steps: aligning the tape, applying it flat, burnishing edges with a screwdriver, and cutting with a utility knife?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text provide actionable instructions for applying the tape flat and avoiding air bubbles (e.g., smoothing from the center outward)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the text written in clear, grammatically correct English with an imperative instructional tone suitable for a DIY tutorial?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Do the images clearly render the grip tape with a coarse, granular, sandpaper-like texture (black color) rather than a smooth surface?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Are the images free from severe AI artifacts, such as distorted hands, extra fingers, or melted tools?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the image corresponding to the 'aligning/sticking' step clearly show the grip tape being positioned over or pressed onto the deck?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the image corresponding to the 'burnishing' step visually demonstrate a screwdriver being rubbed along the edge of the skateboard deck?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the image corresponding to the 'cutting' step visually demonstrate a utility knife trimming the excess tape along the deck's edge?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Do the images effectively illustrate the specific hand positions or tool angles needed for the actions (e.g., holding the knife against the edge)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the same skateboard deck (consistent shape, color, and wood grain) shown across all images in the tutorial?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is each image placed immediately adjacent to (before or after) the specific text step it illustrates?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do the images show a clear chronological progression of the deck's state (from bare/aligning -> rough edges -> burnished edges -> clean cut)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the tutorial strictly adhere to the constraint of using a screwdriver for burnishing (not a file or skate tool)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the tutorial strictly adhere to the constraint of using a utility knife for cutting (not scissors)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Do the images effectively show the transition from rough, overhanging tape to a cleanly trimmed edge matching the deck's contour?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

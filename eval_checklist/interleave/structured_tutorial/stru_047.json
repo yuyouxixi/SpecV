@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the tutorial cover the complete workflow requested: removing old grout, applying new epoxy sealant, and smoothing with a finishing ball?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Tutorial Completeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text explicitly mention the use of \"two-component epoxy\" (or 2-part epoxy) and the \"grout finishing ball\" as requested in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are all images presented as close-up macro shots focusing on the tile grout lines as explicitly requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text provide actionable details for the removal process (e.g., scraping angle, force, or specific tool motion) rather than just stating \"remove the grout\"?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text include necessary auxiliary steps such as preparation (e.g., cleaning debris/vacuuming) or post-application cleanup (e.g., wiping excess)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the initial image clearly depict the \"before\" state with visibly black and moldy grout lines?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the generated images free from significant AI artifacts (e.g., distorted tools, malformed hands) and high-resolution enough to distinguish grout texture?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the image corresponding to the \"removal\" step visually show a grout removal tool engaging with the tile gaps?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the image corresponding to the \"smoothing\" step visually show a grout finishing ball (spherical tool) being used on the line?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Do the ceramic tiles (color, pattern, texture) remain visually identical across all images, ensuring the viewer understands it is the same floor section?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Is each image placed immediately adjacent to the text step it illustrates?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is there at least one specific image provided for each major phase: removal, application, and smoothing?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the sequence of images exhibit a logical chronological progression of the grout state: Moldy -> Hollow/Empty -> Wet/Filled -> Smooth/Finished?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the image following the removal step accurately depict a \"hollowed-out\" channel or deep gap between the tiles, distinct from a filled line?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the image for the application step visually demonstrate a viscous, wet substance (the epoxy) filling the gap?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Does the final image show a smooth, clean grout line finish that clearly contrasts with the initial moldy state?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

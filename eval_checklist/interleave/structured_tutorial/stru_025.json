@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the tutorial text clearly explain specifically *when* to use the 'wet-on-wet' technique (e.g., for atmospheric background or soft washes) and *when* to use the 'dry brush' technique (e.g., for reed textures or feather details)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial cover the complete process starting from a compositional pencil sketch and ending with the final completed watercolor illustration?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the generated content (text and images) include all three required subject elements: reeds, dewdrops, and an egret?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text provide actionable, operational instructions for the 'wet-on-wet' technique (e.g., wetting the paper first, dropping in color) and the 'dry brush' technique (e.g., removing excess water, using the side of the brush)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the instructional text written in a clear, imperative tutorial tone with correct grammar and logical flow?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the image corresponding to the 'Pencil Sketch' step clearly show a line-art drawing of the egret and reeds on blank paper, without color?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the image corresponding to the 'Wet-on-Wet' step visually demonstrate the technique, showing pigments bleeding, blooming, or blending softly on a wet surface?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the image corresponding to the 'Dry Brush' step visually demonstrate the technique, showing textured, broken strokes or sharp lines on dry paper?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the final image show a completed watercolor illustration featuring the 'Bailu' theme with reeds, dewdrops, and an egret?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Are the generated images free of significant AI artifacts, particularly in detailed areas like the egret's anatomy (beak, legs) or the shape of the dewdrops?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does each image semantically match its adjacent text (e.g., the wet-on-wet image is placed next to the wet-on-wet instructions and depicts that specific state)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Do the images provide instructional value by clearly showing intermediate states of the painting (e.g., unfinished background, partially detailed reeds) rather than just showing the finished artwork repeatedly?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Do the images clearly visualize the textural difference between the soft, diffused effects of wet-on-wet and the sharp, rough effects of dry brush?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Do all generated images maintain consistent composition (e.g., the egret and reeds remain in the same position relative to the paper edges) throughout the progression?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the images interleaved immediately adjacent to the relevant step's text, rather than grouped separately at the beginning or end?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the tutorial include at least one distinct image for each of the major process stages (Sketch, Wet-on-Wet Background, Dry Brush Details, Final Result)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the visual sequence show a clear chronological progression where the paper starts white/sketched and gradually becomes filled with color?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

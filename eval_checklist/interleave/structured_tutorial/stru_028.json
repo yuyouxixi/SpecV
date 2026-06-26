@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the tutorial explicitly cover all four requested phases: leather cutting, hole punching, stitching, and edge finishing?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial include a final image showing the completed minimalist-style leather card holder?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text include specific, actionable details such as measurements (e.g., leather thickness, stitch spacing) or safety notes for handling sharp tools?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text use beginner-friendly language, defining technical terms (e.g., 'pricking irons', 'saddle stitch', 'burnishing') when first introduced?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text explicitly explain the 'saddle stitch' technique, describing the use of two needles passing through the same hole from opposite directions?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Do the images depicting 'hole punching' accurately show diamond pricking irons (tools with multiple pronged teeth) rather than generic round punches or drills?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the generated images free from severe anatomical distortions (e.g., malformed hands/fingers) and obvious AI artifacts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the image for the leather cutting step show a knife being used with a ruler or straightedge on a cutting mat, matching standard leatherworking practices?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the image for the hole punching step show the pricking irons positioned on the leather (e.g., on a marked line), consistent with the text instructions?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the edge finishing step include an image clearly showing a finishing action (e.g., burnishing, sanding, or applying edge paint)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Do the stitching images clearly visualize the technique, showing needle positions, thread paths, or the two-needle grip in a way that aids instruction?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Do the leather pieces and tools maintain consistent appearance (color, texture, tool type) across all steps (e.g., the same knife and leather color throughout)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the final product shown in the last image match the visual features (leather color, shape, stitching) of the intermediate steps?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is an image inserted immediately adjacent to each major instructional step (Cutting, Punching, Stitching, Finishing) to illustrate that specific action?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Does the tutorial include at least one image for each of the four major phases to adequately illustrate the process?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Do the images show a logical chronological progression of the project state (raw -> cut -> punched -> stitched -> finished)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

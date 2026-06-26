@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the first generated image ('Image 1') depict a half-body indoor portrait with natural lighting and visible imperfections (e.g., uneven skin, acne, dark circles, flyaway hairs) in a 'raw photo style'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does 'Image 1' feature a cluttered background with distracting objects, as explicitly requested to set up the background cleanup step?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the tutorial text cover all 8 requested steps in the specified order: Crop → Exposure/WB → Background → Frequency Separation → Dodge & Burn → Catchlight/iris → Teeth → Color grading?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text for the 'Background cleanup' step explicitly mention using tools like the Healing Brush or Content-Aware Fill?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the 'Frequency Separation' section provide actionable, reproducible parameters, specifically mentioning a Gaussian Blur radius value and the Blend Mode (e.g., Linear Light/Subtract) for the high-frequency layer?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the 'Dodge & Burn' section specify a concrete method (e.g., 50% Gray Layer or Curves) and emphasize low brush flow/opacity settings?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the generated 'Image 2' (Layers/Mask diagram) visually represent a layer structure or mask interface rather than being a generic portrait?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does 'Image 2' include a semi-transparent red overlay that marks specific areas, satisfying the explicit visual constraint for the mask diagram?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the semi-transparent red overlay in 'Image 2' accurately correspond to the areas described in the adjacent text (e.g., showing where a mask is applied)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is 'Image 2' placed adjacent to a relevant technical step (e.g., Frequency Separation, Dodge & Burn, or Background Cleanup) rather than randomly inserted?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the 'Overall color grading' step provide specific numerical values or settings for Curves, Selective Color, or LUTs?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the 'Final result' ('Image 3') depict the exact same person as 'Image 1' (consistent facial features, pose, and hair structure)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Does 'Image 3' show noticeably improved skin texture (reduced acne/dark circles) while maintaining visible pores and avoiding a 'plastic' or 'wax figure' appearance?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the background in 'Image 3' cleaned of distracting objects (consistent with the text instructions) while maintaining the same general environment and lighting as 'Image 1'?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Do the teeth and eyes in 'Image 3' appear natural, avoiding unrealistic blue tints on teeth or unnatural glowing artifacts in the eyes?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does the tutorial conclude with a specific section containing a 'Checklist', 'Common pitfalls', and 'One-click alternative solutions'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Do the 'One-click alternative solutions' provide concrete parameters (e.g., specific slider values for Lightroom/Mobile apps) rather than just naming apps?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Does the output contain at least 3 distinct images (Original, Mask Diagram, Final Result) placed in a logical chronological order (Start, Middle, End)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Are all generated images free of severe AI artifacts such as distorted hands, melted objects, or malformed facial features?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Does the visual progression from 'Image 1' to 'Image 3' clearly demonstrate the effectiveness of the taught retouching workflow?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

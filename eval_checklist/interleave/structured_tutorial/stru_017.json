@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the tutorial text clearly list the essential ingredients for authentic Crème Brûlée, specifically heavy cream, egg yolks, sugar, and vanilla?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the text include instructions or a warning about 'tempering' the eggs (slowly adding hot cream to yolks) to prevent them from scrambling?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text provide specific baking parameters, including a temperature range and a visual doneness cue (e.g., set edges with a jiggly center)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the tutorial text include a mandatory chilling/refrigeration step for the custard before the final sugar topping and torching steps?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the instructional text written in clear, grammatically correct English with an imperative style appropriate for a step-by-step cooking guide?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the image depicting the baking step accurately show a 'bain-marie' (water bath) setup, with ramekins placed in a larger pan filled with water?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the image for the caramelization step clearly depict a culinary torch being used to melt the sugar on the surface of the custard?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the final image in the sequence show a completed Crème Brûlée with a visibly hardened, glossy, and caramelized sugar crust?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the generated images free from significant AI artifacts, particularly in detailed areas such as hands holding tools, the torch flame, or the shape of the ramekins?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Do the close-up images, especially of the custard texture and caramelized sugar, possess sufficient resolution and clarity to be instructionally useful?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do the images adjacent to specific action steps (e.g., pouring, straining, or torching) semantically match the actions described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Do the images provide instructional value by clearly visualizing the change in custard texture from a raw liquid mixture to a set, baked dessert?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is every major instructional step (Ingredients, Mixing, Pouring, Baking, Torching) accompanied by at least one adjacent image?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the visual sequence establish a clear chronological progression from raw ingredients to the finished dessert without logical gaps?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Does the tutorial include particularly detailed or close-up shots specifically for the baking and caramelization steps, as explicitly requested in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Does the tutorial cover the complete workflow starting from ingredient preparation and ending with the final torching step?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text clearly explain the 'figure-8' technique, specifically describing the diagonal crossing pattern over the front of the ankle?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text include a specific step for anchoring the bandage (e.g., around the ball of the foot) before starting the figure-8 pattern?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text provide specific directional guidance (e.g., 'inside to outside', 'up and around') to assist with orientation?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text include safety warnings regarding circulation (e.g., checking for numbness, discoloration) or bandage tightness?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text include preparation steps, such as positioning the foot at a 90-degree angle or gathering necessary materials?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text instruct the user on how to secure the end of the bandage (e.g., using clips, tape, or tucking)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do all generated images depict an anatomically correct foot and ankle, avoiding artifacts like extra toes, missing heels, or impossible joint angles?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are the images rendered as clear close-ups of the foot/ankle area, allowing for easy visual verification of the wrapping technique?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the image corresponding to the anchoring step visually match the text (e.g., showing the bandage wrapped around the ball of the foot)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the image corresponding to the figure-8 crossing step clearly depict the bandage crossing diagonally over the instep/front of the ankle?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the final image visually reflect a completed figure-8 wrap with the bandage secured?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Do the images clearly imply the direction of the wrap (e.g., via tension lines, hand placement, or arrows) to aid understanding?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the bandage consistent in color, width, and visual style across all images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is each image placed immediately adjacent to the relevant step text (e.g., before or after the paragraph) rather than grouped at the end?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is there at least one image included for every major phase of the wrapping process (anchoring, crossing, finishing)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Do the images show a logical chronological progression, with bandage coverage visibly increasing step-by-step from bare foot to fully wrapped?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Does the tutorial specifically teach the 'figure-8 wrapping technique' (crossing pattern) rather than a simple spiral or other method?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 18,
+    "question": "Does the response include a final image explicitly displaying the completed wrap as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 19,
+    "question": "Does the model successfully demonstrate the complex spatial relationship of the figure-8 pattern (crossing between ankle and foot) in the images without spatial hallucinations?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

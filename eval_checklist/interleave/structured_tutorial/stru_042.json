@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text provide a comprehensive, logically sequenced guide covering the full repair process, from wheel removal/preparation to the final reinstallation of the tire?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial text include a distinct step for prying the outer tire bead off the rim using tire levers?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the tutorial text include a distinct step for locating the puncture in the inner tube (e.g., by listening, feeling, or using water)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the tutorial text include a distinct step for roughening or sanding the area around the puncture to prepare it for the patch?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the tutorial text include a distinct step for applying the patch (including glue application if mentioned) and pressing it firmly to secure it?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the tutorial text include a safety/verification step to check the inside of the outer tire for sharp objects before reinstalling the tube?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Are the textual instructions presented in a clear, numbered, or step-by-step format suitable for easy following during a roadside repair?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Do the images accurately depict the tire levers as recognizable tools (typically plastic with a hooked end) inserted between the rim and tire bead?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Are the generated images free from severe AI artifacts such as distorted hands, malformed tools, or anatomically incorrect finger positioning?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Are the images sufficiently clear and focused to distinguish separate components (rim, outer tire, inner tube, spokes) without blurring together?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does each image semantically match the specific text step it accompanies (e.g., the image for 'roughening' shows sanding, not prying)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the image accompanying the prying step specifically show the action of the lever lifting the tire bead away from the rim?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the image accompanying the patch application step show the patch being placed or pressed onto the tube, matching the text description?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Do the images provide instructional value by showing correct technique (e.g., lever angle, hand placement) rather than just static objects?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is each image placed immediately adjacent to (before or after) the specific text step it illustrates?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Does the output strictly follow the prompt constraint to include an image for *each* major step (Prying, Roughening, Patching, etc.)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Do the images show a logical chronological progression of states (Mounted Tire -> Bead Off -> Tube Out -> Patched -> Reassembled)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Does the tutorial explicitly illustrate the use of both tire levers and tire patches as required by the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Is the content framed appropriately for a roadside repair scenario (e.g., using portable tools, not a workshop stand)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Do the images correctly depict the spatial layering relationships: rim inside, inner tube in the middle, and outer tire on the outside?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

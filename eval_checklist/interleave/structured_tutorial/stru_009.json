@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the tutorial output strictly follow the interleaved format, alternating between instructional text and corresponding images rather than grouping them separately?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial text explicitly cover all five requested phases: marking lines, rough hollowing, shaping the exterior, sanding, and oiling?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the tutorial specifically utilize walnut wood as the material, avoiding substitution with other wood types in the text or visual appearance?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text provide actionable instructions for the 'marking lines' phase, specifying layout details like centerlines, bowl location, or the spoon outline?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text provide actionable instructions for the 'rough hollowing' and 'shaping' phases, mentioning specific tool usage (e.g., hook knife, sloyd knife) or cutting techniques?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text provide actionable instructions for the 'sanding' and 'oiling' phases, mentioning grit progression or specific oil application techniques?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the instructional text grammatically fluent and consistently written in a clear, helpful tone appropriate for a beginner woodworker?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is there at least one distinct image generated for each of the five major stages (marking, hollowing, shaping, sanding, oiling)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Is each image positioned immediately adjacent to the specific text step it illustrates, ensuring a logical reading flow?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the visual sequence demonstrate a logical subtractive manufacturing process, where the wood volume visibly decreases from a block to a finished spoon across the steps?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the image corresponding to the 'marking lines' step clearly show a rectangular block of wood with a visible outline or guide lines drawn on the surface?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the image corresponding to the 'rough hollowing' step accurately depict a concave cavity being excavated in the bowl area, showing depth or tool marks?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the image corresponding to the 'shaping' step show the exterior profile of the spoon (handle and back of bowl) being defined, distinct from the initial block shape?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the image corresponding to the 'sanding' step visually depict a change in surface texture, appearing significantly smoother and less faceted than the previous carving steps?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the final image for the 'oiling' step show a completed spoon with a richer, more saturated color or sheen, characteristic of an applied finish on walnut?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Are the generated images free of significant AI artifacts, such as distorted hands, floating tools, or physically impossible wood geometry?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "If specific tools are mentioned in a step's text (e.g., a hook knife or sandpaper), do the corresponding images depict those tools or the specific marks left by them?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Do the images provide specific instructional value by clearly showing the intermediate states of the wood (e.g., partially carved block), rather than just generic woodworking stock photos?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Does the visual sequence successfully capture the texture transition from rough tool marks in the early stages to a smooth, polished finish in the final stages?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

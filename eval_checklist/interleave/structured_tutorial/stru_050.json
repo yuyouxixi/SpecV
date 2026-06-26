@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output strictly follow an interleaved format with alternating text and image blocks (e.g., Text, Image, Text, Image) as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial include at least one dedicated image for each major instructional phase (Cleaning, Dust Removal, Alignment, Application, Bubble Removal)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Are images placed immediately adjacent to the specific text step they illustrate, ensuring a logical flow?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are the textual steps logically sequenced in a practical order (Preparation → Cleaning → Dust Removal → Alignment → Application → Bubble Removal)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text explicitly list or mention necessary tools, including a microfiber cloth, alcohol wipe, dust removal sticker, and a squeegee or card?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text describe a specific technique to ensure alignment or prevent bubbles, such as the 'hinge method', working in a steamy bathroom, or using guide stickers?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Do the images accurately depict the specific tools mentioned in the text (e.g., a dust sticker looks like a sticker, not a cloth) rather than generic objects?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Are the images free from severe AI artifacts, such as distorted hands/fingers, unreadable overlays, or geometrically impossible phone shapes?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the image for the 'cleaning' step clearly show a wiping action with a cloth or wipe on the phone screen?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the image for the 'dust removal' step depict a sticker or tape being dabbed onto the screen surface to pick up particles?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the image for the 'alignment' step visually demonstrate how to hold or position the glass protector relative to the phone edges?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the image for the 'bubble removal' step show a card or squeegee being used to push air outward from the center to the edges?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Do the images provide visual value beyond the text, such as showing specific hand grips, motion indicators (arrows), or magnified details of the process?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the final image in the sequence depict a successfully applied screen protector that is pristine and free of bubbles, meeting the user's core request?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

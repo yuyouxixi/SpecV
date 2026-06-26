@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the tutorial follow a clear step-by-step format with distinct, numbered, or clearly separated stages as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial explicitly include instructions for designing all three required modules: Current Weather, 7-day Forecast, and Air Quality?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the generated output include a screenshot or image at each major stage of the design process as specifically requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the tutorial specifically utilize Figma as the design tool, referencing its actual interface elements and workflow?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the workflow follow a logical professional progression (e.g., Setup → Wireframe → Components/Styling → Final Polish)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Do the text instructions explicitly reference specific Figma features (e.g., Frames, Auto Layout, Components, or Plugins) rather than generic design theory?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the text provide actionable steps for creating the specific data visualizations required (e.g., charts, bars, or indicators for Air Quality)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Do the generated images visually resemble the Figma user interface (e.g., showing the canvas, toolbar, properties panel, or layers panel)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the final product image clearly visualize all three modules (Current Weather, 7-day Forecast, Air Quality) integrated into the interface?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the text within the generated UI mockups (e.g., temperature numbers, day names, AQI values) legible and free from severe gibberish?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are the images free from significant AI artifacts, such as distorted UI elements, warped icons, or incoherent text rendering?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does each generated image directly correspond to and illustrate the specific design step described in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "When the text describes the 7-day forecast module, does the corresponding image show a list or row of daily weather entries?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "When the text describes the Air Quality module, does the corresponding image show relevant AQI indicators (e.g., index number, color scale, or gauge)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the weather app design mockup maintain a consistent visual style (layout structure, spacing, theme) across all progression images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Are the images placed logically immediately after or alongside the text instructions they are meant to illustrate?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Do the images show a clear visual progression in fidelity, evolving from basic wireframes/sketches to a fully polished design?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text explicitly provide instructions for creating all three required geometric shapes: a cube, a cylinder, and a triangular prism?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text include specific curing time annotations (e.g., '24 hours', 'overnight') for both the silicone mold-making stage and the concrete casting stage?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text explain the process of preparing 'masters' (positive forms) or mold boxes to define the shape of the silicone molds before pouring?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text explain how to create the hollow cavity for the plants (e.g., using an inner plug, a smaller container, or a two-part mold technique) rather than creating solid concrete blocks?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text provide actionable specifics for the finishing stage, such as mentioning sandpaper grit numbers or specific sanding techniques?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Is the text written in a clear, imperative instructional tone (e.g., 'Mix', 'Pour') and free of logical errors (such as demolding before curing)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Are the generated images free of severe AI artifacts, such as distorted hands, floating tools, or physically impossible geometries?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the image accompanying the 'mold making' step visually depict the silicone in a liquid or viscous state being poured or mixed?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the image accompanying the 'demolding' step visually correspond to the action described (e.g., peeling a flexible mold off a solid concrete object)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Do the three geometric shapes (cube, cylinder, triangular prism) maintain consistent proportions and recognizable forms across the entire image sequence?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is each image placed immediately adjacent to the specific step text it illustrates, ensuring a logical interleaved flow?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is there at least one image provided for each of the four major phases: (1) Mold Making, (2) Concrete Pouring, (3) Demolding, and (4) Sanding?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the tutorial correctly utilize silicone for creating the molds and concrete for casting the planters, as specified in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Do the images visually distinguish between the liquid state of materials (wet silicone/concrete) and their cured solid states in the appropriate steps?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Is there an image that clearly shows the setup of the 'masters' (positive forms) or mold boxes before the silicone is poured, demonstrating the negative mold creation process?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

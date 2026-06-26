@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output strictly follow the user's request to use the same person as the demonstrator throughout the entire tutorial?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the content presented in a strictly interleaved format (alternating text and images) without long blocks of text or multiple consecutive images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly address the user's mention of 'lower back discomfort' by including instructions on spinal neutrality, core bracing, or hip hinging?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text explain the biomechanical reasons why specific form errors (e.g., butt wink, hyperextension) lead to lower back pain?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Is the text written in a clear, supportive, and instructional tone suitable for a fitness tutorial, avoiding overly technical jargon or unsafe medical claims?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Do the generated images depict biomechanically plausible human movement with realistic joint angles (knees, hips, ankles) appropriate for a squat?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the generated images free from severe AI artifacts, particularly in the demonstrator's hands, feet, face, and spinal geometry?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does each image accurately reflect the specific form cue described in the adjacent text (e.g., if text says 'knees out', the image shows knees tracking outward)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "When the text describes an 'incorrect' form error (e.g., rounded back/lumbar flexion), does the corresponding image clearly depict that specific error?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Do the images provide specific instructional value (showing depth, specific angles) rather than serving as generic or decorative fitness stock photos?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the demonstrator maintain consistent physical attributes (clothing, hair, body type) across every image in the tutorial?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are images placed immediately adjacent to the specific textual step they illustrate, ensuring no ambiguity about which text corresponds to which image?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is there at least one distinct image provided for each major phase of the squat (Setup, Descent, Bottom Position, Ascent)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the tutorial follow a logical chronological flow, starting with the setup/stance and progressing through the movement to the finish?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the tutorial explicitly visualize the 'Bottom Position' of the squat, showing proper depth and back angle?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does the tutorial explicitly visualize the 'Setup' phase, clearly showing stance width and initial foot placement?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output contain exactly 4 distinct images interleaved with the text, as explicitly requested in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial context specifically relate to hand-stitching a genuine leather card holder (or similar leather project), adhering to the prompt's scenario?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the tutorial explicitly teach the 'double-needle saddle stitch' technique (using two needles on a single thread) rather than a single-needle running stitch or lockstitch?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the tutorial include a distinct text step and corresponding image specifically for 'threading the needles'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the tutorial include a distinct text step and corresponding image specifically for 'both needles crossing through the same hole'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the tutorial include a distinct text step and corresponding image specifically for 'pulling tight' to set the stitch?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the text clearly explain the core logic of the saddle stitch: threading two needles onto the opposite ends of a single continuous thread?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the text explicitly instruct that both needles must pass through the *same* pre-punched hole from opposite sides (front and back)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the text written in clear, imperative instructional language using correct leatherworking terminology (e.g., 'saddle stitch', 'waxed thread', 'eye of the needle')?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Do the images accurately depict the materials required: a leather piece with a row of pre-punched stitching holes and metallic needles?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are the images free of significant AI distortions, such as malformed hands (extra fingers), melted tools, or physically impossible needle geometry?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are critical visual details (stitching holes, thread thickness, needle tips) rendered with sufficient sharpness to be distinguishable?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the image corresponding to the 'threading' step clearly depict the thread passing through the eye of a needle or being secured to it?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the image corresponding to the 'crossing' step accurately show two needles (or one entering while the other exits) interacting with the same specific hole?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the image corresponding to the 'pulling tight' step visually demonstrate tension on the thread (e.g., taut lines pulled away from the stitch)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Do the images provide informative visual details about the thread path and needle direction, rather than just generic shots of leather tools?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Do all 4 images consistently depict the same leather object (same color, texture, and edge shape) throughout the tutorial?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Are the tools (needle type/size) and materials (thread color/thickness) visually consistent across all images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Is each image placed immediately adjacent to the specific text step it illustrates, forming a clear text-image pair?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Does the content maintain a logical structure where each of the 4 images corresponds to a unique, non-redundant step in the process?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Do the images display a clear chronological progression, showing the stitch evolving from unthreaded needles to a tightened stitch?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

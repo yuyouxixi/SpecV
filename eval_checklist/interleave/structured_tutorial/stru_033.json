@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text explicitly identify the knot being taught as a 'Bowline' knot?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the tutorial text include instructions for all four essential phases of the Bowline: (1) forming a loop, (2) passing the working end up through the loop, (3) going around the standing part, and (4) passing back down through the loop?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly distinguish between the 'working end' (or rabbit/tag end) and the 'standing part' (or tree) to prevent user confusion?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are the textual instructions written in clear, imperative language that is free from logical contradictions or ambiguous terminology?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Do the generated images depict a 'thick rope' suitable for camping as requested, rather than thin string, twine, or wire?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are all generated images 'close-ups' that focus specifically on the rope strands and knot structure?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the images free from severe AI artifacts such as the rope 'melting' into itself, impossible clipping (rope passing through itself like a ghost), or distorted hands?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the image corresponding to the 'initial loop' step clearly show a single loop formed on the standing part, matching the text description?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the image for the 'threading' step accurately show the working end passing UP through the loop (rabbit coming out of the hole) rather than just lying near it?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the image for the 'around the standing part' step show the working end wrapping BEHIND the standing part (rabbit going around the tree)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the image for the 'back through the loop' step show the working end passing back DOWN through the original loop (rabbit going back into the hole)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Do the images clearly distinguish the depth of rope crossings (showing which strand is over and which is under) to provide actual instructional value?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the rope consistent in color, thickness, and material texture across all images in the sequence?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is there at least one illustrative image provided for every distinct step of the knot-tying process described in the text?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Are images placed immediately adjacent to the corresponding text step they illustrate to facilitate easy cross-referencing?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Do the images show a logical chronological progression where the rope configuration in one step naturally leads to the next?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Does the final image depict a structurally correct Bowline knot (identifiable by a fixed loop locked by a collar) rather than a slip knot or random tangle?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Does the tutorial include a final step explaining or showing the tightening/dressing of the knot to ensure it is secure?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

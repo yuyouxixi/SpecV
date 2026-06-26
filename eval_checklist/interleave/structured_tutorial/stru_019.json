@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the tutorial explicitly cover all five major stages requested: Line Art, Base Colors, Lighting/Shadows, Details (scales), and Water Ripple Effects?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Does the text provide layer-by-layer explanations, explicitly instructing the user to create or manage separate layers for different elements (e.g., 'create a new layer for shadows')?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the tutorial specifically reference Procreate tools and iPad interactions (e.g., Apple Pencil pressure, specific brush names, 'Layers panel', 'Alpha Lock', 'Clipping Mask')?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are the text instructions actionable and concrete (e.g., 'Tap the + icon to add a layer', 'Select the Soft Brush') rather than just vague artistic advice?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text explain a specific technique for creating realistic koi scales (e.g., using a texture brush, masking, or manually shading individual scales)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the text explain the technique for creating water ripple and refraction effects, including specific settings or tools (e.g., Liquify, Gaussian Blur, or blending modes)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the text written in beginner-friendly language, defining technical terms or explaining where tools are located within the interface?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are the images free from significant AI artifacts (e.g., garbled UI text, distorted hands/stylus, impossible geometry) that would hinder comprehension?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the image corresponding to the 'Line Art' step clearly show the outline of the koi fish without any color fill or shading?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the image for the 'Base Colors' step show the koi filled with flat colors matching the text description (e.g., orange/white patterns) without detailed shading yet?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the image for the 'Lighting/Shadows' step visually demonstrate the addition of dimension (shadows and highlights) on top of the base colors?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the image for the 'Details/Scales' step visibly show scale patterning or texture on the koi rather than a smooth fill?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the final image (or Water Effects step) clearly depict water ripples and light refraction/distortion effects overlaid on the koi?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Do the images maintain the exact same pose, shape, and composition of the koi fish across all steps (unless a rotation is explicitly instructed)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Do all images maintain a consistent visual style (digital painting in Procreate interface) without switching to photorealistic photos or traditional paper sketches?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Do later images show the accumulation of previous steps (e.g., the water effect image still shows the underlying colored and shaded fish)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is an image inserted immediately following or preceding every major layer explanation to visually verify the step?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Does the tutorial include at least 5 distinct text-image pairs representing the different stages (Line Art, Base Color, Shading, Details, Water)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Do the images show a logical chronological progression from a blank/sketch state to the final finished artwork?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Does the final result image successfully demonstrate a 'realistic style' as requested, rather than a flat cartoon or abstract representation?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]
