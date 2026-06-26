@@ -1,0 +1,40 @@
+{"id": "countbench_001", "question": "How many kids are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_001_1.jpg"], "answer": "2"}
+{"id": "countbench_002", "question": "How many children are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_002_1.jpg"], "answer": "2"}
+{"id": "countbench_003", "question": "How many banners are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_003_1.jpg"], "answer": "4"}
+{"id": "countbench_004", "question": "How many trees are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_004_1.jpg"], "answer": "6"}
+{"id": "countbench_005", "question": "How many photos are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_005_1.jpg"], "answer": "4"}
+{"id": "countbench_006", "question": "How many sinks are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_006_1.jpg"], "answer": "2"}
+{"id": "countbench_007", "question": "How many couples are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_007_1.jpg"], "answer": "8"}
+{"id": "countbench_008", "question": "How many pumpkins are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_008_1.jpg"], "answer": "6"}
+{"id": "countbench_009", "question": "How many animals are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_009_1.jpg"], "answer": "6"}
+{"id": "countbench_010", "question": "How many cats are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_010_1.jpg"], "answer": "2"}
+{"id": "countbench_011", "question": "How many apples are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_011_1.jpg"], "answer": "7"}
+{"id": "countbench_012", "question": "How many people are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_012_1.jpg"], "answer": "8"}
+{"id": "countbench_013", "question": "How many zebras are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_013_1.jpg"], "answer": "2"}
+{"id": "countbench_014", "question": "How many women are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_014_1.jpg"], "answer": "3"}
+{"id": "countbench_015", "question": "How many bottles are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_015_1.jpg"], "answer": "5"}
+{"id": "countbench_016", "question": "How many coins are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_016_1.jpg"], "answer": "10"}
+{"id": "countbench_017", "question": "How many pumpkin candles are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_017_1.jpg"], "answer": "3"}
+{"id": "countbench_018", "question": "How many individual earrings are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_018_1.jpg"], "answer": "6"}
+{"id": "countbench_019", "question": "How many kittens are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_019_1.jpg"], "answer": "6"}
+{"id": "countbench_020", "question": "How many owls are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_020_1.jpg"], "answer": "4"}
+{"id": "countbench_021", "question": "How many eggs are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_021_1.jpg"], "answer": "8"}
+{"id": "countbench_022", "question": "How many dice are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_022_1.jpg"], "answer": "10"}
+{"id": "countbench_023", "question": "How many smartphones are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_023_1.jpg"], "answer": "5"}
+{"id": "countbench_024", "question": "How many sofas are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_024_1.jpg"], "answer": "6"}
+{"id": "countbench_025", "question": "How many people are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_025_1.jpg"], "answer": "5"}
+{"id": "countbench_026", "question": "How many bottles are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_026_1.jpg"], "answer": "7"}
+{"id": "countbench_027", "question": "How many tree trunk cuts are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_027_1.jpg"], "answer": "4"}
+{"id": "countbench_028", "question": "How many chairs are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_028_1.jpg"], "answer": "8"}
+{"id": "countbench_029", "question": "How many sumo wrestlers are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_029_1.jpg"], "answer": "2"}
+{"id": "countbench_030", "question": "How many icons are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_030_1.jpg"], "answer": "9"}
+{"id": "countbench_031", "question": "How many broadheads are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_031_1.jpg"], "answer": "3"}
+{"id": "countbench_032", "question": "How many stickers are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_032_1.jpg"], "answer": "6"}
+{"id": "countbench_033", "question": "How many tickets are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_033_1.jpg"], "answer": "3"}
+{"id": "countbench_034", "question": "How many canvases are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_034_1.jpg"], "answer": "4"}
+{"id": "countbench_035", "question": "How many labels are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_035_1.jpg"], "answer": "9"}
+{"id": "countbench_036", "question": "How many people are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_036_1.jpg"], "answer": "5"}
+{"id": "countbench_037", "question": "How many greeting cards are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_037_1.jpg"], "answer": "10"}
+{"id": "countbench_038", "question": "How many people are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_038_1.jpg"], "answer": "3"}
+{"id": "countbench_039", "question": "How many people are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_039_1.jpg"], "answer": "2"}
+{"id": "countbench_040", "question": "How many people are there in the image?\n[IMAGE1]", "question_img": ["images/countbench/countbench_040_1.jpg"], "answer": "4"}
