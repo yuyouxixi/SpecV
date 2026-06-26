@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the anime girl clearly recognizable as the character from the first input image (silver/lavender hair, purple/pink dress, star accessories)?",
+    "category": "Subject Consistency",
+    "subcategory": "Character Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the girl retain her 2D anime art style (cel-shaded look, illustrative features) within the composite?",
+    "category": "Subject Consistency",
+    "subcategory": "Style Preservation",
+    "expected_answer": "Yes",
+    "score": 9.6
+  },
+  {
+    "id": 3,
+    "question": "Is the green rhinoceros beetle clearly recognizable with its distinctive horn and metallic shell texture?",
+    "category": "Subject Consistency",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.4
+  },
+  {
+    "id": 4,
+    "question": "Does the beetle retain its photorealistic macro photography style (realistic lighting, high detail)?",
+    "category": "Subject Consistency",
+    "subcategory": "Style Preservation",
+    "expected_answer": "Yes",
+    "score": 9.6
+  },
+  {
+    "id": 5,
+    "question": "Is the anime girl positioned specifically on the back of the rhinoceros beetle (elytra or pronotum area)?",
+    "category": "Instruction Following",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Has the anime girl been scaled down significantly to appear as a tiny rider fitting proportionally on the insect?",
+    "category": "Instruction Following",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.8
+  },
+  {
+    "id": 7,
+    "question": "Does the girl's pose suggest she is riding or sitting on the beetle (straddling or resting weight) rather than standing or floating unrelatedly?",
+    "category": "Instruction Following",
+    "subcategory": "Action/Pose",
+    "expected_answer": "Yes",
+    "score": 9.2
+  },
+  {
+    "id": 8,
+    "question": "Is the background consistent with the macro photography environment (green leaf, blurred forest bokeh) of the beetle image?",
+    "category": "Instruction Following",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.13
+  },
+  {
+    "id": 9,
+    "question": "Are there visible contact shadows cast by the girl onto the beetle's back to ground her physically in the scene?",
+    "category": "Image Quality & Compositing",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.57
+  },
+  {
+    "id": 10,
+    "question": "Does the lighting direction and intensity on the anime girl match the lighting environment of the beetle photo?",
+    "category": "Image Quality & Compositing",
+    "subcategory": "Lighting Harmonization",
+    "expected_answer": "Yes",
+    "score": 9.6
+  },
+  {
+    "id": 11,
+    "question": "Are the edges of the anime girl clean and well-blended, without white halos or jagged 'cutout' artifacts?",
+    "category": "Image Quality & Compositing",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the depth of field consistent, ensuring the girl shares similar focus characteristics as the part of the beetle she is sitting on?",
+    "category": "Image Quality & Compositing",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 8.63
+  },
+  {
+    "id": 13,
+    "question": "Is the anime girl's anatomy coherent (no missing limbs, extra hands, or severe facial distortions)?",
+    "category": "Image Quality & Compositing",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.77
+  },
+  {
+    "id": 14,
+    "question": "Is the beetle's anatomy structurally correct (no missing legs, deformed shell, or duplicate horns)?",
+    "category": "Image Quality & Compositing",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.73
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from severe hallucinations (e.g., multiple girls, multiple beetles, or unrelated objects)?",
+    "category": "Image Quality & Compositing",
+    "subcategory": "Coherence",
+    "expected_answer": "Yes",
+    "score": 8.87
+  }
+]
