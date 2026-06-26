@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly conclude that the ball is positively charged?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final expression for the magnitude of the charge equivalent to q = (mg * tan(theta)) / E?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model generate a free-body diagram or force vector diagram during the reasoning process?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "In the generated diagram, are the force vectors drawn with clear arrowheads and distinguishable labels?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "In the generated free-body diagram, is the gravity vector (mg) drawn pointing vertically downwards?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "In the generated free-body diagram, is the electric force vector (qE) drawn pointing horizontally to the left?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "In the generated free-body diagram, is the tension vector (T) drawn pointing along the thread direction towards the suspension point?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the angle theta clearly marked in the diagram between the thread and the vertical direction?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the generated image correctly depict the ball deflected to the left of the vertical position?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the model correctly identify the three forces acting on the ball: gravity (mg), tension (T), and electric force (qE)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the model correctly reason that the ball is positively charged because the electric force (deduced from deflection) is in the same direction as the electric field?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 12,
+    "question": "Does the model explicitly apply the condition of static equilibrium (net force is zero) to solve the problem?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the model correctly set up the equilibrium equations (e.g., decomposing forces into horizontal and vertical components or using vector geometry)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the model correctly derive the relationship tan(theta) = qE/mg (or equivalent) from the equilibrium conditions?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the algebraic manipulation to isolate the charge 'q' performed correctly?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Do the directions of the force vectors described in the text match the directions shown in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are the variable labels (e.g., T, mg, qE) used in the text consistent with the labels in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Is the definition of angle theta in the text (between thread and vertical) consistent with its geometric placement in the image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is the direction of the ball's deflection described in the text consistent with the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model derive the correct magnitude of the magnetic induction B as mv / (e * l_0)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model calculate the correct coordinate difference Δx with a value equivalent to v * sqrt(m * l_0 / (e * E)) * (sqrt(2 + sqrt(3)) - sqrt(2))?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model provide the correct expression for the time difference Δt, specifically including terms for the magnetic field turn (πl₀/3v), the drift in the gap (l₀/2v), and the motion in the electric field?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the generated image clearly depict the magnetic field region as a circle located in the second quadrant with its center at (-l₀, l₀)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are points P(-l₀, 0) and Q(0, l₀) correctly marked on the axes in the trajectory diagram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the trajectory of electron 'a' drawn as a quarter-circle arc (90°) starting at P and ending at the y-axis (point Q)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the diagram show electron 'b' entering at a 60° angle relative to 'a' and following a longer arc (approx 150°) before exiting the magnetic field?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Do the trajectories in the first quadrant (Electric Field region) show a downward curvature (parabolic shape) towards the x-axis, consistent with the electric force direction?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the geometric elements (vectors, labels P/Q/O', field lines) in the generated image clearly drawn and legible?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Across multiple generated images, do the coordinate axes orientation and labels remain consistent?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Did the model correctly reason that the radius of the circular motion in the magnetic field is equal to l_0 for both electrons?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Did the model correctly determine that electron 'b' turns through an angle of 150 degrees (5π/6 radians) within the magnetic field?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the logical process account for the 'gap' drift (distance l_0/2) for electron 'b' between exiting the magnetic field and entering the electric field?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Did the model correctly apply kinematic equations for projectile-like motion in the uniform electric field (acceleration a = eE/m downwards)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the image accurately reflect the text's description of the initial injection angles (electron 'a' vertical, electron 'b' at 60°)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are the field directions in the image (Magnetic Field inward, Electric Field upward) consistent with the textual description?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is the visual depiction of electron 'b's exit position consistent with the reasoning (showing it reaching a higher y-coordinate than electron 'a')?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

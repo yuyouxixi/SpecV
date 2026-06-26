@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly identify Option B (The minimum value is mgsinθ/q) as a correct answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify Option C (The magnitude could be mg/q) as a correct answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify Option D (The magnitude could be 2mg/q) as a correct answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify Option A (The maximum value is mgtanθ/q) as incorrect?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly identify that the ball is subject to exactly two forces: gravity (mg) and the electric force (qE)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly reason that since the ball starts from rest and moves in a straight line, the net force must be directed along the trajectory line?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model use vector analysis (e.g., triangle rule) to establish that the net force is the vector sum of gravity and electric force (F_net = mg + qE)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly identify that the magnitude of the electric force is minimized when the electric force vector is perpendicular to the direction of the net force (trajectory)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly derive the minimum electric field strength as E_min = (mg * sin(θ)) / q?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Does the model correctly reason that the electric field strength has no maximum value (refuting Option A) and that any value greater than or equal to the minimum is possible?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the model correctly verify that the values in Options C (mg/q) and D (2mg/q) are valid because they are greater than or equal to the minimum value (mg*sin(θ))/q?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the vector arrows and text labels (such as mg, F, θ) in the generated images clear, legible, and distinct?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "In the generated diagrams, is the gravity vector (mg) consistently drawn pointing vertically downward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the direction of the net force (or trajectory) depicted as a straight line at an angle θ relative to the vertical direction?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the angle θ clearly marked between the vertical line and the trajectory/net force line?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does the diagram correctly depict the vector addition (Gravity + Electric Force = Net Force), with vectors connected head-to-tail appropriately?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "If the model illustrates the minimum force condition, is the electric force vector depicted perpendicular to the line of the net force/trajectory?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Do all generated images maintain consistent orientation for gravity and the angle θ throughout the reasoning process?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "Does the visual representation of the vector triangle in the image match the text's description of the vector addition (Gravity + Electric Force = Net Force)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "If the text describes the minimum force condition as perpendicular to the trajectory, does the corresponding image visually depict this 90-degree relationship?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Is there any contradiction between the force directions/angles described in the text and those shown in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.0
+  }
+]

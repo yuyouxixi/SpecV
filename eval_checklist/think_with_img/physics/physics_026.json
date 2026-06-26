@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the final expression for the radius of the light spot as r = d√(n²-1) - nR (or an algebraically equivalent form)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer expressed strictly in terms of the given variables d, n, and R (without leaving intermediate variables like the critical angle C)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the final answer explicitly identified as the radius (not diameter) of the circular spot on screen MN?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the generated image clearly depict a hemispherical lens with a flat entrance surface and a spherical exit surface?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Are the incident light rays in the image drawn parallel to the optical axis and entering the flat surface perpendicularly?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the screen MN clearly shown as a vertical line located at a distance d from the center O of the hemisphere?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the image correctly show the normal line at the point of incidence (D) passing through the center of the sphere (O)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the critical refracted ray drawn tangent to the spherical surface (perpendicular to the normal OD) at the point of incidence?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the intersection point (F) of the tangent ray with the optical axis clearly marked between the lens and the screen?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the radius of the light spot (r) correctly labeled on the screen as the distance from the axis intersection O' to the edge of the illuminated region?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning correctly identify that parallel light enters the flat surface without refraction (direction changes only at the spherical surface)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the model correctly identify that the boundary of the light spot is determined by the critical angle condition (Total Internal Reflection)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the model correctly apply Snell's Law to define the critical angle, stating sin(C) = 1/n?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Does the reasoning correctly derive cos(C) = √(n²-1)/n (or an equivalent expression) using trigonometric identities?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the model correctly identify the geometric relationship where the refracted ray is tangent to the sphere, creating a right-angled triangle ODF?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Does the model correctly calculate the distance OF = R/cos(C) = nR/√(n²-1) (or equivalent)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the model correctly determine the distance from point F to the screen as O'F = d - OF?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Does the model correctly use trigonometry (e.g., cot(C) = √(n²-1)) to relate the spot radius r to the distance O'F?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Does the model correctly perform the final algebraic simplification to derive r = d√(n²-1) - nR?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Do the labels used in the text (e.g., O, D, F, M, N) correspond to the correct features in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 21,
+    "question": "If the text defines distance d as from the center O to the screen, does the image label d accordingly (rather than from the lens surface)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 22,
+    "question": "Does the geometric construction in the image (specifically triangle ODF and the tangent ray) match the method described in the text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 23,
+    "question": "Is there a contradiction between the text and image regarding the ray path (e.g., text says tangent, but image shows refraction at a non-tangent angle)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

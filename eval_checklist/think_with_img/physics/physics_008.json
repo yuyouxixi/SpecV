@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model explicitly select Option D as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model conclude that the reading of the ammeter decreases?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model conclude that the reading of the voltmeter increases?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model generate an intermediate image representing an equivalent circuit diagram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Are all circuit components (ammeter, voltmeter, resistors, power supply, switch) in the generated image clearly distinguishable with standard symbols?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the sliding rheostat in the generated image depicted with a correct symbol showing an arrow or slider indicating adjustability?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the wire connections and circuit topology in the generated image clearly visible and traceable?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "In the generated equivalent circuit diagram, are the fixed resistor and the sliding rheostat depicted in a series connection?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "In the generated equivalent circuit diagram, is the voltmeter clearly connected in parallel across the sliding rheostat (and not across the fixed resistor or power supply)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "In the generated equivalent circuit diagram, is the ammeter connected in series with the main circuit?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning correctly identify that the circuit consists of a fixed resistor and a sliding rheostat connected in series?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the reasoning correctly identify that the voltmeter measures the voltage across the sliding rheostat?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the reasoning correctly recognize that the power supply voltage remains constant throughout the analysis?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the reasoning correctly determine that moving slider P to the right increases the resistance of the sliding rheostat connected to the circuit?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the reasoning correctly apply Ohm's Law to deduce that increased total resistance leads to a decrease in total current (ammeter reading)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Does the reasoning correctly conclude that the voltage across the fixed resistor decreases because the current decreases (U_fixed = I * R_fixed)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the reasoning correctly use circuit laws (e.g., Voltage Division or KVL) to explain that since the source voltage is constant and the fixed resistor voltage decreases, the rheostat voltage must increase?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Does the model avoid the incorrect claim that decreasing current necessarily makes the rheostat’s voltage drop decrease (i.e., does it account for the simultaneous increase in resistance)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Does the generated circuit diagram accurately reflect the series connection described in the text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Does the generated circuit diagram visually confirm the text's description of the voltmeter being connected across the sliding rheostat?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 21,
+    "question": "Are the component labels (e.g., A, V) and symbols in the generated image consistent with the text description?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 22,
+    "question": "Is there any contradiction between the circuit structure described in the text and the circuit structure shown in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

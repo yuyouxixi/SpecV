@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output 100 N as the final answer for the force required at end B?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model identify end 'B' as the position to apply force to save effort?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model conclude that the magnitude of the force will 'remain unchanged' during the lifting process?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly calculate the resistance force (weight of the piston) as 300 N (30 kg × 10 N/kg)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify the resistance arm OA as 0.9 m?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly calculate the effort arm OB as 2.7 m (3.6 m - 0.9 m)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model explicitly apply the lever equilibrium condition (e.g., F1 × L1 = F2 × L2) to solve for the force?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "For question (2), did the model correctly explain that increasing the effort arm (distance from fulcrum) reduces the required force?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "For question (3), did the model correctly reason that when the lever tilts, both lever arms decrease by the same factor (e.g., cos θ) or that their ratio remains constant?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "If a lever diagram is generated, are the key points A, O, and B placed correctly with the fulcrum O located between A and B?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If a force diagram is generated, are the force vectors at both A (resistance) and B (effort) depicted as pointing vertically downward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "If a diagram for question (3) is generated, does it depict the lever in a tilted (non-horizontal) position?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "If a tilted diagram includes lever arm indicators, are they shown as the horizontal distances from the fulcrum to the lines of action of the forces (perpendicular to the vertical forces)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If multiple images are generated, do the labels for the fulcrum (O) and endpoints (A, B) remain consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are the generated images clear and are the text labels (A, B, O, Force values) legible?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Does the generated image visually reflect the geometric proportions described in the text (specifically, that the effort arm OB is longer than the resistance arm OA)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "If the text describes the lifting process, does the corresponding image show the lever orientation consistent with the action (e.g., end B is lower than end A when the piston is lifted)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Are there no contradictions between the text and image regarding the direction of forces (e.g., text says downward, image shows downward)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

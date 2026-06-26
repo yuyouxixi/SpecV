@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model derive the final mathematical relationship F = mg tanθ (or an equivalent algebraic form such as tanθ = F/mg)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the three forces acting on the metal ball: gravity (mg), wind force (F), and tension (T)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the reasoning explicitly state or apply the principle of static equilibrium (i.e., net force is zero)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly set up the equilibrium equations (e.g., Tsinθ = F and Tcosθ = mg) or the equivalent vector triangle relationships?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the mathematical derivation correctly eliminate the tension T to express F solely in terms of m, g, and θ?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly interpret the qualitative relationship (i.e., recognizing that a larger wind force F results in a larger deflection angle θ)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Is the generated free-body diagram visually clear, with the metal ball, wire, and distinct force arrows recognizable?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Are the force vectors in the generated diagram(s) drawn with clear arrows and appropriate labels (e.g., F, T, mg)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "In the generated image, is the gravity vector labeled and drawn pointing vertically downwards?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "In the generated image, is the wind force vector labeled and drawn horizontally (perpendicular to gravity)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "In the generated image, is the tension vector labeled and drawn collinear with the wire, pointing away from the ball?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the deflection angle θ in the image correctly marked between the wire and the vertical axis?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "If a vector triangle is drawn, are the wind force F and gravity mg depicted as perpendicular legs, with tension T (or the resultant) acting as the hypotenuse?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "If multiple images are generated, are the force directions, variable labels, and angle definitions consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Does the direction of the wind force shown in the image match the direction implied by the text or the ball's deflection?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Are the variable labels used in the text (e.g., F, m, g, θ) consistent with those in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "If the text describes a specific method (e.g., 'Force Synthesis' with a parallelogram or 'Orthogonal Decomposition' with axes), does the generated image visually depict this method?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is the definition of θ in the text (angle with the vertical) consistent with its depiction in the image (no contradictions)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

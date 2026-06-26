@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly select Option D as the final correct answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model conclude that the tension in the cable suspending cabin A is less than the tension in the cable suspending cabin B (T_A < T_B)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly determine that Option A is incorrect because linear velocity depends on radius (v_A < v_B)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly determine that Option B is incorrect because centripetal acceleration depends on radius (a_A < a_B)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly determine that Option C is incorrect because centripetal force depends on radius (F_A < F_B)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning explicitly state or utilize the fact that the angular velocities (ω) of both cabins A and B are the same?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly identify that the radius of rotation for cabin A is smaller than that for cabin B (r_A < r_B)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly identify the forces acting on the cabin as only gravity (mg) and tension (T), ignoring air resistance?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly establish the force equilibrium equation in the vertical direction (e.g., Tcosθ = mg)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Does the model correctly establish the dynamic equation in the horizontal direction (e.g., Tsinθ = mω²r)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning correctly deduce that the angle of inclination increases as the radius of rotation increases (i.e., θ_A < θ_B)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the reasoning correctly deduce that the tension increases with the angle of inclination (i.e., T_A < T_B) using the relationship T = mg/cosθ?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "If the model generates a free-body diagram, is the gravity vector (mg) drawn pointing vertically downward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If the model generates a free-body diagram, is the tension vector (T) drawn pointing upward along the direction of the cable?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "If the centripetal force is depicted in the force diagram, is it shown as horizontal pointing toward the center of rotation?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "If the centripetal force is depicted, is it distinguished from the actual physical forces (e.g., drawn with a dashed line or explicitly labeled as a resultant) to avoid 'double counting'?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are the force vectors in the generated images drawn with clear directional arrows and appropriate labels (e.g., T, mg)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Do the force labels used in the generated images (e.g., T, mg, θ) match the variable names used in the text explanations?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "If the text defines θ as the angle with the vertical, does the generated image correctly depict this angle at the appropriate location?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "If the model visualizes the comparison, does the image correctly reflect the geometric differences: cabin A closer to the axis and/or having a smaller tilt angle than cabin B?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Is there any contradiction between the text explanation and the generated images regarding the direction of any force vector?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option D as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Did the model explicitly conclude with the relationship F1 = F3 > F2?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly identify that the ball is in static equilibrium (net force equals zero) in all positions?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model identify the correct forces acting on the ball: gravity (mg), tension in string a, and tension in string b?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly derive or state that F1 = mg * tan(θ) (or G * tan(θ)) for the initial horizontal position?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model recognize that in the second position (after rotating by θ), string 'b' is perpendicular to string 'a' (or the angle between them is 90 degrees)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly derive or state that F2 = mg * sin(θ) (or G * sin(θ))?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly derive or state that F3 is equal to F1 (or F3 = mg * tan(θ)) due to symmetry or calculation?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly use the trigonometric relationship tan(θ) > sin(θ) (for 0° < θ < 90°) to justify that F1 > F2?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the model correctly interpret the rotation of string 'b' as successive counter-clockwise rotations within the vertical plane?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "If the model generated a free-body diagram, is the gravity vector (mg) drawn pointing vertically downwards?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the generated image depict string 'a' fixed at an angle θ with the vertical direction across the scenarios?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image(s) show string 'b' in three distinct positions corresponding to the initial, rotated once, and rotated twice states?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "In the diagram for the first state, is string 'b' (or tension F1) drawn horizontally?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are force vectors in the generated images clear, with distinguishable directions and appropriate arrowheads?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Are the labels, coordinate systems, and angle conventions consistent across all generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Does the sequence of string 'b' positions in the image(s) follow a counter-clockwise progression as described in the text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "If the text states that string 'b' is perpendicular to string 'a' in the second position, does the image visually represent these two vectors at an approximate 90-degree angle?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Do the labels used in the images (e.g., F1, F2, F3, a, b, θ) match the symbols used in the textual reasoning?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

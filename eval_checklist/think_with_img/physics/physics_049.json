@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option B as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly derive the critical velocity condition v ≥ (√2qBR)/(2m) (or an algebraically equivalent form)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model avoid the error of stating an incorrect upper bound on the velocity (i.e., correctly recognizing that any velocity above the critical value allows exiting the segment CD)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly apply the Lorentz force formula (qvB = mv²/r) to relate the particle's velocity to the trajectory radius?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify that the negatively charged particle deflects to the right (towards point B) due to the inward magnetic field?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly identify the geometric significance of point D being the midpoint of arc CB, implying that angle COD is 45°?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly derive the relationship between the trajectory radius r and the magnetic field radius R for the critical case (r = R/√2 or R² = 2r²)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly reason that the minimum velocity case corresponds to the particle's trajectory exiting exactly at point D?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly reason that increasing the velocity increases the trajectory radius, causing the exit point to move along the arc from D towards C?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the generated diagram clearly depict the semicircular magnetic field region with the boundary arc visible?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the particle's trajectory clearly drawn as a continuous circular arc starting from point O?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the generated diagram correctly show the magnetic field direction as 'into the page' (e.g., using '×' symbols)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the generated diagram show the particle's initial velocity vector or trajectory starting upward along the direction of OC?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the generated diagram show the particle's trajectory curving to the right (towards point B), consistent with the physics of a negative charge in an inward field?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "In the diagram depicting the critical case, does the trajectory pass exactly through or very close to point D?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is point D correctly positioned in the diagram as the midpoint of arc CB (approximately 45° from the vertical)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is the center of the particle's trajectory (often labeled O₁ or O') correctly located on the horizontal axis to the right of the starting point O?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "If multiple diagrams are generated, are the labels for key points (O, C, D, B) and the magnetic field direction consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "Does the deflection direction shown in the image (rightward) match the reasoning provided in the text regarding the Lorentz force?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 20,
+    "question": "Are the labels for the magnetic field radius (R) and trajectory radius (r) consistent between the text equations and the generated diagrams?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "If the text describes specific geometric relationships (e.g., triangle OO₁D being isosceles right), does the diagram visually support this description?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

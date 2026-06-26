@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model provide the correct final value for the refractive index as n = √3 (or approximately 1.732)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly determine the range of incident positions as the distance d from the axis being less than or equal to (√3/3)R (or R/√3)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the reasoning correctly identify that light entering the flat surface parallel to the axis undergoes no refraction at the first interface (angle of incidence is 0)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the reasoning correctly derive that the angle of incidence (r) at the curved surface is 30° based on the incident height R/2 (using sin r = 0.5)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly determine the angle of refraction (i) as 60° based on the geometric relationship involving the exit point Q at distance √3R?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text correctly apply Snell's Law (n * sin(30°) = 1 * sin(60°)) to solve for the refractive index?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning correctly identify that for light to emerge, the angle of incidence must be less than or equal to the critical angle (sin r ≤ 1/n)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image correctly depict a semi-cylindrical transparent body with the flat surface on the left and the curved surface on the right?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the key geometric points (Center O, Incidence point S/P, Exit point Q) clearly marked and legible in the generated diagram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "In the generated ray diagram, does the incident ray enter the flat surface straight (horizontally) without bending?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the normal line at the curved surface correctly drawn as a radius extending from the center O through the point of incidence?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the refracted ray at the curved surface visually bend away from the normal (indicating light passing from a denser to a less dense medium)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "If angles are labeled in the image, are the angle of incidence and angle of refraction defined relative to the normal (not the surface tangent)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "If multiple images were generated, do the positions of labels (O, P, Q) and the direction of light propagation remain consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Does the generated image accurately reflect the text's description of point P being at height R/2 and point Q being at distance √3R (Q should appear significantly further from the edge than P is from the axis)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Do the visual angles in the diagram correspond to the calculated values (the angle of refraction should appear visually larger than the angle of incidence, approx 60° vs 30°)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is the generated response free from contradictions between the text and the image (e.g., text says light bends away from normal, but image shows it bending towards)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

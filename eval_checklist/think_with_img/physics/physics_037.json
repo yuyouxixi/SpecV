@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model calculate the power supply voltage as 9V in part (1)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model determine the voltmeter reading is 9V in part (2)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are the final numerical answers provided with correct units (V or Volts)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Does the reasoning correctly identify that in the first case (S1 closed, S2/S3 open), the voltmeter measures the voltage across L1 (6V)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly identify that in the second case (S2 closed, S1/S3 open), the voltmeter measures the voltage across L2 (3V)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly apply the series circuit voltage rule (Total Voltage = U1 + U2) to find the power supply voltage?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning correctly identify that closing S3 in the final case creates a short circuit across bulb L2?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the reasoning correctly conclude that in the final case (S1/S3 closed), the voltmeter measures the full power supply voltage?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the circuit components (bulbs, switches, voltmeter, battery) in the generated images distinct, recognizable, and correctly labeled?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "If the model generated a circuit diagram for Case 1 (S1 closed), does it correctly show L1 and L2 in series with the voltmeter connected across L1?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "If the model generated a circuit diagram for Case 3 (S1/S3 closed), does it visually indicate that L2 is short-circuited (e.g., by a bypass wire or omitting L2)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "If the model generated a circuit diagram for Case 3, does it show the voltmeter connected effectively across the power supply terminals?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do the generated circuit diagrams accurately reflect the switch states described in the text (e.g., showing breaks for open switches)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If the text states the voltmeter measures a specific component, does the corresponding generated image show the voltmeter connected in parallel with that component?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "If the text describes L2 as short-circuited, does the corresponding image explicitly show the low-resistance path bypassing L2?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

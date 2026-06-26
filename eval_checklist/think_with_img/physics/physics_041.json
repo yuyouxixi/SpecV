@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model determine the lever arm of the effort force F to be 60 cm?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Did the model calculate the magnitude of the effort force F to be 100 N?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model calculate the minimum effort force required to be 50 N?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model conclude that placing heavier items closer to point O causes the minimum effort force to 'decrease'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify the resistance arm as OC (24 cm) and the load as the suitcase weight (250 N)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model explicitly apply the Lever Equilibrium Condition (Effort × Effort Arm = Resistance × Resistance Arm) or Torque Balance equation?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly calculate the lever arm of F using trigonometry (specifically OA × sin(30°))?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly reason that to minimize the effort force, the effort arm must be maximized (i.e., force perpendicular to the handle OA)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly identify that the maximum possible effort arm is the length of the handle OA (120 cm)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly explain that moving items closer to the fulcrum O reduces the resistance arm (horizontal distance from center of gravity to fulcrum), thereby reducing the required force?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are the generated diagrams visually clear, with recognizable components (suitcase, handle) and legible labels?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "In the diagram for Part 1, is the lever arm of force F depicted as the perpendicular line segment from the fulcrum O to the line of action of F (or its extension)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "In the diagram for Part 1, is the 30° angle correctly positioned between the force vector F and the handle OA?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "In the diagram for Part 2, is the minimum effort force vector drawn perpendicular (approximately 90°) to the handle OA?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are gravity/weight vectors in the diagrams depicted acting vertically downward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Are the labels for key points (O, A, B, C) consistent across all generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "If the text describes constructing an auxiliary line (e.g., perpendicular from O), does the corresponding image show this geometric construction?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "If the text states that the minimum effort force is perpendicular to the handle, does the visual representation of that force vector align with this description?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Does the depiction of the fulcrum O and center of gravity in the images align with their descriptions in the text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

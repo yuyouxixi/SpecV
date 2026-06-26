@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model correctly identify the acceleration of gravel pile A during the 0-2s interval as 3 m/s²?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly identify the acceleration of stone slab B during the 0-2s interval as 1 m/s²?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model provide the correct total time for A to move off B as 4 seconds?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the reasoning correctly calculate the normal force on A (N1 = mg·cos37°) and on B (N2 = 2mg·cos37°) during the first phase?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly calculate the kinetic friction forces during 0-2s as f1 = 0.3mg (between A and B) and f2 = 0.8mg (between B and slope)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly apply Newton's Second Law to A during 0-2s (e.g., mg·sin37° - f1 = ma)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly apply Newton's Second Law to B during 0-2s, specifically accounting for the reaction friction force from A acting down the slope (mg·sin37° + f1 - f2 = ma)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly calculate the velocities at t=2s (vA = 6 m/s, vB = 2 m/s) and relative displacement?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the reasoning correctly identify that after t=2s, the friction between A and B becomes zero, causing A's acceleration to change to g·sin37° (6 m/s²)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the model verify that A has not left B by the time B stops (calculating relative displacement as 12m, which is less than 27m)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the model correctly calculate the additional time required (1s) for A to cover the remaining distance (15m) after B stops?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "If the model generates a free-body diagram for A, is the gravity vector drawn vertically downward and the friction force drawn pointing up the slope?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "If the model generates a free-body diagram for B, does it explicitly show the reaction friction force from A pointing down the slope?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "If the model generates a free-body diagram for B, does it show the friction force from the ground pointing up the slope?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the normal forces in the diagrams drawn perpendicular to the slope surface?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Are the force vectors in the generated images clearly labeled (e.g., mg, N, f) and distinct from one another?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "If multiple images are generated for different time steps, is the slope orientation and direction of gravity consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Does the direction of the friction forces described in the text match the direction of the arrows in the generated free-body diagrams?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Are the symbols used for forces and masses in the text explanations consistent with the labels in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model explicitly select Option B as the correct answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly reject Option A by identifying that when only S1 is closed, the ammeter branch (controlled by S2) is open or disconnected?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify that when only S3 is closed (Option B), bulbs L1 and L2 are connected in series and both will light up?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly reject Option C by identifying that when S1 and S2 are closed, L1 is in a conducting parallel branch and will light up (refuting the claim that L1 does not light)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly reject Option D by identifying that closing all switches creates a short circuit path (bypassing the bulbs) which prevents the bulbs from lighting?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly analyze the ammeter's connection status in the different states (e.g., disconnected in A/B, measuring L2 current in C)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "If the model generated intermediate images, do they use recognizable and standard circuit symbols for the bulbs, battery, switches, and ammeter?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "If the model generated intermediate images, are the components (L1, L2, S1, S2, S3, A) clearly distinguishable or labeled?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "If an image was generated for the 'Only S1 closed' state, does it depict a closed loop with L1 while showing the ammeter branch as open or removed?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "If an image was generated for the 'Only S3 closed' state, does it visually depict L1 and L2 connected sequentially in a single series loop?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "If an image was generated for the 'S1 and S2 closed' state, does it visually depict a parallel structure where L1 is in one branch and L2 (with the ammeter) is in another?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "If an image was generated for the 'All switches closed' state, does it visually depict a short circuit path (e.g., Power -> Ammeter -> S2 -> S3 -> Power) that bypasses the bulbs?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "In the generated diagrams, are the open/closed states of the switches visually distinct and consistent with the specific case being analyzed?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the symbols, component labels, and node topology (connections) consistent across all generated images (e.g., battery polarity does not flip, L1 is always the top bulb)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Does the text description of the circuit topology (e.g., 'series', 'parallel', 'short circuit') align with the visual structure shown in the corresponding generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "If the text states that a specific component (like the ammeter) is disconnected or not in the circuit, does the corresponding image visually omit it or show it in an open branch?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option C as the final correct answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly conclude that the centripetal accelerations of balls A and B are equal ($a_A = a_B$)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly determine that the linear velocity of ball A is greater than ball B ($v_A > v_B$)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly determine that the angular velocity of ball A is less than ball B ($\\omega_A < \\omega_B$)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly identify that only gravity ($mg$) and the normal force ($F_N$) act on the balls (explicitly excluding friction due to the smooth surface)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning correctly analyze the force components, stating or implying that the vertical component of the normal force balances gravity and the horizontal component provides the centripetal force?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning derive or state that centripetal acceleration depends only on gravitational acceleration and the cone angle (e.g., $a = g \\tan\\theta$), implying it is independent of mass and radius?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Does the reasoning correctly identify from the geometry that the radius of ball A's path is greater than that of ball B ($R_A > R_B$)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the reasoning correctly use the relationship between velocity, acceleration, and radius (e.g., $v = \\sqrt{aR}$) to conclude $v_A > v_B$?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the reasoning correctly use the relationship between angular velocity, acceleration, and radius (e.g., $\\omega = \\sqrt{a/R}$) to conclude $\\omega_A < \\omega_B$?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "If a free-body diagram is generated, is the gravity vector ($mg$) drawn pointing vertically downwards?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "If a free-body diagram is generated, is the normal force ($F_N$) drawn perpendicular to the conical surface (pointing obliquely upward and away from the surface)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "If a vector diagram is generated, is the resultant (centripetal) force shown pointing horizontally towards the central axis of the cone?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the generated image correctly depict ball A at a higher vertical position (and thus a larger radius) than ball B?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "If multiple images are generated, are the orientation of the conical surface and the relative positions of the balls consistent across steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Do the labels for forces used in the text explanation (e.g., $mg, F_N, F_{net}$) match the labels present in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Does the generated image align with the text by correctly omitting friction vectors (consistent with the \"smooth surface\" description)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "If the text describes a vector triangle relationship (e.g., $mg, F_N, F_{net}$), does the generated image accurately depict this geometry?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

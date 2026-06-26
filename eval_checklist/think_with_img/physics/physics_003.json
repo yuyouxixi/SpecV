@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the time taken as \\(\\frac{\\pi m}{3eB}\\) (or a mathematically equivalent expression)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model output the distance from point O to P as \\(\\frac{mv_0}{eB}\\) (or a mathematically equivalent expression)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify that the electron undergoes uniform circular motion due to the Lorentz force and use the equation \\(ev_0B = m\\frac{v_0^2}{r}\\) to derive the radius \\(r = \\frac{mv_0}{eB}\\)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly account for the electron's negative charge (using the left-hand rule or adjusted right-hand rule) to determine that the trajectory curves downward?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly derive that the central angle swept by the electron is \\(60^{\\circ}\\) (or \\(\\pi/3\\) radians) based on the geometric relationship between the incident angle (\\(30^{\\circ}\\)) and the chord?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly identify that triangle OAP is equilateral (or that the chord length equals the radius), leading to the conclusion that distance \\(OP = r\\)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly calculate the time \\(t\\) by relating the central angle (\\(60^{\\circ}\\)) to the full period (e.g., \\(t = \\frac{1}{6}T\\))?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the reasoning avoid introducing unsupported quantities (e.g., gravity, electric field, or energy loss) that would alter the uniform circular motion model?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "If a diagram was generated, is the magnetic field direction correctly represented as pointing into the page (e.g., using 'X' symbols)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "If a diagram was generated, is the initial velocity vector \\(v_0\\) drawn at approximately \\(30^{\\circ}\\) above the positive x-axis and tangent to the curve at the origin?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "If a diagram was generated, does it depict the electron's trajectory as a circular arc curving downward (center below the x-axis) connecting point O to point P?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "If a diagram was generated, is the center of the circular trajectory (e.g., point A) placed on a line perpendicular to the initial velocity vector \\(v_0\\)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "If a diagram was generated, are the radii OA and AP shown with equal lengths, and is the central angle visually consistent with \\(60^{\\circ}\\)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the key points O (origin), P (on the x-axis), and the axes themselves clearly marked and labeled in the generated diagram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "If multiple images were generated, do the coordinate system, labels, and angle annotations remain consistent across steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the visual representation of the central angle and triangle in the image consistent with the text's claim of \\(60^{\\circ}\\) and an equilateral triangle?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "If the text refers to specific geometric elements (e.g., center A, angle \\(\\theta\\), or radius \\(r\\)), are these elements clearly labeled and present in the generated diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Are there no contradictions between the text and image regarding the direction of motion (both should indicate the electron curves downward/clockwise)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

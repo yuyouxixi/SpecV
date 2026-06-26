@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Options B and C as the correct answers?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model explicitly identify Option A as incorrect (friction does positive work, not zero)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model explicitly identify Option D as incorrect (action-reaction work magnitudes are not equal)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are the key components (inclined plane A, suspension string, ball B) clearly depicted in the generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "In the diagram for ball B, is the Normal force (N) drawn perpendicular to the inclined surface?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "In the diagram for ball B, is the Friction force (f) drawn parallel to the inclined surface and pointing downwards along the slope?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "In the diagram for ball B, is the Velocity vector (v) drawn perpendicular to the suspension string (tangent to the circular path)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image visually depict the angle between the friction force on B and the velocity of B as an acute angle (< 90 degrees)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the reasoning correctly identify that ball B undergoes circular motion around point O?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the model correctly determine that friction on B points down the slope because B tends to move up relative to the incline?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "To evaluate Option B, does the model correctly reason that friction does positive work because the angle between friction and velocity is acute?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "To evaluate Option C, does the model use the constant velocity of A (or zero change in kinetic energy) to conclude that the net work on A is zero?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "To evaluate Option D, does the model explain that the work done by action-reaction forces is not equal in magnitude due to different displacements (relative sliding) between A and B?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the direction of the friction force described in the text (e.g., 'down the slope') match the direction shown in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Does the direction of the velocity vector described in the text match the vector shown in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Does the text's conclusion about the angle (acute) match the visual depiction in the diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

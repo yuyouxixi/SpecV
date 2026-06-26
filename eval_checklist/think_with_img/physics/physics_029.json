@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model select Option B as the correct answer (or explicitly state that the linear velocity of ball 'a' is greater than that of ball 'b', v_a > v_b)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the model correctly conclude that the angular velocities of the two balls are equal (ω_a = ω_b)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the model correctly conclude that the linear velocity of ball 'a' is greater than that of ball 'b' (v_a > v_b)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly conclude that the centripetal force on ball 'a' is greater than on ball 'b' (F_a > F_b)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly conclude that the centripetal acceleration of ball 'a' is greater than that of ball 'b' (a_a > a_b)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly identify the forces acting on the ball as Gravity (mg) and Tension (T), without including fictitious forces like centrifugal force in the inertial frame analysis?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning correctly decompose forces to establish vertical equilibrium (T cosθ = mg) and horizontal centripetal force (T sinθ = mω²r)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly use the geometric relationship r = h tanθ (or equivalent trigonometry involving radius r, height h, and angle θ)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly derive the expression for angular velocity as dependent on height, i.e., ω = √(g/h)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the model explicitly identify that since both balls move in the same horizontal plane, their vertical height h is the same?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the model correctly infer that ball 'a' has a larger radius of motion than ball 'b' (r_a > r_b) based on the diagram or problem description?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the reasoning correctly apply the linear velocity formula v = ωr to compare the velocities of the two balls?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the reasoning correctly apply the centripetal force formula F = mω²r (or equivalent) considering the equal masses?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If a free-body diagram is generated, is the gravity vector (G or mg) drawn pointing vertically downward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "If a free-body diagram is generated, is the tension vector (T) drawn along the string, pointing obliquely upward toward the suspension point?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "If a free-body diagram or force analysis is generated, is the resultant/centripetal force (F_net) drawn pointing horizontally toward the center of the circular path?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "If a geometric diagram is generated, is the angle θ correctly marked between the string and the vertical axis?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "If a geometric diagram is generated, are the radius r (horizontal from axis) and height h (vertical from suspension) correctly indicated?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "If the model depicts the setup with both balls, are they shown at the same vertical level (same horizontal plane)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "If the model depicts the setup with both balls, is ball 'a' shown on a larger circular path (outer trajectory) compared to ball 'b'?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Does the diagram correctly show the strings attached to the same single suspension point on the ceiling?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 22,
+    "question": "Are the generated images clear enough that force vectors, geometric parameters (θ, r, h), and labels are easily distinguishable?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 23,
+    "question": "If the text defines specific variables (e.g., θ, T, G, r, h), do those labels appear in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 24,
+    "question": "Does the text description of force directions match the vectors shown in the generated diagram (e.g., text says 'net force points to center', image shows vector pointing to center)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 25,
+    "question": "Is the geometric setup in the generated image consistent with the problem description (conical pendulum, same horizontal plane, correct relative radii)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 26,
+    "question": "Is there any contradiction between the text analysis and the visual representation (e.g., text says v_a > v_b but image implies otherwise, or text defines θ with vertical but image shows it with horizontal)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 9.0
+  }
+]

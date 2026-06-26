@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model calculate the magnitude of the force exerted by the ball on the circular track at point B as 3 N?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model conclude that the ball is able to land on the inclined plane?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model calculate the landing position as approximately 1.13 m (or 0.8√2 m) from point B along the inclined plane?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "In the reasoning for Question 1, does the model correctly apply the centripetal force equation (F - mg = mv²/R) at the lowest point of the track?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "In the reasoning for Question 1, does the model apply Newton's Third Law to distinguish between the support force on the ball and the force exerted by the ball on the track?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "In the reasoning for Question 2, does the model correctly set up the equations for horizontal projectile motion (horizontal uniform velocity, vertical free fall)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly apply the geometric constraint of the 45° inclined plane (e.g., vertical displacement equals horizontal displacement)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly calculate the time of flight to the inclined plane (t = 0.4s) or the intersection coordinates (x = 0.8m, y = 0.8m)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the model verify that the landing point is within the bounds of the inclined plane (i.e., the intersection occurs before the ball reaches the ground level)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the model generate at least one relevant intermediate reasoning image (e.g., FBD, trajectory sketch) that is clear and legible?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If the model generates a Free-Body Diagram (FBD) for point B, is the gravity vector (mg) drawn pointing vertically downward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "If the model generates a Free-Body Diagram (FBD) for point B, is the support/normal force vector drawn pointing vertically upward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "If the model generates a diagram of the track, is the center O of the circular arc positioned directly above point B (indicating B is the lowest point)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "If the model generates a trajectory diagram, does it depict a parabolic path that is initially tangent to the horizontal at point B?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "If multiple images are generated, are the labels (e.g., A, B, C) and coordinate systems consistent across them?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Do the force directions shown in the generated images match the force directions described in the text (e.g., Gravity down, Normal up)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "If the landing point is visualized in an image, is its position consistent with the calculated result (intersecting the incline approx. 1.13m from B)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Does the generated image visually confirm the text's conclusion by showing the trajectory intersecting the inclined plane?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

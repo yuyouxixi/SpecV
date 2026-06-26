@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option A as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Did the model explicitly conclude that the pulling force F increases?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model explicitly conclude that the normal force N increases?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that the ball is in equilibrium (or quasi-static equilibrium) because it is pulled 'slowly'?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify exactly three forces acting on the ball: Gravity (mg), Normal force (N), and Pulling force (F), noting the absence of friction?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly formulate the vertical equilibrium condition (e.g., F*cos(theta) = mg, assuming theta is with the vertical)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly formulate the horizontal equilibrium condition (e.g., F*sin(theta) = N, assuming theta is with the vertical)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly analyze the geometry to state that the angle theta (between rope and vertical) increases as the ball moves upward?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly apply trigonometric reasoning to conclude that since theta increases, F (mg/cos(theta)) increases and/or N (mg*tan(theta)) increases?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "If a free-body diagram was generated, is the gravity vector (mg) drawn pointing vertically downward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If a free-body diagram was generated, is the normal force vector (N) drawn pointing horizontally away from the wall?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "If a free-body diagram was generated, is the pulling force vector (F) drawn pointing diagonally upward along the direction of the rope?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "If a free-body diagram was generated, does it exclude friction forces (consistent with the smooth wall)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are the force vectors in the generated image clearly labeled with text (e.g., F, N, mg)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is the angle theta clearly visually marked in the generated diagram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are the force vectors drawn with clear arrowheads indicating direction?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Does the visual representation of the angle in the generated image match the definition used in the text (e.g., angle with the vertical)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Are the directions of the forces shown in the generated image consistent with the descriptions in the text (e.g., text says N points right, image shows N pointing right)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Do the labels used for forces in the text match the labels present in the generated diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Does the generated image accurately depict the problem setup (ball against vertical wall, rope over fixed pulley)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

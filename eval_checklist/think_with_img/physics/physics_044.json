@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the refractive index n as 1.25 or 5/4?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model output the final angle of refraction α as arcsin(3/4), arcsin(0.75), or approximately 48.6°?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify the prism geometry, specifically that ∠C = 90° and ∠B = 37° (derived from ∠A = 53°)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly interpret 'enters perpendicular to AB' as the light ray traveling in a straight line to the AC face without refraction?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly deduce that the angle of incidence at the AC face is equal to ∠A (53°) using geometric relationships?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly identify that 'just unable to emerge' implies the angle of incidence equals the critical angle (Total Internal Reflection condition) and apply sin(C) = 1/n?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly determine the angle of incidence at the BC face (often denoted as β) to be 37°?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly apply Snell's Law at the BC face (n * sin(37°) = sin(α))?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly calculate sin(α) = 3/4 using the values n=1.25 and sin(37°)=0.6?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the triangular prism in the generated image clearly drawn as a right-angled triangle with the right angle at vertex C?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are normal lines clearly drawn at the points of incidence on the AC and BC faces in the generated diagram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the generated image show the incident light ray entering perpendicular to the AB face (traveling in a straight line without bending)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image clearly show the light ray undergoing Total Internal Reflection at the AC face (reflecting towards BC rather than transmitting)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Does the generated image show the ray emerging from the BC face and bending away from the normal?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the angles of incidence and reflection in the image depicted relative to the normal (not the surface), consistent with the laws of optics?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "If multiple images were generated, do the prism orientation, vertex labels (A, B, C), and ray path remain consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Does the direction of light propagation shown in the image(s) (AB → AC → BC) match the sequence described in the text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "If the text labels specific angles (e.g., α, β), are these labels correctly placed in the corresponding diagram between the ray and the normal?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Is there any contradiction between the text stating Total Internal Reflection occurs and the image showing the ray transmitting through the AC face?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 9.33
+  }
+]

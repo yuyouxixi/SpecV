@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model state the ratio of the resistance of R1 to R2 is 2 (or 2:1) as the final answer for the first blank?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the model state the ratio of I1 to I1' is 2.5 (or 5:2) as the final answer for the second blank?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model generate an equivalent circuit diagram representing the state when both switches S1 and S2 are closed?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "In the generated image for the closed-switch state, are resistors R2 and R3 depicted in a parallel configuration (forming a branch that is in parallel with the R1 branch)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the model generate an equivalent circuit diagram representing the state when both switches S1 and S2 are open?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "In the generated image for the open-switch state, are resistors R1, R2, and R3 clearly depicted in a series configuration?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the circuit components (resistors, ammeters, power supply) clearly drawn with recognizable standard symbols in the generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Are the labels for components (R1, R2, R3, A1, A2) consistent across all generated circuit diagrams?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the reasoning correctly identify that when switches are closed, R1 is in parallel with the R2/R3 branch, and the voltage across these parallel branches is equal?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the reasoning correctly deduce that the current through R2 is twice the current through R1 (I_R2 = 2*I1) based on the resistance ratio R1 = 2*R2?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning correctly use the reading of ammeter A2 (3*I1) to determine that the current through R3 is equal to I1 (and thus R3 = R1)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the reasoning correctly identify that when switches are open, the total resistance is the sum of R1, R2, and R3 (treating it as a series circuit)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the model correctly calculate the final current ratio I1/I1' = 5/2 (or 2.5) by comparing the effective resistances in the closed and open states?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Does the circuit topology (parallel vs. series) described in the text for the closed-switch case exactly match the topology shown in the corresponding generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the circuit topology (series) described in the text for the open-switch case exactly match the topology shown in the corresponding generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are the positions of ammeters A1 and A2 in the generated images consistent with their functions described in the text (e.g., A1 measuring R1 current, A2 measuring R2+R3 current)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

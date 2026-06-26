@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option B as the correct statement?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model determine that Option A is incorrect (i.e., the wall's normal force does not remain unchanged)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model determine that Option C is incorrect (i.e., the ground normal force on the block does not increase)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model determine that Option D is incorrect (i.e., the pushing force F does not decrease)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the model clearly state a single correct option as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly identify that all contact surfaces are frictionless (smooth)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning correctly treat the process as quasi-static (system remains in static equilibrium at each step)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the model correctly identify the three forces acting on sphere A: Gravity (down), Wall Normal (horizontal), and Block Normal (perpendicular to surface)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Did the model use a valid method (e.g., vector triangle, component decomposition) to analyze the equilibrium of sphere A?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly reason that as block B moves right, the contact point shifts such that the angle of the block's normal force with the vertical increases?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Did the model correctly conclude that the block's normal force on the sphere must increase to balance the constant gravity as the angle increases?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Did the model correctly conclude that the wall's normal force on the sphere must increase as the angle changes?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Did the model correctly analyze the vertical equilibrium of the whole system to conclude that the ground support force remains constant?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Did the model correctly analyze the horizontal equilibrium of the system to conclude that the pushing force F balances the wall's normal force (F = N1)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Did the model correctly conclude that the pushing force F increases because the wall's normal force increases?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the reasoning avoid introducing incorrect forces (e.g., friction, spurious torques) or invalid energy arguments?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Does the generated image include a free-body diagram (FBD) specifically for sphere A?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "In the FBD for sphere A, is the gravity vector drawn pointing vertically downward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "In the FBD for sphere A, is the wall normal force drawn pointing horizontally to the left (away from the wall)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "In the FBD for sphere A, is the block normal force drawn perpendicular to the curved contact surface (pointing generally upward/right)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Does the generated image correctly depict the system configuration with sphere A sandwiched between a vertical wall and a curved block B?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 22,
+    "question": "Is the pushing force F on block B shown as a horizontal vector?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 23,
+    "question": "Is the contact point between the sphere and block shown on the curved surface of the block?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 24,
+    "question": "Are the force vectors in the generated images clearly distinguishable (visible arrowheads, distinct from background)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 25,
+    "question": "Are the text labels for forces (e.g., G, N1, N2, F) legible and placed near their respective vectors?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 26,
+    "question": "Do the force labels used in the text match the labels in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 27,
+    "question": "Does the generated image visually reflect the geometric relationships described in the text (e.g., vector triangle or specific angles)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 28,
+    "question": "Is there any contradiction between the text's description of force directions and the vectors shown in the images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 9.0
+  },
+  {
+    "id": 29,
+    "question": "Are there any contradictions regarding friction (e.g., text says frictionless but image shows friction vectors)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 8.67
+  }
+]

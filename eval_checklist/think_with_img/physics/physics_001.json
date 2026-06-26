@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model accept Option B (Kinetic energy at P is greater than at Q) as a correct statement?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model accept Option D (Acceleration at P is less than at Q) as a correct statement?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the model explicitly reject Option A (Particle carries positive charge)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the model explicitly reject Option C (Electric potential energy at P is greater than at Q)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly identify that electric field lines point from high potential (9V) to low potential (3V)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning explicitly state or apply the principle that electric field lines are perpendicular to equipotential lines?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning correctly identify that the electric force must point toward the concave (inner) side of the curved trajectory?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the reasoning conclude the particle is negatively charged because the electric force direction is opposite to the electric field direction?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the reasoning correctly analyze the change in Kinetic Energy (Option B) using work done (negative work) or energy conservation?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the reasoning correctly analyze the Electric Potential Energy (Option C) for a negative charge moving between the given potentials (higher potential means lower PE for negative charge)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning link the density (spacing) of equipotential lines to electric field strength ($E_Q > E_P$) and subsequently to acceleration ($a_Q > a_P$)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Did the model generate at least one intermediate image containing visual reasoning elements (e.g., field lines, force vectors)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are the annotations (e.g., force vectors, field lines, labels P/Q) in the generated image clear and distinguishable from the background?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Do the generated images showing electric field lines depict them as perpendicular (or approximately so) to the equipotential lines?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Do the electric field lines in the generated images point from the region of higher potential (A/9V) towards lower potential (C/3V)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Does the generated image depict the electric force vector acting on the particle pointing toward the concave (inner) side of the trajectory?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is the electric force vector shown pointing in the generally opposite direction to the electric field lines (consistent with negative charge)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Are points P and Q correctly positioned on equipotential lines A (9V) and C (3V) respectively in the generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Does the visual depiction of the equipotential lines reflect that they are denser (closer together) near Q than near P?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "If multiple images were generated, are the positions and labels of geometric elements (points P/Q, lines A/B/C) and vector directions consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 21,
+    "question": "Does the text description of the electric field direction (e.g., 'high to low potential') align with the direction of the arrows in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 22,
+    "question": "Does the text description of the force direction (e.g., 'pointing to the left') align with the force vector in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 23,
+    "question": "Is the conclusion that the particle is negatively charged consistent with the visual representation of the Force and Field vectors pointing in opposite directions?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 24,
+    "question": "Does the text description regarding the density of equipotential lines (e.g., 'denser at Q') align with the visual evidence in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 25,
+    "question": "Are the labels and potential values mentioned in the text (e.g., A=9V, C=3V) consistent with the labels and positions in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

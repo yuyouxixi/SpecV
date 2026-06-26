@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly select Option D as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly identify Option A ('The speed of A is greater than that of B') as incorrect?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify Option B ('The magnitudes of the centripetal acceleration of A and B are equal') as incorrect?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify Option C ('The angles between the cables and vertical direction are equal') as incorrect?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly identify that both seats A and B share the same angular velocity (ω) due to being on the same rotating disk?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning correctly identify from the figure that seat A has a smaller radius of rotation than seat B (r_A < r_B)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning correctly apply the linear velocity formula v = ωr to conclude that v_A < v_B?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the reasoning correctly apply the centripetal acceleration formula a = ω²r to conclude that a_A < a_B?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the reasoning correctly identify the real forces acting on the seats as Gravity (mg) and Tension (T), without introducing fictitious forces (unless explicitly using a non-inertial frame)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the reasoning correctly decompose forces (or use a vector triangle) to state that the vertical component of tension balances gravity (T cos θ = mg)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning correctly identify that the horizontal component of tension provides the centripetal force (T sin θ = mω²r)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the reasoning correctly derive that tan θ is proportional to the radius (tan θ = ω²r/g), leading to the conclusion that θ_A < θ_B?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the reasoning correctly conclude that the tension in cable A is smaller than in cable B (T_A < T_B) based on the relationship T = mg/cos θ (or vector geometry)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "If a free-body diagram or vector diagram is generated, is the gravity vector (mg) drawn pointing vertically downward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "If a free-body diagram is generated, is the tension vector (T) drawn acting along the direction of the cable (pointing diagonally upward)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "If a force diagram is generated, is the centripetal force (or net horizontal force) shown pointing horizontally toward the central axis of rotation?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "If a vector triangle is generated, does it correctly represent the vector sum relationship (e.g., T as the hypotenuse, mg as the vertical side, and centripetal force as the horizontal side)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "If the text defines θ as the angle with the vertical, does the generated image show the angle measured from the vertical direction (not horizontal)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "If the model generates a schematic of the setup, does it visually depict seat A closer to the central axis than seat B, consistent with the problem description?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "If the model states that θ_A < θ_B, does the generated image (if applicable) visually reflect that the cable for A is less tilted than the cable for B?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 21,
+    "question": "Do the geometric relationships shown in the generated images (e.g., vector triangle sides) match the mathematical formulas derived in the text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

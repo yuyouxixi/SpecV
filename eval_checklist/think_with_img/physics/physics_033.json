@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the final answer fall within the range of 680 km² to 693 km² (allowing for approximation of tan 60°)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the unit of the final calculated area correct (km² or equivalent)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly interpret the problem as calculating the area of a rectangular region defined by the flight distance and spray width (rather than a circular sector)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly calculate the flight distance (length of the sprayed area) as 400 km (based on v × t)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly convert the altitude (500 m) to kilometers (0.5 km) or maintain consistent units throughout the calculation?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly identify that the 120° viewing angle is bisected into two 60° angles for the trigonometric calculation?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly apply the trigonometric relationship (e.g., tan(60°) = half-width / height) to determine the width of the spraying area?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly calculate the total spray width as approximately 1.7 km (or ≈ 1.73 km)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly calculate the final area by multiplying the flight distance by the calculated spray width?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the generated image clearly depict a geometric cross-section (e.g., an isosceles triangle) representing the spray range?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "In the generated geometric diagram, is the vertex angle correctly represented as 120° (or bisected into two 60° angles) at the drone's position?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the diagram show a perpendicular line representing the altitude (h) drawn from the vertex to the base?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the altitude labeled with the correct value (h=500 m or 0.5 km) in the diagram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Do the numerical values and variable labels shown in the generated image (e.g., h=500m, angle=120°) match the values used in the text reasoning steps?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "If the text describes constructing a specific geometric model (e.g., 'draw an isosceles triangle'), does the generated image accurately reflect this description?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Is the generated image free of contradictions with the text (e.g., image showing a different angle or height than calculated)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

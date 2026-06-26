@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model provide a final expression for the magnetic induction B that is algebraically equivalent to B = (√3 * m * v0) / (3 * r * q)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the model provide a final expression for the distance OB that is algebraically equivalent to |OB| = (2√2 * m * v0^2) / (E * q)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model provide a final expression for the total time t that is algebraically equivalent to t = (√3 * π * r) / (3 * v0) + ((√2 - 1) * r) / v0 + (2 * m * v0) / (E * q)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are the final answers provided by the model dimensionally consistent (e.g., correct units for magnetic field, distance, and time)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the reasoning correctly identify that the Lorentz force provides the centripetal force using the equation qvB = mv^2/R (or equivalent)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the reasoning correctly determine the radius of the trajectory in the magnetic field as R = r√3 based on the geometric relationship involving the 15° entry angle?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning correctly identify that the central angle of the particle's arc in the magnetic field is 60° (or π/3 radians)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the reasoning correctly state that the particle moves in a straight line with constant velocity v0 in the gap between the magnetic field and the origin O?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the reasoning correctly decompose the motion in the electric field into components parallel (uniformly accelerated) and perpendicular (uniform velocity) to the electric field E?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the reasoning correctly calculate the acceleration in the electric field as a = qE/m?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning correctly determine the time spent in the electric field by using the condition that the particle returns to the x-axis (displacement perpendicular to x-axis is zero)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the generated image clearly depict the circular magnetic field region centered at P(-r, r) in the second quadrant?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image show the dashed boundary line passing through the origin at a 45° angle to the positive x-axis?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the generated image correctly place the electric field region to the lower right of the dashed boundary line?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "If the magnetic field direction is depicted, is it shown as perpendicular to the plane pointing outward (e.g., using dots/⊙)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Does the trajectory diagram clearly distinguish three phases: a circular arc (in B-field), a straight line (gap), and a curved parabolic path (in E-field)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Does the generated trajectory show the particle passing exactly through the origin O before entering the electric field?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Is point B clearly marked on the positive x-axis in the generated diagram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Are the generated images visually legible, with clear axes, labels, and curves?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 20,
+    "question": "Are the coordinate system orientation and point labels (A, P, O, B) consistent across all generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Does the generated image show the particle entering the magnetic field at point A along a line AP that makes approximately a 15° angle with the positive x-axis, matching the text description?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 22,
+    "question": "If the model describes the electric field direction as 45°, do the electric field vectors in the image visually align with this direction?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 23,
+    "question": "Does the curvature of the particle's path in the magnetic field visually correspond to the force direction implied by an outward magnetic field (clockwise deflection for positive charge)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 24,
+    "question": "If the model references specific geometric points (like the center of curvature O1) or angles in its reasoning, are these correctly labeled or depicted in the corresponding diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 25,
+    "question": "Are there no direct contradictions between the text description of the region boundaries and their visual representation in the diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

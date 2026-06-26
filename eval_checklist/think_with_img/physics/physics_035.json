@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option C as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly conclude that during the acceleration stage, the force exerted by the passenger on the escalator is directed downwards to the left?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly conclude that during the uniform velocity stage, the force exerted by the passenger on the escalator is directed vertically downwards?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly explain why Option A is incorrect by identifying that the number of forces acting on the passenger changes (3 forces during acceleration, 2 forces during uniform velocity)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly explain why Option B is incorrect by identifying that the passenger is not in an 'overweight' state during the uniform velocity stage (acceleration is zero)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model explicitly identify that the motion consists of two distinct stages: a uniform acceleration stage and a uniform velocity stage?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly reason that the escalator step is a horizontal surface, meaning the normal force is vertical rather than perpendicular to the incline?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Did the model identify that during the acceleration stage, three forces act on the passenger: gravity, normal force, and static friction?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly reason that a horizontal static friction force to the right is required to provide the horizontal component of the acceleration?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly determine that the passenger is in an 'overweight' state during acceleration because the vertical component of acceleration is upward (implying N > mg)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Did the model correctly identify that during the uniform velocity stage, the net force is zero, meaning the friction force is zero?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Did the model correctly apply Newton's Third Law to determine that the direction of the force exerted by the passenger *on* the escalator is opposite to the resultant force exerted by the escalator *on* the passenger?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "In the generated free-body diagram for the acceleration stage, is the gravity vector (mg) drawn pointing vertically downwards?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "In the generated free-body diagram for the acceleration stage, is the normal force vector (N) drawn pointing vertically upwards (perpendicular to the horizontal step)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "In the generated free-body diagram for the acceleration stage, is there a static friction force vector (f) pointing horizontally to the right?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "In the generated free-body diagram for the acceleration stage, is the acceleration vector (a) drawn pointing diagonally upwards to the right?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Do the generated diagrams depict the escalator step as a horizontal surface (tread) rather than a tilted plane?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Does the text description of the friction force direction (to the right) match the direction shown in the generated diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Does the text description of the acceleration direction (upward to the right) match the vector shown in the generated diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Is the text's claim about the number of forces acting on the passenger in each stage consistent with the number of force vectors shown in the respective diagrams?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Does the text description of the normal force (vertical) align with the visual depiction of the force and the horizontal step surface in the diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

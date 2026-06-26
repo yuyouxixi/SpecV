@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the final resistance value for R₀ as approximately 1.0 Ω (accepting values in the range of 1.00 Ω to 1.04 Ω)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is the final answer provided with the correct unit (Ω, ohms, or Ohm)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the final result rounded to two significant figures as explicitly requested in the problem statement (e.g., 1.0 Ω)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that the three forces acting on the conductor rod are gravity, normal force, and the Ampere (magnetic) force?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly determine that the Ampere force acts horizontally to the right (based on the vertical magnetic field and the requirement to balance the rod against sliding down)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly establish the equilibrium equation along the incline (e.g., mg sin(37°) = F cos(37°) or F = mg tan(37°))?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly use the formula F = BId (or F = BIL) using the rail spacing d as the effective length?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly apply Ohm's Law for the closed circuit, identifying the total resistance as the sum of the rheostat, rod, and internal resistance (R_total = R₀ + R + r)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly convert the rail spacing d = 10 cm to 0.1 m during the calculation steps?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Did the model perform the arithmetic and trigonometric calculations correctly (e.g., tan(37°) = 0.75 and BEd = 0.08)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "If the model generated a force analysis diagram, is the gravity vector (mg) drawn pointing vertically downward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "If the model generated a force analysis diagram, is the Ampere force (F) drawn as a horizontal vector?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "If the model generated a force analysis diagram, is the normal force (F_N) drawn perpendicular to the inclined plane?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the force vectors in the generated diagram clearly distinguishable with arrowheads and appropriate labels (mg, F, F_N)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Does the direction of the Ampere force shown in the image (horizontal) align with the textual reasoning (which derives it as horizontal to balance the rod)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Are all forces discussed in the reasoning text (Gravity, Normal, Ampere) represented in the generated force diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

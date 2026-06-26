@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option D as the correct answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model explicitly conclude that the magnitude of the horizontal force F is equal to G (F = G)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly calculate the tension in string OB as √2·G (approximately 1.41G)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that triangle OAB is an isosceles right-angled triangle (OA = AB = L, and ∠OAB = 90°)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly determine that the angle between string OB and the vertical is 45°?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly identify all relevant external forces acting on the system (gravity on both balls, horizontal force F, and tensions in strings OA and OB)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly treat G as the weight of each individual ball (resulting in a total downward weight of 2G)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly apply static equilibrium conditions (either using torque balance or force component analysis) to solve the problem?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly derive F = G, for example by equating the torque of F (lever arm L) to the torque of ball B's gravity (lever arm L) about point O?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly decompose the tension in string OB (using sin45°/cos45°) to determine its relationship with F or the vertical weights?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the generated diagram correctly depict string OA as vertical and rod AB as horizontal, consistent with the problem description?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the generated diagram show string OB at approximately a 45-degree angle from the vertical?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are the gravity vectors for both balls A and B drawn pointing vertically downward in the generated diagram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the horizontal force F shown pointing horizontally to the right at ball B in the generated diagram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are the tension forces in the generated diagram drawn pointing along the respective strings (OA and OB) toward point O?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Are the positions of points O, A, and B in the diagram geometrically consistent (A directly below O, B at the same horizontal level as A)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Does the text description of the geometric configuration (e.g., isosceles right triangle, equal lengths) match the visual representation in the diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Do the force directions described in the text match the vector directions shown in the generated diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Are the labels for forces and points used in the text (e.g., F, G, A, B) consistent with those appearing in the generated diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Does the solution avoid any contradictions between the text's reasoning (e.g., regarding lever arms or force components) and the visual representation?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

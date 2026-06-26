@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "For Part (1), does the model correctly state that the temperature of the gas inside the cylinder will 'decrease' (or 'drop')?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "For Part (1), does the model correctly state that the internal energy of the gas will 'decrease'?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "For Part (2), is the final calculated power 2000 W (or 2 kW)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "For Part (3), is the calculated minimum distance 1.5 m?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "In the reasoning for Part (1), does the model attribute the decrease in internal energy to the gas expanding and doing work against the surroundings (referencing the First Law of Thermodynamics)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "In the reasoning for Part (2), does the model correctly calculate the work done against gravity as 10,000 J (W = Gh = 10^5 N * 0.1 m)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "In the reasoning for Part (2), does the model correctly calculate power using the formula P = W/t (e.g., 10000 J / 5 s)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "In the reasoning for Part (3), does the model correctly calculate the upward force of the air cushion as 40,000 N (derived from 10^6 Pa * 0.04 m^2)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "In the reasoning for Part (3), does the model correctly identify the resistance arm (distance from pivot to center of gravity) as 1 meter (half of the slab's length)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "In the reasoning for Part (3), does the model correctly set up the torque equilibrium equation (e.g., Force_cushion * Arm_cushion = Weight * Arm_gravity)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the model generate a schematic or free-body diagram representing the stone slab as a lever?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "In the generated diagram, are the force vectors drawn with clear arrowheads and are the labels legible?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "In the generated diagram, is the pivot point (O) clearly located at the right end of the slab representation?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "In the generated diagram, is the Gravity vector (G) drawn pointing vertically downwards from the approximate center (midpoint) of the slab?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "In the generated diagram, is the Cushion Force vector (F) drawn pointing vertically upwards?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "In the generated diagram, is the point of application for the Cushion Force (A) shown to the left of the Center of Gravity (B) relative to the pivot (consistent with OA > OB)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Does the text description of the physical setup (pivot location, force directions) match the visual depiction in the generated diagram?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Do the labels used in the generated diagram (e.g., points O, A, B or forces F, G) correspond to the variables used in the textual equations?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Is the response free from contradictions between text and image (e.g., text states force is upward, but image shows it downward)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

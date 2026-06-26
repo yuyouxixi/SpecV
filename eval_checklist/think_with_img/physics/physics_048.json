@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the model explicitly conclude that the shadow of the pedestrian's head undergoes 'uniform linear motion' (or equivalent terms like constant velocity/speed along a straight line)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the model provide the correct expression for the velocity of the shadow tip: v_tip = hv / (h - L)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the model provide the correct expression for the rate of change of the shadow length: rate = Lv / (h - L)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the model correctly distinguish that 'shadow length' refers to the distance from the pedestrian's feet to the shadow tip (SM), rather than the distance from the lamp base to the tip (OM)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are the final expressions dimensionally consistent (e.g., having units of velocity)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image include a geometric diagram showing a vertical line representing the street lamp (height h) and a shorter vertical line representing the pedestrian (height L)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are key points in the diagram (such as the light source, lamp base, pedestrian's feet, and shadow tip) clearly visible and distinguishable?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the diagram depict a straight line (light ray) originating from the light source, passing through the top of the pedestrian's head, and intersecting the ground at the shadow tip?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the diagram correctly show the spatial arrangement on the ground: Lamp Base (O) -> Pedestrian (S) -> Shadow Tip (M)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the diagram visually reflect the condition h > L (the street lamp is taller than the pedestrian)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning explicitly identify the similar triangles formed by the light source/shadow tip (e.g., Triangle POM) and the pedestrian/shadow tip (e.g., Triangle ASM)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the model set up a correct mathematical proportion based on the similar triangles (e.g., h / OM = L / SM or h / OM = L / (OM - OS))?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the model correctly substitute the kinematic relationship for the pedestrian's position (e.g., OS = vt) into the geometric equation?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the model correctly derive the position of the shadow tip (OM) as a linear function of time to justify the conclusion of uniform motion?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the model correctly calculate the shadow length (SM) by subtracting the pedestrian's position from the shadow tip position (SM = OM - OS)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Are the algebraic manipulations used to derive the final rate of change free of errors?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Do the labels used in the text (e.g., P, O, S, M) match the labels appearing in the generated image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Are the variables h and L correctly associated with the lamp height and pedestrian height respectively in both the text and the image?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is the image completely free of contradictions with the text regarding the geometric relationships (e.g., ray path, relative positions)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

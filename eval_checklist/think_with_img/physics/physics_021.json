@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly calculate the weight of the water in the container as 12 N (including correct units)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly calculate the mass of the heavy object E as 0.8 kg (including correct units)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly convert the piston cross-sectional area from 30 cm² to 3×10⁻³ m² (or equivalent)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly calculate the pressure force exerted by the water on the piston using F = pS = 12 N?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly reason that the weight of the water is equal to the pressure force exerted on the piston (12 N) due to equilibrium?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly identify that the total downward force exerted by the piston system on the lever (at point C) is 15 N (sum of 12 N water pressure and 3 N piston weight)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly determine the lever arm length for point D relative to pivot O is 3 times the length of OC (based on OD = OC + CD and OC:CD = 1:2)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly calculate the force at point D (FD) as 5 N using the lever equilibrium condition (torque balance)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly apply the equilibrium condition for the movable pulley (2 × Tension = Pulley Weight + Load Tension)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly calculate the tension force acting on object E as 8 N (derived from 2×5 N - 2 N)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Did the model correctly convert the weight of object E to mass (0.8 kg) using g = 10 N/kg?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "If a free-body diagram for the piston system is generated, does it correctly show the water pressure force and piston weight pointing downward, and the support force pointing upward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "If a lever diagram is generated, does it correctly depict the pivot O and points C and D in relative positions consistent with the ratio OC:CD = 1:2?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If a lever diagram is generated, does it correctly show the force at C pointing downward and the force at D pointing upward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "If a free-body diagram for the movable pulley is generated, does it show upward tension forces balancing the downward weights of the pulley and the load?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "If a free-body diagram for object E is generated, does it show upward tension and downward gravity?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Are the generated diagrams visually clear, with distinct force arrows and legible labels for variables (e.g., F, N, T)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Are the symbols and labels used in the diagrams consistent with those used in the text reasoning across all steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Do the numerical values of forces labeled in the diagrams match the values calculated in the text (e.g., 15 N at C, 5 N at D)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Are the force directions described in the text consistent with the directions shown in the generated diagrams (no contradictions)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Is the visual representation of the lever consistent with the text description of equilibrium (e.g., lever shown horizontally rather than tilted)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

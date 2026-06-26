@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model correctly conclude that Option A is correct and Option B is correct?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model correctly conclude that Option C is incorrect and Option D is incorrect?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model explicitly provide 'AB' (or 'A and B') as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly apply the left-hand rule to determine that the Lorentz force is perpendicular to the velocity (line ab) and directed generally upward?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly reason that the particle must undergo uniform linear motion (constant velocity) because a change in speed would change the Lorentz force magnitude, making a straight path impossible?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly deduce that gravity is required (Option A) because the Lorentz force (perpendicular to velocity) and Electric force (perpendicular to plates) are not collinear and cannot balance each other?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly deduce that the upper plate must be positively charged (Option B) based on the direction of the electric force required for equilibrium?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly derive using vector geometry or force analysis that the electric field strength E must be less than v0*B (E < v0*B), refuting Option D?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Did the model explicitly analyze the force equilibrium (net force = 0) involving Gravity (mg), Lorentz force (qv0B), and Electric force (qE)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "If a schematic is generated, does it correctly depict two inclined parallel plates with a line ab intersecting them at an acute angle θ?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If a schematic or diagram is generated, is the magnetic field depicted as directed into the page (e.g., using cross symbols '×')?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "If a free-body diagram is generated, is the Lorentz force vector (qv0B) drawn perpendicular to the velocity direction (line ab)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "If a free-body diagram is generated, is the electric field force vector (qE) drawn perpendicular to the surface of the metal plates?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "If a free-body diagram is generated, is the gravity vector (mg) drawn pointing vertically downwards?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "If a free-body diagram is generated, do the three forces (mg, qE, qv0B) visually form a closed triangle or indicate a zero net force configuration?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are the generated diagrams clear, with distinguishable components (plates, line ab, vectors) and legible labels?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "If multiple images are generated, are the geometric elements (plate inclination, line ab direction) and magnetic field direction consistent across all images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Do the directions of the force vectors (Gravity, Lorentz, Electric) in the generated images align with the descriptions provided in the reasoning text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Does the visual depiction of the plate polarity (or electric field direction) in the image align with the text's conclusion (e.g., if text says upper plate is positive, does field point away from it)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Does the diagram correctly depict the geometric relationships described in the text, specifically that point b is located higher than point a?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

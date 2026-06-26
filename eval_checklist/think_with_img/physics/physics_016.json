@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option A as the final correct answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model explicitly identify Option B as incorrect (by explaining the exit distance is not monotonic)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Did the model explicitly identify Option C as incorrect (by stating angular velocity is independent of speed)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model explicitly identify Option D as incorrect (by stating time is independent of speed)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify that the particle undergoes uniform circular motion due to the Lorentz force?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly derive or state the formula for the period ($T = 2\\pi m / qB$) or angular velocity ($\\omega = qB/m$), noting its independence from velocity $v$?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly determine the central angle of the particle's motion in the magnetic field as $\\alpha = 2\\pi - 2\\theta$ (or an equivalent expression)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly derive that the motion time $t$ is proportional to the central angle ($t = \\alpha / \\omega$), leading to $t = (2\\pi - 2\\theta)m / qB$?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly reason that since time $t$ depends on $(2\\pi - 2\\theta)$, a larger $\\theta$ results in a smaller central angle and thus a shorter time (confirming Option A)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly use the radius formula ($r = mv/qB$) and geometric relationship ($OA = 2r\\sin\\theta$) to show that the exit distance does not monotonically increase with $\\theta$?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the generated diagram clearly show the particle's circular arc trajectory and the initial velocity vector $v$?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are key labels (e.g., origin $O$, exit point $A$, angle $\\theta$, radius $r$) clearly visible and legible in the diagram?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the generated image correctly depict the magnetic field direction (using crosses for 'into page') restricted to the region above the x-axis ($y>0$)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the generated image show the particle's trajectory curving in the correct direction (Counter-Clockwise) for a positively charged particle in an inward magnetic field?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the generated image correctly show the center of the circular path located on a line perpendicular to the initial velocity vector?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Does the generated image correctly show the exit point $A$ on the x-axis (to the left of the origin $O$)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the generated image correctly depict the initial velocity angle $\\theta$ measured from the positive x-axis?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Do the labels and geometric features (e.g., angle $\\theta$, radius $r$, points $O$ and $A$) in the image align with the descriptions and calculations in the text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Does the central angle shown or implied in the diagram correspond to the derived expression ($2\\pi - 2\\theta$) in the text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Are there no contradictions between the text and image regarding the magnetic field direction or the region of the field?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

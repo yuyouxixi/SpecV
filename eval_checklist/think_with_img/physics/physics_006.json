@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the maximum platform scale reading as (M + 6m)g or an algebraically equivalent expression?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Did the model output the minimum platform scale reading as Mg - 0.75mg (or Mg - 3/4mg) or an algebraically equivalent expression?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the final response explicitly state the complete range of variation as Mg - 0.75mg <= F <= (M + 6m)g (or equivalent inequality)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the reasoning correctly identify that at the highest point, the tension is zero and v = sqrt(gR) due to the critical condition?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the model correctly apply conservation of mechanical energy to find the velocity at the lowest point (v = sqrt(5gR))?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the model correctly calculate the string tension at the lowest point as 6mg?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the model correctly identify that the maximum scale reading occurs at the lowest point due to the maximum downward pull of the string tension?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the model recognize that the minimum scale reading occurs at an intermediate angle (not at the top or bottom) and derive the vertical component of tension as a function of angle theta?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the model correctly use optimization (calculus or algebraic analysis) to find that the minimum reading occurs when cos(theta) = 1/2 (or theta = 60 degrees)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly apply Newton's third law to relate the tension force on the ball to the reaction force on the person?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Does the reasoning avoid physically impossible claims (e.g., negative tension values or incorrect force directions)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the generated diagrams clear, with distinguishable vector arrows (e.g., distinguishing velocity from force) and legible labels?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "In free-body diagrams of the ball, is the tension vector directed radially along the string and gravity vertically downwards?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "If a diagram shows velocity, is the vector drawn tangent to the circular path?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "If a diagram shows the ball at an arbitrary angle theta, is the angle clearly marked relative to the vertical (or consistent with the text definition)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are the coordinate system, center point, and angle definitions consistent across all generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Does the visual representation of angle theta in the images match the specific definition used in the text (e.g., measured from vertical)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Do the geometric relationships (like height difference) shown in the images match the formulas used in the text?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Are the force directions in the images consistent with the signs and directions used in the text's equations?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "If the text refers to specific positions (top, bottom, specific angle), do the images correctly depict the ball at those positions?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

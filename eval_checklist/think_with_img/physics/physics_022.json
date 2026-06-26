@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model explicitly identify Option A ('The magnitude of the resultant force... is equal to G') as a correct statement?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Did the model explicitly identify Option C ('The magnitude of the tension in both ropes is (sqrt(2)/2)G') as a correct statement?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Did the model correctly identify that Option B is incorrect by recognizing that the forces are concurrent?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Did the model correctly identify that Option D is incorrect?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Did the model provide a final answer stating that Options A and C are the correct choices?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the force vectors in the generated images clearly drawn with distinct arrowheads indicating direction?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the force labels in the generated images (e.g., G, F, T) legible and clearly associated with their respective vectors?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image depict a gravity vector pointing vertically downwards from the rod?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the generated image depict two tension vectors originating from the rod and pointing obliquely upwards?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are the angles of the tension vectors in the generated image visually consistent with the 45° angle from the vertical described in the problem (approx. 90° between ropes)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "If the image depicts vector decomposition or composition, does it correctly illustrate that the vertical components balance gravity (or the resultant balances gravity)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the force labels, directions, and geometric orientations consistent across all generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the model correctly identify that the metal rod is in static equilibrium (net force is zero)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Does the model correctly explain that the forces are concurrent because their lines of action intersect at the suspension point?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the model correctly reason that the horizontal components of the two tension forces cancel each other out due to symmetry?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Does the model correctly set up the vertical equilibrium equation (e.g., 2 * F * cos(45°) = G)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 17,
+    "question": "Does the model correctly perform the algebraic calculation to derive the tension magnitude F = (sqrt(2)/2)G?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Does the reasoning avoid introducing extraneous forces (e.g., friction, normal force) that are not present in the problem?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Do the variable labels used in the text explanation match the labels present in the generated images?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Does the generated image visually support the geometric descriptions in the text (e.g., symmetry, specific angles, auxiliary lines)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Is the response free from contradictions between the text and the generated images (e.g., text says tension points up, image shows it pointing down)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

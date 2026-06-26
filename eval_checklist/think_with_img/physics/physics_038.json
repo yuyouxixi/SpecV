@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model select Option C ('M still remains stationary relative to the carriage') as the final answer?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model explicitly reject Option A ('The static friction acting on M increases') as incorrect?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model explicitly reject Option B ('The force exerted by M on the carriage wall decreases') as incorrect?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Did the model explicitly reject Option D ('The static friction acting on M decreases') as incorrect?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "If the model generated a Free Body Diagram (FBD), does it include exactly three forces acting on block M: Gravity, Normal Force, and Static Friction (without extraneous forces)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "If the model generated a Free Body Diagram (FBD), is the Gravity vector (Mg) drawn pointing vertically downward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "If the model generated a Free Body Diagram (FBD), is the Normal Force vector (N) drawn pointing horizontally to the right?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "If the model generated a Free Body Diagram (FBD), is the Static Friction vector (f) drawn pointing vertically upward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "If the model generated an image with acceleration, is the acceleration vector (a) indicated pointing to the right?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the force vectors in the generated image clearly labeled (e.g., N, f, Mg) and distinguishable from the block itself?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are the force vectors in the generated image drawn with clear arrowheads indicating direction?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "If multiple images are generated, are the labels, coordinate systems, and force directions consistent across all steps?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the reasoning correctly identify that block M is in vertical equilibrium (zero vertical acceleration), leading to the conclusion that static friction balances gravity (f = Mg)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Does the reasoning correctly conclude that the magnitude of the required static friction (f) is independent of the cart's acceleration (a) and remains constant?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Does the reasoning apply Newton's Second Law horizontally (or equivalent pseudo-force analysis) to establish that the Normal Force (N) equals mass times acceleration (N = Ma)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Does the reasoning correctly identify that as acceleration (a) increases, the Normal Force (N) exerted by the wall on the block increases?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Does the reasoning correctly refute Option B by explaining that the force exerted by M on the wall increases (due to Newton's Third Law and increasing N)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Does the reasoning correctly explain that the maximum possible static friction (f_max = μN) increases as acceleration (and thus Normal Force) increases?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Does the reasoning conclude that the block remains stationary because the maximum static friction threshold increases while the required friction remains constant?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 20,
+    "question": "Does the model avoid the incorrect claim that static friction always equals μN (correctly distinguishing between the actual static friction f and the maximum limit f_max)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 21,
+    "question": "Does the reasoning avoid introducing extraneous forces (e.g., horizontal friction or vertical normal force) that are not physically present?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Do the directions of the forces and acceleration described in the text match the directions shown in the generated image(s)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 23,
+    "question": "Are the labels used for forces in the text (e.g., N, f, Mg) consistent with the labels used in the generated image(s)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 24,
+    "question": "Is there any contradiction between the text and generated image regarding the direction of any force (e.g., text says friction is upward but image shows friction pointing downward)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "No",
+    "score": 9.0
+  }
+]

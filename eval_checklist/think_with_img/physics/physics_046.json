@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model output the magnitude of the velocity at point C (v_c) as v_c = E/B?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model output the work done against friction (W_f) as W_f = mgh - mE²/(2B²) (or an algebraically equivalent expression)?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Did the model output the final velocity at point P (v_p) as v_p = √{v_D² + [(qE/m)² + g²]t²}?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the final answer for v_p include only the given quantities (v_D, q, E, m, g, t) and are the units consistent?",
+    "category": "Final Answer Correctness",
+    "subcategory": "Final Answer",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Did the model correctly identify that the slider starts from rest and the normal force N decreases as velocity increases due to the Lorentz force?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Did the model correctly apply the Left-Hand Rule to determine that the Lorentz force points horizontally to the left (opposing the electric force) during the downward motion?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Did the model correctly identify that the condition for the slider leaving the vertical plane MN (point C) is when the normal force N becomes zero?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Did the model correctly set up the horizontal force balance equation qE = qvB + N (or qE = qv_cB at the moment of detachment)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Did the model correctly apply the Work-Energy Theorem for the motion from A to C, accounting for positive work by gravity, negative work by friction, and zero work by the Lorentz and Electric forces (due to perpendicularity/constraint)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Did the model correctly identify that at point D (maximum velocity), the velocity vector is perpendicular to the resultant of the electric force and gravity?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Did the model correctly recognize that after point D (with B removed), the slider moves under the resultant of two constant forces: gravity (mg) and electric force (qE)?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Did the model correctly calculate the effective acceleration g' = √[(qE/m)² + g²] for the motion from D to P?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Did the model correctly derive the final velocity v_p using the vector relationship v_p² = v_D² + (g't)² based on the perpendicularity of the initial velocity v_D and the acceleration?",
+    "category": "Process Level",
+    "subcategory": "Reasoning Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "If a force diagram for the motion along MN is generated, is the Electric force (qE) drawn pointing to the right and the Lorentz force drawn pointing to the left?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "If a force diagram for the motion along MN is generated, is gravity (mg) drawn pointing downward and friction drawn pointing upward?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "If the magnetic field is depicted in an image, does the diagram use appropriate notation (e.g., dots or ⊙ symbols) to represent the field pointing outwards?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Does the generated trajectory diagram depict a vertical path from A to C and a curved path separating from the wall after C?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "If a diagram for point D is generated, does it visually reflect the condition that the velocity vector v_D is perpendicular to the resultant force (combined qE and mg)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Semantic Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Are the generated images clear, with distinct arrows for force vectors and legible labels for points (A, C, D, P)?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Visual Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Do the coordinate system orientations and point labels (A, C, D, P) remain consistent across all generated images?",
+    "category": "Process Level",
+    "subcategory": "Image Quality - Cross-step Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Do the directions of forces in the generated diagrams align with the text description (e.g., E-field right, Lorentz left, Friction up)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 22,
+    "question": "Does the depicted trajectory in the images align with the text's description of the motion phases (vertical sliding followed by curvilinear motion)?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "If the text describes the velocity composition at P using perpendicular vectors, does the image visually support this geometric relationship?",
+    "category": "Alignment Level",
+    "subcategory": "Image-Text Alignment",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]
