@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a realistic photo of a fish tank in a living room corner, viewed from a front-facing eye-level perspective?",
+    "category": "Composition",
+    "subcategory": "Scene & Viewpoint",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is there exactly 1 rectangular glass fish tank sitting on a black metal stand?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Do the tank's glass edges appear transparent with clear reflections?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Is there exactly 1 white LED light bar placed horizontally on top of the tank?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the LED light emit a cool white light shining downward to illuminate the water?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Is there exactly 1 black hang-on-back filter located on the left rear of the tank?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the filter outlet create a small stream flowing to the right with visible surface ripples?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is there exactly 1 transparent heater rod fixed vertically on the right rear of the tank?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is a red indicator light visible at the bottom of the heater rod?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is there exactly 1 air stone located at the center rear of the tank near the substrate?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are fine bubbles rising vertically from the air stone to form a bubble column?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the tank bottom covered with light pink fine gravel of uniform particle size?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are there exactly 2 pieces of driftwood positioned horizontally at the center bottom of the tank?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is one driftwood piece dark brown with rough texture and the other bright white with wood grain?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are the driftwood pieces arranged in a crossed position, with the white driftwood positioned more toward the front?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is there exactly 1 small castle ornament made of plush material located to the right of the driftwood?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the castle ornament have a clear pointed top?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Is there exactly 1 brown ceramic small cave located to the left of the driftwood?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Does the ceramic cave have an opening facing to the right with frosted edges?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 20,
+    "question": "Are there exactly 3 aquatic plants growing vertically on the left side of the tank?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Do the plants on the left have bright blue leaves bending to the right?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 22,
+    "question": "Are there exactly 2 clusters of red-leaf aquatic plants on the right side behind the castle?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 23,
+    "question": "Do the plants on the right have broader leaves with wavy edges?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 24,
+    "question": "Are there exactly 3 smooth rounded stones in the foreground arranged from left to right?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 25,
+    "question": "Do the foreground stones appear wet and shiny with visible highlights?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 26,
+    "question": "Is there exactly 1 small round fish food container sitting outside the tank on the right side of the stand?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 27,
+    "question": "Does the fish food container have a yellow lid that is tightly closed?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 28,
+    "question": "Is there exactly 1 betta fish swimming in the upper left area of the water surface?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 29,
+    "question": "Does the betta fish have a mirror-like metallic silver body with flowing fins?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 30,
+    "question": "Is the betta fish's head facing towards the right?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 31,
+    "question": "Are there exactly 7 neon tetras swimming in the middle layer toward the right?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 32,
+    "question": "Do the neon tetras have clear blue and red stripes?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 33,
+    "question": "Are all 7 neon tetras facing left and arranged in a row with similar spacing?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 34,
+    "question": "Are all main subjects (tank, fish, decorations) complete and clearly visible without significant cropping?",
+    "category": "General",
+    "subcategory": "Image Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 35,
+    "question": "Is the image free from severe visual artifacts or distortions (e.g., merging objects, floating stones, broken geometry)?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

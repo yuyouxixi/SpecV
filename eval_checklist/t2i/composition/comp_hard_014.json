@@ -1,0 +1,330 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image styled as a realistic photography of a concert hall stage?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is the scene viewed from directly in front of the audience seats (center perspective)?",
+    "category": "Composition",
+    "subcategory": "Viewpoint/Framing",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is there exactly 1 dark wooden conductor's podium in the center foreground?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the conductor's podium have narrow metal trim along its edges?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Are there exactly 2 conductor's batons placed on the podium?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are the two batons placed diagonally and parallel to each other?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is one baton standard white with its tip pointing toward the upper right?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is there exactly 1 black grand piano on the left side of the frame?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the piano lid open forming a triangular shape?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the piano's string area facing toward center stage with a reflective lacquer finish?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Is there exactly 1 black piano bench in front of the piano, aligned with the keyboard?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are there exactly 3 violins resting on the seats of 3 black chairs in the front-center of the stage?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Are the three violins evenly spaced?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the left violin have dark brown wood grain with its scroll pointing lower left?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the middle violin have a bright cyan-blue lacquered finish with its scroll pointing lower right?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Does the right violin have warm brown coloring with its scroll pointing lower right?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are there exactly 2 cellos leaning against chair backs in the center-right area?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Does the front cello have standard warm brown wood grain?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Does the rear cello have a green metallic body?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Is there exactly 1 dark brown double bass standing upright on a stand in the right rear?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Is the double bass scroll positioned near the upper right of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Are there exactly 2 flutes placed horizontally on a music stand tray near the back of the conductor's podium?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "Is the front flute silver metal with reflective keys and opening facing left?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 24,
+    "question": "Is the rear flute pure white ceramic-textured with opening facing left?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 25,
+    "question": "Are there exactly 2 black clarinets resting on chair seats below the flutes?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 26,
+    "question": "Do the clarinets have clearly visible silver keys and bells both facing lower right?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 27,
+    "question": "Is there exactly 1 golden trumpet resting on a black stand in the center-left area?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 28,
+    "question": "Is the trumpet bell facing toward the left of the frame with prominent edge highlights?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 29,
+    "question": "Are there exactly 3 timpani drums arranged in an arc/row in the left rear?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 30,
+    "question": "Do the timpani drums have copper-colored bodies?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 31,
+    "question": "Does the middle timpani drum have a pink drumhead?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 32,
+    "question": "Do the other two timpani drums have pale beige drumheads?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 33,
+    "question": "Are there exactly 7 black music stands arranged in a semicircle in the center-rear?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 34,
+    "question": "Does each music stand hold exactly 1 pure white sheet of music paper?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 35,
+    "question": "Is the background a deep red velvet curtain with folds running from top to bottom?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 36,
+    "question": "Are there exactly 2 track spotlights in the upper right of the frame shining downward?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 37,
+    "question": "Do the spotlight pools fall near the conductor's podium and the middle violin?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 38,
+    "question": "Is there exactly 1 black microphone stand standing vertically in the foreground slightly to the right?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 39,
+    "question": "Does the microphone stand have a small black windscreen at the top?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 40,
+    "question": "Is the microphone stand positioned in front of the conductor's podium?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 41,
+    "question": "Are there any severe visual artifacts or distortions (e.g., malformed instruments, melting geometry)?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "No",
+    "score": 8.0
+  }
+]

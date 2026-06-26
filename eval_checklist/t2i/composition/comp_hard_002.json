@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a top-down realistic photograph of a scene on a marble countertop?",
+    "category": "Style",
+    "subcategory": "Perspective & Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is there a rectangular light-colored wooden cutting board in the left-center of the frame with its right edge near the center line?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are there exactly 2 knives placed horizontally on the cutting board?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the lower knife a stainless steel chef's knife with a black handle on the left and blade facing right?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the upper knife a shorter paring knife with a matte gray blade, white handle, and blade facing left?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are there exactly 3 tomatoes arranged in a row in the center of the cutting board?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are exactly 2 of the tomatoes light purple and 1 red, all with green stems?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are there exactly 2 cucumbers placed parallel immediately to the right of the tomatoes?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the upper cucumber dark green with tiny water droplets, and the lower cucumber bright yellow?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Do the tips of both cucumbers point toward the upper right?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is there half of a cut purple onion in the lower left of the cutting board with the root facing left?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the onion show a purple-white striped cross-section facing up?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are there exactly 4 peeled garlic cloves arranged side by side in the lower right of the cutting board?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are the garlic cloves light blue in color with tips pointing right?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is there a transparent glass bowl located to the right of the cutting board?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the glass bowl contain exactly 7 lemon slices arranged in a fan shape?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Do the lemon slices have mint green flesh and yellow rinds?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is there a dark green glass olive oil bottle positioned above the glass bowl?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Does the olive oil bottle have a gold metal cap and contain light pink oil?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Is there a white cylindrical ceramic salt cellar with a slightly reflective lid to the upper right of the olive oil bottle?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 21,
+    "question": "Is there a dark brown wooden pepper grinder standing upright to the right of the salt cellar?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Is there a potted basil plant in the upper left area of the frame with bright green leaves extending outward?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "Are there exactly 2 beige linen kitchen towels in the lower left area of the frame?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 24,
+    "question": "Are there exactly 2 soup spoons placed diagonally to the right of the kitchen towels?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Is the upper spoon mirror-finish stainless steel with handle pointing toward the lower right?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 26,
+    "question": "Is the lower spoon matte black with handle pointing toward the right?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 27,
+    "question": "Is there a black cast iron skillet in the lower right of the frame with its handle facing right?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 28,
+    "question": "Is the interior of the skillet empty?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 29,
+    "question": "Is there a white round plate located above the skillet?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 30,
+    "question": "Does the plate contain exactly 3 golden toasted bread slices?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 31,
+    "question": "Do the bread slices have charred edges and are they arranged in a slightly overlapping fan shape?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

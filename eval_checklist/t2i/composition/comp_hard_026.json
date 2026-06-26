@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a realistic photograph of a winter cabin porch at evening blue hour?",
+    "category": "Style",
+    "subcategory": "Aesthetic & Mood",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Does the lighting show a mix of cold blue ambient light and warm yellow light from a wall-mounted lamp?",
+    "category": "Style",
+    "subcategory": "Lighting & Color",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Is there a dark wood door centered in the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the door handle black wrought iron with frost visible along its edges?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is there a round pine wreath adorned with red berries hanging at the center of the door?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are there exactly two pairs of skis leaning vertically against the wall to the left of the door?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does the front pair of skis have a white base with dark blue geometric patterns and tips pointing upward?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the rear pair of skis pure black with tips pointing upward?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are there exactly two ski poles crossed in front of the skis with tips resting on the ground?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the ski pole wrist straps dangling down and pressing into the snow, leaving visible marks?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is there a wooden rocking chair positioned on the right side of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is a gray and white checkered wool blanket draped over the rocking chair seat?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does one corner of the blanket hang down touching the ground with snow clinging to it?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is there a knit beanie resting on the blanket?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are there exactly two pairs of snow boots on the ground in front of the rocking chair?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the front pair of boots black with toes pointing to the left?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is the rear pair of boots pure white with toes pointing to the right and partially covered by fresh snow?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Is there an upright stainless steel thermos standing behind the boots with the lid closed and no pattern?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Are there exactly two glass storm lanterns side by side on the wooden steps in the lower left corner?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 20,
+    "question": "Does the left lantern contain a lit candle with a warm yellow flame?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Does the right lantern contain a candle with a cold blue flame that is slightly elongated?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 22,
+    "question": "Is there a white ceramic mug with thin wisps of steam rising located to the right of the lanterns?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 23,
+    "question": "Is there a dark-colored mug beside the white one emitting thicker steam, with no pattern on its body?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 24,
+    "question": "Are there two rows of footprints leading from the lower right toward the door and stopping at the doorstep?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 25,
+    "question": "Is there a set of smaller animal paw prints crossing from the lower left past the step edge?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 26,
+    "question": "Are there exactly seven icicles hanging from the eaves in the upper right corner?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 27,
+    "question": "Are the icicles semi-transparent, reflecting the warm lamp glow, and varying slightly in length with tapered tips?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 28,
+    "question": "Is the lower half of a snow-covered pine tree visible in the background on the left?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 29,
+    "question": "Are the pine tree branches bending downward under the weight of the snow?",
+    "category": "World Knowledge",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 30,
+    "question": "Is the image free from severe artifacts, distortions, or physically impossible floating objects?",
+    "category": "General",
+    "subcategory": "Quality & Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a realistic photograph with soft diffused lighting?",
+    "category": "Style",
+    "subcategory": "Lighting & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Is there exactly 1 light wood-toned seedling work table centered in the frame?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the tabletop feature moist water stains of varying depth?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Is there exactly 1 black plastic seedling tray positioned on the left side of the work table?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are there exactly 6 seedlings arranged in neat rows inside the black tray?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Do the seedlings in the tray have purple leaves and slightly varying heights?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are there exactly 5 small black flower pots lined up in a row to the right of the seedling tray?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the 1st pot (leftmost) in the row empty?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the 2nd pot contain light brown peat soil?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the 3rd pot contain exactly 1 tender green small seedling?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the 4th pot contain white perlite granules?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the 5th pot contain exactly 1 thin-leaved small grass?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Do all 5 pots face upward with visible soil stains on their rims?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is there exactly 1 bag of dark potting soil located below the table on the left side?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the mouth of the potting soil bag open and folded outward?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Is there exactly 1 watering can made of transparent glass in the lower left of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Does the watering can have a slim elongated spout pointing toward the right?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is there a visible water level line inside the glass watering can?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Are there exactly 2 spray bottles standing upright to the right of the watering can?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Does the left spray bottle have an orange body with a white spray head?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Does the right spray bottle have a transparent body with a black spray head and contain gold glitter suspension liquid?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Is there exactly 1 pair of red-handled pruning shears lying flat on the front edge of the work table?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 23,
+    "question": "Are the shears' metal blades closed with the tip pointing to the right?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 24,
+    "question": "Are there exactly 2 green gardening gloves stacked together beside the shears?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Do the gloves' fingers point toward the left with visible rubber grip dots on the fabric?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 26,
+    "question": "Is there exactly 1 roll of off-white hemp rope on a spool at the right front corner of the work table?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 27,
+    "question": "Does the loose end of the hemp rope hang down to the edge of the tabletop?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 28,
+    "question": "Are there exactly 7 plant label tags arranged in a fan shape behind the spool?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 29,
+    "question": "Are the plant label tags made of rainbow holographic material and completely blank?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 30,
+    "question": "Are there exactly 2 small terracotta pots in the center of the work table?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 31,
+    "question": "Does the left terracotta pot contain a succulent with thick leaves in a radial pattern?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 32,
+    "question": "Does the right terracotta pot contain a succulent with bright blue leaves and pointier tips?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 33,
+    "question": "Is there exactly 1 white hanging pot in the upper right area of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 34,
+    "question": "Does a trailing vine plant cascade down from the hanging pot, forming an arc above the work table?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 35,
+    "question": "Is there exactly 1 gray water bucket located below the work table on the right side?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 36,
+    "question": "Is the bucket half full with the water surface reflecting light?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 37,
+    "question": "Is there exactly 1 wooden box beside the water bucket containing exactly 7 light brown bulbs?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 38,
+    "question": "Do the bulbs vary in size and feature dry papery skin?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

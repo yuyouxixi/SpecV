@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "question": "Is there a circular cobblestone fountain pool roughly five meters in diameter in the foreground center?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is the water in the fountain crystal clear, revealing scattered gold and silver wishing coins on the bottom?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Are there approximately seven or eight oval emerald-green lily pads floating on the water surface?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Are there exactly three pink-white water lilies floating on the surface?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is there a bronze dolphin sculpture standing at the center of the fountain?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are there exactly three water jets spraying from the dolphin's mouth and tail?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is there a balding middle-aged man wearing a gray suit and holding a black briefcase in the foreground left?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the man in the gray suit looking down at a phone while walking?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are there exactly two little girls in the foreground right, one in a pale yellow dress and the other in a mint green dress?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are the two little girls leaning over the fountain edge reaching their hands toward the water?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is a mother standing behind the girls wearing a white sun-protection jacket and sunglasses?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the mother smiling with her hands on her hips?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the midground pedestrian plaza paved with dark red brick?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are there exactly six deep green boxwood trees trimmed into spherical shapes in the midground?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is each boxwood tree surrounded by a ring of light gray stone benches?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is there a young man wearing a red baseball cap pushing a white ice cream cart in the center of the plaza?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Do the colorful menu stickers on the cart legibly read \"Vanilla/Chocolate/Strawberry $5\"?",
+    "category": "Text Rendering",
+    "subcategory": "Legibility & Spelling",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Are there exactly three children queuing at the ice cream cart?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Are there exactly four cylindrical dark green cast iron trash bins at the plaza edge?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Are there two rows of rectangular wooden planters filled with red petunias and white baby's breath?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Is there a neoclassical off-white stone building in the background with exactly six Corinthian columns?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Is a dark blue flag with a gold heraldic shield hanging between the columns?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 23,
+    "question": "Are the golden letters \"MUNICIPAL CULTURAL CENTER\" clearly visible and correctly spelled above the main entrance?",
+    "category": "Text Rendering",
+    "subcategory": "Legibility & Spelling",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 24,
+    "question": "Are there exactly two white marble lion statues flanking the building entrance?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Is the sky bright light blue with a white commercial airliner in the upper right corner?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 26,
+    "question": "Does the airliner have exactly two long white contrails?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 27,
+    "question": "Are there any obvious distortions in human limbs or faces (e.g., extra fingers, twisted arms)?",
+    "category": "General",
+    "subcategory": "Physiological Plausibility",
+    "expected_answer": "No",
+    "score": 8.0
+  }
+]

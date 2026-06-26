@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a realistic medium shot photography of an ultra-clean cleanroom?",
+    "category": "Style",
+    "subcategory": "Scene Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Does the image feature cold white uniform top lighting?",
+    "category": "Style",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Is there a stainless steel operating table centered in the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the operating table surface covered by a light gray anti-static mat with slight texture?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Is there a laminar flow hood positioned above the operating table?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the laminar flow hood's air outlet an entire white grille panel?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Is there a technician standing on the left side of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the left technician wearing a full white cleanroom suit with white gloves?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the left technician's face shield transparent and without any markings?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the left technician's right hand gripping fine-tipped tweezers?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the tweezers pointing toward the center of the table and hovering above a wafer?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are there exactly two round wafer trays placed side by side in the center of the operating table?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the left wafer tray contain exactly one dark gray wafer with a rainbow interference luster?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the right wafer tray contain exactly two smaller wafers?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "On the right tray, is there one regular dark gray wafer and one metallic blue wafer with interference colors?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Are there two transparent petri dishes placed side by side to the right of the wafer trays?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is one petri dish covered and empty, while the other has a thin iridescent film with a smooth surface?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Is there a white air blower bulb lying on its side to the left of the wafer trays?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is the air blower bulb's fine nozzle pointing toward the right of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Is there a black vacuum pickup pen tool lying flat beside the air blower bulb?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Is the vacuum pickup pen's suction tip pointing toward the wafer trays?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 22,
+    "question": "Is there a second technician sitting on a high stool on the right side of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 23,
+    "question": "Is the right technician's posture slightly leaning forward?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 24,
+    "question": "Is the right technician's left hand resting on a black stereo microscope base?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 25,
+    "question": "Are the microscope eyepieces facing the upper right of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 26,
+    "question": "Is there an illuminated ring fill light next to the microscope forming a uniform white circle?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 27,
+    "question": "Is there a robotic arm in standby position at the right rear of the operating table?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 28,
+    "question": "Is there a smaller silver pick-and-place module stopped on a track below the robotic arm?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 29,
+    "question": "Is there a monitor screen hanging on the wall at the left rear of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 30,
+    "question": "Is the monitor screen displaying a pure cyan interface?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 31,
+    "question": "Is there a transparent transfer box at the right foreground edge?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 32,
+    "question": "Is the transfer box half-open?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 33,
+    "question": "Is there a sealed transparent bag containing a roll of white wiping cloth beside the transfer box?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 34,
+    "question": "Is the background wall made of white panels with regular seams and no signage?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 35,
+    "question": "Are there exactly two technicians visible in the scene?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 36,
+    "question": "Are the hand poses of both technicians physiologically plausible (no extra fingers or distortions)?",
+    "category": "General",
+    "subcategory": "Physiological Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

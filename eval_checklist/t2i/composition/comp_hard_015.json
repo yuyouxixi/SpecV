@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a realistic photo of an airport security checkpoint area?",
+    "category": "Style",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is there exactly 1 light gray X-ray machine positioned on the left side of the frame?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the X-ray machine have a black rectangular opening with reflective edges?",
+    "category": "Composition",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is there a black conveyor belt extending from right to left toward the X-ray machine?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is there exactly 1 silver, reflective metal security gate frame in the middle background?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attribute",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Are there exactly 2 silver stanchion posts (one on each side) in front of the security gate?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the stanchion posts connected by a black and white striped retractable belt forming a horizontal line?",
+    "category": "Composition",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are there exactly 5 light gray plastic trays arranged in sequence on the conveyor belt?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the leftmost tray positioned close to the X-ray machine entrance?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are there exactly 2 laptops side by side inside the leftmost tray?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the left laptop silver metal (closed) and the right laptop gold shell (closed) with visible internal structure?",
+    "category": "Composition",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are there exactly 3 phones placed side by side at the front edge of the leftmost tray?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are the phone cases colored black, white, and dark blue (fuzzy plush material) respectively?",
+    "category": "Composition",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is there 1 set of scattered metal keys in the middle tray with a circular silver keyring and teeth pointing in different directions?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attribute",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Are there exactly 2 analog watches positioned to the right of the keys in the middle tray?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does one watch have a black dial with a brown leather strap, and the other a white dial with a black silicone strap?",
+    "category": "Composition",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Are there exactly 3 pairs of sneakers inside the rightmost tray?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Are the sneaker pairs colored white, gray, and black, all with mesh texture uppers?",
+    "category": "Composition",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Do the toe caps of all three pairs of sneakers point to the left?",
+    "category": "Structure",
+    "subcategory": "Orientation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Are there exactly 2 coiled belts positioned behind the sneakers?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Is one belt dark blue and the other semi-transparent silicone, both with metal buckles facing up?",
+    "category": "Composition",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Are there exactly 2 backpacks standing upright on the ground at the lower right of the frame?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 23,
+    "question": "Is one backpack charcoal gray coarse woven fabric and the other dark blue nylon fabric?",
+    "category": "Composition",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 24,
+    "question": "Are there exactly 2 jackets on the ground next to the backpacks: one dark gray (dragging) and one light khaki (bundled)?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attribute",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 25,
+    "question": "Are there exactly 6 transparent plastic water bottles standing in a row in front of the backpacks?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 26,
+    "question": "Does the leftmost water bottle contain bright yellow liquid while the rest are colorless?",
+    "category": "Composition",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 27,
+    "question": "Are there exactly 2 passport holders positioned behind the water bottles?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 28,
+    "question": "Is there a burgundy leather passport holder (half open) and a brushed metal passport holder (closed, reflecting light)?",
+    "category": "Composition",
+    "subcategory": "Attribute Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

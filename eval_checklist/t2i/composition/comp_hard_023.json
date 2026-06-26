@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image captured from a low angle position near ground level, looking upward with an ultra-wide perspective?",
+    "category": "Composition",
+    "subcategory": "Viewpoint & Perspective",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the perspective positioned beside a curved floor rail in the foreground?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the lighting consist of a mix of dim red safety lights and cold blue starlight?",
+    "category": "Style",
+    "subcategory": "Lighting & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Is the upper portion of the image a white hemispherical dome interior with visible curved structural ribs?",
+    "category": "Structure",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is there a narrow observation slit opening located in the upper right portion of the dome?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the slit opening reveal a deep blue night sky with clear star points and no overlaid annotations?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is there a large telescope on an equatorial mount positioned near the center of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the telescope tube matte dark gray and aimed toward the upper right at the slit?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is a thinner guide scope mounted parallel above the main telescope tube?",
+    "category": "Structure",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are there exactly two curved metal rails with roller assemblies between the mount base and the floor?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is there a bundle of black cables hanging on the right side of the telescope?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Do the cables coil loosely near the floor and rest on a transparent plastic star chart with dot patterns?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is there an open, black, hard-shell equipment case with no markings sitting on the floor in the left-center area?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the equipment case contain exactly seven cylindrical eyepieces and one metal adapter ring?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is one of the eyepieces inside the case brass-colored?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is there exactly one round pure-black lens cap on the floor in front of the equipment case?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is there exactly one L-shaped hex wrench on the floor with the short end pointing toward the lower left?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is there exactly one small red flashlight on the floor with its lamp head pointing toward the right?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is there a partially unfolded folding chair in the lower right corner with a dark down jacket draped over it?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Are there stacked dark gray gloves beside the chair with fingertips pointing toward the left?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 21,
+    "question": "Is there a stainless steel thermos standing upright in the lower left foreground with the lid closed?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 22,
+    "question": "Are there exactly two operators present in the scene?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 23,
+    "question": "Is one operator standing beside the telescope with their back to the camera, wearing dark gear and a knit cap?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 24,
+    "question": "Is the standing operator wearing a headlamp emitting red light?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 25,
+    "question": "Is the standing operator's left hand bracing the mount while the right hand reaches toward a black control box?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 26,
+    "question": "Is the second operator crouching beside the equipment case holding a tablet with an unlit (black) screen?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 27,
+    "question": "Is there a work table in the left background with a closed laptop and a dew heater controller?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

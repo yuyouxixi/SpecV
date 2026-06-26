@@ -1,0 +1,330 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a realistic photo of a classroom interior shown from a frontal view?",
+    "category": "Style",
+    "subcategory": "Scene Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is there cold white daylight streaming through a window on the left side?",
+    "category": "Style",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is there a dark green chalkboard in the back center occupying the upper half of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is there a round white wall clock with black hands positioned directly above the chalkboard center?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is there a tall window to the left of the chalkboard with a white frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the window have light gray venetian blinds that are half-closed?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is there a light wood-colored teacher's lectern desk in the front left of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are there exactly two laptops placed side by side on the right rear corner of the lectern desk?",
+    "category": "Composition",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the left laptop silver aluminum, half-open at approximately 90 degrees, with a black screen?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the right laptop a fluorescent yellow-green shell, closed, thinner, and positioned near the desk edge?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is there a semi-transparent light purple projector on the left side of the lectern desk?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the projector lens facing toward the back of the frame, with internal components faintly visible?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Are there exactly two stacks of textbooks (totaling 6 books) on the front left corner of the lectern desk?",
+    "category": "Composition",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Does the first stack contain 3 books with red, blue, and cream white covers?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the second stack contain 3 books with dark green, orange, and gray covers?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Is there a transparent acrylic pen holder between the two stacks containing exactly 7 colored pencils with tips pointing up?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are there exactly two student desks side by side in the front right of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Is the left student desk surface light gray and the right student desk surface slightly darker gray?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "Do both student desks have rounded edges?",
+    "category": "Structure",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 20,
+    "question": "Are there exactly two globes on the upper left corner of the left student desk?",
+    "category": "Composition",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 21,
+    "question": "Is the front globe a standard blue-green one and the back globe one with bright purple oceans?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 22,
+    "question": "Do both globes have black bases and tilted axes leaning to the left?",
+    "category": "Structure",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 23,
+    "question": "Are there exactly two potted plants on the right side of the left student desk?",
+    "category": "Composition",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 24,
+    "question": "Is one plant a bright green ivy with leaves trailing over the desk edge?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Is the other plant a small green cactus in a white ceramic pot?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 26,
+    "question": "Are there exactly 6 cups with straws lined up from left to right on the center of the right student desk?",
+    "category": "Composition",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 27,
+    "question": "Is the first cup (leftmost) blue stainless steel with visible condensation?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 28,
+    "question": "Is the second cup transparent plastic with a fluorescent green beverage?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 29,
+    "question": "Is the third cup matte white with a black straw?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 30,
+    "question": "Is the fourth cup transparent glass with a bright purple beverage and white straw?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 31,
+    "question": "Is the fifth cup matte black with a fluorescent orange straw?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 32,
+    "question": "Is the sixth cup (rightmost) light pink stainless steel with condensation and a silver straw?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 33,
+    "question": "Are there exactly two rulers on the front edge of the right student desk?",
+    "category": "Composition",
+    "subcategory": "Numerical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 34,
+    "question": "Is one ruler transparent and placed horizontally, and the other pale yellow and placed slightly diagonally?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 35,
+    "question": "Is there exactly one backpack at the lower right corner of each student desk (2 total)?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 36,
+    "question": "Is the left backpack black, half-unzipped revealing orange lining?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 37,
+    "question": "Is the right backpack dark blue with the zipper fully closed?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 38,
+    "question": "Are there exactly two lunch boxes side by side in front of the right backpack?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 39,
+    "question": "Is the left lunch box red plastic and tightly sealed, and the right one dark gray metal with rounded corners?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 40,
+    "question": "Are the main objects (desks, laptops, cups) free from severe geometric distortions?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 41,
+    "question": "Is the image clear, in-focus, and free from significant artifacts?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

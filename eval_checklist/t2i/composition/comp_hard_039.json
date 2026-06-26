@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image presented from a top-down angle showing an archaeological restoration laboratory?",
+    "category": "Composition",
+    "subcategory": "Scene Setup",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are distinct foreground, midground, and background layers clearly visible?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is there a damaged blue-and-white porcelain plate (white base, blue patterns, chips/cracks) in the center foreground?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are there exactly 12 ceramic shards arranged in a clockwise ring around the central plate?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Do the ceramic shards have small white stickers numbered 01 through 12?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does shard 04 overlap shard 03, specifically covering a corner of shard 03?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is shard 07 leaning vertically against a gray foam block?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is shard 11 half-covered by the shadow of the plate's rim?",
+    "category": "Style",
+    "subcategory": "Lighting & Shadow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are there exactly 6 fine brushes in the left foreground, arranged parallel and ordered from thick to thin?",
+    "category": "Composition",
+    "subcategory": "Arrangement & Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the tip of the thinnest brush pointing toward the center of the plate?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the stainless steel tray contain exactly 3 cotton swabs, 2 disposable blades, and 1 eraser?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the eraser in the tray stamped with the text '2B'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is there an electronic scale (black panel) in the right foreground displaying '125.0g'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the scale have a label on the front edge reading 'CAL'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Is there a semi-transparent weighing boat containing white powder sitting on the scale?",
+    "category": "Composition",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are there two tweezers (one curved-tip, one straight-tip) crossed, with the curved one pressing down on the straight one?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are there exactly 6 transparent evidence bags (with red seal tape) in the midground?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Do the evidence bags have labels reading 'E1' through 'E6'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Does bag E3 contain 2 copper coins, bag E4 contain a black USB drive, and bag E6 contain a small glass bottle?",
+    "category": "Composition",
+    "subcategory": "Object Attributes",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Is there a ring magnifying lamp behind the evidence bags casting a circular highlight?",
+    "category": "Style",
+    "subcategory": "Lighting & Shadow",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Are there exactly 3 people in the midground (restorer, assistant, photographer)?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 22,
+    "question": "Is the restorer wearing blue nitrile gloves and holding ceramic shard 08 with their left hand?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 23,
+    "question": "Is the assistant on the right wearing a white lab coat and holding a clipboard titled 'RESTORATION LOG'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 24,
+    "question": "Is the photographer on the left holding a camera aimed at the plate, with their shoulder partially obscuring the magnifying lamp stand?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 25,
+    "question": "Are there exactly 4 kraft paper archive boxes on the background shelving with 'FRAGILE' printed on the sides?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 26,
+    "question": "Is there a row of at least 8 glass reagent bottles on the shelving, alternating between brown and clear?",
+    "category": "Composition",
+    "subcategory": "Arrangement & Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 27,
+    "question": "Does the whiteboard on the wall display the text 'Project A, Steps 1-3'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 28,
+    "question": "Does the digital clock in the corner display '14:20'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 29,
+    "question": "Is the image free from severe artifacts (e.g., floating objects not specified, melting objects)?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

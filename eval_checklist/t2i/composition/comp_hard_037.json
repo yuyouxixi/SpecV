@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "question": "Is there an iron-gray metal railing positioned on the left side of the boardwalk?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the railing densely covered with at least a dozen padlocks?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Density",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Do the padlocks appear in various colors including gold, silver, red, and blue?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Are there 7 or 8 faded red and yellow prayer ribbons attached to the railing?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Attributes",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Is there a young man positioned in the right foreground?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the young man wearing an orange-red windbreaker and dark-brown high-top hiking boots?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the young man carrying a large dark-green hiking backpack?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the young man gripping the railing and looking back toward the camera?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is there a blue sports drink bottle visible in the side pocket of the man's backpack?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are there exactly two silver folding trekking poles leaning diagonally against the railing near the young man?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is there a couple walking side by side on the boardwalk about three steps ahead of the young man?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Is the man in the couple wearing a black fleece jacket?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the woman in the couple wearing a lake-blue windbreaker and does she have a ponytail?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is there a nearly vertical gray granite cliff face in the midground?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is there an iron chain handrail embedded into the cliff face that appears polished/shiny?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attributes",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Are there exactly two crooked small pine trees growing from the rock crevices?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Is there a narrow silver-white stream of water trickling down the cliff leaving wet streaks?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is there a double-eaved wooden pavilion positioned to the right of the cliff?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Does the pavilion have peeling red paint and a roof with dark cyan glazed tiles and upturned eaves?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Is there a stone table and benches inside the pavilion?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 21,
+    "question": "Are there exactly four hikers sitting inside the pavilion?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Are the four hikers in the pavilion wearing gray, blue, red, and black jackets?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 23,
+    "question": "Does the background show at least 5 or 6 layers of undulating dark-green mountain ridges?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Scene Layout",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 24,
+    "question": "Is there thin milky-white morning mist wrapping or dividing the mountain ridges?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Is the summit of the farthest main peak covered with snow that glows with a pale golden light?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding & Lighting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 26,
+    "question": "Does the sky show a gradient from light purple in the near sky to rose-gold dawn hues in the distance?",
+    "category": "Style",
+    "subcategory": "Color & Lighting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 27,
+    "question": "Are there any obvious distortions in the humans' limbs or faces (e.g., extra fingers, warped arms)?",
+    "category": "General",
+    "subcategory": "Physiological Plausibility",
+    "expected_answer": "No",
+    "score": 8.67
+  },
+  {
+    "id": 28,
+    "question": "Is the overall perspective physically plausible (boardwalk, railing, cliff, and pavilion aligned sensibly)?",
+    "category": "Structure",
+    "subcategory": "Perspective & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a realistic photography of an auto repair workshop taken from a front-side angle view?",
+    "category": "Style",
+    "subcategory": "Artistic Style & Perspective",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Is the lighting consistent with cool white work lights?",
+    "category": "Style",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Is there exactly one red sedan positioned in the center of the frame?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the sedan lifted on a blue hydraulic lift with the front wheel position suspended in the air?",
+    "category": "Composition",
+    "subcategory": "Action & Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the car body appear dusty?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Is there exactly one black oil drain pan placed directly under the engine?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the liquid inside the oil drain pan show bright green reflections?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Are there exactly two funnels (one orange plastic, one transparent glass) arranged side by side to the right of the oil drain pan?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the orange funnel tilted slightly to the left?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Are there exactly six black tires arranged in a fan-shaped formation against the right wall?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are the tire tread patterns clear and is the foremost tire's upper edge higher than the others?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Are there exactly two brake discs placed side by side on the ground to the front left of the tires?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the left brake disc regular silver metal and the right brake disc light purple?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is there exactly one open red toolbox in the left-center area with the lid flipped back?",
+    "category": "Composition",
+    "subcategory": "Object Presence & State",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are there exactly four wrenches arranged on the ground in front of the toolbox?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the wrench sequence from left to right: 2 long-handle open-end, 1 ratchet socket, 1 short-handle box-end?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship & Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Do all the metal wrench heads face to the right?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are there exactly two cordless drills in the lower left, with the left one black matte and the right one dark gray?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Are both drill bits pointing to the right?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Is there exactly one black air hose coiled in a large circle in the center-right area?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Does the air hose's metal connector face toward the front of the frame with a visible highlight?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship & Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 22,
+    "question": "Are there exactly two work lamps on tripod stands in the right rear?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 23,
+    "question": "Is there exactly one pair of transparent safety goggles resting lens-side up on the workbench in the left rear?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 24,
+    "question": "Are there exactly two pairs of fluorescent pink gloves next to the goggles with fingers pointing left?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Are there exactly two dark gray oil-stained rags on the ground in front of the gloves?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 26,
+    "question": "Are the rags positioned one in front and one behind?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 27,
+    "question": "Are there exactly two black jack stands standing upright, stable, and parallel in the center-bottom?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 28,
+    "question": "Is there exactly one bright blue fire extinguisher mounted on the left wall?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 29,
+    "question": "Does the metal nozzle of the fire extinguisher face to the right?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 30,
+    "question": "Is the image clear, free from severe artifacts, and are objects free from severe physical distortions?",
+    "category": "General",
+    "subcategory": "Image Quality & Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

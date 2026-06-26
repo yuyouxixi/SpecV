@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "question": "Is the foreground bottom a stretch of light-colored fine sandy beach?",
+    "category": "Composition",
+    "subcategory": "Scene Layout",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are there approximately seven or eight seashells scattered on the sand surface?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Do the scattered seashells include white scallop shells, pink spiral conch shells, and grey clam shells?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Are there two pairs of flip-flops (one blue, one red) located in the lower left corner?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is there a rolled-up yellow and white striped beach towel near the flip-flops?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is there an open woven straw tote bag revealing sunscreen, black sunglasses, and a blue-covered magazine?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Is there a green plastic sand shovel half-inserted in the sand next to an overturned yellow sand bucket?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is a young woman reclining on the left side wearing a white wide-brimmed sun hat and an emerald green bikini?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the woman reclining on an orange striped folding lounge chair?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the woman holding a pink cocktail with a yellow mini umbrella?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is a man in black swim trunks lying face down on a blue and white striped lounge chair beside the woman?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are white sunscreen smear marks visible on the man's back?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Is a dark-skinned boy in red beach shorts half-kneeling on the right side of the foreground?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the boy using a blue small shovel to build a sand castle?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the sand castle three-tiered?",
+    "category": "Structure",
+    "subcategory": "Geometric Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is the sand castle topped with a white paper flag?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is a little girl in a pink swimsuit beside the boy pressing shell decorations into the castle walls?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Is the middle ground emerald-colored shallow seawater with waves churning white foam?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Are there approximately six or seven people visible in the water?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 20,
+    "question": "Is there a freestyle swimmer wearing a red swim cap?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 21,
+    "question": "Are there two teenagers splashing water at each other playfully?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 22,
+    "question": "Is there a tall man carrying a white surfboard walking toward deeper water?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 23,
+    "question": "Are there two people in orange life vests paddling the kayak?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 24,
+    "question": "Are there two rainbow-colored inflatable rings floating on the sea surface?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Is there a blue inflatable dolphin pool toy floating on the sea surface?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 26,
+    "question": "Is there a white double-masted sailboat in the distant background?",
+    "category": "Structure",
+    "subcategory": "Object Geometry",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 27,
+    "question": "Is the number '52' printed in red on the sailboat's sail?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 28,
+    "question": "Is there a silhouette of a small island with tropical green vegetation at the horizon line?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 29,
+    "question": "Is the sky pure azure blue with a few wisps of white cirrus clouds?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 30,
+    "question": "Is there a flock of about six or seven white seagulls soaring in the upper left corner?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 31,
+    "question": "Are the human figures (faces, hands, limbs) free from severe distortions or deformities?",
+    "category": "General",
+    "subcategory": "Physiological/Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 32,
+    "question": "Is the image free from severe rendering artifacts (e.g., smeared textures, impossible object geometries)?",
+    "category": "General",
+    "subcategory": "Distortion/Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 33,
+    "question": "Do objects obey physical gravity (e.g., kayak on water, not floating in sky)?",
+    "category": "General",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "Is there a gray asphalt road in the foreground with clearly visible white dashed center lines?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is there a circular manhole cover with a grid pattern on the left side of the road?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is a dark red vintage Volkswagen Beetle parked on the left side of the road?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are there exactly two brown leather suitcases tied to the roof of the Volkswagen Beetle?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is there a dark green canvas travel bag tied to the roof of the Volkswagen Beetle?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is a young woman standing beside the Volkswagen Beetle wearing an emerald green linen maxi dress?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the woman have a brown leather crossbody bag?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the woman holding an unfolded yellowed paper map in her hands?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is there a general store on the right side of the road with goose-yellow painted walls?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is there a hand-painted wooden sign above the general store with red letters on a white background reading 'LUCKY MART'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is there a three-tier iron shelf at the general store entrance densely packed with merchandise?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are red and blue plastic buckets visible on the store shelf?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Are bamboo brooms and bundles of white nylon rope visible on the store shelf?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Are yellow rubber gloves and green plastic washbasins visible on the store shelf?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Are transparent plastic hangers and various colored laundry detergent bottles visible on the store shelf?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the barbershop located immediately next to the general store?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is there a red letter sticker on the barbershop glass door reading 'HAIRCUTS $15'?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Are there exactly two teenagers in blue and white school uniforms riding silver bicycles in the middle ground?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Is there an orange basketball visible in the bicycle basket?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Is a dark blue three-wheeled motorcycle positioned behind the teenagers?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 21,
+    "question": "Is the three-wheeled motorcycle belching black smoke?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 22,
+    "question": "Is the motorcycle loaded with a cartful of bright green Chinese cabbages?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "Is there a sanitation worker in a red vest on the opposite side of the road?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 24,
+    "question": "Is the sanitation worker pushing a dark green garbage cart?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Is the sanitation worker bending down to sweep?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 26,
+    "question": "Is there a gray cement utility pole nearby plastered with six or seven colorful small advertisement flyers?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 27,
+    "question": "Is there a row of approximately six or seven gray-white residential buildings of varying heights in the background?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 28,
+    "question": "Are silver solar water heaters of different sizes installed on the residential building rooftops?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 29,
+    "question": "Is there colorful laundry of at least a dozen items hanging on wires between the buildings?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 30,
+    "question": "Are the background storefront signs 'EXPRESS DELIVERY', 'NOODLE HOUSE', and 'MOBILE PHONE SHOP' visible?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 31,
+    "question": "Is there a mist-shrouded dark blue mountain range in the far distance?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 32,
+    "question": "Is there a red-and-white striped communication tower in the far distance?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 33,
+    "question": "Are the main subjects (people, vehicles) complete without being cut off by the frame (unless implied by 'foreground')?",
+    "category": "General",
+    "subcategory": "Image Completeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 34,
+    "question": "Are there any obvious distortions in the human figures (e.g., extra fingers, twisted limbs)?",
+    "category": "General",
+    "subcategory": "Physiological/Physical Plausibility",
+    "expected_answer": "No",
+    "score": 8.33
+  },
+  {
+    "id": 35,
+    "question": "Is the overall image clear and not blurry, allowing for identification of the detailed objects described?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

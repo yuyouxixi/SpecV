@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "question": "Is the foreground dominated by a vast golden ripe wheat field with wheat ears hanging low?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is there a grayish-brown wild hare crouching in the lower left corner with its ears perked up?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are there exactly three blue cornflower wildflowers in the lower right corner?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are there trampled wheat stalks visible in the lower right corner?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is an elderly farmer standing on the right side of the foreground along the field ridge?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the farmer wearing an indigo blue coarse cotton shirt and an earth-yellow straw hat?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the farmer gazing into the distance with a wooden-handled iron shovel resting on his shoulder?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is there a black and white patterned sheepdog lying at the farmer's feet?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the sheepdog depicted with its tongue out panting?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is there a rust-covered dark green vintage bicycle positioned behind the farmer?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is there a sickle clamped to the rear rack of the bicycle?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is there a large red combine harvester operating in the left middle ground?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Is the text 'HARVEST PRO 9000' clearly visible and correctly spelled on the harvester?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling & Legibility",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is pale yellow chaff and dust billowing up behind the combine harvester?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is there a dark green agricultural three-wheeled truck parked on a muddy dirt road in the right middle ground?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the truck's cargo bed filled with golden wheat grains half-covered by a grayish-white canvas?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are there exactly two young men beside the truck wearing blue coarse cotton short-sleeved shirts?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Are the two young men working together to hoist a bulging white woven sack onto the truck bed?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is there a pile of approximately seven or eight woven sacks on the ground near the truck?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Is there a row of approximately six or seven low earth-yellow farmhouses with dark red clay tile roofs in the distant background?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Is there a large patch of golden grain spread out to dry on the threshing floor in front of the farmhouses?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Are there exactly two tall green walnut trees beside the farmhouses?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "Is there a cylindrical gray cement water tower beside the farmhouses?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 24,
+    "question": "Are there exactly seven white wind turbines with massive rotating blades on the far horizon?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Is the sky deep azure blue with a few fluffy cumulus clouds?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 26,
+    "question": "Is there a brown eagle soaring/circling high in the sky?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 27,
+    "question": "Are the hands and limbs of the farmer and young men free from severe distortion (e.g., extra fingers, melted hands)?",
+    "category": "General",
+    "subcategory": "Physiological Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 28,
+    "question": "Are the animals (hare, sheepdog, eagle) free from obvious anatomical deformities?",
+    "category": "General",
+    "subcategory": "Physiological Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 29,
+    "question": "Is the image free from severe artifacts, glitching, or unreadable blobs?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

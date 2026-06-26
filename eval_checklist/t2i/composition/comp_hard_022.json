@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a realistic photography style of a rainy night city tram station?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the perspective a wide-angle street view looking diagonally toward distant tracks?",
+    "category": "Composition",
+    "subcategory": "Perspective/Viewpoint",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the ground wet with mirror reflections and neon/headlights stretched into long streaks?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is there a transparent-roofed waiting shelter with a light gray metal frame on the right side of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Are the shelter's glass panels covered with raindrops and thin water streak marks?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Is there a long bench inside the shelter (center-right) with exactly two small puddles on the seat surface?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Are there exactly two umbrellas placed side by side on the ground in front of the bench?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is one umbrella a solid black folding umbrella, closed, lying flat, with its tip pointing toward the lower left?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the other umbrella a transparent long-handle umbrella, half-open, inverted (ribs facing up), with water droplets on the canopy?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is there a pillar with a circular call button at the front-right of the shelter?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is there a yellow tactile paving strip extending along the track direction in the center of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is there an approaching tram in the center-left distance with exactly two symmetrical white headlights?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the approaching tram's destination board a solid color block (no readable text)?",
+    "category": "Text Rendering",
+    "subcategory": "Text Legibility (Negative)",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is there a small puddle between the tracks in front of the approaching tram reflecting the headlights?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Is there a dark gray disposable paper cup lying in the left foreground with its opening facing right?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is there a crushed silver aluminum can beside the paper cup with a thin water trace spreading around them?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Are there exactly seven passengers standing scattered on the center-right of the platform?",
+    "category": "Composition",
+    "subcategory": "Numeracy/Counting",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Is there a passenger wearing a bright yellow raincoat standing to the right of the tactile strip, arms crossed, facing the tram?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Is there a passenger pushing an unmarked black bicycle at the outer edge of the shelter?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Is the bicycle's front wheel pointing toward the upper left of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Is there a passenger holding a square umbrella standing beside the bench, with the umbrella reflecting streetlight?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Is there a shorter passenger wearing a reflective silver rain poncho standing near the call button facing the tram?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 23,
+    "question": "Is there a passenger wearing a dark coat standing to the left of the tactile strip facing the tram?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 24,
+    "question": "Is there a passenger wearing a light-colored jacket standing outside the left end of the shelter with arms hanging naturally?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 25,
+    "question": "Is there a passenger wearing a black hooded raincoat near the platform edge, turned sideways facing right, not crossing the line?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 26,
+    "question": "Is there a small orange warning cone with a white reflective ring near the left edge of the platform?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 27,
+    "question": "Is there a vertical route information board at the right rear outside the shelter showing geometric colored blocks (no text)?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 28,
+    "question": "Are high-rise glass curtain walls and streetlight bokeh visible in the background?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 29,
+    "question": "Are all signage areas rendered as blurred color blocks rather than readable text?",
+    "category": "Text Rendering",
+    "subcategory": "Text Legibility (Negative)",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 30,
+    "question": "Are there any obvious human limb distortions or anatomical deformities among the passengers?",
+    "category": "General",
+    "subcategory": "Physiological/Physical Plausibility",
+    "expected_answer": "No",
+    "score": 8.33
+  },
+  {
+    "id": 31,
+    "question": "Is the image free of severe blur, rendering corruption, or heavy artifacts?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image feature realistic photography with cold winter color tones?",
+    "category": "Style",
+    "subcategory": "Atmosphere & Tone",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Is the image presented in a horizontal composition?",
+    "category": "Composition",
+    "subcategory": "Aspect Ratio",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is there a silver-gray train stopped on the left side of the frame with closed doors?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are there fine snow specks on the train body and are the windows slightly fogged?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the platform ground to the right of the train have a distinct light gray cement texture?",
+    "category": "Composition",
+    "subcategory": "Texture & Material",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is there a bright cyan-green safety line with thin frost running through the foreground?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is there a dark blue metal bench in the center of the frame with a layer of fine frost on the seat?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are there exactly 3 suitcases arranged front-to-back at the left end of the bench?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the foremost suitcase transparent with the empty interior visible?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the two suitcases behind the transparent one dark gray and black respectively, with visible scratches?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are all suitcases standing upright, and does the dark gray one have its telescopic handle fully extended?",
+    "category": "Composition",
+    "subcategory": "State & Action",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are there exactly 2 backpacks lying flat on the right side of the bench?",
+    "category": "Composition",
+    "subcategory": "Numeracy & State",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is one backpack black with a half-open zipper showing orange lining, and the other khaki with the zipper closed?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are there exactly 3 paper coffee cups arranged in a triangle on the ground in front of the bench?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the left cup white with a black lid, the right cup mirror-silver, and the middle cup dark brown with a white lid?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is there light steam rising from the openings of the coffee cups?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Are there exactly 2 newspapers (one gray-white, one light blue) spread on the ground to the right of the cups?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Is there a red vending machine with visible buttons and slots placed against the wall in the right-center?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Is there an electronic timetable screen displaying colored rectangular bars on the wall to the left of the vending machine?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Is there a black cylindrical trash bin with a visible plastic liner positioned below the timetable?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Are there exactly 2 blank poster frames with silver frames arranged vertically in the right foreground?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Arrangement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Are there exactly 2 adults standing behind the bench (one in green coat/cream scarf facing left, one in gray jacket/black hat facing train)?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 23,
+    "question": "Are there exactly 2 children standing inside the safety line (one in red jacket/blue cap looking up, one in blue jacket/white earmuffs)?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 24,
+    "question": "Is there a gray baby stroller with the canopy half-closed parked behind and to the right of the children?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 25,
+    "question": "Are there exactly 7 pigeons standing inside the safety line in the lower right corner?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 26,
+    "question": "Do the pigeons consist of exactly 2 gray, 1 light pink, and 4 gray-and-white patterned ones?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 27,
+    "question": "Are all the pigeons' heads facing toward the paper cups?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 28,
+    "question": "Is the platform exit visible in the far right background with falling snow and blurry city lights?",
+    "category": "Composition",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

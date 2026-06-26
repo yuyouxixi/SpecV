@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image a realistic photo depicting a mountain camping scene at dusk?",
+    "category": "Style",
+    "subcategory": "Scene Attributes",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is the image captured with a wide-angle perspective?",
+    "category": "Style",
+    "subcategory": "Camera Perspective",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Is there exactly one khaki tent positioned in the right-center of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the door flap of the tent rolled halfway up to the left?",
+    "category": "Composition",
+    "subcategory": "State/Action",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are there exactly 2 sleeping bags inside the tent toward the back, placed side by side?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the sleeping bag on the left dark blue with a regular quilted surface?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the sleeping bag on the right metallic silver reflective with obvious wrinkles?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are there exactly 2 silver-gray inflatable sleeping pads beneath the sleeping bags?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Attribute",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the sleeping pads parallel to the tent opening direction with edges slightly puffed?",
+    "category": "Structure",
+    "subcategory": "Geometry & Orientation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Are there exactly 3 hiking backpacks leaning diagonally at the left front of the tent?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the backpack at the very front red?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the backpack in the middle (behind the red one) black?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do all three backpacks have shoulder straps hanging down to the ground?",
+    "category": "Composition",
+    "subcategory": "State/Action",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are there exactly 2 camping lanterns hanging above the tent entrance?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the left lantern black-bodied with warm light pointing down?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Is the right lantern small, gray-bodied with cool light pointing down?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is there a circle of gray stones forming a campfire ring positioned to the left of center?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Are the flames inside the campfire ring bright green and illuminating the inner sides of the stones?",
+    "category": "Composition",
+    "subcategory": "Attribute & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Is there exactly 1 matte black metal tripod spanning above the campfire ring?",
+    "category": "Structure",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Is there exactly 1 matte black kettle hanging from the center of the tripod?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Is the kettle's handle upright and the spout facing to the right?",
+    "category": "Composition",
+    "subcategory": "Orientation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 22,
+    "question": "Are there exactly 6 thin firewood pieces stacked to the right of the campfire ring?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 23,
+    "question": "Is the firewood stacked neatly in two layers alternating top and bottom?",
+    "category": "Structure",
+    "subcategory": "Geometry & Pattern",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 24,
+    "question": "Does the firewood have light brown bark with cut ends facing the camera?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Are there exactly 4 white enamel cups placed horizontally in a row in front of the campfire ring?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 26,
+    "question": "Do all 4 cups have a thin blue rim on the mouth and handles facing to the right?",
+    "category": "Composition",
+    "subcategory": "Attribute & Orientation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 27,
+    "question": "Are there exactly 3 wooden skewers with marshmallows placed in front of the cups?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 28,
+    "question": "Is the left marshmallow slightly charred, the center one bright blue, and the right one golden yellow?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 29,
+    "question": "Do all three wooden skewer tips point to the lower left?",
+    "category": "Composition",
+    "subcategory": "Orientation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 30,
+    "question": "Is there a spread-open map with obvious fold creases and yellowish paper in the lower left of the frame?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attribute",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 31,
+    "question": "Is the upper right corner of the map weighted down by a brass compass with a round reflective glass face?",
+    "category": "Composition",
+    "subcategory": "Spatial & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 32,
+    "question": "Is there exactly 1 pair of binoculars resting on a rock to the upper left of the map?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 33,
+    "question": "Are the binocular lens tubes pointing toward the upper right of the frame?",
+    "category": "Composition",
+    "subcategory": "Orientation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 34,
+    "question": "Are there exactly 2 pairs of brown hiking boots side by side in the lower right near the tent entrance?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 35,
+    "question": "Do the hiking boots have mud spots on the uppers and do all toe tips face left?",
+    "category": "Composition",
+    "subcategory": "Attribute & Orientation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 36,
+    "question": "Are there exactly 2 trekking poles crossed on the ground to the right of the hiking boots?",
+    "category": "Composition",
+    "subcategory": "Numeracy & Spatial",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

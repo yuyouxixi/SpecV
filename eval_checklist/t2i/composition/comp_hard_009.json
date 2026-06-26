@@ -1,0 +1,346 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image rendered in a realistic style with crystal clear seawater?",
+    "category": "Style",
+    "subcategory": "Artistic Style",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 2,
+    "question": "Does the image appear to be a wide-angle shot?",
+    "category": "Composition",
+    "subcategory": "Framing/Viewpoint",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Are there exactly 2 divers positioned in the left foreground?",
+    "category": "Composition",
+    "subcategory": "Count & Location",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Are both divers swimming horizontally toward the right?",
+    "category": "Composition",
+    "subcategory": "Action",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the front diver wearing a black wetsuit with a lime green tank?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the rear diver wearing a bright pink wetsuit with a yellow tank?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the rear diver positioned further away and slightly out of focus (depth of field)?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are there exactly 2 black underwater cameras (one in front of each diver)?",
+    "category": "Composition",
+    "subcategory": "Count & Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the front camera have a transparent waterproof housing with the lens pointing lower right?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the rear camera's lens pointing toward the center of the frame?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are there 2 streams of bubbles varying in size rising from the divers?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do the bubble streams drift toward the upper right?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are there exactly 2 sea turtles positioned in the center of the frame?",
+    "category": "Composition",
+    "subcategory": "Count & Location",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are the sea turtles swimming from right to left?",
+    "category": "Composition",
+    "subcategory": "Action",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the front turtle have a light purple shell with pale markings?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the rear turtle have an olive green shell?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is there visible distance maintained between the two turtles (not overlapping heavily)?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Are there exactly 3 angelfish positioned below the turtles?",
+    "category": "Composition",
+    "subcategory": "Count & Location",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Are the angelfish blue and yellow with semi-transparent fins?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Are the angelfish swimming to the right in a small formation?",
+    "category": "Composition",
+    "subcategory": "Action",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Are there exactly 7 clownfish positioned to the lower left of the turtles?",
+    "category": "Composition",
+    "subcategory": "Count & Location",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 22,
+    "question": "Are the clownfish surrounding a sea anemone?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 23,
+    "question": "Are there exactly 3 classic orange and white striped clownfish?",
+    "category": "Composition",
+    "subcategory": "Count",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 24,
+    "question": "Are there exactly 2 darker blackish clownfish?",
+    "category": "Composition",
+    "subcategory": "Count",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 25,
+    "question": "Are there exactly 2 smaller juvenile orange and white striped clownfish?",
+    "category": "Composition",
+    "subcategory": "Count",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 26,
+    "question": "Are the 7 clownfish positioned at staggered heights?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 27,
+    "question": "Are there exactly 2 starfish in the lower right corner on sandy bottom?",
+    "category": "Composition",
+    "subcategory": "Count & Location",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 28,
+    "question": "Is there one common red starfish and one pure white starfish?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 29,
+    "question": "Do both starfish have five complete arms?",
+    "category": "Structure",
+    "subcategory": "Anatomical Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 30,
+    "question": "Are there exactly 2 small crabs positioned to the left of the starfish?",
+    "category": "Composition",
+    "subcategory": "Count & Location",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 31,
+    "question": "Do the crabs have dark brown carapaces and antennae pointing forward?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 32,
+    "question": "Are the crabs peeking out from coral crevices?",
+    "category": "Composition",
+    "subcategory": "Action",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 33,
+    "question": "Is there a cluster of red branching coral extending upward with rounded tips at the bottom center?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 34,
+    "question": "Is there a cluster of spherical purple brain coral with grooves to the right of the red coral?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship & Attributes",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 35,
+    "question": "Are there exactly 2 sea anemones positioned above the purple brain coral?",
+    "category": "Composition",
+    "subcategory": "Count & Location",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 36,
+    "question": "Is the left anemone (above brain coral) light green and the right one bright yellow?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 37,
+    "question": "Is there a patch of dark green seagrass in the lower left bending right with the current?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Action",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 38,
+    "question": "Is there a gray stingray in the right middle area?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Location",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 39,
+    "question": "Is the stingray gliding close to the seabed with a long thin tail pointing right?",
+    "category": "Composition",
+    "subcategory": "Action & Attributes",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 40,
+    "question": "Is there shipwreck wooden plank debris in the distant upper left background?",
+    "category": "Composition",
+    "subcategory": "Object Presence & Location",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 41,
+    "question": "Are the divers' bodies free from severe anatomical distortions (e.g., extra fingers, twisted limbs)?",
+    "category": "General",
+    "subcategory": "Anatomical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 42,
+    "question": "Are there any severe anatomical errors on the marine creatures (e.g., extra fins, deformed shapes)?",
+    "category": "General",
+    "subcategory": "Anatomical Plausibility",
+    "expected_answer": "No",
+    "score": 8.0
+  },
+  {
+    "id": 43,
+    "question": "Is the image free of heavy blur, extreme noise, or rendering glitches that obscure key objects?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

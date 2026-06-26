@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image shot from a slightly elevated angle?",
+    "category": "Composition",
+    "subcategory": "Viewpoint",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the foreground a lush green soccer field with clearly visible white boundary lines, center circle, and penalty arc?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are there exactly seven attacking players positioned on the half-field closer to the bottom of the frame?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Do the attacking players wear red jerseys, white shorts, and red socks?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the number '10' visible on the player raising his foot to shoot?",
+    "category": "Text Rendering",
+    "subcategory": "Text Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is player number 10 raising his right foot in a shooting motion?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the soccer ball suspended mid-air showing distinct motion blur from spin?",
+    "category": "Style",
+    "subcategory": "Rendering Effects",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Are there exactly eight defensive players positioned on the opposite (top) half of the field?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Do the defensive players wear blue jerseys and black shorts?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the goalkeeper wearing a fluorescent green jersey and diving to the right with arms spread wide?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the white mesh structure of the goal clearly visible?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is there a head referee in a yellow shirt and black shorts running near the center circle?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are there exactly two assistant referees standing along the sidelines holding red and yellow flags?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is there a dark red rubberized running track with clear white lane markings encircling the field?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the running track clearly feature eight lanes?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Are distinct spectator details visible: waving red scarves, holding phones, and using sun umbrellas?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Are red triangular corner flags visible at the corners, appearing to flutter in the wind?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Is the stadium grandstand silver-gray with a curved steel structure and two tiers?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Does the banner text correctly read \"Gotham City 16th Annual Spring Sports Festival\"?",
+    "category": "Text Rendering",
+    "subcategory": "Text Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Are there exactly six colorful team flags hanging below the banner?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Are there exactly eight large silver floodlight poles rising from the top of the grandstand?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 22,
+    "question": "Are the crowns of tall poplar trees and the rooftops of exactly two cream-colored school buildings visible in the background?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 23,
+    "question": "Is the sky depicted as clear and light blue?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 24,
+    "question": "Are the main subjects (players, referees) complete without missing limbs or heads?",
+    "category": "General",
+    "subcategory": "Image Completeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 25,
+    "question": "Is the image free from obvious distortions (e.g., extra fingers, twisted limbs) and artifacts?",
+    "category": "General",
+    "subcategory": "Physiological Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

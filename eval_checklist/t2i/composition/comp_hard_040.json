@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "Is the image rendered in a realistic photography style with soft daylight?",
+    "category": "Style",
+    "subcategory": "Aesthetic & Lighting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is there a wet metal seedling bench in the foreground showing water droplets and mud spots?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are there exactly 9 black seedling trays on the bench?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the front-left seedling tray have its upper-left cell missing, exposing the bottom grid?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Are there green pruning shears (with rust spots) and a wooden-handled small trowel at the left front corner?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the trowel crossed over the pruning shears, pressing on top of at least half of the shears' handle?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is there a transparent spray bottle with a white nozzle at the right front corner?",
+    "category": "Composition",
+    "subcategory": "Object Presence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are there exactly 6 white plant label stakes beside the spray bottle?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Do the plant labels correctly display the words \"Tomato\", \"Mint\", \"Basil\", \"Pepper\", \"Rosemary\", and \"Strawberry\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling & Legibility",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the bottom half of the plant labels obscured by a black drip irrigation tube?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are there exactly 6 light brown wicker hanging baskets on the left side of the midground?",
+    "category": "Composition",
+    "subcategory": "Numeracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the leaves from the 3rd hanging basket drape down to cover the edge of the 4th basket?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is Gardener A wearing a straw hat and a blue apron?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is Gardener A bending over and watering the trays with water forming thin streams?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is Gardener B wearing yellow rain boots with visible mud spots?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Is Gardener B holding a clipboard titled \"Greenhouse Records\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling & Legibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Does the clipboard held by Gardener B cover their waist area?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Is a black garden cart positioned between the two gardeners?",
+    "category": "Composition",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Are there exactly 3 bags of peat soil on the cart with the text \"PEAT\" visible?",
+    "category": "Text Rendering",
+    "subcategory": "Object-Text Binding",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Are there exactly 2 rolls of garden ties on the cart, one red and one green?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Is there a glass wall in the background showing condensation and reflections?",
+    "category": "Composition",
+    "subcategory": "Attribute Binding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 22,
+    "question": "Does the wall corner thermometer display \"28°C\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling & Legibility",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 23,
+    "question": "Is there a white rotating ceiling fan showing slight motion blur?",
+    "category": "Composition",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 24,
+    "question": "Does the sign on the door read \"Greenhouse 3\"?",
+    "category": "Text Rendering",
+    "subcategory": "Spelling & Legibility",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 25,
+    "question": "Is the image free from severe artifacts (e.g., floating objects, incoherent geometry)?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]
