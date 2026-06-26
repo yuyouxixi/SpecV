@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image depict a little girl with long, dark curly hair and dark skin, consistent with the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is the girl wearing an orange sleeveless dress matching the style and color of the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Details",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the girl wearing white sneakers, consistent with the reference footwear?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Details",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Does the image include a soap bubble with iridescent rainbow colors and realistic optical properties?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Features",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is a Blue Morpho butterfly (bright blue wings with black edges and white spots) visible in the image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the background a field of yellow sunflowers under a blue sky, matching the reference landscape?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the soap bubble depicted as 'giant' (significantly larger than the girl's head)?",
+    "category": "Composition & Layout",
+    "subcategory": "Relative Scale",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Do the sunflowers appear tall relative to the child (e.g., reaching her waist or higher), maintaining a realistic scale contrast?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Is the girl positioned in a dynamic pose (running or reaching) that suggests she is chasing the bubble?",
+    "category": "Interaction & Context",
+    "subcategory": "Action & Pose",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the blue butterfly depicted inside the bubble or as a reflection/refraction on its surface, rather than flying freely outside?",
+    "category": "Interaction & Context",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Is the background sunflower field visible through the soap bubble, demonstrating semi-transparency?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Properties",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the scene lit with brilliant sunshine, creating a warm and grand atmosphere as requested?",
+    "category": "Style & Atmosphere",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the image convey a sense of childlike wonder and imagination through the girl's expression or body language?",
+    "category": "Style & Atmosphere",
+    "subcategory": "Emotional Tone",
+    "expected_answer": "Yes",
+    "score": 7.33
+  },
+  {
+    "id": 14,
+    "question": "Are there any obvious anatomical distortions on the girl (e.g., extra limbs, distorted face, malformed hands)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are there any structural errors on the butterfly (e.g., extra wings, missing parts, or melted texture)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "No",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are the subjects (girl, bubble, butterfly) blended naturally into the scene with consistent lighting and shadows?",
+    "category": "General Quality",
+    "subcategory": "Realism & Blending",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 17,
+    "question": "Is the image free from obvious visual artifacts, blur, pixelation, or text/watermarks?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

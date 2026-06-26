@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the steak identifiable as the specific cut from Image 1 (ribeye/oval shape), retaining its general form despite the cooking transformation?",
+    "category": "Subject Fidelity",
+    "subcategory": "Main Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the cooking vessel match the visual characteristics of the cast iron skillet in Image 2 (black, matte texture, pour spouts)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Secondary Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Do the garnishes clearly resemble the purple-skinned garlic cloves and needle-like rosemary sprigs from Image 3?",
+    "category": "Subject Fidelity",
+    "subcategory": "Garnish Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Has the steak been successfully transformed to show a browned, caramelized crust indicative of pan-searing (Maillard reaction)?",
+    "category": "Subject Fidelity",
+    "subcategory": "State Transformation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the steak appear to be cooked to a medium-rare doneness (e.g., visible warm pink interior if cut, or appropriate plumpness/texture)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Doneness Accuracy",
+    "expected_answer": "Yes",
+    "score": 6.0
+  },
+  {
+    "id": 6,
+    "question": "Is the steak positioned inside the cast iron skillet?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Are the rosemary and garlic positioned alongside or on top of the steak within the skillet scene?",
+    "category": "Composition & Layout",
+    "subcategory": "Garnish Placement",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Are there visible atmospheric effects indicating heat, such as smoke or steam rising from the steak/pan?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Phenomena",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Are there visual cues of frying, such as bubbling oil, rendering fat, or sizzling droplets in the pan?",
+    "category": "Interaction & Context",
+    "subcategory": "Cooking Realism",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Is the lighting realistic for a cooking scene, showing consistent reflections on the oily surfaces of the steak and pan?",
+    "category": "General",
+    "subcategory": "Lighting & Realism",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 11,
+    "question": "Does the exterior of the steak appear raw (red and moist) rather than seared?",
+    "category": "Subject Fidelity",
+    "subcategory": "State Transformation",
+    "expected_answer": "No",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are there any severe distortions or artifacts (e.g., steak merging into the pan, floating garnishes, or unnatural geometry)?",
+    "category": "General",
+    "subcategory": "Artifacts & Distortion",
+    "expected_answer": "No",
+    "score": 9.17
+  }
+]

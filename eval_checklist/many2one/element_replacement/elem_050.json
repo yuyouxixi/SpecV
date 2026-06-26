@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Has the original moving motorboat in the center of the harbor scene been completely removed?",
+    "category": "Element Accuracy",
+    "subcategory": "Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the white luxury yacht from the second image inserted into the center of the scene?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the inserted yacht retain the key visual features of the reference image (white hull, multi-deck structure, flybridge)?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the yacht scaled appropriately for the harbor setting, appearing neither absurdly large nor too small relative to nearby boats?",
+    "category": "Blending Quality",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the yacht's perspective and orientation align correctly with the water surface and horizon line of the base image?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Have the yacht's highlights been transformed to golden/warm sunset tones to match the environment?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Color",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Do the yacht's shadows exhibit an orange-gray cast consistent with the ambient sunset lighting?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Color",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the yacht exhibit a lower contrast appearance consistent with the atmospheric haze present in the harbor scene?",
+    "category": "Blending Quality",
+    "subcategory": "Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is a wake foam trail visible behind the yacht, corresponding to the texture provided in the third image?",
+    "category": "Element Accuracy",
+    "subcategory": "Wake Presence",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the wake trail positioned at the yacht's stern and aligned with its heading?",
+    "category": "Blending Quality",
+    "subcategory": "Wake Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Does the wake foam blend naturally into the sunset-lit water color, avoiding unnatural blue patches from the source image?",
+    "category": "Blending Quality",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the wake trail gradually fade and attenuate as it extends further away from the yacht?",
+    "category": "Blending Quality",
+    "subcategory": "Wake Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Is there a visible reflection of the yacht on the water surface that aligns vertically with the hull?",
+    "category": "Blending Quality",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 14,
+    "question": "Does the yacht's reflection exhibit warm sunset tones and distortion consistent with the surrounding water?",
+    "category": "Blending Quality",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are there realistic ripple disturbances around the hull where the yacht meets the water?",
+    "category": "Blending Quality",
+    "subcategory": "Water Interaction",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 16,
+    "question": "Are the surrounding background elements (sky, distant land, other boats, docks) preserved without unintended changes?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 17,
+    "question": "Are the edges of the inserted yacht blended smoothly, avoiding harsh seams or pixelated artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 18,
+    "question": "Is the yacht's structure free of anatomical distortions or warping?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 19,
+    "question": "Does the final composite appear as a cohesive sunset harbor photograph with consistent lighting and atmosphere?",
+    "category": "General Quality",
+    "subcategory": "Overall Cohesion",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

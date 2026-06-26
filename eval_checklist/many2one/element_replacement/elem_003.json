@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original overcast grey sky replaced by a sunset sky featuring pink, purple, and orange clouds?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the new sky visually match the cloud texture and color palette of the donor image?",
+    "category": "Element Accuracy",
+    "subcategory": "Style Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the lighthouse from the donor image excluded from the final generated image?",
+    "category": "Element Accuracy",
+    "subcategory": "Unwanted Elements",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the lake reflection exhibit the pink and purple hues of the new sunset sky?",
+    "category": "Blending Quality",
+    "subcategory": "Reflection Consistency",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Is the original water ripple texture preserved, ensuring the reflection blends naturally rather than appearing as a flat overlay?",
+    "category": "Blending Quality",
+    "subcategory": "Texture Preservation",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Are the mountain ridge edges clean and seamless against the new sky, without visible halos or jagged masking artifacts?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the lighting on the foreground rocks and mountains appear warm and consistent with the sunset sky, avoiding a mismatch with the original overcast lighting?",
+    "category": "Blending Quality",
+    "subcategory": "Global Illumination",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 8,
+    "question": "Is the reflection physically plausible in terms of alignment and brightness distribution (e.g., matching the sky's gradient)?",
+    "category": "Blending Quality",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 9,
+    "question": "Are the shapes and silhouettes of the distant mountains preserved from the base image without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Structure",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Are the foreground rocks and vegetation preserved in their original arrangement and shape?",
+    "category": "Scene Preservation",
+    "subcategory": "Foreground Structure",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from visible artifacts such as color banding, ghosting, or hard stitching seams?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

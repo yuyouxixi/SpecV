@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the basketball player from the donor image clearly visible, wearing the red 'DRAGONS' jersey with number 23?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the player holding the basketball above his head in the specific shooting pose from the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Pose Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are the player's feet clearly separated from the ground to depict the requested mid-jump action?",
+    "category": "Instruction Adherence",
+    "subcategory": "Action Compliance",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is the player positioned at the free-throw line area of the court?",
+    "category": "Instruction Adherence",
+    "subcategory": "Spatial Position",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the player oriented facing towards the basketball hoop?",
+    "category": "Instruction Adherence",
+    "subcategory": "Spatial Orientation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the player scaled realistically relative to the basketball hoop height and the surrounding fence?",
+    "category": "Blending Quality",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is there a visible cast shadow on the court surface corresponding to the player?",
+    "category": "Blending Quality",
+    "subcategory": "Shadow Presence",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the cast shadow detached from the player's feet, showing a gap that correctly corresponds to the height of the jump?",
+    "category": "Blending Quality",
+    "subcategory": "Shadow Physics",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the direction of the player's cast shadow align with the existing shadows in the scene (slanting towards the right)?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Does the lighting on the player match the warm, golden-hour color temperature of the outdoor court, replacing the cool/flat indoor lighting?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Tone",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do the highlights and shading on the player's body align with the directional sunlight of the scene (source coming from the left/rear)?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Direction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the player cleanly composited without visible halos, jagged edges, or residual pixels from the original indoor background?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 13,
+    "question": "Is the basketball hoop and transparent backboard preserved intact without distortion or occlusion by the player?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Are the background elements (chain-link fence, trees, buildings) and court markings preserved without warping or artifacts?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 15,
+    "question": "Is the basketball spherical and the player's anatomy (limbs, hands) distinct and undistorted?",
+    "category": "General Quality",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

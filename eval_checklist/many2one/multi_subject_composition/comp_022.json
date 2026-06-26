@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image depict a snowboarder wearing an orange shell jacket, black pants, and a helmet, matching the visual characteristics of the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Snowboarder Appearance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the generated image include a Husky dog with gray, white, and black fur markings that matches the appearance of the reference animal?",
+    "category": "Subject Fidelity",
+    "subcategory": "Husky Appearance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the stainless steel insulated tumbler with a black cap clearly recognizable and matching the reference object?",
+    "category": "Subject Fidelity",
+    "subcategory": "Tumbler Appearance",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the background recognizable as the wide-angle ski resort scene from the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the snowboarder positioned in the left-front area of the frame as specified in the sketch?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the Husky positioned on the right side of the frame, appearing to chase the snowboarder?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the tumbler placed in the lower-right foreground of the composition?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Does the snowboarder retain realistic snow spray indicating a dynamic turn?",
+    "category": "Interaction & Context",
+    "subcategory": "Snow Physics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are there visible snow powder splashes and continuous footprints at the Husky's feet?",
+    "category": "Interaction & Context",
+    "subcategory": "Snow Physics",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Does the tumbler appear half-buried in the snow with visible compression marks at the edges?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Are there visible snowboard tracks on the snow surface connecting plausibly to the snowboarder's path?",
+    "category": "Interaction & Context",
+    "subcategory": "Snow Physics",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Do the metallic reflections on the tumbler reflect the snowy ski resort environment rather than the dark studio background from the reference?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Reflection",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Do the cast shadows of the snowboarder, dog, and tumbler follow a single consistent light source direction?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Shadow",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 14,
+    "question": "Do the shadows cast on the snow surface have a realistic light blue tint?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Shadow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the depth of field unified such that the subjects are sharp, the foreground tumbler is slightly sharp, and the background is blurred?",
+    "category": "General",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Are the subjects (snowboarder and dog) free from anatomical distortions such as extra limbs or twisted joints?",
+    "category": "General",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 17,
+    "question": "Is the tumbler free from geometric distortions or warping?",
+    "category": "General",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Are there any obvious visual artifacts or unnatural blending edges around the subjects?",
+    "category": "General",
+    "subcategory": "Artifacts",
+    "expected_answer": "No",
+    "score": 9.17
+  },
+  {
+    "id": 19,
+    "question": "Does the overall image exhibit advertisement-quality realism with appropriate noise and contrast?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 7.67
+  }
+]

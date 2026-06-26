@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Are the chocolate chip cookies inside the jar completely replaced by colorful macarons?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Do the inserted macarons retain the multi-colored appearance and sandwich-cookie structure of the reference image?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Do the macarons appear physically inside the jar, showing visual evidence of being behind glass (e.g., slight refraction, tinting, or reflection overlays)?",
+    "category": "Blending Quality",
+    "subcategory": "Glass Physics",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Is there a progressive depth-of-field effect where macarons at the back of the jar appear softer or blurrier than those at the front?",
+    "category": "Blending Quality",
+    "subcategory": "Focus & Depth",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the paper label with the text '巧克力曲奇' preserved intact and legible?",
+    "category": "Scene Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is a new realistic glass highlight added to the right side of the jar, resembling the provided light strip reference?",
+    "category": "Element Accuracy",
+    "subcategory": "Highlight Addition",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the added highlight on the right side avoid completely obscuring the paper label?",
+    "category": "Blending Quality",
+    "subcategory": "Composition",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Does the added highlight match the direction and angle of the existing window reflection on the jar?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are there visible contact shadows or gradations between the bottom macarons and the jar floor to suggest weight?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Have the macaron colors been adjusted to match the cool/neutral lighting of the kitchen environment rather than the warm studio lighting of the reference?",
+    "category": "Blending Quality",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 11,
+    "question": "Are the jar's original reflections (such as the window reflection) and background elements preserved?",
+    "category": "Scene Preservation",
+    "subcategory": "Global Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Are the macarons scaled and arranged with perspective that matches the jar's interior volume?",
+    "category": "Blending Quality",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the image free from visible blending artifacts such as halos, jagged edges, or ghosting around the macarons?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the Chinese name '张伟' and the title '高级设计师' clearly visible on the inserted paper card?",
+    "category": "Element Accuracy",
+    "subcategory": "Text Content",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the blue geometric logo visible on the left side of the paper card, consistent with the reference image?",
+    "category": "Element Accuracy",
+    "subcategory": "Graphic Content",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are fingerprint oil smudges visible on the surface of the acrylic holder, matching the style of the reference image?",
+    "category": "Element Accuracy",
+    "subcategory": "Texture Overlay",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is the inserted nameplate content (text and logo) perspective-warped to match the angle, tilt, and slight curvature of the acrylic holder?",
+    "category": "Geometric Consistency",
+    "subcategory": "Perspective & Deformation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Does the inserted paper card appear to be physically located *inside* the acrylic holder (exhibiting slight refraction, soft focus, or matte finish compared to the glossy surface)?",
+    "category": "Material & Layering",
+    "subcategory": "Depth Perception",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Do the fingerprint smudges appear to be on the *outer* acrylic surface, layering over the text and paper content beneath?",
+    "category": "Material & Layering",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the fingerprint smudges positioned primarily near or within the highlight/reflection areas of the acrylic surface?",
+    "category": "Material & Layering",
+    "subcategory": "Placement Logic",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Is the venetian blind light stripe pattern continuous across the nameplate holder, matching the direction and style of the original scene?",
+    "category": "Lighting Consistency",
+    "subcategory": "Pattern Continuity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the light stripes on the outer acrylic surface distinctly sharper and more pronounced than the stripes on the paper card inside?",
+    "category": "Lighting Consistency",
+    "subcategory": "Material Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Do the light stripes on the inserted paper card appear softer and more diffused, consistent with being viewed through acrylic?",
+    "category": "Lighting Consistency",
+    "subcategory": "Refraction Effect",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the wooden table surface and its lighting pattern preserved without unintended alterations?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Is the laptop in the background preserved in its original position and appearance?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Is the structural shape of the acrylic holder (L-stand, edges) preserved without distortion or melting artifacts?",
+    "category": "Scene Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Is the inserted text legible and free from severe distortion, blurring, or character errors?",
+    "category": "General Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from visible compositing artifacts such as hard cutout seams, unnatural color banding, or inconsistent noise?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

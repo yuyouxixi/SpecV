@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "question": "Are the sunflowers positioned inside the glass vase on the coffee table?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence & Location",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Has the brown kraft wrapping paper and twine been completely removed from the sunflower bouquet?",
+    "category": "Element Accuracy",
+    "subcategory": "Modification",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Are the sunflowers arranged loosely as individual stems rather than retaining the tight, wrapped bouquet shape?",
+    "category": "Element Accuracy",
+    "subcategory": "Form Transformation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Is an orange tabby cat present on the sectional sofa?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the cat positioned in the right corner/section of the sofa (from the viewer's perspective)?",
+    "category": "Element Accuracy",
+    "subcategory": "Positioning",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the cat depicted in a lying down or curled-up position consistent with the reference image?",
+    "category": "Element Accuracy",
+    "subcategory": "Pose Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the cream-colored blanket from the cat's source image completely removed, leaving only the cat?",
+    "category": "Element Accuracy",
+    "subcategory": "Source Artifact Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Are the sunflower stems visible through the transparent glass vase with appropriate refraction?",
+    "category": "Blending & Harmonization",
+    "subcategory": "Transparency & Physics",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 9,
+    "question": "Is the lighting on the cat consistent with the directional light coming from the windows on the left?",
+    "category": "Blending & Harmonization",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is the lighting on the sunflowers consistent with the afternoon side light in the room?",
+    "category": "Blending & Harmonization",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Does the cat cast a realistic soft shadow onto the sofa cushions?",
+    "category": "Blending & Harmonization",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the vase with sunflowers cast an appropriate shadow on the marble coffee table?",
+    "category": "Blending & Harmonization",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Does the cat appear to be naturally resting on the sofa fabric (showing weight/contact) rather than floating?",
+    "category": "Blending & Harmonization",
+    "subcategory": "Physical Contact",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 14,
+    "question": "Is the scale of the cat proportionate to the size of the sectional sofa?",
+    "category": "Blending & Harmonization",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the scale of the sunflower arrangement appropriate relative to the vase and coffee table?",
+    "category": "Blending & Harmonization",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Are the edges of the cat and sunflowers seamlessly blended without visible halos or jagged cut-out lines?",
+    "category": "Blending & Harmonization",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Is the blue abstract painting on the wall preserved exactly as it was in the base image?",
+    "category": "Scene Preservation",
+    "subcategory": "Decor Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Is the black tripod floor lamp on the right side of the room preserved?",
+    "category": "Scene Preservation",
+    "subcategory": "Decor Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 19,
+    "question": "Are the magazines on the coffee table preserved without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Details",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Is the light hardwood flooring and window area preserved without unintended alterations?",
+    "category": "Scene Preservation",
+    "subcategory": "Architectural Elements",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 21,
+    "question": "Is the cat's anatomy correct, with no missing limbs, extra tails, or distorted features?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 22,
+    "question": "Are the sunflowers structurally correct with intact centers and properly arranged petals?",
+    "category": "General Quality",
+    "subcategory": "Structural Correctness",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 23,
+    "question": "Is the image free from unintended artifacts such as noise, blurriness, or glitching in the edited regions?",
+    "category": "General Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  }
+]

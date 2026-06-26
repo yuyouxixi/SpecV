@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image feature a Terracotta Warrior that retains the distinctive facial features (mustache, stern expression) and top-knot hairstyle of Reference Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Warrior Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the warrior maintain the correct material texture (weathered terracotta/stone) and armor details (layered plates, rivets) consistent with Reference Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the smartphone recognizable as the device from Reference Image 2 (dark color, sleek form), even if the specific camera module is partially obscured by the holding angle?",
+    "category": "Subject Fidelity",
+    "subcategory": "Smartphone Identity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the background environment resemble the museum setting from Reference Image 3, featuring concrete walls and/or wooden flooring?",
+    "category": "Subject Fidelity",
+    "subcategory": "Environment Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the Terracotta Warrior positioned strictly inside a glass display case similar in structure to Reference Image 3?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the Terracotta Warrior holding the smartphone in one or both hands?",
+    "category": "Interaction & Context",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the warrior's arm posed in a way that suggests taking a selfie (e.g., extended or raised), differing from the original rigid standing pose?",
+    "category": "Interaction & Context",
+    "subcategory": "Pose Modification",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the Terracotta Warrior's face clearly visible on the smartphone screen (simulating a selfie camera view)?",
+    "category": "Interaction & Context",
+    "subcategory": "Picture-in-Picture Visibility",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Does the face displayed on the smartphone screen match the warrior's terracotta material and features, rather than appearing as a photorealistic human face?",
+    "category": "Interaction & Context",
+    "subcategory": "Picture-in-Picture Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the scale of the smartphone appropriate relative to the Terracotta Warrior's hands?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are there visual cues indicating the presence of glass around the warrior, such as reflections, glare, or the frame of the display case?",
+    "category": "General Quality",
+    "subcategory": "Environmental Physics",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the lighting on the warrior appear consistent with the museum display environment (e.g., top-down illumination)?",
+    "category": "General Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Does the hand holding the phone appear anatomically plausible (fingers wrapped naturally, no severe distortion) despite the change in pose?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from significant hallucinations such as extra limbs, floating objects, or severe blending artifacts?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Distortion",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Does the image successfully convey a time-travel theme through the juxtaposition of the ancient statue and modern technology?",
+    "category": "Interaction & Context",
+    "subcategory": "Thematic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

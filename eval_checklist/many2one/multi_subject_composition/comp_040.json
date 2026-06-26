@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the wheelchair athlete present and identifiable as the female subject from the reference (short hair, blue shirt)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Is the wheelchair athlete depicted in a specialized racing wheelchair (angled wheels, low profile) consistent with the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Equipment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the blade runner present and identifiable as the male subject from the reference (red tank top, black shorts)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the prosthetic running blade clearly visible on the blade runner's leg and anatomically integrated?",
+    "category": "Subject Fidelity",
+    "subcategory": "Equipment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the visually impaired athlete present and identifiable as the female subject from the reference (yellow outfit)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the visually impaired athlete depicted with her guide dog or clearly visible visual impairment aids (sunglasses/tether)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Attributes",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Is the wheelchair athlete positioned in the nearest lane (foreground) of the track?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Is the blade runner positioned in the middle lane, between the wheelchair athlete and the visually impaired athlete?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Is the visually impaired athlete positioned in the outer lane (background/furthest from camera)?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are all three athletes facing and moving in the same direction?",
+    "category": "Composition & Layout",
+    "subcategory": "Directionality",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 11,
+    "question": "Is the perspective scaling accurate, with the wheelchair athlete appearing largest and the visually impaired athlete appearing smallest?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the background clearly recognizable as the outdoor red running track from the reference image?",
+    "category": "Interaction & Context",
+    "subcategory": "Background Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Are all athletes depicted in dynamic racing poses (e.g., leaning forward, sprinting stride) rather than static or casual postures?",
+    "category": "Interaction & Context",
+    "subcategory": "Action & Motion",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the lighting on the athletes match the warm, golden-hour direction and tone of the background?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Blending",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Are appropriate contact shadows visible beneath the athletes/equipment to ground them on the track?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Blending",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Does the image have an inspiring, high-impact aesthetic typical of a sports promotional poster?",
+    "category": "Interaction & Context",
+    "subcategory": "Style & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 6.83
+  },
+  {
+    "id": 17,
+    "question": "Are the athletes free from severe anatomical distortions (e.g., missing limbs, malformed faces) or structural errors in the wheelchair?",
+    "category": "General",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "No",
+    "score": 3.5
+  },
+  {
+    "id": 18,
+    "question": "Is the compositing clean, without visible cut-out halos, jagged edges, or mismatched resolution artifacts?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

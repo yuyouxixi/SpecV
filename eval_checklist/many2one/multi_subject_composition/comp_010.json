@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image feature a scuba diver wearing a black wetsuit and scuba gear (tank, mask) consistent with Reference Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Diver Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the diver possess long swim fins similar in shape and style to those in Reference Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Diver Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Is a wooden shipwreck depicted with masts and a hull structure resembling Reference Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Shipwreck Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the shipwreck show aged, weathered wood textures consistent with Reference Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Shipwreck Texture",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Are the jellyfish translucent, bell-shaped, and possessing long tentacles, matching Reference Image 3?",
+    "category": "Subject Fidelity",
+    "subcategory": "Jellyfish Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the diver positioned beside or near the shipwreck, rather than far away or inside it?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are multiple jellyfish distributed around the diver and the shipwreck, creating a surrounding effect?",
+    "category": "Composition & Layout",
+    "subcategory": "Object Distribution",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the diver depicted as significantly smaller than the shipwreck, maintaining a realistic scale?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the diver holding a diving torch?",
+    "category": "Interaction & Context",
+    "subcategory": "Action Depiction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is a visible beam of light directed from the diver's torch toward the shipwreck?",
+    "category": "Interaction & Context",
+    "subcategory": "Interaction Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the torch beam illuminate a specific area of the shipwreck, showing light falloff or reflection?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Effects",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Do the jellyfish emit a visible, diffuse bioluminescent glow?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Effects",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Is the overall color tone of the image a deep, dark abyssal blue?",
+    "category": "Interaction & Context",
+    "subcategory": "Atmosphere & Tone",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Does the scene depict a deep-sea environment with appropriate water turbidity, haze, or particulate matter?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Context",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Are there any severe anatomical distortions in the diver (e.g., extra limbs, malformed hands)?",
+    "category": "General Quality",
+    "subcategory": "Distortion & Anatomy",
+    "expected_answer": "No",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Are there any structural deformities or impossible geometries in the shipwreck?",
+    "category": "General Quality",
+    "subcategory": "Distortion & Anatomy",
+    "expected_answer": "No",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Are there any visible rendering errors in the jellyfish, such as disconnected tentacles or malformed bells?",
+    "category": "General Quality",
+    "subcategory": "Distortion & Anatomy",
+    "expected_answer": "No",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Is the image free from obvious artifacts, glitches, or unnatural blending edges between subjects?",
+    "category": "General Quality",
+    "subcategory": "Image Coherence",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

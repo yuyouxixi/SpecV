@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the sailing ship model (HMS Endeavour) clearly present in the image?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the ship placed specifically in the empty gap in the middle of the third tier of the bookshelf?",
+    "category": "Element Accuracy",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the ship retain key visual features of the source image (three masts, cream sails, dark wooden hull, and rigging)?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the black display stand of the ship model visible beneath the hull?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 5,
+    "question": "Is the ship scaled to fit strictly within the gap, avoiding overlap with the shelf above or the books to the sides?",
+    "category": "Element Accuracy",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Is the original white background completely removed from around the ship, leaving no visible halos or matte lines?",
+    "category": "Blending Quality",
+    "subcategory": "Segmentation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the intricate rigging lines and mast details of the ship preserved without blurring or jagged artifacts?",
+    "category": "Blending Quality",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Does the ship appear to rest flat on the shelf surface with correct perspective, rather than floating or tilting unnaturally?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the lighting on the ship adapted to match the warm, dimmer ambient tone of the bookshelf environment?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the ship cast a realistic shadow on the shelf surface consistent with the overhead recessed lighting?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Are the books immediately to the left and right of the inserted ship preserved without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Is the globe on the second tier of the bookshelf preserved and unchanged?",
+    "category": "Scene Preservation",
+    "subcategory": "Reference Objects",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the clock on the fourth tier of the bookshelf preserved and unchanged?",
+    "category": "Scene Preservation",
+    "subcategory": "Reference Objects",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the wooden structure of the bookshelf preserved without warping or distortion around the insertion area?",
+    "category": "Scene Preservation",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from visible noise, pixelation, or unnatural blurring in the edited region?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

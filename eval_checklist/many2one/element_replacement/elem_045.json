@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the foldable smartphone advertisement (showing a phone with a colorful lotus graphic) visible inside the subway lightbox?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the Chinese characters '霓虹折叠，耀眼未来' from Image 2 clearly readable within the lightbox?",
+    "category": "Element Accuracy",
+    "subcategory": "Text Legibility",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the metal frame of the lightbox, including the screws and edges, preserved exactly as it appears in Image 1?",
+    "category": "Scene Preservation",
+    "subcategory": "Structure",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Are the background elements (wall tiles, ceiling, floor, pedestrians) completely unchanged outside of the lightbox area?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the advertisement correctly perspective-warped to match the angled plane of the lightbox frame?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the advertisement fill the display area completely without spilling onto the frame or leaving gaps?",
+    "category": "Blending Quality",
+    "subcategory": "Alignment",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the advertisement exhibit a backlit effect, appearing brighter in the center and slightly darker near the edges?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Does the inserted advertisement have a subtle greenish tint consistent with the subway environment's lighting?",
+    "category": "Blending Quality",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Are the scratches and fingerprints from Image 3 visible as an overlay on the lightbox surface?",
+    "category": "Element Accuracy",
+    "subcategory": "Texture Overlay",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Do the overlaid scratches and fingerprints appear faint and semi-transparent (like surface wear) rather than opaque?",
+    "category": "Blending Quality",
+    "subcategory": "Texture Realism",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Do the directions of the overlaid scratches roughly align with the existing reflection lines visible in Image 1?",
+    "category": "Blending Quality",
+    "subcategory": "Directional Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the original fluorescent light reflection highlights from Image 1 still visible on the lightbox surface?",
+    "category": "Blending Quality",
+    "subcategory": "Reflection Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Does the inserted advertisement contain noise and compression artifacts similar to the rest of the subway photo (avoiding an overly clean look)?",
+    "category": "General Quality",
+    "subcategory": "Image Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

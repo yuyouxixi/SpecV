@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated pigeon retain the specific visual characteristics of the reference, including grey plumage, iridescent neck feathers, and red feet?",
+    "category": "Subject Fidelity",
+    "subcategory": "Pigeon Identity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Does the generated squirrel match the reference image, specifically exhibiting gray-brown fur, a bushy tail, and a lighter underside?",
+    "category": "Subject Fidelity",
+    "subcategory": "Squirrel Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the generated cat possess the specific black and white tuxedo pattern and green-yellow eyes of the reference cat?",
+    "category": "Subject Fidelity",
+    "subcategory": "Cat Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the background clearly recognizable as the interior of the abandoned factory provided in the reference image, featuring rusty iron beams and a skylight?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the pigeon positioned on an elevated iron beam or structural element high up in the scene?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the cat positioned in the mid-ground of the image?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the squirrel positioned on the ground level?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Are the relative sizes of the three animals consistent with the perspective and depth of the factory environment?",
+    "category": "Composition & Layout",
+    "subcategory": "Perspective & Scaling",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Does the pigeon display a natural standing posture with claws visibly gripping or resting stably on the beam?",
+    "category": "Interaction & Context",
+    "subcategory": "Pose Adherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the squirrel depicted in a foraging posture, interacting with weeds or vegetation on the ground?",
+    "category": "Interaction & Context",
+    "subcategory": "Pose Adherence",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is the cat depicted lying down or napping as instructed?",
+    "category": "Interaction & Context",
+    "subcategory": "Pose Adherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is there a visible beam of sunlight streaming from the skylight that falls directly onto the cat?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Specificity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Are there visible weeds or vegetation on the factory floor for the squirrel to interact with?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Elements",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Do the animals' fur colors and shadows blend naturally with the cool, industrial lighting and atmosphere of the factory?",
+    "category": "General",
+    "subcategory": "Color Harmony & Lighting",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 15,
+    "question": "Are there any severe anatomical distortions on the animals (e.g., extra limbs, malformed faces, disconnected body parts)?",
+    "category": "General",
+    "subcategory": "Distortion & Anatomy",
+    "expected_answer": "No",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Are there visible compositing artifacts, such as unnatural halos, hard cut-out edges, or blurring where the animals meet the background?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "No",
+    "score": 9.5
+  }
+]

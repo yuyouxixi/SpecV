@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated athlete wear a snow suit with the distinct orange, blue, and yellow color scheme from Reference Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Appearance Matching",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the athlete have a snowboard attached to their feet with colorful graphics, consistent with Reference Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Is the helicopter depicted as a dark, military-style aircraft resembling the model in Reference Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Vehicle Matching",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the background depict a steep, snowy mountain cliff consistent with the terrain in Reference Image 3?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Matching",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the athlete positioned in mid-air above the cliff terrain, consistent with a jump?",
+    "category": "Composition & Layout",
+    "subcategory": "Positioning",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the helicopter positioned in the background relative to the athlete, creating a clear sense of depth?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Do the helicopter's rotor blades exhibit visible motion blur as requested in the instruction?",
+    "category": "Interaction & Context",
+    "subcategory": "Dynamic Effects",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are there visible special effects of snow particles or mist being whipped up in the air?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Effects",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the overall composition convey a dramatic 'blockbuster' action aesthetic?",
+    "category": "Interaction & Context",
+    "subcategory": "Visual Style",
+    "expected_answer": "Yes",
+    "score": 7.0
+  },
+  {
+    "id": 10,
+    "question": "Is the lighting consistent across the athlete, helicopter, and mountain background?",
+    "category": "General",
+    "subcategory": "Lighting & Blending",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is the athlete free from severe anatomical distortions (e.g., twisted limbs, missing body parts)?",
+    "category": "General",
+    "subcategory": "Distortion & Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Is the helicopter free from severe structural errors (e.g., detached rotors, impossible geometry)?",
+    "category": "General",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

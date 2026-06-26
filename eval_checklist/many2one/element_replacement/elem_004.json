@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the man's face and hair completely preserved from the original image without distortion?",
+    "category": "Subject Preservation",
+    "subcategory": "Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Has the casual T-shirt been replaced by the deep blue suit jacket, white shirt, and burgundy tie from the reference image?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the suit jacket retain the deep navy blue color and fabric texture visible in the reference image?",
+    "category": "Element Accuracy",
+    "subcategory": "Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Do the shoulders of the suit appear slightly padded and structured, giving the requested polished appearance?",
+    "category": "Instruction Adherence",
+    "subcategory": "Structure",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the shirt collar positioned snugly against the man's neck without unnatural gaps or misalignment?",
+    "category": "Instruction Adherence",
+    "subcategory": "Fit",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is there a realistic contact shadow cast by the collar and tie onto the neck area?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the lighting on the new suit match the soft, frontal lighting conditions of the original headshot?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the transition boundary between the neck skin and the shirt collar sharp and free of blurring or digital artifacts?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the grey textured background preserved, with plausible in-painting where the original T-shirt might have been wider than the fitted suit?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the suit fit the man's body shape naturally, with the shoulders and lapels aligned correctly to his anatomy?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Does the generated image appear photorealistic and suitable for use as a formal resume headshot?",
+    "category": "General Quality",
+    "subcategory": "Overall Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

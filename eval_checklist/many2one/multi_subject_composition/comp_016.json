@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated Christmas tree closely resemble the reference (Image 1), retaining the dense lighting, ornaments, and star topper?",
+    "category": "Subject Fidelity",
+    "subcategory": "Tree Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the cat in the generated image match the reference (Image 2), specifically exhibiting the cream-colored body and dark face mask?",
+    "category": "Subject Fidelity",
+    "subcategory": "Cat Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the cat retain the blue eye color visible in the reference (Image 2)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Cat Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the gift box feature the specific red wrapping paper with gold botanical/star patterns shown in Image 3?",
+    "category": "Subject Fidelity",
+    "subcategory": "Box Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the gift box have a wide gold ribbon and bow matching the reference (Image 3)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Box Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Is the cat depicted poking its head out from *inside* the gift box (nesting), rather than sitting next to or on top of a closed box?",
+    "category": "Interaction & Context",
+    "subcategory": "Action/Interaction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the cat's paws visible and actively pawing at the string lights?",
+    "category": "Interaction & Context",
+    "subcategory": "Action/Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are there string lights positioned beneath or around the base of the Christmas tree for the cat to interact with?",
+    "category": "Composition & Layout",
+    "subcategory": "Prop Placement",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the gift box positioned at the base of the Christmas tree?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the background depict a cozy wooden cabin corner (e.g., wooden walls, rustic floor)?",
+    "category": "Interaction & Context",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the overall image possess a warm color tone?",
+    "category": "Interaction & Context",
+    "subcategory": "Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are the relative scales of the subjects realistic (e.g., the cat fits naturally inside the box, and the box is small compared to the tree)?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale & Proportion",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are there any severe anatomical errors on the cat (e.g., extra paws, distorted face) or structural distortions on the box?",
+    "category": "General",
+    "subcategory": "Distortion & Anatomy",
+    "expected_answer": "No",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from significant visual artifacts, blurriness, or unnatural blending edges?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

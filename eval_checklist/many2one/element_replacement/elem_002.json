@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is a Golden Retriever visibly present in the generated image?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the dog retain key Golden Retriever traits (golden fur, floppy ears) consistent with the donor reference?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the dog positioned specifically in the father's arms or lap area?",
+    "category": "Element Accuracy",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the dog's scale proportional and realistic relative to the adult figures in the scene?",
+    "category": "Element Accuracy",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Do the father's arms appear to naturally embrace or wrap around the dog's body?",
+    "category": "Blending Quality",
+    "subcategory": "Interaction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Is the occlusion logic correct, with the father's arms/hands visible in front of the dog's body where appropriate?",
+    "category": "Blending Quality",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Are the father's hands and arms anatomically correct (no missing fingers, unnatural bending, or distortion) in the edited region?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the dog's body structure natural and free from anatomical distortions (e.g., extra limbs, warped head)?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the edges of the dog's fur blended seamlessly with the white carpet and the father's clothing, avoiding a harsh cutout appearance?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Does the lighting on the dog (direction and color temperature) match the soft daylight of the living room scene?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is there a visible shadow cast by the dog onto the floor/carpet?",
+    "category": "Blending Quality",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 12,
+    "question": "Is there a realistic contact shadow (ambient occlusion) where the dog meets the carpet or the father's body, preventing a 'floating' look?",
+    "category": "Blending Quality",
+    "subcategory": "Contact Realism",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are the mother and daughter preserved in the scene without unintended distortions or changes?",
+    "category": "Scene Preservation",
+    "subcategory": "Non-Target Subjects",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Is the living room background (windows, plants, furniture) preserved intact?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the composited region free from visible artifacts, noise, or unnatural blurring?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

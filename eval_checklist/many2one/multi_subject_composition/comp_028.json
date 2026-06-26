@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image depict the woman from the first reference image, preserving her facial features and short curly hair?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the woman wearing a navy blue blazer over a white shirt, consistent with the first reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the generated image depict the man from the second reference image, preserving his facial features and short dark hair with grey sides?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the man wearing a grey button-up shirt, consistent with the second reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the laptop from the reference image present, featuring the specific silver design and line chart on the screen?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the laptop screen free from garbled text, distortion, or extraneous windows not present in the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is the background recognizable as the specific conference room provided, featuring the glass table and floor-to-ceiling windows?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the woman positioned on the left and the man on the right, with the laptop in the center-front, matching the provided sketch?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Are both subjects depicted as seated at the table with bodies oriented toward each other or the center?",
+    "category": "Composition & Layout",
+    "subcategory": "Pose & Posture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the subjects' gazes directed at the laptop or each other, avoiding blank stares into the distance?",
+    "category": "Interaction & Context",
+    "subcategory": "Gaze & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are there visible reflections of the laptop and the subjects' arms/sleeves on the glass table surface?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Interaction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Do the reflections on the table appear realistic (weaker in intensity than the actual objects and slightly blurred)?",
+    "category": "Interaction & Context",
+    "subcategory": "Physics & Realism",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are there visible contact shadows where the arms and laptop meet the table surface to prevent a floating appearance?",
+    "category": "Interaction & Context",
+    "subcategory": "Physics & Realism",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 14,
+    "question": "Does the lighting on the subjects match the cool white overhead lighting of the conference room background?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the contrast on the subjects moderately reduced with ambient fill light to blend naturally with the environment?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 16,
+    "question": "Is the laptop's perspective aligned with the table edges and overall scene geometry?",
+    "category": "Composition & Layout",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Is the grain and sharpness consistent across the composited subjects and the background?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are the subjects' hands free from anatomical distortions (e.g., extra fingers, missing fingers, malformed shapes)?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Is the image free from visible compositing artifacts such as halos, jagged edges, or unnatural seams?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Does the overall image look like an authentic on-site meeting photograph?",
+    "category": "General",
+    "subcategory": "Overall Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

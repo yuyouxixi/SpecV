@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image include the woman from the reference, wearing a grey blazer, white t-shirt, black pants, and white sneakers?",
+    "category": "Subject Fidelity",
+    "subcategory": "Appearance Matching - Woman",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Does the generated image include the man from the reference, wearing glasses and a dark coat?",
+    "category": "Subject Fidelity",
+    "subcategory": "Appearance Matching - Man",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the dog in the image a black and white Border Collie matching the reference animal?",
+    "category": "Subject Fidelity",
+    "subcategory": "Appearance Matching - Dog",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the suitcase a black, hard-shell model matching the reference object?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Matching",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the background clearly recognizable as the high-speed rail station hall provided in the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Matching",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the woman positioned in the right foreground of the image?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement - Woman",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the man positioned in the left mid-ground, appearing further back than the woman?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement - Man",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the Border Collie positioned between the man and the woman, toward the front?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement - Dog",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the woman's body oriented as if walking toward the right, with her head turned back looking at the camera?",
+    "category": "Composition & Layout",
+    "subcategory": "Pose & Orientation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the man holding a leash with his left hand?",
+    "category": "Interaction & Context",
+    "subcategory": "Object Interaction - Man",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the leash depict a natural slack curve rather than a straight, stiff line?",
+    "category": "Interaction & Context",
+    "subcategory": "Physics & Realism",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Does the leash connect cleanly between the man's hand and the dog without floating endpoints or clipping?",
+    "category": "Interaction & Context",
+    "subcategory": "Logical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the woman pulling the suitcase with her right hand?",
+    "category": "Interaction & Context",
+    "subcategory": "Object Interaction - Woman",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are all four legs of the dog grounded on the floor (not floating)?",
+    "category": "Interaction & Context",
+    "subcategory": "Physics & Realism",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Are the suitcase wheels touching the ground with slight motion blur applied along the walking direction?",
+    "category": "Interaction & Context",
+    "subcategory": "Detail & Effects",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 16,
+    "question": "Are there realistic contact shadows and consistent shadow directions for the people, dog, and suitcase?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 17,
+    "question": "Are there subtle reflections of the subjects on the floor (visible but not mirror-strong)?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Is the overall color tone unified to match the station's cool-toned lighting?",
+    "category": "Interaction & Context",
+    "subcategory": "Atmosphere & Tone",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Have the passersby from the original background image been completely removed?",
+    "category": "Image Quality & Editing",
+    "subcategory": "Background Editing",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Are there any visible ghosting artifacts, smudge marks, or unnatural seams where the background was edited or subjects composited?",
+    "category": "Image Quality & Editing",
+    "subcategory": "Artifacts",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Are there any severe anatomical distortions (e.g., extra limbs, malformed hands/paws) on the people or dog?",
+    "category": "Image Quality & Editing",
+    "subcategory": "Anatomy",
+    "expected_answer": "No",
+    "score": 9.33
+  }
+]

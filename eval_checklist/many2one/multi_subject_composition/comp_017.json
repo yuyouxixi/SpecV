@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image depict the specific Asian man from the reference, wearing a dark blue jacket, khaki pants, and white sneakers?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity & Clothing",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Does the generated dog match the reference Corgi (tan/white fur, red collar) and have its tongue sticking out?",
+    "category": "Subject Fidelity",
+    "subcategory": "Animal Identity & Expression",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the bicycle depicted as a red vintage model with a wicker basket, matching the reference object?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the background clearly recognizable as the specific park pathway provided in the reference images?",
+    "category": "Composition & Layout",
+    "subcategory": "Background Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the man positioned in the left foreground of the frame with his body turned slightly to the right?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement & Pose",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the Corgi positioned sitting inside the wicker basket, facing the camera?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is the man's right hand depicted naturally resting on the handlebars of the bicycle?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Are the man's feet and the bicycle tires strictly grounded on the flagstone path (not floating or sinking)?",
+    "category": "Interaction & Context",
+    "subcategory": "Physics & Grounding",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Are there visible ground contact shadows beneath the man's feet and the bicycle tires?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are there dappled tree shadows projected onto the subjects or immediate ground, consistent with afternoon lighting?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the color temperature and lighting unified across the subjects and background, avoiding a disjointed 'cutout' look?",
+    "category": "General",
+    "subcategory": "Color Harmony",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Does the image exhibit a consistent depth of field where the distant background is slightly blurred while the subjects remain sharp?",
+    "category": "General",
+    "subcategory": "Photographic Style",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Does the image feature slight grain and texture consistent with a single smartphone photo?",
+    "category": "General",
+    "subcategory": "Photographic Style",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from visible white fringing, halos, or jagged edges around the composited subjects?",
+    "category": "General",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 15,
+    "question": "Are the man and dog free from anatomical distortions (e.g., malformed hands, extra limbs) and the bicycle free from structural deformities?",
+    "category": "General",
+    "subcategory": "Anatomy & Structure",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Are there any extra people or additional dogs visible in the scene?",
+    "category": "General",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "No",
+    "score": 9.83
+  }
+]

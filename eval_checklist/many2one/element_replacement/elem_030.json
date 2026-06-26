@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the asphalt road from the original image completely replaced by a thick snow-covered ground?",
+    "category": "Edit Compliance",
+    "subcategory": "Replacement Completeness",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is there visible accumulated snow on the roof of the SUV?",
+    "category": "Edit Compliance",
+    "subcategory": "Added Elements",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is there visible accumulated snow on the windows of the SUV?",
+    "category": "Edit Compliance",
+    "subcategory": "Added Elements",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Do the tires of the SUV appear to sink slightly into the snow rather than resting perfectly flat on top?",
+    "category": "Edit Compliance",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Are there natural traces of compacted or displaced snow around the base of the tires where they contact the ground?",
+    "category": "Visual Consistency",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Has the lighting on the vehicle been adjusted to match an overcast environment (i.e., removal of harsh sunlight highlights)?",
+    "category": "Visual Consistency",
+    "subcategory": "Lighting Adaptation",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Are the cast shadows on the ground soft and diffused, consistent with overcast snow lighting, rather than sharp and dark?",
+    "category": "Visual Consistency",
+    "subcategory": "Lighting Adaptation",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 8,
+    "question": "Is there a discernible visual distinction (in tone or color temperature) between the white car body and the white snow ground?",
+    "category": "Visual Consistency",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the scale and texture of the snow ground consistent with the perspective and size of the SUV?",
+    "category": "Visual Consistency",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the SUV clearly recognizable as the specific white Honda CR-V from the input, preserving the front grille, logo, and headlights?",
+    "category": "Subject Preservation",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the structural integrity of the SUV preserved, ensuring wheels, side mirrors, and body panels are not distorted or warped?",
+    "category": "Subject Preservation",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Are the edges where the car meets the snow blended smoothly without harsh seams, halos, or 'cut-and-paste' artifacts?",
+    "category": "Image Quality",
+    "subcategory": "Blending",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 13,
+    "question": "Does the accumulated snow on the roof and windows appear naturally integrated with the car surface rather than looking like a superimposed sticker?",
+    "category": "Image Quality",
+    "subcategory": "Blending",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are the background elements (such as trees) preserved or naturally adapted without severe artifacts or structural deformation?",
+    "category": "Image Quality",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from significant artifacts like color bleeding, ghosting, or unnatural noise patterns?",
+    "category": "Image Quality",
+    "subcategory": "General Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

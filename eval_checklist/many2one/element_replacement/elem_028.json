@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the Pop Art portrait of the woman visible on the brick wall, replacing the blank white canvas?",
+    "category": "Subject Consistency",
+    "subcategory": "Presence & Placement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the inserted portrait retain the specific four-quadrant color arrangement: Pink (top-left), Blue (top-right), Yellow (bottom-left), and Green (bottom-right)?",
+    "category": "Subject Consistency",
+    "subcategory": "Color Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are the woman's high-contrast facial features (black hair, red lips, defined eyes) clearly preserved in the portrait?",
+    "category": "Subject Consistency",
+    "subcategory": "Feature Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the portrait appear to be physically framed or mounted, exhibiting visible thickness or a frame border rather than looking like a flat sticker?",
+    "category": "Blending & Realism",
+    "subcategory": "Framing & Physicality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the artwork perspective-corrected (foreshortened) to match the angle and depth of the brick wall?",
+    "category": "Blending & Realism",
+    "subcategory": "Perspective & Geometry",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the lighting on the portrait appear directionally accurate, being brighter on the left side (facing the windows) and dimmer on the right?",
+    "category": "Blending & Realism",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is there a subtle surface reflection or glare on the artwork consistent with light entering from the large windows?",
+    "category": "Blending & Realism",
+    "subcategory": "Texture & Materiality",
+    "expected_answer": "Yes",
+    "score": 7.17
+  },
+  {
+    "id": 8,
+    "question": "Does the frame cast a realistic, subtle shadow onto the brick wall, consistent with the room's lighting direction?",
+    "category": "Blending & Realism",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Are the colors of the portrait slightly graded to harmonize with the cool, industrial ambient lighting of the loft?",
+    "category": "Blending & Realism",
+    "subcategory": "Color Harmony",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 10,
+    "question": "Is the artwork appropriately scaled, occupying a similar width relative to the sofa as the original white canvas?",
+    "category": "Blending & Realism",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is the transition between the frame edges and the brick wall seamless, without harsh white halos or jagged artifacts?",
+    "category": "Blending & Realism",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is the red brick wall texture surrounding the artwork preserved intact, without blurring or smearing?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Is the brown leather Chesterfield sofa beneath the painting preserved without distortion or unintended changes?",
+    "category": "Scene Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Are the architectural elements (large black-framed windows, steel beams, and radiator) preserved unchanged?",
+    "category": "Scene Preservation",
+    "subcategory": "Architectural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the wooden crate coffee tables and polished concrete floor preserved without alteration?",
+    "category": "Scene Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 16,
+    "question": "Is the final image free from visible digital artifacts, pixelation, or resolution inconsistencies between the subject and background?",
+    "category": "General Quality",
+    "subcategory": "Image Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

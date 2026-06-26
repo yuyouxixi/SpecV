@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image clearly depict the woman from the first reference image, retaining her facial features, shoulder-length black hair, and white shirt?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation - Woman",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the generated image clearly depict the man from the second reference image, retaining his facial features, grey curly hair, glasses, and dark suit jacket?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation - Man",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the generated image include the Golden Retriever from the third reference image, matching its breed, golden coat color, and physical build?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation - Dog",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the background recognizable as the specific park scene provided in the fourth reference image (large tree on the left, path on the right)?",
+    "category": "Composition & Layout",
+    "subcategory": "Background Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the woman depicted in a crouching or kneeling pose?",
+    "category": "Composition & Layout",
+    "subcategory": "Pose Adherence",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the man depicted standing upright, smiling, and looking toward the woman and dog?",
+    "category": "Interaction & Context",
+    "subcategory": "Pose & Expression",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Is the woman physically petting the dog, with her hand making clear contact with its fur?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Are the subjects positioned close together as a cohesive group, with the man standing beside the woman and dog rather than isolated?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the relative sizes of the man, woman, and dog realistic and proportional to the depth of the park scene?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Do the subjects cast shadows and exhibit lighting consistent with the direction and color temperature of the park background?",
+    "category": "General",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Are there any obvious compositing artifacts, such as white halos, jagged edges, or unnatural blurring around the subjects?",
+    "category": "General",
+    "subcategory": "Visual Artifacts",
+    "expected_answer": "No",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Are there any severe anatomical distortions, such as extra limbs, distorted faces, or unnatural body proportions on any of the subjects?",
+    "category": "General",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "No",
+    "score": 8.83
+  }
+]

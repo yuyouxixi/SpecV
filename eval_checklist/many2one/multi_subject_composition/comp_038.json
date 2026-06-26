@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image feature a red Ferrari that matches the reference in body shape, glossy red paint, black multi-spoke wheels, and red brake calipers?",
+    "category": "Subject Fidelity",
+    "subcategory": "Vehicle Identity",
+    "expected_answer": "Yes",
+    "score": 9.57
+  },
+  {
+    "id": 2,
+    "question": "Is the Ferrari shield badge visible on the front fender behind the wheel, consistent with the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Vehicle Details",
+    "expected_answer": "Yes",
+    "score": 7.73
+  },
+  {
+    "id": 3,
+    "question": "Does the man in the generated image maintain the reference identity, wearing an all-black suit (jacket and shirt), sunglasses, and slicked-back hair?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.43
+  },
+  {
+    "id": 4,
+    "question": "Is the background recognizable as the street scene in front of the specific modern glass office building provided in the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Identity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the man positioned standing next to the car with one hand physically resting on the car's roof?",
+    "category": "Composition & Layout",
+    "subcategory": "Instruction Adherence",
+    "expected_answer": "Yes",
+    "score": 9.87
+  },
+  {
+    "id": 6,
+    "question": "Are the relative proportions of the man and the car physically realistic (e.g., man is appropriately tall relative to the low sports car)?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale & Proportions",
+    "expected_answer": "Yes",
+    "score": 9.37
+  },
+  {
+    "id": 7,
+    "question": "Is the perspective of the background (street/building) aligned naturally with the angle of the car and person?",
+    "category": "Composition & Layout",
+    "subcategory": "Perspective Fusion",
+    "expected_answer": "Yes",
+    "score": 9.4
+  },
+  {
+    "id": 8,
+    "question": "Does the hand resting on the car roof show natural contact, including appropriate contact shadows or hand placement?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 8.93
+  },
+  {
+    "id": 9,
+    "question": "Are reflections of both the car and the person visible on the ground surface?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Interaction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Do the reflections on the car's paintwork show the new outdoor environment (building/street) instead of the original white studio?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Reflection",
+    "expected_answer": "Yes",
+    "score": 8.87
+  },
+  {
+    "id": 11,
+    "question": "Is the lighting direction and color temperature consistent across the man, the car, and the background?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.23
+  },
+  {
+    "id": 12,
+    "question": "Do both the man and the car cast appropriate shadows on the ground consistent with the scene's light source?",
+    "category": "Interaction & Context",
+    "subcategory": "Shadow Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the overall image aesthetic resemble a high-quality automotive magazine cover shot?",
+    "category": "General",
+    "subcategory": "Style & Quality",
+    "expected_answer": "Yes",
+    "score": 8.53
+  },
+  {
+    "id": 14,
+    "question": "Are there any anatomical errors in the man's hands (e.g., extra fingers, malformed shape) or limbs?",
+    "category": "General",
+    "subcategory": "Anatomical Accuracy",
+    "expected_answer": "No",
+    "score": 8.77
+  },
+  {
+    "id": 15,
+    "question": "Is the car free from geometric distortions, warping, or nonsensical structural errors?",
+    "category": "General",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 8.97
+  },
+  {
+    "id": 16,
+    "question": "Are there any obvious artifacts, blurring, or seams where the subjects (man/car) meet the new background?",
+    "category": "General",
+    "subcategory": "Compositing Quality",
+    "expected_answer": "No",
+    "score": 9.2
+  }
+]

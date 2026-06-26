@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image feature the silver classic Ford Mustang convertible from the first reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the classic Mustang retain key details from the reference, including the silver body color, chrome accents, and white convertible top?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the generated image feature the white Tesla Model S from the second reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the background match the provided desert highway reference, specifically showing the straight road leading toward the Monument Valley silhouette?",
+    "category": "Background Consistency",
+    "subcategory": "Scene Matching",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the classic Mustang positioned in the left lane of the highway?",
+    "category": "Spatial Layout",
+    "subcategory": "Positioning",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the Tesla positioned in the right lane of the highway?",
+    "category": "Spatial Layout",
+    "subcategory": "Positioning",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the two cars positioned side-by-side, creating a parallel composition for the 'Past vs. Future' comparison?",
+    "category": "Spatial Layout",
+    "subcategory": "Composition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are both cars oriented in the same direction, aligned with the flow of the road?",
+    "category": "Spatial Layout",
+    "subcategory": "Directionality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Does the scene depict a sunset atmosphere with warm, golden lighting consistent with the background reference?",
+    "category": "Lighting & Context",
+    "subcategory": "Atmosphere",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Do the car bodies feature golden/orange reflections consistent with the sunset environment, replacing their original lighting?",
+    "category": "Lighting & Context",
+    "subcategory": "Reflection Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Has the Tesla's lighting been successfully adapted from the indoor showroom reference to the outdoor setting (i.e., no indoor ceiling lights or signage reflections visible)?",
+    "category": "Lighting & Context",
+    "subcategory": "Domain Adaptation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the image convey a sense of speed through visual cues such as motion blur on the road, wheels, or background?",
+    "category": "Interaction & Context",
+    "subcategory": "Action Depiction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Do both cars share a consistent perspective aligned with the highway's vanishing point?",
+    "category": "Geometry & Perspective",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Are the relative scales of the classic car and the Tesla realistic alongside each other and the lane width?",
+    "category": "Geometry & Perspective",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are both vehicles properly grounded on the road surface with realistic contact shadows?",
+    "category": "Geometry & Perspective",
+    "subcategory": "Grounding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are there any severe structural distortions in the car bodies (e.g., malformed wheels, twisted chassis, or melted geometry)?",
+    "category": "Image Quality",
+    "subcategory": "Distortion",
+    "expected_answer": "No",
+    "score": 8.5
+  },
+  {
+    "id": 17,
+    "question": "Are there any obvious compositing artifacts, unnatural outlines, or blending errors where the cars meet the background?",
+    "category": "Image Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "No",
+    "score": 8.83
+  }
+]

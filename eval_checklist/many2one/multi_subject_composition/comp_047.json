@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image depict a female potter wearing a patterned headscarf and brown apron, consistent with the first reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Is the potter depicted in the act of throwing clay on a pottery wheel, with hands visibly coated in clay?",
+    "category": "Subject Fidelity",
+    "subcategory": "Action & Details",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the background behind the potter include studio elements (e.g., shelves with pottery) consistent with the first reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Environment Details",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 4,
+    "question": "Does the middle section depict a wood-fired kiln with a brick arch structure and visible flames, consistent with the third reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Are the ceramic bowls identifiable by their specific colors (green, reddish-brown, cream, black, blue) and rounded shape, consistent with the second reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the right section depict a traditional tea room with tatami mats, shoji screens, and a low wooden table, consistent with the fourth reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the image follow the specified left-to-right narrative: Potter (Left) -> Kiln (Middle) -> Finished Bowls (Right)?",
+    "category": "Composition & Layout",
+    "subcategory": "Narrative Flow",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Is the kiln depicted in the middle section as a background transition element (smaller scale or set deeper in depth compared to the foreground subjects)?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale & Depth",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Are the finished ceramic bowls placed directly on the low wooden table in the tea room section?",
+    "category": "Composition & Layout",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are the transitions between the three scenes blended smoothly (e.g., using gradients, soft edges, or atmospheric effects) rather than separated by hard vertical lines?",
+    "category": "Interaction & Context",
+    "subcategory": "Scene Blending",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Does the lighting transition logically across the image (e.g., natural/studio light on the left, warm fire glow in the middle, soft ambient light on the right)?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Do the ceramic bowls cast natural contact shadows on the wooden table, indicating they are physically sitting on the surface?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Is the potter free from severe anatomical distortions, particularly in the hands and face?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Are the flames in the kiln section rendered naturally without obvious repetitive patterns or blocky noise?",
+    "category": "General Quality",
+    "subcategory": "Element Realism",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from obvious compositing artifacts, such as visible seams, floating objects, or hard cut-out edges?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

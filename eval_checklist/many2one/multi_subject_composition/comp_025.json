@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image include the curly-haired woman matching the facial features and hair texture of the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 2,
+    "question": "Does the woman's outfit match the reference (white long-sleeve button-up shirt, light blue jeans, and white sneakers)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Clothing",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the black telescope identifiable and consistent with the design and metallic finish of the reference object?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the generated image include the pine tree bonsai matching the foliage, curved trunk, and pot style of the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the background the specific rooftop sunset cityscape provided in the reference images?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the woman positioned in the foreground on the left side of the frame?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the telescope tripod positioned to the front-left of the woman?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the bonsai positioned on a side table on the right side of the frame?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the entire bonsai visible without being cropped off at the edges?",
+    "category": "Composition & Layout",
+    "subcategory": "Framing",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are the woman's hands physically touching the telescope (e.g., adjusting focus) with realistic contact (no floating)?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Are the telescope tripod feet firmly planted on the cement ground without floating or sinking?",
+    "category": "Interaction & Context",
+    "subcategory": "Grounding",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Is the lighting on the subjects consistent with sunset backlighting, showing golden rim light coming from the right side?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are there long shadows cast on the ground in a direction consistent with the sunset light source?",
+    "category": "Interaction & Context",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Has the woman's original flat studio lighting been successfully converted to high-contrast dusk lighting (shadowed front, lit back/side)?",
+    "category": "Interaction & Context",
+    "subcategory": "Relighting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the image exhibit slight sharpening and grain consistent with a smartphone night mode aesthetic?",
+    "category": "Style & Quality",
+    "subcategory": "Aesthetic",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 16,
+    "question": "Are there any visible white or black halos/fringing around the edges of the composited subjects?",
+    "category": "Style & Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "No",
+    "score": 9.5
+  },
+  {
+    "id": 17,
+    "question": "Are there any anatomical distortions in the woman's hands or arms?",
+    "category": "Style & Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "No",
+    "score": 9.17
+  },
+  {
+    "id": 18,
+    "question": "Are there any severe geometric distortions in the telescope or tripod structure?",
+    "category": "Style & Quality",
+    "subcategory": "Object Integrity",
+    "expected_answer": "No",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the specific red vintage bicycle with the wicker basket and white flowers clearly visible in the generated image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the bicycle positioned on the dirt path within the wheat field as instructed?",
+    "category": "Instruction Adherence",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Are the bicycle wheels firmly touching the ground, strictly adhering to the constraint that they must not be floating in mid-air?",
+    "category": "Instruction Adherence",
+    "subcategory": "Physical Constraints",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the bicycle appear to be parked upright by the roadside (stable stance) rather than lying down or being ridden?",
+    "category": "Instruction Adherence",
+    "subcategory": "Contextual Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the bicycle cast a shadow on the ground that is consistent with the scene's strong sunlight direction (coming from the upper right)?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Do the highlights and reflections on the bicycle's metallic parts reflect the high-contrast outdoor environment rather than the original flat studio lighting?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Do the color tones and saturation of the bicycle blend naturally with the warm, golden palette of the wheat field?",
+    "category": "Blending Quality",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the lower portion of the bicycle (e.g., tires or kickstand) partially occluded by foreground wheat stalks to create a realistic sense of depth?",
+    "category": "Blending Quality",
+    "subcategory": "Occlusion & Integration",
+    "expected_answer": "Yes",
+    "score": 7.17
+  },
+  {
+    "id": 9,
+    "question": "Is the scale of the bicycle realistic relative to the width of the dirt path and the height of the surrounding wheat?",
+    "category": "Blending Quality",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the original background (sky, clouds, distant field, and path texture) preserved without unintended distortions?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the bicycle structurally accurate, with circular wheels, intact spokes, and correct frame geometry?",
+    "category": "Image Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the generated image free from obvious compositing artifacts such as jagged edges, halos, or unnatural blurring around the bicycle?",
+    "category": "Image Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

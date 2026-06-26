@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image feature the 'AURA BOTANICS' serum bottle, accurately maintaining its frosted glass texture, amber liquid, and cylindrical gold cap as seen in the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Main Product",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the text 'AURA BOTANICS' and 'ESSENCE' on the bottle label legible and correctly spelled?",
+    "category": "Subject Fidelity",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the lemon slice retain the detailed pulp texture, rind structure, and fresh appearance of the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Ingredient Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is the honeycomb clearly recognizable, preserving the hexagonal cell structure and golden, waxy texture from the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Ingredient Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Are clear, spherical serum droplets visible that match the reference's realistic light refraction and glossiness?",
+    "category": "Subject Fidelity",
+    "subcategory": "Texture & Material",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the serum bottle positioned slightly to the left of the center as instructed?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the lemon slice and honeycomb arranged on the right side of the composition?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are the serum droplets scattered around the bottle rather than clumped in a single area?",
+    "category": "Composition & Layout",
+    "subcategory": "Element Distribution",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Do the relative scales of the bottle, ingredients, and droplets appear realistic (e.g., droplets are macro-sized but smaller than the bottle)?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale & Proportion",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the background a soft cream-colored gradient, successfully replacing the original dark or patterned backgrounds?",
+    "category": "Interaction & Context",
+    "subcategory": "Background & Environment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Is the lighting unified across all subjects, eliminating conflicting lighting cues (e.g., rim lighting from the original black background)?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the bottle and ingredients appear grounded with natural contact shadows, avoiding a floating appearance?",
+    "category": "Interaction & Context",
+    "subcategory": "Grounding & Depth",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Does the overall image convey a premium, magazine-advertisement quality with professional polish?",
+    "category": "Interaction & Context",
+    "subcategory": "Atmosphere & Style",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 14,
+    "question": "Are the key subjects (bottle, label, and ingredients) sharp and in focus?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Are there any visible artifacts, such as jagged masking edges, geometric distortions, or unnatural pixelation?",
+    "category": "General",
+    "subcategory": "Artifacts",
+    "expected_answer": "No",
+    "score": 8.83
+  }
+]

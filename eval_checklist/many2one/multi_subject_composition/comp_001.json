@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the standing woman in the generated image accurately resemble the person in Reference Image 1 (facial features)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is the standing woman wearing the black and olive green puffer jacket with a fur hood from Reference Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Attire Details",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the standing woman wearing blue jeans and hiking boots consistent with Reference Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Attire Details",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the sitting woman in the generated image accurately resemble the person in Reference Image 2 (facial features)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the sitting woman retain the long dark hair style shown in Reference Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Feature Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Is the sitting woman wearing the cream-colored chunky knit sweater from Reference Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Attire Details",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the background clearly recognizable as the snowy mountain landscape from Reference Image 3?",
+    "category": "Composition & Layout",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the woman from Reference Image 1 depicted in a standing pose?",
+    "category": "Composition & Layout",
+    "subcategory": "Pose Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the woman from Reference Image 2 sitting directly on the snow, with the wooden chair from the reference completely removed?",
+    "category": "Composition & Layout",
+    "subcategory": "Pose Adaptation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the sitting woman physically leaning against the legs of the standing woman as requested?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are the two subjects scaled proportionally to each other and the background (not appearing as giants or miniatures)?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Does the lighting on the subjects match the bright, sunny outdoor conditions of the background (high contrast, appropriate brightness)?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are there cast shadows on the snow from the subjects that align with the background's light source?",
+    "category": "Interaction & Context",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is there visual evidence of the sitting subject making contact with the snow (e.g., slight sinking, contact shadows) rather than floating?",
+    "category": "Interaction & Context",
+    "subcategory": "Grounding",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from severe anatomical distortions (e.g., malformed hands, extra limbs, distorted faces)?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Is the image free from obvious compositing artifacts such as halos, jagged edges, or unnatural blurring at the subject boundaries?",
+    "category": "General",
+    "subcategory": "Blending Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

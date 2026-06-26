@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is a single jade dragon sculpture present on the second tier of the glass cabinet?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence & Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the inserted sculpture clearly resemble the reference jade dragon in terms of shape (coiled body), features (horns, head), and color (pale green)?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the jade material exhibit a crystal-clear, translucent quality with light subtly passing through (subsurface scattering)?",
+    "category": "Element Accuracy",
+    "subcategory": "Material Properties",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Are there highlights on the jade surface that match the direction and intensity of the cabinet's internal LED lighting?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Highlights",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the refraction or reflection of the jade sculpture faintly visible through the glass shelf directly beneath it?",
+    "category": "Blending Quality",
+    "subcategory": "Refraction & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the sculpture cast a realistic shadow on the shelf, consistent with the cabinet's lighting environment?",
+    "category": "Blending Quality",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Is the perspective and scale of the jade dragon consistent with the glass cabinet's geometry?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective & Scale",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Are the edges of the jade sculpture blended smoothly into the scene without harsh cut-outs or halos?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the glass cabinet structure (frames, shelves, panels) and the surrounding mall background preserved without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Are the contents of the other shelves (e.g., jewelry on the bottom tier) preserved and unmodified?",
+    "category": "Scene Preservation",
+    "subcategory": "Content Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the generated image free from visual artifacts (noise, pixelation, banding) and unnatural structural distortions of the dragon?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Structure",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

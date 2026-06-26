@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image depict the specific Asian man from the reference image, wearing a light blue shirt and a black apron?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 2,
+    "question": "Does the cat in the generated image match the orange tabby reference in terms of color and markings?",
+    "category": "Subject Fidelity",
+    "subcategory": "Animal Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Are the white stand mixer and the clear glass bowl from the reference images present in the composition?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is the background clearly recognizable as the bright kitchen with white cabinets and marble countertops provided in the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the man positioned on the left side of the frame standing near the countertop?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the white stand mixer placed to the left of the center on the countertop?",
+    "category": "Composition & Layout",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is the glass bowl positioned slightly toward the front edge of the countertop?",
+    "category": "Composition & Layout",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the cat positioned on the right side of the countertop near the window?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the cat depicted lying down on the countertop (not standing or sitting upright)?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Pose",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the glass bowl's perspective aligned with the countertop edge lines?",
+    "category": "Composition & Layout",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the whisk in the man's hands positioned directly above the glass bowl, suggesting he is about to start whipping?",
+    "category": "Interaction & Context",
+    "subcategory": "Action/Pose",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is there a small amount of flour on the countertop near the cat's front paws?",
+    "category": "Interaction & Context",
+    "subcategory": "Detail/Interaction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Are there approximately 2-3 shallow paw prints visible in the flour near the cat?",
+    "category": "Interaction & Context",
+    "subcategory": "Detail/Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the glass bowl exhibit realistic transparency and refraction, showing the countertop surface through it?",
+    "category": "General",
+    "subcategory": "Material Physics",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the lighting unified across all subjects, matching the slightly warm natural window light from the background?",
+    "category": "General",
+    "subcategory": "Lighting & Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 16,
+    "question": "Does the stand mixer appear naturally integrated into the scene lighting, avoiding an e-commerce white-background look?",
+    "category": "General",
+    "subcategory": "Lighting & Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are the edges of the cat's fur sharp and well-defined, avoiding excessive blur?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 18,
+    "question": "Is there a subtle depth of field with the countertop foreground sharp and the background cabinets slightly soft?",
+    "category": "General",
+    "subcategory": "Camera Effects",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is there a realistic film grain visible across the image?",
+    "category": "General",
+    "subcategory": "Camera Effects",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 20,
+    "question": "Are the man's hands anatomically correct, without extra fingers or unnatural distortions?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 21,
+    "question": "Do the objects (mixer, bowl, cat) have appropriate contact shadows on the countertop, avoiding a floating appearance?",
+    "category": "General",
+    "subcategory": "Shadows & Grounding",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 22,
+    "question": "Is the image free from extra utensils or unrelated objects not mentioned in the instruction?",
+    "category": "General",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

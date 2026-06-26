@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image include the specific photographer from the reference, identifiable by his facial features, black t-shirt, and beige cargo shorts?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 2,
+    "question": "Does the generated image include the specific blue vintage Jeep from the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the generated image include the dromedary camel from the reference, retaining its tan color and proportions?",
+    "category": "Subject Fidelity",
+    "subcategory": "Animal Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the background clearly recognizable as the provided wide-angle sand dune landscape?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the photographer positioned in the left foreground of the image?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the photographer kneeling on one knee and aiming the camera toward the right?",
+    "category": "Composition & Layout",
+    "subcategory": "Pose & Orientation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Are the photographer's hands and camera direction properly aligned, with the lens pointing toward the camel?",
+    "category": "Subject Fidelity",
+    "subcategory": "Anatomical/Object Alignment",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the camel positioned in the center-left area of the middle ground, facing toward the right?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the Jeep positioned in the middle ground on the right side of the frame?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Are the relative scales of the man, camel, and Jeep realistic given their respective distances from the camera?",
+    "category": "Composition & Layout",
+    "subcategory": "Perspective & Scale",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are there continuous tire tracks in the sand leading to the Jeep, showing correct perspective scaling?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Interaction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Do the Jeep's wheels appear pressed into the sand surface rather than floating on top?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Grounding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are there visible footprints or a knee imprint in the sand near the photographer?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Interaction",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Are the shadows of the man, camel, and Jeep consistent with a single light source (sun) coming from the upper left?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 15,
+    "question": "Have all traces of city buildings and asphalt road been completely removed from the Jeep's surroundings?",
+    "category": "Interaction & Context",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Have the cool-toned urban reflections on the Jeep's body been replaced with warm reflections matching the desert environment?",
+    "category": "Interaction & Context",
+    "subcategory": "Material Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is there subtle heat wave distortion or atmospheric haze in the distance to suggest a hot desert environment?",
+    "category": "Interaction & Context",
+    "subcategory": "Atmospheric Effects",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Does the image exhibit unified warm color grading without unnaturally over-reddening the photographer's skin tones?",
+    "category": "General",
+    "subcategory": "Color & Tone",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Is the film grain and sharpening consistent across all subjects and the background?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 20,
+    "question": "Are there any severe anatomical distortions (e.g., extra limbs, malformed faces) on the man or camel?",
+    "category": "General",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 21,
+    "question": "Are there visible artifacts or unnatural blending edges (halos, seams) where the subjects meet the background?",
+    "category": "General",
+    "subcategory": "Compositing Quality",
+    "expected_answer": "No",
+    "score": 9.5
+  }
+]

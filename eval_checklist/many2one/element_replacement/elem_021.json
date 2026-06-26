@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the specific family portrait photo (showing a family of four on a beach) visible on the refrigerator door?",
+    "category": "Subject Fidelity",
+    "subcategory": "Content Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the specific round Shiba Inu magnet (watercolor style) visible in the image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Content Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the family portrait photo positioned in the empty center area of the right refrigerator door panel?",
+    "category": "Spatial Consistency",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is the Shiba Inu magnet positioned specifically over the upper right corner of the family portrait photo?",
+    "category": "Spatial Consistency",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the Shiba Inu magnet visually occlude (overlap) the corner of the photo, indicating it is pinning the photo to the surface?",
+    "category": "Spatial Consistency",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the family photo exhibit physical characteristics of paper (e.g., slight thickness, subtle lifting, or curling at edges) rather than appearing as a flat texture map?",
+    "category": "Blending & Realism",
+    "subcategory": "Physics",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Do the family photo and Shiba Inu magnet cast realistic contact shadows onto the refrigerator door surface?",
+    "category": "Blending & Realism",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Do the glossy reflections on the photo paper match the lighting environment and the existing reflections on the refrigerator?",
+    "category": "Blending & Realism",
+    "subcategory": "Material Consistency",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 9,
+    "question": "Does the perspective of the inserted family photo align correctly with the plane of the refrigerator door?",
+    "category": "Blending & Realism",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Are the family photo and Shiba Inu magnet scaled realistically relative to the refrigerator and existing items?",
+    "category": "Blending & Realism",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the existing sticky note with the text '买牛奶' preserved without distortion or displacement?",
+    "category": "Scene Preservation",
+    "subcategory": "Existing Elements",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the existing brown bear magnet preserved in its original location below the sticky note?",
+    "category": "Scene Preservation",
+    "subcategory": "Existing Elements",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the existing Eiffel Tower magnet on the left refrigerator door preserved?",
+    "category": "Scene Preservation",
+    "subcategory": "Existing Elements",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the surrounding kitchen background elements (cabinets, stove) and the refrigerator structure preserved without alteration?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are the faces of the family members in the inserted photo clear and free of distortion?",
+    "category": "Image Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is the image free of visible blending artifacts (e.g., halos, jagged edges, or mismatched noise) around the inserted items?",
+    "category": "Image Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

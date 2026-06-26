@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original spreadsheet content on the laptop screen completely replaced with the blue, tech-inspired UI from the donor image?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are specific recognizable features from the donor image (e.g., the central globe, 'DATA CORE ACTIVE' text, or 'Neural Network Status' panels) visible on the screen?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are the bright diagonal sunlight glare strips (from the venetian blinds) preserved and visible on the screen area?",
+    "category": "Blending Quality",
+    "subcategory": "Glare Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Does the sunlight glare appear to be overlaid on top of the new UI (i.e., the UI is visible but semi-transparent/washed out beneath the glare)?",
+    "category": "Blending Quality",
+    "subcategory": "Layer Compositing",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Do the glare strips maintain the exact diagonal angle, width, and intensity as seen in the original base image?",
+    "category": "Blending Quality",
+    "subcategory": "Glare Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Is the new UI content correctly perspective-warped to match the tilt and trapezoidal shape of the laptop screen?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Are the edges of the new UI content cleanly aligned with the screen bezels, without spilling onto the laptop frame or keyboard?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the reflection of the screen on the glass table surface consistent with the new blue UI content (rather than showing the old white spreadsheet)?",
+    "category": "Blending Quality",
+    "subcategory": "Environmental Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the laptop hardware (keyboard, trackpad, and bezels) preserved without distortion or color bleeding?",
+    "category": "Scene Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the background elements (venetian blinds, office chairs, plants, and windows) completely unchanged?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from ghosting artifacts (e.g., faint remnants of the spreadsheet grid) or visible seams around the screen?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Does the overall image maintain photographic authenticity, with the new screen content matching the noise and resolution of the original photo?",
+    "category": "General Quality",
+    "subcategory": "Photorealism",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

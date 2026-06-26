@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image feature the square, clear glass perfume bottle from Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Main Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the gold text 'ETHEREAL' on the bottle correctly spelled and clearly legible?",
+    "category": "Subject Fidelity",
+    "subcategory": "Text Rendering",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the bottle display the gold ornate floral emblem consistent with Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Logo Details",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are the flowers in the image white roses matching the type and color in Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Secondary Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the background composed of beige/champagne silk fabric with a lustrous texture consistent with Image 3?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the perfume bottle positioned in the center of the image?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Are the roses disassembled into individual blooms and scattered petals, rather than appearing as a wrapped bouquet?",
+    "category": "Composition & Layout",
+    "subcategory": "Deconstruction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Are the rose blooms and petals distributed around the perfume bottle?",
+    "category": "Composition & Layout",
+    "subcategory": "Object Distribution",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the brown wrapping paper and ribbon from Image 2 completely absent?",
+    "category": "Composition & Layout",
+    "subcategory": "Exclusion of Unwanted Elements",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Does the lighting style resemble high-end commercial product photography (e.g., sharp highlights on glass, good contrast)?",
+    "category": "Interaction & Context",
+    "subcategory": "Atmosphere & Style",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Do the bottle, blooms, and petals cast realistic contact shadows onto the silk surface?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Does the glass bottle exhibit realistic transparency and refraction of the silk background behind it?",
+    "category": "Interaction & Context",
+    "subcategory": "Material Physics",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the bottle free from severe geometric distortions or warping?",
+    "category": "General Quality",
+    "subcategory": "Anatomy & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from unnatural artifacts (e.g., floating petals, glitchy textures, or duplicate text)?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Is the main subject (perfume bottle) in sharp focus?",
+    "category": "General Quality",
+    "subcategory": "Sharpness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

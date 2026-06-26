@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original pallet load replaced with a stack of cardboard boxes matching the arrangement in the second donor image?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Have the warm tones of the donor boxes been successfully recolored to match the cool white fluorescent lighting of the warehouse?",
+    "category": "Blending Quality",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is transparent stretch wrap visibly applied over the stack of boxes?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the stretch wrap exhibit realistic details such as multiple overlapping layers and wrinkles as referenced in the third image?",
+    "category": "Element Accuracy",
+    "subcategory": "Texture Realism",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Are specular highlights on the stretch wrap consistent with the direction and intensity of the overhead warehouse lights?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 6,
+    "question": "Is the stretch wrap sufficiently transparent to clearly identify the cardboard boxes underneath?",
+    "category": "Element Accuracy",
+    "subcategory": "Material Properties",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Are the forklift forks correctly visualized beneath the pallet with no clipping or z-fighting artifacts?",
+    "category": "Blending Quality",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the wooden pallet maintained in its original position and orientation relative to the forklift?",
+    "category": "Scene Preservation",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are contact shadows visible between the boxes and at the interface with the pallet, creating a grounded appearance?",
+    "category": "Blending Quality",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Does the perspective and scale of the stacked boxes align correctly with the forklift and warehouse environment?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective & Scale",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the forklift body, mast, and operator area preserved without distortion or unintended changes?",
+    "category": "Scene Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Is the warehouse background (shelving, floor, ceiling) preserved without artifacts or alterations?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Is the edited region free from visible seams, ghosting, or inconsistent noise/grain compared to the base image?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

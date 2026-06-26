@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image feature the specific Asian man from the first reference image, retaining his facial features and beard?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 2,
+    "question": "Is the man wearing the wide-brim straw hat and olive/khaki apron consistent with the reference images?",
+    "category": "Subject Fidelity",
+    "subcategory": "Attire",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the bird a Blue-and-Yellow Macaw with correct coloration (blue wings, yellow chest) and beak shape matching the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Animal Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the object a copper or brass watering can with a long spout and rosette head, matching the reference material and design?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the background clearly recognizable as the greenhouse corridor from the reference, showing the glass roof structure and cement floor?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the man positioned standing in the center of the frame with his feet visibly planted on the floor (not cropped at the waist)?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is the Macaw positioned on the man's left shoulder (viewer's right)?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the watering can held in the man's right hand (viewer's left)?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the watering can's spout pointing downward and towards the left side of the frame?",
+    "category": "Composition & Layout",
+    "subcategory": "Object Orientation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Do the Macaw's talons realistically grip the apron strap, showing proper occlusion (talons wrapping around the strap)?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the watering can display striped specular reflections consistent with the greenhouse roof metal framework?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Reflections",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is there a visible rim light effect on the Macaw's feathers consistent with overhead sunlight?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Reflections",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Are the shadows on the man's face softened as requested, avoiding harsh dark patches?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the image exhibit warm tones and subtle atmospheric haze (visible dust particles in light beams) without obscuring the scene like heavy fog?",
+    "category": "Interaction & Context",
+    "subcategory": "Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are the grain texture and sharpness levels consistent across the man, bird, and watering can, making them appear captured by the same camera?",
+    "category": "General Quality",
+    "subcategory": "Visual Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Are the edges of the subjects (hat brim, feathers) clean and free from white fringing, halos, or cutout artifacts?",
+    "category": "General Quality",
+    "subcategory": "Compositing Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Are there any anatomical distortions on the man (e.g., malformed hands, extra fingers, warped limbs)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Are there any anatomical distortions on the Macaw (e.g., extra wings, malformed talons, incorrect beak shape)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Does the image maintain a realistic documentary-style photographic aesthetic?",
+    "category": "General Quality",
+    "subcategory": "Style",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image depict the specific male researcher from the reference, wearing a white lab coat, safety goggles, and blue gloves?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity & Attire",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the image include the specific white microscope model shown in the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the image include the green iguana from the reference, preserving its scale texture and details without appearing plastic or blurry?",
+    "category": "Subject Fidelity",
+    "subcategory": "Animal Identity & Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the researcher positioned on the left side of the frame with his right hand pointing toward the center of the surface?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement & Pose",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the microscope placed on the center-left area of the workbench surface?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the iguana positioned on the right side of the surface with its body lying flat?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement & Pose",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the iguana's tail wind towards the left, following the S-shape suggested in the layout sketch?",
+    "category": "Composition & Layout",
+    "subcategory": "Shape Alignment",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is the background a clean laboratory workbench consistent with the provided background reference?",
+    "category": "Interaction & Context",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the relative scales of the researcher, microscope, and iguana realistic and proportionally appropriate?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Has the lighting on the iguana been successfully converted from the reference's warm tone to cool white laboratory overhead lighting?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Are shadow directions consistent across the researcher, microscope, and iguana?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Do the microscope and iguana have realistic contact shadows where they meet the workbench surface?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Are there subtle, faint reflections on the workbench surface (avoiding mirror-like intensity)?",
+    "category": "Interaction & Context",
+    "subcategory": "Surface Interaction",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Is the white microscope clearly distinguishable from the white background surface with proper edge definition?",
+    "category": "General",
+    "subcategory": "Visual Clarity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Is the text on the researcher's ID badge blurred or mosaiced (avoiding legible or garbled text)?",
+    "category": "General",
+    "subcategory": "Text Handling",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Does the image have unified grain and sharpness across all subjects, appearing as if captured by a single camera?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 17,
+    "question": "Does the overall image resemble science education photography in terms of composition and lighting?",
+    "category": "Interaction & Context",
+    "subcategory": "Style Consistency",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 18,
+    "question": "Are there any severe anatomical errors (e.g., distorted hands, extra limbs, misshapen objects)?",
+    "category": "General",
+    "subcategory": "Distortion & Anatomy",
+    "expected_answer": "No",
+    "score": 9.17
+  },
+  {
+    "id": 19,
+    "question": "Are there any visible seams, cutout artifacts, or floating objects where subjects meet the background?",
+    "category": "General",
+    "subcategory": "Blending Quality",
+    "expected_answer": "No",
+    "score": 9.67
+  }
+]

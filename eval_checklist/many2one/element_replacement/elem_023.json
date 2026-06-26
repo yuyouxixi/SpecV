@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the metallic robot visible and positioned in the center of the open palm?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence & Position",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the robot retain its key visual features, including the silver armor, single blue eye, and glowing blue accents?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the robot's original pose (standing upright with hands on hips) preserved?",
+    "category": "Element Accuracy",
+    "subcategory": "Pose Preservation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is the robot scaled appropriately to appear as a miniature object that fits entirely within the palm?",
+    "category": "Blending Quality",
+    "subcategory": "Scale & Proportion",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Do the robot's feet appear to make solid contact with the palm surface, conforming to the skin's curvature rather than floating?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective & Contact",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the lighting on the robot match the direction and intensity of the hand's lighting (source from front-left)?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Does the robot cast a realistic shadow onto the palm surface consistent with the lighting direction?",
+    "category": "Blending Quality",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is there a subtle blue light reflection or spill visible on the palm skin near the robot's glowing LEDs?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 9,
+    "question": "Does the robot's color temperature and contrast match the environment of the hand image?",
+    "category": "Blending Quality",
+    "subcategory": "Color Harmony",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the robot's edges blended smoothly into the scene without visible white halos, jagged cutouts, or harsh seams?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Is the hand's anatomy (fingers, palm lines) and skin texture preserved without distortion outside the contact area?",
+    "category": "Scene Preservation",
+    "subcategory": "Anatomy & Texture",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the blue sleeve and blurred gray background preserved without alteration?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the inserted robot rendered with sharpness and noise levels consistent with the surrounding hand texture?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Sharpness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

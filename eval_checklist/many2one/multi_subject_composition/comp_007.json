@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image depict the man from Image 1, retaining his facial features and messy hairstyle?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the man wearing the same grey t-shirt with a pocket and checkered boxer shorts as shown in Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Clothing",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the flying object match the metallic silver saucer shape and design of the UFO in Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Are the specific blue and green lights from Image 2 visible on the underside of the UFO?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Details",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the background recognizable as the specific starry sky landscape with mountains and a lake provided in Image 3?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the man oriented upside down (head pointing downwards)?",
+    "category": "Composition & Layout",
+    "subcategory": "Pose Transformation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is the man floating in mid-air, clearly separated from any ground or bed surface?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Context",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the UFO positioned directly above the man?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Is the man's entire body visible in the frame, without being significantly cropped?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Completeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the original bedroom background (pillows, bed sheets, walls) completely removed?",
+    "category": "Composition & Layout",
+    "subcategory": "Background Replacement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is there a visible light beam effect projecting from the UFO onto the man?",
+    "category": "Interaction & Context",
+    "subcategory": "Special Effects",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 12,
+    "question": "Does the lighting on the man's body appear consistent with the overhead beam source rather than the original flat indoor lighting?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Are there any unwanted residual elements from the original sleeping photo (e.g., parts of the pillow or sheets) attached to the man's cutout?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the man's body free from severe anatomical distortions (e.g., extra limbs, warped proportions) despite the pose change?",
+    "category": "General Quality",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the compositing of the man and UFO into the night scene seamless, without harsh white outlines or jagged edges?",
+    "category": "General Quality",
+    "subcategory": "Blending Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  }
+]

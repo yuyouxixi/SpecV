@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the 'NEON KICK' poster visible on the previously blank billboard?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are key identifiable elements from the source poster (the energy drink can, the VR character, and the lightning bolts) clearly recognizable on the billboard?",
+    "category": "Element Accuracy",
+    "subcategory": "Content Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the text on the poster (e.g., 'NEON KICK', Chinese characters) legible and correctly spelled?",
+    "category": "Element Accuracy",
+    "subcategory": "Text Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 4,
+    "question": "Is the poster perfectly aligned with the perspective and angle of the building, with vanishing points matching the architecture?",
+    "category": "Geometric Consistency",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Does the poster completely fill the white billboard area without spilling over onto the building frame, windows, or sky?",
+    "category": "Geometric Consistency",
+    "subcategory": "Boundary & Coverage",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Have the original flat, bright colors of the poster been modified to match the darker, ambient lighting of the environment?",
+    "category": "Visual Integration",
+    "subcategory": "Color Adaptation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Does the poster surface exhibit a red hue or reflection, particularly on the side facing the street's red neon signs?",
+    "category": "Visual Integration",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Does the poster surface exhibit a blue or cyan hue, consistent with the surrounding blue neon lights?",
+    "category": "Visual Integration",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Does the poster display a cyberpunk-style reflective sheen or gloss, consistent with a wet or glass surface?",
+    "category": "Visual Integration",
+    "subcategory": "Material & Texture",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the brightness and contrast of the poster consistent with the scene, avoiding an unnatural 'glowing' or 'sticker-like' appearance?",
+    "category": "Visual Integration",
+    "subcategory": "Exposure Matching",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the edges of the poster cleanly blended into the billboard frame without visible white halos, jagged artifacts, or seams?",
+    "category": "Visual Integration",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Does the poster resolution and noise pattern match the overall image quality, avoiding a mismatch in sharpness?",
+    "category": "General Quality",
+    "subcategory": "Resolution & Noise",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Are the surrounding static background elements (buildings, neon signs, street surface) preserved without distortion or color bleeding?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Are the dynamic scene elements (flying drones/cars, holographic ghost figure, pedestrians) preserved and unmodified?",
+    "category": "Scene Preservation",
+    "subcategory": "Specific Details",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

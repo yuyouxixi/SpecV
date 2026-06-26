@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image include the girl from the reference, wearing a straw hat, white long-sleeve shirt, and denim overalls?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is the black horse recognizable as the reference animal, with a black coat and flowing mane?",
+    "category": "Subject Fidelity",
+    "subcategory": "Animal Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 3,
+    "question": "Is the red wagon included and does it match the design of the reference product photo (red body, black handle)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the background depict the farm yard reference, including the wooden fence and barn elements?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the girl positioned in the left foreground of the image?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the red wagon positioned behind the girl and slightly to the right?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the horse positioned in the midground near the wooden fence?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the scale relationship between the girl and the horse realistic (horse significantly larger than the child)?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the girl's right hand visibly gripping the wagon handle in a pulling pose?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the horse extending its head toward the girl, creating the impression of sniffing or interacting?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the horse's head partially occluded by the fence rails in a realistic manner without clipping artifacts?",
+    "category": "Interaction & Context",
+    "subcategory": "Occlusion & Depth",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the wagon wheels resting naturally on the dirt road with visible wheel tracks following the wagon's path?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Details",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is there a subtle fine dust effect near the wagon wheels that does not resemble heavy smoke?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the lighting on the red wagon match the farm environment, eliminating the flat studio look of the reference?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Do the shadows of the girl, wagon, and horse cast in a consistent direction?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Does the overall image have a warm color grade and natural film grain texture?",
+    "category": "General",
+    "subcategory": "Style & Tone",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 17,
+    "question": "Are there any anatomical distortions on the girl (e.g., extra limbs, unnatural proportions)?",
+    "category": "General",
+    "subcategory": "Anatomy & Artifacts",
+    "expected_answer": "No",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Are there any anatomical distortions on the horse (e.g., extra legs, malformed head)?",
+    "category": "General",
+    "subcategory": "Anatomy & Artifacts",
+    "expected_answer": "No",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Are there any obvious compositing artifacts, such as jagged edges or halos around the subjects?",
+    "category": "General",
+    "subcategory": "Anatomy & Artifacts",
+    "expected_answer": "No",
+    "score": 9.83
+  }
+]

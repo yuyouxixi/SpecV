@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the roast turkey completely removed from the center of the dining table, leaving no visible remnants?",
+    "category": "Element Accuracy",
+    "subcategory": "Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the 'Buddha Jumps Over the Wall' stew in a ceramic pot clearly visible in the center of the table?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the inserted ceramic pot retain the specific blue-and-white Chinese dragon patterns and ornate details from the reference image?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are the stew contents (e.g., abalone, sea cucumber, thick soup) visible inside the ceramic pot?",
+    "category": "Element Accuracy",
+    "subcategory": "Content Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Is the ceramic pot scaled appropriately relative to the surrounding plates, glasses, and candles?",
+    "category": "Blending Quality",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the perspective of the ceramic pot match the angle of the table surface, appearing to rest naturally without floating?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective & Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the ceramic pot cast a realistic contact shadow on the tablecloth consistent with the room's lighting direction?",
+    "category": "Blending Quality",
+    "subcategory": "Shadow Generation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Does the lighting and color temperature of the inserted pot match the warm, amber ambient lighting of the room?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Does the rim of the ceramic pot exhibit reflections consistent with the nearby flickering candlelight as requested?",
+    "category": "Blending Quality",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is there visible, semi-transparent steam rising from the stew that naturally dissipates into the air?",
+    "category": "Blending Quality",
+    "subcategory": "Volumetric Effects",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the tablecloth surface and any background area previously occluded by the turkey coherently restored?",
+    "category": "Scene Preservation",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 12,
+    "question": "Are the surrounding elements (candles, floral arrangements, fireplace, furniture) preserved without unintended distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Non-Edited Areas",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Are the edges of the inserted pot smoothly blended into the scene without visible halos or harsh artifacts?",
+    "category": "General Quality",
+    "subcategory": "Edge Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

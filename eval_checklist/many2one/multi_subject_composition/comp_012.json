@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the girl in the generated image retain the facial features and messy light brown hair of the reference girl in Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the girl wearing the short-sleeve floral pattern dress visible in Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.27
+  },
+  {
+    "id": 3,
+    "question": "Is the girl wearing rain boots that resemble the light-colored boots with pink rims from Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the dragon in the generated image match the red/maroon color and cream belly of the reference dragon in Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.4
+  },
+  {
+    "id": 5,
+    "question": "Does the dragon retain the large cartoon eyes and small wings seen in Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.37
+  },
+  {
+    "id": 6,
+    "question": "Does the background clearly resemble the magical forest from Image 3, including elements like glowing lights, mushrooms, or the treehouse?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.23
+  },
+  {
+    "id": 7,
+    "question": "Is the dragon positioned physically in the palm of the girl's hand(s)?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Is the dragon scaled appropriately to appear as a small, miniature creature fitting in the girl's hands?",
+    "category": "Composition & Layout",
+    "subcategory": "Relative Scale",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the dragon oriented such that it is looking directly at the girl's face?",
+    "category": "Interaction & Context",
+    "subcategory": "Gaze Direction",
+    "expected_answer": "Yes",
+    "score": 9.6
+  },
+  {
+    "id": 10,
+    "question": "Is the girl's gaze directed toward the dragon?",
+    "category": "Interaction & Context",
+    "subcategory": "Gaze Direction",
+    "expected_answer": "Yes",
+    "score": 9.6
+  },
+  {
+    "id": 11,
+    "question": "Is there clear mutual eye contact established between the girl and the dragon?",
+    "category": "Interaction & Context",
+    "subcategory": "Emotional Interaction",
+    "expected_answer": "Yes",
+    "score": 8.2
+  },
+  {
+    "id": 12,
+    "question": "Does the dragon appear to be physically grounded on the hand (e.g., via contact shadows or weight distribution) rather than floating?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Realism",
+    "expected_answer": "Yes",
+    "score": 9.37
+  },
+  {
+    "id": 13,
+    "question": "Is the lighting on the girl and the dragon consistent with the glowing, magical atmosphere of the background?",
+    "category": "General Image Quality",
+    "subcategory": "Lighting & Blending",
+    "expected_answer": "Yes",
+    "score": 9.4
+  },
+  {
+    "id": 14,
+    "question": "Are the girl's hands rendered anatomically correctly, without extra fingers or severe distortion?",
+    "category": "General Image Quality",
+    "subcategory": "Distortion & Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.63
+  },
+  {
+    "id": 15,
+    "question": "Are there any severe anatomical distortions on the dragon, such as missing limbs or malformed wings?",
+    "category": "General Image Quality",
+    "subcategory": "Distortion & Anatomy",
+    "expected_answer": "No",
+    "score": 9.1
+  },
+  {
+    "id": 16,
+    "question": "Are the edges of the subjects clean, without obvious cutout halos, jagged outlines, or background bleeding?",
+    "category": "General Image Quality",
+    "subcategory": "Artifacts & Blending",
+    "expected_answer": "Yes",
+    "score": 9.43
+  }
+]

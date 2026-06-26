@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image include a female firefighter wearing yellow turnout gear and a black helmet that matches the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Firefighter Appearance",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the firefighter retain facial features consistent with the identity in the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Firefighter Identity",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 3,
+    "question": "Does the image include a German Shepherd dog wearing an orange search and rescue vest matching the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Dog Appearance",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is there an orange and white rescue helicopter resembling the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Helicopter Appearance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the background composed of collapsed concrete and earthquake debris visually similar to the reference scene?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the firefighter making a clear pointing gesture with her hand instead of holding an axe?",
+    "category": "Action & Pose",
+    "subcategory": "Firefighter Pose",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the firefighter pointing toward a visible gap, void, or specific area in the debris ahead?",
+    "category": "Action & Pose",
+    "subcategory": "Contextual Action",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the dog depicted in a sniffing posture with its head lowered toward the rubble, rather than standing alert?",
+    "category": "Action & Pose",
+    "subcategory": "Dog Pose",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the firefighter and the dog oriented toward the same direction of interest?",
+    "category": "Action & Pose",
+    "subcategory": "Interaction Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Is the helicopter positioned in the distant sky overhead, appearing significantly smaller than the foreground subjects due to perspective?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the firefighter's feet and the dog's paws appear to make natural contact with the uneven rubble surface, avoiding floating or clipping?",
+    "category": "Interaction & Realism",
+    "subcategory": "Physical Grounding",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Is there visible dust, ash, or grime on the firefighter's gear or the dog's fur, consistent with an on-site rescue environment?",
+    "category": "Interaction & Realism",
+    "subcategory": "Environmental Effects",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 13,
+    "question": "Does the helicopter exhibit atmospheric perspective (haze or reduced contrast) consistent with its distant position?",
+    "category": "Interaction & Realism",
+    "subcategory": "Depth & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Is the firefighter's pointing hand anatomically correct, with the proper number of fingers and a natural shape?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Are the subjects free from severe anatomical distortions (e.g., extra limbs on the firefighter, malformed legs on the dog)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Is the lighting consistent across the firefighter, dog, debris, and helicopter?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Blending",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is the image free from obvious compositing artifacts, such as visible cut-out edges, halos, or floating textures?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated person retain the facial identity and distinct grimacing expression of the man in Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the person wearing the same dirty brownish-grey hoodie and grey sweatpants as seen in Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Details",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the person maintain the dramatic, wide-stance action pose shown in Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Pose",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the weapon match the specific design (mechanical hilt and blue electric blade) of the lightsaber in Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the background recognizable as the 'Neo-Tokyo Wasteland' from Image 3, featuring ruined buildings and neon signs?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Has the broom from Image 1 been completely removed, with no visible bristles or wooden handle remnants?",
+    "category": "Composition & Layout",
+    "subcategory": "Object Replacement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Are the person's hands positioned to grip the lightsaber hilt naturally, aligning with the original broom grip?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Is there visible blue light cast from the lightsaber onto the person's face and clothing (Object Source Lighting)?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does the image exhibit a cinematic atmosphere with color grading that creates a movie poster feel?",
+    "category": "Interaction & Context",
+    "subcategory": "Atmosphere & Style",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 10,
+    "question": "Does the person appear naturally integrated into the scene (appropriate scale, consistent shadows, and lighting) rather than looking like a sticker?",
+    "category": "Interaction & Context",
+    "subcategory": "Scene Integration",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the person's hands and fingers anatomically correct, without impossible distortions or missing digits resulting from the object swap?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are there any obvious cut-and-paste artifacts, jagged edges, or unnatural blurring around the subject's outline?",
+    "category": "General",
+    "subcategory": "Artifacts & Blending",
+    "expected_answer": "No",
+    "score": 9.0
+  }
+]

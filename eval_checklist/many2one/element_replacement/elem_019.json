@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the yellow rubber duck visible in the generated image?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the rainbow swim ring visible in the generated image?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the rubber duck positioned in the left lane area of the pool?",
+    "category": "Element Accuracy",
+    "subcategory": "Spatial Positioning",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the swim ring positioned on the right side of the pool, near the lounge chairs?",
+    "category": "Element Accuracy",
+    "subcategory": "Spatial Positioning",
+    "expected_answer": "Yes",
+    "score": 7.17
+  },
+  {
+    "id": 5,
+    "question": "Does the rubber duck retain the visual identity of the reference image (yellow body, orange beak, black eyes)?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the swim ring retain the visual identity of the reference image (rainbow gradient, toroidal shape)?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the relative sizes of the objects realistic (duck significantly smaller than the swim ring and appropriate for the pool scale)?",
+    "category": "Blending Quality",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Do both objects display a realistic waterline indicating partial submersion, rather than hovering above the surface?",
+    "category": "Blending Quality",
+    "subcategory": "Physics & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Are visible water ripples or surface deformations present around the base of the objects where they meet the water?",
+    "category": "Blending Quality",
+    "subcategory": "Physics & Interaction",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 10,
+    "question": "Are reflections of the duck and swim ring visible on the water surface?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do the object reflections blend naturally with the existing ceiling light reflections on the water surface?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 12,
+    "question": "Does the lighting on the inserted objects match the soft, diffuse ambient lighting of the indoor pool scene?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Are the background elements (floor-to-ceiling windows, outdoor vegetation, ceiling lights) preserved without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Are the pool structure and lane markings preserved and visible (except where obscured by the inserted objects)?",
+    "category": "Scene Preservation",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from obvious blending artifacts (e.g., jagged edges, white halos, or unnatural cutouts) around the inserted objects?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

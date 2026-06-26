@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original bronze sculpture completely replaced by the colorful glass sculpture from the donor image?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Replacement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the inserted sculpture retain the visual identity of the donor object, including its intertwined tubular loops and internal red/blue/yellow coloring?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the inserted sculpture appear to be made of transparent glass with internal refraction, rather than opaque material?",
+    "category": "Element Accuracy",
+    "subcategory": "Material Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the rough stone pedestal preserved in its original shape, texture, and color?",
+    "category": "Scene Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the gallery background elements (walls, floor, track lights, and wall text) unchanged aside from the new sculpture and caustics?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the glass sculpture scaled appropriately to fit entirely on the pedestal top without overhanging unnaturally?",
+    "category": "Geometric Consistency",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the perspective and orientation of the glass sculpture match the gallery view (viewed slightly from below and to the right)?",
+    "category": "Geometric Consistency",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 6.33
+  },
+  {
+    "id": 8,
+    "question": "Have the harsh studio lighting highlights on the glass sculpture been softened to match the diffused gallery spotlight environment?",
+    "category": "Lighting & Blending",
+    "subcategory": "Light Adaptation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is there a realistic contact shadow where the glass sculpture meets the top surface of the pedestal?",
+    "category": "Lighting & Blending",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are subtle caustic light patterns visible on the floor around the base of the pedestal?",
+    "category": "Element Accuracy",
+    "subcategory": "Effect Presence",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Is the direction of the caustic patterns consistent with the spotlight source coming from the upper right?",
+    "category": "Lighting & Blending",
+    "subcategory": "Lighting Logic",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Are the caustic patterns subtle and integrated into the floor texture, rather than appearing as an opaque or overly bright overlay?",
+    "category": "Lighting & Blending",
+    "subcategory": "Effect Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Are the edges of the glass sculpture clean and free from white fringing, halos, or 'cut-out' artifacts against the background?",
+    "category": "General Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the noise and grain level of the inserted glass sculpture match the film-like quality of the original gallery photo?",
+    "category": "General Quality",
+    "subcategory": "Noise Matching",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 15,
+    "question": "Is the overall color tone of the glass sculpture and caustics cohesive with the neutral tones of the gallery environment?",
+    "category": "Lighting & Blending",
+    "subcategory": "Color Harmony",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is the image free from ghosting artifacts, remnants of the original bronze sculpture, or black background contamination from the donor image?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 17,
+    "question": "Is the glass sculpture free from structural distortions or unnatural deformations of its tubular forms?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 18,
+    "question": "If floor reflections are visible, are they subtle and consistent with the polished concrete surface texture?",
+    "category": "Lighting & Blending",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

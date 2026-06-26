@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image feature a gold/brass pocket watch with an open lid, matching the material and form of Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity - Watch",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Are specific details from the reference watch face visible, such as Roman numerals and the moon phase sub-dial?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation - Watch Face",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the watch casing retain the ornate decorative engravings visible in Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Preservation - Watch Casing",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 4,
+    "question": "Does the whale in the generated image visually match the reference in Image 2 (blue-grey color, ventral pleats, and tubercles on head/fins)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity - Whale",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the background clearly depict a desert landscape with sand dunes and a warm sunset/dusk sky, consistent with Image 3?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the pocket watch depicted at a colossal scale, appearing comparable in size to a mountain relative to the desert landscape?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is the pocket watch physically grounded or embedded in the sand dunes (rather than floating arbitrarily in the sky)?",
+    "category": "Composition & Layout",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the whale positioned in an arc trajectory leaping over the pocket watch?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Is the whale depicted as emerging specifically from the sand dunes (as opposed to water)?",
+    "category": "Interaction & Context",
+    "subcategory": "Surreal Interaction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are there visual effects indicating interaction between the whale and the terrain, such as sand splashing, particles, or displacement?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the 'dreamy Tyndall light effect' (visible volumetric light rays or sunbeams) present in the image?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Effects",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Does the lighting on the whale and watch match the warm, directional light of the sunset background?",
+    "category": "General",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are there any severe geometric distortions in the pocket watch (e.g., non-circular shape, warped hands, impossible perspective)?",
+    "category": "General",
+    "subcategory": "Distortion & Structure",
+    "expected_answer": "No",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are there any severe anatomical errors in the whale (e.g., extra fins, missing tail flukes, malformed body)?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "No",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from jarring artifacts, unnatural blurring, or harsh seams where the subjects meet the background?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

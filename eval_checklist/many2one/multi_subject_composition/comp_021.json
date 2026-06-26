@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the boy match the reference image, wearing a beige hoodie, blue jeans, and white sneakers?",
+    "category": "Subject Fidelity",
+    "subcategory": "Boy Identity & Clothing",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the plush rabbit match the reference with grey fur, long ears, and a blue knitted scarf?",
+    "category": "Subject Fidelity",
+    "subcategory": "Rabbit Identity & Accessories",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the manta ray resemble the reference species in terms of shape and markings?",
+    "category": "Subject Fidelity",
+    "subcategory": "Manta Ray Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Is the background depicted as a glass aquarium tunnel with the visitors successfully removed, leaving the walkway empty?",
+    "category": "Composition & Layout",
+    "subcategory": "Background Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the boy positioned in the center-front of the frame with his feet planted on the walkway floor?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the manta ray positioned outside the glass tunnel, swimming above or behind the boy?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the manta ray's size depicted as imposing yet realistic relative to the tunnel environment?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the boy holding the plush rabbit against his chest with both hands wrapping naturally around it?",
+    "category": "Interaction & Context",
+    "subcategory": "Subject Interaction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Does the manta ray exhibit underwater visual cues (particles, slight motion blur) distinguishing it from the dry interior environment?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Logic",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is there a clear visual distinction showing the manta ray is behind the glass (outside) while the boy is inside?",
+    "category": "Interaction & Context",
+    "subcategory": "Depth & Layering",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the blue ambient light from the aquarium affect the boy and toy without making the boy's skin tone appear unnaturally grey or green?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Color",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are there visible glass reflection highlights or streaks overlaying the upper portion of the frame?",
+    "category": "Interaction & Context",
+    "subcategory": "Material Properties",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do the glass reflection highlights naturally interact with the scene, such as subtly brushing against the boy's hair edges?",
+    "category": "Interaction & Context",
+    "subcategory": "Detail Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are the boy's hands and fingers anatomically correct, without merging into the plush toy?",
+    "category": "General Image Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from severe artifacts, floating limbs, or inconsistent noise and sharpness levels across the composite?",
+    "category": "General Image Quality",
+    "subcategory": "Technical Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

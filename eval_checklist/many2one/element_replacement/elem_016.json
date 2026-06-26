@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the airplane from the donor image clearly visible in the generated city scene?",
+    "category": "Subject Preservation",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the airplane retain its key visual identity features (white fuselage with a blue stripe, four engines, and distinct tail shape)?",
+    "category": "Subject Preservation",
+    "subcategory": "Visual Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the structural integrity of the airplane maintained (wings, engines, and tail are anatomically correct and not distorted)?",
+    "category": "Subject Preservation",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the airplane positioned low in the composition, appearing to fly between or near the skyscrapers as requested?",
+    "category": "Spatial Consistency",
+    "subcategory": "Positioning",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the scale of the airplane realistic relative to the surrounding buildings (not appearing like a giant toy or a tiny speck)?",
+    "category": "Spatial Consistency",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Does the airplane's perspective and orientation align naturally with the viewing angle of the city skyline?",
+    "category": "Spatial Consistency",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are depth and occlusion relationships handled correctly (e.g., the airplane is properly layered relative to buildings it is behind or in front of)?",
+    "category": "Spatial Consistency",
+    "subcategory": "Occlusion & Depth",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Has the airplane's color temperature been adjusted to match the warm, orange/pink sunset hues of the background environment?",
+    "category": "Blending & Harmonization",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are the shadows and highlights on the airplane consistent with the direction and quality of light in the city scene (e.g., backlit/sunset lighting)?",
+    "category": "Blending & Harmonization",
+    "subcategory": "Lighting Direction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Does the airplane exhibit appropriate atmospheric blending (e.g., slight haze or contrast reduction) to match the depth of the scene?",
+    "category": "Blending & Harmonization",
+    "subcategory": "Atmospherics",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is there a visible reflection of the airplane on the river surface below?",
+    "category": "Environmental Interaction",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 6.33
+  },
+  {
+    "id": 12,
+    "question": "Is the airplane's reflection appropriately blurred and distorted to match the style of existing water reflections in the scene?",
+    "category": "Environmental Interaction",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 6.0
+  },
+  {
+    "id": 13,
+    "question": "Are the edges of the airplane clean and well-blended, with no visible blue halos or remnants from the original sky background?",
+    "category": "Image Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the original city skyline, including the distinctive cable-stayed bridge on the right, preserved without distortion or unwanted changes?",
+    "category": "Background Preservation",
+    "subcategory": "Scene Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from significant artifacts such as chromatic aberration, pixelation, or unnatural blurring around the inserted object?",
+    "category": "Image Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

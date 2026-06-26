@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is a giant octopus clearly visible clinging to the exterior of the office building?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the octopus retain the reddish-brown coloration and textured skin details of the reference image?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the octopus anatomically correct (e.g., distinct bulbous head, tentacles with suckers) without malformed or disconnected limbs?",
+    "category": "Element Accuracy",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the octopus scaled to appear 'giant', spanning multiple stories of the skyscraper?",
+    "category": "Instruction Compliance",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Do the tentacles appear to physically wrap around the 3D structure of the building (e.g., curving around corners) rather than sitting flat on the surface?",
+    "category": "Instruction Compliance",
+    "subcategory": "Spatial Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are multiple tentacles visibly reaching through the windows, penetrating the glass plane into the interior?",
+    "category": "Instruction Compliance",
+    "subcategory": "Action Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are there visible shattered glass effects (cracks, holes, or falling shards) where the tentacles interact with the windows?",
+    "category": "Instruction Compliance",
+    "subcategory": "Physical Effects",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the lighting on the octopus consistent with the strong directional sunlight and sun flare present in the base image?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Does the octopus cast realistic shadows onto the building's facade?",
+    "category": "Blending Quality",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are there reflections of the octopus visible on the reflective glass panels of the building?",
+    "category": "Blending Quality",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the tentacles correctly occluded by the building's edges where they wrap behind the structure?",
+    "category": "Blending Quality",
+    "subcategory": "Occlusion Handling",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 12,
+    "question": "Do the suction cups on the tentacles appear oriented toward the building surface, implying a realistic grip?",
+    "category": "Blending Quality",
+    "subcategory": "Contact Realism",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 13,
+    "question": "Are the unedited parts of the building (structural grid, stone base) and the background (sky, surrounding buildings) preserved without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Context Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from blending artifacts such as harsh cut-out seams, halos, or residual background checkerboard patterns?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.83
+  }
+]

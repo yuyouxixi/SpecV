@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image feature a Bald Eagle with a white head, yellow beak, and dark plumage consistent with Reference Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Eagle Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the eagle's feathers rendered with extreme sharpness and distinct texture as specified in the edit instruction?",
+    "category": "Subject Fidelity",
+    "subcategory": "Texture Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the fish recognizable as the salmon from Reference Image 2, displaying silver scales and dark spots?",
+    "category": "Subject Fidelity",
+    "subcategory": "Salmon Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the background depict a rapid river environment with mossy rocks and forest, consistent with Reference Image 3?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the eagle positioned above the river surface?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the relative sizes of the eagle and salmon proportionally realistic?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Are the eagle's talons visibly touching or gripping the salmon?",
+    "category": "Interaction & Context",
+    "subcategory": "Action Reconstruction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Is the salmon positioned at or near the water surface (not floating high in the air or fully submerged)?",
+    "category": "Interaction & Context",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is there visible water splashing or spray around the interaction point to convey a freeze-frame sensation?",
+    "category": "Interaction & Context",
+    "subcategory": "Physics & Motion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Do the lighting and shadows on the eagle and salmon appear consistent with the river environment?",
+    "category": "General",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the subjects blended seamlessly into the background without unnatural halos or cutout edges?",
+    "category": "General",
+    "subcategory": "Blending Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the image maintain a realistic wildlife photography style, avoiding illustration or cartoon-like aesthetics?",
+    "category": "General",
+    "subcategory": "Style Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are there any significant anatomical errors on the eagle (e.g., malformed wings, missing talons, distorted beak)?",
+    "category": "General",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "No",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Are there any significant anatomical errors on the salmon (e.g., distorted body shape, extra fins)?",
+    "category": "General",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "No",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Are there any visible AI artifacts such as ghosting, pixelation, or unnatural blurring?",
+    "category": "General",
+    "subcategory": "Artifacts",
+    "expected_answer": "No",
+    "score": 8.17
+  }
+]

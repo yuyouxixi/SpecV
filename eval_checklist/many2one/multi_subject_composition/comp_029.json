@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image depict a woman matching the reference artist (hair in a messy bun, white t-shirt, beige/tan apron)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Does the pottery wheel match the design in the reference image (white basin rim, blue base)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the cat identifiable as the black and white tuxedo cat from the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Animal Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the background match the provided pottery studio reference (wooden shelves, window on left, cement floor)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the pottery wheel positioned in the center-front of the frame?",
+    "category": "Composition & Layout",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the artist positioned behind the pottery wheel, leaning forward in a working posture?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the cat positioned on a wooden shelf in the right rear area of the image?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Relationship",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Do the artist's hands appear to be physically touching and shaping the clay on both sides?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the lighting consistent with warm window light coming from the left (highlights on left, shadows on right)?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Is there a realistic contact shadow where the base of the pottery wheel meets the cement floor?",
+    "category": "Interaction & Context",
+    "subcategory": "Grounding",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the turntable of the pottery wheel exhibit slight rotational motion blur?",
+    "category": "Interaction & Context",
+    "subcategory": "Motion Effects",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the main clay body remain clear with visible texture, distinct from the turntable's motion blur?",
+    "category": "Interaction & Context",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is there a moderate amount of fine clay splatter on the apron or turntable (not excessive)?",
+    "category": "Interaction & Context",
+    "subcategory": "Details & Texture",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 14,
+    "question": "Is the cat in the background rendered slightly softer/out of focus compared to the foreground elements?",
+    "category": "Interaction & Context",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the artist's hands anatomically correct (correct finger count, no severe distortion)?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 16,
+    "question": "Is the image free from severe anatomical distortions on the artist or cat (e.g., extra limbs, warped proportions)?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is the image free from visible compositing artifacts such as jagged edges or halos around the subjects?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 18,
+    "question": "Are color temperature, grain, and noise levels unified across the composited subjects and background?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

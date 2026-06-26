@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the emerald and diamond necklace from the donor image clearly visible on the woman?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the large central rectangular emerald clearly visible and preserved, maintaining its green color and cut?",
+    "category": "Element Accuracy",
+    "subcategory": "Object Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Are the surrounding diamond details, including the cascading pear-shaped and round fringe elements, preserved from the original design?",
+    "category": "Element Accuracy",
+    "subcategory": "Object Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the necklace completely free of the black background from the donor image, including clean extraction between the gemstones?",
+    "category": "Blending Quality",
+    "subcategory": "Matting & Extraction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the necklace drape naturally over the 3D contours of the woman's collarbones and neck, rather than appearing as a flat 2D overlay?",
+    "category": "Blending Quality",
+    "subcategory": "Geometric Consistency",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Do the dangling diamond elements hang vertically downwards consistent with gravity, rather than sticking out rigidly?",
+    "category": "Blending Quality",
+    "subcategory": "Physical Plausibility",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are there realistic fine shadows cast by the necklace onto the woman's neck and collarbones?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Do the diamonds sparkle and reflect light consistent with the soft, natural lighting direction of the scene?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Is the necklace centered on the chest and scaled appropriately relative to the woman's anatomy?",
+    "category": "Blending Quality",
+    "subcategory": "Placement & Scale",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Are the woman's face, hair, and skin texture (outside the necklace area) preserved without unintended distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Subject Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the beige linen strapless top at the bottom of the image preserved correctly?",
+    "category": "Scene Preservation",
+    "subcategory": "Clothing Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the background preserved without new artifacts, smears, or lighting changes?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Does the final image appear as a cohesive, realistic photograph without obvious 'cut-and-paste' seams or resolution mismatches?",
+    "category": "General Quality",
+    "subcategory": "Photorealism",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

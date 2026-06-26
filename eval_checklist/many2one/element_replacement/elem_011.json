@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the man from the donor image clearly visible within the mirror reflection?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the man strictly confined to the mirror reflection, appearing nowhere in the physical bathroom space?",
+    "category": "Element Accuracy",
+    "subcategory": "Spatial Constraint",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the man retain his core identifying features (facial structure, denim jacket, white t-shirt) from the donor image?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the man's reflection horizontally flipped relative to the donor image?",
+    "category": "Element Accuracy",
+    "subcategory": "Mirror Physics",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the man appear to be standing behind the woman and looking towards her?",
+    "category": "Element Accuracy",
+    "subcategory": "Positioning",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the man's reflection scaled appropriately relative to the woman's reflection?",
+    "category": "Blending Quality",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Does the man's reflection exhibit a foggy, hazy appearance consistent with the steamy bathroom environment?",
+    "category": "Blending Quality",
+    "subcategory": "Environmental Effects",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Does the man's reflection appear to be behind the mirror's surface condensation and water droplets?",
+    "category": "Blending Quality",
+    "subcategory": "Surface Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the lighting on the man's reflection consistent with the cool, diffused natural light of the bathroom scene?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the color temperature of the man's reflection adjusted to match the cool, grayish tones of the bathroom?",
+    "category": "Blending Quality",
+    "subcategory": "Color Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the green background from the donor image completely removed?",
+    "category": "Blending Quality",
+    "subcategory": "Background Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Are the edges of the man's reflection smoothly blended without visible harsh cut-out lines or halos?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Is the woman in the bathrobe preserved correctly in both her physical form and her original reflection details?",
+    "category": "Scene Preservation",
+    "subcategory": "Subject Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Are the physical surroundings (sink, walls, window, accessories) preserved without unintended distortions?",
+    "category": "Scene Preservation",
+    "subcategory": "Environment Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the man's face and anatomy free from distortions or unnatural deformations?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Is the image free from visual artifacts such as ghosting, noise, or glitchy textures in the edited region?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

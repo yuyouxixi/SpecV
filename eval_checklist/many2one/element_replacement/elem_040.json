@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original book cover replaced with the fantasy forest illustration (featuring mushrooms and flora) from the second input image?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the title '森之秘语' and subtitle '奇幻植物与生灵图鉴' clearly visible and correctly positioned on the new cover?",
+    "category": "Element Accuracy",
+    "subcategory": "Text Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the title text exhibit a gold foil stamping texture similar to the third input image, rather than a flat color fill?",
+    "category": "Element Accuracy",
+    "subcategory": "Material Transfer",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Do the metallic highlights on the gold title text align with the light source coming from the upper left (e.g., brighter on top/left edges)?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the new cover design accurately follow the physical curvature, perspective, and bending of the book as seen in the original image?",
+    "category": "Blending Quality",
+    "subcategory": "Geometric Integrity",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Are the fingers holding the book properly visible on top of the new cover design (correct occlusion), without the design appearing over the skin?",
+    "category": "Blending Quality",
+    "subcategory": "Occlusion Handling",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is the boundary between the fingers and the book cover clean and realistic, showing contact shadows/pressure rather than jagged cutouts?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the original diagonal light reflection/highlight band preserved and visible on top of the new cover design?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the new cover surface show subtle printing grain or paper texture, avoiding a perfectly smooth or digital appearance?",
+    "category": "Blending Quality",
+    "subcategory": "Texture Realism",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is there visible slight wear or weathering on the edges of the book cover, consistent with the edit instruction?",
+    "category": "Element Accuracy",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the sharpness and depth of field of the new cover match the focal plane of the original photograph (not overly sharp or blurry)?",
+    "category": "Blending Quality",
+    "subcategory": "Photographic Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the background (park bench, grass, trees) completely unaltered?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 13,
+    "question": "Are the hands and fingers preserved with their original skin tone and anatomy (no extra digits or distortions)?",
+    "category": "Scene Preservation",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from visual artifacts such as ghosting, color bleeding, or obvious composition seams?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

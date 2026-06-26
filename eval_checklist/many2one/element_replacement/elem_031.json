@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the African elephant clearly visible and positioned walking down the center of the desert highway?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence & Position",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the vintage brown suitcase present and recognizable, retaining key details like the travel stickers (e.g., Paris, Tokyo)?",
+    "category": "Element Accuracy",
+    "subcategory": "Object Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the elephant's trunk physically curled around the suitcase (handle or body), demonstrating a plausible gripping mechanic?",
+    "category": "Element Accuracy",
+    "subcategory": "Interaction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the elephant scaled realistically relative to the road, occupying approximately the width of one lane?",
+    "category": "Blending Quality",
+    "subcategory": "Scale & Physics",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 5,
+    "question": "Is the lighting on the elephant and suitcase consistent with the base image's harsh overhead midday sun (highlights on top, shadows below)?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the elephant cast a distinct, short shadow directly beneath it on the road, consistent with the overhead sun position?",
+    "category": "Blending Quality",
+    "subcategory": "Shadow Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the edges of the elephant and suitcase seamlessly blended into the scene without harsh cutouts, halos, or pixelation artifacts?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are the original Monument Valley rock formations and desert landscape preserved in the background?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are the road markings (center and edge lines) preserved and continuous, except where naturally occluded by the elephant?",
+    "category": "Scene Preservation",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from anatomical distortions (e.g., extra legs, malformed trunk) and significant digital artifacts?",
+    "category": "General Quality",
+    "subcategory": "Anatomy & Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the image exhibit a cinematic movie poster aesthetic (e.g., dramatic color grading, strong contrast, and central composition)?",
+    "category": "General Quality",
+    "subcategory": "Style & Aesthetics",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the composite successfully convey the surreal narrative of 'an elephant traveling on the road'?",
+    "category": "General Quality",
+    "subcategory": "Narrative Compliance",
+    "expected_answer": "Yes",
+    "score": 7.67
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the metallic UFO from the donor image clearly visible in the scene?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the UFO retain its key visual features, including the metallic texture, central dome, antennas, and colored lights (red, blue, green)?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the UFO positioned in mid-air to the left of the Saguaro cactus?",
+    "category": "Element Accuracy",
+    "subcategory": "Spatial Positioning",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is there a distinct shadow cast by the hovering UFO onto the sandy ground?",
+    "category": "Blending Quality",
+    "subcategory": "Shadow Generation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the direction of the UFO's shadow exactly match the direction of the cactus's shadow (extending towards the bottom-left)?",
+    "category": "Blending Quality",
+    "subcategory": "Shadow Geometry",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the length and perspective distortion of the UFO's shadow consistent with the light source angle indicated by the cactus's shadow?",
+    "category": "Blending Quality",
+    "subcategory": "Shadow Geometry",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the edge sharpness and opacity of the UFO's shadow match the characteristics of the cactus's shadow?",
+    "category": "Blending Quality",
+    "subcategory": "Shadow Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Does the UFO's shadow follow the sandy terrain contours naturally rather than appearing as a flat overlay?",
+    "category": "Blending Quality",
+    "subcategory": "Shadow Terrain Interaction",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Does the lighting on the UFO match the scene's harsh, backlit sunlight (e.g., rim lighting, correct highlight placement)?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Does the UFO exhibit color tones and atmospheric haze consistent with the desert environment?",
+    "category": "Blending Quality",
+    "subcategory": "Color Grading",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 11,
+    "question": "Is the scale of the UFO appropriate and believable relative to the cactus?",
+    "category": "Blending Quality",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the UFO's perspective consistent with the camera viewpoint of the desert scene?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the composite free from visible 'cut-out' artifacts, halos, or jagged edges around the UFO?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Is the original Saguaro cactus preserved on the right side without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Key Element Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the desert background (sky, mountains, sand) preserved without distortion or warping?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Is the image free from unintended elements from the donor image (e.g., tools, workbench)?",
+    "category": "Scene Preservation",
+    "subcategory": "No Donor Leakage",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 17,
+    "question": "Is the UFO free from structural distortions or malformations?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

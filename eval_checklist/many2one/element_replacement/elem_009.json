@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the visible portion of the skier's face recognizable as the man from the provided selfie, matching his skin tone and facial structure?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are the original ski goggles retained on the skier's face without alteration to their shape or frame?",
+    "category": "Element Accuracy",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Are the original environmental reflections on the goggle lenses preserved and visible?",
+    "category": "Element Accuracy",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is motion blur applied to the inserted face?",
+    "category": "Blending Quality",
+    "subcategory": "Motion Blur Application",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the direction and intensity of the motion blur on the face match the dynamic movement of the skier's body?",
+    "category": "Blending Quality",
+    "subcategory": "Motion Blur Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the inserted face correctly oriented to match the skier's inverted (upside-down) head position?",
+    "category": "Blending Quality",
+    "subcategory": "Pose & Orientation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is the face properly composited behind the goggles, ensuring the lens texture overlays the eye region?",
+    "category": "Blending Quality",
+    "subcategory": "Occlusion & Layering",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the skin tone and lighting of the face adjusted to match the cold, overcast snowy environment?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Color Matching",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the edges of the face blended smoothly with the helmet and clothing, without harsh cutouts or seams?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the image free from unwanted elements from the source selfie, such as the phone, hand, or indoor background?",
+    "category": "Element Accuracy",
+    "subcategory": "Donor Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the skier's outfit, equipment (skis/poles), and the background scenery preserved without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Global Integrity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the edited region free from visual artifacts like halos, ghosting, or pixelation?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

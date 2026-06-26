@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is a yellow school bus clearly visible in the composite image?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the inserted bus retain key visual characteristics of the reference object, specifically the yellow body and 'SCHOOL BUS' text?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 7.33
+  },
+  {
+    "id": 3,
+    "question": "Is the bus positioned in the lane immediately adjacent to the bus stop shelter (located in the bottom-left quadrant of the intersection)?",
+    "category": "Spatial Consistency",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the bus positioned closer to the curb/sidewalk side of the lane, visually suggesting the action of 'pulling over'?",
+    "category": "Spatial Consistency",
+    "subcategory": "Action Depiction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the bus oriented parallel to the lane markings and facing towards the intersection, consistent with the traffic flow indicated by the stop line?",
+    "category": "Spatial Consistency",
+    "subcategory": "Orientation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Has the bus been correctly transformed from the reference side-view to a top-down/aerial perspective (roof visible) to match the background scene?",
+    "category": "Spatial Consistency",
+    "subcategory": "Perspective Transformation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is the scale of the bus realistic relative to the environment (i.e., fitting within the lane width and appearing larger than the silver sedans)?",
+    "category": "Spatial Consistency",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Does the bus cast a visible shadow on the road surface?",
+    "category": "Blending & Realism",
+    "subcategory": "Shadow Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Is the direction of the bus's shadow consistent with the scene's existing shadows (casting towards the upper-right, matching the trees and gas station)?",
+    "category": "Blending & Realism",
+    "subcategory": "Shadow Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Does the lighting brightness and color temperature of the bus match the warm, bright midday conditions of the background?",
+    "category": "Blending & Realism",
+    "subcategory": "Lighting Match",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Does the bus appear firmly grounded on the road with appropriate contact shadows near the wheels, rather than floating?",
+    "category": "Blending & Realism",
+    "subcategory": "Grounding",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Are the edges of the bus blended naturally into the asphalt without visible white halos, jagged pixelation, or cut-out artifacts?",
+    "category": "Blending & Realism",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Is the bus free from unnatural geometric distortions (e.g., warped body shape, melted windows)?",
+    "category": "Blending & Realism",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the bus stop shelter in the bottom-left corner preserved and visible (not overwritten or distorted by the bus insertion)?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Are the surrounding road markings and other vehicles in the scene preserved without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

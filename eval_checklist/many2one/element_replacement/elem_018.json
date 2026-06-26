@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the mechanical owl graffiti from the donor image clearly visible on the wall?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the graffiti retain the key design elements of the reference owl, such as the gear-shaped eyes, circuit-board wing patterns, and blue/orange color scheme?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the graffiti positioned specifically within the central, recessed rectangular section of the wall (the bricked-up window area)?",
+    "category": "Element Accuracy",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the graffiti appear to be painted directly onto the bricks, allowing the rough texture and bumps of the masonry to remain visible through the paint?",
+    "category": "Blending Quality",
+    "subcategory": "Texture Integration",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the graffiti show realistic interruptions, shadowing, or conformity to the depth of the mortar joints between the bricks?",
+    "category": "Blending Quality",
+    "subcategory": "Surface Conformity",
+    "expected_answer": "Yes",
+    "score": 9.27
+  },
+  {
+    "id": 6,
+    "question": "Are the edges of the graffiti slightly soft, diffused, or splattered, mimicking a spray-paint application rather than a sharp digital cutout?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Realism",
+    "expected_answer": "Yes",
+    "score": 9.4
+  },
+  {
+    "id": 7,
+    "question": "Are the colors of the graffiti slightly muted or influenced by the underlying red brick tone, avoiding an unnaturally bright or glossy 'sticker' appearance?",
+    "category": "Blending Quality",
+    "subcategory": "Color Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the image free from artificial drop shadows behind the owl that would imply it is a separate object floating in front of the wall?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the vines framing the central brick section preserved intact, without being erased or overwritten by the graffiti?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.23
+  },
+  {
+    "id": 10,
+    "question": "If any vine tendrils cross into the graffiti area, does the paint appear behind the vines (proper occlusion) rather than on top of them?",
+    "category": "Scene Preservation",
+    "subcategory": "Occlusion Handling",
+    "expected_answer": "Yes",
+    "score": 8.93
+  },
+  {
+    "id": 11,
+    "question": "Is the brick pattern and structural geometry of the wall outside the graffiti area identical to the original image?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from rectangular borders, white canvas backgrounds, or halo artifacts around the graffiti?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.43
+  }
+]

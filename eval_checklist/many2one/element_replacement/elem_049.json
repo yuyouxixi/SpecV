@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original white dial surface replaced with the gold/bronze radial guilloche pattern and blue Arabic numerals from Image 2?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Are the original silver watch hands from Image 1 preserved, remaining visible and intact?",
+    "category": "Scene Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Are the original 3D rectangular hour markers (indices) preserved with their realistic raised appearance?",
+    "category": "Scene Preservation",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the date window at the 3 o'clock position preserved and legible, without being covered by the new dial pattern?",
+    "category": "Scene Preservation",
+    "subcategory": "Functional Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Does the new dial pattern conform to the oblique perspective and slight convex curvature of the watch face in Image 1?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective & Geometry",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the edge of the new dial cleanly aligned with the inner bezel without gaps, jagged seams, or overlap?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the original bright white reflections and glares on the crystal from Image 1 preserved and visible *over* the new dial design?",
+    "category": "Blending Quality",
+    "subcategory": "Layering & Transparency",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Are the tree shadow details in the crystal reflection enhanced using the texture/pattern from Image 3?",
+    "category": "Element Accuracy",
+    "subcategory": "Reflection Enhancement",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Do the enhanced tree reflections appear natural and transparent, following the curvature of the crystal rather than looking like an opaque overlay?",
+    "category": "Blending Quality",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Does the new dial pattern appear physically located underneath the watch hands, indices, and glass crystal (correct depth ordering)?",
+    "category": "Blending Quality",
+    "subcategory": "Depth & Layering",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the preserved hands and indices cast appropriate contact shadows onto the new dial surface?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 12,
+    "question": "Is the sharpness, noise grain, and contrast of the new dial unified with the rest of the watch in Image 1?",
+    "category": "Blending Quality",
+    "subcategory": "Visual Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Are the watch case, fluted bezel, bracelet, wrist, and background preserved without alteration or distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Non-target Regions",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Is the final image free from visible artifacts such as hallucinated geometry, floating elements, or harsh 'cut-and-paste' boundaries?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

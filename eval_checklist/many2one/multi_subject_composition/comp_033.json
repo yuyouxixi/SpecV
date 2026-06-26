@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the image include the surfer from the reference (male, black wetsuit) holding the white surfboard?",
+    "category": "Subject Fidelity",
+    "subcategory": "Appearance Matching",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the drone recognizable as the grey Falcon 4S quadcopter provided in the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Appearance Matching",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the seagull match the visual characteristics of the reference bird (white body, grey wings)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Appearance Matching",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the background match the rocky beach scene provided in the reference images?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the surfer positioned near the waterline, walking towards the right side of the frame?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the drone hovering in the sky ahead of the surfer and slightly to the right?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the seagull positioned in the upper-right portion of the frame?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Are the drone and seagull clearly separated without overlapping or clipping through each other?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Logic",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Do the drone's propellers exhibit rotational motion blur while the body remains sharp?",
+    "category": "Interaction & Context",
+    "subcategory": "Motion Effects",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Do the seagull's wingtips show slight motion blur suggesting flight?",
+    "category": "Interaction & Context",
+    "subcategory": "Motion Effects",
+    "expected_answer": "Yes",
+    "score": 6.83
+  },
+  {
+    "id": 11,
+    "question": "Does the drone cast a visible shadow on the sand below it?",
+    "category": "Interaction & Context",
+    "subcategory": "Shadows & Lighting",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the drone's shadow positioned to the bottom-right, consistent with sunlight coming from the upper-left?",
+    "category": "Interaction & Context",
+    "subcategory": "Shadows & Lighting",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are there visible footprint impressions in the wet sand near the surfer's feet?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Interaction",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Has the drone's lighting been converted to match the bright seaside environment (natural highlights, sky-blue reflections)?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 15,
+    "question": "Is the drone free from residual black studio background reflections?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Are the edges of the surfboard clean and well-defined?",
+    "category": "General Image Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is the horizon line level?",
+    "category": "General Image Quality",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 18,
+    "question": "Does the image contain exactly one surfer, one drone, and one seagull (no duplicates)?",
+    "category": "General Image Quality",
+    "subcategory": "Count Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Is the image free from severe anatomical or structural distortions (e.g., extra limbs, malformed drone arms)?",
+    "category": "General Image Quality",
+    "subcategory": "Distortion & Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 20,
+    "question": "Is the color grading and film grain unified across all subjects and the background?",
+    "category": "General Image Quality",
+    "subcategory": "Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

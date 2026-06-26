@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image include the specific female mechanic from the first reference image, wearing blue coveralls and holding a wrench?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 2,
+    "question": "Is the black vintage motorcycle with chrome exhaust and spoked wheels from the second reference image present?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the specific red metal toolbox from the third reference image present and open with tools visible inside?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the background the specific industrial garage with brick walls and overhead strip lights from the fourth reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the motorcycle positioned in the center-right area of the frame?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the mechanic positioned to the left of the motorcycle?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the red toolbox placed in the lower-left foreground of the image?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are the relative scales of the mechanic, motorcycle, and toolbox realistic and proportionate to each other?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Is the mechanic leaning slightly forward as if inspecting the handlebars or instrument panel?",
+    "category": "Interaction & Context",
+    "subcategory": "Pose & Action",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the mechanic's right hand appear to be genuinely near or interacting with the handlebar area without floating?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Is the wrench held naturally in the mechanic's hand without appearing exaggerated or distorted?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the motorcycle tires and toolbox firmly grounded on the floor with appropriate contact shadows?",
+    "category": "Interaction & Context",
+    "subcategory": "Physics & Grounding",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Are there subtle reflections of the motorcycle visible on the garage floor?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Do the specular highlights on the motorcycle's metal parts reflect the garage's overhead strip lights rather than the original outdoor environment?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the lighting direction and cool white temperature consistent across the mechanic, motorcycle, and toolbox?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Does the overall image have a desaturated, cool-toned color grade?",
+    "category": "Style & Quality",
+    "subcategory": "Color Grading",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is a slight film grain effect applied consistently across the image?",
+    "category": "Style & Quality",
+    "subcategory": "Post-Processing",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 18,
+    "question": "Are visible aliasing artifacts, halos, or jagged edges present around the composited subjects?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Are there unnatural duplication or blurring artifacts visible among the tools in the toolbox?",
+    "category": "General",
+    "subcategory": "Detail Preservation",
+    "expected_answer": "No",
+    "score": 9.17
+  },
+  {
+    "id": 20,
+    "question": "Are there any obvious anatomical distortions (e.g., malformed hands) or structural errors (e.g., warped wheels) in the subjects?",
+    "category": "General",
+    "subcategory": "Anatomy & Structure",
+    "expected_answer": "No",
+    "score": 9.5
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image depict the specific older watchmaker from the reference, including his gray hair and brown vest?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 2,
+    "question": "Is the watchmaker wearing a magnifying loupe over his eye as shown in the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Detail",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the watchmaker holding a screwdriver in his hand?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Detail",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Does the grandfather clock match the reference image (dark wood case, Roman numeral dial, brass pendulum)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the grey parrot accurately reflect the reference (grey plumage, red tail, black beak)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Animal Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the background consistent with the provided antique clock shop reference (shelves of clocks, warm interior)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Environment Matching",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is the watchmaker positioned sitting at a workbench in the center of the frame?",
+    "category": "Composition & Layout",
+    "subcategory": "Positioning",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Is the grandfather clock placed to the rear right of the watchmaker, near a display cabinet?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the grandfather clock scaled realistically relative to the watchmaker (significantly taller than the seated man, not toy-sized)?",
+    "category": "Composition & Layout",
+    "subcategory": "Relative Scale",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Is the grey parrot perched on the top crossbeam or top edge of the grandfather clock?",
+    "category": "Composition & Layout",
+    "subcategory": "Positioning",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the parrot's talons appear to realistically grip the wooden edge of the clock (no floating or clipping)?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 12,
+    "question": "Does the clock's glass door show reflective highlights consistent with the shop's interior lighting?",
+    "category": "Interaction & Context",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Is the brass pendulum bob inside the clock faintly visible through the glass door?",
+    "category": "Interaction & Context",
+    "subcategory": "Transparency & Occlusion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the reflection intensity on the glass door natural (neither completely opaque nor invisible)?",
+    "category": "Interaction & Context",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is the overall lighting unified with a warm yellow indoor tone?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 16,
+    "question": "Are the shadows in the scene soft and are overly bright highlights on brass surfaces toned down?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Does the image have a realistic photographic quality with subtle film grain, resembling a casual snapshot?",
+    "category": "General",
+    "subcategory": "Style & Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Are the edges of the subjects (especially the parrot's feathers) clean and naturally blended without halos or artifacts?",
+    "category": "General",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 19,
+    "question": "Are the watchmaker and parrot free from anatomical errors (e.g., extra fingers, extra talons, distorted limbs)?",
+    "category": "General",
+    "subcategory": "Anatomy & Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 20,
+    "question": "Is the clock free from hallucinated components (e.g., extra hands, duplicate dials, floating parts)?",
+    "category": "General",
+    "subcategory": "Anatomy & Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

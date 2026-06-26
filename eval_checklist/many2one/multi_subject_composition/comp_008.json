@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the background recognizable as the specific empty room from Image 1, retaining the large floor-to-ceiling window on the left and the concrete floor?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the generated bed match the reference (Image 2) in terms of the light oak/wooden frame and dark grey bedding?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the painting clearly recognizable as the abstract artwork from Image 3, retaining the vibrant colors (blue, orange, yellow, pink) and swirling patterns?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the bed positioned with its headboard placed against a wall in the room?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the painting hung on the wall directly above the bed's headboard?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the perspective of the bed align correctly with the room's floor, with vanishing points matching the room's geometry?",
+    "category": "Composition & Layout",
+    "subcategory": "Perspective & Geometry",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do the bed's legs appear to rest naturally on the floor plane without floating or sinking?",
+    "category": "Composition & Layout",
+    "subcategory": "Grounding",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Is the scale of the bed and painting proportionally appropriate relative to the room dimensions?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 9,
+    "question": "Does the painting cast a visible shadow on the wall, as explicitly requested in the instruction?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Are the shadows and highlights on the bed and painting consistent with the primary light source from the window on the left?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Is the image free from visible compositing artifacts, such as unnatural seams, blurring, or halos where the objects meet the background?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from severe geometric distortions in the bed frame or painting canvas?",
+    "category": "General",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

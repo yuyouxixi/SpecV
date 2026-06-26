@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated craftsman retain the facial identity, glasses, grey hair, and weathered skin texture of the reference subject?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the craftsman wearing the distinctive brown leather apron consistent with the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Attire",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the object on the table recognizable as the reference music box, retaining its general shape, wood type, and floral carving style?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Does the background clearly depict the reference workshop, featuring the wall-mounted tools and window light?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the craftsman depicted in a seated position at the workbench?",
+    "category": "Composition & Layout",
+    "subcategory": "Pose",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the music box placed on the workbench directly in front of the craftsman?",
+    "category": "Composition & Layout",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the lid of the music box detached and placed beside the main body of the box?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Is the scale of the music box realistic relative to the craftsman (i.e., a handheld/tabletop object)?",
+    "category": "Composition & Layout",
+    "subcategory": "Relative Scale",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the craftsman appear to be actively carving or working on the box using a handheld tool?",
+    "category": "Interaction & Context",
+    "subcategory": "Action",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Does the music box appear to be in an unfinished state (e.g., rougher texture, incomplete carving) rather than a pristine finished product?",
+    "category": "Interaction & Context",
+    "subcategory": "State Modification",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are there wood chips or shavings visible on the workbench to imply active woodworking?",
+    "category": "Interaction & Context",
+    "subcategory": "Details",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 12,
+    "question": "Does the craftsman's facial expression convey a sense of focused concentration?",
+    "category": "Interaction & Context",
+    "subcategory": "Expression",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 13,
+    "question": "Does the image convey a candid, documentary-style aesthetic?",
+    "category": "Interaction & Context",
+    "subcategory": "Style",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 14,
+    "question": "Does the lighting on the craftsman match the warm, directional window light of the workshop background?",
+    "category": "General",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are the craftsman's hands anatomically correct while holding the tool (no extra fingers or impossible angles)?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is the image free from severe artifacts, such as unnatural blurry halos around the subject or disjointed blending?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

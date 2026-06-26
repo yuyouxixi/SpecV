@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the red canoe clearly visible in the generated image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the canoe retain its key visual identity features from the source image (red hull, wooden trim, and wooden paddles)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Attribute Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the canoe positioned on the lake surface near the large rocks in the foreground on the right side?",
+    "category": "Spatial Consistency",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the canoe oriented horizontally and upright, appearing to float naturally rather than tilted as if resting on land?",
+    "category": "Spatial Consistency",
+    "subcategory": "Orientation",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 5,
+    "question": "Is the scale of the canoe realistic relative to the adjacent large rocks and the distance of the shoreline?",
+    "category": "Spatial Consistency",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Has the canoe's lighting been adjusted from the warm source sunlight to match the cool, blue-toned ambient light of the lake scene?",
+    "category": "Harmonization",
+    "subcategory": "Color Grading & Relighting",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the canoe free from residual green grass reflections or warm ground shadows from the source image?",
+    "category": "Harmonization",
+    "subcategory": "Background Removal",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the contact area between the canoe hull and the water exhibit a realistic floating effect (e.g., slight submersion, waterline, or meniscus) rather than hovering on top?",
+    "category": "Harmonization",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 9,
+    "question": "Is a clear reflection of the canoe visible on the water surface directly beneath the object?",
+    "category": "Harmonization",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the canoe's reflection blend seamlessly with the existing mountain and forest reflections (matching their blur, intensity, and color cast)?",
+    "category": "Harmonization",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are the background elements (snow-capped mountains, pine forest, and mist) preserved without distortion or blurring?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the large foreground rocks and pebbly shoreline preserved without unintended alteration or duplication?",
+    "category": "Scene Preservation",
+    "subcategory": "Foreground Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the canoe free from generation artifacts such as pixelated edges, haloing, or structural warping?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Does the overall image maintain a cohesive photorealistic look, where the canoe appears to have been originally photographed in the scene?",
+    "category": "General Quality",
+    "subcategory": "Overall Coherence",
+    "expected_answer": "Yes",
+    "score": 8.17
+  }
+]

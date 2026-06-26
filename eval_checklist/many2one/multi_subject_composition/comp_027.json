@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image include a sika deer with antlers and a spotted coat pattern consistent with the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Deer Appearance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the photographer wearing a green hooded jacket, black pants, and a hiking backpack consistent with the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Photographer Appearance",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the photographer's facial features (e.g., beard, face shape) consistent with the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Photographer Identity",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 4,
+    "question": "Does the tripod match the reference image in design (black carbon fiber legs, fluid head)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Tripod Appearance",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the background consistent with the reference forest clearing, featuring ferns and dappled sunlight?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Environment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the tripod positioned in the left foreground of the composition?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is the photographer positioned in the left mid-ground area?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the deer positioned in the right mid-ground area?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Are the subjects scaled realistically for their depth (Tripod largest, then Photographer, then Deer)?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the photographer depicted in a crouching or half-crouching pose?",
+    "category": "Interaction & Context",
+    "subcategory": "Pose Adherence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 11,
+    "question": "Is the photographer looking through the camera viewfinder with the lens aimed toward the deer?",
+    "category": "Interaction & Context",
+    "subcategory": "Action & Sightline",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 12,
+    "question": "Do the tripod feet show visible indentation shadows or signs of pressing into the grass?",
+    "category": "Interaction & Context",
+    "subcategory": "Ground Interaction",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Is the tripod partially occluded by foreground fern fronds to add spatial depth?",
+    "category": "Interaction & Context",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are dappled light patterns (sunlight spots) visible on the photographer's clothing?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 15,
+    "question": "Are dappled light patterns visible on the deer's body?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Are dappled light patterns visible on the tripod?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Are the mid-ground subjects (photographer and deer) rendered with sharp focus?",
+    "category": "Interaction & Context",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 18,
+    "question": "Is the background forest rendered with significant blur compared to the mid-ground?",
+    "category": "Interaction & Context",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 19,
+    "question": "Is the foreground foliage slightly blurred to create depth?",
+    "category": "Interaction & Context",
+    "subcategory": "Depth of Field",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 20,
+    "question": "Are there any obvious anatomical distortions on the photographer (e.g., extra limbs, malformed hands)?",
+    "category": "General",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "No",
+    "score": 9.67
+  },
+  {
+    "id": 21,
+    "question": "Are there any obvious anatomical distortions on the deer (e.g., extra legs, malformed antlers)?",
+    "category": "General",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "No",
+    "score": 9.67
+  },
+  {
+    "id": 22,
+    "question": "Are there any structural distortions on the tripod (e.g., warped legs, missing components)?",
+    "category": "General",
+    "subcategory": "Structure & Distortion",
+    "expected_answer": "No",
+    "score": 9.33
+  },
+  {
+    "id": 23,
+    "question": "Do the subjects appear naturally blended into the scene without obvious 'pasted-on' edges or halos?",
+    "category": "General",
+    "subcategory": "Blending Quality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 24,
+    "question": "Does the image exhibit a subtle natural noise/grain consistent with the requested realistic style?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

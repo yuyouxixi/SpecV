@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the beige 'Ordinary Oatmeal Box' in the center of the shelf replaced with the 'Breakfast Brands Blend' packaging?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the 'Breakfast Brands Blend' box rendered in a frontal view, correcting the angled perspective of the donor image?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective Correction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the replaced cereal box match the height and width of the surrounding boxes on the shelf?",
+    "category": "Blending Quality",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the price tag below the central box replaced with the new tag displaying '¥8.90' and '有机红富士苹果'?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the new price tag preserve the slight edge-curling deformation observed in the original tag?",
+    "category": "Blending Quality",
+    "subcategory": "Geometric Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Do the inserted box and price tag exhibit a greenish color cast consistent with the fluorescent lighting of the scene?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Color",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the specular reflections on the clear plastic price rail preserved (visible over the new box and tag)?",
+    "category": "Blending Quality",
+    "subcategory": "Reflections & Transparency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the bottom of the new cereal box correctly occluded by the transparent plastic price rail?",
+    "category": "Blending Quality",
+    "subcategory": "Occlusion & Layering",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are the text elements and logos on the 'Breakfast Brands Blend' box legible and recognizable?",
+    "category": "Element Accuracy",
+    "subcategory": "Text & Detail",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Are the boundaries of the inserted elements seamlessly blended without harsh seams or halos?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Does the noise grain and sharpness of the inserted elements match the surrounding image details?",
+    "category": "Blending Quality",
+    "subcategory": "Texture & Focus",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are the neighboring cereal boxes and shelf structure preserved without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

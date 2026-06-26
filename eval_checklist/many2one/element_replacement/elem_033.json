@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Is the artwork inside the frame recognizable as the abstract painting from Image 2, retaining its bold red, blue, and yellow brushstrokes?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the unwanted elements from Image 2 (the passerby's shoulder, the metal nameplate, and the strong spotlight glare) completely absent from the inserted artwork?",
+    "category": "Element Accuracy",
+    "subcategory": "Cleaning/Extraction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Is the original black frame and the specific width/proportion of the white mat board from Image 1 preserved without distortion or color change?",
+    "category": "Scene Preservation",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the new artwork perspective-warped to align perfectly with the angled plane and inner edges of the mat board in Image 1?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective & Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the inserted artwork confined strictly to the inner opening of the mat board, with no color bleeding onto the white mat or the black frame?",
+    "category": "Blending Quality",
+    "subcategory": "Masking Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Are the original vertical glass reflections and specular highlights from Image 1 clearly visible and physically consistent, appearing layered *over* the new artwork?",
+    "category": "Blending Quality",
+    "subcategory": "Reflections & Transparency",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Is the canvas/fabric texture from Image 3 visibly applied to the surface of the new artwork?",
+    "category": "Blending Quality",
+    "subcategory": "Texture Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Does the color temperature and contrast of the new artwork match the warm, soft lighting of the living room in Image 1?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the inserted artwork match the sharpness and photographic noise/grain levels of the rest of Image 1?",
+    "category": "Blending Quality",
+    "subcategory": "Image Quality Matching",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the boundary between the new artwork and the mat board clean, free from jagged edges, halos, or white fringing?",
+    "category": "General Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Are the surrounding elements (sofa, pillows, coffee table, curtains, and walls) identical to Image 1, showing no unintended changes?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  }
+]

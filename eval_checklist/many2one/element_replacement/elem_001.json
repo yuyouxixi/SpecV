@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Is the face of the graduate on the far right replaced with the face of the man from the donor image?",
+    "category": "Subject Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Are the eyes of the replaced face open, correcting the closed-eye issue seen in the original group photo?",
+    "category": "Subject Accuracy",
+    "subcategory": "Expression Correction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the replaced face exhibit strong, high-contrast sunlight highlights consistent with the intense outdoor lighting of the scene?",
+    "category": "Lighting & Color Consistency",
+    "subcategory": "Illumination Match",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Are there distinct, hard shadows on the replaced face (e.g., under the nose or chin) that align with the direction of shadows on the other graduates?",
+    "category": "Lighting & Color Consistency",
+    "subcategory": "Shadow Logic",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the skin tone of the replaced face adjusted to match the warm color temperature of the outdoor environment, avoiding the cool or neutral tones of the studio donor image?",
+    "category": "Lighting & Color Consistency",
+    "subcategory": "Color Grading",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the junction between the new face and the original neck seamless, without visible seams, abrupt color shifts, or a 'mask-like' appearance?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Integration",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Is the replaced head scaled and oriented correctly relative to the shoulders, ensuring it does not appear too large, small, or unnaturally tilted?",
+    "category": "Geometric Consistency",
+    "subcategory": "Scale & Pose",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the graduation cap on the far-right graduate preserved intact and positioned naturally on the new head, including correct occlusion/hairline transition?",
+    "category": "Structural Integrity",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the hand resting on the far-right graduate's shoulder (from the person to his left) preserved naturally without distortion or blurring?",
+    "category": "Structural Integrity",
+    "subcategory": "Occlusion Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the faces, bodies, and clothing of the other three graduates in the photo completely unchanged?",
+    "category": "Scene Preservation",
+    "subcategory": "Unedited Subjects",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 11,
+    "question": "Is the background (campus buildings, trees, and lawn) preserved without warping or artifacts?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the replaced face rendered with sharpness and noise grain consistent with the rest of the group photo, avoiding a blurry or overly smoothed look?",
+    "category": "General Image Quality",
+    "subcategory": "Resolution & Texture",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

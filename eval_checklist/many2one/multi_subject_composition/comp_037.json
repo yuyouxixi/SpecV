@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image feature the specific man from the first reference image, recognizable by his facial features?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 2,
+    "question": "Is the diver holding the specific large black underwater camera housing with a dome port shown in the first reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the diver wearing a black wetsuit and diving mask consistent with the gear shown in the first reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Attire & Gear",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Does the sea turtle match the shell pattern, coloration, and skin texture of the turtle in the second reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Animal Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the fish (butterflyfish/Moorish Idol) display the distinctive black, white, and yellow striped pattern and elongated dorsal fin from the fourth reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Animal Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 6,
+    "question": "Is the background a coral reef scene that resembles the texture, variety, and style of the third reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 7,
+    "question": "Is the diver oriented towards the sea turtle, appearing to actively photograph it with the camera?",
+    "category": "Composition & Layout",
+    "subcategory": "Action",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the diver depicted in a natural underwater swimming posture (full body) rather than standing or cropped?",
+    "category": "Composition & Layout",
+    "subcategory": "Pose",
+    "expected_answer": "Yes",
+    "score": 7.17
+  },
+  {
+    "id": 9,
+    "question": "Is the butterflyfish positioned near the diver's shoulder area as instructed?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the sea turtle positioned in front of the coral reef background?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Are the relative sizes of the diver, sea turtle, and fish proportional and realistic?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Does the entire image possess a cohesive blue-green underwater color tone?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Color",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Are underwater lighting effects present, such as light rays (caustics) penetrating from above?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Color",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Are there visible underwater environmental details, such as suspended particles or bubbles, enhancing realism?",
+    "category": "Interaction & Context",
+    "subcategory": "Atmosphere",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 15,
+    "question": "Does the image exhibit the aesthetic qualities of a National Geographic photography masterpiece (cinematic clarity, professional composition, depth of field)?",
+    "category": "Interaction & Context",
+    "subcategory": "Style",
+    "expected_answer": "Yes",
+    "score": 7.33
+  },
+  {
+    "id": 16,
+    "question": "Is the diver's anatomy rendered correctly, particularly the hands holding the camera (no extra fingers or impossible grips)?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 17,
+    "question": "Are the sea turtle and fish free from anatomical distortions (e.g., correct number of fins/flippers, natural body shapes)?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 18,
+    "question": "Is the image free from severe compositing artifacts, such as unnatural white halos, disjointed seams, or blurry subjects?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.83
+  }
+]

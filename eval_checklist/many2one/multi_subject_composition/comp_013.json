@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image include the guitarist from Image 1, recognizable by his long brown hair and white t-shirt?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the guitarist playing a sunburst-colored electric guitar with visible wear/relicing consistent with Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Details",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the generated image include the drummer from Image 2, recognizable by his short hair and black tank top?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the drummer depicted playing a drum kit with drumsticks in hand?",
+    "category": "Subject Fidelity",
+    "subcategory": "Action & Object",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the background clearly recognizable as the abandoned warehouse from Image 3, featuring rusted metal beams and a glass roof?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the guitarist positioned in the foreground and the drummer in the background, as instructed?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is the drummer scaled appropriately smaller than the guitarist to indicate depth and distance?",
+    "category": "Composition & Layout",
+    "subcategory": "Proportions & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Are there visible overhead spotlight effects (beams or top-down illumination) consistent with the instruction?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Atmosphere",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Do the subjects exhibit rim lighting or highlights consistent with the overhead spotlight sources?",
+    "category": "Interaction & Context",
+    "subcategory": "Light Source Plausibility",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Does the image exhibit a vintage film grain texture as requested?",
+    "category": "Interaction & Context",
+    "subcategory": "Stylization",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the scene convey the gritty atmosphere of an underground band rehearsal?",
+    "category": "Interaction & Context",
+    "subcategory": "Mood & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 12,
+    "question": "Are the musicians' hands (fingering the guitar, holding sticks) rendered naturally without extra fingers or severe distortion?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Are the instruments (guitar and drum kit) rendered without severe structural distortions or warping?",
+    "category": "General",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Do the subjects blend naturally into the environment (with contact shadows) without looking like floating cut-outs?",
+    "category": "General",
+    "subcategory": "Blending & Grounding",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from severe visual artifacts, glitches, or unnatural seams where subjects meet the background?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

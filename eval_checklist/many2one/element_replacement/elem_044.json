@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original swimmer from the first image completely removed and replaced by the new subject?",
+    "category": "Element Accuracy",
+    "subcategory": "Replacement Completeness",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the new swimmer wear a black swimsuit, black swim cap, and goggles, matching the visual identity of the second input image?",
+    "category": "Subject Preservation",
+    "subcategory": "Visual Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the swimmer positioned within the lane boundaries and oriented to appear as if swimming freestyle (e.g., body aligned with lane, arm recovering) rather than the original butterfly pose?",
+    "category": "Element Accuracy",
+    "subcategory": "Pose & Action",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the portion of the swimmer's body above the water surface sharp but consistent with the depth of field and focus of the original pool scene?",
+    "category": "Blending Quality",
+    "subcategory": "Focus & Depth of Field",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Does the submerged portion of the swimmer's body exhibit realistic refraction distortion (shifting shape/position) distinct from the above-water geometry?",
+    "category": "Blending Quality",
+    "subcategory": "Underwater Physics",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the underwater portion of the body show reduced contrast and a color shift consistent with the blue pool water?",
+    "category": "Blending Quality",
+    "subcategory": "Underwater Rendering",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the waterline contact where the swimmer's body meets the surface rendered naturally, with water overlapping the skin and no harsh 'cut-out' edges?",
+    "category": "Blending Quality",
+    "subcategory": "Seam Blending",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 8,
+    "question": "Are water splashes and droplets from the third input image added specifically at the arm entry point?",
+    "category": "Element Accuracy",
+    "subcategory": "Detail Addition",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Do the added splashes exhibit transparency and follow the directional motion of the swimmer's stroke, blending realistically with the pool water?",
+    "category": "Blending Quality",
+    "subcategory": "Splash Integration",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Are the overhead light reflection streaks on the water surface from the first image preserved in their original positions?",
+    "category": "Scene Preservation",
+    "subcategory": "Lighting Elements",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Do the specular highlights and light streaks on the water surface subtly interact with or illuminate the new swimmer's wet skin and cap?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Interaction",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are the lane ropes, pool tiles, and background architectural details preserved without distortion, blurring, or unintended alteration?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Is the scale and perspective of the inserted swimmer consistent with the lane width and camera angle of the pool scene?",
+    "category": "Blending Quality",
+    "subcategory": "Geometric Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Is the swimmer's anatomy rendered correctly without distorted limbs or unnatural proportions?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the overall composition photorealistic, avoiding a 'pasted-on' look or visible generative artifacts?",
+    "category": "General Quality",
+    "subcategory": "Overall Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the woman in the generated image retain the facial identity and key features (eyes, nose, face shape) of the reference portrait?",
+    "category": "Subject Fidelity",
+    "subcategory": "Face Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the woman maintain the black hair pulled back into a bun and wear the jade drop earrings shown in the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Hair & Accessories",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the woman wearing the specific red qipao with gold phoenix embroidery and cloud patterns from the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the qipao feature the correct mandarin collar, frog buttons, and trim details as seen in the reference garment?",
+    "category": "Subject Fidelity",
+    "subcategory": "Clothing Details",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the oil-paper umbrella pink with the specific cherry blossom/floral pattern matching the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Identity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the umbrella maintain a visible bamboo frame structure (ribs and handle) consistent with the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Structure",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 7,
+    "question": "Is the woman positioned standing on the stone arch bridge depicted in the background reference?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Is the traditional garden pavilion with curved eaves visible in the background behind the woman?",
+    "category": "Composition & Layout",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Are other specific garden elements from the reference, such as bamboo groves or lotus plants, visible in the scene?",
+    "category": "Composition & Layout",
+    "subcategory": "Scene Context",
+    "expected_answer": "Yes",
+    "score": 7.0
+  },
+  {
+    "id": 10,
+    "question": "Is the woman holding the umbrella with one hand resting on her shoulder as instructed?",
+    "category": "Action & Interaction",
+    "subcategory": "Pose Adherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the qipao appear naturally fitted to the woman's body with realistic wrinkles and draping, rather than looking flat like the hanging reference?",
+    "category": "Action & Interaction",
+    "subcategory": "Physical Realism",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the image feature a visible mist or haze effect that softens the environment and adds atmospheric depth?",
+    "category": "Style & Atmosphere",
+    "subcategory": "Atmospheric Effect",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is the overall color tone elegant and understated, avoiding overly saturated or vibrant colors?",
+    "category": "Style & Atmosphere",
+    "subcategory": "Color Grading",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 14,
+    "question": "Are the hands (specifically the one holding the umbrella) anatomically correct without extra fingers or distortion?",
+    "category": "General Image Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Do the woman's feet appear naturally grounded on the bridge surface, without floating or misalignment?",
+    "category": "General Image Quality",
+    "subcategory": "Grounding",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 16,
+    "question": "Is the lighting on the woman consistent with the diffuse, misty lighting of the garden background?",
+    "category": "General Image Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is the blending between the subject and the background natural, avoiding harsh cutouts or unnatural halos?",
+    "category": "General Image Quality",
+    "subcategory": "Compositing Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Are there any severe artifacts, glitches, or unnatural visual anomalies in the image?",
+    "category": "General Image Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "No",
+    "score": 8.83
+  }
+]

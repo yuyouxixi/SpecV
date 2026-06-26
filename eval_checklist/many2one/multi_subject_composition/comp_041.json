@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image contain a white/cream ceramic vase with a spherical body and geometric carved patterns matching the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Vase",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the specific dried plants from the reference (white cotton bolls, cream bunny tails, and sage-green eucalyptus) visible in the bouquet?",
+    "category": "Subject Fidelity",
+    "subcategory": "Flowers",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is a blue cloth-bound book with gold details depicted in an open state?",
+    "category": "Subject Fidelity",
+    "subcategory": "Props",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Are round wire-rimmed glasses visible in the scene?",
+    "category": "Subject Fidelity",
+    "subcategory": "Props",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the surface covered with a beige linen tablecloth that exhibits a natural wrinkled texture?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the vase positioned upright on top of the linen tablecloth?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Does the dried flower bouquet appear to be naturally inserted into the neck of the vase?",
+    "category": "Composition & Layout",
+    "subcategory": "Object Interaction",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Are the open book and glasses arranged beside the vase rather than floating or being obscured?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Do the lighting and shadows consistently indicate a natural light source coming from the left side?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Does the image exhibit the requested warm tones and low saturation 'Instagram-style' aesthetic?",
+    "category": "Interaction & Context",
+    "subcategory": "Style & Atmosphere",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Are the relative scales of the vase, book, and glasses proportionally realistic?",
+    "category": "Interaction & Context",
+    "subcategory": "Realism",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Are there any obvious artifacts, such as unnatural blending, floating objects, or severe geometric distortions?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "No",
+    "score": 9.17
+  }
+]

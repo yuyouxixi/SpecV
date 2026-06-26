@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the red sedan from Image 1 completely replaced by the black Range Rover SUV from Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Replacement Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the inserted SUV retain the recognizable identity features (grille, headlights, body shape) of the Range Rover from Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the SUV aligned with the road's curvature and perspective, pointing into the turn correctly?",
+    "category": "Geometric Consistency",
+    "subcategory": "Perspective & Alignment",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the scale of the SUV appear realistic relative to the lane width and guardrails?",
+    "category": "Geometric Consistency",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the SUV body exhibit moderate motion blur consistent with the tracking shot style of Image 1?",
+    "category": "Action & Effects",
+    "subcategory": "Motion Blur",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Do the SUV's tires show rotational blur, eliminating the static and crisp appearance of the donor image?",
+    "category": "Action & Effects",
+    "subcategory": "Motion Blur",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Is there visible dust added near the rear wheels of the SUV?",
+    "category": "Action & Effects",
+    "subcategory": "Particle Effects",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the added dust match the color of the road surface and the texture style of Image 3?",
+    "category": "Action & Effects",
+    "subcategory": "Visual Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Have the parking lot reflections (e.g., white ground lines, other cars) been removed from the SUV's windows and paint?",
+    "category": "Photorealism",
+    "subcategory": "Reflection Correction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Do the new reflections on the SUV match the mountain road environment (sky, mountains, guardrails)?",
+    "category": "Photorealism",
+    "subcategory": "Environment Integration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the lighting direction and color temperature on the SUV match the warm sunlight of Image 1?",
+    "category": "Photorealism",
+    "subcategory": "Lighting Match",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the SUV cast a realistic contact shadow on the road, preventing it from appearing to float?",
+    "category": "Geometric Consistency",
+    "subcategory": "Shadows & Contact",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Are the contrast and film grain of the inserted SUV consistent with the overall aesthetic of Image 1?",
+    "category": "Photorealism",
+    "subcategory": "Image Statistics",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are the edges of the SUV blended smoothly into the scene without visible halos or jagged cutouts?",
+    "category": "Photorealism",
+    "subcategory": "Compositing Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are the background mountains and guardrails preserved without distortion or warping?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 16,
+    "question": "Is the image free from visual artifacts like ghosting, smudging, or remnants of the original red sedan?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

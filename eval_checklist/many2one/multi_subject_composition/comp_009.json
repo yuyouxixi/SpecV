@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is the car in the generated image recognizable as the Toyota Corolla from Image 1, retaining key features like the headlights, grille, and sedan silhouette?",
+    "category": "Subject Fidelity",
+    "subcategory": "Main Subject Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Has the car's body paint been changed to a matte black finish?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color & Texture",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the matte black paint applied uniformly across all visible body panels without remnants of the original white paint?",
+    "category": "Subject Fidelity",
+    "subcategory": "Color Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 4,
+    "question": "Do the wheels match the multi-spoke alloy design shown in Reference Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Reference Matching (Wheels)",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Are red brake calipers visible behind the wheel spokes, consistent with Reference Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Detail Consistency",
+    "expected_answer": "Yes",
+    "score": 7.33
+  },
+  {
+    "id": 6,
+    "question": "Is a large multi-element GT-style spoiler added to the rear that matches the design and end plates of Reference Image 3?",
+    "category": "Subject Fidelity",
+    "subcategory": "Reference Matching (Spoiler)",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the spoiler feature a visible carbon fiber weave texture consistent with Reference Image 3?",
+    "category": "Subject Fidelity",
+    "subcategory": "Material Texture",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the new wheels correctly aligned with the car's perspective and seated naturally within the wheel wells?",
+    "category": "Composition & Layout",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the spoiler correctly positioned on the trunk lid with appropriate scale relative to the car?",
+    "category": "Composition & Layout",
+    "subcategory": "Object Placement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Does the spoiler appear physically attached to the car (e.g., via mounting points) rather than floating or superimposed?",
+    "category": "Interaction & Context",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the lighting on the matte black surface interact naturally with the environment (diffused reflections instead of sharp glossy ones)?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting & Material Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the original background (street, houses, trees) preserved without significant distortion or unwanted changes?",
+    "category": "Interaction & Context",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are there any visible artifacts, blurring, or jagged edges around the modified areas (wheels, spoiler, body contours)?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "No",
+    "score": 9.0
+  }
+]

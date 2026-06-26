@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original clownfish completely removed from the center of the aquarium?",
+    "category": "Element Accuracy",
+    "subcategory": "Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the blue betta fish from the second image present in the center of the aquarium?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the inserted fish clearly retain the specific identity features (blue body, large flowing fins) of the reference betta?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the betta fish sized proportionally to the tank environment, appearing realistic rather than oversized?",
+    "category": "Blending Quality",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Does the betta fish exhibit a color cast that matches the greenish tint of the water in the base image?",
+    "category": "Blending Quality",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Are the delicate edges of the betta's fins free from white fringing or harsh cutout halos?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Quality",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 7,
+    "question": "Do the betta's fins exhibit natural semi-transparency where appropriate, rather than looking like solid opaque cutouts?",
+    "category": "Blending Quality",
+    "subcategory": "Transparency Handling",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Do the edges of the fish show a slight sense of motion without the subject becoming excessively blurry or undefined?",
+    "category": "Blending Quality",
+    "subcategory": "Motion Effect",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are water caustic light patterns (resembling the third image) visible on the body of the betta fish?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are consistent water caustic patterns applied to the nearby sand and rocks, extending naturally from the fish?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do the caustic patterns on the fish, sand, and rocks appear to originate from a single, consistent light source?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Does the betta fish appear to be positioned behind the tank's glass reflections and water spots (not pasted on top)?",
+    "category": "Blending Quality",
+    "subcategory": "Depth & Layering",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Are the original glass reflections and water spots on the tank surface preserved without alteration?",
+    "category": "Scene Preservation",
+    "subcategory": "Foreground Details",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are the aquatic plants, rocks, and sand substrate preserved in their original positions and textures (excluding added lighting effects)?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the visible equipment (LED light bar, filter) preserved from the original image without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Equipment",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 16,
+    "question": "Is the betta fish free from anatomical distortions or structural errors (e.g., missing fins, misshapen body)?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 17,
+    "question": "Is the image free from obvious compositing artifacts like background leakage from the donor image or hard rectangular seams?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the colorful poster content from Image 2 (jumping woman, Chinese text, geometric shapes) clearly visible inside the lightbox of Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Content Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the extraneous background elements from Image 2 (wooden table, books, coffee cup, hands) completely excluded from the final image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Segmentation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the inserted poster's perspective correctly align with the angled plane of the lightbox frame?",
+    "category": "Geometry & Perspective",
+    "subcategory": "Alignment",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Are the original staples or thumbtacks from Image 1 preserved in their exact locations, appearing to pin down the new poster?",
+    "category": "Detail Preservation",
+    "subcategory": "Anchoring Elements",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Is the specific physical damage (tear and curl) at the lower-left corner preserved, with the new poster content conforming to the shape of the original tear?",
+    "category": "Detail Preservation",
+    "subcategory": "Damage Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the torn corner at the lower-left reveal the edge of the underlying layer (as seen in Image 1) rather than a void or the background from Image 2?",
+    "category": "Detail Preservation",
+    "subcategory": "Layering Logic",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are strips of tape applied to both the top and right edges of the poster?",
+    "category": "Edit Instruction Compliance",
+    "subcategory": "Added Elements",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the applied tape semi-transparent, allowing the underlying poster graphics to show through, and visually consistent with the texture in Image 3?",
+    "category": "Edit Instruction Compliance",
+    "subcategory": "Material Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Does the color temperature of the inserted poster match the cool, overcast ambient lighting of the bus stop scene in Image 1?",
+    "category": "Blending Quality",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 10,
+    "question": "Are the original glass reflections and surface dirt from Image 1 visible on top of the new poster content?",
+    "category": "Blending Quality",
+    "subcategory": "Reflections & Texture",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Do the highlights on the added tape strips align with the diffuse, cool lighting direction of the bus stop scene?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is the bus stop structure (metal frame, glass panels) and the street background preserved without distortion or unintended changes?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 13,
+    "question": "Is the Chinese text on the poster ('全新能量! 释放自我!') legible and free from distortion?",
+    "category": "General Quality",
+    "subcategory": "Text Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Is the final image free from visible blending artifacts like white edges, halos, or harsh seam lines around the poster and tape?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.83
+  }
+]

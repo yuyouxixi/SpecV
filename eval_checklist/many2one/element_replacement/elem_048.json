@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the old worn shipping label completely removed from the cardboard box, with no visible remnants of paper, ink, or adhesive?",
+    "category": "Element Accuracy",
+    "subcategory": "Removal",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Is the cardboard's corrugated texture and the original packing tape edges plausibly restored in the area where the old label was removed?",
+    "category": "Blending Quality",
+    "subcategory": "Texture Restoration",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the new shipping label (containing the visual features of the second input image, such as barcodes and QR code) present on the box?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the new shipping label placed in approximately the same position on the box top as the original removed label?",
+    "category": "Element Accuracy",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the perspective of the new shipping label correctly aligned with the slanted top surface of the cardboard box?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective Alignment",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Does the new shipping label exhibit realistic wrinkles and undulations, appearing as paper adhered to a surface rather than a flat digital overlay?",
+    "category": "Blending Quality",
+    "subcategory": "Texture & Realism",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is the red 'FRAGILE' sticker (from the third input image) positioned to the right of the new shipping label?",
+    "category": "Element Accuracy",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is a small corner of the 'FRAGILE' sticker visibly pressed under a layer of clear packing tape?",
+    "category": "Element Accuracy",
+    "subcategory": "Complex Interaction",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the area of the sticker under the tape appear slightly brighter or glossier with subtle wrinkled edges, consistent with being pressed down by tape?",
+    "category": "Blending Quality",
+    "subcategory": "Fine Details",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Are the distinct linear shadows (cast by the railing) correctly continued across the new label and sticker without interruption?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Do the new labels match the warm color temperature and lighting direction (sunlight from the right) of the original scene?",
+    "category": "Blending Quality",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the edges of the new shipping label and sticker free from harsh halos, jagged cut-lines, or unnatural seams?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Do the inserted elements match the noise, grain, and general 'smartphone photography' aesthetic of the base image?",
+    "category": "General Quality",
+    "subcategory": "Style Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Are the doormat, concrete ground, and background elements (plants, railings) preserved without any unintended changes or distortions?",
+    "category": "Scene Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Is the overall structure of the box, including existing creases and dents outside the label area, preserved intact?",
+    "category": "Scene Preservation",
+    "subcategory": "Structure Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image include a red parrot that matches the reference's specific traits (prominent upright crest, blue wing feathers, and curved beak)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Parrot Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the generated image include a grey chinchilla matching the reference's appearance (large rounded ears, white underbelly, and fluffy tail)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Chinchilla Identity",
+    "expected_answer": "Yes",
+    "score": 9.6
+  },
+  {
+    "id": 3,
+    "question": "Does the generated image include a green chameleon matching the reference's characteristics (yellow spots, ridged head, and curled tail)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Chameleon Identity",
+    "expected_answer": "Yes",
+    "score": 9.63
+  },
+  {
+    "id": 4,
+    "question": "Are all three specified animals (parrot, chinchilla, and chameleon) clearly visible in the image?",
+    "category": "Composition & Layout",
+    "subcategory": "Completeness",
+    "expected_answer": "Yes",
+    "score": 9.87
+  },
+  {
+    "id": 5,
+    "question": "Is the parrot depicted flying mid-air with its wings spread open?",
+    "category": "Composition & Layout",
+    "subcategory": "Pose Adherence",
+    "expected_answer": "Yes",
+    "score": 9.73
+  },
+  {
+    "id": 6,
+    "question": "Is the chameleon perched on a hanging vine?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the chinchilla sitting on a large leaf that functions as a boat or platform?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.6
+  },
+  {
+    "id": 8,
+    "question": "Does the background depict a dense tropical rainforest environment?",
+    "category": "Interaction & Context",
+    "subcategory": "Background Match",
+    "expected_answer": "Yes",
+    "score": 9.4
+  },
+  {
+    "id": 9,
+    "question": "Does the image convey a magical fantasy atmosphere with dreamy lighting (e.g., Tyndall effect/sunbeams)?",
+    "category": "Interaction & Context",
+    "subcategory": "Atmosphere",
+    "expected_answer": "Yes",
+    "score": 9.2
+  },
+  {
+    "id": 10,
+    "question": "Does the leaf supporting the chinchilla show realistic physical interaction, such as sagging or bending under the animal's weight?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 7.67
+  },
+  {
+    "id": 11,
+    "question": "Does the chameleon appear to naturally grip the vine with its feet rather than floating or clipping through it?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 8.9
+  },
+  {
+    "id": 12,
+    "question": "Are the relative sizes of the animals reasonably proportional to one another and the environment (e.g., parrot larger than chinchilla, none microscopic or gigantic)?",
+    "category": "General",
+    "subcategory": "Scale & Proportion",
+    "expected_answer": "Yes",
+    "score": 8.3
+  },
+  {
+    "id": 13,
+    "question": "Is the lighting direction and color grading consistent across all subjects and the background, integrating them into the same scene?",
+    "category": "General",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from severe anatomical distortions (e.g., extra limbs, malformed wings, incorrect body structures) on any of the animals?",
+    "category": "General",
+    "subcategory": "Distortion & Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.53
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from visible artifacts, glitchy textures, or unnatural seams where subjects meet the background?",
+    "category": "General",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.43
+  }
+]

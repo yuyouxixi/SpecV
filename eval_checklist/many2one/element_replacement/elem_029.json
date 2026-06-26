@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the original fusilli pasta, tomato sauce, and basil garnish completely removed from the plate?",
+    "category": "Edit Adherence",
+    "subcategory": "Removal",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Is the revealed surface of the white plate clean and consistent with porcelain texture, free from residual sauce or digital smearing?",
+    "category": "Scene Preservation",
+    "subcategory": "Inpainting",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is a single fried egg positioned approximately in the center of the white plate?",
+    "category": "Edit Adherence",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are the asparagus spears present and arranged to the side of the fried egg as a garnish?",
+    "category": "Edit Adherence",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the fried egg retain the specific visual characteristics of the reference image, including the crispy golden-brown lacy edges and bright orange yolk?",
+    "category": "Subject Fidelity",
+    "subcategory": "Fried Egg",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Do the asparagus spears retain the visual identity of the reference, specifically the green stalks with purple-tinged heads?",
+    "category": "Subject Fidelity",
+    "subcategory": "Asparagus",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Is the asparagus arranged stylistically (e.g., in a neat bundle or arc) rather than appearing as a flat, raw pile copied directly from the cutting board?",
+    "category": "Edit Adherence",
+    "subcategory": "Style & Arrangement",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Do the egg and asparagus match the warm color temperature and ambient lighting of the dining scene, avoiding the cooler tones of the source images?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Have the dark reflections on the egg (originally from the black pan) been removed or adjusted to match the white plate environment?",
+    "category": "Blending Quality",
+    "subcategory": "Reflections",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Do the inserted food items cast realistic contact shadows onto the white plate surface, consistent with the scene's overhead lighting?",
+    "category": "Blending Quality",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Are the egg and asparagus scaled proportionally to the plate size and aligned with the top-down camera angle?",
+    "category": "Blending Quality",
+    "subcategory": "Geometry",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Is the image free from unwanted source background elements, such as the black non-stick pan or the marble cutting board?",
+    "category": "Edit Adherence",
+    "subcategory": "Negative Constraints",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 13,
+    "question": "Are the wine glass (top-left) and silver cutlery (right) preserved in their original positions without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Context Elements",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 14,
+    "question": "Is the dark wooden table texture preserved without blurring or inconsistent inpainting near the plate?",
+    "category": "Scene Preservation",
+    "subcategory": "Background",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Is the rim and overall shape of the white plate preserved without warping or deformation?",
+    "category": "Scene Preservation",
+    "subcategory": "Base Object",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 16,
+    "question": "Is the final image free from visible blending artifacts, such as harsh seams, halos, or unnatural blurring around the food items?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

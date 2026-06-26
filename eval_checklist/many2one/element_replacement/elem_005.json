@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Is the red sports car from the reference image clearly visible on the mountain road?",
+    "category": "Subject Consistency",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 2,
+    "question": "Does the car retain its specific design identity (sleek coupe shape, rear diffuser, side vents) without deformation?",
+    "category": "Subject Consistency",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the car positioned naturally on the road surface with tires grounded, rather than floating or intersecting the asphalt?",
+    "category": "Spatial Consistency",
+    "subcategory": "Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Does the car's perspective and orientation align correctly with the curvature and vanishing point of the mountain road?",
+    "category": "Spatial Consistency",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the car scaled realistically relative to the width of the road lanes and the surrounding trees?",
+    "category": "Spatial Consistency",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Does the lighting on the car match the diffuse, overcast, and cool atmospheric conditions of the mountain scene?",
+    "category": "Lighting & Blending",
+    "subcategory": "Global Lighting Match",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the car cast realistic contact shadows on the wet road surface beneath it?",
+    "category": "Lighting & Blending",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Are the bright white rectangular studio ceiling light reflections completely eliminated from the car's body?",
+    "category": "Lighting & Blending",
+    "subcategory": "Reflection Removal (Instruction Compliance)",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does the car's paint finish reflect the surrounding pine forest (green tones and tree shapes) instead of the original studio environment?",
+    "category": "Lighting & Blending",
+    "subcategory": "Environment Mapping (Instruction Compliance)",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 10,
+    "question": "Do the car's windows reflect the outdoor environment (sky/trees) or appear transparent, rather than reflecting studio interiors?",
+    "category": "Lighting & Blending",
+    "subcategory": "Environment Mapping",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do the puddles on the wet road surface display visible red reflections corresponding to the car?",
+    "category": "Lighting & Blending",
+    "subcategory": "Puddle Reflections (Instruction Compliance)",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 12,
+    "question": "Are the reflections in the puddles spatially aligned with the car and distorted appropriately by the water surface texture?",
+    "category": "Lighting & Blending",
+    "subcategory": "Puddle Realism",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are the edges of the car seamlessly blended into the background without white halos, jagged pixelation, or matte fringing?",
+    "category": "Image Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are the background elements (pine trees, mountains, fog) preserved without unintended distortion or changes?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Is the wet road texture and asphalt detail preserved in areas not occluded by the car?",
+    "category": "Scene Preservation",
+    "subcategory": "Road Integrity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 16,
+    "question": "Is the final image free from significant artifacts such as ghosting, duplicated wheels, or unnatural blurring?",
+    "category": "Image Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

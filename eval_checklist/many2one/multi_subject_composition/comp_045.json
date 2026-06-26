@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image include a tiger that retains the orange coat, black stripe pattern, and facial features of the reference tiger image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Tiger Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the generated image include an elephant that matches the large ears, tusks, and gray wrinkled skin texture of the reference elephant image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Elephant Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the generated image include an Arctic fox that matches the pure white fur and compact morphological features of the reference fox image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Fox Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the background recognizable as the specific glacial lake scene provided in the reference (turquoise water, snow-capped mountains)?",
+    "category": "Background Consistency",
+    "subcategory": "Landscape Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the tiger positioned crouching on a gravel beach area that matches the terrain in the landscape reference?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the elephant positioned at the water's edge, appearing to drink with its trunk extended towards or into the water?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is the Arctic fox standing on a distinct ice floe (floating chunk of ice) within the lake?",
+    "category": "Composition & Layout",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 8,
+    "question": "Are the relative scales of the animals realistic (e.g., Elephant significantly larger than Tiger, Tiger larger than Fox)?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale & Proportion",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Has the lighting on the animals been unified to match the cool, bluish glacial tones of the environment (removing warm sunset or green casts from original references)?",
+    "category": "Lighting & Atmosphere",
+    "subcategory": "Color Harmony",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the lighting direction and shadowing consistent across all three animals and the background?",
+    "category": "Lighting & Atmosphere",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Do the animals appear firmly grounded with appropriate contact shadows, rather than floating or pasted on?",
+    "category": "Interaction & Context",
+    "subcategory": "Grounding",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 12,
+    "question": "Are there realistic reflections or water interactions (ripples) for the animals in contact with the water or ice (Elephant and Fox)?",
+    "category": "Interaction & Context",
+    "subcategory": "Physical Interaction",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the image convey a cinematic and surreal atmosphere as requested, rather than looking like a standard collage?",
+    "category": "Style & Aesthetics",
+    "subcategory": "Artistic Intent",
+    "expected_answer": "Yes",
+    "score": 7.5
+  },
+  {
+    "id": 14,
+    "question": "Are there any obvious anatomical distortions on the tiger (e.g., extra limbs, malformed paws, or distorted face)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "No",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are there any obvious anatomical distortions on the elephant (e.g., malformed trunk, extra tusks, or missing feet)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "No",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are there any obvious anatomical distortions on the Arctic fox (e.g., malformed ears, extra legs, or distorted body shape)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "No",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is the image free from visible compositing artifacts such as jagged cut-out edges, halos, or mismatched resolution between subjects and background?",
+    "category": "General Quality",
+    "subcategory": "Artifacts & Blending",
+    "expected_answer": "Yes",
+    "score": 9.5
+  }
+]

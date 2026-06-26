@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the worker wearing a yellow hard hat instead of the original white one?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the new hard hat retain the defining shape and style of the donor hard hat from Image 2 (e.g., ridges, brim shape, logo if visible)?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Is the hard hat correctly scaled and oriented to match the worker's head tilt and perspective?",
+    "category": "Blending Quality",
+    "subcategory": "Geometric Fit",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 4,
+    "question": "Is the chin strap positioned naturally without clipping through or obstructing the worker's ears?",
+    "category": "Blending Quality",
+    "subcategory": "Occlusion Handling",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 5,
+    "question": "Does the chin strap avoid intersecting or clipping through the temples of the safety glasses?",
+    "category": "Blending Quality",
+    "subcategory": "Occlusion Handling",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 6,
+    "question": "Does the lighting on the yellow hard hat match the scene's directional sunlight (brighter on the upper right, darker on the lower left)?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Is there a realistic shadow cast by the hard hat brim onto the worker's forehead/face, aligned with the scene lighting?",
+    "category": "Blending Quality",
+    "subcategory": "Shadow Generation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are mud spots and dust textures resembling the reference Image 3 applied to the yellow hard hat?",
+    "category": "Element Accuracy",
+    "subcategory": "Texture Application",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Do the mud/dust spots appear to wrap naturally around the 3D curvature of the helmet rather than looking like a flat overlay?",
+    "category": "Blending Quality",
+    "subcategory": "Texture Mapping",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the level of dirt on the hard hat consistent with the wear visible on the worker's vest and the construction environment?",
+    "category": "Blending Quality",
+    "subcategory": "Contextual Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Are the edges of the hard hat blended smoothly with the background, free from visible white fringing, halos, or jagged artifacts?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Processing",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 12,
+    "question": "Are the worker's facial features and safety glasses preserved without distortion or unintended blurring?",
+    "category": "Scene Preservation",
+    "subcategory": "Content Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is the surrounding background (cranes, scaffolding, sky) preserved without distortion or artifacts?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is the edited area free from ghosting artifacts or remnants of the original white hard hat?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

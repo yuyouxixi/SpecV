@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Is the manual toothbrush in the cup successfully replaced with the white electric toothbrush (featuring a blue accent ring) from the reference image?",
+    "category": "Element Accuracy",
+    "subcategory": "Subject Presence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the mirror reflection accurately display the electric toothbrush instead of the manual toothbrush?",
+    "category": "Element Accuracy",
+    "subcategory": "Mirror Update",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 3,
+    "question": "Does the orientation, angle, and scale of the electric toothbrush in the mirror reflection match the geometry of the foreground object?",
+    "category": "Blending Quality",
+    "subcategory": "Mirror Geometry",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the electric toothbrush appear naturally inserted into the cup, with the cup rim properly occluding the lower part of the handle?",
+    "category": "Blending Quality",
+    "subcategory": "Occlusion & Depth",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the electric toothbrush positioned with natural spacing, avoiding unnatural overlap or crowding with the adjacent toothpaste tube?",
+    "category": "Blending Quality",
+    "subcategory": "Spatial Arrangement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the lighting on the electric toothbrush adjusted to match the warm, yellowish ambient light of the bathroom scene (avoiding a cold studio look)?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 7,
+    "question": "Are there realistic contact shadows visible where the electric toothbrush meets the rim or interior of the cup?",
+    "category": "Blending Quality",
+    "subcategory": "Shadows",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are small water droplets visible on the body of the electric toothbrush?",
+    "category": "Element Accuracy",
+    "subcategory": "Texture Detail",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Do the water droplets appear to conform to the curved surface of the toothbrush handle and reflect the scene lighting?",
+    "category": "Blending Quality",
+    "subcategory": "Texture Integration",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Are the water droplets subtle and consistent with a moist atmosphere, rather than exaggerated or excessive in size/quantity?",
+    "category": "Blending Quality",
+    "subcategory": "Stylistic Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 11,
+    "question": "Is the toothpaste tube next to the toothbrush preserved without distortion or unintended modification?",
+    "category": "Scene Preservation",
+    "subcategory": "Object Integrity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the sink, faucet, and bathroom wall reflection preserved without unintended changes?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the boundary of the inserted toothbrush free from harsh seams, halos, or pixelated edges?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Is the electric toothbrush free from structural distortions (e.g., warped handle or deformed brush head)?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

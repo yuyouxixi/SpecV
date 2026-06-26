@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image include the specific woman from the reference, preserving her facial features and long brown hair?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Is the woman wearing the red satin slip dress from the reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Attire Details",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Is the Shiba Inu from the reference image present, preserving its orange/tan coat and curled tail?",
+    "category": "Subject Fidelity",
+    "subcategory": "Animal Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 4,
+    "question": "Is the blue-and-white porcelain vase from the reference image present, preserving its floral patterns and shape?",
+    "category": "Subject Fidelity",
+    "subcategory": "Object Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 5,
+    "question": "Is the museum hall image used as the background, featuring white walls, columns, and a polished black marble floor?",
+    "category": "Composition & Layout",
+    "subcategory": "Background Selection",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Is the woman positioned in the right-center midground of the image?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is the woman's body facing left while her gaze is directed at the camera?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Pose",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the Shiba Inu positioned in the lower-left foreground of the image?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 9,
+    "question": "Is the Shiba Inu scaled appropriately for the foreground, appearing as a real-sized dog rather than a toy?",
+    "category": "Composition & Layout",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Is the porcelain vase placed in the background near the right-side column?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the vase partially occluded by the right-side column to create realistic depth?",
+    "category": "Interaction & Context",
+    "subcategory": "Occlusion",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do all three subjects (woman, dog, vase) have visible reflections on the polished black marble floor?",
+    "category": "Interaction & Context",
+    "subcategory": "Environmental Interaction",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 13,
+    "question": "Do the floor reflections fade in intensity and become slightly blurred with distance?",
+    "category": "Interaction & Context",
+    "subcategory": "Reflection Realism",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are there distinct, thin contact shadows at the feet/paws/base of the subjects to prevent a floating appearance?",
+    "category": "Interaction & Context",
+    "subcategory": "Shadows & Grounding",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 15,
+    "question": "Have the two visitors from the original background image been completely removed?",
+    "category": "Interaction & Context",
+    "subcategory": "Background Modification",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Are there visible smudging artifacts or distortions in the area where the background visitors were removed?",
+    "category": "General Quality",
+    "subcategory": "Inpainting Artifacts",
+    "expected_answer": "No",
+    "score": 9.5
+  },
+  {
+    "id": 17,
+    "question": "Does the lighting on the subjects match the cool overhead skylight ambience of the museum hall?",
+    "category": "Lighting & Style",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 18,
+    "question": "Are the highlights on the red dress toned down to prevent clipping or overexposure?",
+    "category": "Lighting & Style",
+    "subcategory": "Highlight Control",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Is a subtle film grain applied to the image to simulate an authentic photograph?",
+    "category": "Lighting & Style",
+    "subcategory": "Style Adherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 20,
+    "question": "Does the image convey a wide-angle photographic perspective consistent with the museum hall reference?",
+    "category": "Lighting & Style",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 8.17
+  },
+  {
+    "id": 21,
+    "question": "Are there any severe anatomical distortions in the subjects (e.g., extra limbs, distorted faces)?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "No",
+    "score": 9.17
+  },
+  {
+    "id": 22,
+    "question": "Are there visible compositing artifacts such as halos or jagged edges around the subjects?",
+    "category": "General Quality",
+    "subcategory": "Compositing Quality",
+    "expected_answer": "No",
+    "score": 9.5
+  }
+]

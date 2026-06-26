@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the woman in the generated image retain the facial identity and brown, shoulder-length hair of the model in Reference Image 1?",
+    "category": "Subject Fidelity",
+    "subcategory": "Person Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the model wearing a cream-colored dress with a multi-colored floral pattern that matches Reference Image 2?",
+    "category": "Subject Fidelity",
+    "subcategory": "Garment Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the dress feature the specific design details of Reference Image 2, such as the V-neckline and spaghetti tie-straps?",
+    "category": "Subject Fidelity",
+    "subcategory": "Garment Structure",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 4,
+    "question": "Is the model wearing a wide-brimmed straw hat with a black ribbon bow, matching Reference Image 3?",
+    "category": "Subject Fidelity",
+    "subcategory": "Accessory Fidelity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Has the background been successfully changed to a sunny beach scene?",
+    "category": "Interaction & Context",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the hem of the dress depicted as gently lifted or flowing, visually simulating the effect of a sea breeze?",
+    "category": "Interaction & Context",
+    "subcategory": "Physics Simulation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the lighting on the model consistent with a sunny outdoor environment (e.g., natural sunlight direction and intensity) rather than the original studio flash?",
+    "category": "Interaction & Context",
+    "subcategory": "Lighting Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 8,
+    "question": "Does the dress appear to fit the model naturally, replacing the original t-shirt and jeans without visible remnants of the old clothing?",
+    "category": "Composition & Layout",
+    "subcategory": "Virtual Try-On Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the straw hat properly positioned on the model's head at a natural angle and scale?",
+    "category": "Composition & Layout",
+    "subcategory": "Accessory Placement",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the model's visible body parts (face, arms, hands) rendered without anatomical distortions or extra limbs?",
+    "category": "General",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are there any unnatural artifacts, blurring, or incoherent textures at the boundaries where the clothing meets the skin or background?",
+    "category": "General",
+    "subcategory": "Artifacts",
+    "expected_answer": "No",
+    "score": 8.5
+  }
+]

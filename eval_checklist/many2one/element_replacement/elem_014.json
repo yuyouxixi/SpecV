@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Is a smartphone clearly visible in the king's raised right hand?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 2,
+    "question": "Does the inserted object retain the recognizable rectangular structure and silhouette of a smartphone?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Has the smartphone been transformed into a classical oil painting style with visible brushstrokes, replacing its original photographic texture?",
+    "category": "Blending Quality",
+    "subcategory": "Style Transfer",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Are the colors of the smartphone darkened and muted to seamlessly blend with the vintage, warm color palette of the painting?",
+    "category": "Blending Quality",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the smartphone free of photorealistic artifacts, such as sharp glass reflections, crisp screen pixels, or modern glossy textures?",
+    "category": "Blending Quality",
+    "subcategory": "Style Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the lighting on the smartphone match the directional light source and shadowing present on the king's hand and robe?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the scale of the smartphone realistic and appropriate relative to the size of the king's hand?",
+    "category": "Blending Quality",
+    "subcategory": "Scale",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the perspective and orientation of the smartphone aligned correctly with the angle of the king's raised hand?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Do the king's fingers appear to naturally grip or occlude the smartphone, rather than the device floating on top of the hand?",
+    "category": "Blending Quality",
+    "subcategory": "Occlusion & Interaction",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Is the anatomy of the king's hand preserved without distortion, extra fingers, or unnatural deformation?",
+    "category": "General Quality",
+    "subcategory": "Anatomical Correctness",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 11,
+    "question": "Are the king's facial features, crown, and attire preserved without unintended alterations?",
+    "category": "Scene Preservation",
+    "subcategory": "Main Subject Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Are the background elements, including the throne, guards, and tapestries, preserved without unintended changes?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Fidelity",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 13,
+    "question": "Is the edited area free from harsh cut-out edges, blurring, or digital artifacts that clash with the surrounding art style?",
+    "category": "General Quality",
+    "subcategory": "Visual Consistency",
+    "expected_answer": "Yes",
+    "score": 8.83
+  }
+]

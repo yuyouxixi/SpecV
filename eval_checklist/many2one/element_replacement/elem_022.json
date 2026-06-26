@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the ancient temple structure visible within the rainforest scene?",
+    "category": "Subject Fidelity",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are specific architectural features of the temple (e.g., stepped pyramid layers, stone pillars, or walls) recognizable in the exposed sections?",
+    "category": "Subject Fidelity",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the majority of the temple structure obscured by the tree canopy, revealing only small portions as requested?",
+    "category": "Instruction Adherence",
+    "subcategory": "Occlusion Constraint",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Do trees and foliage appear to physically overlap the temple structure (foreground occlusion), rather than the temple appearing to float on top of the canopy?",
+    "category": "Blending Quality",
+    "subcategory": "Depth & Layering",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the perspective of the inserted temple consistent with the top-down aerial view of the rainforest?",
+    "category": "Blending Quality",
+    "subcategory": "Perspective Consistency",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 6,
+    "question": "Is the scale of the exposed temple parts plausible relative to the surrounding tree crowns?",
+    "category": "Blending Quality",
+    "subcategory": "Scale Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Has the color tone of the temple been adjusted to match the deep green, ambient lighting of the rainforest, replacing the bright grayish-brown of the original lawn background?",
+    "category": "Blending Quality",
+    "subcategory": "Color Matching",
+    "expected_answer": "Yes",
+    "score": 7.83
+  },
+  {
+    "id": 8,
+    "question": "Do the exposed portions of the temple feature dappled shadows or filtered lighting consistent with being under a dense canopy?",
+    "category": "Blending Quality",
+    "subcategory": "Lighting & Shadows",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 9,
+    "question": "Do the exposed stone surfaces exhibit moss, vines, or vegetation encroachment consistent with a 'just discovered' ruin?",
+    "category": "Blending Quality",
+    "subcategory": "Texture & Aging",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 10,
+    "question": "Is the original grass lawn surrounding the temple completely removed and replaced with rainforest vegetation?",
+    "category": "Blending Quality",
+    "subcategory": "Background Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are the edges where the canopy meets the stone irregular and organic, avoiding harsh straight lines or cutout artifacts?",
+    "category": "Blending Quality",
+    "subcategory": "Edge Blending",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Is the winding brown river in the lower-left portion of the original rainforest image preserved without distortion?",
+    "category": "Scene Preservation",
+    "subcategory": "Background Integrity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the surrounding rainforest canopy texture remain consistent and undistorted in areas not directly involved with the temple insertion?",
+    "category": "Scene Preservation",
+    "subcategory": "Texture Consistency",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 14,
+    "question": "Are the visible architectural lines of the temple straight and logical, avoiding 'melted' steps or warped columns?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from visible copy-paste seams, rectangular borders, or digital artifacts around the temple area?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

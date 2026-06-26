@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image include a grey quadcopter drone that matches the visual characteristics of the DJI Mavic 3 reference (e.g., rotor arms, camera gimbal)?",
+    "category": "Subject Fidelity",
+    "subcategory": "Drone Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the generated image include a bald eagle with a white head, yellow beak, and dark brown body/wings matching the reference?",
+    "category": "Subject Fidelity",
+    "subcategory": "Eagle Identity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is a golden/amber wheat field visible at the very bottom of the frame?",
+    "category": "Subject Fidelity",
+    "subcategory": "Background Elements",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the bald eagle positioned in the foreground on the left side of the frame?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the drone positioned on the right side of the frame?",
+    "category": "Composition & Layout",
+    "subcategory": "Subject Placement",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 6,
+    "question": "Does the eagle appear significantly larger than the drone to correctly convey that the eagle is in the foreground and the drone is farther away?",
+    "category": "Composition & Layout",
+    "subcategory": "Relative Scale & Depth",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 7,
+    "question": "Does the perspective of the image appear to be a low-angle shot looking upward from the ground (showing the undersides of the flying subjects)?",
+    "category": "Interaction & Context",
+    "subcategory": "Perspective",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Has the wheat field been correctly transformed from the reference top-down view to a distant ground plane or horizon view appropriate for an upward-looking shot?",
+    "category": "Interaction & Context",
+    "subcategory": "Perspective Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Is the background primarily depicted as a blue sky with white clouds?",
+    "category": "Interaction & Context",
+    "subcategory": "Background Consistency",
+    "expected_answer": "Yes",
+    "score": 9.83
+  },
+  {
+    "id": 10,
+    "question": "Does the drone appear to be tracking or following the eagle (oriented towards the eagle or moving in a consistent direction)?",
+    "category": "Interaction & Context",
+    "subcategory": "Action & Interaction",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is the eagle free from severe anatomical errors (e.g., malformed wings, extra limbs, or distorted head)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 12,
+    "question": "Is the drone free from structural distortions (e.g., missing rotors, warped arms, or melted geometry)?",
+    "category": "General Quality",
+    "subcategory": "Anatomy & Distortion",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 13,
+    "question": "Is the lighting consistent across the eagle, drone, and sky (matching color temperature and light direction)?",
+    "category": "General Quality",
+    "subcategory": "Lighting & Blending",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Is the image free from obvious compositing artifacts, unnatural halos, or text overlays?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]

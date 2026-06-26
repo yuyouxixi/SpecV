@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated image include a white cat with blue eyes and British Shorthair features, resembling the first reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "White Cat Identity",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 2,
+    "question": "Does the generated image include an orange tabby cat with visible white markings on the chest or belly, resembling the second reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Orange Cat Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 3,
+    "question": "Does the generated image include a black puppy with floppy ears, resembling the third reference image?",
+    "category": "Subject Fidelity",
+    "subcategory": "Black Puppy Identity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Is the background recognizable as the provided living room reference (grey rug, wooden coffee table, large windows with city view)?",
+    "category": "Background & Scene Consistency",
+    "subcategory": "Scene Identity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 5,
+    "question": "Is the white cat positioned on the floor beside the coffee table?",
+    "category": "Spatial Arrangement",
+    "subcategory": "White Cat Placement",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Is the white cat lying prone (belly down) on the floor, distinct from the sitting pose in the reference?",
+    "category": "Spatial Arrangement",
+    "subcategory": "White Cat Pose",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 7,
+    "question": "Is the orange cat depicted in the act of jumping onto or landing on the coffee table?",
+    "category": "Spatial Arrangement",
+    "subcategory": "Orange Cat Action",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 8,
+    "question": "Is the glass of water on the coffee table upright and not knocked over, consistent with the instruction to be 'careful'?",
+    "category": "Interaction & Context",
+    "subcategory": "Object Preservation & Logic",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 9,
+    "question": "Are the original items on the coffee table (the book and the glass) preserved and visible?",
+    "category": "Background & Scene Consistency",
+    "subcategory": "Object Preservation",
+    "expected_answer": "Yes",
+    "score": 8.5
+  },
+  {
+    "id": 10,
+    "question": "Is the black puppy tilting its head?",
+    "category": "Interaction & Context",
+    "subcategory": "Puppy Pose",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Is the black puppy positioned nearby and looking toward the orange cat?",
+    "category": "Interaction & Context",
+    "subcategory": "Interaction & Gaze",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the relative sizes of the three animals proportionally realistic compared to each other and the surrounding furniture?",
+    "category": "General Image Quality",
+    "subcategory": "Scale & Proportion",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 13,
+    "question": "Do the animals cast realistic contact shadows on the floor and table consistent with the room's lighting?",
+    "category": "General Image Quality",
+    "subcategory": "Lighting & Integration",
+    "expected_answer": "Yes",
+    "score": 8.83
+  },
+  {
+    "id": 14,
+    "question": "Are all three animals free from severe anatomical errors (e.g., extra limbs, distorted faces, missing paws)?",
+    "category": "General Image Quality",
+    "subcategory": "Anatomy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the image free from significant artifacts, unnatural blending, or floating effects where the animals meet the background?",
+    "category": "General Image Quality",
+    "subcategory": "Compositing Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

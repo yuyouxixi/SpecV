@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Is the plastic water bottle completely removed from the desk, leaving no remaining fragments, labels, or bottle-shaped artifacts?",
+    "category": "Element Accuracy",
+    "subcategory": "Removal",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is a blue and white porcelain teacup (gaiwan-style) present on the desk in the location where the bottle was removed?",
+    "category": "Element Accuracy",
+    "subcategory": "Presence",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 3,
+    "question": "Does the inserted teacup retain the specific visual features of the reference image, including the dragon/cloud patterns and the lid?",
+    "category": "Element Accuracy",
+    "subcategory": "Identity Preservation",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the left side of the teacup significantly brighter than the right side, consistent with the directional light from the desk lamp?",
+    "category": "Photomontage & Blending",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the illumination on the teacup exhibit a warm yellow hue that matches the color temperature of the adjacent lamp?",
+    "category": "Photomontage & Blending",
+    "subcategory": "Lighting Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the teacup surface appear glossy with subtle specular reflections, indicative of a glazed ceramic material?",
+    "category": "Photomontage & Blending",
+    "subcategory": "Material Rendering",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the teacup cast a realistic shadow on the desk surface that extends to the right, aligning with the lamp's position?",
+    "category": "Photomontage & Blending",
+    "subcategory": "Shadow Generation",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 8,
+    "question": "Is the teacup scaled appropriately relative to the nearby coffee cup and books (e.g., similar in size to the coffee cup)?",
+    "category": "Photomontage & Blending",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the perspective of the teacup (rim ellipse and base angle) match the camera angle of the desk scene?",
+    "category": "Photomontage & Blending",
+    "subcategory": "Scale & Perspective",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 10,
+    "question": "Does the teacup appear to rest naturally on the desk surface without floating, clipping into other objects, or lacking contact shadows?",
+    "category": "Photomontage & Blending",
+    "subcategory": "Spatial Consistency",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 11,
+    "question": "Is the wooden desk texture where the bottle was removed inpainted realistically, matching the surrounding wood grain and scratches?",
+    "category": "Scene Preservation",
+    "subcategory": "Inpainting Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the surrounding objects (lamp, books, coffee cup, papers) preserved without unintended distortions or alterations?",
+    "category": "Scene Preservation",
+    "subcategory": "Context Preservation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are the edges of the inserted teacup clean and well-blended, free from harsh cut-out lines, halos, or visible seams?",
+    "category": "General Quality",
+    "subcategory": "Artifacts",
+    "expected_answer": "Yes",
+    "score": 9.5
+  },
+  {
+    "id": 14,
+    "question": "Is the teacup structurally sound (symmetrical body, proper circular rim) without warping or geometric distortion?",
+    "category": "General Quality",
+    "subcategory": "Structural Integrity",
+    "expected_answer": "Yes",
+    "score": 9.17
+  },
+  {
+    "id": 15,
+    "question": "Is the inserted teacup sharp and detailed, matching the resolution and focus level of the surrounding mid-ground elements?",
+    "category": "General Quality",
+    "subcategory": "Sharpness",
+    "expected_answer": "Yes",
+    "score": 9.17
+  }
+]
