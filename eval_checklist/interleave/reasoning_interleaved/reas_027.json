@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output include exactly four distinct schematic diagrams, one corresponding to each of the required roof types: Wudian, Xieshan, Xuanshan, and Yingshan?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text accurately define the Wudian roof (hip roof) as having five ridges (one main ridge and four hip ridges) and four sloping surfaces, without any vertical gable walls?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text accurately define the Xieshan roof (hip-and-gable roof) as a composite structure featuring a hip roof section on top and gable walls below, characterized by nine ridges?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text correctly distinguish Xuanshan (overhanging gable) from Yingshan (flush gable) by stating that Xuanshan eaves extend beyond the gable wall, whereas Yingshan eaves end flush with the wall?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the generated text correctly establish the hierarchical ranking of the roof forms in the order of Wudian (highest) > Xieshan > Xuanshan > Yingshan (lowest)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text explicitly explain the logic that Wudian and Xieshan forms were reserved for higher-status imperial or religious buildings, while Xuanshan and Yingshan were typically restricted to civilian residences?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the output identify the feudal \"ritual system\" (Li/social hierarchy) as the underlying logic dictating these architectural restrictions?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the text use appropriate professional terminology (e.g., Chinese terms like 'Zhengji', 'Chuiji', 'Shanqiang' or their accurate English equivalents) to describe the structural components?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the Wudian diagram clearly depict a hip roof structure with four sloping sides meeting at a central ridge, with no visible vertical gable walls?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the Xieshan diagram accurately depict a hip-and-gable structure, showing a hip roof section at the top and triangular gable walls visible underneath the eaves on the sides?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the Xuanshan diagram visually show the roof eaves or purlins extending noticeably beyond the plane of the gable wall (overhang)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the Yingshan diagram visually show the roof edge terminating flush with the gable wall, with no structural overhang?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Are specific structural characteristics (such as ridges, slopes, eaves, or gable walls) textually labeled within the generated diagrams as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Are all text labels and annotations within the images legible, correctly spelled, and free from garbled or nonsensical characters?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are the generated diagrams free from obvious geometric distortions (e.g., disconnected ridges, impossible perspectives) that would hinder structural understanding?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Do the structural features shown in each diagram (e.g., number of ridges, presence of gable walls) strictly match the definitions provided in the accompanying text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Do all four diagrams maintain a consistent visual style (e.g., line drawing, schematic view) and scale to facilitate direct comparison of the roof types?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Is each diagram placed immediately adjacent to or following the text paragraph that describes that specific roof type?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly 8 generated images and 8 corresponding text captions?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the images and captions presented in an interleaved format where each sticker image is placed immediately adjacent to its corresponding text caption?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the output maintain a consistent 1:1 ratio where every generated image is paired with exactly one caption?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Do the generated images accurately depict the specific cat features described: an orange and white British Shorthair with a round face, very large eyes, and a slightly chubby build?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the images rendered in a specific 'minimalist line illustration' style (consistent with WeChat sticker pack aesthetics) rather than photorealistic or painterly styles?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the generated images free from significant AI artifacts (e.g., distortion, extra limbs, blurred lines) and presented with clean backgrounds suitable for sticker usage?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the accompanying captions written in a witty, meme-worthy, or internet-savvy tone suitable for a sticker pack?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the cat character visually consistent across all 8 images, maintaining the same fur pattern (orange/white), face shape, and body proportions throughout the set?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Is the artistic style (line weight, color palette, level of detail) consistent across all 8 images, creating a cohesive sticker pack aesthetic?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Do the 8 images depict clearly distinguishable and diverse expressions or actions (e.g., joy, anger, confusion) rather than repetitive poses?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the specific emotion or action shown in each sticker image semantically match its adjacent text caption?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Do the images provide clear visual information (expressions/gestures) that allows the intended emotion to be recognized even without reading the captions?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

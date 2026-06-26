@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly 6 generated images consisting of: 1 hero image, 3 distinct lifestyle images (commuting, weekend, travel), 1 material comparison image, and 1 size specification diagram?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the output include accompanying marketing copy that covers product details, selling points, and usage scenarios?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the marketing copy explicitly highlight unique selling points of 'vegetable-tanned leather' (e.g., patina development, natural grain/texture) rather than generic leather characteristics?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text include specific practical information such as dimensions, handmade craftsmanship details, and care instructions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the hero image focus on the tote bag with professional lighting and an authentic vegetable-tanned leather appearance (e.g., visible grain, warm tones)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Do the three lifestyle images clearly depict the specific requested scenarios: Commuting (office/transit), Weekend (leisure/casual), and Travel (luggage/transport)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the material comparison image visually demonstrate a clear difference or detail (e.g., close-up side-by-side) to highlight craftsmanship or material quality?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the size specification diagram include clear visual indicators (lines/arrows) and legible numerical labels for the bag's dimensions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are all generated images free from obvious AI artifacts (e.g., distorted hands, impossible geometry, garbled text in diagrams) and of sufficient quality for e-commerce?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Do all images consistently depict the same bag design (color, shape, handles, and hardware) across the hero, lifestyle, and technical shots?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the images maintain a cohesive visual style (lighting, color grading, aesthetic) suitable for a single brand campaign?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the text adjacent to each lifestyle image accurately describe the specific scenario (commuting, weekend, travel) depicted in that image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Do the dimensions or specifications mentioned in the text match the values shown in the size specification diagram?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the material comparison image provide informative visual details that substantiate the text's claims about quality or craftsmanship?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Are the lifestyle, comparison, and size images placed immediately adjacent to the relevant text sections discussing those specific topics?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

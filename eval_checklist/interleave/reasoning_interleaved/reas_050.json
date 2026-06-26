@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output generate educational content covering all four specifically requested case types: Lead White blackening, Verdigris oxidation, Organic Pigment (Madder Lake) fading, and Varnish yellowing?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output include a simulated 'before-and-after' comparison image for each of the four requested case types?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text explain the color change mechanism from a chemical reaction perspective for all four pigment/material types?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text address modern cultural heritage restoration techniques for all four case types?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text correctly explain that Lead White (basic lead carbonate) turns black due to the formation of Lead Sulfide (PbS) upon reaction with sulfur-containing compounds (e.g., H₂S)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text propose a scientifically accurate restoration method for Lead White discoloration, such as using Hydrogen Peroxide (H₂O₂) to oxidize black Lead Sulfide into white Lead Sulfate (PbSO₄)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text accurately describe Verdigris (copper acetate) degradation as a chemical alteration (oxidation, carbonation, or dehydration) leading to a color shift towards brown, black, or dull green?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the text attribute the fading of Madder Lake (organic pigment) primarily to photodegradation (light exposure) breaking down the chromophore molecules (e.g., alizarin/purpurin)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does the text correctly identify that organic pigment fading is generally irreversible, emphasizing preventive conservation (e.g., controlling light exposure) rather than chemical reversal?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the text explain that Varnish yellowing is caused by the oxidation and polymerization of natural resins (e.g., terpenoids) or oils over time?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the text mention valid restoration techniques for aged varnish, such as solvent cleaning or laser ablation, to remove or thin the yellowed layer?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the Lead White comparison image clearly depict a color shift from white/cream to black or dark grey (simulating PbS), rather than an unrelated hue change (e.g., turning blue)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the Verdigris comparison image show a plausible shift from bright green to a duller, brownish, or blackened green, consistent with copper pigment degradation?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the Madder Lake comparison image demonstrate a loss of saturation (fading/whitening) rather than a shift to a darker or unrelated color?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Does the Varnish comparison image show a global yellow, amber, or sepia tone overlaying the original colors, simulating the optical effect of an aged resin layer?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Are the generated images free from severe AI artifacts (e.g., distorted geometry, garbled text) that would undermine their educational value?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Are the comparison images clearly labeled or structured (e.g., split-screen) to unambiguously distinguish the 'Before' (original) state from the 'After' (degraded) state?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Does the visual content of each comparison image strictly align with the specific chemical degradation mechanism described in its corresponding text section?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Do the images provide meaningful visual information regarding the nature of the color change (e.g., patchiness, overlay, desaturation) rather than just generic aging?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Is each comparison image placed immediately adjacent to (before or after) the textual explanation of that specific pigment's degradation mechanism?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 21,
+    "question": "Does the text explicitly reference the generated images (e.g., 'As shown in the comparison below...') to integrate the visual evidence into the chemical explanation?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 22,
+    "question": "Is the content structured with appropriate granularity, ensuring every image is supported by a detailed chemical explanation and vice versa?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 23,
+    "question": "Does the text use appropriate scientific terminology (e.g., 'polymerization', 'sulfide', 'chromophore') and maintain an educational tone suitable for the topic?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 24,
+    "question": "Are chemical formulas (if present) and pigment names (e.g., Lead Carbonate vs. Lead Oxide) factually accurate and consistent with established conservation science?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

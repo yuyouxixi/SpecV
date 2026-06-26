@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output strictly follow the requested five-step sequence: DNA double helix → mRNA transcription → ribosome translation → polypeptide chain → protein quaternary structure?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the output include five distinct schematic diagrams, one corresponding to each of the five requested stages?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Are key molecular components (e.g., sugar-phosphate backbone, RNA polymerase, ribosome subunits, tRNA, alpha-helices) clearly labeled in the diagrams as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text accurately describe the DNA double helix structure, including the antiparallel orientation of strands and complementary base pairing rules (A-T, G-C)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text accurately explain the information transfer logic during transcription, specifically mentioning the synthesis of mRNA from a DNA template and the substitution of Uracil (U) for Thymine (T)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text correctly describe the translation process, including the role of the ribosome in decoding mRNA codons via tRNA anticodons to assemble amino acids?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text explicitly explain the protein folding hierarchy, progressing logically from primary structure (sequence) to secondary (α-helix/β-sheet), tertiary, and finally quaternary structure?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the text clearly distinguish the fundamental functional difference between transcription (copying genetic code to RNA) and translation (decoding RNA to protein)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the DNA diagram correctly depict a double helix structure with two strands and label the sugar-phosphate backbone and/or nitrogenous bases?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the transcription diagram accurately show RNA polymerase bound to the DNA template strand and an emerging mRNA transcript?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the translation diagram visually distinguish between the large and small subunits of the ribosome and show tRNA molecules interacting with the mRNA?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the polypeptide chain diagram visually illustrate and label specific secondary structures like α-helices (coils) and β-sheets (arrows/pleats)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the final diagram accurately represent a quaternary structure by showing the interaction of multiple folded polypeptide subunits?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are all text labels within the images legible and free from severe distortions or nonsensical characters?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Are the diagrams free from major biological hallucinations, such as ribosomes transcribing DNA or tRNA carrying nucleotides instead of amino acids?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does each diagram directly visualize the specific molecular process described in its immediately surrounding text (Semantic Coherence)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Do the diagrams provide substantive educational value by illustrating mechanisms (e.g., pairing, folding) rather than serving as mere decorative elements?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Is each diagram placed immediately adjacent to the text section that introduces and explains the corresponding stage?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

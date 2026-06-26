@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output explicitly analyze exactly the five requested chart types: line chart, Sankey diagram, treemap, violin plot, and radar chart?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output contain exactly five generated images, with one distinct image corresponding to each of the five chart types?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text explain that Line Charts are best suited for continuous or temporal relationships and derive their accuracy from position encoding (the highest in the perceptual hierarchy)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the generated Line Chart image display a clear trend over an ordered x-axis (e.g., time) with a quantitative y-axis, consistent with the text description?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text explain that Sankey Diagrams are best suited for flow/transfer relationships, while noting specific limitations such as visual clutter or ambiguity when flows cross or loop?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the generated Sankey Diagram image visually depict flows between nodes where the band widths are proportional to the flow quantities?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the text explain that Treemaps are best suited for hierarchical part-to-whole relationships, while noting that area comparisons are perceptually less accurate than length or position?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the generated Treemap image correctly display a hierarchy using nested rectangles with areas proportional to their data values?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the text explain that Violin Plots are best suited for visualizing probability distributions/density, while noting limitations such as difficulty for lay audiences or sensitivity to bandwidth selection?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the generated Violin Plot image accurately show a density distribution mirrored across a central axis (symmetric shape) rather than a simple box plot or bar chart?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the text explain that Radar Charts are best suited for multivariate profiles, while explicitly warning about area misrepresentation or the arbitrary influence of axis ordering?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the generated Radar Chart image clearly display three or more quantitative axes radiating from a central point with a connected polygon shape?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the text explicitly use the visual encoding hierarchy to explain *why* a wrong chart type is misleading (e.g., explaining that judging area in a Radar chart is less accurate than judging position in a Bar chart)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Are all five generated images legible, with readable axis labels, legends, and data annotations that are free from garbled text or severe artifacts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the content of the generated images match the specific 'real data' context described in the text (e.g., if the text describes financial data, the image shows currency/financial labels)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Is each chart image placed immediately adjacent to (before or after) the text section that introduces and analyzes that specific chart type?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the text explicitly reference the generated images to support the theoretical analysis (e.g., using phrases like 'As shown in the figure below...')?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Is the ratio of text to image appropriate, with substantial theoretical analysis accompanying each image rather than sparse captions?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

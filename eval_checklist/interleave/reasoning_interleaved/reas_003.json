@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output contain exactly two distinct images: one depicting a brand-new bronze Athena statue and one depicting a weathered version of the same statue?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the first generated image clearly depict a brand-new, gleaming ancient Greek-style bronze Athena statue on an outdoor marble pedestal, with a metallic finish and no visible corrosion?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the generated text accurately explain the chemical weathering process, specifically stating that verdigris (patina) forms via oxidation or reaction with seaside elements (e.g., salts/chlorides)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text correctly explain that concave and recessed structures accumulate more moisture and particulates, leading to preferential patina formation in these areas?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text correctly explain how convex or wind-exposed surfaces experience different weathering patterns (e.g., reduced patina due to runoff/abrasion or directional erosion)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the second generated image visually correspond to the text's explanation by showing denser green/blue patina (verdigris) in the statue's crevices (concave areas) compared to exposed surfaces?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the second generated image visually demonstrate the specific effects on wind-exposed or convex surfaces mentioned in the text (e.g., pitting, directional weathering, or worn highlights)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Do the two generated images maintain structural consistency (depicting the same Athena pose, 3D geometry, and pedestal) so that the primary difference is the surface weathering?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the text explicitly reference the generated images (e.g., 'As shown in the weathered image...') to demonstrate the specific chemical weathering patterns described?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Does the output demonstrate spatial-geometric reasoning by mapping the abstract chemical weathering principles to specific, concrete features of the Athena statue (e.g., 'folds of the robe', 'shield rim')?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are the generated images free of significant AI distortions (e.g., anatomical errors, garbled textures) that would undermine the scientific accuracy of the weathering demonstration?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

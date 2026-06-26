@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly three generated images in the specified order: (1) bird's-eye view, (2) structural diagram, and (3) nighttime rendering?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the first generated image depict a bird's-eye view rendering of the rooftop that clearly includes a planting zone, a composting zone, and a rest area?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Is the second generated image a structural diagram (e.g., schematic, cutaway, or annotated drawing) of raised planting beds rather than a standard photorealistic scene?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the third generated image depict a nighttime scene specifically featuring solar-powered ambient lighting effects?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the generated text explicitly describe the 'community interaction value' for the planting zone, composting zone, and rest area?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the text formatted professionally as proposal materials (e.g., using clear headers, bullet points, or slide-like segments) suitable for a PPT presentation?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the structural diagram in the second image explicitly depict accessibility features for wheelchair users (e.g., clearance height, approach space, or an illustrated user)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Do the images appear as architectural renderings or conceptual visualizations suitable for a design proposal, rather than unrelated stock photos?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the generated images free from severe AI artifacts (e.g., distortion, nonsense text, impossible geometry) that would undermine their professional use?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the text adjacent to the second image accurately describe the accessibility features shown in the structural diagram?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the text adjacent to the third image accurately describe the solar-powered lighting features shown in the nighttime rendering?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the first image (bird's-eye view) provide a clear spatial understanding of how the three zones (planting, composting, rest) are arranged relative to each other?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the second image (structural diagram) provide actionable visual details (e.g., dimensions, layers, or clearance) that help understand the construction of accessible beds?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are the images placed immediately adjacent to the specific text sections describing the respective views (e.g., bird's-eye view next to layout description)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Does the text explicitly reference the images (e.g., 'As shown in the diagram...') or provide a smooth narrative bridge between the visual and textual elements?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly four distinct images corresponding to the requested deliverables: (1) entrance guidance rendering, (2) greenhouse venue rendering, (3) timeline infographic, and (4) invitation card?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the generated invitation card image text or visuals clearly present a 'girlfriends afternoon tea' theme to serve as the requested disguise?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the entrance guidance rendering clearly depict a botanical garden pathway with specific decorative elements (e.g., signage, floral markers)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the main venue rendering clearly depict an indoor greenhouse conservatory setting with a glass dome/roof and tropical plants?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Is the timeline presented as a structured visual infographic (e.g., flowchart, timeline bar) rather than a decorative illustration or plain text screenshot?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the invitation card image exhibit a hand-drawn or illustrated artistic style (e.g., watercolor, sketch) as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the text contained within the timeline infographic and invitation card image visually legible?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Is the text organized with clear section headers or divisions corresponding to the four main deliverables?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Do the visual details in the entrance and venue renderings accurately reflect the specific decorative descriptions provided in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the timeline infographic visually represent the same chronological stages and activities described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Do the design renderings provide concrete spatial or layout information that aids in understanding the physical setup?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is each image placed immediately adjacent to or within the text section that describes it?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the text naturally introduce or reference each image (e.g., 'As shown in the rendering below...')?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

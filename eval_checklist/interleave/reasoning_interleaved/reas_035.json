@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output explicitly cover all three requested design variables for the comparative experiments: color schemes, label positions, and pattern densities?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Do the generated images and text clearly distinguish between designs intended to be perceived as 'heavier/more premium' versus those intended to be 'lighter/more refreshing'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Do all comparative experiment images maintain a consistent bottle shape/silhouette, varying only the specified design variables, as explicitly requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the output demonstrate valid experimental design by strictly isolating a single variable in each comparison set (e.g., changing only color while keeping label position and pattern density constant)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text correctly define 'visual weight' or related psychological perceptions in the context of packaging design (e.g., perceived heaviness, stability, or density)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the text accurately explain the mechanism for color influence (e.g., that dark/saturated colors generally increase perceived visual weight or density compared to light/pastel colors)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text accurately explain the mechanism for label positioning (e.g., that bottom placement lowers the visual center of gravity, creating stability/heaviness, while top placement feels lighter)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the text accurately explain the mechanism for pattern density (e.g., that higher density/complexity increases visual weight, while sparse patterns feel lighter)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "In the 'Color Scheme' comparison images, is there a clear visual distinction between a dark/saturated variant and a light/pastel variant applied to the bottle?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "In the 'Label Position' comparison images, do the bottles clearly depict variations in vertical label placement (e.g., one near the bottom vs. one near the top or center)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "In the 'Pattern Density' comparison images, is there a visible contrast between a bottle with a dense/complex pattern and one with a sparse/minimalist pattern?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the generated images free of significant distortions (e.g., warped bottle geometry, impossible perspective, or melting artifacts) that would hinder design evaluation?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do the generated images visually align with the psychological effects described (e.g., the bottle described as 'heavier/premium' actually appears visually grounded or denser than the 'lighter' one)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Do the images provide high cognitive value by using a layout that facilitates direct comparison (e.g., side-by-side placement or clear labeling) rather than isolated, unrelated illustrations?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Do the comparative images across all sets (color, label, pattern) maintain a consistent visual style and scale, ensuring a coherent presentation?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Are the comparative images placed immediately following or adjacent to the specific text section analyzing that variable (e.g., Color text -> Color image)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Does the output include at least one distinct set of comparative images for each of the three requested design variables (Color, Label, Pattern)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

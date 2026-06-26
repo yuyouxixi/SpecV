@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the response provide exactly 3 distinct living room layout plans as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does each of the 3 layout plans include a corresponding 3D rendered image?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly annotate key furniture dimensions (e.g., sofa length, cabinet depth) for each of the 3 plans?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does each plan include both an analysis of 'pros and cons' and a specification of 'suitable household types'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text describe specific storage solutions (e.g., full-wall cabinets, built-ins) for each plan to meet the 'adequate storage' requirement?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Do the generated images visually reflect the requested 'Nordic style' (e.g., light wood, neutral tones, minimalist aesthetic)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Do the 3D rendered images realistically portray the spatial proportions of a compact 18-square-meter room, avoiding unrealistically spacious depictions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the furniture dimensions and layout constraints described in the text practically implementable in an 18-square-meter room (e.g., avoiding oversized furniture)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Do the 3 plans demonstrate meaningful layout variations (e.g., changing sofa configuration or furniture orientation) rather than just cosmetic changes?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the furniture arrangement shown in each image match the specific layout described in its adjacent text (e.g., L-shaped sofa in text appears as L-shaped in image)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Do the generated images visually depict the storage solutions mentioned in the text (e.g., visible cabinets or shelving units)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Do the generated images provide meaningful spatial information (e.g., showing furniture placement relative to walls) rather than being generic close-ups?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are the 3D rendered images free from obvious AI artifacts (e.g., distorted geometry, floating objects) and of high visual clarity?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is each 3D image placed immediately adjacent to the text description of that specific plan?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

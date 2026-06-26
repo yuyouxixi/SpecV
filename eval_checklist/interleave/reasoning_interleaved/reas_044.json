@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output include four distinct comparison sets corresponding to the four requested error types: (1) inconsistent light source direction, (2) conflicting perspective vanishing points, (3) missing contact shadows, and (4) color temperature/noise mismatch?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does each comparison set contain exactly two images: one clearly identifiable as the 'Flawed' version demonstrating the error, and one 'Corrected' version fixing it?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text explaining 'conflicting perspective' mention the brain's geometric priors, such as the expectation of a consistent horizon line or the convergence of parallel lines to shared vanishing points?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text explaining 'missing contact shadows' discuss the cognitive concept of 'grounding' or how the lack of ambient occlusion/contact darkening signals that an object is floating rather than resting on a surface?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "In the 'inconsistent light source' comparison set, does the flawed image visually demonstrate shadows or highlights cast in conflicting directions across different objects, while the corrected version unifies them under a single global light source?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "In the 'conflicting perspective' comparison set, does the flawed image depict objects where the vanishing points or horizon lines do not align (e.g., an object appearing to tilt or slide), while the corrected version aligns the geometry?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "In the 'missing contact shadows' comparison set, does the flawed image clearly show a subject appearing to float due to the absence of darkness at the touch-point, while the corrected image includes a realistic contact/ambient occlusion shadow?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "In the 'color temperature/noise mismatch' comparison set, does the flawed image exhibit a noticeable difference in grain (pixelation/noise) or white balance (warm vs. cool) between the inserted object and the background, which is resolved in the corrected version?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Do the 'Corrected' images in each set precisely fix only the target error while maintaining the exact same subject identity, pose, and background context as the 'Flawed' version, ensuring a valid A/B comparison?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Are the generated images free of severe AI-specific distortions (e.g., deformed anatomy, unreadable text, impossible geometry) that are unrelated to the intended compositing error?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the text explicitly reference the visual cues in the generated images to explain the cognitive theory (e.g., 'Notice how the lack of shadow in Figure 3 triggers...'), linking the visual evidence to the explanation?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is each image set placed immediately adjacent to the text section discussing that specific compositing error, rather than grouping all images at the end or beginning?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the output address the prompt's request to explain 'Why do some photos look obviously fake at first glance' by discussing rapid, pre-attentive processing or 'gut feeling' detection mechanisms alongside the technical analysis?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

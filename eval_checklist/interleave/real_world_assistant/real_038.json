@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly three images in the specified sequence: (1) full-body shot, (2) macro fabric close-up, and (3) flat-lay?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the first image depict a full-body shot of a model wearing a dark green pajama set in a French vintage-style bedroom?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the first image feature distinct striped shadow patterns consistent with morning sunlight streaming through venetian blinds?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Are the lighting and shadow effects in the first image realistic (e.g., shadows wrap naturally around the model and environment rather than appearing as flat overlays)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the second image provide a macro close-up that clearly showcases the texture, luster (sheen), and drape of the silk fabric?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the third image show the complete pajama set (top and bottom) arranged as a flat-lay on a pure white background?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Is the dark green color of the pajama set consistent across all three images (full-body, macro, and flat-lay)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the pajama set design maintain subject consistency across the three different scales (full-body, macro, flat-lay) without changing into a different product style?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are all generated images free from obvious AI artifacts (e.g., distorted hands, extra limbs, warped object boundaries, or incoherent geometry)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the marketing copy written in a premium, persuasive tone suitable for luxury e-commerce sleepwear?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is the text formatted with appropriate structure for a product page (e.g., using headings, bullet points, or concise paragraphs rather than dense walls of text)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Is the content structured in an interleaved format with text placed between the images?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Does the text adjacent to the macro shot specifically discuss the fabric's material properties (e.g., texture, quality, feel)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the text adjacent to the full-body shot relate to the lifestyle, fit, or mood depicted in the image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

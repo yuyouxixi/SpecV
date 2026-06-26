@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output include a distinct section for all six requested milestones: Sundial, Water Clock, Mechanical Clock, Pendulum Clock, Quartz Clock, and Atomic Clock?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output follow the interleaved format by providing both an explanatory text and a corresponding visual schematic for each of the six milestones?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly discuss the 'orders of magnitude' improvement in precision between generations (e.g., explaining the 10x or 100x leaps between mechanical, pendulum, and quartz)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text construct a causal chain for the major transitions (Mechanical→Pendulum, Pendulum→Quartz, Quartz→Atomic) linking a specific physical principle breakthrough to the resulting precision leap?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the Mechanical Clock section explicitly identify the 'escapement mechanism' as the key regulator and cite accuracy in the range of minutes per day?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the Pendulum Clock section identify 'isochronism' (constant period of swing) as the breakthrough principle and cite accuracy in the range of seconds per day?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the Quartz Clock section identify the 'piezoelectric effect' of quartz crystals as the breakthrough principle and cite accuracy better than 1 second per day?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the Atomic Clock section identify the 'cesium-133 hyperfine transition' (or microwave resonance) as the breakthrough principle?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the generated Sundial image accurately depict a gnomon casting a shadow onto a marked dial?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the generated Water Clock image accurately depict a vessel with a regulated flow mechanism (inflow or outflow) and level markings?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the generated Mechanical Clock image depict an internal escapement mechanism (e.g., escape wheel and verge/anchor) rather than just an external clock face?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the generated Pendulum Clock image show a pendulum bob/rod connected to a gear train or escapement mechanism?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the generated Quartz Clock image depict a quartz crystal component connected to an electronic oscillator circuit?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the generated Atomic Clock image depict the key components of a beam tube or resonator (e.g., atoms, microwave cavity, detector) rather than a standard digital clock?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Are the text labels within the schematic diagrams (e.g., 'escapement', 'crystal', 'detector') legible and free of severe garbling?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Do the components shown in the images semantically align with the specific technical descriptions in the text (e.g., the text describes a piezoelectric crystal and the image shows one)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Do the generated images function as 'working principle schematics' (showing internal mechanics/flows) rather than merely being decorative external photographs?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 18,
+    "question": "Is each schematic placed immediately adjacent to (or following) the specific text section describing that instrument's mechanism?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Is there a balanced ratio of text to imagery, where each milestone receives substantive explanation paired with its specific schematic?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

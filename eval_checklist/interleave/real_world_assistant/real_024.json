@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text outline a structural plan for a 12-page zine layout as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the response include exactly 4 generated images representing the layout mockups for the selected spreads?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the response include generated images for both the Front Cover and the Back Cover?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Do the photographic elements within the generated mockups clearly depict the theme 'Industrial Ruins on the Urban Fringe' (e.g., rusted metal, abandoned factories, overgrown vegetation)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Do the generated spread mockups clearly depict a two-page book layout (e.g., visible center gutter or side-by-side page composition) rather than single isolated pages?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Do the generated layout mockups visually demonstrate the requested 'Japanese-style photobook aesthetic' with generous white space (negative space)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do the 4 generated spread mockups demonstrate distinct layout rhythms (e.g., varying between full-bleed images, grid arrangements, and text-heavy pages) rather than repeating the same template?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Do the generated layout mockups show clear typographic hierarchy (e.g., distinguishing between titles, captions, and body text) consistent with the request for 'distinctive typography'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the text description for each spread accurately match the visual layout shown in the adjacent generated image (e.g., if text says 'full-bleed image on left', the image shows that)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Do all generated images (spreads and covers) maintain a consistent visual style (color palette, lighting, typographic treatment) creating a cohesive book identity?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Do the generated images serve as informative layout mockups (showing the book object, page boundaries, or typographic placement) rather than just being raw, unformatted photographs?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Are the generated images placed immediately adjacent to the textual description of that specific spread or cover?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

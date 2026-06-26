@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output include exactly three distinct images corresponding to the requested diffuse map, normal map, and roughness map?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Does the text portion include a specific explanation of shader connection nodes and how to blend the maps to achieve realistic specular highlights?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the image identified as the diffuse map visually depict a bronze surface with visible green or teal patina/verdigris?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the image identified as the normal map use a predominantly blue-purple color palette to represent surface bump details?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the image identified as the roughness map strictly grayscale (black, white, and gray tones) without color information?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the diffuse map appear to be a flat albedo texture without strong baked-in directional shadows or specular highlights?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do the generated texture images appear to be flat, top-down assets suitable for tiling, rather than perspective photographs of a 3D object?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the generated images free from significant artifacts (e.g., watermarks, blurred details, nonsensical distortions) that would render them unusable as textures?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the text accurately reference standard shader nodes or inputs (e.g., Base Color, Normal, Roughness) found in PBR workflows?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the shader explanation correctly advise passing the normal map texture through a vector converter (e.g., 'Normal Map' node) before connecting it to the shader's Normal input?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the text correctly explain the relationship between the maps and specular highlights (e.g., how roughness variation affects highlight sharpness or spread)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the text recommend correct color space settings for the textures (e.g., sRGB for Diffuse, Non-Color/Linear for Normal and Roughness)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do the surface features in the normal and roughness maps logically align with the diffuse map (e.g., patina areas show appropriate roughness/bump variation)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Do the three maps share a consistent scale and pattern density, appearing to belong to the same material set?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are the texture images placed immediately adjacent to the text describing that specific map type?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Does the text correctly identify the metallic nature of the material (e.g., referencing a Metallic input or suggesting a high metallic value for the bronze parts)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

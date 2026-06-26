@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the response generate three distinct images in the exact order requested: (1) a melting metal pocket watch, (2) a giant throne woven from branches, and (3) a layout composition draft?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the first generated image clearly depict a 'melting metal pocket watch' that exhibits surrealist distortion (e.g., dripping, drooping) and metallic texture?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the second generated image clearly depict a 'giant throne' constructed specifically from dead or dried tree branches?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the third generated image (layout composition draft) depict both the melting watch and the branch throne arranged on a dried-up salt lake background?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the 'melting metal pocket watch' asset generated on a pure white or pure black background to facilitate easy cutout extraction?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Is the 'giant throne' asset generated on a pure white or pure black background to facilitate easy cutout extraction?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text immediately following each of the three images explicitly indicate the lighting and shadow direction to be used for post-production?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Do the lighting and shadow notes provide specific, actionable technical details (e.g., light source angle, shadow hardness/softness, or cast direction) rather than vague descriptions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the response include specific technical notes on the compositing approach (e.g., regarding perspective, blending, color grading, or scale) for the surrealist poster?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are the generated asset images (watch and throne) free of complex background elements, gradients, or heavy artifacts, ensuring they are practically usable for a cutout workflow?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the layout composition draft visually ground the elements on the salt lake surface (using shadows or perspective) rather than having them float arbitrarily?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the layout composition draft effectively convey the spatial arrangement and scale relationships between the watch, throne, and horizon?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Do all three generated images maintain a consistent surrealist aesthetic suitable for a cohesive poster design?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the text logically introduce or reference the images in close proximity to their placement, creating a smooth reading flow?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

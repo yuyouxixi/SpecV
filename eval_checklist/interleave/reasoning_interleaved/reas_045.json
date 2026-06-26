@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output include content for all four specified instruments (piano, violin, flute, timpani) without omitting any?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output contain at least 8 distinct visualizations, specifically one spectrum diagram AND one waveform graph for each of the four instruments?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text consistently use A4 (440 Hz) as the reference pitch for all instrument explanations and visualizations?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text accurately explain the physical causes of inharmonicity or non-harmonic overtones for the Piano (string stiffness) and Timpani (circular membrane modes)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the Flute's spectrum diagram show a strong peak at the fundamental (440 Hz) with significantly fewer or weaker higher harmonics compared to the Violin's spectrum?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the Violin's spectrum diagram display a rich harmonic series with prominent energy extending into higher integer harmonics (both odd and even)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the spectrum diagram for the Timpani (or Piano) visually depict or label non-integer/inharmonic partials, distinguishing it from the perfect harmonic series of the Violin/Flute?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Do the waveform graphs correctly contrast the instruments: showing a smooth/sinusoidal shape for the Flute versus a complex/jagged shape for the Violin?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are all generated charts clearly labeled with legible axes: 'Frequency (Hz)'/Amplitude for spectra and 'Time (ms)'/Amplitude for waveforms?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Do all spectrum diagrams use a consistent frequency scale (range) and do all waveform graphs use a consistent time scale to allow for valid visual comparison across instruments?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Are the visualizations placed immediately adjacent to the relevant text sections describing that specific instrument's sound characteristics?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the text explicitly reference the generated images using transitional phrases (e.g., 'As seen in the spectrum below...') to integrate the visuals into the explanation?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the content logically derive subjective timbre descriptors (e.g., 'warm,' 'pure,' 'percussive') from the objective physical data shown in the generated spectra and waveforms?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

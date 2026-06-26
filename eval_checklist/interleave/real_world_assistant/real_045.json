@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text provide a clear, step-by-step assembly process for building the table lamp?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text explicitly list the required materials (gears, brass tubes, Edison bulb, walnut wood base) corresponding to the prompt's requirements?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Are the assembly instructions logically sequenced and physically plausible (e.g., wiring steps included, parts connected in a stable order)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the first generated image clearly display all four required components: gears, brass tubes, an Edison bulb, and a walnut wood base?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the second generated image depict a fully assembled table lamp rather than loose parts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are the generated images free from significant AI artifacts, such as distorted gear teeth, impossible tube connections, or floating components?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Is there physical-logical consistency between the parts shown in the first image and the assembled lamp in the second image (e.g., the final lamp appears constructed from the specific wood and brass parts displayed)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the text description of the 'Victorian-era steampunk' aesthetic match the visual style presented in the generated images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Is the first image (parts flat lay) placed logically at the beginning of the guide or immediately adjacent to the 'Materials Needed' text section?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the second image (assembled lamp) placed logically after the assembly steps or at the conclusion of the guide to show the final result?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the response contain exactly two generated images as specified in the prompt?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the output strictly follow the interleaved image-text format (i.e., images are integrated within the text flow, not grouped all at the start or end)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the first image specifically adhere to the 'Knolling' photography style (organized flat lay with items at 90-degree angles, shot from directly above)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the second image clearly show the lamp in a lit state, emitting a warm yellow glow as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Do both the text and images successfully capture the specific 'Victorian-era steampunk' aesthetic (e.g., ornate brass details, vintage filament bulbs) rather than a generic industrial look?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

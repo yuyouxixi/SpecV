@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly three generated images, one corresponding to each of the requested fabrics: Silk Crepe de Chine, Worsted Wool, and Crisp Silk Taffeta?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are all three generated images specifically 'on-body' effect images showing the skirt worn by a human figure, rather than flat lays or fabric swatches?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly confirm that all three examples utilize the same 'A-line skirt' pattern to ensure the comparison focuses solely on fabric properties?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text explanation explicitly attribute the differences in drape to both 'fiber elastic modulus' (stiffness) and 'fabric weave structure'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text correctly attribute the fluid drape of Silk Crepe de Chine to factors such as high-twist yarns or the specific crepe weave structure?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the text correctly attribute the structural stiffness and shape retention of Silk Taffeta to its tight plain weave structure?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text correctly describe Worsted Wool as having intermediate drape properties (smoother/stiffer than crepe but less rigid than taffeta) due to its specific yarn and weave characteristics?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image for 'Silk Crepe de Chine' visually depict a skirt with soft, fluid, cascading folds that drape closely to the body?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the generated image for 'Crisp Silk Taffeta' visually depict a skirt that holds a structural shape, standing away from the body with sharp, angular folds?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the generated image for 'Worsted Wool' visually depict a skirt with a tailored, smooth drape that is heavier/stiffer than the crepe but less rigid than the taffeta?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do the three generated images maintain a consistent visual style, pose, camera angle, and scale to allow for a direct comparison of the fabrics?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do the visual details in the images (fold density, silhouette crispness) accurately reflect the physical properties described in the text for each respective fabric (e.g., text mentions sharp creases, image shows sharp creases)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Is each fabric's image placed in immediate proximity (immediately before or after) to the text section analyzing its specific properties?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are the generated images free from significant artifacts (e.g., distorted anatomy, incoherent textures) and of sufficient resolution to observe fabric drape details?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

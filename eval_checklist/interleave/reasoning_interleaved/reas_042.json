@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output strictly follow the interleaved format requirement, alternating between explanatory text and relevant visual aids (comparison scenes and diagrams) rather than grouping all images at the start or end?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Does the output include specific comparison images of the same scene labeled as 'Kodak Portra 400' (or film simulation) versus 'Digital' (straight-out-of-camera)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the generated content cover all three specific perspectives requested: physical structure (silver halide vs. silicon), color response curves, and highlight rolloff characteristics?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text accurately explain the physical structural difference, explicitly identifying film as having randomly distributed 'silver halide grains' and digital sensors as having a regular grid of 'silicon photodiodes' (or pixels)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text correctly describe 'highlight rolloff' characteristics, noting that film typically exhibits a soft 'shoulder' (S-curve) compression while digital sensors tend to have a linear response leading to hard clipping?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text logically connect the physical structure differences (random grains vs ordered grid) to their resulting visual texture manifestations (organic grain vs digital noise patterns)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the film vs digital comparison images depicting the same underlying scene content (same composition, subject, and lighting) to enable a valid direct comparison?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the generated 'Kodak Portra 400' simulation image visually exhibit the described aesthetic characteristics (e.g., warmer tones, softer highlight transitions) clearly distinguishable from the 'Digital' comparison image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the text explicitly reference the generated images (e.g., 'As shown in the comparison below...', 'The diagram illustrates...') to guide the reader's attention?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

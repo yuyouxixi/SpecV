@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the response generate exactly three images corresponding to the specified subjects: (1) front elevation of main stage, (2) overhead seating layout, and (3) close-up of entrance effects?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Do the images appear in the exact order requested: stage front elevation, then overhead seating, then entrance effects?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly confirm the venue is an abandoned steel smelting plant and integrate this setting into the design rationale?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text explicitly explain how the spatial design elements echo and reinforce the 'Breaking Through' theme?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Do the generated visuals and text successfully fuse 'industrial ruins' (blast furnace, rust, steel) with 'modern technology' (LEDs, lasers) as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the second generated image successfully depict a non-traditional seating arrangement (wraparound, irregular, or organic) distinctly different from standard theater rows?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the response translate the abstract 'Breaking Through' theme into concrete spatial metaphors (e.g., breaking barriers, emergence, fracture lines) within the design?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the first generated image depict a front elevation rendering (straight-on view) of the main stage?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the first generated image clearly incorporate a blast furnace structure combined with LED screens and laser lights?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the second generated image present a clear overhead/bird's-eye view of the audience seating area?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the third generated image depict a close-up view focusing on dry ice/fog effects and lighting?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are all generated images free from severe AI artifacts (e.g., malformed trusses, impossible geometry, garbled text, smeared lighting)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the text provide technically sound, practical explanations of the design elements (e.g., screen placement, flow, lighting angles) rather than just high-level description?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the first image accurately reflect the specific fusion of industrial and modern elements described in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Does the second image visually match the specific seating layout description (e.g., wraparound, irregular) provided in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Does the third image accurately depict the specific atmospheric lighting and dry ice effects described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is the response free from contradictions between text descriptions and visual depictions (e.g., text says 'circular seating' but image shows rows)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Do all three images maintain a consistent visual style, color palette, and lighting atmosphere (e.g., dark industrial with bright accents)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "question": "Do all images appear to depict the same venue (abandoned steel smelting plant) with coherent architectural elements?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 20,
+    "question": "Is there a logical narrative flow connecting the stage design, audience experience, and entrance effects into a cohesive event story?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly 6 generated images, distributed as 3 logo designs, 2 store space renderings, and 1 cup packaging mockup?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text explicitly identify the brand name as 'Shan Yin' (Mountain Seclusion) and address the target audience of urban white-collar professionals aged 25-35?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the response include all requested text-based deliverables: brand color palettes (with specific codes/names) and typography recommendations?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Do the three logo images demonstrate three distinct design directions (e.g., calligraphic vs. geometric vs. illustrative) rather than appearing as minor variations of a single design?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Do the two store space concept images depict distinct views or design variations suitable for a commercial proposal, rather than being identical duplicates?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text provide concrete technical specifications, including color values (Hex, RGB, or CMYK) and specific font names or style categories?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do the generated logo images visually embody 'neo-Chinese' aesthetics (e.g., combining traditional elements like mountains/ink strokes with modern minimalist lines)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Do the store space renderings and cup mockup appear realistic with plausible perspective, lighting, and material textures (e.g., wood, stone, matte finish)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the logo images legible and free from severe AI artifacts (e.g., garbled text, distorted geometry) that would render them unusable?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does each logo image visually correspond to the specific design direction or rationale described in its immediately adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Do the store renderings and cup mockup visually reflect the specific design concepts, materials, and colors described in their corresponding text sections?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do all generated images (logos, store renderings, and cup mockup) maintain a consistent visual identity and color palette appropriate for the brand?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do the store renderings and cup mockup provide sufficient visual detail to serve as a practical reference (showing layout, furniture, or logo placement clearly)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is every generated image placed immediately adjacent to or within the text section that describes it (e.g., logo images next to logo descriptions)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the overall response follow a logical professional sequence (e.g., Strategy -> Logos -> VI System -> Space Design -> Packaging)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text explicitly define International Klein Blue (IKB) using specific reference values (e.g., Hex, RGB, or hue angle ~240°) or a precise descriptive definition (deep ultramarine)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text correctly explain the theoretical angular relationships used to derive the schemes (180° for complementary, adjacent to complement for split-complementary, and 120° intervals for triadic)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text provide a distinct analysis of the emotional tone for each of the three generated schemes (e.g., contrast/tension for complementary vs. balance/playfulness for triadic)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the text written in a clear, professional tone appropriate for brand design, using correct color theory terminology throughout?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Does the generated 'Complementary' swatch image visually display International Klein Blue paired with a vibrant orange or yellow-orange hue?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the generated 'Triadic' swatch image depict International Klein Blue plus two other equidistant colors (red/orange-red and green/yellow-green)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "In all generated images, is International Klein Blue depicted consistently as a deep, vivid ultramarine blue (rather than cyan, navy, or purple)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Do the generated brand collateral mockups strictly utilize the specific color palette corresponding to their assigned scheme (Complementary, Split-Complementary, Triadic)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the generated images (swatch cards and mockups) visually clear and free from severe AI artifacts (e.g., distorted text, warped shapes, or unrealistic object rendering)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the text within the generated swatch cards (e.g., labels, color names, or hex codes) legible and free from gibberish?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Do the colors shown in the generated swatch cards visually match the specific hues described or calculated in the surrounding text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the swatch cards serve as informative visual aids that clearly demonstrate the palette relationships (e.g., distinct swatches) rather than being merely decorative?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do all three generated brand collateral mockups maintain a consistent brand identity (e.g., logo style, typography, collateral type) to allow fair comparison of the color schemes?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Are the images interleaved such that the swatch and mockup for a specific scheme appear immediately following the text section discussing that scheme?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the output include at least six distinct images total (one swatch card and one mockup for each of the three schemes)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Does the text explicitly reference the generated images with transitional language (e.g., 'The swatch below shows...', 'As seen in this mockup...')?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Does the output address all three requested color harmony schemes: complementary, split-complementary, and triadic?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Does the output generate both a color swatch card AND a brand collateral mockup for each of the three color schemes as explicitly requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Does the output include a text-based emotional tone analysis that explicitly compares and contrasts the three schemes?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Do all derived color schemes strictly conform to the established color theory angular relationships (180° for complementary, ~150°/210° for split, 120° for triadic) without significant deviation?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

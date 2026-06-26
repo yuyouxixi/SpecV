@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output include illustrated explanations for all four requested perspective types: One-Point, Two-Point, Three-Point, and Fisheye/Curvilinear?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output generate a distinct architectural scene image for each of the four perspective types (no duplicate images or abstract non-architectural diagrams)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly explain the specific composition suitability for each linear perspective type (e.g., One-Point for tunnels/focus, Two-Point for corners, Three-Point for extreme height)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text explanation for Fisheye perspective correctly identify the essential difference from linear perspective (e.g., projection onto a curved/spherical surface vs. a flat plane)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the One-Point perspective image accurately depict a scene with exactly one vanishing point located on the horizon line?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "In the One-Point perspective image, do the front-facing vertical and horizontal lines remain parallel (non-converging), with only depth lines converging?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the Two-Point perspective image accurately depict a scene with exactly two vanishing points located on the horizon line?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "In the Two-Point perspective image, do the vertical architectural lines remain perpendicular to the ground (non-converging), distinguishing it from Three-Point perspective?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the Three-Point perspective image accurately depict a scene with three vanishing points (two on the horizon, one vertical for height/depth)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "In the Three-Point perspective image, do the vertical lines converge toward a third vanishing point (above or below), indicating a tilted camera view?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the Fisheye perspective image visually demonstrate barrel distortion where straight architectural lines appear curved, clearly distinguishing it from the linear examples?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the specific visual elements 'Vanishing Point(s)' and 'Horizon Line' explicitly marked or labeled in the generated linear perspective images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Are the labels (e.g., VP, Horizon) within the generated images legible and clearly distinguishing construction elements from the architectural scene?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Do the architectural scenes depicted in the images semantically match the descriptions provided in the surrounding text (e.g., matching the described building type or viewpoint)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the images placed immediately adjacent to their corresponding theoretical explanations to serve as direct visual proofs?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the content structured in a logical pedagogical progression (e.g., One-Point -> Two-Point -> Three-Point -> Fisheye)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are the perspective constructions in the images internally self-consistent (e.g., all parallel edges converge to the same VP without conflicting angles)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Does the output avoid factual errors, such as claiming Two-Point perspective has vertical convergence or that Linear perspective curves straight lines?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "In the Two-Point perspective image, do the two sets of horizontal receding lines converge strictly to their respective separate vanishing points without cross-contamination?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

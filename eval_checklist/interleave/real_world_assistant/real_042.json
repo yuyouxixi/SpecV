@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model generate exactly two images as strictly instructed in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text explicitly name the dessert 'Autumn Falling Leaves' as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the first generated image depict a top-down view of the dessert placed specifically on a 'black matte slate plate'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the first image clearly feature 'caramel maple leaves' and a 'sprinkle of gold leaf flakes' on the side?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the second generated image display a side cross-section view showing distinct internal layers (mousse, jelly, and biscuit base)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Do the images exhibit high-quality, distinct rendering of material textures, specifically differentiating between the matte slate, glossy caramel, and metallic gold?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text explicitly describe the ingredients and textural sensations (e.g., creamy, crunchy) for each layer of the dessert?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the tone of the text sophisticated and professional, suitable for a proposal to a three-Michelin-star restaurant?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Do the visual layers shown in the second image (mousse, jelly, biscuit) correspond semantically to the ingredients described in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the dessert shown in the cross-section view (Image 2) visually consistent in shape, color, and style with the exterior view (Image 1)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are the images placed in a logical sequence, with the top-down view (Image 1) introducing the design and the cross-section (Image 2) accompanying the detailed layer breakdown?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the cross-section view demonstrate logical physical structure (e.g., biscuit base at the bottom, layers contained within the mousse geometry) rather than defying gravity or geometry?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Is the proposal practical and detailed enough (both visually and textually) to serve as a plausible design brief for a professional pastry chef?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

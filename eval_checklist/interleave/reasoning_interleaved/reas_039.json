@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output successfully generate content for all four required environments: desert, tropical rainforest, alpine tundra, and aquatic?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output select a specific, representative plant species for each of the four environments?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the output provide exactly two images per environment: one macro close-up of the leaf and one panoramic shot of the growth environment (approx. 8 images total)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Is the content presented in an interleaved format with images interspersed among the text, rather than all text followed by all images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text for the Desert environment correctly explain morphological adaptations (e.g., waxy cuticle, succulence, sunken stomata) and explicitly link them to the stress of water scarcity?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text for the Tropical Rainforest environment correctly explain morphological adaptations (e.g., drip tips, large surface area, smooth cuticle) and link them to light competition or water shedding?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the text for the Alpine Tundra environment correctly explain morphological adaptations (e.g., pubescence/hairs, rosette form, compact size) and link them to cold/wind resistance?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the text for the Aquatic environment correctly explain morphological adaptations (e.g., aerenchyma, thin cuticle, floating leaves) and link them to buoyancy or gas exchange?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the text consistently apply the 'Environmental Stress → Morphological Response → Survival Advantage' logical chain for all four plants without missing components?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the text free from factual errors, hallucinations, or internal contradictions regarding plant biology and ecology?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the generated macro close-up image for the Desert plant clearly depict features consistent with the text (e.g., fleshy texture, spines, thick waxy surface)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the generated macro close-up image for the Rainforest plant clearly depict features consistent with the text (e.g., drip tip, broad blade, prominent venation)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the generated macro close-up image for the Alpine Tundra plant clearly depict features consistent with the text (e.g., visible hairs/trichomes, compact/rosette structure)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the generated macro close-up image for the Aquatic plant clearly depict features consistent with the text (e.g., floating pad, translucent tissue, or dissected submerged leaves)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Do all four panoramic images accurately represent their respective biomes (arid desert, dense rainforest, rocky/snowy tundra, water body) without obvious cross-contamination?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Do the images serve a genuine informative purpose (visualizing specific traits or habitat conditions) rather than being generic decorative stock photos?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Is each image placed immediately adjacent to (or following) the text that describes the specific visual features or environment shown?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Is there an appropriate balance of text to images, where text provides substantial explanation of the biological mechanisms rather than just brief captions?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

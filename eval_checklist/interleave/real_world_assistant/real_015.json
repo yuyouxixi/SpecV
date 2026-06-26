@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the response include exactly the three requested deliverables: (1) a poisonous plant comparison chart, (2) a close-up knot-tying diagram, and (3) an overhead snake retreat schematic?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the generated output strictly exclude general scenery, landscape photos, or decorative jungle backgrounds as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Is the accompanying text extremely concise and presented as direct action steps (e.g., bullet points, numbered lists) rather than long narrative paragraphs?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text provide factually accurate and safe survival advice regarding insect/poison protection, avoiding dangerous medical myths (e.g., sucking venom)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the poisonous plant image depict a 'characteristic comparison chart' in a specific 'hand-drawn field guide' style (e.g., botanical sketches) as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the knot-tying image show a 'close-up diagram' clearly depicting the rope structure and threading pattern for a hammock mosquito net setup?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the snake retreat image depict an 'overhead schematic' (top-down view) showing a safe retreat path or strategy?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the visual elements (lines, arrows, text labels) in the generated diagrams legible and free from severe AI artifacts (e.g., garbled text, impossible geometry)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the poisonous plant chart visually correspond to the specific identifying features (e.g., leaf shape, berries) mentioned in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the knot-tying diagram visually match the specific step-by-step instructions or knot type described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the snake retreat schematic visually align with the safety procedures (e.g., direction of movement, distance) described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do the images provide necessary visual details (e.g., specific morphology, rope threading path, spatial layout) that clarify the text instructions beyond what text alone could convey?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is each image placed immediately adjacent to the specific text section it illustrates (e.g., knot diagram next to setup instructions)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

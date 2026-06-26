@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output explicitly address all three calendar systems mentioned in the prompt: the Chinese lunisolar calendar, the Islamic calendar, and the Gregorian calendar?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output include a distinct visual diagram representing the annual structure for each of the three calendar systems?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the content generated in an interleaved format, effectively integrating both text and images throughout the response?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text correctly classify the Gregorian calendar as a solar calendar, the Islamic calendar as a lunar calendar, and the Chinese calendar as a lunisolar calendar?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text accurately define the tropical year as approximately 365.24 days and the lunar year (12 synodic months) as approximately 354.37 days?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text explicitly explain the core astronomical contradiction that 'the solar year and the synodic month cannot be evenly divided' as the root cause for the differences in the three systems?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text accurately state the Gregorian intercalation rule: a leap year every 4 years, excluding century years unless they are divisible by 400?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Does the text correctly identify the Islamic calendar's intercalation method (e.g., the 30-year cycle with 11 leap years) and explicitly state that it does not use intercalary months?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the text explain the consequence of the Islamic calendar's lack of solar intercalation, specifically mentioning that it drifts through the seasons (approx. 11 days per year)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the text explain the logical reasoning behind the intercalation rules (e.g., why the Gregorian 100/400 rule is needed for accuracy, or how the Chinese leap month restores seasonal alignment)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the generated diagram for the Gregorian calendar depict a 12-month structure and visually indicate the leap mechanism (e.g., February 29th or an extra day marker)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the generated diagram for the Islamic calendar accurately represent a 12-month lunar structure without depicting intercalary months?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the generated diagram for the Chinese calendar visually represent the concept of an intercalary month (e.g., showing a 13-month year or a mechanism for solar alignment)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are the text labels and numerical values within the generated diagrams legible and free of severe AI-generated text distortion?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Are the numerical values and structural rules depicted in the images consistent with the explanations provided in the text (e.g., year lengths match)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Is each calendar system's diagram placed immediately adjacent to or following the textual explanation of that specific system?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Does the text explicitly reference the generated diagrams (e.g., 'As shown in the diagram below...') to ensure smooth transitions between text and visuals?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

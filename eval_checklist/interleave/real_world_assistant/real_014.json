@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output include exactly two distinct visual layout designs, clearly identified as Spread A and Spread B?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the generated content specifically address the theme of 'Urban Weeds' in both text descriptions and visual subjects?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the image for Spread A strictly depict a left page with a full-bleed photograph (extending to edges) and a right page with poetry typesetting and generous white space?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the image for Spread B strictly depict a grid layout containing exactly 4 distinct sections or modules to showcase 4 types of weeds?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text explicitly explain the grid system parameters (e.g., column layout, margin proportions) used for the designs?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text use accurate editorial/design terminology (e.g., 'bleed', 'gutter', 'margin', 'grid', 'typography')?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Do the generated images clearly represent the concept of a 'magazine spread' by showing two facing pages joined by a spine or gutter?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the layout sketches visually clear enough to distinguish between image areas, text blocks, and white space without severe artifacts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Do the illustrations in the Spread B layout visually resemble 'botanical illustrations' (e.g., line art, drawings) rather than generic photographs?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the visual structure of the Spread B image (e.g., column count, module arrangement) align with the grid parameters described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the generated images for Spread A and Spread B maintain a consistent visual aesthetic (e.g., style, paper texture) suitable for a single Zine publication?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the response include at least one unique image generated for Spread A and one unique image generated for Spread B?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are the layout images placed immediately adjacent to or following their corresponding text descriptions?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the text provide specific, quantifiable values for the grid parameters (e.g., '3 columns', '15mm margin') rather than just vague descriptions?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

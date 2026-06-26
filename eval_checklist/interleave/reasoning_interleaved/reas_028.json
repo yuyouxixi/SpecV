@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text correctly attribute Mars's sky color primarily to Mie scattering caused by suspended dust particles, contrasting it with Earth's Rayleigh scattering?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the text explicitly describe the Martian sky at high noon as yellowish-brown/butterscotch and the sunset as having bluish tones near the sun (reversing Earth's typical color palette)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text explain that shadows on Mars are generally sharper and darker (higher contrast) than on Earth due to the thin atmosphere providing less ambient fill light?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the generated image for the 'High Noon' scenario depict a yellowish-brown, butterscotch, or salmon-colored sky, rather than an Earth-like blue sky?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the generated image for the 'Sunset' scenario visually demonstrate a bluish halo or cool gradient immediately surrounding the sun?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image for 'Pre-Dust Storm' depict increased atmospheric haze, reduced visibility, or a darker/redder tone compared to the High Noon image?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Do the generated images generally show sharp, high-contrast shadows consistent with a point light source in a thin atmosphere (unless specifically softened by dust storm conditions)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Do the visual features of each image (specifically sky color and shadow characteristics) strictly match the descriptive text provided for that specific lighting scenario?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Do the images serve as effective reference plates for a compositor, clearly showing lighting direction, horizon lines, and atmospheric gradients?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is each image inserted immediately after or adjacent to the specific text section describing that lighting condition?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the output provide at least one distinct image for each of the three requested scenarios (High Noon, Pre-Dust Storm, Sunset)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Did the model generate distinct content (text and images) for all three requested scenarios: High Noon, Pre-Dust Storm, and Sunset?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the text address all three requested explanation categories for each scenario: (1) sky color, (2) shadow appearance, and (3) fundamental differences compared to Earth?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the output explicitly address the counter-intuitive nature of the 'Blue Sunset' on Mars, explaining the physics rather than relying on Earth-based assumptions?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

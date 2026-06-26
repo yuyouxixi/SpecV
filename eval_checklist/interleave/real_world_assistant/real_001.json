@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the response strictly follow the requested output sequence: (1) Overall spatial atmosphere rendering, (2) Wall material close-up, (3) Worktable surface material close-up, and (4) Functional zoning floor plan sketch?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Are the wall material and worktable surface material presented as two separate, distinct close-up images rather than a combined collage or single image?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Is the final image a simplified functional zoning floor plan sketch (top-down view) rather than a photorealistic room perspective or complex architectural drawing?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text explicitly explain the reasoning behind the choice of the specific wall material, citing both aesthetic (wabi-sabi) and practical factors?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text explicitly explain the reasoning behind the choice of the specific worktable surface material, citing its suitability for ceramics work (e.g., durability, ease of cleaning)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text explain the logic behind the circulation flow design, detailing how the layout supports the movement between functional zones (e.g., clay prep → throwing → drying)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the text explicitly address the specific constraints of an attic space (e.g., sloped ceilings) and explain how the skylight is utilized in the design?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the overall spatial atmosphere rendering clearly depict an attic space with a visible skylight and recognizable ceramics studio elements (e.g., pottery wheel, shelving)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Do the material close-up images clearly show detailed surface textures consistent with the wabi-sabi style (e.g., rough plaster, natural wood, stone) rather than generic flat colors?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the floor plan sketch clearly label distinct functional zones appropriate for a ceramics studio (e.g., throwing area, glazing area, storage, sink)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the overall spatial rendering visually reflect the 'minimalist wabi-sabi' style described in the text (e.g., earthy tones, natural materials, simplicity)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Do the visual details in both the wall and worktable close-up images match the specific material descriptions provided in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the floor plan sketch accurately reflect the functional zones and circulation logic described in the text (i.e., zones mentioned in text appear on plan)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the floor plan sketch provide clear spatial information (e.g., relative proportions, circulation paths) beyond just a list of rooms, aiding in spatial understanding?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Are the materials shown in the close-up images visually consistent with the materials visible in the overall spatial atmosphere rendering?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Are the images placed logically adjacent to their relevant text sections (e.g., close-ups near material descriptions, plan near circulation text)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Are the proposed materials and spatial layout practical and safe for a real-world ceramics studio (e.g., avoiding water-sensitive materials in wet areas)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Does the proposal demonstrate successful spatial reasoning by effectively integrating the attic's skylight into the functional layout (e.g., placing detailed work areas near the light)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output include distinct sections covering all four requested bridge types: Beam, Arch, Suspension, and Cable-stayed?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the output address all three requested aspects for each bridge type: structural force diagrams, span length suitability, and underlying mechanical/economic principles?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text correctly explain the mechanics of a Beam Bridge, specifying that under downward load, the top fibers experience compression while the bottom fibers experience tension?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text correctly explain the mechanics of an Arch Bridge, stating that vertical loads are converted into axial compression transmitted along the arch to the abutments?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text correctly explain the mechanics of a Suspension Bridge, identifying that the main cables are in tension while the towers are primarily in compression?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the text correctly explain the mechanics of a Cable-stayed Bridge, identifying that the stay cables are in tension and transfer loads directly to the towers/pylons?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the generated force diagram for the Beam Bridge accurately depict compression occurring on the top surface and tension on the bottom surface?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the generated force diagram for the Arch Bridge correctly show axial compression forces flowing along the arch structure toward the foundations?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the generated force diagram for the Suspension Bridge correctly label/indicate the main cables in tension and the towers in compression?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the generated force diagram for the Cable-stayed Bridge correctly show stay cables in tension directly connecting the pylons to the deck (distinct from the suspension catenary system)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the generated images strictly represent 'structural force diagrams' (abstract representations with vectors/arrows) rather than photorealistic scenic renderings?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the text labels for 'Tension' and 'Compression' within the diagrams legible and free of severe AI-generated text distortions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do the tension and compression locations marked in each diagram exactly correspond to the locations described in the accompanying text for that bridge type?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Do the diagrams explicitly visualize force directions (e.g., using arrows or vectors) to aid the mechanical explanation, providing value beyond just labeling parts?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is each force diagram placed immediately adjacent to the text section that discusses that specific bridge type?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does the output include at least one distinct force diagram for each of the four bridge types (minimum 4 images)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Does the text explain the mechanical limitation of Beam Bridges for long spans, specifically mentioning that bending moments increase rapidly with span length?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Does the text explain that Arch Bridges require strong abutments to resist horizontal thrust, linking this mechanical requirement to foundation costs/feasibility?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Does the text correctly differentiate the load path of Cable-stayed bridges (direct stays) from Suspension bridges (hangers + main cable) when discussing their mechanics?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Does the text successfully construct a logical reasoning chain linking mechanical principles (e.g., material tensile strength) to economic considerations and span suitability?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

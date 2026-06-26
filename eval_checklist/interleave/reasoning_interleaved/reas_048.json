@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output explicitly cover all four requested illusions: Checker Shadow, Color Constancy, Munker-White, and Watercolor?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the content presented in an interleaved format containing both images and text, rather than grouping all images or text separately?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the output include at least two distinct images for each of the four illusions: one 'illusion image' demonstrating the effect and one 'verification image' revealing the truth (totaling at least 8 images)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text explanation for the Checker Shadow Illusion correctly identify 'lightness constancy' and 'local contrast' (or context) as the mechanisms responsible for the deception?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text explanation for the Munker-White Illusion accurately attribute the effect to 'chromatic assimilation' or 'spatial frequency' processing?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the text explanation for the Watercolor Illusion correctly describe the mechanism as 'color spreading' or 'filling-in' driven by the interaction of double-colored contours?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the text explanation for the Color Constancy Illusion describe the brain's tendency to discount the illuminant or adjust perceived color based on the lighting context?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the generated Checker Shadow Illusion image accurately depict the classic paradigm (e.g., a cylinder casting a shadow over a checkerboard) with two target squares labeled or identified?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the generated Munker-White Illusion image clearly display identical target elements (e.g., bars or circles) overlaid by different colored stripes/gratings?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the generated Watercolor Illusion image depict the specific configuration of double-colored contours (e.g., dark outer line, colored inner line) enclosing a neutral area?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the generated Color Constancy Illusion image show a scene where identical objects or patches appear different due to a clear change in illumination or background context?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do the verification images for each illusion effectively reveal the truth by isolating the target patches or placing them side-by-side on a neutral background?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the Checker Shadow Illusion image successfully create a visible perceptual difference in brightness between the two target squares despite them being physically similar?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the Munker-White Illusion image successfully create a visible perceptual color shift in the target elements due to the surrounding stripes?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Does the Watercolor Illusion image successfully create a visible tinting effect in the enclosed neutral region?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Are the verification images free of generation artifacts (e.g., unintended gradients, blurring, or color bleeding) that would invalidate the proof of color identity?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Are the images placed logically, with the illusion image presented before the explanation/verification to allow the user to experience the effect first?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Do the verification images maintain consistency with their corresponding illusion images in terms of visual style, scale, and label placement?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Do the verification images use minimal intervention (e.g., simple extraction or connecting bars) to prove the claim, rather than altering the colors or scene structure in a way that obscures the truth?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Does the content explain *why* the brain is deceived (e.g., evolutionary/adaptive purpose of the mechanism) rather than just stating that a deception occurs?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 21,
+    "question": "Does the text description accurately match the specific visual elements generated in the images (e.g., if the text says 'green stripes', are the stripes in the image green)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

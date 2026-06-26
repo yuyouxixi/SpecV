@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text correctly identify the Dashuifa (Great Fountain) as part of the Western Mansions (Xiyang Lou) at Yuanmingyuan and attribute its design style to the Jesuit missionary Giuseppe Castiglione (Lang Shining)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text explicitly cite historical copperplate engravings as the primary visual evidence used for the imaginative reconstruction?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text accurately describe the architectural style of the Dashuifa as a hybrid of European Baroque/Rococo aesthetics and Chinese imperial garden elements?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Is the text written in an objective, analytical tone that clearly distinguishes between documented historical facts and speculative reconstruction elements?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the generated reconstruction image depict the Dashuifa in its prime, featuring characteristic elements such as the large central stone arch, curved baroque facade, and active fountain jets, without anachronistic modern objects?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the generated comparison image accurately represent the current state of the Dashuifa ruins, showing specific recognizable features like the standing stone arch fragments and scattered rubble?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are both generated images of high visual quality, free from significant AI distortions (e.g., melted geometry, impossible physics) and possessing sufficient detail to distinguish architectural textures?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Do the specific architectural features described in the text (e.g., specific carvings, water jet arrangements, or structural layout) visually correspond to the elements depicted in the reconstruction image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the reconstruction image provide visual information that clarifies the complex architectural description in the text (e.g., visualizing the 'hybrid style'), rather than serving merely as a generic decoration?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Are the images placed logically within the narrative, with the reconstruction image near the discussion of the prime period/evidence and the ruins image near the analysis of the current state?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the text identify and analyze specific uncertainties in the reconstruction process, such as the unknown original color palette, missing wooden components, or lost hydraulic mechanisms?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the text include a comparative analysis that explicitly contrasts the reconstructed appearance with the current ruins to highlight specific lost architectural features?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

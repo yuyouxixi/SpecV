@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text correctly define Total Internal Reflection (TIR) as occurring when light travels from a higher refractive index medium (diamond) to a lower one (air) at an angle greater than the critical angle?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the generated text accurately explain 'dispersion' as the separation of white light into spectral colors due to wavelength-dependent refraction?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text provide accurate approximate Refractive Index values for the three gemstones (Diamond ~2.42, Moissanite ~2.65–2.69, Cubic Zirconia ~2.15–2.18)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text provide accurate approximate Dispersion values for the three gemstones (Diamond ~0.044, Moissanite ~0.104, Cubic Zirconia ~0.058–0.066)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text correctly rank the potential for 'fire' based on the dispersion values: Moissanite > Cubic Zirconia > Diamond?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text use appropriate scientific terminology (e.g., 'critical angle', 'refractive index', 'normal line', 'spectrum') to explain the optical phenomena?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the first generated image (TIR diagram) depict a gemstone cross-section showing a light ray entering, reflecting internally off the bottom facets (pavilion), and exiting the top?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "In the TIR diagram, does the internal reflection follow the Law of Reflection (angle of incidence equals angle of reflection) without the ray incorrectly exiting the medium at that point?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the second generated image (dispersion diagram) visually demonstrate white light separating into a spectrum of colors (showing at least distinct red and blue/violet paths)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "In the dispersion diagram, is the physics of refraction depicted correctly, showing shorter wavelengths (blue/violet) bending more than longer wavelengths (red)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the generated ray diagrams visually clear, containing legible labels (e.g., 'incident ray', 'diamond', 'air') and distinct ray paths without severe AI artifacts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the content of the TIR diagram (specifically the ray path and reflection) accurately align with the textual explanation of how the critical angle traps light?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the content of the dispersion diagram accurately align with the text's description of fire (e.g., showing the specific color separation described)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Do the generated images serve as technical schematics illustrating optical physics rather than generic, decorative photographs of jewelry?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is the TIR ray diagram inserted immediately following or alongside the textual explanation of brilliance and total internal reflection?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the dispersion ray diagram inserted immediately following or alongside the textual explanation of fire and dispersion?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Does the output include a distinct comparison section covering all three required materials: Diamond, Moissanite, and Cubic Zirconia?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Does the output contain at least two distinct images (one specifically for total internal reflection and one for dispersion) as explicitly requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 19,
+    "question": "Does the explanation logically connect the high Refractive Index of diamond to a small critical angle (~24°), explaining how this maximizes light return (brilliance)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Does the comparison section logically derive the visual differences (e.g., Moissanite appearing more fiery) directly from the physical dispersion values provided?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Does the text or diagram correctly apply Snell's Law concepts, such as light bending toward the normal when entering the denser diamond medium?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 22,
+    "question": "Does the explanation correctly distinguish that while Moissanite has higher fire and brilliance than Diamond, Cubic Zirconia has lower brilliance (lower RI) but higher fire (higher dispersion) than Diamond?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

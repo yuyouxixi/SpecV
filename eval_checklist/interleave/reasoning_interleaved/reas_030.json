@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text accurately explain the Trichromatic Theory (Young-Helmholtz), specifically mentioning the existence of three types of cone cells sensitive to Short (S), Medium (M), and Long (L) wavelengths?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text accurately describe the Opponent Process Theory, detailing how signals are processed in opposing channels (red-green, blue-yellow, and luminance/black-white)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly explain the physiological cause of 'visual vibration' or 'jarring' effects (e.g., referencing rapid fatigue, signal competition in opponent channels, or simultaneous overstimulation)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text explain the neural basis for the 'simultaneous contrast illusion' (e.g., lateral inhibition or contextual adaptation) rather than attributing it to simple color mixing?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the generated image for 'complementary color vibration' utilize high-saturation opposing colors (e.g., bright red next to bright green) placed directly adjacent to each other without outlines, as required to create the effect?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image for 'analogous color harmony' depict a set of colors that are adjacent to each other on the color wheel (e.g., blue, blue-green, green) rather than widely separated hues?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image for 'simultaneous contrast illusion' show two identical central color patches placed against distinctly different backgrounds (e.g., dark vs. light, or complementary colors)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Are the generated images free of compression artifacts, blurring, or noise that would interfere with the optical illusions (e.g., are the boundaries between vibrating colors sharp)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Do the text descriptions of colors and effects semantically match the generated images (e.g., if the text describes a 'blue square on yellow', is that exactly what is depicted)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the images placed immediately following the text that introduces and explains the specific principle (Vibration, Harmony, Contrast), rather than being clustered at the beginning or end?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the text explicitly reference the generated images using transition phrases (e.g., 'as seen in the image below') or provide viewing instructions (e.g., 'focus on the center')?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Did the model generate all three requested visual examples: complementary color vibration, analogous color harmony, and simultaneous contrast illusion?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Does the output follow the interleaved format requirement by alternating between text explanations and image demonstrations?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the response successfully integrate the neuroscience aspect (how the eye works) with the design aspect (why colors look harmonious/jarring), establishing a logical link between biological mechanisms and aesthetic perception?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text explicitly describe design specifications for all four required components: exterior façade, reception backdrop, functional zone signage (cardio, strength, stretching, locker), and floor plan?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text specify practical design details such as recommended materials (e.g., steel, concrete), color codes, or typography choices consistent with the 'hardcore industrial' aesthetic?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the generated exterior façade image clearly depict a gym entrance featuring the brand name 'FORGE'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the generated reception backdrop image depict an interior wall featuring the 'FORGE' brand name?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the response include distinct signage images for all four functional zones: cardio, strength training, stretching, and locker room?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the generated floor plan image clearly indicate the layout of gym zones and mark positions for signage?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the text elements within the generated images (e.g., 'FORGE', zone names) legible and free from severe AI character distortions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Do the visual details in the exterior and reception images (materials, lighting, textures) match the specific descriptions provided in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Do the functional zone signage images contain icons or text that accurately correspond to the specific zones (cardio, strength, stretching, locker) described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Do the signage images provide actionable visual details (e.g., clear mounting, specific icon shapes, material textures) rather than generic placeholders?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Do all generated images consistently maintain the 'hardcore industrial' aesthetic (e.g., dark tones, metal, concrete, rugged typography)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the signage images across different zones demonstrate a unified design system (consistent icon style, typography, and color palette)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Is each generated image placed immediately adjacent to the specific text section it illustrates?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the response include at least one distinct image for each of the four key requirements (Exterior, Reception, Zone Signage, Floor Plan)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Is the brand name 'FORGE' spelled correctly in the text and visible in the branding images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the floor plan layout demonstrate logical spatial organization with signage positions placed along natural pedestrian traffic flow paths?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

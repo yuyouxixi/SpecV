@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Did the output generate exactly three distinct map illustrations corresponding to the Mercator, Mollweide, and Winkel tripel projections?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the output use an interleaved format where images are integrated into the text flow, rather than being grouped entirely at the beginning or end?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Are the labels 'Greenland' and 'Africa' clearly present on the respective landmasses in all three generated map illustrations?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the generated Mercator projection image display a rectangular map boundary with a grid of straight latitude and longitude lines?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "In the generated Mercator image, does Greenland appear visually similar in size to (or larger than) Africa, accurately reflecting the projection's characteristic distortion?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the generated Mollweide projection image display an elliptical (oval) map boundary?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "In the generated Mollweide image, does Africa appear significantly larger than Greenland (approximately 14 times larger), accurately reflecting their true relative areas?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the generated Winkel tripel projection image display a curved, rounded-rectangular boundary (distinct from the rectangle of Mercator and the ellipse of Mollweide)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are the continental outlines in all generated images recognizable and free from severe AI artifacts (e.g., melted coastlines, merged continents, or hallucinations)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are the text labels within the generated images legible, correctly spelled, and free from severe character distortion?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the text accurately classify the Mercator projection as 'conformal' (preserving angles/shapes) and the Mollweide projection as 'equal-area'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the text provide specific numerical values for the areas (e.g., Africa ~30 million km², Greenland ~2.1 million km²) or explicitly state the ~1:14 ratio to support the comparison?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the text explain the mathematical mechanism of distortion in the Mercator projection, specifically mentioning how stretching increases with latitude (or distance from the equator)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the explanation explicitly link Greenland's high-latitude location to its extreme visual inflation in the Mercator projection?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Does the text description accompanying each image correctly match the visual content of that image (e.g., the text discussing 'equal-area' is adjacent to the Mollweide map)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Do the generated images serve as active evidence for the text's argument (i.e., the visual difference in Greenland's size across maps is clearly apparent and supports the explanation)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Are the images inserted at logical breakpoints in the text (e.g., immediately following the introduction of the specific projection) to aid reader comprehension?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

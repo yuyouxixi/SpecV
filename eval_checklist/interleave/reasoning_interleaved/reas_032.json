@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output analyze all four key factors requested: lighting direction, color saturation, depth of field, and plating composition?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the output generate a distinct 'Standard Version' vs 'Optimized Version' comparison image pair for each of the four analyzed factors?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text utilize professional food photography terminology (e.g., 'side backlighting', 'bokeh', 'rule of thirds', 'color temperature') rather than generic descriptions to explain the concepts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the output provide specific, actionable technical instructions for achieving the optimized results (e.g., specific lighting angles, aperture settings, or editing adjustments) rather than vague advice?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "For the Plating Composition comparison, are lighting, color, and depth of field qualities held relatively constant between the versions to ensure the comparison focuses strictly on the arrangement?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "In the 'Lighting Direction' comparison, does the Optimized image demonstrate directional lighting (e.g., side/backlighting) that enhances texture and translucency compared to a flatter Standard version, consistent with the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "In the 'Color Saturation' comparison, does the Optimized image show enhanced, appetizing vibrance without appearing artificially oversaturated, radioactive, or losing detail, consistent with the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "In the 'Depth of Field' comparison, does the Optimized image clearly demonstrate a shallower depth of field (blurred background/bokeh) with subject isolation compared to the Standard version, consistent with the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "In the 'Plating Composition' comparison, does the Optimized image demonstrate a recognizable composition technique (e.g., rule of thirds, negative space, diagonal lines) described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Are all generated food images free from obvious AI distortions (e.g., unnatural textures, impossible geometry, morphed cutlery, or illegible text on props) that would undermine their educational value?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is the visual improvement in the 'Optimized' versions objectively more appetizing than the 'Standard' versions, effectively demonstrating the goal of the task?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Are the comparison image pairs placed immediately following or adjacent to the textual analysis of that specific factor, rather than grouped at the end?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the text explicitly reference the comparison images (e.g., 'Notice in the optimized image below...', 'As shown in the comparison...') to bridge the modalities?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

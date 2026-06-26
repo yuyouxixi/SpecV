@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text correctly explain that the 'big nose' perspective distortion is primarily caused by the short camera-to-subject distance (viewpoint) required to fill the frame with a wide-angle lens, rather than the lens optics alone?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text explain the geometric principle that features closer to the camera (nose) subtend a significantly larger angle relative to features farther away (ears) when the camera is physically close?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text accurately describe the 135mm (telephoto) effect as 'compression' or 'flattening,' explaining that this results from the greater shooting distance required to frame the subject?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the generated image for the 24mm focal length clearly depict a face with exaggerated perspective distortion, specifically showing a disproportionately large nose relative to the ears and eyes?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the generated image for the 50mm focal length depict a 'standard' or natural view with facial proportions that closely mimic human vision?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image for the 135mm focal length accurately depict the compression effect, where the face appears flatter and the relative size difference between the nose and ears is minimized?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the light path diagram scientifically illustrate the geometry of the shooting scenario, showing rays converging from different facial depths (nose vs. ears) to the camera?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are the portrait images photorealistic and free of severe anatomical hallucinations (e.g., distorted pupils, extra fingers) or illegible text artifacts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Is the light path diagram clear, uncluttered, and legible, with essential elements (camera, subject, rays) correctly identifiable?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the text description for each focal length (24mm, 50mm, 135mm) align with the visual characteristics shown in the corresponding generated images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the light path diagram visually correspond to the textual explanation of angular size and distance ratios provided in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Do the portrait examples provide clear, non-trivial visual evidence of the changing facial proportions described in the text, enabling the user to observe the specific distortion effects?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do the three portrait images (24mm, 50mm, 135mm) depict the same (or a highly consistent) human subject to ensure the comparison of facial distortion is valid?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Is each visual element (portraits and diagram) placed immediately adjacent to or following the text section describing that specific concept or focal length?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Did the model generate exactly four distinct visual elements: one example image for 24mm, one for 50mm, one for 135mm, and one light path diagram?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the content presented in an interleaved format with images embedded within the text flow, rather than all images grouped at the end?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "Does the text build a complete logical causal chain: Focal Length → Required Distance → Angular Size Relationships → Perceived Perspective Distortion?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Does the output successfully address the core difficulty point by debunking the misconception that focal length itself causes the distortion, correctly attributing it to distance?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Does the light path diagram correctly show that the angular difference between rays from the nose and ears is larger when the camera is closer, scientifically supporting the 'big nose' explanation?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

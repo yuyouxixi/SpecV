@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output generate exactly four distinct types of design deliverables: a mascot (in 3 angles), a YouTube banner, a thumbnail template, and a business card?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the output include three distinct images (or clearly labeled sections) depicting the mascot from the specific requested angles: front view, side view, and three-quarter view?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Do the three mascot images depict the exact same character with consistent facial features, clothing, accessories, and proportions across all angles?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Do all generated visual assets (mascot, banner, thumbnail, card) utilize a consistent color palette and visual style to form a unified brand identity system?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the mascot character design incorporate visible tech-related elements (e.g., gadgets, circuits, digital motifs) that align with a 'tech review blogger' persona?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the generated YouTube banner image feature a wide landscape aspect ratio suitable for a platform header?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the video thumbnail template image visually reserve specific empty space or layout zones for future text replacement (e.g., video titles)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the generated business card design professional and legible, containing standard placeholders for contact information (name, role, contact details)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the generated text explicitly explain the design rationale, describing how the visual choices reflect a 'rational and geeky but not stiff' persona?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Do the generated images visually match the specific physical descriptions or design choices mentioned in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Are the images for specific deliverables placed immediately following or adjacent to the text section that introduces or discusses them?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the generated images free from severe AI artifacts, such as malformed hands, distorted text, or melting geometry?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the three-quarter view of the mascot visually appear to be a plausible geometric rotation of the front and side views?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

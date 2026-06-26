@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the response include exactly three images presented in the specific order requested: (1) Landscape View, (2) Color Palette, and (3) Detail Shot?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the first image depict a gravel-paved pathway lined with both hydrangeas and roses leading to a white wooden gazebo?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the second image strictly display a color palette chart consisting of exactly 5 solid color swatches arranged side by side?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the third image clearly show a pair of gardening shears and a straw hat placed on a vintage wrought-iron bench?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the generated text include specific plant care recommendations for the hydrangeas and roses mentioned in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the plant care recommendations factually accurate and actionable (e.g., specifying watering needs, soil pH, or pruning timing) rather than generic?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the first image successfully render a dense plant community with distinguishable flowers, avoiding sparse vegetation or obvious distortions in the gazebo structure?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Is the second image formatted cleanly with uniform color fills for the swatches, free from gradients, noise, or text overlays?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the third image demonstrate realistic texture rendering that distinguishes the straw material of the hat, the metal of the shears, and the wrought iron of the bench?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Do the colors shown in the generated palette chart (Image 2) visually match the dominant colors (e.g., foliage greens, flower hues, gazebo white) present in the first landscape image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are the images placed logically adjacent to the text sections that describe or introduce them (e.g., landscape view near the intro, palette near color discussion)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the text naturally introduce or reference each image (e.g., 'As shown in the landscape view below...') to ensure smooth narrative flow?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

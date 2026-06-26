@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output strictly include both types of requested visuals: photographic comparison images for f/1.4, f/4, and f/11, AND schematic ray diagrams illustrating the Circle of Confusion?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text provide the requested explanation from an 'optical perspective,' specifically discussing light rays, convergence, and aperture geometry rather than solely providing practical photography tips?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the generated text correctly explain the inverse relationship between f-stop numbers and aperture size (e.g., explicitly stating that f/1.4 is a larger opening than f/11)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text accurately define the 'Circle of Confusion' (CoC) as the blurred disc formed on the image sensor when light rays from an out-of-focus point do not converge to a single point?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text correctly define 'bokeh' as the aesthetic quality of the out-of-focus blur, distinguishing it from the concept of depth of field (the range of acceptable sharpness)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text correctly define the 'focal plane' as the specific plane (sensor/film surface) where the lens brings light rays from in-focus objects to a sharp point?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Do the comparison images exhibit a visible, monotonic progression in depth of field, where the f/1.4 image shows the strongest background blur and the f/11 image shows the most background detail?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the ray diagram clearly depict and label key optical elements, including the lens, the aperture stop, the focal plane (sensor), and the path of light rays?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the ray diagram correctly visually illustrate the formation of a Circle of Confusion, showing rays from an out-of-focus point intersecting the sensor plane as a spread/disc rather than a single point?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the text labels and annotations within the generated ray diagrams (e.g., 'Focal Plane', 'CoC') clearly legible and free from severe AI-generated artifacts or gibberish?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do the three comparison images (f/1.4, f/4, f/11) depict the exact same subject, composition, and focus distance, ensuring that the only visible variable is the depth of field?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do the ray diagrams provide genuine educational value by visually clarifying the abstract geometric optics concepts (light cone angle, CoC formation) described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the text explanation successfully construct the full causal chain: larger aperture diameter → wider incident light cone → larger Circle of Confusion for out-of-focus points → stronger background blur?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Does the ray diagram (or set of diagrams) visually demonstrate the difficulty point that a wider aperture creates a wider cone of light, geometrically resulting in a larger Circle of Confusion on the sensor?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the first generated image depict a transparent glass cup, half-filled with water, placed on a wooden table?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the first image accurately render the optical properties of the glass cup, such as transparency, visible light transmission, and refraction/distortion of the background?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the second generated image depict a cup made of 'rough red brick' material with visible surface texture/irregularities?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the second image correctly demonstrate the opacity of the brick material by ensuring the water inside is not visible through the sides of the cup?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the second image exhibit shadow behavior consistent with an opaque object (e.g., casting a solid, defined shadow) as opposed to the softer, light-transmitting shadows of the glass cup?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Are both generated images free from significant distortions, warped geometry, or artifacts that would undermine the scientific demonstration?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 7,
+    "question": "Does the generated text correctly explain the fundamental difference in light interaction between the two materials (refraction/transmission in glass vs. blocking/opacity in brick)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 8,
+    "question": "Does the generated text accurately describe how the shadows differ between the two cups (e.g., caustics/soft shadows for glass vs. hard/dark shadows for brick)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the generated text explicitly explain how the visual perception of the water changes (i.e., visible through the walls of the glass cup vs. hidden/inferred only from the top in the brick cup)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is the generated text written with coherent structure and appropriate scientific terminology, free from hallucinations or physical contradictions regarding optics?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do both images maintain the exact same cup geometry (shape, size, rim) and water fill level, changing only the material properties?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are both images rendered from a consistent camera viewpoint, lighting direction, and scale to facilitate a direct visual comparison?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do the visual details in the images (e.g., specific shadow types, visibility of water) strictly correspond to the phenomena described in the text explanation?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Do the generated images provide clear, informative visual evidence of the material differences (transparency vs. opacity) rather than being visually ambiguous?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is the output structured exactly as requested: Image 1 (Glass Cup) -> Text Explanation -> Image 2 (Brick Cup)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 16,
+    "question": "Does the output contain exactly two generated images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 17,
+    "question": "Does the output adhere to constraints by not introducing unrelated objects or changing the background setting (wooden table) between images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Does the model successfully execute the material replacement task by rendering a convincing texture transformation (smooth glass to rough brick) while preserving object identity?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 19,
+    "question": "Does the text provide a logical, step-by-step causal explanation for the visual changes (e.g., explaining *why* the shadow changes due to opacity) rather than just listing observations?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

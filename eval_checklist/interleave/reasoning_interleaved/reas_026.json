@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text correctly explain that Rayleigh scattering preferentially scatters shorter wavelengths (blue/violet) more than longer wavelengths (red/orange) due to interaction with atmospheric particles?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text accurately describe how the sun's lower angle during golden hour results in sunlight traveling a significantly longer optical path through the atmosphere compared to midday?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the text correctly state that the color temperature of light decreases (resulting in a warmer, lower Kelvin value) as the sun approaches the horizon, distinguishing this from the cooler/higher Kelvin light of midday?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text use appropriate scientific terminology (e.g., 'Rayleigh scattering', 'Kelvin/Color Temperature', 'optical path length', 'wavelength') correctly and consistently?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the 'Before' image accurately depict a portrait with characteristics of midday lighting, specifically showing cooler/neutral white tones and shorter, harsher shadows?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the 'After' image accurately depict the requested 'golden hour' effect, featuring warm orange/golden tones and longer, softer shadows?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the generated images free of significant AI artifacts (e.g., distorted facial features, incoherent backgrounds, or garbled text labels) that would hinder the visual comparison?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Do the visual color shifts in the images (from cool/neutral to warm/golden) directly correspond to the text's scientific explanation of how atmospheric scattering filters blue light?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Do the shadow characteristics shown in the images (short/harsh vs. long/soft) align with the text's explanation of how sun angle affects light directionality and shadow formation?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Is the portrait subject and scene composition consistent between the 'Before' and 'After' images, ensuring that the comparison isolates the lighting effects rather than changing the content?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Does the before-and-after comparison provide clear, informative visual evidence of the specific editing goal (midday to golden hour), serving as a practical demonstration rather than merely decorative imagery?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the text explicitly reference the generated images using transitional phrases (e.g., 'As shown in the comparison below', 'Notice the warmer tones in the after image') to integrate the visuals with the explanation?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Did the model successfully fulfill all components of the prompt: providing a visual before-and-after comparison AND a scientific explanation of the optics/color science?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 14,
+    "question": "Does the output explicitly explain the roles of both 'sun angle' and 'atmospheric scattering' as requested, without omitting either factor?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the output demonstrate a complete causal chain in its reasoning: Low Sun Angle → Increased Optical Path Length → Enhanced Rayleigh Scattering of Blue Light → Warmer Color Temperature?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the response logically connect the abstract physical principles (optics/scattering) to the practical photo editing steps taken (e.g., adjusting white balance, tint, or shadow softness)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

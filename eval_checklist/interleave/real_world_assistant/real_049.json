@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text explicitly list recommended camera settings (e.g., ISO, aperture, shutter speed) suitable for low-key photography?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text provide practical, actionable advice for creating a low-key portrait in a home environment (e.g., controlling ambient light, using household items)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the first generated image depict a half-profile close-up of a male model as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the first image accurately demonstrate 'Rembrandt lighting' or split lighting, where approximately half the face is illuminated and the other half fades into darkness?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Is the first image of sufficient visual quality to serve as a reference, without significant AI artifacts (e.g., distorted facial features or unnatural skin texture)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Is the second generated image a bird's-eye view (top-down) lighting diagram rather than a realistic perspective photo?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the second image use simple graphic icons to represent the equipment (camera, model, lights) as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the lighting diagram clearly indicate the positions of all four required elements: camera, model, key light (with softbox), and reflector?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Is the lighting diagram clear, legible, and visually organized so that spatial relationships are easy to understand?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the positioning of the light source in the generated diagram logically correspond to the shadows seen in the generated portrait (e.g., light on the left corresponds to lit left face)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the response contain exactly two generated images?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Is the portrait image presented first as the 'final result', followed by the lighting diagram in the technical section?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Does the text naturally transition between the visual result and the technical explanation, explicitly referencing the images (e.g., 'The diagram below shows...')?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Did the model successfully generate two distinct visual styles: a photorealistic portrait and a schematic 2D diagram?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the response strictly adhere to the prompt's constraint of generating a 'lighting guide' that includes both the visual outcome and the technical setup?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

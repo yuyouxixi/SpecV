@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model generate exactly two distinct images in the correct logical order: first the classic illusion image, and second the verification image?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the text explanation explicitly address both required neural mechanisms: 'lightness constancy' and 'lateral inhibition'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the first generated image correctly depict the classic Adelson's checker shadow setup: a cylinder (or object) casting a shadow over a checkerboard, with specific squares labeled 'A' (outside shadow) and 'B' (inside shadow)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Do the pixels representing Square A and Square B in the generated illusion image possess identical (or nearly identical) grayscale/luminance values, satisfying the core physical constraint of the illusion?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the first image successfully induce the perceptual illusion where Square B appears perceptually lighter than Square A, despite them having the same physical pixel intensity?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Does the second (verification) image feature a clearly visible connecting bar or strip that physically bridges Square A and Square B?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the connecting bar in the verification image maintain a uniform color/shade along its entire length, matching the color of both Square A and Square B to visually prove their equality?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Do the two generated images maintain consistent geometry and labeling (i.e., Square A and B are in the same positions relative to the board in both images)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the text correctly define 'lightness constancy' as the visual system's ability to perceive consistent surface lightness despite variations in illumination (e.g., discounting the shadow)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does the text accurately explain 'lateral inhibition' as a neural mechanism where active neurons suppress neighbors to enhance local contrast (edge detection)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the text explanation logically synthesize the visual evidence with the neuroscience concepts to explain that the brain misjudges because it separates reflectance from illumination (constancy) and enhances local edges (lateral inhibition)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the text description of the illusion's physical layout (e.g., the position of the shadow and cylinder) accurately match the visual composition of the first generated image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

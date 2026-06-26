@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text accurately describe the Archean Eon atmosphere as lacking significant free oxygen and being dominated by gases such as nitrogen, carbon dioxide, and methane?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the generated text correctly explain that the Archean landscape was devoid of complex plant life (barren), consistent with the lack of terrestrial vegetation at that time?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the generated text accurately attribute the Great Oxidation Event (GOE) to the activity of cyanobacteria (oxygenic photosynthesis) and place it approximately 2.0–2.4 billion years ago?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the generated text correctly state that atmospheric oxygen levels during the Carboniferous Period were significantly higher than modern levels (e.g., reaching ~30-35%)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the generated text accurately describe the modern atmosphere as composed primarily of nitrogen (~78%) and oxygen (~21%)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image for the Carboniferous Period depict dense swamp forests with giant ferns or horsetails, while strictly avoiding anachronistic modern flora like flowering plants or grass?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image for modern times depict a clear blue sky and a landscape featuring diverse modern vegetation (e.g., deciduous/coniferous trees, grasses)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Are all generated images visually clear, free of severe distortions, and are any embedded text labels legible and correctly spelled?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Do the visual features in the images (e.g., sky color, vegetation type) consistently match the specific descriptions provided in the adjacent text (e.g., text mentions orange sky, image shows orange sky)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Do the images provide specific landscape visualizations that effectively differentiate the geological eras through distinct environmental cues rather than showing generic or repetitive views?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Is each image inserted immediately adjacent to the textual description of the corresponding geological period?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the output include at least one distinct image for each of the requested stages: Archean Eon, Pre/Post Great Oxidation Event contexts, Carboniferous Period, and Modern Times?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the output successfully generate content in an interleaved format (images interspersed with text) rather than presenting all text followed by all images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 14,
+    "question": "Does the output cover all specifically requested geological periods: Archean Eon, before and after the Great Oxidation Event, Carboniferous Period, and modern times?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 15,
+    "question": "Does the text explain the causal relationships between atmospheric changes and the resulting surface conditions (e.g., how oxygen rise led to sky color changes or allowed for larger life forms)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the model avoid common anachronisms, such as placing dinosaurs or birds in the Carboniferous period, or land plants in the Archean Eon?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

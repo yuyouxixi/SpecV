@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated response include at least three distinct images: one mascot character and two UI interface mockups?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the generated mascot image clearly depict an 'anthropomorphic little flowerpot' wearing reading glasses?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the mascot image rendered specifically in a '3D clay style' (e.g., soft rounded forms, matte textures) as requested?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the homepage UI mockup visually demonstrate 'large fonts' and 'high contrast' suitable for elderly users?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the second UI image clearly depict a 'pop-up interface' (e.g., modal overlay) specifically designed for a watering reminder?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the generated UI mockups high-fidelity (appearing as finished app screens with clear icons and text) rather than rough sketches or wireframes?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are the text elements within the generated UI mockups legible and free from severe gibberish or artifacts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the text explicitly explain the choice of typography and color scheme choices based on 'age-friendly design principles' (e.g., contrast ratios, visual decline)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Is the text explanation factually accurate regarding UI/UX standards for elderly users (e.g., avoiding low contrast, ensuring readability)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the text proposal include concrete, actionable specifications (e.g., naming font categories, specific color roles, or size guidelines) rather than vague statements?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do the UI mockups demonstrate practical usability for elderly users, such as large touch targets or prominent action buttons?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do the visual styles (colors, typography) shown in the UI images visually match the design rationale provided in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Do the two UI interface images maintain a consistent design language (e.g., same color palette, button styles, and iconography)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the output follow the requested logical sequence: Mascot design first, followed by the two UI mockups (homepage and watering reminder)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

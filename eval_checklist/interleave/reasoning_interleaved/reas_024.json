@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output include distinct analysis and visual representation for exactly four materials: brushed stainless steel, mirror chrome, matte brass, and oxidized verdigris?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output generate an interleaved format containing both text and images, rather than presenting all images together or all text together?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the output generate an image of a sphere for each of the four materials (four spheres total), rather than other shapes?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text analysis cover all three requested BRDF parameters: diffuse/specular reflection ratio, roughness, and Fresnel effect intensity?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Are all four generated spheres rendered with identical geometry and camera framing to ensure a controlled material comparison?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Are all four spheres rendered under consistent lighting conditions and background environments to isolate material differences?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the generated text accurately define 'Mirror Chrome' as having near-zero roughness and high specular reflection with negligible diffuse component?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the generated text correctly explain that 'Brushed Stainless Steel' exhibits anisotropic specular highlights due to directional micro-grooves?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the generated text accurately describe 'Matte Brass' as having higher roughness than polished metals, producing broader, softer specular highlights with a warm golden tone?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the generated text correctly explain that 'Oxidized Verdigris' has a high diffuse component and reduced metallic specular reflection due to the scattering properties of the patina layer?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Does the generated text correctly explain the Fresnel effect (increased reflectivity at grazing angles) and its relevance to the rendered materials?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 12,
+    "question": "Does the image for 'Mirror Chrome' display sharp, high-contrast reflections with minimal blur or grain, consistent with a polished surface?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the image for 'Brushed Stainless Steel' visually exhibit anisotropic (elongated) highlights rather than isotropic circular ones?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the image for 'Matte Brass' show a warm golden metallic surface with significantly blurred/softened reflections compared to the chrome?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the image for 'Oxidized Verdigris' show the characteristic blue-green patina color with a predominantly matte/diffuse appearance?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Are the generated images free from severe artifacts (e.g., distorted geometry, impossible reflections) and of sufficient resolution to distinguish texture details?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 17,
+    "question": "If the text describes specific highlight shapes (e.g., stretched for brushed steel) or edge effects (Fresnel), are these visibly demonstrated in the corresponding images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Is the image of each material placed immediately adjacent to the text paragraph analyzing that specific material?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Does the reasoning logically connect the physical micro-structure of the materials (e.g., oxide layer, brushing grooves) to their resulting BRDF parameter values?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 10.0
+  }
+]

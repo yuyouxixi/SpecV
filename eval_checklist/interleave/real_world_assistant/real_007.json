@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output include exactly 6 images in total, specifically 3 microscope-perspective fungal spore images and 3 fabric texture design images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Are all generated images strictly free of finished garments (e.g., dresses, shirts, coats, mannequins) as requested by the negative instruction?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Do the generated fungal spore images visually adhere to the requested 'microscope-perspective' and 'vibrant, alien, otherworldly aesthetic'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Do the fabric texture images clearly depict close-up surface textures or swatches (e.g., jacquard, embroidery, pleating) rather than generic patterns or full outfits?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Do the generated fabric textures show high visual clarity and realistic material properties (e.g., sheen, roughness, stitch depth) suitable for a professional design board?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text explicitly explain the transformation logic, detailing how specific morphological features of the spores (shape, ridges, pores) inspired the chosen fabric craftsmanship?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text include concrete technical details for the textile concepts (e.g., yarn types, stitch techniques, pleat depth, finishing methods) rather than just abstract descriptions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the text utilize accurate and professional fashion/textile terminology (e.g., correctly using terms like jacquard, embroidery, warp/weft)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does each fabric texture image visually correspond to its paired spore image in terms of color palette, structural mimicry, or pattern motifs?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the text description accurately match the visual details shown in the corresponding generated images (e.g., if the text describes 'raised embroidery', is it visible in the image)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Are the images organized in a logical flow where the fabric design images follow or are paired directly with their source inspiration spore images?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Does the text naturally introduce or reference the images (e.g., 'As seen in the image below...', 'This texture is derived from...') to create a cohesive narrative flow?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are the three spore-to-fabric concepts distinct from each other, showing variety in both biological morphology and textile techniques?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the output demonstrate successful cross-domain reasoning by translating biological visual data into plausible textile engineering concepts?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

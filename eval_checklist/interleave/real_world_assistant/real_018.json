@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text provide a structured 10-day itinerary that logically follows the full circuit of Iceland's Ring Road (Route 1)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the response include a generated rendered image for every major attraction mentioned in the daily breakdown?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 3,
+    "question": "Does the response include a specific generated image designed as a 'packing checklist infographic'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text explicitly annotate both 'best photography positions' and 'optimal lighting times' for the major attractions?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text include practical self-driving tips specific to Iceland (e.g., mentioning F-roads, wind warnings, single-lane bridges, or road.is)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the itinerary follow a coherent geographical progression (clockwise or counter-clockwise) around the island without illogical backtracking or teleporting?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Do the generated landscape images realistically depict the distinct geological features of iconic Icelandic landmarks (e.g., basalt columns, glaciers, waterfalls)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the packing checklist infographic include items specifically relevant to an Iceland trip (e.g., waterproof layers, hiking boots, camera gear) rather than generic travel items?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Is the text and iconography within the packing checklist infographic clear, legible, and free from severe distortion?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 10,
+    "question": "Does each landscape image accurately depict the specific attraction described in the immediately adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "If the text specifies a lighting condition (e.g., 'sunset', 'golden hour', or 'northern lights'), does the corresponding image visually reflect that specific lighting?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Do the generated landscape images provide visual value for photography planning (e.g., showing composition angles or lighting direction) rather than just generic scenery?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do all generated landscape images maintain a consistent, high-fidelity visual style suitable for a travel guide?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Are the generated images placed immediately adjacent to the text descriptions of their respective locations?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output include exactly five generated images: one for each of the four required cultural dragon types (Chinese, European, Mesoamerican, Japanese) and one comparative infographic?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text accurately describe the specific morphological characteristics and cultural significance of all four dragon types (e.g., Chinese association with power/rain, European with chaos/treasure, Quetzalcoatl as a deity)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text maintain a formal, academic, and research-oriented tone suitable for a video script or educational outline on cultural evolution?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Does the generated image for the Chinese dragon visually resemble a Shang or Zhou dynasty bronze vessel, featuring metallic textures, patina, and traditional patterns (e.g., taotie or leiwen)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the generated image for the European dragon distinctively mimic a medieval illuminated manuscript style, utilizing elements like flat perspective, vellum texture, gilding effects, or decorative borders?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the generated image for the Mesoamerican Feathered Serpent visually resemble an Aztec stone carving, showing relief textures, chiseled edges, and stone material properties?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image for the Japanese dragon distinctively mimic the Ukiyo-e style, featuring woodblock print textures, bold outlines, flat color composition, and characteristic wave or cloud motifs?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the comparative infographic visually organize the four dragons using clear, logical comparison dimensions (e.g., anatomy, symbolism, era) rather than just being a disorganized collage?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Do the visual details in the generated images strictly align with the specific art styles described in the adjacent text (e.g., the text describes 'bronze patterns' and the image displays them)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Do the images avoid obvious anachronisms or style bleeding, such as photorealistic lighting in the Ukiyo-e image or modern fantasy elements in the medieval manuscript image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Is each dragon image placed immediately adjacent to (before or after) the text section describing that specific cultural style?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the text avoid common cultural misconceptions (e.g., conflating Aztec and Mayan traditions, or attributing bat wings to East Asian dragons) in its descriptions?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

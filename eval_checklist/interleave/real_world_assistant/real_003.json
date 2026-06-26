@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the response strictly structure the content into the three requested sections in the correct scroll order: (1) Hero Banner, (2) Texture Showcase, and (3) Core Ingredient Education?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does every section include both 'layout suggestions' and specific 'copywriting' as explicitly requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly mention the hero ingredient 'deep sea giant kelp extract' at least once in the response?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text for the Hero Banner section emphasize both the 'mystique of the deep sea' and a 'premium luxury feel'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text for the Texture Showcase section specifically describe the cream's texture as 'thread-pulling' or 'stringy'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text for the Core Ingredient section focus on educational content regarding the benefits or origin of the giant kelp?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Do the layout suggestions provide actionable details (e.g., specific composition, element placement, visual hierarchy, or color palette usage) rather than generic advice?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image for the Hero Banner visually combine deep sea elements (e.g., dark ocean tones, underwater ambiance) with a premium product presentation?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the generated image for the Texture Showcase clearly depict a close-up/macro shot of the cream with a visible 'thread-pulling' or stringy texture?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the generated image for the Core Ingredient section distinctively adopt a 'botanical illustration' style (e.g., scientific drawing, linework), differing from the photorealistic style of the other images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do the generated images semantically match the specific visual descriptions provided in their adjacent layout suggestions and copywriting?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do the generated images provide non-redundant, useful visual references that align with the specific purpose of each section (brand mood vs. texture proof vs. ingredient education)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the response include at least one generated image for each of the three sections, maintaining a balanced text-to-image ratio?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the response demonstrate a logical narrative flow suitable for a long-scroll webpage, moving naturally from brand impression to product detail to ingredient science?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Does the model successfully generate three completely different visual perspectives (grand scene, macro close-up, illustration) within the single response?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

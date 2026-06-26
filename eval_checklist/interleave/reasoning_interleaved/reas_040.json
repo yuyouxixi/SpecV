@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output strictly follow the interleaved format by alternating between text and images, rather than grouping all images at the beginning or end?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 2,
+    "question": "Does the content cover all four required periods (Shang, Western Zhou, Spring and Autumn, and Warring States) without omitting any?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text identify 'Taotie' or 'Kui-dragon' patterns as the representative motif for the Shang Dynasty?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text identify 'Panchi' (interlaced dragon/hydra) patterns as the representative motif for the Spring and Autumn Period?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text explicitly link the 'ferocious and mysterious' style of the Shang Dynasty to the concept of 'divine authority' or communication with spirits/ancestors?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text explicitly attribute the shift towards 'fluid and secularized' styles in the Warring States period to the 'collapse of ritual propriety' (Li Beng Yue Huai) or the rise of 'secular rationalization'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image for the Shang Dynasty accurately depict a Taotie or Kui motif with characteristic features (e.g., symmetrical animal mask, prominent eyes, dense relief)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image for the Western Zhou Dynasty accurately depict a Qiequ or Huandai pattern with characteristic features (e.g., continuous wave-like bands, abstract geometry)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the generated image for the Spring and Autumn Period accurately depict a Panchi pattern with characteristic features (e.g., dense, interlaced, smaller-scale dragon/serpentine forms)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the generated image for the Warring States Period accurately depict characteristic features of that era (e.g., fine gold/silver inlay lines, geometric partitioning, or realistic narrative scenes)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Are all generated images clearly labeled with the specific motif name (e.g., 'Taotie Pattern', 'Panchi Pattern') as requested in the prompt?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the labels within the images legible and free from severe AI text distortion or gibberish?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do the images visually match the specific stylistic descriptions provided in the text (e.g., if the text describes 'bulging eyes', does the image show them)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Do the four images collectively demonstrate a visible stylistic progression from 'heavy/intricate/mysterious' (Shang) to 'fluid/secular/geometric' (Warring States) consistent with the analysis?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Do the images provide sufficient detail to serve as a reference for a 'digital restoration project' (e.g., clear pattern structures rather than vague artistic impressions)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is each image placed immediately adjacent to the text section that describes the corresponding dynasty and motif?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

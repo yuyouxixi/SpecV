@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text explicitly explain the use of graded aggregates (e.g., heavy basalt/travertine at the base vs. light pumice/scoria at the top) as a primary weight-reduction technique for the Pantheon?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the generated text correctly describe geometric weight-reduction features of the Pantheon, such as the coffering (recessed panels), the tapering wall thickness, or the oculus?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the generated text accurately define structural mechanics concepts relevant to domes, specifically 'hoop stress' (circumferential tension/compression) and 'radial thrust' (outward force at the base)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the generated text correctly describe Florence's Duomo as having a 'double-shell' structure (inner and outer domes) distinct from the Pantheon's single monolithic shell?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the generated text mention the use of tension chains (stone, iron, or wood) or tension rings in the Duomo to contain hoop forces, contrasting this with the Pantheon's reliance on massive walls?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the Pantheon diagram depict a cross-sectional view showing the hemispherical dome, the oculus at the crown, and the thick supporting rotunda walls?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the Pantheon diagram include annotated force vectors indicating the direction of loads, specifically showing gravity/compression acting downward and radial thrust acting outward at the base?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the Florence Duomo diagram clearly illustrate the double-shell structure, showing separation between the inner and outer layers?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the Florence Duomo diagram visually depict or label the tension chains/rings or ribs used to stabilize the structure?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Are the text labels within the generated diagrams (e.g., 'Oculus', 'Thrust', 'Inner Shell') legible and free from severe artifacts or scrambling?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do the diagrams accurately reflect the specific structural claims made in the text (e.g., if the text discusses the Duomo's pointed profile, does the image show it)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do the generated images function as technical diagrams (cross-sections with annotations) rather than merely photorealistic artistic renderings of building exteriors?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are the diagrams placed immediately adjacent to the relevant text sections (e.g., Pantheon diagram near Pantheon analysis) rather than grouped at the end?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the output provide exactly two structural analysis diagrams as requested: one for the Pantheon and one for Florence's Duomo?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the output provide a logical comparison that highlights the shift from a gravity/mass-based system (Pantheon) to a system managing hoop tension via structural reinforcement (Duomo)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Does the response successfully explain the Pantheon's longevity by connecting its material composition (concrete gradation) and geometry to the successful management of thrust?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Are the stress arrows in the diagrams directionally correct according to structural engineering principles (e.g., compression flowing downward/outward, not upward)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

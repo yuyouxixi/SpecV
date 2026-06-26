@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output strictly follow the interleaved format with exactly four distinct visual stages (Deposition, Uplift, Erosion, Final Landscape) presented in the correct chronological order?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Are the first three images explicitly generated as stratigraphic cross-sections or schematic diagrams, while the final image is a realistic depiction of a typical present-day Danxia landscape?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text correctly identify the geological timeframe (Cretaceous period) and the specific material (red sandstone/conglomerate formed by iron oxidation) responsible for the formation?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text accurately explain the depositional environment as continental/inland basins (fluvial/lacustrine) rather than marine or volcanic settings?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text explain the causal link between tectonic crustal uplift and the creation of relief/potential energy that facilitates the subsequent fluvial incision?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the diagram for the 'Deposition' stage visually depict horizontal or sub-horizontal stratification of sedimentary layers in a basin environment?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the diagram for the 'Crustal Uplift' stage clearly illustrate the tilting, faulting, or rising of the previously deposited sedimentary layers relative to the base level?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the diagram for the 'Erosion and Weathering' stage specifically visualize water channels cutting vertically along joints/fractures to form steep cliffs or pillars?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the final landscape image realistically depict characteristic Danxia features such as steep red cliffs, flat-topped mountains, and vegetation contrast?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Are all text labels and annotations within the geological diagrams clearly legible, correctly spelled, and free from severe AI-generated artifacts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Do the visual details in the diagrams (e.g., specific dip angles, fault types, or erosion patterns) align semantically with the specific descriptions provided in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Do all generated images consistently maintain the characteristic 'red' color palette for the rock layers across the deposition, uplift, and erosion stages to represent the oxidation of iron?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Do the three diagrams maintain a consistent visual style and scale, allowing the viewer to visually track the same stratigraphic unit from deposition through uplift to erosion?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Is each image placed immediately after (or adjacent to) the text section that explains that specific geological stage, ensuring logical placement rationality?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Does the output accurately describe and depict how internal structural factors (such as vertical joints, fractures, or bedding planes) control the erosion pattern to form isolated peaks or cliffs?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

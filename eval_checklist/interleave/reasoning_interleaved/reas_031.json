@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output follow the requested interleaved format, presenting exactly three distinct sections corresponding to the time points ~1850, the 1980s, and the 2020s?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the text explicitly state both an 'average temperature anomaly' and an 'estimated glacier area' value for each of the three time periods?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Do the generated images for all three time points include legible labels or annotations displaying the specific temperature anomaly and glacier area data?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text correctly identify the ~1850 period as the end of the Little Ice Age (or maximum recent extent) to contextualize the baseline state of the glaciers?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Are the stated temperature anomaly values scientifically plausible and consistent with consensus (e.g., ~0°C or negative for 1850, rising in the 1980s, and highest in the 2020s)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the text describe a strictly decreasing trend in glacier area/extent from 1850 to the 2020s, consistent with the impact of global warming?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text explicitly explain the causal mechanism linking the rising temperature anomalies to the reduction in glacier area (e.g., ablation exceeding accumulation)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Do the generated images visually demonstrate a clear, progressive decrease in glacier extent from the 1850s to the 2020s that corresponds to the chronological progression?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Are the generated images free from severe physical impossibilities (e.g., floating water, defying gravity) and significant AI artifacts (e.g., garbled text, warped terrain)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Do the numerical values for temperature anomaly and glacier area displayed within the images exactly match the values stated in the corresponding text sections?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Do the three images maintain a consistent visual style (e.g., satellite view vs. illustration) and viewpoint/valley geometry to enable valid visual comparison?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Does the visual extent of the glacier depicted in each image accurately reflect the magnitude of the area value cited in the text (e.g., a small area value is not paired with a large glacier)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is each image placed immediately adjacent to (or directly following) the text paragraph describing that specific historical period?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

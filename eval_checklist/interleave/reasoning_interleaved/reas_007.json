@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text correctly associate Daylight with a bluish cast (high color temperature), Fluorescent with a greenish cast (spectral spike), and Tungsten with an orange-yellow cast (low color temperature)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Does the text cite appropriate approximate Kelvin values for the light sources (e.g., Tungsten ~2700-3200K, Daylight ~5500-6500K)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the generated image representing 'Daylight' clearly depict a white shirt with a visible bluish-white tint?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the generated image representing 'Fluorescent light' clearly depict a white shirt with a visible greenish tint?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the generated image representing 'Tungsten light' clearly depict a white shirt with a visible orange or yellow tint?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the generated 'color temperature-color cast coordinate diagram' visually represent two distinct axes: Color Temperature (Blue-Amber/Yellow) and Tint (Green-Magenta)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "On the coordinate diagram, is the Blue direction correctly associated with higher Kelvin values (Cool) and the Amber/Yellow direction with lower Kelvin values (Warm)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Are the text labels and axis markings within the generated coordinate diagram legible and free from severe artifacting?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Do the three comparison images maintain a consistent visual style, subject matter (same shirt), and composition, with only the lighting cast varying?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Is each comparison image placed immediately adjacent to or following the text paragraph describing that specific light source?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Did the model generate exactly four distinct visual elements as requested: three specific comparison images (Daylight, Fluorescent, Tungsten) and one coordinate diagram?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the output provide a clear explanation of which direction to adjust color temperature and tint for post-processing correction for each of the three lighting scenarios (e.g., warming up daylight shots, adding magenta for fluorescent)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 13,
+    "question": "Does the explanation correctly distinguish between adjusting Color Temperature (Blue-Yellow axis) and Tint (Green-Magenta axis), specifically noting that fluorescent correction requires Tint adjustment?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

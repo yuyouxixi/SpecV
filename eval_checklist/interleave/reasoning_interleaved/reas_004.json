@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output generate exactly two images corresponding to the specific lighting scenarios requested: (1) light source directly overhead at 12 noon, and (2) light source at a low angle from the left at 5 PM?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Do both generated images depict the specific scene described in the prompt: a vast white salt flat with a cube and a cone standing on it?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the output strictly follow an interleaved format (mixing text and images) rather than presenting all text followed by all images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the generated text correctly explain that under overhead lighting (12 noon), shadows are minimal/short and directly beneath the objects, whereas under low-angle lighting (5 PM), shadows are significantly elongated?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text accurately describe the geometric shadow shapes projected by the objects (e.g., the cube casting a distorted parallelogram/rectilinear shape and the cone casting an elongated triangle/conic section)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text provide the mathematical logic or trigonometric relationship used to calculate shadow length (e.g., specifying the use of the tangent function relative to the light elevation angle)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text correctly define 'umbra' (fully shaded region) and 'penumbra' (partially shaded region) and explain the logic behind soft/hard edge transitions (e.g., due to light source size or distance)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the text structured logically with appropriate technical terminology (e.g., 'projection', 'elevation angle', 'attenuation') used correctly to explain the optical phenomena?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "In the first image (12 noon), are the shadows depicted as extremely short, sharp, and located directly beneath or very close to the base of the cube and cone?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "In the second image (5 PM), do the shadows extend significantly to the right, consistent with the prompt's instruction of a light source coming from the left?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Do the shadow shapes in the second image accurately reflect the geometry of the objects (cube shadow having straight edges/corners, cone shadow tapering to a point)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Are the geometric objects (cube and cone) in the images rendered with clear, solid 3D forms and grounded properly (shadows originating exactly from contact points with the ground)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the illumination on the object faces in the second image correspond to the light direction (e.g., brighter left faces, shaded right faces) consistent with the cast shadows?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Do the images provide clear pedagogical value by visually contrasting the shadow length and direction between the two scenarios, effectively illustrating the concepts described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Are the visual properties of the scene (salt flat texture, object colors, relative sizes) consistent across both generated images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is the first image placed immediately adjacent to the text section discussing the '12 noon' or overhead lighting scenario?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is the second image placed immediately adjacent to the text section discussing the '5 PM' or low-angle lighting scenario?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 18,
+    "question": "Does the output demonstrate the difficulty point of 'geometric optics' by correctly correlating the change in light elevation angle (90 degrees vs low angle) with the resulting shadow length calculation?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Does the output demonstrate the difficulty point of 'physical rendering' by explaining the physical cause of penumbra (e.g., the angular diameter of the sun) rather than just stating shadows are soft?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

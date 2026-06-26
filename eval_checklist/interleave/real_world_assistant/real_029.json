@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Does the response explicitly provide three distinct wall renovation plans: a large-scale mural, a modular shelving unit combination, and a mixed-material collage wall?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the response provide a specific budget estimate for each of the three renovation plans?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the generated text explicitly acknowledge the room size constraint of approximately 15 square meters (e.g., by referencing scale, compact design, or space-saving measures)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Does the mural plan description specify a concrete, identifiable subject or theme (e.g., 'geometric mountainscape', 'tropical flora') rather than using vague terms like 'artistic design'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the modular shelving plan text include practical implementation details such as dimensions, module configuration, or specific storage functions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the mixed-material collage plan text explicitly name at least two distinct material types (e.g., wood, metal, fabric) to be used?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Is the generated text well-organized with clear section headers or separators distinguishing each of the three renovation plans?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Do the 'Before' images accurately depict a studio space with plain white walls as described in the prompt?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the generated 'After' image for the mural plan depict a large-scale design covering a significant portion of the wall?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the generated 'After' image for the modular shelving plan show a realistic, implementable shelving configuration consisting of multiple units?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the generated 'After' image for the mixed-material collage wall visually display recognizable textures of different materials (e.g., wood grain, metallic sheen, fabric)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Are the generated images free from obvious AI artifacts such as distorted furniture, impossible geometry, or garbled text?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the generated 'After' image for the mural plan visually match the specific subject matter described in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 14,
+    "question": "Does the generated 'After' image for the modular shelving plan accurately reflect the style and material described in the accompanying text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Does the generated 'After' image for the mixed-material collage wall accurately reflect the specific materials described in the accompanying text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 16,
+    "question": "Are the generated images placed immediately adjacent to the text description of their respective renovation plan?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Do the 'Before' and 'After' images within each plan maintain consistent spatial structure (e.g., same window position, ceiling height, and perspective), ensuring a valid comparison?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are the three 'After' designs visually distinct from each other, clearly representing the three different requested styles (mural vs. shelving vs. collage)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

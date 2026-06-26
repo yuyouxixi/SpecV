@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly 5 distinct level themes, each accompanied by exactly one concept art image and one color palette swatch image (totaling 10 images)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text explicitly propose 5 distinct biome themes with unique names and non-overlapping environmental descriptions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the Level Design Document section describe specific gameplay mechanics (e.g., unique hazards, enemy behaviors, or movement constraints) for each biome, rather than just visual descriptions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Is the text formatted as a structured Level Design Document (LDD) with clear headers for each biome and sub-sections for gameplay mechanics?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text explicitly reference roguelike-specific design elements (e.g., procedural generation, permadeath, run variation, or risk-reward systems) in the context of the level designs?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "question": "Are all generated concept art images rendered in a recognizable 'pixel art' style (visible pixel grid, limited color palette)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Are the concept art images free of severe AI artifacts, such as blurred sections, distorted text, or incoherent geometry, that would break the pixel art aesthetic?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Do the color palette swatch images display discrete, clean blocks or strips of color (as opposed to noisy gradients or unorganized pixels)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the content of each concept art image visually match the specific environmental details described in the corresponding text (e.g., if text describes 'neon mycelium', does the image show glowing mushrooms)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Do the colors displayed in each palette swatch image visually match the dominant colors used in the corresponding concept art image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Is each image (concept art and palette) placed immediately adjacent to the text section describing that specific biome?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

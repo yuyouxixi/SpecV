@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text outline a complete 7-day itinerary specifically focused on the Kansai region (e.g., Osaka, Kyoto, Nara)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the accommodation plan in the itinerary involve no more than one hotel change (staying in a maximum of two different hotels/bases) throughout the trip?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the daily schedule explicitly include a midday rest period or a return to the hotel in the afternoon?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the generated output contain at least 3 images interleaved within the text?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 5,
+    "question": "Are the suggested locations and activities suitable for seniors with limited mobility (e.g., avoiding steep hikes like the full Fushimi Inari climb, prioritizing elevators/flat paths)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text use structured formatting (e.g., headers, bullet points, bolding) to create an 'actionable guide' rather than presenting a continuous block of text?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text include practical transportation logic (e.g., identifying a base city like Osaka to minimize luggage movement) that supports the mobility and hotel-change constraints?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Do the generated images depicting specific landmarks (e.g., Osaka Castle, Todai-ji) accurately resemble the real-world locations mentioned in the text?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the generated images free from severe AI artifacts, distortions, or illegible text that would undermine their use in a travel guide?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does each generated image accurately correspond to the specific day, location, or activity described in the immediately adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "If images contain specific data (e.g., step counts, day numbers), is this information consistent with the accompanying text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are images placed logically at breakpoints (e.g., after a day's introduction or next to a specific attraction description) rather than grouped at the start or end?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output strictly follow the requested interleaved structure: Image 1 (Current Plan) -> Text 1 -> Image 2 (Renovated Plan) -> Text 2 -> Image 3 (Cabinet Diagram) -> Text 3 -> Image 4 (Cable Diagram)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does Image 1 (Current Floor Plan) visually label the key dimensions provided in the prompt: 1.6m entryway width, 60cm recess depth, 2.8m sofa wall, and 2.6m TV wall?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does Image 1 depict doors, windows, and passage widths to provide a clear spatial context of the current layout?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does Text 1 explicitly identify storage pain points and renovation goals relevant to a 45㎡ small apartment with a cat?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does Image 2 (Renovated Floor Plan) visually annotate the dimensions of new cabinets and clearly label categorized storage zones?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does Image 2 explicitly mark the location of the concealed cat litter box and the robot vacuum charging station?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the renovated layout in Image 2 visually demonstrate that the main passage maintains at least 90cm clearance?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does Text 2 explain the zonal storage logic covering all five required categories: entryway temporary items, frequently used bags, packages, cleaning supplies, and cat supplies?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the storage logic in Text 2 explicitly address the utilization of the 60cm deep wall recess in the entryway?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 10,
+    "question": "Does Image 3 present a cross-section or layered diagram of the entryway cabinet with legible labels indicating what is stored on each level?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the shopping list in Text 3 strictly use generic product categories with specific dimensions (e.g., 'Shoe Cabinet 80x30cm') and avoid specifying brand names?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does Text 3 include a specific budget range and a step-by-step schedule executable within one week?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does Image 4 visually demonstrate a cable concealment and outlet management solution that specifically addresses the 'cat pawing' safety concern?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the entire renovation plan (text and images) strictly adhere to the 'no drilling' constraint (e.g., using freestanding furniture, tension rods, or adhesive organizers)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Does the litter box solution described effectively resolve the conflict between concealment and easy access for cleaning (e.g., via a flap, door, or pull-out mechanism)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Do the storage zones annotated in Image 2 semantically match the zonal storage logic explained in Text 2?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the entryway cabinet shown in Image 2 (floor plan) match the cabinet depicted in Image 3 (cross-section) in terms of location and approximate dimensions?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Does the shopping list in Text 3 include items that correspond to the storage solutions and furniture shown in the generated images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Are all generated images clear, readable, and free of significant AI artifacts (e.g., garbled text, distorted geometry) that would impair understanding?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Does the text naturally introduce or reference the accompanying images (e.g., 'As shown in the plan below...') to ensure smooth flow?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

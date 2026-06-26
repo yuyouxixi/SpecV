@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text provide a professional architectural analysis and renovation strategy, specifically discussing how to adapt the cement factory for cultural use?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text explicitly discuss the design concept of a 'dialogue between industrial heritage and new functions' and explain how it applies to the specific zones?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text utilize proposal-appropriate formatting, such as clear headers (e.g., 'Site Analysis', 'Zoning Strategy') and a professional tone suitable for client communication?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the first generated image (atmosphere image) depict an abandoned cement factory featuring specific industrial elements like concrete silos, conveyor belts, or raw concrete structures?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Is the second generated image a schematic 'zoning diagram' (using blocks, arrows, or color coding) rather than a standard photorealistic perspective view?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Are the post-renovation renderings of professional quality and free from severe AI artifacts (e.g., distorted geometry, unreadable text, impossible structures) that would undermine a client proposal?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the response include exactly 5 generated images: one existing site image, one zoning diagram, and three post-renovation renderings?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Do the post-renovation renderings cover the three specific required zones: Art Exhibition Hall, Maker Workshop, and Rooftop Garden?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 9,
+    "question": "Does the 'Art Exhibition Hall' rendering visually incorporate industrial textures (e.g., exposed concrete, high ceilings) alongside modern gallery elements as described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the 'Maker Workshop' rendering visually match the text description, depicting a functional creative workspace that incorporates original industrial features?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the 'Rooftop Garden' rendering realistically depict vegetation and outdoor space integrated into an industrial roof structure or atop silos?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the zoning diagram accurately reflect the renovation strategy and spatial relationships described in the accompanying text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Does the zoning diagram provide clear visual information about the spatial organization and relationship between zones (e.g., using legible labels, distinct color blocks, or a legend)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the images placed in the logical order requested: Existing Site (Atmosphere) -> Zoning Diagram -> Post-renovation Renderings?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 15,
+    "question": "Is each post-renovation rendering placed immediately adjacent to or following the text describing that specific functional zone?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is there adequate explanatory text accompanying each image to contextualize the visuals for a client proposal presentation?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Does the response follow a logical narrative progression from analyzing existing conditions to proposing a strategy, and finally detailing specific zones?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 18,
+    "question": "Does the output successfully demonstrate 'adaptive reuse' by showing a clear visual transformation where original industrial machinery or structures are preserved within the new functional spaces?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Do the images and text specifically reference elements unique to a cement factory (e.g., silos, kilns, hoppers, chimneys) rather than generic industrial warehouse features?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

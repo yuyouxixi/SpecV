@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output generate exactly two images and accompanying fashion copy as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the first generated image depict a model in a desert setting wearing wasteland style elements (distressed holes, patchwork, earth tone color palette)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the first generated image clearly exhibit a wide-angle lens effect with stretched perspective in the background?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the second generated image include a rusty vintage off-road vehicle positioned on the left side of the frame?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Is the right half of the second image visually identical to the first image (matching model pose, outfit details, and background features) to simulate an outpainting effect?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Is the integration of the new left side (vehicle) in the second image seamless, without visible seams, broken horizon lines, or lighting discontinuities relative to the right side?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Are both generated images free of significant AI artifacts, such as distorted faces, hands, or impossible object geometry?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 8,
+    "question": "Does the generated text specifically explain how to elevate the wasteland style to have a 'high-end feel' (e.g., discussing fabric quality, layering techniques, or accessory choices)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the text include actionable styling tips or outfit formulas rather than merely describing the visual scene?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Do the styling details described in the text (e.g., specific textures, colors, or items) accurately match the visual content of the generated images?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Do both images share consistent photographic style, color grading, and lighting to appear as part of the same photoshoot?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Are the images presented in a logical sequence, with the single model shot (Image 1) appearing before the expanded scene (Image 2)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

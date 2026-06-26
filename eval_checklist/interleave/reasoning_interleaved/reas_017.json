@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text correctly explain that star trails are caused by Earth's rotation on its axis rather than the movement of the stars themselves?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text accurately state that in the Northern Hemisphere, star trails appear as concentric arcs centered on Polaris (the North Star) and rotate counterclockwise?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text accurately state that in New Zealand (Southern Hemisphere), star trails appear as concentric arcs centered on the South Celestial Pole, rotate clockwise, and explicitly mention the absence of a bright pole star?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text explain the geometric principle that the altitude of the celestial pole above the horizon is approximately equal to the observer's latitude?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Is the textual explanation logically structured with appropriate scientific terminology (e.g., celestial pole, rotational axis, zenith)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Does the Northern Hemisphere star trail image depict concentric circular arcs centered on a single bright point representing Polaris?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the Southern Hemisphere (New Zealand) star trail image depict concentric circular arcs centered on a point in the sky (South Celestial Pole) without a bright central star?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the generated diagram clearly illustrate Earth as a sphere with its rotational axis passing through the North and South poles?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the diagram correctly depict the relationship between the observer's position (latitude) and the angle of the rotational axis/celestial pole relative to the horizon?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Are all text labels and annotations within the generated diagram legible, correctly spelled, and properly placed?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 11,
+    "question": "Are the star trail images free of severe AI artifacts (e.g., impossible geometries, garbled text) and do they clearly show distinct light trails against a dark sky?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 12,
+    "question": "Does the Northern Hemisphere star trail image visually match the text's description (concentric arcs around a bright pole star)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the Southern Hemisphere star trail image visually match the text's description (concentric arcs around an empty center point)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the diagram visually correspond to the specific geometric explanation provided in the text (e.g., matching the described angle of the pole above the horizon)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the diagram serve a genuine explanatory purpose by clarifying the 3D spatial relationship between Earth's axis and the observer's view, going beyond text alone?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is the diagram placed in the section discussing the geometric relationship between Earth's axis and the observer's viewing angle?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Did the model generate exactly three distinct visual components as requested: one Northern photo, one Southern (NZ) photo, and one geometric diagram?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Is the content presented in an interleaved format (text-image-text sequence) rather than all images clustered at the start or end?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Does the explanation provide a complete logical chain linking Earth's rotation direction to the resulting visual star trail patterns in both hemispheres?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 20,
+    "question": "Does the output successfully synthesize the geometric reasoning to explain why star trails appear as concentric circles but rotate around different poles depending on the hemisphere?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

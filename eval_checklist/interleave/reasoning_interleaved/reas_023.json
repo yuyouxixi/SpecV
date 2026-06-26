@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly three distinct visual elements as requested: one global ocean currents schematic diagram, one London January street scene, and one Harbin January street scene?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 2,
+    "question": "Does the generated output follow an interleaved format where images are inserted between relevant text segments, rather than grouping all images at the beginning or end?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly confirm that London and Harbin are situated at similar latitudes (approximately 45°–55° N) to establish the premise of the comparison?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text correctly identify London's climate as Oceanic/Maritime and Harbin's climate as Continental?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the explanation clearly cover both requested perspectives: 'land-sea distribution' (specific heat capacity differences) and 'ocean currents' (North Atlantic Drift)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text accurately explain the 'North Atlantic Drift' as a warm ocean current that transports heat from the tropics/Gulf Stream to the coast of Western Europe?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the reasoning include the role of atmospheric circulation (e.g., the Westerlies) in transferring heat from the warm ocean surface to the land in London?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the generated text provide reasonably accurate January average temperature comparisons (e.g., London above freezing/mild vs. Harbin deeply below freezing)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Does the ocean currents schematic diagram accurately visualize the path of the warm current originating from the Gulf of Mexico/US East Coast and moving northeast across the Atlantic towards Western Europe?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "In the ocean currents schematic, are major geographic features (North America, Atlantic Ocean, Europe) positioned correctly relative to each other?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the schematic use appropriate visual indicators (such as arrows indicating direction or color coding for warmth) to clearly identify the North Atlantic Drift?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the text labels within the ocean currents schematic (e.g., 'Gulf Stream', 'North Atlantic Drift') legible and correctly spelled?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the London January street scene depict characteristics of a mild, humid oceanic winter (e.g., wet pavement, overcast sky, lack of heavy accumulated snow, lighter winter clothing)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the Harbin January street scene depict characteristics of a severe, dry continental winter (e.g., heavy snow accumulation, ice structures, visible breath, heavy thermal gear)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Does the ocean currents schematic appear immediately adjacent to or following the text paragraph explaining the role of the North Atlantic Drift?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Are the London and Harbin street scenes placed near the text section that compares the specific climate conditions of the two cities?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Does the text explicitly reference the generated images to aid the explanation (e.g., 'As illustrated in the map below...' or 'Comparing the street scenes...')?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 18,
+    "question": "Do the generated street scenes visually reinforce the text's description of the climate contrast (humid/mild vs. dry/severe cold), ensuring semantic coherence between text and image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 19,
+    "question": "Does the text explain the complete causal chain: North Atlantic Drift → warming of ocean surface → heat transfer to air (Westerlies) → moderation of London's winter?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

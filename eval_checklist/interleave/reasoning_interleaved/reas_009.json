@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output contain exactly two generated images: one representing Monet's Impressionist style and one representing Mondrian's geometric abstraction style?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Is the output presented in an interleaved format, where images are integrated alongside or immediately adjacent to the relevant text sections?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly conduct a formal analysis covering all three required dimensions: composition, color system, and brushwork/lines?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 4,
+    "question": "Does the Monet-style image visually depict the water lilies using characteristic Impressionist techniques, such as loose/broken brushstrokes, organic shapes, and a lack of hard outlines?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 5,
+    "question": "Does the Mondrian-style image visually depict the subject using strict geometric abstraction, characterized by straight horizontal and vertical black lines forming a grid structure?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the Mondrian-style image utilize a De Stijl-consistent palette (primary colors red, yellow, blue plus black, white, and gray) applied in flat, unmodulated rectangular blocks?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are both generated images of high visual quality and free from severe AI artifacts (e.g., melted geometry, incoherent forms, or illegible blurring) that would hinder formal analysis?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the generated text accurately describe Monet's Impressionist technique (e.g., referencing optical color mixing, the capture of fleeting light/atmosphere, or broken color application)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the generated text accurately describe Mondrian's geometric abstraction/De Stijl technique (e.g., referencing the reduction of form to essentials, dynamic equilibrium, or the use of orthogonal lines)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the text utilize appropriate art-historical terminology (e.g., 'picture plane', 'impasto', 'negative space', 'color harmony') and maintain a professional analytical tone?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "When the text describes specific visual features of the generated Monet image (e.g., specific color transitions, light effects, or compositional arrangement), do these descriptions accurately match the visible image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "When the text describes specific visual features of the generated Mondrian image (e.g., the specific arrangement of the grid or placement of primary color blocks), do these descriptions accurately match the visible image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Do the generated images serve as substantive visual evidence that directly supports the analytical claims made in the text, rather than functioning as mere decorative illustrations?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Are the images placed logically, appearing immediately before or adjacent to the text sections that analyze them?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Does the text explicitly reference the generated images using clear transitional phrases (e.g., 'As seen in the Impressionist rendering above...') to anchor the theoretical analysis?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Is the analysis balanced, providing sufficient textual depth for both styles without over-relying on the images alone to convey the comparison?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Does the composition analysis go beyond surface description to discuss art principles such as balance, focal points, or the treatment of space/depth (e.g., decentralized vs. grid-locked)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Does the color system analysis discuss theoretical concepts (e.g., complementary contrast, optical mixing vs. flat planes) rather than merely listing the colors present?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 19,
+    "question": "Does the brushwork/lines analysis explicitly contrast the technical execution of the two styles (e.g., visible gestural strokes vs. anonymous, precise linework)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 20,
+    "question": "Does the overall analysis successfully synthesize the comparison to explain the theoretical shift from 'perceptual realism' (Monet) to 'conceptual abstraction' (Mondrian)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

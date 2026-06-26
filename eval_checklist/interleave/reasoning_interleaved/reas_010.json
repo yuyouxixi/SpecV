@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the text correctly explain the fundamental physical mechanism: that temperature gradients create variations in air density and refractive index, causing light rays to bend continuously?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the text accurately distinguish that an inferior mirage involves hot air near the ground (lower refractive index), while a superior mirage involves cold air near the surface (temperature inversion)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text use appropriate scientific terminology (e.g., refractive index, temperature gradient, virtual image) while remaining accessible and logically structured into clear sections for each mirage type?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the generated ray diagram for the 'inferior mirage' correctly depict light rays bending upward (concave up) as they pass through the heated air layer near the ground?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the inferior mirage diagram visually indicate the apparent origin of the light rays (virtual image) appearing below the actual object or horizon line, explaining the 'reflection' effect?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the generated ray diagram for the 'superior mirage' correctly depict light rays bending downward (concave down) due to the temperature inversion over the cool surface?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the simulated visual effect image for the inferior mirage clearly show the illusion of a 'puddle' or 'water surface' on a road, which is visually consistent with a reflection of the sky?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the simulated visual effect image for the superior mirage clearly show an object (e.g., a city or ship) appearing inverted, distorted, or floating above the horizon?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Are the ray diagrams clearly labeled (e.g., 'hot air', 'cool air', 'observer', 'actual object') and free of garbled text or ambiguous visual elements?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the text describing the direction of light bending (upward for inferior, downward for superior) strictly align with the curvature depicted in the corresponding ray diagrams?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Do the images provide distinct and non-redundant information, with diagrams explaining the physical mechanism and simulated images illustrating the observable phenomenon?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the ray diagrams placed immediately adjacent to the theoretical explanation of refractive index and bending, while the simulated images are placed near the description of the visual phenomenon?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Is the content balance appropriate, providing sufficient textual explanation for each of the four required images rather than grouping images without context?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Does the output strictly follow the instruction to generate exactly four images: one refraction diagram and one simulated view for each of the two mirage types?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Is the output presented in a truly interleaved format (Text-Image-Text-Image...) rather than clustering all text followed by all images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Does the model successfully handle the difficulty point by correctly illustrating and explaining that light bends in opposite directions for inferior (upward) vs. superior (downward) mirages?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Does the explanation correctly attribute the mirage effect to a continuous gradient of refractive index (or total internal reflection within air layers) rather than a discrete reflection from a physical surface?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

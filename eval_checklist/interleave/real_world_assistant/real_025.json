@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output contain exactly 4 distinct illustrations covering the required topics: (1) Earth vs. basketball, (2) the size of the Sun, (3) distances between planets, and (4) light speed travel?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the text explicitly establish the baseline analogy where Earth is scaled to the size of a basketball (approx. 24cm) to ground the subsequent comparisons?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 3,
+    "question": "Does the text provide a scientifically accurate analogy or ratio for the Sun's size relative to the basketball-Earth (e.g., stating it is ~109 times wider, or about 26 meters / height of a building)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the text provide accurate scaled distances consistent with the basketball model (e.g., Moon is ~7m away, Sun is ~2.8km away) or correctly emphasize that distances are vastly larger than the object sizes?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text accurately state the time it takes for light to travel from the Sun to Earth (approximately 8 minutes) or the speed of light (~300,000 km/s)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 6,
+    "question": "Is the tone of the text educational yet engaging, suitable for children aged 8-12 (avoiding overly complex jargon while not being toddler-level)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 7,
+    "question": "Does the first illustration clearly depict a visual comparison between Planet Earth and a basketball?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Does the second illustration depict the Sun as significantly larger than the Earth/basketball (reflecting the massive scale difference) rather than just a slightly larger ball?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Does the third illustration effectively visualize the vast distances between planets (e.g., using a path, map, or scaled line) rather than clustering them close together?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Does the fourth illustration visually represent the concept of light speed travel or time (e.g., a timeline, light beam with markers) rather than a generic space scene?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the 'Earth vs. basketball' illustration visually match the specific description and analogy provided in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the Sun illustration reflect the specific analogy used in the text (e.g., if text compares it to a house or hot air balloon, does the image reflect that scale)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 13,
+    "question": "Does the planetary distances illustration correspond to the specific analogies or relative spacing described in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the light speed illustration visually represent the specific time scales or journey concepts described in the adjacent text (e.g., 8 minutes)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 15,
+    "question": "Do the images serve as informative visual aids (providing scale context, labels, or paths) rather than generic or decorative space imagery?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Does the content follow the requested logical narrative progression: Earth Size -> Sun Size -> Distances -> Light Speed?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Are the scientific scale proportions strictly accurate and verifiable (no internal contradictions between the stated Earth size, Sun size, and distances)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output generate exactly 3 distinct creative directions for the marketing campaign?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does each of the 3 creative directions include exactly one slogan?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does each of the 3 creative directions include exactly one Key Visual (KV) image?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the output explicitly select one \"best\" direction to extend after presenting the initial options?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the output generate exactly 3 social media posters for the selected best direction?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 6,
+    "question": "Are the three proposed creative directions conceptually distinct (e.g., focusing on different angles like emotion, function, or lifestyle) rather than just minor visual variations?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text content explicitly align with the \"Urban Light Outdoor\" brand tone (e.g., accessible nature, city-adjacent) and the \"Spring\" season constraints?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Is the text structured professionally (e.g., using headers, clear sections) and does it use appropriate marketing terminology?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 9,
+    "question": "Are the generated slogans concise, memorable, and suitable for an advertising campaign?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Do the Key Visual (KV) images visually depict an \"Urban Light Outdoor\" aesthetic (e.g., city parks, glamping, rooftop camping) with clear Spring season cues?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 11,
+    "question": "Are the generated images of high aesthetic quality (professional composition, lighting) and free from severe AI distortions or artifacts?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does each generated KV image strictly correspond to the specific theme and details described in its adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 13,
+    "question": "Are the images placed immediately adjacent to their corresponding creative direction descriptions or poster concepts to facilitate easy reference?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Does the text naturally introduce and reference the generated images (e.g., \"The KV below shows...\") to ensure a smooth interleaved reading experience?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Do the 3 extended social media posters maintain a consistent visual identity (color palette, style, design elements) derived from the selected creative direction?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Do the 3 poster images visually align with the specific content themes described for them in the text (e.g., product shot vs lifestyle shot vs call-to-action)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 17,
+    "question": "Do the 3 extended social media posters vary in content focus (e.g., distinct scenarios or objectives) rather than repeating the exact same image composition?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.33
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output generate exactly four distinctive slide images corresponding to the Cover, Market Size, Product Architecture, and Team pages?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the 'Cover Page' image visually combine elements of technology (e.g., abstract data, modern geometry) with elements of pet warmth (e.g., animals, soft lighting) to reflect the 'AI + pet health' theme?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Does the 'Market Size' image depict clear data visualization charts (e.g., bar charts, pie charts, or trend lines) suitable for a business pitch?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the 'Product Architecture' image visually depict a technical workflow diagram or system schematic (using boxes, arrows, or layers) rather than a generic photo?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the 'Team Page' image visually represent a professional roster or profile layout (e.g., headshots with text placeholders, name/title sections)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 6,
+    "question": "Does the text describing the 'Product Architecture' articulate a logical AI diagnostic workflow (e.g., data input -> AI analysis -> diagnostic output) relevant to pet health?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text for the 'Market Size' page include specific, realistic data points or metrics relevant to the AI + pet health industry (e.g., TAM/SAM, growth rates)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the overall text maintain a professional, investor-oriented tone suitable for a fundraising roadshow?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 9,
+    "question": "Are all four generated slide mockups high-quality, legible, and free from significant AI artifacts (e.g., garbled text, distorted faces, or warped geometry)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Are the data visualization charts on the 'Market Size' image legible, with clearly visible labels, legends, or data values?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the content of the 'Market Size' chart (e.g., visible labels or trends) generally align with the data or metrics described in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 12,
+    "question": "Does the 'Product Architecture' diagram visually reflect the specific workflow steps or components described in the text (e.g., if text mentions 'Image Recognition', the diagram shows a relevant block)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Do the generated images provide informative visual details (e.g., specific chart trends or workflow structures) that add value beyond the text descriptions?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Do all four generated slide images maintain a consistent visual style (e.g., matching color palette, typography style, and layout grid) throughout the response?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is each slide mockup image placed immediately adjacent to (before or after) the text description and speaker notes relevant to that specific slide?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Are the four pitch deck pages presented in the logical order requested: Cover, Market Size, Product Architecture, then Team?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Transition & Flow",
+    "expected_answer": "Yes",
+    "score": 9.33
+  }
+]

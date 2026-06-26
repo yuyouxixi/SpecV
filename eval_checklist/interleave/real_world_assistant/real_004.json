@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output include all three required image types: a route schematic map, a road condition reference, and an overhead campsite parking diagram?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the content specifically address the 'Dahai Dao' (Great Sea Road) region in Xinjiang as the context for the expedition?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 3,
+    "question": "Does the output strictly adhere to the negative constraint by avoiding ordinary 'scenic beauty' or tourist-style landscape photography in favor of functional visuals?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the route schematic map image visually feature visible contour lines to indicate elevation changes?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Does the route schematic map include marked key coordinate points (e.g., waypoints, lat/long labels, or grid markers)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the road condition image depict 'harsh noon sunlight' conditions (high contrast, hard shadows, bright highlights) to emphasize driving difficulty?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Is the campsite image generated from a top-down/overhead perspective (rather than a ground-level view)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Does the campsite image clearly show vehicles arranged in a specific wind-blocking formation (e.g., V-shape, U-shape, or circular)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the road condition image clearly visualize the rugged, wind-eroded features characteristic of Yardang landforms (ridges, furrows, gullies)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Is the route map generated as a functional diagram or schematic rather than a realistic landscape photograph?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 11,
+    "question": "Does the text provide specific technical driving guidance relevant to Yardang terrain (e.g., tire pressure, approach angles, handling ruts) rather than generic safe driving advice?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the text explicitly explain the logic of the vehicle parking formation specifically regarding wind protection and campsite safety?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 13,
+    "question": "Are the text labels, contour lines, and symbols on the generated map image legible and distinct (free from severe blurring or gibberish)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Does the text discussing route planning or waypoints correspond to the specific markers or features shown in the generated map (semantic alignment)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Does the driving guidance text explicitly reference the lighting conditions (noon sun) or terrain difficulty shown in the road image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Does the camping text describe a vehicle formation strategy that matches the visual arrangement depicted in the overhead image?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Is each image placed immediately adjacent to the text section that discusses its specific subject matter (Map near route plan, Road near driving tips, Camp near parking)?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

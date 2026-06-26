@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model generate exactly four distinct image-text pairs covering the specific schemes requested: Rembrandt, butterfly, side, and bottom lighting?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Is the content presented in an interleaved format, where images are interspersed with text rather than grouped together at the beginning or end?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text correctly define Rembrandt lighting as characterized by a triangular patch of light (chiaroscuro) on the shadowed side of the subject or focal point?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text correctly explain side (or split) lighting as illuminating approximately half the subject/scene while leaving the other half in shadow, creating a high-contrast dramatic effect?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 5,
+    "question": "Does the text correctly identify that bottom lighting creates unnatural upward-cast shadows due to the light source being positioned below the subject?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the text maintain professional vocabulary (e.g., 'key light', 'fill', 'cognitive bias', 'amygdala') and a consistent analytical structure across all four lighting examples?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the generated image for 'side lighting' show a clear split-lighting effect where approximately half the scene is illuminated and the other half is in shadow?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the generated image for 'bottom lighting' feature upward-cast shadows (e.g., shadows appearing above objects or on upper walls) that visually confirm a light source from below?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Are the generated images free from severe AI distortions (e.g., impossible geometry) and possess sufficient clarity to distinctly show the shadow patterns described?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Do all four generated images depict the exact same interior space and subject matter, maintaining consistent geometry and layout while only changing the lighting effects?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 11,
+    "question": "Are the framing, camera angle, and rendering style consistent across all four images to facilitate direct comparison of the lighting effects?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does each generated image accurately reflect the specific shadow distribution and highlight placement described in its corresponding text section?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the visual atmosphere of each image (contrast, shadow density) align with the emotional mood described in the text (e.g., eerie for bottom lighting, dramatic for side lighting)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 14,
+    "question": "Do the images serve as functional visual aids, allowing a viewer to distinguish the lighting techniques based on observable shadow patterns rather than just being decorative?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Is each lighting scheme's image inserted immediately adjacent to (before or after) the specific textual analysis of that lighting scheme?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 16,
+    "question": "Is there an appropriate balance between text and image, where each of the four lighting schemes has both a detailed analytical text section and a corresponding image?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Does the output successfully integrate professional cinematography concepts (lighting ratios, angles) with cognitive psychology (biases, brain mechanisms) for each scheme, as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 18,
+    "question": "Does the cognitive analysis go beyond surface-level emotions to explain specific mechanisms (e.g., amygdala activation, violation of prediction errors, perceptual fluency) for why the lighting evokes those emotions?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  }
+]

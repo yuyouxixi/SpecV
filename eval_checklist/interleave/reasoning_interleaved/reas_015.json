@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "question": "Did the model generate exactly four distinct images in total: one top-down layout diagram and three creative preview effect images?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 2,
+    "question": "Is the content presented in an interleaved format, with images inserted logically between relevant text sections rather than grouped all at the beginning or end?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text accurately describe the geometric relationship required for the illusion, specifically explaining that the hand must be positioned close to the lens to subtend the same visual angle as the distant sun?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the top-down layout diagram clearly depict and label the three required elements: 'Camera', 'Hand' (or foreground object), and 'Sun' (or direction of Sun)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "In the layout diagram, are the Camera, Hand, and Sun aligned along a single straight line-of-sight axis, accurately demonstrating the alignment principle of forced perspective?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 6,
+    "question": "Does the layout diagram correctly visualize the distance proportions, depicting the Hand significantly closer to the Camera than the Sun (or indicating the Sun is at a vast distance)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 7,
+    "question": "Are the text labels and annotations within the layout diagram legible and free from significant AI-generated text distortions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 8,
+    "question": "Does the text propose three mutually distinct creative composition schemes (e.g., different poses, props, or interactions) rather than three minor variations of the same 'pinching' gesture?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 9,
+    "question": "Does the top-down layout diagram visually correspond to the geometric principles described in the text (e.g., matching the described alignment and relative distances)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "For each of the three creative schemes, does the corresponding preview image accurately depict the specific action, pose, or interaction described in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 11,
+    "question": "Is the top-down layout diagram placed immediately following or adjacent to the textual explanation of the shooting principles?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Is each creative preview image placed immediately following or adjacent to the description of its specific composition scheme?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 13,
+    "question": "Does the layout diagram provide non-redundant cognitive value by clarifying the spatial arrangement and distance relationships that are abstract in the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

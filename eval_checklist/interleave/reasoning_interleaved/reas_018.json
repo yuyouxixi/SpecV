@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output include exactly four distinct representative trilobite genera as specified in the instruction?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Do the selected genera collectively span the requested timeframe, starting from the Early Cambrian and extending through to the Permian?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 3,
+    "question": "Are all generated images presented as 'dorsal view' (top-down) reconstructions, as explicitly requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 4,
+    "question": "Does the text explicitly describe the evolutionary state of the glabella, genal spines, and pygidium for each of the four selected genera?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 5,
+    "question": "Are the generated images annotated to highlight the glabella, genal spines (or their absence), and the pygidium?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the output include a concluding summary section that synthesizes the overall evolutionary direction?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Are the selected genera correctly assigned to their respective geological periods (e.g., Olenellus in Cambrian, Phacops in Devonian) according to the fossil record?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 8,
+    "question": "Are the morphological descriptions for each genus factually accurate (e.g., Phacops having a large glabella and schizochroal eyes; Olenellus having prominent spines and micropygous tail)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the text use correct paleontological terminology (e.g., cephalon, thorax, pygidium, tagmata) consistently?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 10,
+    "question": "Is the textual content organized in a logical chronological order from the earliest genus to the latest?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Do the generated images accurately depict the fundamental trilobite body plan, showing three longitudinal lobes (axial and pleural) and three tagmata (cephalon, thorax, pygidium)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 12,
+    "question": "Do the visual proportions in each image reflect the specific morphology of the named genus (e.g., a small pygidium for Cambrian forms vs. a larger one for later forms)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are the annotations in the images accurate, with arrows or labels pointing to the correct anatomical structures?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Are the text labels and annotations within the generated images legible and clear?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 15,
+    "question": "Does the visual content of each image semantically match the accompanying text description for that specific genus?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 16,
+    "question": "Is each image clearly identified with the genus name (either via caption or internal label) to ensure unambiguous association with the text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 17,
+    "question": "Do the images visually demonstrate the evolutionary trends described in the text (e.g., if the text notes 'pygidization', do later images show a relatively larger pygidium)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 18,
+    "question": "Is each image placed immediately adjacent to the text section describing that specific genus?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Are the images distributed throughout the response (interleaved) rather than being clustered at the beginning or end?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 20,
+    "question": "Does the text demonstrate logical reasoning by explicitly comparing genera to highlight evolutionary trends, rather than just listing isolated descriptions?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 21,
+    "question": "Does the output include a valid Late Paleozoic (Carboniferous or Permian) representative (e.g., a proetid like Phillipsia or Ditomopyge) rather than stopping at the Devonian?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 22,
+    "question": "Does the summary or final text correctly note the extinction of trilobites at the end of the Permian, avoiding claims of survival into the Mesozoic?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  }
+]

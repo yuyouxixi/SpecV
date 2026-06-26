@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated output include content for BOTH bridge types (Suspension Bridge and Cable-stayed Bridge) as requested?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Did the model generate exactly four distinct images: a structural analysis diagram and a representative rendering for EACH of the two bridge types?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 3,
+    "question": "Do the structural analysis diagrams include explicit text labels for all required elements: main cables/stay cables, bridge towers, and the bridge deck?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 4,
+    "question": "Does the output include a comparative text analysis discussing the suitable span scenarios for both bridge types?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text correctly explain that in a suspension bridge, the load is transmitted via vertical hangers/suspenders to the main catenary cable and then to the anchorages?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text correctly explain that in a cable-stayed bridge, the load is transmitted directly from the deck to the towers via diagonal stay cables (without a main draped cable)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 7,
+    "question": "Does the text provide valid engineering reasoning for span suitability (e.g., suspension bridges are preferred for ultra-long spans due to the efficiency of the main cable in tension and reduced tower bending moments)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 8,
+    "question": "Does the structural diagram for the suspension bridge accurately depict a curved (parabolic/catenary) main cable anchored at the ends with vertical suspenders holding the deck?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 9,
+    "question": "Does the structural diagram for the cable-stayed bridge accurately depict straight stay cables radiating directly from the tower(s) to the deck (in a Fan, Harp, or Semi-fan pattern)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 10,
+    "question": "Does the representative rendering of the suspension bridge clearly show recognizable features (draped main cable, vertical hangers, tall towers) distinct from the cable-stayed bridge?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 11,
+    "question": "Does the representative rendering of the cable-stayed bridge clearly show recognizable features (prominent towers with diagonal cables connecting directly to the deck) distinct from the suspension bridge?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Are the labels and force indicators in the structural diagrams clearly legible and correctly positioned relative to the components they describe?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Does the text description of force transmission align with the visual representation in the diagrams (e.g., if the text says cables are in tension, the diagrams show corresponding arrows)?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 14,
+    "question": "Do the structural diagrams serve as informative schematics (simplified to show mechanics) rather than just being generic or artistic photographs of bridges?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 15,
+    "question": "Are the structural analysis diagrams placed immediately adjacent to (before or after) the text explaining the specific load-bearing mechanics of that bridge type?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 16,
+    "question": "Is there a sufficient amount of explanatory text accompanying each image, avoiding a layout where images are clustered together without context?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.0
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Does the output explicitly cover all four requested dimensions: Tides, Axial Stability, Rotation Speed, and Biological Evolution?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 2,
+    "question": "Does the output provide a comparison image (or clearly split single image) for each of the four dimensions, showing 'Current Earth' vs. 'Moon-less Earth'?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 3,
+    "question": "Is the content formatted strictly as an interleaved sequence of text and images as specified in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text correctly explain that without the Moon, Earth would still experience tides due to the Sun, but they would be significantly weaker (approx. one-third the strength)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 5,
+    "question": "Does the text accurately state that the Moon stabilizes Earth's axial tilt (~23.5°) and that without it, the tilt could vary chaotically (potentially leading to extreme climate shifts)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 6,
+    "question": "Does the text correctly explain that tidal friction from the Moon slows Earth's rotation, and without it, Earth's day would be significantly shorter (e.g., 6-12 hours)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 7,
+    "question": "Does the text discuss scientifically plausible biological consequences (e.g., reduced intertidal zones, changes in nocturnal activity) without claiming the Moon is the sole driver of life?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 8,
+    "question": "Is the text organized into clearly distinct sections for each dimension, using appropriate scientific terminology (e.g., 'obliquity', 'tidal friction')?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 9,
+    "question": "Does the 'Tides' comparison image visually distinguish between the larger tidal bulges of the current Earth and the smaller, solar-only tidal bulges of a Moon-less Earth?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 10,
+    "question": "Does the 'Axial Stability' visualization accurately depict the contrast between a stable tilt (Current) and a variable or extreme tilt (Moon-less)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the 'Rotation Speed' image effectively visualize the difference in day length (e.g., via a timeline, clock comparison, or rotation speed indicators)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 12,
+    "question": "Does the 'Biological Evolution' image depict plausible ecosystem differences, such as reduced intertidal zones or altered nocturnal environments, consistent with the text?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 13,
+    "question": "Are all text labels within the generated images legible, correctly spelled, and correctly associated with the visual elements they describe?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 14,
+    "question": "Do the visual differences shown in each comparison image pair directly correspond to the specific scientific effects described in the adjacent text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 15,
+    "question": "Do the comparison images provide concrete visual information (e.g., specific tidal ranges, tilt angles) rather than serving as generic or purely decorative illustrations?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 16,
+    "question": "Do all comparison image pairs maintain a consistent visual style and labeling convention (e.g., 'Current' vs 'Moon-less') across the different dimensions?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Cross-Image Consistency",
+    "expected_answer": "Yes",
+    "score": 8.0
+  },
+  {
+    "id": 17,
+    "question": "Is each comparison image placed immediately adjacent to (preceding or following) the corresponding textual explanation for that dimension?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Placement Rationality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Does the model successfully extrapolate cascading effects, such as linking unstable axial tilt to extreme seasonal variations and climate fluctuations?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Logical Continuation",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Does the model avoid the logical fallacy of implying Earth would have *no* tides at all, correctly identifying the Sun's ongoing gravitational influence?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Does the text correctly frame the changes as long-term geologic or evolutionary consequences rather than immediate shifts (e.g., avoiding the implication that Earth's tilt would instantly snap to a new angle)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]

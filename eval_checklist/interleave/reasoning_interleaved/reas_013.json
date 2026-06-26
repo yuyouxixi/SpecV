@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Does the generated text explicitly cover all six requested script stages in the correct chronological order: Oracle Bone Script, Bronze Inscriptions, Small Seal Script, Clerical Script, Regular Script, and Running-Cursive Script?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 2,
+    "question": "Does the output strictly follow the interleaved format, providing exactly six distinct images (one paired with each script style) placed immediately adjacent to their corresponding text descriptions?",
+    "category": "Interleaved Structure Quality",
+    "subcategory": "Ratio & Granularity",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 3,
+    "question": "Does the text explicitly explain the transitions in writing tools (knife carving → brush → widespread use of paper) as requested in the prompt?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 4,
+    "question": "Does the text articulate specific aesthetic paradigm shifts for the major transformations (e.g., from practical pictographic recording to standardized administration, and finally to artistic expression)?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Instruction Following",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 5,
+    "question": "Does the text correctly identify Oracle Bone Script as originating from the Shang Dynasty, carved on bone or shell, and characterize its form as angular and linear due to the limitations of knife carving?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 6,
+    "question": "Does the text accurately describe Bronze Inscriptions as appearing on ritual vessels (Shang/Zhou) with strokes that are often thicker, rounder, or more decorative due to casting techniques?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 7,
+    "question": "Does the text attribute Small Seal Script to the Qin Dynasty standardization and describe its even stroke thickness, elongated vertical structure, and symmetry enabled by brush usage?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 8,
+    "question": "Does the text describe Clerical Script (Lishu) as emerging during the Qin-Han transition, characterized by a flatter, wider structure and distinctive 'silkworm head and swallow tail' stroke flares?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 9,
+    "question": "Does the text characterize Regular Script (Kaishu) as having a square, balanced structure with clearly defined, standardized strokes (horizontal, vertical, dot, etc.)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 10,
+    "question": "Does the text associate the development of Running-Cursive script with the widespread use of paper and a shift towards writing speed, fluidity, and stroke connection?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 8.33
+  },
+  {
+    "id": 11,
+    "question": "Does the text avoid historical anachronisms, such as incorrectly attributing the influence of paper to early scripts (Oracle/Bronze) or misplacing the dynasties of script origins?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Text Content & Rationality",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 12,
+    "question": "Do all six generated images depict the Chinese character '龙' (dragon) as calligraphic forms/glyphs, rather than illustrations of the mythological animal?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 10.0
+  },
+  {
+    "id": 13,
+    "question": "Does the Oracle Bone Script image display a pictographic form with angular, straight strokes consistent with knife carving, distinct from modern brush strokes?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 14,
+    "question": "Does the Bronze Inscription image show a form that retains pictographic elements but features rounder, more substantial strokes typical of cast metal inscriptions?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 15,
+    "question": "Does the Small Seal Script image exhibit uniform line thickness, symmetrical curves, and an elongated vertical structure typical of Qin standardization?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 16,
+    "question": "Does the Clerical Script image show a flattened, wide structure with distinctive stroke flares (silkworm head/swallow tail) that distinguishes it from the Seal script?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 9.0
+  },
+  {
+    "id": 17,
+    "question": "Does the Running-Cursive image demonstrate fluid, connected strokes and simplified structure while remaining recognizable as the character '龙'?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Content & Accuracy",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 18,
+    "question": "Are all generated character images clearly legible and free from severe AI distortions (e.g., malformed strokes, nonsensical artifacts, or blurred lines)?",
+    "category": "Single Modality Content & Quality",
+    "subcategory": "Image Quality",
+    "expected_answer": "Yes",
+    "score": 8.67
+  },
+  {
+    "id": 19,
+    "question": "Do the visual characteristics of the generated images (e.g., angularity vs. fluidity) accurately reflect the specific writing tool influences described in the accompanying text?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Semantic Coherence",
+    "expected_answer": "Yes",
+    "score": 9.33
+  },
+  {
+    "id": 20,
+    "question": "Does the output demonstrate rigorous causal reasoning by explaining *how* specific tool constraints (e.g., hardness of bone vs. flexibility of brush) directly caused changes in stroke shape and character structure?",
+    "category": "Task Completion & Track Specifics",
+    "subcategory": "Difficulty Point Coverage",
+    "expected_answer": "Yes",
+    "score": 9.67
+  },
+  {
+    "id": 21,
+    "question": "Do the images effectively visualize the morphological evolution of the character, showing the gradual loss of pictographic elements and the move towards abstraction?",
+    "category": "Cross-Modal Alignment",
+    "subcategory": "Image Informativeness",
+    "expected_answer": "Yes",
+    "score": 8.67
+  }
+]
